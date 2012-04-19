@@ -1,3 +1,5 @@
 * text=auto !eol
 /README -text
 /apertium-tat.tat.lexc -text
+/apertium-tat.tat.rlx -text
+/apertium-tat.tat.twol -text

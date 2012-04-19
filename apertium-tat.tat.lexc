@@ -1,0 +1,144 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R     !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Multichar_Symbols
+! Followed http://wiki.apertium.org/wiki/Turkic_languages
+
+! Part of speech categories
+%<n%>              ! Noun                       ! Исем              ! Существительное
+%<adj%>            ! Adjective                  ! Сыйфат            ! Прилагательное
+%<num%>            ! Numeral                    ! Сан               ! Числительное   
+%<prn%>            ! Pronoun                    ! Алмашлык          ! Местоимение
+%<v%>              ! Verb                       ! Фигыль            ! Глагол
+%<vaux%>           ! Auxilary verb              !                   !
+%<adv%>            ! Adverb                     ! Рәвеш             ! Наречие
+%<post%>           ! Postposition               ! Бәйлек            ! Послелог
+%<postadv%>        ! Postadverb                 ! ?                 ! ?                     !! e.g. "гына"
+%<cnjcoo%>         ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
+%<cnjsub%>         ! Sub-ordinating conjuction  ! Ияртүче теркәгеч  ! Подчинительный союз
+%<part%>           ! Particle                   ! Кисәкчә           ! Частица
+%<ij%>             ! Interjection               ! Ымлык             ! Междометие
+%<abbr%>           ! Abbreviation               ! Аббревиатура    
+!%<cop%>           ! Copula                     !              
+%<det%>            ! Determiner                 !
+%<cnjadv%>         ! ~Союз                      !
+!аваз ияртеме ! (звуко)подражательное слово
+!модаль сүз   ! модальное слово 
+
+! Arbitrary subcategories
+!! for nouns
+%<np%>             ! Proper noun  ! Ялгызлык исем    ! Имя обственное
+%<top%>            ! Toponym      ! Географик атама
+%<ant%>            ! Anthroponym  ! Кеше исеме
+%<cog%>            ! Cognomen
+
+!! Some "syntactic" categories
+%<attr%>           ! Attributive
+%<subst%>          ! Substantive
+%<pred%>           ! Predicative
+%<advl%>           ! Adverbial
+
+! Numbers ! Сан ! Число
+%<sg%>             ! Singular  ! Берлек сан  ! Единственное число
+%<pl%>             ! Plural    ! Күплек сан  ! Множественное число
+
+! Possessives ! Тартым ! Принадлежность
+%<px1sg%>          !
+%<px2sg%>          !
+%<px3sp%>          !
+%<px1pl%>          !
+%<px2pl%>          !
+%<px%>             ! General possessive -ныкы
+
+! Cases ! Килешләр ! Падежи
+%<nom%>            ! Баш килеш             ! Именительный
+%<gen%>            ! Иялек килеше          ! Родительный
+%<dat%>            ! Юнәлеш килеше         ! Дательный
+%<acc%>            ! Төшем килеше          ! Винительый
+%<abl%>            ! Чыгыш килеше          ! Творительный
+%<loc%>            ! Урын-вакыт килеше     ! Местно-временнной
+
+!! Some additional ~cases
+%<locattr%>        ! Relativised locative  ! Местно-временной 2  ! -DAGI
+%<sim%>            ! Similative            !-дай/-дәй, -тай, -тәй
+!лишительный       ! -сыз/-сез   !! not used after posessives
+!обладательный     ! -лы/-ле     !! not used after posessives
+
+! Levels of comparison of adjectives ! Сыйфат дәрәҗәләре ! Степени сравнения прилагательных
+%<pst%>            ! Positive     ! Төп дәрәҗә
+%<comp%>           ! Comparative  ! Чагыштыру дәрәҗәсе
+%<sup%>            ! Superlative  ! Артыклык дәрәҗәсе
+!! Кимлек дәрәҗәсе регуляр форма түгел. Андый формадагыларны төп дәрәҗәдәге сыйфатлар дип аерым кертергә булыр (talking about "weakening")
+
+! Pronoun types ! Алмашлык төрләре ! Виды местоимений
+%<pers%>           ! Personal
+%<itg%>            ! Interrogative
+%<dem%>            ! Demonstrative
+%<ind%>            ! Indefinite
+%<qnt%>            ! Quantifier
+%<ord%>            ! Ordinal
+%<ref%>            ! Reflexive
+
+! Tense, aspect, mood !! This just 'looks' harder than it is :)
+%<imp%>            ! Imperative
+%<cond%>           ! Conditional  ! Шарт  ! Условное  ! -с{A}
+%<caus%>           ! Causative
+%<pass%>           ! Passive
+%<coop%>           ! Cooperative
+%<neg%>            ! Negative
+%<pres%>           ! -{A}
+%<past%>           ! -{G}{A}н 
+%<fut%>            ! -{I}р
+%<ifi%>            ! -{D}{I} 
+%<ger1%>           ! -м{A}{K}
+%<ger2%>           ! -{I}п
+%<ger3%>           ! -{G}{A}ч
+%<ger4%>           ! -{G}{A}нч{I}
+%<ger5%>           ! -{G}{A}н
+%<ger6%>           ! -{I}р / -{A}р
+%<ger7%>           ! -{A}ч{A}к
+%<ger8%>           ! -{E}с
+%<inf%>            ! Infinitive !  ! Инфинитив ! -{A/I}рг{A}
+
+! Transitivity ! Переходность
+%<tv%>             ! Transitive
+%<iv%>             ! Intransitive
+
+! Person ! Зат ! Лицо
+%<p1%>             ! First person
+%<p2%>             ! Second person
+%<p3%>             ! Third person
+
+! Punctuation ! Пунктуация
+%<sent%>           ! Sentence marker
+%<guio%>           ! Hyphen
+%<cm%>             ! Comma
+%<apos%>           ! Apostrophe
+%<rquot%>          ! Quote marker (right hand side) 
+%<lquot%>          ! Quote marker (left hand side) 
+%<rpar%>           ! Parenthetical marker (right hand side) 
+%<lpar%>           ! Parenthetical marker (left hand side) 
+
+! Some additional tags
+%<m%>              ! Masculine  ! Мужской род  !! For anthroponyms
+%<f%>              ! Feminine   ! Женский род  !! For anthroponyms
+
+%<qst%>            ! FIXME: Question?
+
+%>                 ! Morpheme boundary
+
+LEXICON Root
+
+NounStems ;
+
+LEXICON Ninfl
+
+%<n%>: # ;
+%<n%>%<pl%>:%>{L}{A}р # ;
+
+LEXICON NounStems
+
+Әхмәт Ninfl ;
+бакча Ninfl ;
+һава Ninfl ;

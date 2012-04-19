@@ -1,0 +1,7 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+
+Name: apertium-tat
+Description: Finite-state morphological transducer and constraint grammar for Tatar 
+Version: @VERSION@

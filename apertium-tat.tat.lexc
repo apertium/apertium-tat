@@ -574,6 +574,7 @@ LEXICON Conjunctions
 да:тә CCLEX ; ! "" Dir/LR
 
 шуңа% күрә:шуңа% күрә CALEX ; ! ""
+шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
 
 LEXICON Postpositions 
 
@@ -3084,8 +3085,6 @@ LEXICON Adverbs
 бүгеннән:бүгеннән ADVLEX ; ! ""
 бөтенләй:бөтенләй ADVLEX ; ! ""
 былтыр:былтыр ADVLEX ; ! ""
-
-шул% сәбәпле:шул% сәбәпле ADVLEX ; ! "" 
 
 LEXICON Verbs
 

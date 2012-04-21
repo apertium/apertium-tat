@@ -365,7 +365,7 @@ V-FINITE-FORMS ;
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ; 
 %<ger2%>:%>%{I%}п POSS ; 
-%<ger3%>:%>%{G%}%{A%}ч POSS ; 
+%<ger3%>:%>%{G%}%{A%}ч SUBST ; 
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS ; 
 %<ger5%>:%>%{G%}%{A%}н POSS ;
 %<ger7%>:%>%{A%}ч%{A%}к POSS ;
@@ -3513,6 +3513,8 @@ LEXICON Verbs
 пычран:пычран V-IV-IR-LEX ; ! ""
 капла:капла V-TV-IR-LEX ; ! ""
 яшер:яшер V-TV-IR-LEX ; ! ""
+
+сөйләш:сөйләш V-IV-IR-LEX ; ! "" ! FIXME: Check
 
 !! added for testing twol rules
 куй:куй V-TV-AR-LEX ; ! ""

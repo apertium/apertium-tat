@@ -171,6 +171,7 @@ ProperNouns ;
 Adjectives ; 
 Adverbs ; 
 Verbs ; 
+Interjections ; 
 Abbreviations ; 
 Punctuation ; 
 
@@ -518,7 +519,6 @@ LEXICON POSTADVLEX
 
 %<postadv%>: # ; 
 
-
 LEXICON ADVITGLEX
 
 %<adv%>%<itg%>: # ; 
@@ -535,7 +535,6 @@ LEXICON CALEX
 
 %<cnjadv%>: # ; 
 
-
 LEXICON PREDLEX
 
 %<pred%>: CLIT ; 
@@ -545,10 +544,13 @@ LEXICON PREDLEX-I
 %<pred%>%<ger5%>:%>кән POSS ;
 %<pred%>%<ifi%>:%>де V-PERS-S2 ;        
 
-
 LEXICON QSTLEX
 
 %<qst%>: # ; 
+
+LEXICON INTERJ
+
+%<ij%>: # ;
 
 LEXICON ABBR 
 
@@ -640,6 +642,8 @@ LEXICON Determiners
 
 бер:бер DETINDLEX ; ! ""
 бернинди:бернинди DETINDLEX ; ! ""
+бүтән:бүтән DETINDLEX ; ! "other"
+башка:башка DETINDLEX ; ! "other"
 
 LEXICON Numerals 
 
@@ -3036,6 +3040,7 @@ LEXICON Adverbs
 
 түгел:түгел ADVLEX ; ! ""
 
+бергә:бергә ADVLEX ; ! ""
 хәзер:хәзер ADVLEX ; ! ""
 әле:әле ADVLEX ; ! ""
 иң:иң ADVLEX ; ! ""
@@ -3497,6 +3502,10 @@ LEXICON Verbs
 
 яу:яу V-IV-AR-LEX ; ! ""
 бае:бае V-IV-IR-LEX ; ! ""
+
+LEXICON Interjections 
+
+юк:юк INTERJ ; 
 
 LEXICON Abbreviations
 

@@ -103,6 +103,8 @@ Multichar_Symbols
 %<fut%>            ! -{I}р
 %<ifi%>            ! -{D}{I} 
 
+%<prc2%>           ! -{I}п
+
 %<ger%>            ! -{U}
 %<ger1%>           ! -м{A}{K}
 %<ger2%>           ! -{I}п
@@ -358,6 +360,8 @@ LEXICON V-COMMON-LEX
 
 V-FINITE-FORMS ; 
 
+%<prc2%>:%>%{I%}п # ; 
+
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ; 
 %<ger2%>:%>%{I%}п POSS ; 
@@ -395,6 +399,18 @@ LEXICON V-IV-IR-LEX
 %<v%>%<iv%>: V-COMMON-LEX ; 
 %<v%>%<iv%>: V-FUT-IR; 
 %<v%>%<iv%>: V-DER; 
+
+LEXICON V-TV-NOPASS-IR-LEX
+
+%<v%>%<tv%>: V-COMMON-LEX ; 
+%<v%>%<tv%>: V-FUT-IR; 
+%<v%>%<tv%>: V-DER; 
+
+LEXICON V-TV-PASS-IR-LEX
+
+%<v%>%<tv%>%<pass%>: V-COMMON-LEX ; 
+%<v%>%<tv%>%<pass%>: V-FUT-IR; 
+%<v%>%<tv%>%<pass%>: V-DER; 
 
 LEXICON V-TV-IR-LEX
 
@@ -3109,7 +3125,8 @@ LEXICON Verbs
 яшә:яшә V-IV-IR-LEX ; ! ""
 ит:ит V-TV-IR-LEX ; ! ""
 эч:эч V-TV-AR-LEX ; ! ""
-күр:күр V-TV-IR-LEX ; ! ""
+күр:күр V-TV-NOPASS-IR-LEX ; ! ""
+күр:күрен V-TV-PASS-IR-LEX ; ! ""
 эзлә:эзлә V-TV-IR-LEX ; ! ""
 йөр:йөр V-IV-IR-LEX ; ! ""
 кит:кит V-IV-AR-LEX ; ! ""
@@ -3251,11 +3268,9 @@ LEXICON Verbs
 
 әйт:әйт V-TV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
-күр:күр V-TV-IR-LEX ; ! ""
 төшен:төшен V-TV-IR-LEX ; ! ""
 кыл:кыл V-TV-IR-LEX ; ! ""
 кыл:кыл V-TV-IR-LEX ; ! ""
-күр:күр V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
 җавап% бир:җавап% бир V-TV-IR-LEX ; ! ""

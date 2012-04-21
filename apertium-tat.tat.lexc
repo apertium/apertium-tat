@@ -221,7 +221,7 @@ CASE ;
 
 LEXICON POSS
 
-%<px%>:%>н%{I%}к%{I%}{n} CASE ;       !! -ныкы/-неке in Tatar   !! FIXME: this can appear after possessives too
+%<px%>:%>н%{I%}к%{I%}%{n%} CASE ;       !! -ныкы/-неке in Tatar   !! FIXME: this can appear after possessives too
                                                              !! e.g. бала-лар-ым-ныкы "of my children"
 POSS-REAL ;
 

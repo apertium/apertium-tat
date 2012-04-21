@@ -2,6 +2,8 @@
 !!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R     !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+! See http://wiki.apertium.org/wiki/Turkic_lexicon
+
 Multichar_Symbols
 ! Followed http://wiki.apertium.org/wiki/Turkic_languages
 
@@ -30,7 +32,8 @@ Multichar_Symbols
 %<top%>            ! Toponym      ! Географик атама
 %<ant%>            ! Anthroponym  ! Кеше исеме
 %<cog%>            ! Cognomen     ! Фамилия
-%<org%>            ! Organization ! Оешма исеме
+%<org%>            ! Organization ! Оешма исеме      !! FIXME: not sure if this of any use (I.S.)
+
 !! gender of anthroponyms and cognomes
 %<m%>              ! Masculine    ! Мужской род
 %<f%>              ! Feminine     ! Женский род
@@ -69,7 +72,6 @@ Multichar_Symbols
 !обладательный !# -лы/-ле   !! not used after posessives
 
 ! Levels of comparison of adjectives ! Сыйфат дәрәҗәләре ! Степени сравнения прилагательных
-%<pst%>            ! Positive     ! Төп дәрәҗә           FIXME: not needed actually
 %<comp%>           ! Comparative  ! Чагыштыру дәрәҗәсе
 %<sup%>            ! Superlative  ! Артыклык дәрәҗәсе
 !! "weakening" form is not regular. So "weakened" :) adj are added as base lemmas.
@@ -152,7 +154,7 @@ Multichar_Symbols
 %{ъ%}              ! disappears and makes back harmony
 %{т%}              ! Realised as т before vowels, 0 otherwise
 
-%>                 !
+%>                 ! Morpheme boundary
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!

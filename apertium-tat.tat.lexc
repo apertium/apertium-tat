@@ -126,6 +126,7 @@ Multichar_Symbols
 %<p1%>             ! First person
 %<p2%>             ! Second person
 %<p3%>             ! Third person
+%<frm%>            ! Formality FIXME: Check
 
 ! Punctuaton ! Пунктуация
 %<sent%>           ! Sentence marker
@@ -291,6 +292,7 @@ LEXICON V-PERS-S1
 
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ;
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; ! FIXME: Check 'Ни өчен беләсезме?'
 %<p3%>%<sg%>:%> CLIT ;
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
 %<p2%>%<pl%>:%>г%{I%}з CLIT ;
@@ -674,6 +676,7 @@ LEXICON Determiners
 бүтән:бүтән DETINDLEX ; ! "other"
 башка:башка DETINDLEX ; ! "other"
 берәр:берәр DETINDLEX ; ! "some" ! FIXME: JNW to check this
+һичбер:һичбер DETINDLEX ; ! "" ! FIXME: to be checked
 
 LEXICON Numerals 
 

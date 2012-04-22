@@ -157,6 +157,7 @@ Multichar_Symbols
 %{U%}              ! Realised as у, ү, в
 %{ъ%}              ! disappears and makes back harmony
 %{т%}              ! Realised as т before vowels, 0 otherwise
+%{д%}              ! Realised as д before vowels, 0 otherwise
 
 %>                 ! Morpheme boundary
 
@@ -292,7 +293,7 @@ LEXICON V-PERS-S1
 
 %<p1%>%<sg%>:%>м CLIT ;
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; ! FIXME: Check 'Ни өчен беләсезме?'
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; ! FIXME: Check 'Ни өчен беләсезме?' ! <frm><sg> and <frm><pl> are the same forms in Tatar; so maybe <frm><sp> would be better /I.S./
 %<p3%>%<sg%>:%> CLIT ;
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
 %<p2%>%<pl%>:%>г%{I%}з CLIT ;
@@ -331,7 +332,7 @@ LEXICON V-PERS-S4 ! Volition endings
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
 LEXICON V-FUT-IR
-!! verbs that get -рга/-ргә ending should be also put here,             // CHECK
+!! verbs that get -рга/-ргә ending should be also put here,
 !! since in twol there is a rule deleting %{I%} after vowels
 !! e.g. уйна-рга
 
@@ -676,7 +677,7 @@ LEXICON Determiners
 бүтән:бүтән DETINDLEX ; ! "other"
 башка:башка DETINDLEX ; ! "other"
 берәр:берәр DETINDLEX ; ! "some" ! FIXME: JNW to check this
-һичбер:һичбер DETINDLEX ; ! "" ! FIXME: to be checked
+һичбер:һичбер DETINDLEX ; ! ""
 
 LEXICON Numerals 
 
@@ -716,7 +717,7 @@ LEXICON Numerals
 
 мең:мең NUMLEX ; ! ""
 төмән:төмән NUMLEX ; ! "archaic for 10 000"
-түмән:түмән NUMLEX ; ! "archaic for 10 000"
+түмән:түмән NUMLEX ; ! Dir/LR !"archaic for 10 000"
 миллион:миллион NUMLEX ; ! ""
 миллиард:миллиард NUMLEX ; ! ""
 
@@ -752,7 +753,7 @@ LEXICON Nouns
 актер:актер NLEX ; ! ""
 акча:акча NLEX ; ! "" 
 акыл:акыл NLEX ; ! "" 
-алд:алд NLEX ; ! ""                      FIXME: seems to be similar to "дус{т}"
+алд:ал%{д%} NLEX ; ! ""
 алман:алман NLEX ; ! "" 
 алу:алу NLEX ; ! ""
 алым:алым NLEX ; ! ""
@@ -834,7 +835,6 @@ LEXICON Nouns
 берлек:берлек NLEX ; ! ""
 берләшмә:берләшмә NLEX ; ! ""
 бер% пар:бер% пар NLEX ; ! "" 
-бертуган:бертуган NLEX ; ! ""          ! FIXME: adj
 бәрү:бәрү NLEX ; ! "" 
 бәхет:бәхет NLEX ; ! "" 
 бәя:бәя NLEX ; ! ""
@@ -970,8 +970,8 @@ LEXICON Nouns
 дошман:дошман NLEX ; ! "" 
 дөя:дөя NLEX ; ! ""
 дулкын:дулкын NLEX ; ! ""
-дус:дус%{т%} NLEX ; ! ""
-!дус:дус NLEX ; ! "" ! FIXME: gets an epenthetic 'т' in some forms: 'дустым'
+! дус:дус NLEX ; ! ""
+дус:дус%{т%} NLEX ; ! ""    ! gets an epenthetic 'т' before affixes starting with a vowel: 'дустым'
 әби:әби NLEX ; ! ""
 әби:әби NLEX ; ! ""
 әби:әби NLEX ; ! ""
@@ -989,7 +989,6 @@ LEXICON Nouns
 әйтем:әйтем NLEX ; ! ""
 елга:елга NLEX ; ! "" 
 ел:ел%{ъ%} NLEX ; ! "" 
-! ел:ел%>лар NLEX-PL ; ! FIXME: is this really needed
 елкы:елкы NLEX ; ! ""
 !елмаю:елмаю NLEX ; ! ""
 елмаю:елмаю%{w%} NLEX ; ! "smile"
@@ -1089,7 +1088,7 @@ LEXICON Nouns
 ир% кеше:ир% кеше NLEX ; ! ""
 ир% кеше:ир% кеше NLEX ; ! "" 
 иртә:иртә NLEX ; ! "" 
-ир% туган:ир% туган NLEX ; ! ""        ! FIXME: adj
+ир% туган:ир% туган NLEX ; ! ""
 исем:исем NLEX ; ! ""
 исемлек:исемлек NLEX ; ! ""
 исәп:исәп NLEX ; ! "" 
@@ -2719,7 +2718,6 @@ LEXICON Adjectives
 дөрес:дөрес A1 ; ! ""
 тәңгәл:тәңгәл A1 ; ! ""
 хайвани:хайвани A1 ; ! ""
-хайваннарча:хайваннарча A1 ; ! ""       !! should be an adverb
 ниндидер:ниндидер A1 ; ! ""
 кайсыдыр:кайсыдыр A1 ; ! ""
 билгесез:билгесез A1 ; ! ""
@@ -3062,6 +3060,7 @@ LEXICON Adjectives
 кече:кече A1 ; ! ""
 кечек:кечек A1 ; ! ""
 игътибарлы:игътибарлы A1 ; ! ""
+бертуган:бертуган A1 ; ! ""
 
 LEXICON Adverbs 
 
@@ -3091,7 +3090,7 @@ LEXICON Adverbs
 һәрвакыт:һәрвакыт ADVLEX ; ! ""
 тышта:тышта ADVLEX ; ! ""
 соң:соң ADVLEX ; ! ""
-һаман:һаман ADVLEX ; ! "" FIXME: Check
+һаман:һаман ADVLEX ; ! ""
 әлбәттә:әлбәттә ADVLEX ; ! ""
 алдындагы:алдындагы ADVLEX ; ! ""
 
@@ -3126,6 +3125,7 @@ LEXICON Adverbs
 бүгеннән:бүгеннән ADVLEX ; ! ""
 бөтенләй:бөтенләй ADVLEX ; ! ""
 былтыр:былтыр ADVLEX ; ! ""
+хайваннарча:хайваннарча ADVLEX ; ! ""
 
 әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
 
@@ -3526,9 +3526,9 @@ LEXICON Verbs
 капла:капла V-TV-IR-LEX ; ! ""
 яшер:яшер V-TV-IR-LEX ; ! ""
 
-сөйләш:сөйләш V-IV-IR-LEX ; ! "" ! FIXME: Check
-карагыз:карагыз V-TV-AR-LEX ; ! "" ! FIXME: Check
-йөрегез:йөрегез V-IV-IR-LEX ; ! "" ! FIXME: Check
+сөйләш:сөйләш V-IV-IR-LEX ; ! ""
+кара:кара V-TV-AR-LEX ; ! ""
+йөр:йөр V-IV-IR-LEX ; ! ""
 
 !! added for testing twol rules
 куй:куй V-TV-AR-LEX ; ! ""

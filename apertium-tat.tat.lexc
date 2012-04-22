@@ -165,6 +165,7 @@ Multichar_Symbols
 LEXICON Root
 
 Particles ; 
+Copula ; 
 Conjunctions ; 
 Postpositions ; 
 Postadverbs ;
@@ -579,9 +580,14 @@ LEXICON ABBR
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+
 LEXICON Particles
 
 мы:мы QSTLEX ; ! ""
+
+LEXICON Copula
+
+и:и COP-I ; ! ""
 
 LEXICON Conjunctions
 
@@ -667,6 +673,7 @@ LEXICON Determiners
 бернинди:бернинди DETINDLEX ; ! ""
 бүтән:бүтән DETINDLEX ; ! "other"
 башка:башка DETINDLEX ; ! "other"
+берәр:берәр DETINDLEX ; ! "some" ! FIXME: JNW to check this
 
 LEXICON Numerals 
 
@@ -3117,7 +3124,6 @@ LEXICON Adverbs
 
 LEXICON Verbs
 
-и:и COP-I ; ! ""
 
 бар:бар V-IV-IR-LEX ; ! ""
 бул:бул V-IV-IR-LEX ; ! ""

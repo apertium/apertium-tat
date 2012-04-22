@@ -67,7 +67,7 @@ Multichar_Symbols
 
 !! some additional ~cases
 %<locattr%>    ! Relativised locative=Locative attribute=Местно-временной2 !# DAGI !! FIXME:Not needed anymore, bcs we switched to <loc><attr>
-%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй) FIXME: here it is something else, used with <num>
+%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй)
 !лишительный   !# -сыз/-сез !! not used after posessives
 !обладательный !# -лы/-ле   !! not used after posessives
 
@@ -89,6 +89,7 @@ Multichar_Symbols
 
 ! Numeral types
 %<ord%>            ! Ordinal
+%<part%>           ! Partitive !# берәр, икешәр
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative
@@ -250,8 +251,7 @@ LEXICON NUMLEX
 %<num%>: # ; 
 %<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ; 
-%<num%>%<sim%>:%>%{A%}р SUBST ; 
-
+%<num%>%<part%>:%>%{A%}р SUBST ; 
 
 LEXICON NPCOGMLEX
 

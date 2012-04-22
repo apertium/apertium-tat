@@ -105,6 +105,8 @@ Multichar_Symbols
 %<fut%>            ! -{I}р
 %<ifi%>            ! -{D}{I} 
 
+%<gpr1%>           ! -{A} ! FIXME: for future use, verbal adjective
+
 %<prc2%>           ! -{I}п
 
 %<ger%>            ! -{U}

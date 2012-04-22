@@ -2304,6 +2304,8 @@ LEXICON Nouns
 бюллетень:бюллетень NLEX ; ! ""
 вазыйфа:вазыйфа NLEX ; ! ""
 
+эч:эч NLEX ; ! "" ! FIXME: Check
+
 
 LEXICON ProperNouns
 
@@ -3122,6 +3124,8 @@ LEXICON Adverbs
 бөтенләй:бөтенләй ADVLEX ; ! ""
 былтыр:былтыр ADVLEX ; ! ""
 
+әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
+
 LEXICON Verbs
 
 
@@ -3514,13 +3518,14 @@ LEXICON Verbs
 бүләклән:бүләклән V-IV-IR-LEX ; ! ""
 бүләклә:бүләклә V-TV-IR-LEX ; ! ""
 бүлен:бүлен V-IV-IR-LEX ; ! ""
-бүлеш:бүлеш V-TV-IR-LEX ; ! ""
 бүлеш:бүлеш V-IV-IR-LEX ; ! ""
 пычран:пычран V-IV-IR-LEX ; ! ""
 капла:капла V-TV-IR-LEX ; ! ""
 яшер:яшер V-TV-IR-LEX ; ! ""
 
 сөйләш:сөйләш V-IV-IR-LEX ; ! "" ! FIXME: Check
+карагыз:карагыз V-TV-AR-LEX ; ! "" ! FIXME: Check
+йөрегез:йөрегез V-IV-IR-LEX ; ! "" ! FIXME: Check
 
 !! added for testing twol rules
 куй:куй V-TV-AR-LEX ; ! ""

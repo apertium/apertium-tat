@@ -946,7 +946,9 @@ LEXICON Nouns
 гүр:гүр NLEX ; ! ""
 гыйбрәт:гыйбрәт NLEX ; ! ""
 гыйлем:гыйлем NLEX ; ! ""
+
 даирә:даирә NLEX ; ! ""
+дала:дала NLEX ; ! ""
 дан:дан NLEX ; ! ""
 данә:данә NLEX ; ! ""
 дәвалау:дәвалау NLEX ; ! ""
@@ -982,6 +984,7 @@ LEXICON Nouns
 дулкын:дулкын NLEX ; ! ""
 ! дус:дус NLEX ; ! ""
 дус:дус%{т%} NLEX ; ! ""    ! gets an epenthetic 'т' before affixes starting with a vowel: 'дустым'
+
 әби:әби NLEX ; ! ""
 әби:әби NLEX ; ! ""
 әби:әби NLEX ; ! ""
@@ -3073,7 +3076,6 @@ LEXICON Adjectives
 бертуган:бертуган A1 ; ! ""
 
 LEXICON Adverbs 
-
 
 кая:кая ADVITGLEX ; ! ""
 кайдан:кайдан ADVITGLEX ; ! ""

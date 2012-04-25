@@ -159,8 +159,8 @@ Multichar_Symbols
 %{l%}              ! Realised as
 %{U%}              ! Realised as у, ү, в
 %{ъ%}              ! disappears and makes back harmony
-%{т%}              ! Realised as т before vowels, 0 otherwise
 %{д%}              ! Realised as д before vowels, 0 otherwise
+%{т%}              ! Realised as т before vowels, 0 otherwise
 
 %>                 ! Morpheme boundary
 
@@ -778,7 +778,7 @@ LEXICON Nouns
 армия:армия NLEX ; ! "" 
 арт:арт NLEX ; ! "" 
 артист:артист NLEX ; ! ""
-аст:аст NLEX ; ! ""
+аст:ас%{т%} NLEX ; ! ""
 асыл:асыл NLEX ; ! ""
 ата-ана:ата-ана NLEX ; ! ""
 ата:ата NLEX ; ! "" 

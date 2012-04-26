@@ -192,7 +192,7 @@ LEXICON CLIT
 %+да%<cnjcoo%>:% %{D%}%{A%} # ;
 %+мы%<qst%>:%>м%{I%} # ;
 %+дыр%<part%>:%>%{D%}%{I%}р # ;
-%+сы%<part%>:%>с%{I%} # ; ! FIXME: check
+!%+сы%<part%>:%>с%{I%} # ; ! FIXME: check
 # ;
 
 LEXICON CASE 
@@ -278,19 +278,33 @@ LEXICON NPANTFLEX
 
 %<np%>%<ant%>%<f%>: CASE ; 
 
-
-
 LEXICON NPTOPLEX
 
 %<np%>%<top%>: CASE ; 
 
-LEXICON A1 
+!!!!!!!!!!!!!!!!!!!!!! ADJECTIVES
+
+LEXICON ADJ-LEVELS
+
+%<comp%>:%>р%{A%}%{K%} # ;
+
+LEXICON A1  !! adjectives that can be substantivized and andverbialized #! матур
 
 %<adj%>: # ; 
 %<adj%>%<comp%>:%>р%{A%}%{K%} # ; 
 
 %<adj%>%<subst%>: SUBST ; 
 %<adj%>%<advl%>: CLIT ; 
+
+LEXICON A2
+
+%<adj%>: CLIT ; 
+
+LEXICON A3                 ! (относительные-?derived?) adjectives without adverbial reading #! язгы
+
+%<adj%>: # ; 
+%<adj%>: ADJ-LEVELS ;
+%<adj%>%<subst%>: SUBST ;  ! all adjectives can be used as nouns
 
 LEXICON V-PERS-S1 
 
@@ -564,10 +578,6 @@ LEXICON CCLEX
 LEXICON CALEX
 
 %<cnjadv%>: # ; 
-
-LEXICON A2
-
-%<adj%>: CLIT ; 
 
 LEXICON COP-I
 

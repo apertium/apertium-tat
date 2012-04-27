@@ -629,28 +629,27 @@ LEXICON Conjunctions
 
 LEXICON Postpositions 
 
-белән:белән POSTLEX ; ! ""
-инде:инде POSTLEX ; ! ""
-өчен:өчен POSTLEX ; ! ""
 аркылы:аркылы POSTLEX ; ! ""
-аша:аша POSTLEX ; ! ""
-кирәк:кирәк POSTLEX ; ! ""
-каршы:каршы POSTLEX ; ! ""
-башка:башка POSTLEX ; ! ""
-карамастан:карамастан POSTLEX ; ! ""
+астына:астына POSTLEX ; ! ""
 астында:астында POSTLEX ; ! ""         !! this is actually a noun
-
+аша:аша POSTLEX ; ! ""
+башка:башка POSTLEX ; ! ""
+белән:белән POSTLEX ; ! ""
 буенча:буенча POSTLEX ; ! ""
-кебек:кебек POSTLEX ; ! ""
+буйлап:буйлап POSTLEX ; ! ""
+буларак:буларак POSTLEX ; ! ""
+инде:инде POSTLEX ; ! ""
 карамагында:карамагында POSTLEX ; ! ""
+карамастан:карамастан POSTLEX ; ! ""
+каршы:каршы POSTLEX ; ! ""
+кебек:кебек POSTLEX ; ! ""
+кирәк:кирәк POSTLEX ; ! ""
+саен:саен POSTLEX ; ! ""
+соң:соң POSTLEX ; ! "after+ABL"
 тапкыр:тапкыр POSTLEX ; ! ""
 тикле:тикле POSTLEX ; ! ""
 хакында:хакында POSTLEX ; ! ""
-саен:саен POSTLEX ; ! ""
-астына:астына POSTLEX ; ! ""
-буйлап:буйлап POSTLEX ; ! ""
-буларак:буларак POSTLEX ; ! ""
-
+өчен:өчен POSTLEX ; ! ""
 
 LEXICON Postadverbs
 
@@ -659,7 +658,6 @@ LEXICON Postadverbs
 гына:генә POSTADVLEX ; ! "" Dir/LR
 гына:кына POSTADVLEX ; ! "" Dir/LR
 гына:кенә POSTADVLEX ; ! "" Dir/LR
-
 
 LEXICON Pronouns
 

@@ -76,8 +76,13 @@ Rules
 !               [ ю: | у: | ү: | %{U%}: ]/[ %>: | :0 ] _ ;
 
 
-"Intervocalic voicing of к/п"
+"Voicing of к/п"
+! intervocalic:          ! before -рак/-рәк
+!! китап>{c}{I}          !! кызык>рак !! кысып>рак
+!! китабы                !! кызыграк  !! кысыбрак
+
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
+          _ %>: :р ;
           where Cx in ( п к )
                 Cy in ( б г )
                 matched;

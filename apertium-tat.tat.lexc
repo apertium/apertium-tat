@@ -282,29 +282,43 @@ LEXICON NPTOPLEX
 
 %<np%>%<top%>: CASE ; 
 
-!!!!!!!!!!!!!!!!!!!!!! ADJECTIVES
+!!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
+!                                                               (a separate ADJ-COMMON might be even better, see kaz.lexc) 
+! FIXME: this section needs refactoring
+!! i.e. change <adj><comp><subst> to <adj><subst><comp>
+!! and make use of ADJ-LEVELS class
 
 LEXICON ADJ-LEVELS
 
-%<comp%>:%>р%{A%}%{K%} # ;
+%<comp%>:%>р%{A%}%{K%} CLIT ;
+CLIT ;
 
-LEXICON A1  !! adjectives that can be substantivized and andverbialized #! матур
-
-%<adj%>: # ; 
-%<adj%>%<comp%>:%>р%{A%}%{K%} # ; 
-
-%<adj%>%<subst%>: SUBST ; 
-%<adj%>%<advl%>: CLIT ; 
-
-LEXICON A2
+LEXICON A1                 ! adjectives that can be both substantivized and andverbialized #! яхшы
 
 %<adj%>: CLIT ; 
+%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ; 
 
-LEXICON A3                 ! (относительные-?derived?) adjectives without adverbial reading #! язгы
+%<adj%>%<subst%>: SUBST ;                             !# "Яхшы яхшыны тудыра." 
+!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;  !# яхшыракны таптым
 
-%<adj%>: # ; 
-%<adj%>: ADJ-LEVELS ;
-%<adj%>%<subst%>: SUBST ;  ! all adjectives can be used as nouns
+%<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
+!%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;    !# "Бәла бәхеттән тизрәк йөри."
+
+LEXICON A2                 ! (?derived=not fully lexicalized) adjectives without adverbial reading #! язгы
+
+%<adj%>: CLIT ;
+!%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ; ! they also seem not to take comp. level !# *язгырак
+
+%<adj%>%<subst%>: SUBST ;                             !# "Ул 14-25 яшьлекләргә бирелә." 
+!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;
+
+LEXICON A3                 ! adjectives with (only) predicative use     !# бар, юк 
+                           ! FIXME:NOTE: Maybe this class is not really needed, because it turned out :) that
+                           ! even "бар" and "юк" can take case endings: !# "Хатыны юкның якыны юк."
+                                                                        !# "Эше барның ашы бар."   
+%<adj%>: CLIT ;
+
+!!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
 LEXICON V-PERS-S1 
 

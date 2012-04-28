@@ -419,7 +419,6 @@ LEXICON V-NEG
 %<neg%>:%>м%{A%} V-COMMON-LEX ;
 %<neg%>%<ger2%>:%>м%{A%}%>%{E%}%>ч%{A%} POSS ;
  
-
 V-COMMON-LEX ; 
 
 LEXICON V-DER
@@ -552,22 +551,21 @@ LEXICON PRNREFLEX
 
 %<prn%>%<ref%>: POSS ; 
 
-LEXICON DETINDLEX
-
-%<det%>%<ind%>: # ; 
-
-
 LEXICON DETDEMLEX
 
 %<det%>%<dem%>: # ; 
 
-LEXICON DETITGLEX
-
-%<det%>%<itg%>: # ; 
-
 LEXICON DETQNTLEX 
 
 %<det%>%<qnt%>: # ; 
+
+LEXICON DETINDLEX
+
+%<det%>%<ind%>: # ; 
+
+LEXICON DETITGLEX
+
+%<det%>%<itg%>: # ; 
 
 LEXICON POSTLEX
 
@@ -626,13 +624,13 @@ LEXICON Copula
 LEXICON Conjunctions
 
 вә:вә CCLEX ; ! ""
+я:я CCLEX ; ! ""
+яисә:яисә CCLEX ; ! ""
 һәм:һәм CCLEX ; ! ""
 ә:ә CCLEX ; ! ""
 әмма:әмма CCLEX ; ! ""
-я:я CCLEX ; ! ""
-яисә:яисә CCLEX ; ! ""
 
-да:да CCLEX ; ! "" Dir/RL
+да:да CCLEX ; ! "also" Dir/RL
 да:да CCLEX ; ! "" Dir/LR
 да:та CCLEX ; ! "" Dir/LR
 да:дә CCLEX ; ! "" Dir/LR
@@ -667,11 +665,11 @@ LEXICON Postpositions
 
 LEXICON Postadverbs
 
-гына:%~гына POSTADVLEX ; ! "" Dir/RL
-гына:гына POSTADVLEX ; ! "" Dir/LR
-гына:генә POSTADVLEX ; ! "" Dir/LR
-гына:кына POSTADVLEX ; ! "" Dir/LR
-гына:кенә POSTADVLEX ; ! "" Dir/LR
+гына:%~гына POSTADVLEX ; ! "only" Dir/RL
+гына:гына POSTADVLEX ; ! ""       Dir/LR
+гына:генә POSTADVLEX ; ! ""       Dir/LR
+гына:кына POSTADVLEX ; ! ""       Dir/LR
+гына:кенә POSTADVLEX ; ! ""       Dir/LR
 
 LEXICON Pronouns
 
@@ -685,31 +683,29 @@ PRNLEX-PERS ;
 шул: PRNDEM-ŠUL ; ! ""
 шушы:шушы PRNDEMLEX ; ! ""     !FIXME: these share the same endings with "бу", see мо-ңа <> шушы-ңа
 теге:теге PRNDEMLEX ; ! ""     !теге-ңә (exceptional case endings in singular)
-                                !TODO:maybe it is possible to link all PRNDEMs to one Continuation class?
+                               !TODO:maybe it is possible to link all PRNDEMs to one Continuation class?
 
 үз:үз PRNREFLEX ; ! ""
 
 LEXICON Determiners
 
-
 бу:бу DETDEMLEX ; ! ""
-шушы:шушы DETDEMLEX ; ! ""
-шул:шул DETDEMLEX ; ! ""
 теге:теге DETDEMLEX ; ! ""
+шул:шул DETDEMLEX ; ! ""
+шушы:шушы DETDEMLEX ; ! ""
 
-бөтен:бөтен DETQNTLEX ; ! ""
 бар:бар DETQNTLEX ; ! ""
 барлык:барлык DETQNTLEX ; ! ""
+бөтен:бөтен DETQNTLEX ; ! ""
 
+башка:башка DETINDLEX ; ! "other"
 бер:бер DETINDLEX ; ! ""
 бернинди:бернинди DETINDLEX ; ! ""
-бүтән:бүтән DETINDLEX ; ! "other"
-башка:башка DETINDLEX ; ! "other"
 берәр:берәр DETINDLEX ; ! "some" ! FIXME: JNW to check this
+бүтән:бүтән DETINDLEX ; ! "other"
 һичбер:һичбер DETINDLEX ; ! ""
 
-кай:кай DETITGLEX ; ! ""
-
+кай:кай DETITGLEX ; ! "which"
 
 LEXICON Numerals 
 
@@ -2333,7 +2329,6 @@ LEXICON Nouns
 
 эч:эч NLEX ; ! "" ! FIXME: Check
 
-
 LEXICON ProperNouns
 
 Татарстан:Татарстан NPTOPLEX ; ! ""
@@ -2395,12 +2390,9 @@ LEXICON ProperNouns
 Бөре:Бөре NPTOPLEX ; ! ""
 Бүздәк:Бүздәк NPTOPLEX ; ! ""
 
-
-
 Әхмәт:Әхмәт NPANTMLEX ; ! ""
 
 Гөлнара:Гөлнара NPANTFLEX ; ! ""
-
 
 Ирина:Ирина NPANTFLEX ; ! ""
 Лилия:Лилия NPANTFLEX ; ! ""
@@ -2471,7 +2463,6 @@ LEXICON ProperNouns
 Бабич:Бабич NPCOGMFLEX ; ! ""
 Орджоникидзе:Орджоникидзе NPCOGMFLEX ; ! ""
 Семивеличенко:Семивеличенко NPCOGMFLEX ; ! ""
-
 
 LEXICON Adjectives 
 

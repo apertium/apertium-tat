@@ -664,6 +664,11 @@ LEXICON Postpositions
 өчен:өчен POSTLEX ; ! ""
 
 LEXICON Postadverbs
+да:%~да POSTADVLEX ; ! ""     Dir/RL
+да:да POSTADVLEX ; ! ""       Dir/LR
+да:дә POSTADVLEX ; ! ""       Dir/LR
+да:та POSTADVLEX ; ! ""       Dir/LR
+да:тә POSTADVLEX ; ! ""       Dir/LR
 
 гына:%~гына POSTADVLEX ; ! "only" Dir/RL
 гына:гына POSTADVLEX ; ! ""       Dir/LR

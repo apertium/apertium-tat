@@ -677,6 +677,7 @@ PRNLEX-PERS ;
 
 ни:ни PRNITGLEX ; ! ""
 нимә:нимә PRNITGLEX ; ! ""
+нәрсә:нәрсә PRNITGLEX ; ! "what"
 кем:кем PRNITGLEX ; ! ""
 
 бу: PRNDEM-BU ; ! ""
@@ -1417,8 +1418,6 @@ LEXICON Nouns
 начарлык:начарлык NLEX ; ! ""
 нәзир:нәзир NLEX ; ! ""
 немец:немец NLEX ; ! "" 
-нәрсә:нәрсә NLEX ; ! ""
-нәрсә:нәрсә NLEX ; ! "" 
 нәтиҗә:нәтиҗә NLEX ; ! ""
 нәтиҗә:нәтиҗә NLEX ; ! "" 
 нәүбәт:нәүбәт NLEX ; ! "" 
@@ -3538,6 +3537,9 @@ LEXICON Verbs
 
 LEXICON Interjections 
 
+әйе:әйе INTERJ ; 
+әлбәттә:әлбәттә INTERJ ; 
+димәк:димәк INTERJ ; 
 юк:юк INTERJ ; 
 
 LEXICON Abbreviations

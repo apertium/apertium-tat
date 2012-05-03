@@ -108,6 +108,7 @@ Multichar_Symbols
 %<gpr1%>           ! -{A} ! FIXME: for future use, verbal adjective
 
 %<prc2%>           ! -{I}п
+%<prc_impf%>           ! -{E} !# уйный алмады
 
 %<ger%>            ! -{U}
 %<ger1%>           ! -м{A}{K}
@@ -395,7 +396,11 @@ LEXICON V-COMMON-LEX
 
 V-FINITE-FORMS ; 
 
+! Participles  !! Number part of the tags is subject to change :)
+               !! Stay up-to-date
+
 %<prc2%>:%>%{I%}п # ; 
+%<prc_impf%>:%>%{E%} # ; 
 
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ; 
@@ -469,6 +474,8 @@ V-COMMON-PASSIVE ;
 LEXICON VAUX
 
 %<vaux%>: V-PERS-S2 ;
+
+!!!!!!!!!!!!!!!!!!!!!!     PRONOUNS
 
 LEXICON PRNLEX-PERS
 

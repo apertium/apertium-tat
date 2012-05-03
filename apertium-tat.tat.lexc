@@ -108,7 +108,7 @@ Multichar_Symbols
 %<gpr1%>           ! -{A} ! FIXME: for future use, verbal adjective
 
 %<prc2%>           ! -{I}п
-%<prc_impf%>           ! -{E} !# уйный алмады
+%<prc_impf%>       ! -{E} !# уйный алмады
 
 %<ger%>            ! -{U}
 %<ger1%>           ! -м{A}{K}
@@ -473,7 +473,7 @@ V-COMMON-PASSIVE ;
 
 LEXICON VAUX
 
-%<vaux%>: V-PERS-S2 ;
+%<vaux%>: V-COMMON-LEX ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUNS
 
@@ -3549,6 +3549,9 @@ LEXICON Verbs
 яу:яу V-IV-AR-LEX ; ! ""
 бае:бае V-IV-IR-LEX ; ! ""
 
+!! Auxiliary verbs
+ал:ал VAUX ; ! ""
+ 
 LEXICON Interjections 
 
 әйе:әйе INTERJ ; 

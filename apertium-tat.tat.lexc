@@ -118,7 +118,7 @@ Multichar_Symbols
 !! Gerunds - Исем фигыльләр
 %<ger%>            ! -{U}
 %<ger1%>           ! -м{A}{K}
-%<ger2%>           ! -{I}п
+%<ger2%>           ! -{I}п          !FIXME:REMOVE: This was replaced with prc2; turned off 
 %<ger3%>           ! -{G}{A}ч
 %<ger4%>           ! -{G}{A}нч{I}
 %<ger5%>           ! -{G}{A}н
@@ -419,7 +419,7 @@ V-FINITE-FORMS ;
 ! Gerunds
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ; 
-%<ger2%>:%>%{I%}п POSS ; 
+!%<ger2%>:%>%{I%}п POSS ; 
 %<ger3%>:%>%{G%}%{A%}ч SUBST ; 
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS ; 
 %<ger5%>:%>%{G%}%{A%}н POSS ;

@@ -105,11 +105,17 @@ Multichar_Symbols
 %<fut%>            ! -{I}р
 %<ifi%>            ! -{D}{I} 
 
+!! Verbal adjectives - Сыйфат фигыльләр - Глаголные причастия
 %<gpr1%>           ! -{A} ! FIXME: for future use, verbal adjective
 
+!! Participles
 %<prc2%>           ! -{I}п
 %<prc_impf%>       ! -{E} !# уйный алмады
 
+!! Verbal adverbs - Хәл фигыльләр - Глаголные наречия 
+%<gna_cond%>       ! -с{A}   !# "... кайда икәнен белсә дә, әйтми..."
+
+!! Gerunds - Исем фигыльләр
 %<ger%>            ! -{U}
 %<ger1%>           ! -м{A}{K}
 %<ger2%>           ! -{I}п
@@ -142,8 +148,10 @@ Multichar_Symbols
 %<rpar%>           ! Parenthetical marker (right hand side) 
 %<lpar%>           ! Parenthetical marker (left hand side) 
 
-! Some additional tags
-%<qst%>            ! FIXME: Question? Questioning clitics?
+! Clitics
+%<qst%>               ! Modal question particle
+%<mod_foc%>           ! focus thingy
+%<mod_ass%>           ! assertive
 
 %{L%}              ! Realised as
 %{G%}              ! Realised as
@@ -188,12 +196,18 @@ Interjections ;
 Abbreviations ; 
 Punctuation ; 
 
+LEXICON CLIT-OTHER                                 !FIXME:DISCUSS: make from this a separate clitics class for verbs
+
+%+чы%<mod_foc%>:%>ч%{I%} # ;
+# ;
+
 LEXICON CLIT
 
 %+да%<cnjcoo%>:% %{D%}%{A%} # ;
 %+мы%<qst%>:%>м%{I%} # ;
 %+дыр%<part%>:%>%{D%}%{I%}р # ;
 !%+сы%<part%>:%>с%{I%} # ; ! FIXME: check
+CLIT-OTHER ;
 # ;
 
 LEXICON CASE 
@@ -402,6 +416,7 @@ V-FINITE-FORMS ;
 %<prc2%>:%>%{I%}п # ; 
 %<prc_impf%>:%>%{E%} # ; 
 
+! Gerunds
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ; 
 %<ger2%>:%>%{I%}п POSS ; 
@@ -410,6 +425,10 @@ V-FINITE-FORMS ;
 %<ger5%>:%>%{G%}%{A%}н POSS ;
 %<ger7%>:%>%{A%}ч%{A%}к POSS ;
 %<ger8%>:%>%{E%}с V-PERS-S4 ;
+
+! GNA's ("Verbal adverb"?)
+%<gna_cond%>:%>с%{A%} V-PERS-S2;   !# "...кайда икәнен белсә дә, әйтәсе килми..."
+
 %<cond%>:%>с%{A%} V-PERS-S2 ;
 
 %<imp%>%<p2%>%<sg%>: CLIT ;
@@ -604,8 +623,9 @@ LEXICON CALEX
 
 LEXICON COP-I
 
-%<cop%>%<ger5%>:%>кән POSS ;
-%<cop%>%<ifi%>:%>де V-PERS-S2 ;        
+и%<cop%>%<neg%>:түгел V-PERS-S3 ;
+и%<cop%>%<ger5%>:%>икән POSS ;
+и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;        
 
 LEXICON QSTLEX
 
@@ -627,10 +647,13 @@ LEXICON ABBR
 LEXICON Particles
 
 мы:мы QSTLEX ; ! ""
+!CLIT ;
+!CLIT-OTHER ;
 
 LEXICON Copula
 
-и:и COP-I ; ! ""
+!и:и COP-I ; ! ""
+COP-I ; ! ""
 
 LEXICON Conjunctions
 
@@ -661,7 +684,6 @@ LEXICON Postpositions
 буенча:буенча POSTLEX ; ! ""
 буйлап:буйлап POSTLEX ; ! ""
 буларак:буларак POSTLEX ; ! ""
-инде:инде POSTLEX ; ! ""
 карамагында:карамагында POSTLEX ; ! ""
 карамастан:карамастан POSTLEX ; ! ""
 каршы:каршы POSTLEX ; ! ""
@@ -1636,6 +1658,7 @@ LEXICON Nouns
 сынык:сынык NLEX ; ! ""
 сыра:сыра NLEX ; ! ""
 сырхауханә:сырхауханә NLEX ; ! ""
+таба:таба NLEX ; ! "pan" 
 табиб:табиб NLEX ; ! "" 
 табигать:табигать NLEX ; ! ""
 табын:табын NLEX ; ! ""
@@ -3083,6 +3106,12 @@ LEXICON Adjectives
 
 LEXICON Adverbs 
 
+кайда:кайда ADVITGLEX ; ! ""
+кайдан:кайдан ADVITGLEX ; ! ""
+кайчан:кайчан ADVITGLEX ; ! ""
+кая:кая ADVITGLEX ; ! ""
+ни% өчен:ни% өчен ADVITGLEX ; ! ""
+ничек:ничек ADVITGLEX ; ! ""
 һичкайчан:һичкайчан ADVLEX ; ! "never"
 
 аеруча:аеруча ADVLEX ; ! ""
@@ -3108,15 +3137,10 @@ LEXICON Adverbs
 вакытлыча:вакытлыча ADVLEX ; ! ""
 гадәттәгечә:гадәттәгечә ADVLEX ; ! ""
 диярлек:диярлек ADVLEX ; ! ""
+инде:инде ADVLEX ; ! ""
 иң:иң ADVLEX ; ! ""
-кайда:кайда ADVITGLEX ; ! ""
-кайдан:кайдан ADVITGLEX ; ! ""
-кайчан:кайчан ADVITGLEX ; ! ""
-кая:кая ADVITGLEX ; ! ""
 кичә:кичә ADVLEX ; ! ""
 моңача:моңача ADVLEX ; ! ""
-ни% өчен:ни% өчен ADVITGLEX ; ! ""
-ничек:ничек ADVITGLEX ; ! ""
 соң:соң ADVLEX ; ! ""
 сүзләренчә:сүзләренчә ADVLEX ; ! ""
 сөйләвенчә:сөйләвенчә ADVLEX ; ! ""
@@ -3148,8 +3172,6 @@ LEXICON Adverbs
 
 LEXICON Verbs
 
-!тап:тап V-TV-IR-LEX ; ! ""
-!уйна:уйна V-TV-IR-LEX ; ! ""
 аер:аер V-TV-IR-LEX ; ! ""
 акла:акла V-TV-IR-LEX ; ! ""
 активлаштыр:активлаштыр V-TV-IR-LEX ; ! ""
@@ -3282,10 +3304,8 @@ LEXICON Verbs
 исәплән:исәплән V-IV-IR-LEX ; ! ""
 ит:ит V-TV-AR-LEX ; ! ""
 ит:ит V-TV-IR-LEX ; ! ""
+иш:иш V-TV-IR-LEX ; ! ""
 ишет:ишет V-TV-IR-LEX ; ! ""
-ишет:ишет V-TV-IR-LEX ; ! ""
-ишет:ишет V-TV-IR-LEX ; ! ""
-йокла:йокла V-IV-IR-LEX ; ! ""
 йокла:йокла V-IV-IR-LEX ; ! ""
 йөгер:йөгер V-IV-IR-LEX ; ! ""
 йөр:йөр V-IV-IR-LEX ; ! ""
@@ -3341,6 +3361,7 @@ LEXICON Verbs
 күн:күн V-IV-AR-LEX ; ! ""
 күр:күр V-TV-NOPASS-IR-LEX ; ! ""
 күр:күрен V-TV-PASS-IR-LEX ; ! ""
+күрен:күрен V-IV-IR-LEX ; ! "FIXME: after fixing derivatives in kaz.lexc"
 күреп% кал:күреп% кал V-TV-IR-LEX ; ! ""
 күрсәт:күрсәт V-TV-IR-LEX ; ! ""
 күрсәт:күрсәт V-TV-IR-LEX ; ! ""
@@ -3553,16 +3574,21 @@ LEXICON Verbs
 
 !! Auxiliary verbs
 ал:ал VAUX ; ! ""
+башла:башла VAUX ; ! ""
 бет:бет VAUX ; ! ""
+бир:бир VAUX ; ! ""
+йөр:йөр VAUX ; ! ""
 кит:кит VAUX ; ! ""
+кил:кил VAUX ; ! ""
+чык:чык VAUX ; ! ""
 ят:ят VAUX ; ! ""
  
 LEXICON Interjections 
 
-әйе:әйе INTERJ ; 
-әлбәттә:әлбәттә INTERJ ; 
 димәк:димәк INTERJ ; 
 юк:юк INTERJ ; 
+әйе:әйе INTERJ ; 
+әлбәттә:әлбәттә INTERJ ; 
 
 LEXICON Abbreviations
 

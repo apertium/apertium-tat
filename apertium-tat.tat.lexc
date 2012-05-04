@@ -114,6 +114,7 @@ Multichar_Symbols
 
 !! Verbal adverbs - Хәл фигыльләр - Глаголные наречия 
 %<gna_cond%>       ! -с{A}   !# "... кайда икәнен белсә дә, әйтми..."
+%<gna9%>           ! -{I}п
 
 !! Gerunds - Исем фигыльләр
 %<ger%>            ! -{U}
@@ -426,8 +427,9 @@ V-FINITE-FORMS ;
 %<ger7%>:%>%{A%}ч%{A%}к POSS ;
 %<ger8%>:%>%{E%}с V-PERS-S4 ;
 
-! GNA's ("Verbal adverb"?)
-%<gna_cond%>:%>с%{A%} V-PERS-S2;   !# "...кайда икәнен белсә дә, әйтәсе килми..."
+! Verbal adverbs
+%<gna_cond%>:%>с%{A%} V-PERS-S2 ;   !# "...кайда икәнен белсә дә, әйтәсе килми..."
+%<gna9%>:%>%{I%}п CLIT ;
 
 %<cond%>:%>с%{A%} V-PERS-S2 ;
 
@@ -3049,6 +3051,7 @@ LEXICON Adjectives
 яшел:яшел A1 ; ! ""
 яшерен:яшерен A1 ; ! ""
 яшь:яшь A1 ; ! ""
+яшьлек:яшьлек A1 ; ! "after numerals: of ageX"
 яңа:яңа A1 ; ! ""
 яңа:яңа A1 ; ! ""
 җаваплы:җаваплы A1 ; ! ""

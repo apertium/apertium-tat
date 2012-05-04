@@ -90,7 +90,8 @@ Multichar_Symbols
 
 ! Numeral types
 %<ord%>            ! Ordinal
-%<part%>           ! Partitive !# берәр, икешәр
+%<coll%>           ! Collective  !# берәү, икәү
+%<part%>           ! Partitive   !# берәр, икешәр
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative
@@ -273,6 +274,10 @@ LEXICON NUMLEX
 %<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ; 
 %<num%>%<part%>:%>%{A%}р SUBST ; 
+
+LEXICON NUM-COLL
+
+%<num%>%<coll%>: # ;
 
 LEXICON NPCOGMLEX
 
@@ -496,7 +501,7 @@ LEXICON VAUX
 
 %<vaux%>: V-COMMON-LEX ;
 
-!!!!!!!!!!!!!!!!!!!!!!     PRONOUNS
+!!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
 LEXICON PRNLEX-PERS
 
@@ -791,6 +796,16 @@ LEXICON Numerals
 түмән:түмән NUMLEX ; ! Dir/LR !"archaic for 10 000"
 миллион:миллион NUMLEX ; ! ""
 миллиард:миллиард NUMLEX ; ! ""
+
+биш:бишәү NUM-COLL ;           
+ике:икәү NUM-COLL ;
+өч:өчәү NUM-COLL ;
+дүрт:дүртәү NUM-COLL ;
+биш:бишәү NUM-COLL ;
+
+! Technically this goes on to higher numbers  !! FIXME:DISCUSS: maybe we'll start derive them from the basic numerals
+! but its use beyond 5(?) is rare
+! and is of questionable grammaticality
 
 LEXICON Nouns 
 

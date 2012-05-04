@@ -571,6 +571,16 @@ LEXICON PRNDEM-ŠUL
 %<prn%>%<dem%>%<abl%>:шуннан # ;
 %<prn%>%<dem%>%<pl%>:шул%>%{L%}%{A%}р CASE ;
 
+LEXICON PRNDEM-UL                              ! FIXME: refactor this, link all remaining prn.dem to one cont. class
+
+%<prn%>%<dem%>%<nom%>:ул # ; 
+%<prn%>%<dem%>%<gen%>:аның # ; 
+%<prn%>%<dem%>%<dat%>:аңа # ;
+%<prn%>%<dem%>%<acc%>:аны # ; 
+%<prn%>%<dem%>%<loc%>:анда # ; 
+%<prn%>%<dem%>%<abl%>:аннан # ;
+%<prn%>%<dem%>%<pl%>:алар CASE ;
+
 LEXICON PRNITGLEX
 
 %<prn%>%<itg%>: POSS ; 
@@ -704,6 +714,7 @@ LEXICON Postpositions
 өчен:өчен POSTLEX ; ! ""
 
 LEXICON Postadverbs
+
 да:%~да POSTADVLEX ; ! ""     Dir/RL
 да:да POSTADVLEX ; ! ""       Dir/LR
 да:дә POSTADVLEX ; ! ""       Dir/LR
@@ -727,6 +738,7 @@ PRNLEX-PERS ;
 
 бу: PRNDEM-BU ; ! ""
 шул: PRNDEM-ŠUL ; ! ""
+ул: PRNDEM-UL ; ! ""
 шушы:шушы PRNDEMLEX ; ! ""     !FIXME: these share the same endings with "бу", see мо-ңа <> шушы-ңа
 теге:теге PRNDEMLEX ; ! ""     !теге-ңә (exceptional case endings in singular)
                                !TODO:maybe it is possible to link all PRNDEMs to one Continuation class?

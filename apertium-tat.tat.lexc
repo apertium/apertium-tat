@@ -433,7 +433,7 @@ V-FINITE-FORMS ;
 %<ger8%>:%>%{E%}с V-PERS-S4 ;
 
 ! Verbal adverbs
-%<gna_cond%>:%>с%{A%} V-PERS-S2 ;   !# "...кайда икәнен белсә дә, әйтәсе килми..."
+%<gna_cond%>:%>с%{A%} V-PERS-S2 ;   !# "...кайда икәнен _белсә_ дә, әйтәсе килми..."
 %<gna9%>:%>%{I%}п CLIT ;
 
 %<cond%>:%>с%{A%} V-PERS-S2 ;
@@ -500,6 +500,7 @@ V-COMMON-PASSIVE ;
 LEXICON VAUX
 
 %<vaux%>: V-COMMON-LEX ;
+%<vaux%>%<neg%>:%>м%{A%} V-COMMON-LEX ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 

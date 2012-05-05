@@ -109,6 +109,9 @@ Multichar_Symbols
 %<fut%>            ! -{I}р
 %<ifi%>            ! -{D}{I} 
 
+! Non-Finite verb forms ! WARNING: Number part of the tags is subject to change :)
+                        ! Stay up-to-date
+
 !! Participles
 %<prc_impf%>       ! -{E}   !# ул _уйный_ алмады; мин _килә_ алмадым
 %<prc2%>           ! -{I}п  !# "_Йоклап_ яткан мәче авызына тычкан үзе _килеп_ керми."
@@ -133,7 +136,7 @@ Multichar_Symbols
 %<inf%>            ! Infinitive! Инфинитив ! -{A/I}рг{A}
 
 !!! the next will be removed soon; kept to let others know about changes
-%<ger2%>           ! -{I}п !TOREMOVE: This was replaced with prc2 and gna9; turned off 
+%<ger2%>           ! -{I}п !WARNING: This was replaced with prc2 and gna9; turned off 
 
 ! Transitivity ! Переходность
 %<tv%>             ! Transitive
@@ -382,7 +385,6 @@ LEXICON V-PERS-S3-NO1SG
 LEXICON V-PERS-S3
 
 %<p1%>%<sg%>:%>м%{I%}н CLIT ;
-
 V-PERS-S3-NO1SG ; 
 
 LEXICON V-PERS-S4 ! Volition endings
@@ -427,21 +429,20 @@ LEXICON V-COMMON-LEX
 
 V-FINITE-FORMS ; 
 
-! Participles  !! Number part of the tags is subject to change :)
-               !! Stay up-to-date
-
+! Participles
 %<prc2%>:%>%{I%}п # ; 
 %<prc_impf%>:%>%{E%} # ; 
 
 ! Gerunds
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ; 
-!%<ger2%>:%>%{I%}п POSS ; 
 %<ger3%>:%>%{G%}%{A%}ч SUBST ; 
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS ; 
 %<ger5%>:%>%{G%}%{A%}н POSS ;
 %<ger7%>:%>%{A%}ч%{A%}к POSS ;
 %<ger8%>:%>%{E%}с V-PERS-S4 ;
+!! TO REMOVE
+!%<ger2%>:%>%{I%}п POSS ; 
 
 ! Verbal adverbs
 %<gna_cond%>:%>с%{A%} V-PERS-S2 ;   !# "...кайда икәнен _белсә_ дә, әйтәсе килми..."
@@ -460,14 +461,12 @@ LEXICON V-COMMON-PASSIVE
 LEXICON V-NEG
 %<neg%>:%>м%{A%} V-COMMON-LEX ;
 %<neg%>%<ger2%>:%>м%{A%}%>%{E%}%>ч%{A%} POSS ;
- 
 V-COMMON-LEX ; 
 
 LEXICON V-DER
 
 %<caus%>:%>%{I%}т V-NEG ;
 %<coop%>:%>%{I%}ш V-NEG ;
-
 V-NEG ;
 
 LEXICON V-IV-IR-LEX
@@ -514,6 +513,14 @@ LEXICON VAUX
 
 %<vaux%>: V-COMMON-LEX ;
 %<vaux%>%<neg%>:%>м%{A%} V-COMMON-LEX ;
+
+!!!!!!!!!!!!!!!!!!!!!!     copula
+
+LEXICON COP-I
+
+и%<cop%>%<neg%>:түгел V-PERS-S3 ;
+и%<cop%>%<ger5%>:%>икән POSS ;
+и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;        
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
@@ -653,12 +660,6 @@ LEXICON CCLEX
 LEXICON CALEX
 
 %<cnjadv%>: # ; 
-
-LEXICON COP-I
-
-и%<cop%>%<neg%>:түгел V-PERS-S3 ;
-и%<cop%>%<ger5%>:%>икән POSS ;
-и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;        
 
 LEXICON QSTLEX
 

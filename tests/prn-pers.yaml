@@ -1,0 +1,69 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tat.autogen.hfst
+    Morph:  ../tat.automorf.hfst
+
+Tests: 
+
+"[lexc] personal pronouns morphonology": 
+
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>  : мин 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<gen%> : минем 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<dat%> : миңа 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<acc%> : мине 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%> : миндә 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<abl%> : миннән 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<px%> : минеке 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>%<attr%> : миндәге 
+
+син%<prn%>%<pers%>%<p2%>%<sg%>%<nom%> : син 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<gen%> : синең 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<dat%> : сиңа 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<acc%> : сине 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%> : синдә 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<abl%> : синнән 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<px%> : синеке 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>%<attr%> : синдәге 
+
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<nom%> : ул 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<gen%> : аның 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%> : аңа 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%> : аңар Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%> : аңарга Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<acc%> : аны 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%> : анда    
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%> : аңарда Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%> : аннан  
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%> : аңардан Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<px%> : аныкы 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>%<attr%> : андагы 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>%<attr%> : аңардагы Dir/LR 
+
+без%<prn%>%<pers%>%<p1%>%<pl%>%<nom%> : без 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<gen%> : безнең 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<dat%> : безгә 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<acc%> : безне 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<loc%> : бездә 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<abl%> : бездән 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<px%> : безнеке 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>%<attr%> : бездәге 
+
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<nom%> : сез 
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<gen%> : сезнең 
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<dat%> : сезгә 
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<acc%> : сезне 
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<loc%> : сездә 
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<abl%> : сездән 
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<px%> : сезнеке
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>%<attr%> : сездәге 
+
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<nom%> : алар 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<gen%> : аларның 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<dat%> : аларга 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<acc%> : аларны 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<loc%> : аларда 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<abl%> : алардан 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<px%> : аларныкы 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>%<attr%> : алардагы 
+

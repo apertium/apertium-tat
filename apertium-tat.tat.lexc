@@ -206,6 +206,23 @@ Interjections ;
 Abbreviations ; 
 Punctuation ; 
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON SUBST
+
+N-INFL-COMMON ; 
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+
+! NOTE: Some substantivized things might not have pl. form, numerals e.g. 
+! (not too sure, because in Tatar they have it: 
+! #1 <11 ones meaning pupils from a given class: # өчләр = "pupils from the 3. class" 
+! #2 "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
+!
+! If they don't have pl. form; link them to N-INFL-COMMON; if they do - to SUBST.
+!                                                                     /I.S./
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 !!!!!!!!!!!!!!!!!!!!!!     CLITICS
 
 LEXICON CLIT-OTHER            !FIXME:DISCUSS: make from this a separate clitics class for verbs
@@ -222,17 +239,35 @@ LEXICON CLIT
 CLIT-OTHER ;
 # ;
 
-!!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION
+!!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 
+! The following combinations are possible:
+!
+! stem > case                                        : әти<nom> : әтине<acc>
+!
+! stem > poss-real > case                            : әтием<px1sg><nom> : әтиемне<px1sg><acc>
+! stem > poss-real > ныкы/дагы/дай(*1)               : әтиемнеке/китабындагы,өегездәге/әтиемдәй
+! stem > poss-real > ныкы/дагы > case                : Монда _эчеңдәгене_ тышка чыгарырга ярамый. (источник: musulman.su) 
+! stem > poss-real > [ныкы]/дагы > poss-real > case  : _Эчендәгесе_(*3) – тышында, диләр андый кешеләр турында. (источник: beznen.ru)
+!
+! stem > ныкы/дагы/дай                               : әтинеке/әтидәге/әтидәй
+! stem > ныкы/дагы(*2) > case                        : Бу соңгы _еллардагының_ өчтән икесе чамасы.
+!
+! *1. "ныкы" form in some Tatar grammars is called "predicative genitive".
+!     Indeed, when not substantivized, it has predicative use:
+!     "Бу яулык әнинеке." (vs "Әнинең яулыгы.")
+! *2. "дай" is considered to be an adverbializer, so no case endings after it (=no <subst> reading).
+! *3. This doesn't work atm (it's recursive), but it doesn't seem to be very frequent also;
+!     Most likely it is restricted to px3sp.
+ 
 LEXICON CASE 
 
 %<nom%>: CLIT ;               ! - - -
 %<gen%>:%>н%{I%}ң CLIT ;      ! -ның/-нең
-%<dat%>:%>%{G%}%{A%} CLIT ;   ! -га/-гә, -ка/-кә           ! -а/-ә in nouns with possessives in singular (see below)
+%<dat%>:%>%{G%}%{A%} CLIT ;   ! -га/-гә, -ка/-кә    ! -а/-ә in nouns with possessives in singular (see below)
 %<acc%>:%>н%{I%} CLIT ;	      ! -ны/-не
 %<abl%>:%>%{D%}%{A%}н CLIT ;  ! -дан/-дән, -тан/-тән, -нан/нән 
 %<loc%>:%>%{D%}%{A%} CLIT ;   ! -да/-дә, -та/-тә
-%<loc%>%<attr%>:%>%{D%}%{A%}г%{I%} CLIT ;   ! -дагы/-дәге, -тагы/-тәге
 
 !! китап
 !! китапның
@@ -241,42 +276,51 @@ LEXICON CASE
 !! китаптан
 !! китапта
 
+LEXICON ADJ-DAGI
+
+%<subst%>: CASE ; 
+%<attr%>: CLIT ;
+
+LEXICON GENPOSS-ETC
+
+%<px%>:%>н%{I%}к%{I%}%{n%} CASE ;        ! -ныкы/-неке
+%<loc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;    ! -дагы/-дәге, -тагы/-тәге
+%<sim%>:%>%{D%}%{A%}й CLIT ;             ! -дай/-дәй, -тай/-тәй       
+
+LEXICON CASE-ETC
+CASE ;
+GENPOSS-ETC ;
+  
 LEXICON POSS-REAL
 
-%<px1sg%>:%>%{I%}м CASE ;                 ! -ым/-ем, -м
-%<px2sg%>:%>%{I%}ң CASE ;                 ! -ың/-ең, -ң
-%<px3sp%>:%>%{s%}%{I%}%{n%} CASE ;        ! -ы/е, -сы/-се
-%<px1pl%>:%>%{I%}б%{I%}з CASE ;           ! -ыбыз/-ебез, -быз/-без
-%<px2pl%>:%>%{I%}%{G%}%{I%}з CASE ;       ! -ыгыз/-егез, -гыз/-гез
+%<px1sg%>:%>%{I%}м CASE-ETC ;                 ! -ым/-ем, -м
+%<px2sg%>:%>%{I%}ң CASE-ETC ;                 ! -ың/-ең, -ң
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASE-ETC ;        ! -ы/е, -сы/-се
+%<px1pl%>:%>%{I%}б%{I%}з CASE-ETC ;           ! -ыбыз/-ебез, -быз/-без
+%<px2pl%>:%>%{I%}%{G%}%{I%}з CASE-ETC ;       ! -ыгыз/-егез, -гыз/-гез
 
-CASE ;
+CASE-ETC ; ! FIXME:NOTE:! this was temporarily put here because some gerunds and pronouns are linked
+                        ! to POSS-REAL. They should be linked to SUBST actually (and they will) /I.S./ 
 
 ! In dative nouns with <px1sg> <px2sg> and <px3sp> gets an "-a" ending instead of "-га/-гә, -ка/-кә"
 ! In nouns with <px3sp> there is an enclitic "н" in most cases  
 !! китабым      китабың	        китабы
 !! китабымның   китабыңның      китабының
 !! китабыма!    китабыңа!       китабы-н-а!     
-!! китабымны    китабыңны       китабы-н           ! китабы-н-ы is an old form. Only in poetry :)
+!! китабымны    китабыңны       китабы-н      ! китабы-н-ы is an old form. Only in poetry :)
 !! китабымнан   китабыңнан      китабы-н-нан
 !! китабымда    китабыңда       китабы-н-да
 
-LEXICON POSS
-
-%<px%>:%>н%{I%}к%{I%}%{n%} CASE ;       !! -ныкы/-неке in Tatar   !! FIXME: this can appear after possessives too
-                                                                  !! e.g. бала-лар-ым-ныкы "of my children"
+LEXICON N-INFL-COMMON 
 POSS-REAL ;
+CASE-ETC ;
 
-LEXICON SUBST
-
-%<pl%>:%>%{L%}%{A%}р POSS ;
-POSS ; 
+!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (beginning)
 
 LEXICON NLEX
 
 %<n%>%<attr%>: # ; 
 %<n%>: SUBST ;
-
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (beginning)
 
 LEXICON DIGITLEX
 
@@ -405,9 +449,9 @@ LEXICON V-FUT-IR
 %<neg%>%<fut%>:%>м%{A%}с V-PERS-S3-NO1SG ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR 
-%<ger6%>:%>%{I%}р POSS ;
+%<ger6%>:%>%{I%}р POSS-REAL ;
 %<inf%>:%>%{I%}рг%{A%} # ;
-%<neg%>%<ger6%>:%>м%{A%}%>%{I%}р POSS ;
+%<neg%>%<ger6%>:%>м%{A%}%>%{I%}р POSS-REAL ;
 
 LEXICON V-FUT-AR
 
@@ -415,9 +459,9 @@ LEXICON V-FUT-AR
 %<neg%>%<fut%>:%>м%{A%}с V-PERS-S3 ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR 
-%<ger6%>:%>%{A%}р POSS ;
+%<ger6%>:%>%{A%}р POSS-REAL ;
 %<inf%>:%>%{A%}рг%{A%} # ;
-%<neg%>%<ger6%>:%>м%{A%}%>%{A%}р POSS ;
+%<neg%>%<ger6%>:%>м%{A%}%>%{A%}р POSS-REAL ;
 
 LEXICON V-FINITE-FORMS
 
@@ -434,15 +478,15 @@ V-FINITE-FORMS ;
 %<prc_impf%>:%>%{E%} # ; 
 
 ! Gerunds
-%<ger%>:%>%{U%} POSS ;
-%<ger1%>:%>м%{A%}%{K%} POSS ; 
+%<ger%>:%>%{U%} POSS-REAL ;
+%<ger1%>:%>м%{A%}%{K%} POSS-REAL ; 
 %<ger3%>:%>%{G%}%{A%}ч SUBST ; 
-%<ger4%>:%>%{G%}%{A%}нч%{I%} POSS ; 
-%<ger5%>:%>%{G%}%{A%}н POSS ;
-%<ger7%>:%>%{A%}ч%{A%}к POSS ;
+%<ger4%>:%>%{G%}%{A%}нч%{I%} POSS-REAL ; 
+%<ger5%>:%>%{G%}%{A%}н POSS-REAL ;
+%<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;
 %<ger8%>:%>%{E%}с V-PERS-S4 ;
 !! TO REMOVE
-!%<ger2%>:%>%{I%}п POSS ; 
+!%<ger2%>:%>%{I%}п POSS-REAL ; 
 
 ! Verbal adverbs
 %<gna_cond%>:%>с%{A%} V-PERS-S2 ;   !# "...кайда икәнен _белсә_ дә, әйтәсе килми..."
@@ -460,7 +504,7 @@ LEXICON V-COMMON-PASSIVE
 
 LEXICON V-NEG
 %<neg%>:%>м%{A%} V-COMMON-LEX ;
-%<neg%>%<ger2%>:%>м%{A%}%>%{E%}%>ч%{A%} POSS ;
+%<neg%>%<ger2%>:%>м%{A%}%>%{E%}%>ч%{A%} POSS-REAL ;
 V-COMMON-LEX ; 
 
 LEXICON V-DER
@@ -519,7 +563,7 @@ LEXICON VAUX
 LEXICON COP-I
 
 и%<cop%>%<neg%>:түгел V-PERS-S3 ;
-и%<cop%>%<ger5%>:%>икән POSS ;
+и%<cop%>%<ger5%>:%>икән POSS-REAL ;
 и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;        
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
@@ -611,7 +655,7 @@ LEXICON PRNDEM-UL                     ! FIXME: refactor this, link all remaining
 
 LEXICON PRNITGLEX
 
-%<prn%>%<itg%>: POSS ; 
+%<prn%>%<itg%>: POSS-REAL ; 
 
 LEXICON PRNDEMLEX
 
@@ -624,7 +668,7 @@ LEXICON PRNNEG
 
 LEXICON PRNREFLEX
 
-%<prn%>%<ref%>: POSS ; 
+%<prn%>%<ref%>: POSS-REAL ; 
 
 !!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (end)
 

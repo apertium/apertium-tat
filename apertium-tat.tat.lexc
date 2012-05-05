@@ -95,7 +95,7 @@ Multichar_Symbols
 ! Numeral types
 %<ord%>            ! Ordinal
 %<coll%>           ! Collective  !# берәү, икәү
-%<part%>           ! Partitive   !# берәр, икешәр
+%<dist%>           ! Distibutive !# берәр, икешәр
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative

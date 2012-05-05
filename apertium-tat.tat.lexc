@@ -508,6 +508,8 @@ LEXICON V-TV-AR-LEX
 %<v%>%<tv%>: V-DER; 
 V-COMMON-PASSIVE ;
 
+!!!!!!!!!!!!!!!!!!!!!!     auxiliary verbs
+
 LEXICON VAUX
 
 %<vaux%>: V-COMMON-LEX ;

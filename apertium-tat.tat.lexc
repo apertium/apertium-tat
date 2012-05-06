@@ -115,6 +115,7 @@ Multichar_Symbols
 !! Participles
 %<prc_impf%>       ! -{E}   !# ул _уйный_ алмады; мин _килә_ алмадым
 %<prc2%>           ! -{I}п  !# "_Йоклап_ яткан мәче авызына тычкан үзе _килеп_ керми."
+%<prc_vol%>        ! volition participle <pres><p3><sg>-с{I}-volition_endings  !# укый-сы-м килә, укый-сы-быз килә
 
 !! Verbal adverbs - Хәл фигыльләр - Глаголные наречия 
 %<gna_cond%>       ! -с{A}  !# "...кайда икәнен _белсә_ дә, әйтми..."
@@ -132,11 +133,11 @@ Multichar_Symbols
 %<ger6%>           ! -{I}р / -{A}р
 %<ger7%>           ! -{A}ч{A}к
 %<ger8%>           ! -{E}с
-%<vol%>            ! <pres><p3><sg>-с{I}-volition_endings  !# укый-сы-м килә, укый-сы-быз килә
 %<inf%>            ! Infinitive! Инфинитив ! -{A/I}рг{A}
 
 !!! the next will be removed soon; kept to let others know about changes
 %<ger2%>           ! -{I}п !WARNING: This was replaced with prc2 and gna9; turned off 
+%<vol%>            ! !WARNING: This was replaced with prc_vol
 
 ! Transitivity ! Переходность
 %<tv%>             ! Transitive
@@ -433,12 +434,21 @@ V-PERS-S3-NO1SG ;
 
 LEXICON V-PERS-S4 ! Volition endings
 
-%<p1%>%<sg%>:%>м%{I%}н CLIT ;
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
-%<p3%>%<sg%>:%> CLIT ;
-%<p1%>%<pl%>:%>б%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}г%{I%}з CLIT ;
-%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
+%<p1%>%<sg%>:м CLIT ;
+%<p2%>%<sg%>:ң CLIT ;
+%<p3%>%<sg%>: CLIT ;
+%<p1%>%<pl%>:б%{I%}з CLIT ;
+%<p2%>%<pl%>:г%{I%}з CLIT ;
+%<p3%>%<pl%>:%{L%}%{A%}р%{I%} CLIT ;
+
+!LEXICON V-PERS-S4 ! Volition endings
+
+!%<p1%>%<sg%>:%>м%{I%}н CLIT ;
+!%<p2%>%<sg%>:%>с%{I%}ң CLIT ;
+!%<p3%>%<sg%>:%> CLIT ;
+!%<p1%>%<pl%>:%>б%{I%}з CLIT ;
+!%<p2%>%<pl%>:%>с%{I%}г%{I%}з CLIT ;
+!%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
 LEXICON V-FUT-IR
 !! verbs that get -рга/-ргә ending should be also put here,
@@ -476,6 +486,7 @@ V-FINITE-FORMS ;
 ! Participles
 %<prc2%>:%>%{I%}п # ; 
 %<prc_impf%>:%>%{E%} # ; 
+%<prc_vol%>:%>%{E%}с%{I%} V-PERS-S4 ; 
 
 ! Gerunds
 %<ger%>:%>%{U%} POSS-REAL ;
@@ -484,9 +495,9 @@ V-FINITE-FORMS ;
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS-REAL ; 
 %<ger5%>:%>%{G%}%{A%}н POSS-REAL ;
 %<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;
-%<ger8%>:%>%{E%}с V-PERS-S4 ;
 !! TO REMOVE
 !%<ger2%>:%>%{I%}п POSS-REAL ; 
+!%<ger8%>:%>%{E%}с V-PERS-S4 ;
 
 ! Verbal adverbs
 %<gna_cond%>:%>с%{A%} V-PERS-S2 ;   !# "...кайда икәнен _белсә_ дә, әйтәсе килми..."

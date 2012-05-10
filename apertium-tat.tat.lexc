@@ -172,15 +172,16 @@ Multichar_Symbols
 %{A%}              ! Realised as 'a', 'ә' 
 %{E%}              ! Realised as
 
-%{s%}              ! Realised as
-%{n%}              ! Realised as
-%{j%}              ! Realised as
+%{s%}              ! Realised as 'с' in <px3> after vowel, 0 otherwise
+%{n%}              ! Realised as 'н' in <px3> before certain cases, 0 otherwise
+%{j%}              ! Realised as (maybe not needed; let's see)
 %{w%}              ! Realised as
 %{l%}              ! Realised as
 %{U%}              ! Realised as у, ү, в
 %{ъ%}              ! disappears and makes back harmony
 %{д%}              ! Realised as д before vowels, 0 otherwise
 %{т%}              ! Realised as т before vowels, 0 otherwise
+%{е%}              ! Realised as е/ы in some contexts, 0 otherwise
 
 %>                 ! Morpheme boundary
 
@@ -1820,7 +1821,8 @@ LEXICON Nouns
 сентябрь:сентябрь NLEX ; ! ""
 сер:сер NLEX ; ! ""
 сержант:сержант NLEX ; ! ""
-сеңел:сеңел NLEX ; ! "" ! Dir/LR
+%сеңел:сеңел NLEX ; ! "" ! Dir/LR
+сеңел:сең%{е%}л%{e%} NLEX ; ! "" ! Dir/LR
 сигарет:сигарет NLEX ; ! ""
 сизем:сизем NLEX ; ! ""
 сизү:сизү NLEX ; ! ""
@@ -2061,12 +2063,10 @@ LEXICON Nouns
 урта:урта NLEX ; ! ""
 урталык:урталык NLEX ; ! ""
 урын-җир:урын-җир NLEX ; ! ""
-урын:урын NLEX ; ! ""
-урын:урын NLEX ; ! "" 
+урын:ур%{е%}н NLEX ; ! ""
 урынбасар:урынбасар NLEX ; ! ""
 урындык:урындык NLEX ; ! ""
-урыс:урыс NLEX ; ! ""
-урыс:урыс NLEX ; ! ""
+урыс:урыс NLEX ; ! "Russian"   ! FIXME: should be in Nationalities
 усаллык:усаллык NLEX ; ! ""
 ут:ут NLEX ; ! "" 
 ут:ут NLEX ; ! "" 

@@ -8,7 +8,7 @@ Alphabet
 
  %{L%}:л %{G%}:г %{D%}:д %{K%}:к
 
- %{s%}:с %{j%}:0 %{w%}:0 %{n%}:0 %{l%}:л %{ъ%}:0 %{т%}:0 %{д%}:0
+ %{s%}:с %{j%}:0 %{w%}:0 %{n%}:0 %{l%}:л %{ъ%}:0 %{т%}:0 %{д%}:0 %{е%}:ы
 
  %>:0 %  ; 
 
@@ -67,6 +67,15 @@ Rules
                              [ :и :я :Cns* :Cns ]/[ %>: | %  | :0 ] _ ;
             except
                                                      %{n%}: %>: н:0 _ .#. ;
+
+"Epenthetic {e} Vowel Harmony"
+%{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}: ] ] _ ;
+            except
+                              _ :Cns [ %>: | :0 ]* :Cns ;
+
+
+"Epenthetic {е} Deletion"
+%{е%}:0 <=> _ :Cns [ %>: | :0 ]* :Cns ;
 
 "Plural alternation after nasal"
 %{L%}:н <=> :NasalCns/[ %>: | :0 ] _ %{A%}: р ; 

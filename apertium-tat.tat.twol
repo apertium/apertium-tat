@@ -71,11 +71,11 @@ Rules
 "Epenthetic {e} Vowel Harmony"
 %{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}: ] ] _ ;
             except
-                              _ :Cns [ %>: | :0 ]* :Cns ;
+                              _ :Cns %>: :0* :Vow ;
 
 
 "Epenthetic {е} Deletion"
-%{е%}:0 <=> _ :Cns [ %>: | :0 ]* :Cns ;
+%{е%}:0 <=> _ :Cns %>: :0* :Vow ;
 
 "Plural alternation after nasal"
 %{L%}:н <=> :NasalCns/[ %>: | :0 ] _ %{A%}: р ; 

@@ -6,18 +6,47 @@ Config:
 
 Tests: 
 
-  "[twol] basic epenthesis stuff": 
+  "[twol] basic epenthesis stuff (works. FAIL's only because direction restrictions)": 
     урын<n><nom> : урын
-    урын<n><px3sp><nom> : урны
-    урын<n><abl> : урыннан
-    урын<n><px3sp><abl> : урныннан
+    урын<n><gen> : урынның
     урын<n><dat> : урынга
+    урын<n><acc> : урынны
+    урын<n><abl> : урыннан
+    урын<n><loc> : урында
+
+    урын<n><px3sp><nom> : урны
+    урын<n><px3sp><nom> : урыны
+    урын<n><px3sp><abl> : урныннан
     урын<n><px3sp><dat> : урнына
 
   "[twol] special epenthesis stuff":
     сеңел<n><nom> : сеңел
-    сеңел<n><px3sp><nom> : сеңлесе
-    сеңел<n><abl> : сеңелдән
-    сеңел<n><px3sp><abl> : сеңлесеннән
+    сеңел<n><gen> : сеңелнең
     сеңел<n><dat> : сеңелгә
+    сеңел<n><acc> : сеңелне
+    сеңел<n><abl> : сеңелдән
+    сеңел<n><loc> : сеңелдә
+
+    сеңел<n><px1sg><nom> : сеңлем
+    сеңел<n><px1sg><gen> : сеңлемнең
+    сеңел<n><px1sg><dat> : сеңлемә
+    сеңел<n><px1sg><acc> : сеңлемне
+    сеңел<n><px1sg><abl> : сеңлемнән
+    сеңел<n><px1sg><loc> : сеңлемдә
+
+    сеңел<n><px2sg><nom> : сеңлең
+    сеңел<n><px2sg><gen> : сеңлеңнең
+    сеңел<n><px2sg><dat> : сеңлеңә
+    сеңел<n><px2sg><acc> : сеңлеңне
+    сеңел<n><px2sg><abl> : сеңлеңнән
+    сеңел<n><px2sg><loc> : сеңлеңдә
+
+    сеңел<n><px3sp><nom> : сеңлесе
+    сеңел<n><px3sp><gen> : сеңлесенең
     сеңел<n><px3sp><dat> : сеңлесенә
+    сеңел<n><px3sp><acc> : сеңлесен
+    сеңел<n><px3sp><abl> : сеңлесеннән
+    сеңел<n><px3sp><loc> : сеңлесендә
+
+    сеңел<n><px1pl><nom> : сеңлебез
+

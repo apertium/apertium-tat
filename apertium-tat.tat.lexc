@@ -2063,7 +2063,8 @@ LEXICON Nouns
 урта:урта NLEX ; ! ""
 урталык:урталык NLEX ; ! ""
 урын-җир:урын-җир NLEX ; ! ""
-урын:ур%{е%}н NLEX ; ! ""
+урын:ур%{е%}н NLEX ; ! "" ! Dir/LR ! Spelling with 'ы' turned out to be a norm. And it is much more frequent 
+урын:урын NLEX ; ! ""              ! in the corpus. But the opposite is true for "халык, холык"  /I.S./     
 урынбасар:урынбасар NLEX ; ! ""
 урындык:урындык NLEX ; ! ""
 урыс:урыс NLEX ; ! "Russian"   ! FIXME: should be in Nationalities
@@ -2116,8 +2117,8 @@ LEXICON Nouns
 хакимлек:хакимлек NLEX ; ! "" 
 хакыйкать:хакыйкать NLEX ; ! "" 
 халык% төркеме:халык% төркеме NLEX ; ! ""
-халык:халык NLEX ; ! ""
-халык:халык NLEX ; ! ""
+халык:хал%{e%}к NLEX ; ! ""
+халык:халык NLEX ; ! "" ! Dir/LR
 халәт:халәт NLEX ; ! "" 
 ханым:ханым NLEX ; ! ""
 характер:характер NLEX ; ! ""
@@ -2143,7 +2144,8 @@ LEXICON Nouns
 хис:хис  NLEX ; ! ""
 хис:хис NLEX ; ! "" 
 хокук:хокук NLEX ; ! "" 
-холык:холык NLEX ; ! ""
+холык:хол%{e%}к NLEX ; ! ""
+холык:холык NLEX ; ! "" ! Dir/LR
 художество:художество NLEX ; ! ""
 хуҗа% хатын:хуҗа% хатын NLEX ; ! ""
 хуҗа:хуҗа NLEX ; ! "" 

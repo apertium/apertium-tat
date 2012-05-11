@@ -12,4 +12,5 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
+tests/epenthesis.yaml -text
 tests/prn-pers.yaml -text

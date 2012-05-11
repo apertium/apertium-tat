@@ -70,12 +70,21 @@ Rules
 
 "Epenthetic {e} Vowel Harmony"
 %{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}: ] ] _ ;
+            [ :FrontVow :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}: ] ] _ %>: %{s%}: ;
             except
                               _ :Cns %>: :0* :Vow ;
+                              _ :Cns %{е%}: %>: %{s%}: ;
+                              _ .#. ;
+                              _ %>: [ :* - %{s%}: ] ;
 
 
 "Epenthetic {е} Deletion"
-%{е%}:0 <=> _ :Cns %>: :0* :Vow ;
+%{е%}:0 <=> _ :Cns %>: :0* :Vow ;         ! ур{e}н%>{s}{I}{n}:урны
+            _ :Cns %{е%}: %>: %{s%}: ;    ! сең{е}л{е}%>{s}{I}{n}:сеңлесе
+            _ .#. ;                       ! сең{е}л{е}:сеңел
+            _ %>: [ :* - %{s%}:] ;        ! сең{е}л{е}%>{G}{A}:сеңелгә
+        except
+            _ %>: %{s%}: ;
 
 "Plural alternation after nasal"
 %{L%}:н <=> :NasalCns/[ %>: | :0 ] _ %{A%}: р ; 
@@ -83,6 +92,8 @@ Rules
 "Deletion of {s} after a consonant"
 %{s%}:0 <=> [ :Cns | %{j%}:0 | %{w%}:0 ]/[ %>: | :0 ] _ ;
 !               [ ю: | у: | ү: | %{U%}: ]/[ %>: | :0 ] _ ;
+            except
+                     %{е%}: %>: _ ;
 
 
 "Voicing of к/п"

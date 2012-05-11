@@ -1,0 +1,23 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tat.autogen.hfst
+    Morph:  ../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] basic epenthesis stuff": 
+    урын<n><nom> : урын
+    урын<n><px3sp><nom> : урны
+    урын<n><abl> : урыннан
+    урын<n><px3sp><abl> : урныннан
+    урын<n><dat> : урынга
+    урын<n><px3sp><dat> : урнына
+
+  "[twol] special epenthesis stuff":
+    сеңел<n><nom> : сеңел
+    сеңел<n><px3sp><nom> : сеңлесе
+    сеңел<n><abl> : сеңелдән
+    сеңел<n><px3sp><abl> : сеңлесеннән
+    сеңел<n><dat> : сеңелгә
+    сеңел<n><px3sp><dat> : сеңлесенә

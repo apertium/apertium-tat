@@ -2118,7 +2118,7 @@ LEXICON Nouns
 хакыйкать:хакыйкать NLEX ; ! "" 
 халык% төркеме:халык% төркеме NLEX ; ! ""
 халык:хал%{е%}к NLEX ; ! ""
-халык:халык NLEX ; ! "" ! Dir/LR
+халык:халык NLEX ; ! "" ! Dir/LR ! FIXME: TOREMOVE (forms of this are either archaic or just wrongly spelled. But I have to check it once more on the corpus) /I.S./
 халәт:халәт NLEX ; ! "" 
 ханым:ханым NLEX ; ! ""
 характер:характер NLEX ; ! ""

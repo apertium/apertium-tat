@@ -1,0 +1,90 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tat.autogen.hfst
+    Morph:  ../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] basic epenthesis stuff !WORKS! (the spelling of forms below is basically incorrect, but they are frequent enough to add /ур{е}н/ with LR restriction)": 
+
+    урын<n><px1sg><nom> : урным
+    урын<n><px1sg><gen> : урнымның
+    урын<n><px1sg><dat> : урныма
+    урын<n><px1sg><acc> : урнымны
+    урын<n><px1sg><abl> : урнымнан
+    урын<n><px1sg><loc> : урнымда
+    урын<n><px1sg><px><nom> : урнымныкы
+
+    урын<n><px2sg><nom> : урның
+    урын<n><px2sg><gen> : урныңның
+    урын<n><px2sg><dat> : урныңа
+    урын<n><px2sg><acc> : урныңны
+    урын<n><px2sg><abl> : урныңнан
+    урын<n><px2sg><loc> : урныңда
+    урын<n><px2sg><px><nom> : урныңныкы
+
+    урын<n><px3sp><nom> : урны
+    урын<n><px3sp><gen> : урнының
+    урын<n><px3sp><dat> : урнына
+    урын<n><px3sp><acc> : урнын
+    урын<n><px3sp><abl> : урныннан
+    урын<n><px3sp><loc> : урнында
+    урын<n><px3sp><px><nom> : урныныкы
+
+    урын<n><px1pl><nom> : урныбыз
+    урын<n><px1pl><gen> : урныбызның
+    урын<n><px1pl><dat> : урныбызга
+    урын<n><px1pl><acc> : урныбызны
+    урын<n><px1pl><abl> : урныбыздан
+    урын<n><px1pl><loc> : урныбызда
+    урын<n><px1pl><px><nom> : урныбызныкы
+
+    урын<n><px2pl><nom> : урныгыз
+    урын<n><px2pl><gen> : урныгызның
+    урын<n><px2pl><dat> : урныгызга
+    урын<n><px2pl><acc> : урныгызны
+    урын<n><px2pl><abl> : урныгыздан
+    урын<n><px2pl><loc> : урныгызда
+    урын<n><px2pl><px><nom> : урныгызныкы
+
+  "[twol] special epenthesis stuff !WORKS! (not all of the below were founded in the corpus, but some occure more than 100 times. So /сеңел/ is added with LR mark) ":
+    сеңел<n><px1sg><nom> : сеңелем
+    сеңел<n><px1sg><gen> : сеңелемнең
+    сеңел<n><px1sg><dat> : сеңелемә
+    сеңел<n><px1sg><acc> : сеңелемне
+    сеңел<n><px1sg><abl> : сеңелемнән
+    сеңел<n><px1sg><loc> : сеңелемдә
+    сеңел<n><px1sg><px><nom> : сеңелемнеке
+
+    сеңел<n><px2sg><nom> : сеңелең
+    сеңел<n><px2sg><gen> : сеңелеңнең
+    сеңел<n><px2sg><dat> : сеңелеңә
+    сеңел<n><px2sg><acc> : сеңелеңне
+    сеңел<n><px2sg><abl> : сеңелеңнән
+    сеңел<n><px2sg><loc> : сеңелеңдә
+    сеңел<n><px2sg><px><nom> : сеңелеңнеке
+
+    сеңел<n><px3sp><nom> : сеңеле
+    сеңел<n><px3sp><gen> : сеңеленең
+    сеңел<n><px3sp><dat> : сеңеленә
+    сеңел<n><px3sp><acc> : сеңелен
+    сеңел<n><px3sp><abl> : сеңеленнән
+    сеңел<n><px3sp><loc> : сеңелендә
+    сеңел<n><px3sp><px><nom> : сеңеленеке
+
+    сеңел<n><px1pl><nom> : сеңелебез
+    сеңел<n><px1pl><gen> : сеңелебезнең
+    сеңел<n><px1pl><dat> : сеңелебезгә
+    сеңел<n><px1pl><acc> : сеңелебезне
+    сеңел<n><px1pl><abl> : сеңелебездән
+    сеңел<n><px1pl><loc> : сеңелебездә
+    сеңел<n><px1pl><px><nom> : сеңелебезнеке
+
+    сеңел<n><px2pl><nom> : сеңелегез
+    сеңел<n><px2pl><gen> : сеңелегезнең
+    сеңел<n><px2pl><dat> : сеңелегезгә
+    сеңел<n><px2pl><acc> : сеңелегезне
+    сеңел<n><px2pl><abl> : сеңелегездән
+    сеңел<n><px2pl><loc> : сеңелегездә
+    сеңел<n><px2pl><px><nom> : сеңелегезнеке

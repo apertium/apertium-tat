@@ -795,17 +795,19 @@ LEXICON Postpositions
 
 LEXICON Postadverbs
 
+гына:%~гына POSTADVLEX ; ! "only" Dir/RL
+гына:гына POSTADVLEX ; ! ""       Dir/LR
+гына:генә POSTADVLEX ; ! ""       Dir/LR
+гына:кына POSTADVLEX ; ! ""       Dir/LR
+гына:кенә POSTADVLEX ; ! ""       Dir/LR
+
 да:%~да POSTADVLEX ; ! ""     Dir/RL
 да:да POSTADVLEX ; ! ""       Dir/LR
 да:дә POSTADVLEX ; ! ""       Dir/LR
 да:та POSTADVLEX ; ! ""       Dir/LR
 да:тә POSTADVLEX ; ! ""       Dir/LR
 
-гына:%~гына POSTADVLEX ; ! "only" Dir/RL
-гына:гына POSTADVLEX ; ! ""       Dir/LR
-гына:генә POSTADVLEX ; ! ""       Dir/LR
-гына:кына POSTADVLEX ; ! ""       Dir/LR
-гына:кенә POSTADVLEX ; ! ""       Dir/LR
+карамастан:карамастан POSTADVLEX ; ! "in spite of"
 
 LEXICON Pronouns
 
@@ -815,7 +817,6 @@ PRN-PERS ;
 нимә:нимә PRNITGLEX ; ! ""
 нәрсә:нәрсә PRNITGLEX ; ! "what"
 кем:кем PRNITGLEX ; ! ""
-
 
 бу: PRNDEM-BU ; ! ""
 шул: PRNDEM-ŠUL ; ! ""
@@ -3500,8 +3501,7 @@ LEXICON Verbs
 тукта:тукта V-IV-IR-LEX ; ! ""
 тын% ал:тын% ал V-TV-IR-LEX ; ! ""
 тын:тын V-IV-AR-LEX ; ! ""
-тырыш:тырыш V-TV-IR-LEX ; ! ""
-тырыш:тырыш V-TV-IR-LEX ; ! ""
+тырыш:тырыш V-IV-IR-LEX ; ! ""
 тыңла:тыңла V-TV-IR-LEX ; ! ""
 тыңла:тыңла V-TV-IR-LEX ; ! ""
 тәкъдим% ит:тәкъдим% ит V-TV-AR-LEX ; ! ""
@@ -3611,9 +3611,6 @@ LEXICON Verbs
 әзерлән:әзерлән V-IV-IR-LEX ; ! ""
 әйлән:әйлән V-IV-AR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
-!әйт:әйт V-TV-IR-LEX ; ! ""
-!әйт:әйт V-TV-IR-LEX ; ! ""
-!әйт:әйт V-TV-IR-LEX ; ! ""
 әңгәмәләш:әңгәмәләш V-IV-IR-LEX ; ! ""
 өйрән:өйрән V-TV-IR-LEX ; ! ""
 өлгер:өлгер V-IV-IR-LEX ; ! ""

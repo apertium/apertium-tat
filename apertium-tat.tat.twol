@@ -259,3 +259,12 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 %{т%}:т <=> _ :Vow/[ %>: | :0 ] ;
 ! ас%{т%}+{D}{A}н     ал%{д%}+{I}
 ! ас-тан              аст-ы
+
+!"Soft sign deletion before suffix starting with a vowel"
+! яшь>{I}м      яшь>{s}{I}{n}   
+! яш00-е-м      яш00-0--е--0-
+!
+! ь:0 <=> _ %>: :Vow ;    ! FIXME: this leads to a rule conflict
+!ь:0 <=> _ %>: %{I%}: ;   ! this too, but it works at least 
+!        _ %>: %{s%}: ;
+

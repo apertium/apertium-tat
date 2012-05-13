@@ -3323,7 +3323,7 @@ LEXICON Verbs
 белеш:белеш V-TV-IR-LEX ; ! ""
 берләштер:берләштер V-TV-IR-LEX ; ! ""
 бет:бет V-IV-AR-LEX ; ! ""
-бетер:бетер V-TV-IR-LEX ; ! ""
+бетер:бетер V-TV-IR-LEX ; ! "" ! FIXME: causative
 бие:бие V-TV-IR-LEX ; ! ""
 билгелә:билгелә V-TV-IR-LEX ; ! ""
 билгелән:билгелән V-IV-IR-LEX ; ! ""
@@ -3633,6 +3633,7 @@ LEXICON Verbs
 ал:ал VAUX ; ! ""
 башла:башла VAUX ; ! ""
 бет:бет VAUX ; ! ""
+бетер:бетер VAUX ; ! "" ! FIXME:causative
 бир:бир VAUX ; ! ""
 бул:бул VAUX ; ! ""
 йөр:йөр VAUX ; ! ""

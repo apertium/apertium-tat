@@ -132,12 +132,12 @@ Multichar_Symbols
 %<ger5%>           ! -{G}{A}н
 %<ger6%>           ! -{I}р / -{A}р
 %<ger7%>           ! -{A}ч{A}к
-%<ger8%>           ! -{E}с
 %<inf%>            ! Infinitive! Инфинитив ! -{A/I}рг{A}
 
 !!! the next will be removed soon; kept to let others know about changes
 %<ger2%>           ! -{I}п !WARNING: This was replaced with prc2 and gna9; turned off 
 %<vol%>            ! !WARNING: This was replaced with prc_vol
+%<ger8%>           ! -{E}с !WARNING: This was replaced with prc_vol
 
 ! Transitivity ! Переходность
 %<tv%>             ! Transitive
@@ -516,7 +516,8 @@ LEXICON V-COMMON-PASSIVE
 
 LEXICON V-NEG
 %<neg%>:%>м%{A%} V-COMMON-LEX ;
-%<neg%>%<ger2%>:%>м%{A%}%>%{E%}%>ч%{A%} POSS-REAL ;
+%<neg%>%<prc2%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ; ! FIXME: Check continuations ! '#' was changed to 'CLIT' /I.S./
+%<neg%>%<gna9%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ; ! FIXME: Check continuations ! '#' was changed to 'CLIT' /I.S./
 V-COMMON-LEX ; 
 
 LEXICON V-DER

@@ -333,7 +333,7 @@ LEXICON NUMLEX
 %<num%>: # ; 
 %<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ; 
-%<num%>%<part%>:%>%{A%}р SUBST ; 
+%<num%>%<dist%>:%>%{A%}р SUBST ; 
 
 LEXICON NUM-COLL
 

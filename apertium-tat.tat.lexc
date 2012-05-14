@@ -25,9 +25,9 @@ Multichar_Symbols
 %<part%>       ! Particle                   ! Кисәкчә           ! Частица
 %<ij%>         ! Interjection               ! Ымлык             ! Междометие
 %<abbr%>       ! Abbreviation               ! Кыскартылма       ! Аббревиатура 
-%<cop%>        ! Copula
-!%<ideo%>      ! Ideophone                  ! Аваз ияртеме      ! (Звуко)подражательное слово
-!модаль сүз   ! модальное слово 
+%<cop%>        ! Copula                     ! Копула            ! Связка
+!%<ideo%>       ! Ideophone                  ! Аваз ияртеме      ! (Звуко)подражательное слово
+!модаль сүз     ! модальное слово 
 
 ! *1. Ачыклаган сүзләренең артыннан килә торган рәвешләр/"кисәкчәләр" !# гына, ук
 
@@ -90,7 +90,7 @@ Multichar_Symbols
 %<itg%>            ! Interrogative
 %<qnt%>            ! Quantifier
 %<neg%>            ! Negative
-%<neg%>            ! Negative
+%<neg%>            ! Negative    ! FIXME:NOTE: also used for verbs
 
 ! Numeral types
 %<ord%>            ! Ordinal
@@ -150,9 +150,9 @@ Multichar_Symbols
 %<frm%>            ! Formality FIXME: Check
 
 ! Clitics
-%<qst%>               ! Modal question particle
-%<mod_foc%>           ! focus thingy
-%<mod_ass%>           ! assertive
+%<qst%>            ! Modal question particle
+%<mod_foc%>        ! focus thingy
+%<mod_ass%>        ! assertive
 
 ! Punctuaton ! Пунктуация
 %<sent%>           ! Sentence marker

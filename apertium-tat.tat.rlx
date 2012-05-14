@@ -14,6 +14,7 @@ LIST Adv = adv ;
 LIST Pron = prn ; 
 LIST N = n ; 
 LIST V = v ;
+LIST Vaux = vaux ;
 LIST Det = det ; 
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
@@ -26,13 +27,27 @@ LIST Cm = cm ;
 # POS sub-categories
 # ------------------
 
+LIST Pers = pers ;
 LIST Interr = itg ;
 
 # "Syntactic" tags
 # ----------------
 
+LIST Advl = advl ;
 LIST Pred = pred ;
 LIST Attr = attr ;
+LIST Subst = subst ;
+
+# Morphosyntactic properties
+# --------------------------
+
+LIST Sg = sg ;
+LIST Pl = pl ;
+
+# Verbal Properties 
+# -----------------
+
+LIST Prc = prc_impf prc2 ;
 
 # Semantic lists 
 # --------------
@@ -91,3 +106,9 @@ SELECT Det IF (0 V OR Det OR Pred OR N) (1* NPMARK BARRIER N) ;
 # -----
 
 REMOVE Attr IF (NOT 1 N); 
+
+# Verbs 
+# -----
+
+REMOVE Prc IF (NOT 1C V OR Vaux);
+

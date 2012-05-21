@@ -48,6 +48,8 @@ LIST Pl = pl ;
 # -----------------
 
 LIST Prc = prc_impf prc2 ;
+LIST Inf = inf ;
+LIST Ger6 = ger6 ;
 
 # Semantic lists 
 # --------------
@@ -112,3 +114,8 @@ REMOVE Attr IF (NOT 1 N);
 
 REMOVE Prc IF (NOT 1C V OR Vaux);
 
+###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
+###################   SOME SHOULD BE REWRITTEN LATER                ####################
+
+SELECT Inf IF (0 Inf OR Ger6) (1 ("ярат"));
+    #! Әхмәт һәм Гөлнара ^уйнарга/уйна<v><tv><ger6><dat>/уйна<v><tv><inf>$ яраталар.

@@ -1,5 +1,14 @@
+
+# ========== #
+# Delimiters #
+# ========== #
+
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
+
+# ============= #
+# Tags and sets #
+# ============= #
 
 SETS
 
@@ -43,6 +52,8 @@ LIST Subst = subst ;
 
 LIST Sg = sg ;
 LIST Pl = pl ;
+
+LIST PX = px1sg px2sg px3sp px1pl px2pl ; 
 
 # Verbal Properties 
 # -----------------
@@ -93,18 +104,24 @@ SET S-BOUNDARY = CS | Interr | EOS;
 SECTION
 
 SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
-SELECT A IF (0 A OR Adv) (1* N BARRIER NPNHA); 
+SELECT A IF (0C A OR Adv) (1* N BARRIER NPNHA); 
+
+# Determiners 
+# -----------
+
+REMOVE Det IF (NOT 1C NPMARK OR N); 
+    #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ ,
+    #! әлегә эт дә бакчада .
+    ## FIXME:CHECK
+
+SELECT Det IF (0 V OR Det OR A OR N) (1 NPMARK OR N) ;
+    #! пример : Бар<det> җирдән карый, әмма Әхмәтне таба алмый.
+    #! Акча бармы? Бар<adj>.
+    #! Акча бармы? Бар<adj>, ләкин бик аз!
+
 SELECT Det IF (-1C A) (1 N); 
     #! Әхмәт тиз генә иске зур бер агачка йөгерә.
     #! Әхмәт акрын гына иске зур бер агачка йөгерә.
-
-SELECT Det IF (0 V OR Det OR Pred OR N) (1* NPMARK BARRIER N) ;
-    # FIXME: we don't have (or we won't have) "predicative words" in the
-    # Root Lexicon anymore (they are tagged as adjectives), so, the rule
-    # above should be modified a bit
-    #! пример : Бар<det> җирдән карый, әмма Әхмәтне таба алмый.
-    #! Акча бармы? Бар<pred>.
-    #! Акча бармы? Бар<pred>, ләкин бик аз!
 
 # Nouns 
 # -----
@@ -118,6 +135,13 @@ REMOVE Prc IF (NOT 1C V OR Vaux);
 
 SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
     #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
+
+# Wordform specific    # Adding new stuff here is discouraged.  
+# -----------------    # Try to generalize, if possible, existing rules.
+
+SELECT A IF (0 ("бар")) (-1 PX );
+    #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ .
+    ## FIXME:CHECK
 
 ###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
 ###################   SOME SHOULD BE REWRITTEN LATER                ####################

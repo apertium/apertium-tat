@@ -47,7 +47,9 @@ LIST Pl = pl ;
 # Verbal Properties 
 # -----------------
 
+LIST Pres = pres ;
 LIST Prc = prc_impf prc2 ;
+LIST Prc-Impf = prc_impf ;
 LIST Inf = inf ;
 LIST Ger6 = ger6 ;
 
@@ -113,6 +115,9 @@ REMOVE Attr IF (NOT 1 N);
 # -----
 
 REMOVE Prc IF (NOT 1C V OR Vaux);
+
+SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
+    #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
 
 ###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
 ###################   SOME SHOULD BE REWRITTEN LATER                ####################

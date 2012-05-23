@@ -768,9 +768,9 @@ LEXICON Conjunctions
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
 
-шуңа% күрә:шуңа% күрә CALEX ; ! ""
-шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
-арты:арты CALEX ; ! ""
+шуңа% күрә:шуңа% күрә CALEX ; ! "therefore"
+шул% сәбәпле:шул% сәбәпле CALEX ; ! "therefore"
+арты:арты CALEX ; ! "" ! FIXME:CHECK
 
 LEXICON Postpositions 
 
@@ -788,6 +788,7 @@ LEXICON Postpositions
 каршы:каршы POSTLEX ; ! ""
 кебек:кебек POSTLEX ; ! ""
 кирәк:кирәк POSTLEX ; ! ""
+күрә:күрә POSTLEX ; ! ""
 саен:саен POSTLEX ; ! ""
 соң:соң POSTLEX ; ! "after+ABL"
 тапкыр:тапкыр POSTLEX ; ! ""

@@ -134,7 +134,7 @@ REMOVE Attr IF (NOT 1 N);
 REMOVE Prc IF (NOT 1C V OR Vaux);
 
 SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
-    #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
+    #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$ .
 
 # Wordform specific    # Adding new stuff here is discouraged.  
 # -----------------    # Try to generalize, if possible, existing rules.
@@ -146,5 +146,6 @@ SELECT A IF (0 ("бар")) (-1 PX );
 ###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
 ###################   SOME SHOULD BE REWRITTEN LATER                ####################
 
-SELECT Inf IF (0 Inf OR Ger6) (1 ("ярат"));
-    #! Әхмәт һәм Гөлнара ^уйнарга/уйна<v><tv><ger6><dat>/уйна<v><tv><inf>$ яраталар.
+SELECT Inf IF (0 Inf OR Ger6) (1 ("ярат") OR ("тырыш"));
+    #! Әхмәт һәм Гөлнара ^уйнарга/уйна<v><tv><ger6><dat>/уйна<v><tv><inf>$ яраталар .
+    #! Һаман Әхмәтне ^табарга/тап<v><tv><ger6><dat>/тап<v><tv><inf>$ тырыша .

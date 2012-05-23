@@ -770,6 +770,7 @@ LEXICON Conjunctions
 
 шуңа% күрә:шуңа% күрә CALEX ; ! ""
 шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
+арты:арты CALEX ; ! ""
 
 LEXICON Postpositions 
 
@@ -3272,6 +3273,7 @@ LEXICON Adverbs
 әлбәттә:әлбәттә ADVLEX ; ! ""
 әле:әле ADVLEX ; ! ""
 әлегә:әлегә ADVLEX ; ! ""
+соңрак:соңрак ADVLEX ; ! ""
 
 әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
 

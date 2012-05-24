@@ -146,7 +146,8 @@ SELECT A IF (0 ("бар")) (-1 PX );
 # RISKY
 SELECT Det IF (0 ("берәр")) (1 PX OR Pron);
     #! Ул берәр хайванныкы да кошныкы да түгел.
-    ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә")
+    ## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
+                   # Doesn't work if да/дә follows (we should refer to the first subreading I guess, but I couldn't make it work) /I.S./
 
 ###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
 ###################   SOME SHOULD BE REWRITTEN LATER                ####################

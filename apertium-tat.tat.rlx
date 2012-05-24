@@ -53,7 +53,7 @@ LIST Subst = subst ;
 LIST Sg = sg ;
 LIST Pl = pl ;
 
-LIST PX = px1sg px2sg px3sp px1pl px2pl ; 
+LIST PX = px px1sg px2sg px3sp px1pl px2pl ; 
 
 # Verbal Properties 
 # -----------------
@@ -109,12 +109,12 @@ SELECT A IF (0C A OR Adv) (1* N BARRIER NPNHA);
 # Determiners 
 # -----------
 
-REMOVE Det IF (NOT 1C NPMARK OR N); 
+REMOVE Det IF (NOT 1C NPMARK OR N OR Pron); 
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ ,
     #! әлегә эт дә бакчада .
-    ## FIXME:CHECK
+    ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn. Maybe we should consider it noun (as in Kazakh)'
 
-SELECT Det IF (0 V OR Det OR A OR N) (1 NPMARK OR N) ;
+SELECT Det IF (0C V OR Det OR A OR N) (1 NPMARK OR N) ;
     #! пример : Бар<det> җирдән карый, әмма Әхмәтне таба алмый.
     #! Акча бармы? Бар<adj>.
     #! Акча бармы? Бар<adj>, ләкин бик аз!
@@ -142,6 +142,11 @@ SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
 SELECT A IF (0 ("бар")) (-1 PX );
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ .
     ## FIXME:CHECK
+
+# RISKY
+SELECT Det IF (0 ("берәр")) (1 PX OR Pron);
+    #! Ул берәр хайванныкы да кошныкы да түгел.
+    ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә")
 
 ###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
 ###################   SOME SHOULD BE REWRITTEN LATER                ####################

@@ -109,7 +109,7 @@ SELECT A IF (0C A OR Adv) (1* N BARRIER NPNHA);
 # Determiners 
 # -----------
 
-REMOVE Det IF (NOT 1C NPMARK OR N OR Pron); 
+REMOVE Det IF (NOT 1/-1 NPMARK OR N OR Pron); 
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ ,
     #! әлегә эт дә бакчада .
     ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn. Maybe we should consider it noun (as in Kazakh)'
@@ -144,13 +144,12 @@ SELECT A IF (0 ("бар")) (-1 PX );
     ## FIXME:CHECK
 
 # RISKY
-SELECT Det IF (0 ("берәр")) (1 PX OR Pron);
+SELECT Det IF (0 ("берәр")) (1/-1 PX OR Pron);
     #! Ул берәр хайванныкы да кошныкы да түгел.
     ## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
-                   # Doesn't work if да/дә follows (we should refer to the first subreading I guess, but I couldn't make it work) /I.S./
 
 ###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
-###################   SOME SHOULD BE REWRITTEN LATER                ####################
+###################   SOME SHOULD BE REWRITTEN/REMOVED LATER        ####################
 
 SELECT Inf IF (0 Inf OR Ger6) (1 ("ярат") OR ("тырыш"));
     #! Әхмәт һәм Гөлнара ^уйнарга/уйна<v><tv><ger6><dat>/уйна<v><tv><inf>$ яраталар .

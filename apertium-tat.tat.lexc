@@ -230,8 +230,8 @@ N-INFL-COMMON ;
 
 ! Modal/discourse particles
 
-LEXICON CLIT-OTHER               !FIXME:DISCUSS: make from this a separate clitics class for verbs
-
+LEXICON CLIT-IMP2P               ! These clitics appear only after 2nd person imperatives,
+                                 ! and 2nd person imperatives take only this clitics (clitics=modal particles)
 !! Politeness
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
@@ -259,7 +259,6 @@ LEXICON CLIT
 !! Indefinite (expressing doubt) modal particles
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
-CLIT-OTHER ;
 # ;
 
 !! TOREMOVE = WTF?

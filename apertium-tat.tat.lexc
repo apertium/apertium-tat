@@ -230,7 +230,7 @@ N-INFL-COMMON ;
 
 ! Modal/discourse particles
 
-LEXICON CLIT-OTHER            !FIXME:DISCUSS: make from this a separate clitics class for verbs
+LEXICON CLIT-OTHER               !FIXME:DISCUSS: make from this a separate clitics class for verbs
 
 !! Politeness
 
@@ -240,19 +240,31 @@ LEXICON CLIT-OTHER            !FIXME:DISCUSS: make from this a separate clitics 
 
 LEXICON CLIT
 
-%+да%<cnjcoo%>:% %{D%}%{A%} # ;
-
 !! Question modal particles
 
 %+мы%<qst%>:%>м%{I%} # ;
-%+микән%<qst%>:% микән # ;   ! originated from "-мы икән"
+%+микән%<qst%>:% микән # ;       ! originated from "-мы икән"
 %+мыни%<qst%>:%>м%{I%}ни # ;
+
+!! Assertive (emphasizing) modal particles
+
+%+бит%<mod_ass%>:% бит # ;
+%+ич%<mod_ass%>:% ич # ;
+%+ла%<mod_ass%>:% л%{A%} # ;
+%+ласа%<mod_ass%>:% ласа # ;
+%+ләбаса%<mod_ass%>:% ләбаса # ;
+%+ләбаса%<mod_ass%>:% лабаса # ; ! Dir/LR
+%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider шул<prn><dem>).
 
 !! Indefinite (expressing doubt) modal particles
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
 CLIT-OTHER ;
 # ;
+
+!! TOREMOVE = WTF?
+
+%+да%<cnjcoo%>:% %{D%}%{A%} # ;
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 

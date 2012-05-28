@@ -27,7 +27,6 @@ Multichar_Symbols
 %<abbr%>       ! Abbreviation               ! Кыскартылма       ! Аббревиатура 
 %<cop%>        ! Copula                     ! Копула            ! Связка
 !%<ideo%>       ! Ideophone                  ! Аваз ияртеме      ! (Звуко)подражательное слово
-!модаль сүз     ! модальное слово 
 
 ! *1. Ачыклаган сүзләренең артыннан килә торган рәвешләр/"кисәкчәләр" !# гына, ук
 
@@ -89,8 +88,7 @@ Multichar_Symbols
 %<ind%>            ! Indefinite
 %<itg%>            ! Interrogative
 %<qnt%>            ! Quantifier
-%<neg%>            ! Negative
-%<neg%>            ! Negative    ! FIXME:NOTE: also used for verbs
+%<neg%>            ! Negative    ! FIXME:NOTE: also used to denote negation in verbs
 
 ! Numeral types
 %<ord%>            ! Ordinal
@@ -228,17 +226,42 @@ N-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!     CLITICS
 
+! FIXME: consider "әле" and "әллә"
+!
+! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
+!     Russian "-ка" (e.g. "скажи-ка") - e.g. "әйт әле", "кайтыйк әле";           ?>> <mod_foc>
+! #2 Нәрсә булды соң әле? = Что же случилось?
+! 
+! #4 Күрешербез әле. = Еще увидимся.
+!
+! #3 Әле кичә генә. = Еще вчера; Только вчера.
+! 
+! But if for all above examples "әлі <-> әле" translation works, distinguishing between the meanings
+! might be not needed, we'll just have to choose an appropriate tag.
+!-----
+! "әллә" can appear both before and after the word it is related to:
+! 
+! #1 "- Абау, миңа әллә нәрсә булган!"
+! #2 "Канатлы дигәч тә, мин кошмы әллә?" 
+!-------------------------------------------------------------------
+
 ! Modal/discourse particles
 
-LEXICON CLIT-IMP2P               ! These clitics appear only after 2nd person imperatives,
-                                 ! and 2nd person imperatives take only this clitics (clitics=modal particles)
+LEXICON CLIT-IMP2P               ! These modal particles (clitics) appear only after 2nd person imperatives,
+                                 ! and 2nd person imperatives take only this clitics
 !! Politeness
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
+
+CLIT-COMMON ;
 # ;
 
-LEXICON CLIT
+LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
+
+%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
+
+LEXICON CLIT                     ! These citics can join words of any POS and of any form
 
 !! Question modal particles
 
@@ -254,11 +277,12 @@ LEXICON CLIT
 %+ласа%<mod_ass%>:% ласа # ;
 %+ләбаса%<mod_ass%>:% ләбаса # ;
 %+ләбаса%<mod_ass%>:% лабаса # ; ! Dir/LR
-%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider шул<prn><dem>).
 
 !! Indefinite (expressing doubt) modal particles
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
+
+CLIT-COMMON ;
 # ;
 
 !! TOREMOVE = WTF?
@@ -285,7 +309,8 @@ LEXICON CLIT
 ! *2. "дай" is considered to be an adverbializer, so no case endings after it (=no <subst> reading).
 ! *3. This doesn't work atm (it's recursive), but it doesn't seem to be very frequent also;
 !     Most likely it is restricted to px3sp.
- 
+!------------------------------------------- 
+
 LEXICON CASE 
 
 %<nom%>: CLIT ;               ! - - -
@@ -530,8 +555,8 @@ V-FINITE-FORMS ;
 
 %<cond%>:%>с%{A%} V-PERS-S2 ;
 
-%<imp%>%<p2%>%<sg%>: CLIT ;
-%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT ;
+%<imp%>%<p2%>%<sg%>: CLIT-IMP2P ;
+%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-IMP2P ;
 
 LEXICON V-COMMON-PASSIVE
 

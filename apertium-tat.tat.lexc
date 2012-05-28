@@ -153,7 +153,7 @@ Multichar_Symbols
 %<qst%>            ! Modal question particle
 %<mod_foc%>        ! "Particles of politeness and ardent desire" (as in [N. Poppe. Tatar Manual])
 %<mod_ass%>        ! Assertive modal particle
-%<mod_ind%>        ! Indefinite modal particle (express doubt)
+%<mod_ind%>        ! Indefinite modal particle (expresses doubt)
 
 ! Punctuaton ! Пунктуация
 %<sent%>           ! Sentence marker
@@ -232,13 +232,24 @@ N-INFL-COMMON ;
 
 LEXICON CLIT-OTHER            !FIXME:DISCUSS: make from this a separate clitics class for verbs
 
+!! Politeness
+
 %+чы%<mod_foc%>:%>ч%{I%} # ;
+%+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
 # ;
 
 LEXICON CLIT
 
 %+да%<cnjcoo%>:% %{D%}%{A%} # ;
+
+!! Question modal particles
+
 %+мы%<qst%>:%>м%{I%} # ;
+%+микән%<qst%>:% микән # ;   ! originated from "-мы икән"
+%+мыни%<qst%>:%>м%{I%}ни # ;
+
+!! Indefinite (expressing doubt) modal particles
+
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
 CLIT-OTHER ;
 # ;

@@ -868,6 +868,10 @@ LEXICON Postadverbs
 да:та POSTADVLEX ; ! ""       Dir/LR
 да:тә POSTADVLEX ; ! ""       Dir/LR
 
+ук:%~ук POSTADVLEX ; ! ""     Dir/RL
+ук:ук POSTADVLEX ; ! ""       Dir/LR
+ук:үк POSTADVLEX ; ! ""       Dir/LR
+
 LEXICON Pronouns
 
 PRN-PERS ; 

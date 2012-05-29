@@ -226,6 +226,8 @@ N-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!     CLITICS
 
+! FIXME: (might need) some refactoring
+
 ! FIXME: consider "әле" and "әллә"
 !
 ! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
@@ -259,7 +261,7 @@ CLIT-COMMON ;
 
 LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
 
-%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
+!%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
 
 LEXICON CLIT                     ! These citics can join words of any POS and of any form
 
@@ -285,7 +287,8 @@ LEXICON CLIT                     ! These citics can join words of any POS and of
 CLIT-COMMON ;
 # ;
 
-!! TOREMOVE = WTF?
+!! FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
+!!                and not attach them to the previous word
 
 %+да%<cnjcoo%>:% %{D%}%{A%} # ;
 

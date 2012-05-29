@@ -18,7 +18,7 @@ Multichar_Symbols
 %<vaux%>       ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный гл.
 %<adv%>        ! Adverb                     ! Рәвеш             ! Наречие
 %<post%>       ! Postposition               ! Бәйлек            ! Послелог
-%<postadv%>    ! Postadverb                 ! "Арткы рәвеш"(*1) ! "Посленаречие"     !# "гына"
+%<postadv%>    ! Postadverb                 ! "Артрәвеш"(*1)    ! "Посленаречие"     !# "гына"
 %<cnjcoo%>     ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
 %<cnjsub%>     ! Sub-ordinating conjunction ! Ияртүче теркәгеч  ! Подчинительный союз
 %<cnjadv%>     ! Adverbial conjunction      !                   ! ~Союз 

@@ -226,7 +226,7 @@ N-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!     CLITICS
 
-! FIXME: (might need) some refactoring
+! FIXME: Might need some refactoring
 
 ! FIXME: consider "әле" and "әллә"
 !
@@ -867,10 +867,6 @@ LEXICON Postadverbs
 да:дә POSTADVLEX ; ! ""       Dir/LR
 да:та POSTADVLEX ; ! ""       Dir/LR
 да:тә POSTADVLEX ; ! ""       Dir/LR
-
-бит:бит POSTADVLEX ; ! "ғой"
-карамастан:карамастан POSTADVLEX ; ! "in spite of"
-шул:шул POSTADVLEX ; ! "ғой"
 
 LEXICON Pronouns
 

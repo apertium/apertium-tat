@@ -190,7 +190,7 @@ Multichar_Symbols
 
 LEXICON Root
 
-Particles ; 
+ModalParticles ; 
 Copula ; 
 Conjunctions ; 
 Postpositions ; 
@@ -797,11 +797,15 @@ LEXICON ABBR
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Particles
+LEXICON ModalParticles
 
-мы:мы QSTLEX ; ! ""
-!CLIT ;
-!CLIT-OTHER ;
+мы:мы QSTLEX ; ! "y/n question"
+ме:ме QSTLEX ; ! "y/n question" ! Dir/RL
+
+! Actually Tatar question modal particle is written with no space before it (read separately),
+! but there are sentences like the following (although not that much I guess):
+!# "Яңача түләү яки һәрвакыттагыча "Хотели как лучше, получилось как всегда"мы?" 
+! Just having a space before it while treating it as a clitic wouldn't work /I.S./
 
 LEXICON Copula
 

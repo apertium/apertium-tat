@@ -949,21 +949,26 @@ LEXICON Numerals
 туксан:туксан NUMLEX ; ! ""
 йөз:йөз NUMLEX ; ! ""
 
-мең:мең NUMLEX ; ! ""
+мең:мең NUMLEX ; ! "thousand"
 төмән:төмән NUMLEX ; ! "archaic for 10 000"
-түмән:түмән NUMLEX ; ! Dir/LR !"archaic for 10 000"
-миллион:миллион NUMLEX ; ! ""
-миллиард:миллиард NUMLEX ; ! ""
+төмән:түмән NUMLEX ; ! "archaic for 10 000" ! Dir/LR
+миллион:миллион NUMLEX ; ! "million"
+миллиард:миллиард NUMLEX ; ! "billion"
+триллион:триллион NUMLEX ; ! "trillion"
+
+!чирек:чирек NUM ; ! "quarter"         ! FIXME:DISCUSS: POS
+!ярым:ярым NUM ; ! "half"            ! (consider that they don't have ordinal form obviously)
+!ярты:ярты NUM ; ! "half"
 
 биш:бишәү NUM-COLL ;           
 ике:икәү NUM-COLL ;
 өч:өчәү NUM-COLL ;
 дүрт:дүртәү NUM-COLL ;
 биш:бишәү NUM-COLL ;
+алтау:алтау NUM-COLL ;
+җидәү:җидәү NUM-COLL ;
 
-! Technically this goes on to higher numbers  !! FIXME:DISCUSS: maybe we'll start derive them from the basic numerals
-! but its use beyond 5(?) is rare
-! and is of questionable grammaticality
+! In Tatar this goes on to higher numbers  !! FIXME:DISCUSS: a better idea is to derive them from cardinal numerals
 
 LEXICON Nouns 
 

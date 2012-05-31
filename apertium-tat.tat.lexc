@@ -836,41 +836,68 @@ LEXICON Conjunctions
 
 LEXICON Postpositions 
 
-! Some of them are postpositions derived from nouns (or "auxilliary nouns" aka "служебные имена")
-! which take location cases. Think about them later /I.S./
+! Some of them are postpositions derived from nouns ( "auxilliary nouns"
+! aka "служебные имена") which take location cases. Think about them later /I.S./
+
+! which Govern the Nominative Case of Nouns and
+! the Genitive Case of (personal and demonstrative) Pronouns.
 
 аркылы:аркылы POSTLEX ; ! ""
 астына:астына POSTLEX ; ! ""
 астында:астында POSTLEX ; ! ""
 аша:аша POSTLEX ; ! ""
-башка:башка POSTLEX ; ! ""
 белән:белән POSTLEX ; ! ""
 буе:буе POSTLEX ; ! ""
-буенча:буенча POSTLEX ; ! ""
 буенда:буенда POSTLEX ; ! ""
+буенча:буенча POSTLEX ; ! ""
 буйлап:буйлап POSTLEX ; ! ""
-буларак:буларак POSTLEX ; ! ""
-кадәр:кадәр POSTLEX ; ! ""
-караганда:караганда POSTLEX ; ! ""
-карамастан:карамастан POSTLEX ; ! ""
-каршы:каршы POSTLEX ; ! ""
 кебек:кебек POSTLEX ; ! ""
-кирәк:кирәк POSTLEX ; ! ""
-күрә:күрә POSTLEX ; ! ""
-максатында:максатында POSTLEX ; ! ""
+күк:күк POSTLEX ; ! ""
+максатында:максатында POSTLEX ; ! "" Use/MT
 саен:саен POSTLEX ; ! ""
-соң:соң POSTLEX ; ! "after+ABL"
-таба:таба POSTLEX ; ! ""
-тапкыр:тапкыр POSTLEX ; ! ""
-тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
-тикле:тикле POSTLEX ; ! ""
+сыман:сыман POSTLEX ; ! ""
 турында:турында POSTLEX ; ! ""
 хакында:хакында POSTLEX ; ! ""
 шикелле:шикелле POSTLEX ; ! ""
-элек:элек POSTLEX ; ! ""
 өчен:өчен POSTLEX ; ! ""
+
+! which Govern the Nominative Case
+! (just because it is hard to imagine them be used with personal and demonstrative pronouns)
+
+тапкыр:тапкыр POSTLEX ; ! ""
+
+! which Govern Nominative/Genitive/Dative cases
+
+кадәр:кадәр POSTLEX ; ! ""
+тикле:тикле POSTLEX ; ! ""
+хәтле:хәтле POSTLEX ; ! ""
+чаклы:чаклы POSTLEX ; ! ""
+
+! which Govern the Dative Case
+
+караганда:караганда POSTLEX ; ! ""
+карамастан:карамастан POSTLEX ; ! ""
+карата:карата POSTLEX ; ! ""
+каршы:каршы POSTLEX ; ! ""
+күрә:күрә POSTLEX ; ! ""
+таба:таба POSTLEX ; ! ""
+тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
 якын:якын POSTLEX ; ! ""
 яраклы% рәвештә:яраклы% рәвештә POSTLEX ; ! "" Use/MT
+
+! which Govern the Ablative Case
+
+ары:ары POSTLEX ; ! "+ABL"
+башка:башка POSTLEX ; ! "+ABL"
+бирле:бирлеPOSTLEX ; ! "+ABL"
+бүтән:бүтән POSTLEX ; ! "+ABL"
+соң:соң POSTLEX ; ! "after+ABL"
+тыш:тыш POSTLEX ; ! "+ABL"
+элек:элек POSTLEX ; ! "+ABL"
+
+! FIXME: To be checked
+
+буларак:буларак POSTLEX ; ! ""
 
 LEXICON Postadverbs
 

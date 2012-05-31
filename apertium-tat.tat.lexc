@@ -836,45 +836,59 @@ LEXICON Conjunctions
 
 LEXICON Postpositions 
 
+! Some of them are postpositions derived from nouns (or "auxilliary nouns" aka "служебные имена")
+! which take location cases. Think about them later /I.S./
+
 аркылы:аркылы POSTLEX ; ! ""
 астына:астына POSTLEX ; ! ""
-астында:астында POSTLEX ; ! ""         !! this is actually a noun
+астында:астында POSTLEX ; ! ""
 аша:аша POSTLEX ; ! ""
 башка:башка POSTLEX ; ! ""
 белән:белән POSTLEX ; ! ""
+буе:буе POSTLEX ; ! ""
 буенча:буенча POSTLEX ; ! ""
+буенда:буенда POSTLEX ; ! ""
 буйлап:буйлап POSTLEX ; ! ""
 буларак:буларак POSTLEX ; ! ""
-карамагында:карамагында POSTLEX ; ! ""
+кадәр:кадәр POSTLEX ; ! ""
+караганда:караганда POSTLEX ; ! ""
 карамастан:карамастан POSTLEX ; ! ""
 каршы:каршы POSTLEX ; ! ""
 кебек:кебек POSTLEX ; ! ""
 кирәк:кирәк POSTLEX ; ! ""
 күрә:күрә POSTLEX ; ! ""
+максатында:максатында POSTLEX ; ! ""
 саен:саен POSTLEX ; ! ""
 соң:соң POSTLEX ; ! "after+ABL"
+таба:таба POSTLEX ; ! ""
 тапкыр:тапкыр POSTLEX ; ! ""
+тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
 тикле:тикле POSTLEX ; ! ""
+турында:турында POSTLEX ; ! ""
 хакында:хакында POSTLEX ; ! ""
+шикелле:шикелле POSTLEX ; ! ""
+элек:элек POSTLEX ; ! ""
 өчен:өчен POSTLEX ; ! ""
+якын:якын POSTLEX ; ! ""
+яраклы% рәвештә:яраклы% рәвештә POSTLEX ; ! "" Use/MT
 
 LEXICON Postadverbs
 
 гына:%~гына POSTADVLEX ; ! "only" Dir/RL
-гына:гына POSTADVLEX ; ! ""       Dir/LR
-гына:генә POSTADVLEX ; ! ""       Dir/LR
-гына:кына POSTADVLEX ; ! ""       Dir/LR
-гына:кенә POSTADVLEX ; ! ""       Dir/LR
+гына:гына POSTADVLEX ; ! "" Dir/LR
+гына:генә POSTADVLEX ; ! "" Dir/LR
+гына:кына POSTADVLEX ; ! "" Dir/LR
+гына:кенә POSTADVLEX ; ! "" Dir/LR
 
-да:%~да POSTADVLEX ; ! ""     Dir/RL
-да:да POSTADVLEX ; ! ""       Dir/LR
-да:дә POSTADVLEX ; ! ""       Dir/LR
-да:та POSTADVLEX ; ! ""       Dir/LR
-да:тә POSTADVLEX ; ! ""       Dir/LR
+да:%~да POSTADVLEX ; ! "1. even if" Dir/RL
+да:да POSTADVLEX ; ! "" Dir/LR
+да:дә POSTADVLEX ; ! "" Dir/LR
+да:та POSTADVLEX ; ! "" Dir/LR
+да:тә POSTADVLEX ; ! "" Dir/LR
 
-ук:%~ук POSTADVLEX ; ! ""     Dir/RL
-ук:ук POSTADVLEX ; ! ""       Dir/LR
-ук:үк POSTADVLEX ; ! ""       Dir/LR
+ук:%~ук POSTADVLEX ; ! "же, даже" Dir/RL
+ук:ук POSTADVLEX ; ! "" Dir/LR
+ук:үк POSTADVLEX ; ! "" Dir/LR
 
 LEXICON Pronouns
 

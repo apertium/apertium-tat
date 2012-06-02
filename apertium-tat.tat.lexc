@@ -864,7 +864,7 @@ LEXICON Postpositions
 ! which Govern the Nominative Case
 ! (just because it is hard to imagine them be used with personal and demonstrative pronouns)
 
-тапкыр:тапкыр POSTLEX ; ! ""
+тапкыр:тапкыр POSTLEX ; ! "" FIXME:CHECK: POS - noun?
 
 ! which Govern Nominative/Genitive/Dative cases
 

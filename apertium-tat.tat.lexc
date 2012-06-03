@@ -2594,78 +2594,84 @@ LEXICON ProperNouns
 !!! Cities/towns/regions of Tatarstan
 
 Азнакай:Азнакай NPTOPLEX ; ! ""
-Алабуга:Алабуга NPTOPLEX ; ! ""
 Актаныш:Актаныш NPTOPLEX ; ! ""
+Алабуга:Алабуга NPTOPLEX ; ! ""
 
-!!! Cities/towns/regions of Russia
+!!! Cities/towns/regions of Bashkortostan
 
-Башкортстан:Башкортстан NPTOPLEX ; ! ""
-Пермь:Пермь NPTOPLEX ; ! ""
-Уфа:Уфа NPTOPLEX ; ! ""
-Петербур:Петербур NPTOPLEX ; ! ""
-АКШ:АКШ NPTOPLEX ; ! ""
-Алмания:Алмания NPTOPLEX ; ! ""
-Германия:Германия NPTOPLEX ; ! ""
-СССР:СССР NPTOPLEX ; ! ""
-Аурупа:Аурупа NPTOPLEX ; ! ""
-Европа:Европа NPTOPLEX ; ! ""
-Рабби:Рабби NPTOPLEX ; ! ""
-Америка:Америка NPTOPLEX ; ! ""
-Петербур:Петербур NPTOPLEX ; ! ""
-Санкт-Петербург:Санкт-Петербург NPTOPLEX ; ! ""
-Питербур:Питербур NPTOPLEX ; ! ""
-Ленинград:Ленинград NPTOPLEX ; ! ""
-Тын:Тын NPTOPLEX ; ! ""
-Дон:Дон NPTOPLEX ; ! ""
-Париж:Париж NPTOPLEX ; ! ""
-Мәскәү:Мәскәү NPTOPLEX ; ! ""
-
-!!! Countries
-
-Россия:Россия NPTOPLEX ; ! ""
-Русия:Русия NPTOPLEX ; ! ""
-Рәсәй:Рәсәй NPTOPLEX ; ! ""
-Әфганстан:Әфганстан NPTOPLEX ; ! ""
-Герат:Герат NPTOPLEX ; ! ""
-Ярмәкәй:Ярмәкәй NPTOPLEX ; ! ""
-Новгород:Новгород NPTOPLEX ; ! ""
-Сибай:Сибай NPTOPLEX ; ! ""
-Чиләбе:Чиләбе NPTOPLEX ; ! ""
-Стәрлетамак:Стәрлетамак NPTOPLEX ; ! ""
-Урал:Урал NPTOPLEX ; ! ""
-Учалы:Учалы NPTOPLEX ; ! ""
-Чечня:Чечня NPTOPLEX ; ! ""
-Австрия:Австрия NPTOPLEX ; ! ""
-Агыйдел:Агыйдел NPTOPLEX ; ! ""
-Актүбә:Актүбә NPTOPLEX ; ! ""
-Алжир:Алжир NPTOPLEX ; ! ""
-Алтай:Алтай NPTOPLEX ; ! ""
-Атайсал:Атайсал NPTOPLEX ; ! ""
 Авыргазы:Авыргазы NPTOPLEX ; ! ""
-Байконур:Байконур NPTOPLEX ; ! ""
-Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
+Актүбә:Актүбә NPTOPLEX ; ! ""
+Атайсал:Атайсал NPTOPLEX ; ! ""
 Баймак:Баймак NPTOPLEX ; ! ""
 Байтул:Байтул NPTOPLEX ; ! ""
 Бакалы:Бакалы NPTOPLEX ; ! ""
 Балакатай:Балакатай NPTOPLEX ; ! ""
 Балтач:Балтач NPTOPLEX ; ! ""
-Балтика:Балтика NPTOPLEX ; ! ""
-Башкортстан:Башкортстан NPTOPLEX ; ! ""
-Бәләбәй:Бәләбәй NPTOPLEX ; ! ""
-Белорет:Белорет NPTOPLEX ; ! ""
-Беларусь:Беларусь NPTOPLEX ; ! ""
-Благовар:Благовар NPTOPLEX ; ! ""
-Бөрҗән:Бөрҗән NPTOPLEX ; ! ""
-Бөре:Бөре NPTOPLEX ; ! ""
 Бүздәк:Бүздәк NPTOPLEX ; ! ""
+Бәләбәй:Бәләбәй NPTOPLEX ; ! ""
+Бөре:Бөре NPTOPLEX ; ! ""
+Бөрҗән:Бөрҗән NPTOPLEX ; ! ""
+Сибай:Сибай NPTOPLEX ; ! ""
+Стәрлетамак:Стәрлетамак NPTOPLEX ; ! ""
+Уфа:Уфа NPTOPLEX ; ! ""
+Учалы:Учалы NPTOPLEX ; ! ""
+Ярмәкәй:Ярмәкәй NPTOPLEX ; ! ""
+
+!!! Cities/towns/regions of Russia
+
+Башкортстан:Башкортстан NPTOPLEX ; ! ""
+Белорет:Белорет NPTOPLEX ; ! ""
+Благовар:Благовар NPTOPLEX ; ! ""
+Ленинград:Ленинград NPTOPLEX ; ! ""
+Мәскәү:Мәскәү NPTOPLEX ; ! ""
+Новгород:Новгород NPTOPLEX ; ! ""
+Пермь:Пермь NPTOPLEX ; ! ""
+Петербур:Петербур NPTOPLEX ; ! ""
+Петербур:Петербур NPTOPLEX ; ! ""
+Питербур:Питербур NPTOPLEX ; ! ""
+Санкт-Петербург:Санкт-Петербург NPTOPLEX ; ! ""
+Чечня:Чечня NPTOPLEX ; ! ""
+Чиләбе:Чиләбе NPTOPLEX ; ! ""
+
+!!! Countries
+
+АКШ:АКШ NPTOPLEX ; ! "" FIXME:CHECK
+Австрия:Австрия NPTOPLEX ; ! ""
+Алжир:Алжир NPTOPLEX ; ! ""
+Алмания:Алмания NPTOPLEX ; ! ""
+Беларусь:Беларусь NPTOPLEX ; ! ""
+Германия:Германия NPTOPLEX ; ! ""
+Россия:Россия NPTOPLEX ; ! ""
+Русия:Русия NPTOPLEX ; ! ""
+Рәсәй:Рәсәй NPTOPLEX ; ! ""
+СССР:СССР NPTOPLEX ; ! ""
+Әфганстан:Әфганстан NPTOPLEX ; ! ""
 
 !!! Cities of the world
 
+Байконур:Байконур NPTOPLEX ; ! ""
+Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
 Лондон:Лондон NPTOPLEX ; ! ""
+Париж:Париж NPTOPLEX ; ! ""
 
 !!! Other toponyms
 
+Америка:Америка NPTOPLEX ; ! ""
+Аурупа:Аурупа NPTOPLEX ; ! ""
+Европа:Европа NPTOPLEX ; ! ""
+
+Агыйдел:Агыйдел NPTOPLEX ; ! ""
+Алтай:Алтай NPTOPLEX ; ! ""
+Балтика:Балтика NPTOPLEX ; ! ""
+Герат:Герат NPTOPLEX ; ! ""
+Дон:Дон NPTOPLEX ; ! ""
 Идел:Идел NPTOPLEX ; ! ""
+Тын:Тын NPTOPLEX ; ! ""
+Урал:Урал NPTOPLEX ; ! ""
+
+!!! FIXME:
+
+Рабби:Рабби NPTOPLEX ; ! ""
 
 !=========================================================================!
 

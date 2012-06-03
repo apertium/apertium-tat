@@ -2589,11 +2589,17 @@ LEXICON Nouns
 LEXICON ProperNouns
 
 Татарстан:Татарстан NPTOPLEX ; ! ""
-Россия:Россия NPTOPLEX ; ! ""
-Русия:Русия NPTOPLEX ; ! ""
-Рәсәй:Рәсәй NPTOPLEX ; ! ""
-Башкортстан:Башкортстан NPTOPLEX ; ! ""
 Казан:Казан NPTOPLEX ; ! ""
+
+!!! Cities/towns/regions of Tatarstan
+
+Азнакай:Азнакай NPTOPLEX ; ! ""
+Алабуга:Алабуга NPTOPLEX ; ! ""
+Актаныш:Актаныш NPTOPLEX ; ! ""
+
+!!! Cities/towns/regions of Russia
+
+Башкортстан:Башкортстан NPTOPLEX ; ! ""
 Пермь:Пермь NPTOPLEX ; ! ""
 Уфа:Уфа NPTOPLEX ; ! ""
 Петербур:Петербур NPTOPLEX ; ! ""
@@ -2614,8 +2620,12 @@ LEXICON ProperNouns
 Париж:Париж NPTOPLEX ; ! ""
 Мәскәү:Мәскәү NPTOPLEX ; ! ""
 
+!!! Countries
+
+Россия:Россия NPTOPLEX ; ! ""
+Русия:Русия NPTOPLEX ; ! ""
+Рәсәй:Рәсәй NPTOPLEX ; ! ""
 Әфганстан:Әфганстан NPTOPLEX ; ! ""
-Идел:Идел NPTOPLEX ; ! ""
 Герат:Герат NPTOPLEX ; ! ""
 Ярмәкәй:Ярмәкәй NPTOPLEX ; ! ""
 Новгород:Новгород NPTOPLEX ; ! ""
@@ -2648,6 +2658,18 @@ LEXICON ProperNouns
 Бөрҗән:Бөрҗән NPTOPLEX ; ! ""
 Бөре:Бөре NPTOPLEX ; ! ""
 Бүздәк:Бүздәк NPTOPLEX ; ! ""
+
+!!! Cities of the world
+
+Лондон:Лондон NPTOPLEX ; ! ""
+
+!!! Other toponyms
+
+Идел:Идел NPTOPLEX ; ! ""
+
+!=========================================================================!
+
+!!! Anthroponyms
 
 Азамат:Азамат NPANTMLEX ; ! ""
 Азат:Азат NPANTMLEX ; ! ""

@@ -889,7 +889,7 @@ LEXICON Postpositions
 
 ары:ары POSTLEX ; ! "+ABL"
 башка:башка POSTLEX ; ! "+ABL"
-бирле:бирлеPOSTLEX ; ! "+ABL"
+бирле:бирле POSTLEX ; ! "+ABL"
 бүтән:бүтән POSTLEX ; ! "+ABL"
 соң:соң POSTLEX ; ! "after+ABL"
 тыш:тыш POSTLEX ; ! "+ABL"

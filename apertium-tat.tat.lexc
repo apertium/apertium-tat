@@ -814,10 +814,13 @@ COP-I ; ! ""
 
 LEXICON Conjunctions
 
-!! Җыючы теркәгечләр
+! FIXME: Section is to be checked later for miscategorizations
+!        [although these miscategorizations shouldn't affect much the coverage of
+!        the translator, since they are part of kaz.lexc too :) ] /I.S./
 
-вә:вә CCLEX ; ! "and (archaic)"
-һәм:һәм CCLEX ; ! "and"
+! Co-ordinating conjunctions
+
+!! Соединительные - Җыючы теркәгечләр
 
 да:%~да CCLEX ; ! "also" Dir/RL
 да:да CCLEX ; ! "" Dir/LR
@@ -825,31 +828,45 @@ LEXICON Conjunctions
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
 
-!! Каршы куюяы теркәгечләр
+вә:вә CCLEX ; ! "and (archaic)"
+ни:ни CCLEX ; ! "neither... , nor ... (x2)"
+түгел:түгел CCLEX ; ! "not only, but also/even" #! Кеше түгел, эт тә чыдамас. FIXME:CHECK 
+һәм:һәм CCLEX ; ! "and"
 
+!! Противительные - Каршы куючы теркәгечләр
+
+бары% тик:бары% тик CCLEX ; ! "but,just"
 бәлки:бәлки CCLEX ; ! "but, but also"
 ләкин:ләкин CCLEX ; ! "but"
+мәгәр:мәгәр CCLEX ; ! "but,just"
 тик:тик CCLEX ; ! "but,just"
 фәкать:фәкать CCLEX ; ! "но, только"
 ә:ә CCLEX ; ! "contrastive and"
 әмма:әмма CCLEX ; ! "but"
 
-!! Бүлүче теркәгечләр
+!! Разделительные - Бүлүче теркәгечләр
 
 я:я CCLEX ; ! "or"
 яисә:яисә CCLEX ; ! "or"
 яки:яки CCLEX ; ! "or"
 әле:әле CCLEX ; ! "то ... , то ... (х2) "
 
-! Ияртүче теркәгечләр
+! Sub-ordinating conjunctions
 
-әгәр:әгәр CSLEX ; ! "if"
+гәрчә:гәрчә CSLEX ; ! "even if"
 чөнки:чөнки CSLEX ; ! "because"
+ягъни:ягъни CSLEX ; ! "that is, то есть"
+әгәр% дә:әгәр% дә CSLEX ; ! "if" Use/MT
+әгәр:әгәр CSLEX ; ! "if"
 
-! Adverbial conjunctions
+! Adverbial conjunctions = "Относительные слова"
 
-шуңа% күрә:шуңа% күрә CALEX ; ! "therefore"
+алай% да:алай% да CALEX ; ! "despite it,nevertheless"
+аның% каравы:аның% каравы CALEX ; ! "nevertheless"
 шул% сәбәпле:шул% сәбәпле CALEX ; ! "therefore"
+шулай% да:шулай% да CALEX ; ! "nevertheless"
+шунлыктан:шунлыктан CALEX ; ! "that is why"
+шуңа% күрә:шуңа% күрә CALEX ; ! "therefore"
 арты:арты CALEX ; ! "" ! FIXME:CHECK, TOREMOVE
 
 LEXICON Postpositions 

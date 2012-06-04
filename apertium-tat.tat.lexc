@@ -21,7 +21,7 @@ Multichar_Symbols
 %<postadv%>    ! Postadverb                 ! "Артрәвеш"(*1)    ! "Посленаречие"     !# "гына"
 %<cnjcoo%>     ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
 %<cnjsub%>     ! Sub-ordinating conjunction ! Ияртүче теркәгеч  ! Подчинительный союз
-%<cnjadv%>     ! Adverbial conjunction      !                   ! ~Союз 
+%<cnjadv%>     ! Adverbial conjunction      ! ~"рәвеш-теркәгеч" ! ~союз 
 %<part%>       ! Particle                   ! Кисәкчә           ! Частица
 %<ij%>         ! Interjection               ! Ымлык             ! Междометие
 %<abbr%>       ! Abbreviation               ! Кыскартылма       ! Аббревиатура 
@@ -814,25 +814,43 @@ COP-I ; ! ""
 
 LEXICON Conjunctions
 
-вә:вә CCLEX ; ! ""
-тик:тик CCLEX ; ! "but,just"
-я:я CCLEX ; ! ""
-яисә:яисә CCLEX ; ! ""
-һәм:һәм CCLEX ; ! ""
-ә:ә CCLEX ; ! ""
-әмма:әмма CCLEX ; ! ""
+!! Җыючы теркәгечләр
 
-да:да CCLEX ; ! "also" Dir/RL
+вә:вә CCLEX ; ! "and (archaic)"
+һәм:һәм CCLEX ; ! "and"
+
+да:%~да CCLEX ; ! "also" Dir/RL
 да:да CCLEX ; ! "" Dir/LR
 да:та CCLEX ; ! "" Dir/LR
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
 
+!! Каршы куюяы теркәгечләр
+
+бәлки:бәлки CCLEX ; ! "but, but also"
+ләкин:ләкин CCLEX ; ! "but"
+тик:тик CCLEX ; ! "but,just"
+фәкать:фәкать CCLEX ; ! "но, только"
+ә:ә CCLEX ; ! "contrastive and"
+әмма:әмма CCLEX ; ! "but"
+
+!! Бүлүче теркәгечләр
+
+я:я CCLEX ; ! "or"
+яисә:яисә CCLEX ; ! "or"
+яки:яки CCLEX ; ! "or"
+әле:әле CCLEX ; ! "то ... , то ... (х2) "
+
+! Ияртүче теркәгечләр
+
 әгәр:әгәр CSLEX ; ! "if"
+чөнки:чөнки CSLEX ; ! "because"
+
+! Adverbial conjunctions
 
 шуңа% күрә:шуңа% күрә CALEX ; ! "therefore"
 шул% сәбәпле:шул% сәбәпле CALEX ; ! "therefore"
-арты:арты CALEX ; ! "" ! FIXME:CHECK
+арты:арты CALEX ; ! "" ! FIXME:CHECK, TOREMOVE
 
 LEXICON Postpositions 
 

@@ -853,7 +853,10 @@ LEXICON Conjunctions
 
 ! Sub-ordinating conjunctions
 
+гүя:гүя CSLEX ; ! "as if"
+гүяки:гүяки CSLEX ; ! "as if"
 гәрчә:гәрчә CSLEX ; ! "even if"
+ки:ки CSLEX ; ! "that, in order that"
 чөнки:чөнки CSLEX ; ! "because"
 ягъни:ягъни CSLEX ; ! "that is, то есть"
 әгәр% дә:әгәр% дә CSLEX ; ! "if" Use/MT
@@ -2628,6 +2631,12 @@ LEXICON ProperNouns
 Актаныш:Актаныш NPTOPLEX ; ! ""
 Алабуга:Алабуга NPTOPLEX ; ! ""
 
+!!! Cities/towns/regions of Kazakhstan
+
+Байконур:Байконур NPTOPLEX ; ! ""
+Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
+Төркестан:Төркестан NPTOPLEX ; ! ""
+
 !!! Cities/towns/regions of Bashkortostan
 
 Авыргазы:Авыргазы NPTOPLEX ; ! ""
@@ -2744,8 +2753,6 @@ LEXICON ProperNouns
 
 !!! Cities of the world
 
-Байконур:Байконур NPTOPLEX ; ! ""
-Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
 Лондон:Лондон NPTOPLEX ; ! ""
 Париж:Париж NPTOPLEX ; ! ""
 

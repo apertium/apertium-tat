@@ -216,10 +216,11 @@ N-INFL-COMMON ;
 
 ! NOTE: Some substantivized things might not have pl. form, numerals e.g. 
 ! (not too sure, because in Tatar they have it: 
-! #1 <11 ones meaning pupils from a given class: # өчләр = "pupils from the 3. class" 
-! #2 "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
+! #1 meaning an approximate number: #! "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
+! #2 <11 ones meaning pupils from a given class: #! өчләр = "pupils from the 3. class" 
 !
 ! If they don't have pl. form; link them to N-INFL-COMMON; if they do - to SUBST.
+! That's the only difference between N-INFL-COMMON and SUBST.
 !                                                                     /I.S./
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -369,6 +370,45 @@ LEXICON N-INFL-COMMON
 POSS-REAL ;
 CASE-ETC ;
 
+!!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
+!                                                               <s>(a separate ADJ-COMMON might be even better, see kaz.lexc)</s>
+! FIXME: this section needs refactoring
+!! e.g. change <adj><comp><subst> to <adj><subst><comp>
+!! and make use of ADJ-LEVELS class
+
+LEXICON ADJ-LEVELS
+
+%<comp%>:%>р%{A%}%{K%} CLIT ;
+CLIT ;
+
+LEXICON A1                 ! adjectives that can be both substantivized and andverbialized #! яхшы
+
+%<adj%>: CLIT ; 
+%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ; 
+
+%<adj%>%<subst%>: SUBST ;                             !# "Яхшы яхшыны тудыра." 
+%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;   !# яхшыракны таптым
+
+%<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
+%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;     !# "Бәла бәхеттән тизрәк йөри."
+
+LEXICON A2                 ! (derived/not fully lexicalized) adjectives without adverbial reading #! язгы
+
+%<adj%>: CLIT ;
+
+%<adj%>%<subst%>: SUBST ;                             !# "Ул 14-25 яшьлекләргә бирелә." 
+
+LEXICON A3                 ! adjectives with (only) predicative use !# бар, юк 
+
+! FIXME:NOTE: Maybe this class is not really needed, because it turned out :) that
+!             even "бар" and "юк" can take case endings: !# "Хатыны юкның якыны юк."
+!                                                        !# "Эше барның ашы бар."   
+!             (that means that they should be linked to A2 - and they already are).
+! In the future A3 might stand for some other class of adjectives instead,
+! if we need to distinguish any other.
+                            
+%<adj%>: CLIT ;
+
 !!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (beginning)
 
 LEXICON NLEX
@@ -414,42 +454,6 @@ LEXICON NPANTFLEX
 LEXICON NPTOPLEX
 
 %<np%>%<top%>: CASE ; 
-
-!!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
-!                                                               (a separate ADJ-COMMON might be even better, see kaz.lexc) 
-! FIXME: this section needs refactoring
-!! e.g. change <adj><comp><subst> to <adj><subst><comp>
-!! and make use of ADJ-LEVELS class
-
-LEXICON ADJ-LEVELS
-
-%<comp%>:%>р%{A%}%{K%} CLIT ;
-CLIT ;
-
-LEXICON A1                 ! adjectives that can be both substantivized and andverbialized #! яхшы
-
-%<adj%>: CLIT ; 
-%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ; 
-
-%<adj%>%<subst%>: SUBST ;                             !# "Яхшы яхшыны тудыра." 
-!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;  !# яхшыракны таптым
-
-%<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
-!%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;    !# "Бәла бәхеттән тизрәк йөри."
-
-LEXICON A2                 ! (?derived/not fully lexicalized) adjectives without adverbial reading #! язгы
-
-%<adj%>: CLIT ;
-!%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ; ! they also seem not to take comp. level !# *язгырак
-
-%<adj%>%<subst%>: SUBST ;                             !# "Ул 14-25 яшьлекләргә бирелә." 
-!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;
-
-LEXICON A3                 ! adjectives with (only) predicative use     !# бар, юк 
-                           ! FIXME:NOTE: Maybe this class is not really needed, because it turned out :) that
-                           ! even "бар" and "юк" can take case endings: !# "Хатыны юкның якыны юк."
-                                                                        !# "Эше барның ашы бар."   
-%<adj%>: CLIT ;
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 

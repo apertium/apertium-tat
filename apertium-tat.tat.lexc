@@ -183,6 +183,7 @@ Multichar_Symbols
 %{е%}              ! Realised as е/ы in some contexts, 0 otherwise
 
 %>                 ! Morpheme boundary
+%                  ! Space
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!

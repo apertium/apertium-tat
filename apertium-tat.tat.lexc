@@ -2240,6 +2240,8 @@ LEXICON Nouns
 факт:факт NLEX ; ! ""
 фамилия:фамилия NLEX ; ! ""
 фатир:фатир NLEX ; ! "" 
+фахишә:фахишә NLEX ; ! "prostitute" 
+фахишә:фәхишә NLEX ; ! "prostitute" Dir/LR 
 федерация:федерация NLEX ; ! ""
 фигура:фигура NLEX ; ! ""
 фикер:фикер NLEX ; ! ""
@@ -2506,7 +2508,7 @@ LEXICON Nouns
 җан% иясе:җан% иясе NLEX ; ! ""
 җан% иясе:җан% иясе NLEX ; ! ""
 җан:җан NLEX ; ! "" 
-җан:җан NLEX ; ! "" 
+җанатар:җанатар NLEX ; ! "fan" 
 җанвар:җанвар NLEX ; ! ""
 җен:җен NLEX ; ! ""
 җенес:җенес NLEX ; ! "" 
@@ -3525,7 +3527,7 @@ LEXICON Adverbs
 күптән:күптән ADVLEX ; ! "long ago"
 көндез:көндез ADVLEX ; ! "during the day"
 моңача:моңача ADVLEX ; ! ""
-ничек% кенә% булмасын:ничек% кенә% булмасынADVLEX ; ! "somehow" Use/MT
+ничек% кенә% булмасын:ничек% кенә% булмасын ADVLEX ; ! "somehow" Use/MT
 нәкъ:нәкъ ADVLEX ; ! "exactly"
 !сизелерлек:сизелерлек ADVLEX ; ! ""
 соңга:соңга ADVLEX ; ! ""

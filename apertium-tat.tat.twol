@@ -52,6 +52,8 @@ Rules
   [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;
            except
                  [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
+                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
+
 !                                    [ %{ъ%}: ]/[ %>: ] _ ;
 !                 :FrontVow :л %>: :л _ р ;   ! WTF is this for?
 !                                      _ %>: %{E%}:и ;
@@ -67,6 +69,7 @@ Rules
                              [ :и :я :Cns* :Cns ]/[ %>: | %  | :0 ] _ ;
             except
                                                      %{n%}: %>: н:0 _ .#. ;
+                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
 
 "Epenthetic {e} Vowel Harmony"
 %{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;

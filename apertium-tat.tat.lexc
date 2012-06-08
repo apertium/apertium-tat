@@ -145,7 +145,7 @@ Multichar_Symbols
 %<p1%>             ! First person
 %<p2%>             ! Second person
 %<p3%>             ! Third person
-%<frm%>            ! Formality FIXME: Check
+%<frm%>            ! Formality
 
 ! Clitics
 %<qst%>            ! Modal question particle
@@ -569,7 +569,10 @@ V-FINITE-FORMS ;
 
 %<imp%>%<p2%>%<sg%>: CLIT-IMP2P ;
 %<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-IMP2P ;
-
+%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з CLIT-IMP2P ; ! FIXME:NOTE: in fact, there is only one formal imperative in Tatar,
+%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з CLIT-IMP2P ; ! which should be tagged as <imp><frm><sp>. But in Kazakh there are both
+                                                     ! sg and pl forms, so I make it ambigitious here between sg/pl, maybe we could
+                                                     ! handle it somehow in CG later 
 LEXICON V-COMMON-PASSIVE
 
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON-LEX ; 
@@ -3759,7 +3762,7 @@ LEXICON Verbs
 сайла:сайла V-TV-IR-LEX ; ! ""
 сакла:сакла V-TV-IR-LEX ; ! ""
 саклан:саклан V-IV-IR-LEX ; ! ""
-сал:сал V-TV-IR-LEX ; ! ""
+сал:сал V-TV-IR-LEX ; ! "build,cast,lay,put"
 сана:сана V-TV-IR-LEX ; ! ""
 сат:сат V-TV-AR-LEX ; ! ""
 сатып% ал:сатып% ал V-TV-IR-LEX ; ! ""

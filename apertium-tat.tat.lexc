@@ -1012,29 +1012,6 @@ LEXICON Determiners
 
 LEXICON Numerals 
 
-I NUM-ROMAN ; ! ""
-II NUM-ROMAN ; ! ""
-III NUM-ROMAN ; ! ""
-IV NUM-ROMAN ; ! ""
-V NUM-ROMAN ; ! ""
-VI NUM-ROMAN ; ! ""
-VII NUM-ROMAN ; ! ""
-VIII NUM-ROMAN ; ! ""
-IX NUM-ROMAN ; ! ""
-X NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XII NUM-ROMAN ; ! ""
-XIII NUM-ROMAN ; ! ""
-XIV NUM-ROMAN ; ! ""
-XV NUM-ROMAN ; ! ""
-XVI NUM-ROMAN ; ! ""
-XVII NUM-ROMAN ; ! ""
-XVIII NUM-ROMAN ; ! ""
-XIX NUM-ROMAN ; ! ""
-XX NUM-ROMAN ; ! ""
-XXI NUM-ROMAN ; ! ""
-
 нуль:нуль NUMLEX ; ! ""
 нуль:ноль NUMLEX ; ! "" ! Dir/LR
 нуль:нол NUMLEX ; ! "" ! Dir/LR

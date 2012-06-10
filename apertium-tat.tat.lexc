@@ -454,7 +454,8 @@ LEXICON NPANTFLEX
 
 LEXICON NPTOPLEX
 
-%<np%>%<top%>: CASE ; 
+%<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
+                                ! *Мәскәүдәй?             
 
 LEXICON NPALLEX
 

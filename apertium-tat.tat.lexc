@@ -105,6 +105,7 @@ Multichar_Symbols
 %<pres%>           ! -{A}
 %<past%>           ! -{G}{A}н 
 %<fut%>            ! -{I}р
+%<fut2%>           ! -{A}ч{A}к
 %<ifi%>            ! -{D}{I} 
 
 ! Non-Finite verb forms ! WARNING: Number part of the tags is subject to change :)
@@ -129,7 +130,7 @@ Multichar_Symbols
 %<ger4%>           ! -{G}{A}нч{I}
 %<ger5%>           ! -{G}{A}н
 %<ger6%>           ! -{I}р / -{A}р
-%<ger7%>           ! -{A}ч{A}к
+%<ger7%>           ! -{A}ч{A}к ! WARNING: Replaced with fut2
 %<inf%>            ! Infinitive! Инфинитив ! -{A/I}рг{A}
 
 !!! the next will be removed soon; kept to let others know about changes
@@ -470,7 +471,7 @@ LEXICON V-PERS-S1
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; ! FIXME: Check 'Ни өчен беләсезме?' ! <frm><sg> and <frm><pl> are the same forms in Tatar; so maybe <frm><sp> would be better /I.S./
 %<p3%>%<sg%>:%> CLIT ;
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
-%<p2%>%<pl%>:%>г%{I%}з CLIT ;
+%<p2%>%<pl%>:%>c%{I%}з CLIT ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
 LEXICON V-PERS-S2
@@ -541,6 +542,7 @@ LEXICON V-FINITE-FORMS
 %<pres%>:%>%{E%} V-PERS-S1 ; 
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
 %<past%>:%>%{G%}%{A%}н V-PERS-S3 ; 
+%<fut2%>:%>%{A%}ч%{A%}к V-PERS-S3 ;
 
 LEXICON V-COMMON-LEX
 
@@ -557,9 +559,9 @@ V-FINITE-FORMS ;
 %<ger3%>:%>%{G%}%{A%}ч SUBST ; 
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS-REAL ; 
 %<ger5%>:%>%{G%}%{A%}н POSS-REAL ;
-%<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;
 !! TO REMOVE
 !%<ger2%>:%>%{I%}п POSS-REAL ; 
+!%<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;
 !%<ger8%>:%>%{E%}с V-PERS-S4 ;
 
 ! Verbal adverbs

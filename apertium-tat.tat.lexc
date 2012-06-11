@@ -398,9 +398,11 @@ LEXICON A2                 ! (derived/not fully lexicalized) adjectives without 
 
 %<adj%>: CLIT ;
 
-%<adj%>%<subst%>: SUBST ;                             !# "Ул 14-25 яшьлекләргә бирелә." 
-
-LEXICON A3                 ! adjectives with (only) predicative use !# бар, юк 
+%<adj%>%<subst%>: SUBST ;  !# "Ул 14-25 яшьлекләргә бирелә."
+                           ! loc.subst form of them seems not to make sense:
+                           ! e.g. *язгыдагы (in this sense "яздагы" is what will be used instead)
+ 
+LEXICON A3                 ! adjectives with (only) predicative use !# бар, юк
 
 ! FIXME:NOTE: Maybe this class is not really needed, because it turned out :) that
 !             even "бар" and "юк" can take case endings: !# "Хатыны юкның якыны юк."
@@ -417,6 +419,15 @@ LEXICON NLEX
 
 %<n%>%<attr%>: # ; 
 %<n%>: SUBST ;
+
+LEXICON N-COMPOUND-PX ! consider "N2" for the name
+                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+                      ! FIXME: check this, leads to foo bar\/foo barсы :)
+
+!%{s%}%{I%}%{n%}%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+!%{s%}%{I%}%{n%}%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
 LEXICON DIGITLEX
 
@@ -542,7 +553,7 @@ LEXICON V-FINITE-FORMS
 %<pres%>:%>%{E%} V-PERS-S1 ; 
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
 %<past%>:%>%{G%}%{A%}н V-PERS-S3 ; 
-%<fut2%>:%>%{A%}ч%{A%}к V-PERS-S3 ;
+%<fut2%>:%>%{E%}%{A%}ч%{A%}к V-PERS-S3 ;
 
 LEXICON V-COMMON-LEX
 
@@ -1410,6 +1421,7 @@ LEXICON Nouns
 дулкын:дулкын NLEX ; ! ""
 дума:дума NLEX ; ! ""
 дус:дус%{т%} NLEX ; ! ""    ! gets an epenthetic 'т' before affixes starting with a vowel: 'дустым'
+дуңгыз% баласы:дуңгыз% баласы N-COMPOUND-PX ; ! ""
 дәвалау:дәвалау NLEX ; ! ""
 дәвам:дәвам NLEX ; ! ""
 дәваханә:дәваханә NLEX ; ! ""
@@ -1695,6 +1707,8 @@ LEXICON Nouns
 күпер:күпер NLEX ; ! ""
 күплек:күплек NLEX ; ! ""
 күпчелек:күпчелек NLEX ; ! ""
+күрәзәлек:күрәзәлек NLEX ; ! ""
+күрәзәче:күрәзәче NLEX ; ! ""
 күргәзмә:күргәзмә NLEX ; ! ""
 күренеш:күренеш NLEX ; ! ""
 күренү:күренү NLEX ; ! ""
@@ -3786,6 +3800,7 @@ LEXICON Verbs
 уңышлы% бет:уңышлы% бет V-IV-AR-LEX ; ! ""
 файдалан:файдалан V-IV-IR-LEX ; ! ""
 файдалан:файдалан V-TV-IR-LEX ; ! ""
+фараз% кыл:фараз% кыл V-IV-IR-LEX ; ! "" Use/MT
 фаразла:фаразла V-TV-IR-LEX ; ! ""
 финансла:финансла V-TV-IR-LEX ; ! ""
 формалаштыр:формалаштыр V-TV-IR-LEX ; ! ""

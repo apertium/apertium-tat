@@ -413,66 +413,6 @@ LEXICON A3                 ! adjectives with (only) predicative use !# бар, �
                             
 %<adj%>: CLIT ;
 
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (beginning)
-
-LEXICON NLEX
-
-%<n%>%<attr%>: # ; 
-%<n%>: SUBST ;
-
-LEXICON N-COMPOUND-PX ! consider "N2" for the name
-                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
-                      ! FIXME: check this, leads to foo bar\/foo barсы :)
-
-!%{s%}%{I%}%{n%}%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
-!%{s%}%{I%}%{n%}%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
-%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
-%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
-
-LEXICON DIGITLEX
-
-%<num%>: # ; 
-
-LEXICON NUMLEX
-
-%<num%>: # ; 
-%<num%>%<subst%>: SUBST ; 
-%<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ; 
-%<num%>%<dist%>:%>%{A%}р SUBST ; 
-
-LEXICON NUM-COLL
-
-%<num%>%<coll%>: # ;
-
-LEXICON NPCOGMLEX
-
-%<np%>%<cog%>%<m%>: CASE ; 
-
-LEXICON NPCOGFLEX
-
-%<np%>%<cog%>%<f%>: CASE ; 
-
-LEXICON NPCOGMFLEX
-
-%<np%>%<cog%>%<mf%>: CASE ; 
-
-LEXICON NPANTMLEX
-
-%<np%>%<ant%>%<m%>: CASE ; 
-
-LEXICON NPANTFLEX
-
-%<np%>%<ant%>%<f%>: CASE ; 
-
-LEXICON NPTOPLEX
-
-%<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
-                                ! *Мәскәүдәй?             
-
-LEXICON NPALLEX
-
-%<np%>%<al%>: CASE ; 
-
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
 LEXICON V-PERS-S1 
@@ -761,7 +701,7 @@ LEXICON PRNREFLEX
 
 %<prn%>%<ref%>: POSS-REAL ; 
 
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (end)
+!!!!!!!!!!!!!!!!!!!!!!     DETERMINERS
 
 LEXICON DETDEMLEX
 
@@ -778,6 +718,70 @@ LEXICON DETINDLEX
 LEXICON DETITGLEX
 
 %<det%>%<itg%>: # ; 
+
+!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS
+
+LEXICON NLEX
+
+%<n%>%<attr%>: # ; 
+%<n%>: SUBST ;
+
+LEXICON N-COMPOUND-PX ! consider "N2" for the name
+                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+                      ! FIXME: check this, leads to foo bar\/foo barсы :)
+
+!%{s%}%{I%}%{n%}%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+!%{s%}%{I%}%{n%}%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+
+LEXICON NPTOPLEX
+
+%<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
+                                ! *Мәскәүдәй?             
+
+LEXICON NPANTMLEX
+
+%<np%>%<ant%>%<m%>: CASE ; 
+
+LEXICON NPANTFLEX
+
+%<np%>%<ant%>%<f%>: CASE ; 
+
+LEXICON NPCOGMLEX
+
+%<np%>%<cog%>%<m%>: CASE ; 
+
+LEXICON NPCOGFLEX
+
+%<np%>%<cog%>%<f%>: CASE ; 
+
+LEXICON NPCOGMFLEX
+
+%<np%>%<cog%>%<mf%>: CASE ; 
+
+LEXICON NPALLEX
+
+%<np%>%<al%>: CASE ; 
+
+LEXICON NUMLEX
+
+%<num%>: # ; 
+%<num%>%<subst%>: SUBST ; 
+%<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ; 
+%<num%>%<dist%>:%>%{A%}р SUBST ; 
+
+LEXICON NUM-COLL
+
+%<num%>%<coll%>: # ;
+
+LEXICON DIGITLEX
+
+%<num%>: # ; 
+
+!LEXICON NUM-ROMAN
+!
+!NUM ;
 
 LEXICON POSTLEX
 

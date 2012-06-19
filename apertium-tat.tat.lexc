@@ -252,19 +252,18 @@ N-INFL-COMMON ;
 
 ! Modal/discourse particles
 
-LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives,
-                                 ! and vice versa - 2nd person imperatives take only this clitics
+LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives
+
 !! Politeness
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
-
 CLIT-COMMON ;
 # ;
 
 LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
 
-!%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
+!%+шул%<mod_ass%>:% шул # ;      ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
 
 LEXICON CLIT                     ! These citics can join words of any POS and of any form
 
@@ -286,14 +285,15 @@ LEXICON CLIT                     ! These citics can join words of any POS and of
 !! Indefinite (expressing doubt) modal particles
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
-
 CLIT-COMMON ;
 # ;
 
 !! FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
 !!                and not attach them to the previous word
 
-%+да%<cnjcoo%>:% %{D%}%{A%} # ;
+%+гына%<postadv%>:% %{G%}%{I%}н%{A%} # ; ! "only"
+%+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
+%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 

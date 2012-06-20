@@ -626,18 +626,22 @@ LEXICON PRN-PERS
 син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдә CLIT ; 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<px%>:синеке%{n%} CASE ;
 син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдәге ADJ-DAGI ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<sim%>:синдәй CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<sim%>:синдәй CLIT ; 
 
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ул # ; 
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:аның # ; 
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңа # ;             !! also synonymic variants "аңар" and "аңарга" (only analysed)
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңар # ; Dir/LR
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңарга # ; Dir/LR
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:аны # ; 
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:анда # ;            !! also: "аңарда" (only analysed)  !!"анда" "аннан" usually instead of inanimate nouns 
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңарда # ; Dir/LR
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аннан # ;           !! also: "аңардан" (only analysed) !!"аңарда" "аңардан" -- instead of person
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аңардан # ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ул CLIT ; 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:аның CLIT ; 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңа CLIT ;             !! also synonymic variants "аңар" and "аңарга" (only analysed)
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңар CLIT ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңарга CLIT ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:аны CLIT ; 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аннан CLIT ;           !! also: "аңардан" (only analysed) !!"аңарда" "аңардан" -- instead of person
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аңардан CLIT ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:анда CLIT ;            !! also: "аңарда" (only analysed)  !!"анда" "аннан" usually instead of inanimate nouns 
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңарда CLIT ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:аныкы%{n%} CASE ;
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:андагы ADJ-DAGI ;
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңардагы ADJ-DAGI ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:андай CLIT ;
 
 без%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:без # ; 
 без%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:безнең # ; 

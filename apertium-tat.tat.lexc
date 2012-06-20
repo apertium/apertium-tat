@@ -655,6 +655,10 @@ LEXICON PRN-PERS
 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-INFL ; 
 
+! FIXME:NOTE: maybe we should capitalize the formal "сез", because I have no idea
+! how I can make disambiguation between "сез%<prn%>%<pers%>%<p2%>%<pl%>" and
+! "сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>"
+ 
 сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:сез PRON-PERS-INFL ;
 
 LEXICON PRNDEM-BU

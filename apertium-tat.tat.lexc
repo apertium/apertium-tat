@@ -50,6 +50,7 @@ Multichar_Symbols
 ! Number ! Сан ! Число
 %<sg%>             ! Singular  ! Берлек сан  ! Единственное число
 %<pl%>             ! Plural    ! Күплек сан  ! Множественное число
+%<sp%>             ! Singular/Plural (used for formal personal pronoun)
 
 ! Possessives ! Тартым ! Притяжательные окончания
 %<px1sg%>          ! First person singular
@@ -602,6 +603,10 @@ LEXICON COP-I
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
+LEXICON PRON-PERS-INFL
+
+CASE-ETC ;
+
 LEXICON PRN-PERS
 
 ! FIXME:NOTE: some of these are regular and can eventually be pointed
@@ -628,6 +633,7 @@ LEXICON PRN-PERS
 син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдәге ADJ-DAGI ; 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<sim%>:синдәй CLIT ; 
 
+! FIXME: check Dir/ restrictions
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ул CLIT ; 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:аның CLIT ; 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңа CLIT ;             !! also synonymic variants "аңар" and "аңарга" (only analysed)
@@ -643,26 +649,13 @@ LEXICON PRN-PERS
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңардагы ADJ-DAGI ; Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:андай CLIT ;
 
-без%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:без # ; 
-без%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:безнең # ; 
-без%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:безгә # ; 
-без%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:безне # ; 
-без%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:бездә # ; 
-без%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:бездән # ; 
+без%<prn%>%<pers%>%<p1%>%<pl%>:без PRON-PERS-INFL ; 
 
-сез%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:сез # ; 
-сез%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:сезнең # ; 
-сез%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:сезгә # ; 
-сез%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:сезне # ; 
-сез%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:сездә # ; 
-сез%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:сездән # ; 
+сез%<prn%>%<pers%>%<p2%>%<pl%>:сез PRON-PERS-INFL ; 
 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:алар # ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:аларның # ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:аларга # ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:аларны # ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:аларда # ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:алардан # ; 
+алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-INFL ; 
+
+сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:сез PRON-PERS-INFL ;
 
 LEXICON PRNDEM-BU
 

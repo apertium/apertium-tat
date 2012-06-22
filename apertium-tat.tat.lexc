@@ -422,6 +422,12 @@ LEXICON A3                 ! (derived/not fully lexicalized) adjectives without 
 ! FIXME:NOTE:loc.attr/subst form of some of them seems to be pure overgeneration:
 ! e.g. *язгыдагы
 
+LEXICON A4                 ! "pure" adjectives - no adverbial and substantive readings, no comparison levels;
+                           !# милли
+
+%<adj%>: CLIT ;                                       !# милли музей
+ 
+
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
 LEXICON V-PERS-S1 

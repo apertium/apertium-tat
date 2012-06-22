@@ -378,7 +378,7 @@ CASE-ETC ;
 
 !!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
 !                                                               <s>(a separate ADJ-COMMON might be even better, see kaz.lexc)</s>
-! FIXME: this section needs refactoring
+! FIXME: this section might need some refactoring
 !! e.g. change <adj><comp><subst> to <adj><subst><comp>
 !! and make use of ADJ-LEVELS class
 
@@ -387,7 +387,9 @@ LEXICON ADJ-LEVELS
 %<comp%>:%>р%{A%}%{K%} CLIT ;
 CLIT ;
 
-LEXICON A1                 ! adjectives that can be both substantivized and andverbialized #! яхшы
+LEXICON A1                !# яхшы
+                          ! adjectives that can be both substantivized and andverbialized;
+                          ! all three readings (<adj>, <adj.subst> and <adj.advl>) have comparison levels
 
 %<adj%>: CLIT ; 
 %<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ; 
@@ -398,13 +400,17 @@ LEXICON A1                 ! adjectives that can be both substantivized and andv
 %<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
 %<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;     !# "Бәла бәхеттән тизрәк йөри."
 
-LEXICON A2                 ! (derived/not fully lexicalized) adjectives without adverbial reading #! язгы
+LEXICON A2                 ! (derived/not fully lexicalized) adjectives without adverbial reading;
+                           ! <adj> and <adj.subst> readings have comparison levels.
+                           !# ескі
 
 %<adj%>: CLIT ;
+%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ; 
 
 %<adj%>%<subst%>: SUBST ;  !# "Ул 14-25 яшьлекләргә бирелә."
                            ! loc.subst form of them seems not to make sense:
                            ! e.g. *язгыдагы (in this sense "яздагы" is what will be used instead)
+%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;   !# яхшыракны таптым
  
 LEXICON A3                 ! adjectives with (only) predicative use !# бар, юк
 
@@ -416,6 +422,7 @@ LEXICON A3                 ! adjectives with (only) predicative use !# бар, �
 ! if we need to distinguish any other.
                             
 %<adj%>: CLIT ;
+%<adj%>%<subst%>: SUBST ;  !# "Ул 14-25 яшьлекләргә бирелә."
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 

@@ -1228,6 +1228,7 @@ LEXICON Nouns
 аэропорт:аэропорт NLEX ; ! ""
 аю:аю NLEX ; ! ""
 аяк:аяк NLEX ; ! ""
+баба:баба NLEX ; ! ""
 бабай:бабай NLEX ; ! ""
 бабакай:бабакай NLEX ; ! ""
 багана:багана NLEX ; ! "pole,post"
@@ -2077,6 +2078,7 @@ LEXICON Nouns
 таш:таш NLEX ; ! ""
 ташу:ташу NLEX ; ! ""
 театр:театр NLEX ; ! ""
+тереклек:тереклек NLEX ; ! ""
 тәгәрмәч:тәгәрмәч NLEX ; ! ""
 тәҗрибә:тәҗрибә NLEX ; ! ""
 тез:тез NLEX ; ! ""
@@ -2393,6 +2395,7 @@ LEXICON Nouns
 шура:шура NLEX ; ! ""
 ыру:ыру NLEX ; ! ""
 ысул:ысул NLEX ; ! ""
+ырудаш:ырудаш NLEX ; ! ""
 ышану:ышану NLEX ; ! ""
 ышаныч:ышаныч NLEX ; ! ""
 ыштан:ыштан NLEX ; ! ""
@@ -2402,6 +2405,7 @@ LEXICON Nouns
 экран:экран NLEX ; ! ""
 эксперимент:эксперимент NLEX ; ! ""
 экспозиция:экспозиция NLEX ; ! ""
+электр:электр NLEX ; ! ""
 элемтә:элемтә NLEX ; ! ""
 эләүкә:эләүкә NLEX ; ! ""
 эмблема:эмблема NLEX ; ! ""
@@ -2470,7 +2474,7 @@ LEXICON Nouns
 яшәү:яшәү NLEX ; ! ""
 яшь:яшь NLEX ; ! ""
 
-!!! Nouns used as postpositions when <possessive><case>
+!!! Nouns used as postpositions when <possessive><case> !!!
 
 ара:ара NLEX ; ! "among"
 арка:арка NLEX ; ! "back; reason" 
@@ -2479,6 +2483,11 @@ LEXICON Nouns
 ян:ян NLEX ; ! "next to"
 өс:өс NLEX ; ! "top" Dir/LR
 өс:өс%{т%} NLEX ; ! "top"
+
+!!! Nationalities !!!
+
+татар:татар NLEX ; ! "Tatar"
+қазақ:қазақ NLEX ; ! "Kazakh"
 
 LEXICON ProperNouns
 
@@ -2493,6 +2502,7 @@ LEXICON ProperNouns
 
 !!! Cities/towns/regions of Kazakhstan
 
+Алматы:Алматы NPTOPLEX ; ! ""
 Байконур:Байконур NPTOPLEX ; ! ""
 Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
 Төркестан:Төркестан NPTOPLEX ; ! ""
@@ -2629,6 +2639,7 @@ LEXICON ProperNouns
 
 !!! Other toponyms
 
+Азия:Азия NPTOPLEX ; ! ""
 Америка:Америка NPTOPLEX ; ! ""
 Аурупа:Аурупа NPTOPLEX ; ! ""
 Европа:Европа NPTOPLEX ; ! ""
@@ -2645,8 +2656,6 @@ LEXICON ProperNouns
 !!! FIXME:
 
 Рабби:Рабби NPTOPLEX ; ! ""
-АКШ:АКШ NPTOPLEX ; ! "USA" FIXME: abbreviaton? (or do we consider only stuff with a . after it to be an abbreviation?)
-СССР:СССР NPTOPLEX ; ! "" FIXME: abbreviaton?
 
 !=========================================================================!
 
@@ -2737,17 +2746,35 @@ LEXICON ProperNouns
 
 LEXICON Adjectives 
 
+!!! A4 adj. !!!
+
 чит% ил:чит% ил A4 ; ! "foreign"
 
+!!! A3 adj., adj.subst. !!!
+
 бар:бар A3 ; ! ""
+башлангыч:башлангыч A3 ; ! "~initial"
+елгы:елгы A3 ; ! "year's"
+еллык:еллык A3 ; ! "-летний,годовой,годичный"
 мөмкин:мөмкин A3 ; ! "possible"
 тиеш:тиеш A3 ; ! ""
+туган:туган A3 ; ! "родной"
+төп:төп A3 ; ! "basic,fundamental"
+эчке:эчке A3 ; ! "internal"
 юк:юк A3 ; ! ""
 язгы:язгы A3 ; ! ""
-яшьлек:яшьлек A1 ; ! "after numerals: of ageX"
+яшьлек:яшьлек A3 ; ! "after numerals: of ageX"
 җәйге:җәйге A3 ; ! ""
 
+!!! A2 adj.(comp), adj.(comp).subst !!!
+
 түгәрәк:түгәрәк A2 ; ! "round, circular"
+төсле:төсле A2 ; ! ""
+уртача:уртача A2 ; ! ""
+хәзерге:хәзерге A2 ; ! ""
+
+!!! A1 adj.(comp), adj.(comp).advl, adj.(comp).subst !!!
+!!!            and when not sure :)                  !!!
 
 абруйлы:абруйлы A1 ; ! ""
 автономияле:автономияле A1 ; ! ""
@@ -2844,7 +2871,6 @@ LEXICON Adjectives
 дәү:дәү A1 ; ! ""
 дәүләти:дәүләти A1 ; ! ""
 дөрес:дөрес A1 ; ! ""
-елгы:елгы A1 ; ! ""
 ерак:ерак A1 ; ! ""
 еш:еш A1 ; ! ""
 заманча:заманча A1 ; ! ""
@@ -3074,7 +3100,6 @@ LEXICON Adjectives
 хокукый:хокукый A1 ; ! ""
 хосусый:хосусый A1 ; ! ""
 хәвефле:хәвефле A1 ; ! ""
-хәзерге:хәзерге A1 ; ! ""
 хәл% иткеч:хәл% иткеч A2 ; ! "" Use/MT
 хәлсез:хәлсез A1 ; ! ""
 хәрби:хәрби A1 ; ! ""
@@ -3202,7 +3227,6 @@ LEXICON Adjectives
 инглиз:инглиз A1 ; ! ""
 ирләргә% хас:ирләргә% хас A1 ; ! ""
 киңәйтелгән:киңәйтелгән A1 ; ! ""
-көнбатыш:көнбатыш A1 ; ! ""
 көнчыгыш:көнчыгыш A1 ; ! ""
 көтелмәгән:көтелмәгән A1 ; ! ""
 көтмәгән:көтмәгән A1 ; ! ""
@@ -3221,7 +3245,6 @@ LEXICON Adjectives
 төньяк:төньяк A1 ; ! ""
 узган:узган A1 ; ! ""
 уртадагы:уртадагы A1 ; ! ""
-уртача:уртача A1 ; ! ""
 урыс:урыс A1 ; ! ""
 француз:француз A1 ; ! ""
 хатын-кыз:хатын-кыз A1 ; ! ""
@@ -3429,7 +3452,7 @@ LEXICON Verbs
 бүләк% ит:бүләк% ит V-TV-AR-LEX ; ! ""
 бүләклә:бүләклә V-TV-IR-LEX ; ! ""
 бүләклән:бүләклән V-IV-IR-LEX ; ! ""
-бүлен:бүлен V-IV-IR-LEX ; ! ""
+бүл:бүл V-TV-AR-LEX ; ! "делить"
 бүлеш:бүлеш V-IV-IR-LEX ; ! ""
 булып% чык:булып% чык V-IV-AR-LEX ; ! ""
 ват:ват V-TV-AR-LEX ; ! ""
@@ -3479,6 +3502,7 @@ LEXICON Verbs
 кабул% ит:кабул% ит V-TV-IR-LEX ; ! ""
 кайтарып% бир:кайтарып% бир V-TV-IR-LEX ; ! ""
 кайт:кайт V-IV-IR-LEX ; ! ""
+кал:кал V-IV-IR-LEX ; ! "remain"
 калдыр:калдыр V-TV-IR-LEX ; ! ""
 камилләштер:камилләштер V-TV-IR-LEX ; ! ""
 капла:капла V-TV-IR-LEX ; ! ""
@@ -3513,6 +3537,7 @@ LEXICON Verbs
 кит:кит V-IV-AR-LEX ; ! ""
 кит:кит V-IV-AR-LEX ; ! ""
 кичер:кичер V-TV-IR-LEX ; ! ""
+кор:кор V-TV-IR-LEX ; ! "build"
 көлемсерә:көлемсерә V-IV-IR-LEX ; ! ""
 көл:көл V-IV-IR-LEX ; ! ""
 көт:көт V-TV-AR-LEX ; ! ""
@@ -3639,8 +3664,7 @@ LEXICON Verbs
 үткәр:үткәр V-TV-IR-LEX ; ! ""
 үт:үт V-TV-AR-LEX ; ! ""
 утыр:утыр V-IV-IR-LEX ; ! ""
-файдалан:файдалан V-IV-IR-LEX ; ! ""
-файдалан:файдалан V-TV-IR-LEX ; ! ""
+файдалан:файдалан V-IV-IR-LEX ; ! "" FIXME:check transitivity (?ref > passive)
 фараз% кыл:фараз% кыл V-IV-IR-LEX ; ! "" Use/MT
 фаразла:фаразла V-TV-IR-LEX ; ! ""
 финансла:финансла V-TV-IR-LEX ; ! ""
@@ -3729,19 +3753,23 @@ LEXICON Interjections
 
 LEXICON Abbreviations
 
+АКШ:АКШ ABBR ; ! "USA"
+СССР:СССР ABBR ; ! ""
+ССРБ:ССРБ ABBR ; ! "USSR"
 УЕФА:УЕФА ABBR ; ! ""
 
-б%.э%.к:б%.э%.к ABBR ;  ! ""
-б%.э:б%.э ABBR ;  ! ""
-е%.:е%. ABBR ;  ! ""
-кг:кг ABBR ;  ! ""
-км:км ABBR ; ! ""
-км²:км² ABBR ;  ! ""
-км³:км³ ABBR ;  ! ""
-млн:млн ABBR ;  ! ""
-см:см ABBR ;  ! ""
-т%.:т%. ABBR ; ! ""
-һ%.б%.:һ%.б%. ABBR ; ! ""
+б%.э%.к:б%.э%.к ABBR ;  ! "BCE"
+б%.э:б%.э ABBR ;  ! "CE"
+е%.:е%. ABBR ;  ! "year"
+кг:кг ABBR ;  ! "kg"
+км:км ABBR ; ! "km"
+км²:км² ABBR ;  ! "km²"
+км2:км2 ABBR ; ! "km²"
+км³:км³ ABBR ;  ! "km³"
+млн:млн ABBR ;  ! "million"
+см:см ABBR ;  ! "cm"
+т%.:т%. ABBR ; ! "tonne"
+һ%.б%.:һ%.б%. ABBR ; ! etc.""
 
 LEXICON Punctuation
 

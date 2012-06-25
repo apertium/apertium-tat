@@ -782,6 +782,10 @@ LEXICON NPCOGMFLEX
 
 %<np%>%<cog%>%<mf%>: CASE ; 
 
+LEXICON NPORGLEX
+
+%<np%>%<org%>: CASE ; 
+
 LEXICON NPALLEX
 
 %<np%>%<al%>: CASE ; 
@@ -2741,6 +2745,10 @@ LEXICON ProperNouns
 Семивеличенко:Семивеличенко NPCOGMFLEX ; ! ""
 
 !=========================================================================!
+
+!! Organizations
+
+Татар-информ:Татар-информ NPORGLEX ; ! ""
 
 !! Other proper names (events etc)
 

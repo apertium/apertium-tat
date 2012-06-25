@@ -508,7 +508,7 @@ LEXICON V-FINITE-FORMS
 %<pres%>:%>%{E%} V-PERS-S1 ; 
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
 %<past%>:%>%{G%}%{A%}н V-PERS-S3 ; 
-%<fut2%>:%>%{E%}%{A%}ч%{A%}к V-PERS-S3 ;
+%<fut2%>:%>%{E%}ч%{A%}к V-PERS-S3 ;
 
 LEXICON V-COMMON-LEX
 

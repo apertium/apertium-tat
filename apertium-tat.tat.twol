@@ -59,7 +59,7 @@ Rules
 !                                      _ %>: %{E%}:и ;
 !                                      _ %>: %{E%}:й ;
                                                                     _ %>: %{E%}: ;
-                                                             й: %>: _ ;
+                                       [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 "I Vowel Harmony"
 %{I%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;
@@ -171,7 +171,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 %{A%}:0 <=> _ %>: %{E%}:и ;
             except
             [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ %>: %{E%}: ;
-            й: %>: _ ;
+            [ [ :Vow %{j%}: ] | й:]/%>: _ ;
 
 "Turn а to ы before E:й"
 а:ы <=> _ %>: %{E%}:й ;
@@ -179,7 +179,10 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 "Turn A to ы before E:й"
 %{A%}:ы <=> [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ %>: %{E%}: ;
         except
-                                          й: %>: _ ;
+                     [ [ :Vow %{j%}: ] | й:]/%>: _ ;
+
+!"Get rid of {j} after a consonant"
+!%{j%}:0 <=> :Cns/[ %>: | :0 ] _ ;
 
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :Vow - :Cns ]/[ :0 | %>: ] _ ;
@@ -241,8 +244,8 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
         _ %>: :я ;
         _ %>: :ю ;
 
-"Convert {A} to я after й"
-%{A%}:я <=> й: %>: _ ;
+"Convert {A} to я after й and {j}"
+%{A%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 !!!! Special archiphonemes !!!!
 

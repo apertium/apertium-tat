@@ -1928,7 +1928,8 @@ LEXICON Nouns
 продукция:продукция NLEX ; ! ""
 проект:проект NLEX ; ! ""
 профессор:профессор NLEX ; ! ""
-процент:процент NLEX ; ! ""
+процент:процент%{ъ%} NLEX ; ! "" FIXME:NOTE: maybe this can be made to work without that sign,
+                            !                since "e" after a consonant is front. JNW?
 процесс:процесс NLEX ; ! ""
 пуля:пуля NLEX ; ! ""
 пункт:пункт NLEX ; ! ""

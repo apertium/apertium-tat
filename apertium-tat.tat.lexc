@@ -928,6 +928,9 @@ LEXICON Conjunctions
 шуңа% күрә:шуңа% күрә CALEX ; ! "therefore"
 арты:арты CALEX ; ! "" ! FIXME:CHECK, TOREMOVE
 
+фикеренчә:фикеренчә CALEX ; ! ""
+
+
 LEXICON Postpositions 
 
 ! Some of them are postpositions derived from nouns ( "auxilliary nouns"
@@ -1477,7 +1480,6 @@ LEXICON Nouns
 җисем:җисем NLEX ; ! ""
 җитәкче:җитәкче NLEX ; ! ""
 җитәкчелек:җитәкчелек NLEX ; ! ""
-җитештерү:җитештерү NLEX ; ! ""
 җитештерүче:җитештерүче NLEX ; ! ""
 җиһан:җиһан NLEX ; ! ""
 җомга:җомга NLEX ; ! ""
@@ -2483,6 +2485,11 @@ LEXICON Nouns
 
 премьер-министр:премьер-министр NLEX ; ! ""
 
+тапкыр:тапкыр NLEX ; ! ""
+төбәк:төбәк NLEX ; ! ""
+хезмәттәшлек:хезмәттәшлек NLEX ; ! ""
+рәвеш:рәвеш NLEX ; ! ""
+
 !!! Nouns used as postpositions when <possessive><case> !!!
 
 ара:ара NLEX ; ! "among"
@@ -2492,6 +2499,8 @@ LEXICON Nouns
 ян:ян NLEX ; ! "next to"
 өс:өс NLEX ; ! "top" Dir/LR
 өс:өс%{т%} NLEX ; ! "top"
+
+эч:эч NLEX ; ! "inside"
 
 !!! Nationalities !!!
 
@@ -2714,6 +2723,9 @@ LEXICON ProperNouns
 Гөлнара:Гөлнара NPANTFLEX ; ! ""
 Ирина:Ирина NPANTFLEX ; ! ""
 Лилия:Лилия NPANTFLEX ; ! ""
+Минтимер:Минтимер NPANTMLEX ; ! ""
+Сергей:Сергей NPANTMLEX ; ! ""
+Фәрит:Фәрит NPANTMLEX ; ! ""
 
 Әхмәтов:Әхмәтов NPCOGMLEX ; ! ""
 Балабанов:Балабанов NPCOGMLEX ; ! ""
@@ -2733,6 +2745,9 @@ LEXICON ProperNouns
 Әсадуллин:Әсадуллин NPCOGMLEX ; ! ""
 Башаров:Башаров NPCOGMLEX ; ! ""
 Платини:Платини NPCOGMLEX ; ! ""
+Миңнеханов:Миңнеханов NPCOGMLEX ; ! ""
+Мөхәммәтшин:Мөхәммәтшин NPCOGMLEX ; ! ""
+Шәймиев:Шәймиев NPCOGMLEX ; ! ""
 
 Әүбәкирова:Әүбәкирова NPCOGFLEX ; ! ""
 Байкова:Байкова NPCOGFLEX ; ! ""
@@ -2762,6 +2777,8 @@ LEXICON Adjectives
 !!! A4 adj. !!!
 
 чит% ил:чит% ил A4 ; ! "foreign"
+муниципаль:муниципаль A4 ; ! ""
+рәсми:рәсми A4 ; ! ""
 
 !!! A3 adj., adj.subst. !!!
 
@@ -2780,6 +2797,8 @@ LEXICON Adjectives
 язгы:язгы A3 ; ! ""
 яшьлек:яшьлек A3 ; ! "after numerals: of ageX"
 җәйге:җәйге A3 ; ! ""
+махсус:махсус A3 ; ! ""
+шәхси:шәхси A3 ; ! ""
 
 !!! A2 adj.(comp), adj.(comp).subst !!!
 
@@ -2787,6 +2806,7 @@ LEXICON Adjectives
 төсле:төсле A2 ; ! ""
 уртача:уртача A2 ; ! ""
 хәзерге:хәзерге A2 ; ! ""
+мөһим:мөһим A2 ; ! ""
 
 !!! A1 adj.(comp), adj.(comp).advl, adj.(comp).subst !!!
 !!!            and when not sure :)                  !!!
@@ -2983,21 +3003,18 @@ LEXICON Adjectives
 максатлы:максатлы A1 ; ! ""
 мактаулы:мактаулы A1 ; ! ""
 матур:матур A1 ; ! ""
-махсус:махсус A1 ; ! ""
 мескен:мескен A1 ; ! ""
 милли:милли A1 ; ! ""
 минераль:минераль A1 ; ! ""
 мотлак:мотлак A1 ; ! ""
 мохтаҗ:мохтаҗ A1 ; ! ""
 мул:мул A1 ; ! ""
-муниципаль:муниципаль A1 ; ! ""
 мәгънәле:мәгънәле A1 ; ! ""
 мәдәни:мәдәни A1 ; ! ""
 мәшгуль:мәшгуль A1 ; ! ""
 мәҗбүри:мәҗбүри A1 ; ! ""
 мәңге:мәңге A1 ; ! ""
 мәңгелек:мәңгелек A1 ; ! ""
-мөһим:мөһим A1 ; ! ""
 надан:надан A1 ; ! ""
 намуслы:намуслы A1 ; ! ""
 начар:начар A1 ; ! ""
@@ -3026,7 +3043,6 @@ LEXICON Adjectives
 региональ:региональ A1 ; ! ""
 риза:риза A1 ; ! ""
 рухи:рухи A1 ; ! ""
-рәсми:рәсми A1 ; ! ""
 рәхимле:рәхимле A1 ; ! ""
 рәхәт:рәхәт A1 ; ! ""
 салкын:салкын A1 ; ! ""
@@ -3135,7 +3151,6 @@ LEXICON Adjectives
 шәркый:шәркый A1 ; ! ""
 шәрә:шәрә A1 ; ! ""
 шәфкатьле:шәфкатьле A1 ; ! ""
-шәхси:шәхси A1 ; ! ""
 шәһри:шәһри A1 ; ! ""
 ышанычлы:ышанычлы A1 ; ! ""
 экологик:экологик A1 ; ! ""
@@ -3354,7 +3369,6 @@ LEXICON Adverbs
 тулаем:тулаем ADVLEX ; ! ""
 тулысынча:тулысынча ADVLEX ; ! ""
 тәфсирләп:тәфсирләп ADVLEX ; ! ""
-фикеренчә:фикеренчә ADVLEX ; ! ""
 хайваннарча:хайваннарча ADVLEX ; ! ""
 хәзер:хәзер ADVLEX ; ! "contrastive now"
 хәтта:хәтта ADVLEX ; ! "too"
@@ -3380,6 +3394,8 @@ LEXICON Adverbs
 әлбәттә:әлбәттә ADVLEX ; ! "certainly"
 әле:әле ADVLEX ; ! "now"
 әлегә:әлегә ADVLEX ; ! "for now"
+
+менә:менә ADVLEX ; ! "f"
 
 LEXICON Verbs
 
@@ -3417,7 +3433,7 @@ LEXICON Verbs
 ашыр:ашыр V-TV-IR-LEX ; ! ""
 ашырыл:ашырыл V-IV-IR-LEX ; ! ""
 аякка% бас:аякка% бас V-IV-AR-LEX ; ! ""
-багышла:багышла V-TV-IR-LEX ; ! ""
+багышла:багышла V-TV-IR-LEX ; ! "посвящать"
 багышлан:багышлан V-IV-IR-LEX ; ! ""
 бае:бае V-IV-IR-LEX ; ! ""
 бар:бар V-IV-IR-LEX ; ! ""
@@ -3431,7 +3447,7 @@ LEXICON Verbs
 башла:башла V-TV-IR-LEX ; ! ""
 бәйлән:бәйлән V-IV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
-белдер:белдер V-TV-IR-LEX ; ! ""
+белдер:белдер V-TV-IR-LEX ; ! "значить" FIXME:NOTE caus
 белеш:белеш V-TV-IR-LEX ; ! ""
 берләштер:берләштер V-TV-IR-LEX ; ! ""
 бәс:бәс V-TV-IR-LEX ; ! ""
@@ -3652,9 +3668,8 @@ LEXICON Verbs
 уйлап% ал:уйлап% ал V-TV-IR-LEX ; ! ""
 уйла:уйла V-TV-IR-LEX ; ! ""
 уйна:уйна V-TV-IR-LEX ; ! ""
-укы:укы V-TV-IR-LEX ; ! ""
-укы:укы V-TV-IR-LEX ; ! ""
-укы:укы V-TV-IR-LEX ; ! ""
+укы:укы V-TV-IR-LEX ; ! "читать"
+укы:укы V-IV-IR-LEX ; ! "учиться"
 үл:үл V-IV-AR-LEX ; ! ""
 уңышлы% бет:уңышлы% бет V-IV-AR-LEX ; ! ""
 үстер:үстер V-TV-IR-LEX ; ! ""
@@ -3734,10 +3749,7 @@ LEXICON Verbs
 яшә:яшә V-IV-IR-LEX ; ! ""
 яшә:яшә V-IV-IR-LEX ; ! ""
 
-! The verbs below were taken from apertium-kaz-tat.kaz-tat.dix. They might duplicate
-! some of the verbs listed above. If there are some questions about transitivity of
-! a given stem, the verbs listed here below are of the higher priority.
-! I'll merge two lists later, checking stuff /I.S./
+!!! Newly added stuff, will be merged with ones above and sorted later
 
 абайла:абайла V-TV-IR-LEX ; ! "cautious,attentive,beware"
 авыр:авыр V-IV-IR-LEX ; ! "болеет"
@@ -3845,6 +3857,13 @@ LEXICON Verbs
 әйлән:әйлән V-IV-IR-LEX ; ! "вращаться;превращаться"
 әйт:әйт V-TV-IR-LEX ; ! "сказать,говорить,рассказывать"
 
+ассызыкла:ассызыкла V-TV-IR-LEX ; ! "подчеркнуть"
+таны:таны V-TV-IR-LEX ; ! "опознавать"
+җәлеп% ит:җәлеп% ит V-TV-AR-LEX ; ! "привлекaть,вовлекать"
+тәэмин% ит:тәэмин% ит V-TV-AR-LEX ; ! "обеспечивать"
+җитештерү:җитештерү V-TV-IR-LEX ; ! "производить"
+урнаш:урнаш V-IV-IR-LEX ; ! "располагаться"
+
 ! Auxiliary verbs
 !----------------
 
@@ -3868,8 +3887,11 @@ LEXICON Interjections
 әйе:әйе INTERJ ; ! ""
 әлбәттә:әлбәттә INTERJ ; ! "" 
 
+менә:менә INTERJ ; ! "here is, вот"
+
 LEXICON Abbreviations
 
+ААҖ:ААҖ ABBR ; ! "Ачык акционерлык җәмгыять=Public company"
 АКШ:АКШ ABBR ; ! "USA"
 РФ:РФ ABBR ; ! "Russian Federation"
 СССР:СССР ABBR ; ! "USSR"

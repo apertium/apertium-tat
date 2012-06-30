@@ -1124,7 +1124,11 @@ LEXICON Numerals
 
 ! In Tatar this goes on to higher numbers  !! FIXME:DISCUSS: a better idea is to derive them from cardinal numerals
 
-LEXICON Nouns 
+
+!=============!
+ LEXICON Nouns
+!=============!
+
 
 ! дус:дус NLEX ; ! ""
 !елмаю:елмаю NLEX ; ! ""
@@ -2078,7 +2082,7 @@ LEXICON Nouns
 тап:тап NLEX ; ! ""
 тапшыру:тапшыру NLEX ; ! ""
 тараф:тараф NLEX ; ! ""
-тарих:тарих NLEX ; ! ""
+тарих:тарих%{ъ%} NLEX ; ! ""
 тармак:тармак NLEX ; ! ""
 тартма:тартма NLEX ; ! ""
 татулык:татулык NLEX ; ! ""
@@ -2491,8 +2495,10 @@ LEXICON Nouns
 төбәк:төбәк NLEX ; ! ""
 хезмәттәшлек:хезмәттәшлек NLEX ; ! ""
 рәвеш:рәвеш NLEX ; ! ""
+чыгыш:чыгыш NLEX ; ! ""
 
-!!! Nouns used as postpositions when <possessive><case> !!!
+! Nouns used as postpositions when <posssessive><case>
+!=====================================================
 
 ара:ара NLEX ; ! "among"
 арка:арка NLEX ; ! "back; reason" 
@@ -2504,30 +2510,40 @@ LEXICON Nouns
 
 эч:эч NLEX ; ! "inside"
 
-!!! Nationalities !!!
+! Nationalities
+!==============
 
 татар:татар NLEX ; ! "Tatar"
 қазақ:қазақ NLEX ; ! "Kazakh"
 
-LEXICON ProperNouns
+
+!===================!
+ LEXICON ProperNouns 
+!===================!
+
+! Toponyms
+!=========
 
 Татарстан:Татарстан NPTOPLEX ; ! ""
 Казан:Казан NPTOPLEX ; ! ""
 
-!!! Cities/towns/regions of Tatarstan
+! Cities/towns/regions of Tatarstan
+!----------------------------------
 
 Азнакай:Азнакай NPTOPLEX ; ! ""
 Актаныш:Актаныш NPTOPLEX ; ! ""
 Алабуга:Алабуга NPTOPLEX ; ! ""
 
-!!! Cities/towns/regions of Kazakhstan
+! Cities/towns/regions of Kazakhstan
+!-----------------------------------
 
 Алматы:Алматы NPTOPLEX ; ! ""
 Байконур:Байконур NPTOPLEX ; ! ""
 Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
 Төркестан:Төркестан NPTOPLEX ; ! ""
 
-!!! Cities/towns/regions of Bashkortostan
+! Cities/towns/regions of Bashkortostan
+!--------------------------------------
 
 Авыргазы:Авыргазы NPTOPLEX ; ! ""
 Актүбә:Актүбә NPTOPLEX ; ! ""
@@ -2547,7 +2563,8 @@ LEXICON ProperNouns
 Учалы:Учалы NPTOPLEX ; ! ""
 Ярмәкәй:Ярмәкәй NPTOPLEX ; ! ""
 
-!!! Cities/towns/regions of Russia
+! Cities/towns/regions of Russia
+!-------------------------------
 
 Башкортстан:Башкортстан NPTOPLEX ; ! ""
 Белорет:Белорет NPTOPLEX ; ! ""
@@ -2563,7 +2580,8 @@ LEXICON ProperNouns
 Чечня:Чечня NPTOPLEX ; ! ""
 Чиләбе:Чиләбе NPTOPLEX ; ! ""
 
-!!! Countries
+! Countries
+!----------
 
 Австралия:Австралия NPTOPLEX ; ! "Australia"
 Австрия:Австрия NPTOPLEX ; ! "Austria"
@@ -2643,7 +2661,8 @@ LEXICON ProperNouns
 Әрмәнстан:Әрмәнстан NPTOPLEX ; ! "Armenia"
 Әфганстан:Әфганстан NPTOPLEX ; ! "Afghanistan"
 
-!!! Cities of the world
+! Cities of the world
+!--------------------
 
 Варшава:Варшава NPTOPLEX ; ! ""
 Вроцлав:Вроцлав NPTOPLEX ; ! ""
@@ -2657,7 +2676,8 @@ LEXICON ProperNouns
 Познань:Познань NPTOPLEX ; ! ""
 Харьков:Харьков NPTOPLEX ; ! ""
 
-!!! Other toponyms
+! Other toponyms
+!---------------
 
 Азия:Азия NPTOPLEX ; ! ""
 Америка:Америка NPTOPLEX ; ! ""
@@ -2675,13 +2695,13 @@ LEXICON ProperNouns
 Кама:Кама NPTOPLEX ; ! ""
 Чулман:Чулман NPTOPLEX ; ! ""
 
-!!! FIXME:
+! FIXME:
+!-------
 
 Рабби:Рабби NPTOPLEX ; ! ""
 
-!=========================================================================!
-
-!!! Anthroponyms
+! Anthroponyms
+!=============
 
 Азамат:Азамат NPANTMLEX ; ! ""
 Азат:Азат NPANTMLEX ; ! ""
@@ -2731,6 +2751,12 @@ LEXICON ProperNouns
 Сергей:Сергей NPANTMLEX ; ! ""
 Фәрит:Фәрит NPANTMLEX ; ! ""
 
+! Cognoms
+!========
+
+! Masculine
+!----------
+
 Әхмәтов:Әхмәтов NPCOGMLEX ; ! ""
 Балабанов:Балабанов NPCOGMLEX ; ! ""
 Зубков:Зубков NPCOGMLEX ; ! ""
@@ -2753,33 +2779,43 @@ LEXICON ProperNouns
 Мөхәммәтшин:Мөхәммәтшин NPCOGMLEX ; ! ""
 Шәймиев:Шәймиев NPCOGMLEX ; ! ""
 
+! Feminine  ! FIXME: derive them from masculine cognoms
+!---------
+
 Әүбәкирова:Әүбәкирова NPCOGFLEX ; ! ""
 Байкова:Байкова NPCOGFLEX ; ! ""
 Баталова:Баталова NPCOGFLEX ; ! ""
 Башкортова:Башкортова NPCOGFLEX ; ! ""
 Биишева:Биишева NPCOGFLEX ; ! ""
 
+! Masculine/Feminine
+!-------------------
+
 Бабич:Бабич NPCOGMFLEX ; ! ""
 Орджоникидзе:Орджоникидзе NPCOGMFLEX ; ! ""
 Семивеличенко:Семивеличенко NPCOGMFLEX ; ! ""
 
-!=========================================================================!
-
-!! Organizations
+! Organizations
+!==============
 
 Татар%-информ:Татар%-информ NPORGLEX ; ! ""
 
-!! Other proper names (events etc)
+! Other proper names (events etc)
+!================================
 
 Евро:Евро NPALLEX ; ! "European Championship"
 Фунтик:Фунтик NPALLEX ; ! ""
 Челси:Челси NPALLEX ; ! ""
 Читта:Читта NPALLEX ; ! ""
 
-LEXICON Adjectives 
+
+!==================!
+ LEXICON Adjectives
+!==================!
+
 
 ! A4 adj.
-!--------
+!========
 
 чит% ил:чит% ил A4 ; ! "foreign"
 муниципаль:муниципаль A4 ; ! ""
@@ -2793,7 +2829,7 @@ LEXICON Adjectives
 техник:техник A4 ; ! ""
 
 ! A3 adj., adj.subst
-!-------------------
+!===================
 
 бар:бар A3 ; ! ""
 башлангыч:башлангыч A3 ; ! "~initial"
@@ -2822,7 +2858,7 @@ LEXICON Adjectives
 һөнәри:һөнәри A3 ; ! ""
 
 ! A2 adj.(comp), adj.(comp).subst
-!--------------------------------
+!================================
 
 түгәрәк:түгәрәк A2 ; ! "round, circular"
 төсле:төсле A2 ; ! ""
@@ -2839,7 +2875,7 @@ LEXICON Adjectives
 
 ! A1 adj.(comp), adj.(comp).advl, adj.(comp).subst
 !            and when not sure :)
-!-------------------------------------------------
+!=================================================
 
 абруйлы:абруйлы A1 ; ! ""
 автономияле:автономияле A1 ; ! ""
@@ -3232,7 +3268,6 @@ LEXICON Adjectives
 әйбәт:әйбәт A1 ; ! ""
 әкрен:әкрен A1 ; ! ""
 әкәмәт:әкәмәт A1 ; ! ""
-!әлеге:әлеге A1 ; ! ""
 әхлакый:әхлакый A1 ; ! ""
 әче:әче A1 ; ! ""
 әшәке:әшәке A1 ; ! ""
@@ -3247,7 +3282,9 @@ LEXICON Adjectives
 уңышлы:уңышлы A1 ; ! ""
 шактый:шактый A1 ; ! ""
 
-!!!! FIXME (POS-miscategorizations mostly) !!!!
+! FIXME (POS-miscategorizations mostly)
+!======================================
+
 американ:американ A1 ; ! ""
 аналык:аналык A1 ; ! ""
 атып% алынган:атып% алынган A1 ; ! ""
@@ -3301,8 +3338,6 @@ LEXICON Adjectives
 хатын-кыз:хатын-кыз A1 ; ! ""
 чираттагы:чираттагы A1 ; ! ""
 читтәге:читтәге A1 ; ! ""
-шәһәр:шәһәр A1 ; ! ""
-эш:эш A1 ; ! ""
 эшче:эшче A1 ; ! ""
 ялтырап% торган:ялтырап% торган A1 ; ! ""
 яраткан:яраткан A1 ; ! ""
@@ -3313,7 +3348,11 @@ LEXICON Adjectives
 үлгән:үлгән A1 ; ! ""
 үтерелгән:үтерелгән A1 ; ! ""
 
-LEXICON Adverbs 
+
+!===============!
+ LEXICON Adverbs 
+!===============!
+
 
 кайда:кайда ADVITGLEX ; ! ""
 кайдан:кайдан ADVITGLEX ; ! ""
@@ -3419,7 +3458,11 @@ LEXICON Adverbs
 
 менә:менә ADVLEX ; ! "f"
 
-LEXICON Verbs
+
+!=============!
+ LEXICON Verbs
+!=============!
+
 
 активлаштыр:активлаштыр V-TV-IR-LEX ; ! ""
 ал:ал V-TV-IR-LEX ; ! ""
@@ -3887,7 +3930,7 @@ LEXICON Verbs
 урнаш:урнаш V-IV-IR-LEX ; ! "располагаться"
 
 ! Auxiliary verbs
-!----------------
+!================
 
 ал:ал VAUX ; ! ""
 башла:башла VAUX ; ! ""
@@ -3901,8 +3944,12 @@ LEXICON Verbs
 кил:кил VAUX ; ! ""
 чык:чык VAUX ; ! ""
 ят:ят VAUX ; ! ""
- 
-LEXICON Interjections 
+
+
+!=====================!
+ LEXICON Interjections 
+!=====================!
+
 
 димәк:димәк INTERJ ; ! "" 
 юк:юк INTERJ ; ! ""
@@ -3911,7 +3958,11 @@ LEXICON Interjections
 
 менә:менә INTERJ ; ! "here is, вот"
 
-LEXICON Abbreviations
+
+!=====================!
+ LEXICON Abbreviations
+!=====================!
+
 
 ААҖ:ААҖ ABBR ; ! "Ачык акционерлык җәмгыять=Public company"
 АКШ:АКШ ABBR ; ! "USA"
@@ -3934,7 +3985,11 @@ LEXICON Abbreviations
 т%.:т%. ABBR ; ! "tonne"
 һ%.б%.:һ%.б%. ABBR ; ! etc.""
 
-LEXICON Punctuation
+
+!===================!
+ LEXICON Punctuation
+!===================!
+
 
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;

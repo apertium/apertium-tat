@@ -2489,7 +2489,7 @@ LEXICON Numerals
 
 !!! newly added stuff, I'll sort it later /I.S./ !!!
 
-премьер%-министр:премьер%-министр NLEX ; ! ""
+премьер%-министр:премьер%-министр%{ъ%} NLEX ; ! ""
 
 тапкыр:тапкыр NLEX ; ! ""
 төбәк:төбәк NLEX ; ! ""

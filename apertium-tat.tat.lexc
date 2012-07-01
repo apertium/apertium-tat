@@ -2537,6 +2537,8 @@ LEXICON Numerals
 татар:татар NLEX ; ! "Tatar"
 қазақ:қазақ NLEX ; ! "Kazakh"
 
+гарәп:гарәп NLEX ; ! "Arab"
+грек:грек NLEX ; ! "Greek"
 
 !===================!
  LEXICON ProperNouns 
@@ -3661,7 +3663,7 @@ cирәк:cирәк A1 ; ! ""
 катнаш:катнаш V-IV-IR-LEX ; ! "participate"
 кауша:кауша V-IV-IR-LEX ; ! "anxious,uneasy,agitated,disturbed,confused,bustle"
 кач:кач V-IV-AR-LEX ; ! ""
-керт:керт V-TV-IR-LEX ; ! ""
+керт:керт V-TV-IR-LEX ; ! "" FIXME:NOTE: caus
 килеп% җит:килеп% җит V-TV-AR-LEX ; ! ""
 килеп% җит:килеп% җит V-TV-IR-LEX ; ! ""
 килеп% чык:килеп% чык V-IV-AR-LEX ; ! ""
@@ -3697,8 +3699,7 @@ cирәк:cирәк A1 ; ! ""
 курк:курк V-TV-IR-LEX ; ! ""
 күр:күр V-TV-NOPASS-IR-LEX ; ! ""
 күр:күрен V-TV-PASS-IR-LEX ; ! ""
-күрсәт:күрсәт V-TV-IR-LEX ; ! ""
-күрсәт:күрсәт V-TV-IR-LEX ; ! ""
+күрсәт:күрсәт V-TV-IR-LEX ; ! "" FIXME:NOTE:caus
 күтәр:күтәр V-TV-IR-LEX ; ! ""
 күчер:күчер V-TV-IR-LEX ; ! ""
 кыл:кыл V-TV-IR-LEX ; ! ""
@@ -3806,7 +3807,7 @@ cирәк:cирәк A1 ; ! ""
 үткәр:үткәр V-TV-IR-LEX ; ! ""
 үт:үт V-TV-AR-LEX ; ! ""
 утыр:утыр V-IV-IR-LEX ; ! ""
-файдалан:файдалан V-IV-IR-LEX ; ! "" FIXME:check transitivity (?ref > passive)
+файдалан:файдалан V-TV-IR-LEX ; ! ""
 фараз% кыл:фараз% кыл V-IV-IR-LEX ; ! "" Use/MT
 фаразла:фаразла V-TV-IR-LEX ; ! ""
 финансла:финансла V-TV-IR-LEX ; ! ""
@@ -3987,6 +3988,16 @@ cирәк:cирәк A1 ; ! ""
 тәэмин% ит:тәэмин% ит V-TV-AR-LEX ; ! "обеспечивать"
 җитештерү:җитештерү V-TV-IR-LEX ; ! "производить"
 урнаш:урнаш V-IV-IR-LEX ; ! "располагаться"
+
+тормышка аш:тормышка аш V-IV-IR-LEX ; ! ""
+күч:күч V-IV-AR-LEX ; ! ""
+төш:төш V-IV-AR-LEX ; ! ""
+формалаш:формалаш V-IV-IR-LEX ; ! ""
+тарал:тарал V-IV-IR-LEX ; ! "расходиться;распространяться"
+җыйна:җыйна V-TV-IR-LEX ; ! ""
+тормышка% ашыр:тормышка% ашыр V-TV-IR-LEX ; ! "" FIXME:NOTE: caus; Use/MT
+тупла:тупла V-TV-IR-LEX ; ! ""
+тара:тара V-TV-IR-LEX ; ! "расчесывать"
 
 ! Auxiliary verbs
 !================

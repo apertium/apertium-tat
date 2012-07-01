@@ -2563,6 +2563,16 @@ LEXICON Numerals
 Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
 Төркестан:Төркестан NPTOPLEX ; ! ""
 
+Акмола:Акмола NPTOPLEX ; ! ""
+Актүбә:Актүбә NPTOPLEX ; ! ""
+Атырау:Атырау NPTOPLEX ; ! ""
+Жамбыл:Жамбыл NPTOPLEX ; ! ""
+Костанай:Костанай NPTOPLEX ; ! ""
+Кызылорда:Кызылорда NPTOPLEX ; ! ""
+Маңгыстау:Маңгыстау NPTOPLEX ; ! ""
+Павлодар:Павлодар NPTOPLEX ; ! ""
+Сәмәй:Сәмәй NPTOPLEX ; ! ""
+
 ! Cities/towns/regions of Bashkortostan
 !--------------------------------------
 
@@ -2706,15 +2716,20 @@ LEXICON Numerals
 Европа:Европа NPTOPLEX ; ! ""
 
 Агыйдел:Агыйдел NPTOPLEX ; ! ""
-Алтай:Алтай NPTOPLEX ; ! ""
 Балтика:Балтика NPTOPLEX ; ! ""
 Герат:Герат NPTOPLEX ; ! ""
 Дон:Дон NPTOPLEX ; ! ""
 Идел:Идел NPTOPLEX ; ! ""
 Тын:Тын NPTOPLEX ; ! ""
-Урал:Урал NPTOPLEX ; ! ""
 Кама:Кама NPTOPLEX ; ! ""
 Чулман:Чулман NPTOPLEX ; ! ""
+Балкаш:Балкаш NPTOPLEX ; ! ""
+Балкаш:Балхаш NPTOPLEX ; ! "" Dir/LR
+Арал:Арал NPTOPLEX ; ! ""
+Каспий:Каспий NPTOPLEX ; ! ""
+
+Алтай:Алтай NPTOPLEX ; ! ""
+Урал:Урал NPTOPLEX ; ! ""
 
 ! FIXME:
 !-------
@@ -2771,6 +2786,10 @@ LEXICON Numerals
 Минтимер:Минтимер NPANTMLEX ; ! ""
 Сергей:Сергей NPANTMLEX ; ! ""
 Фәрит:Фәрит NPANTMLEX ; ! ""
+
+Абай:Абай NPANTMLEX ; ! ""
+Григориан:Григориан NPANTMLEX ; ! ""
+Жамбыл:Жамбыл NPANTMLEX ; ! ""
 
 ! Cognoms
 !========
@@ -3495,6 +3514,8 @@ cирәк:cирәк A1 ; ! ""
 әлегә:әлегә ADVLEX ; ! "for now"
 
 менә:менә ADVLEX ; ! "f"
+
+шунда% ук:шунда% ук ADVLEX ; ! "тут же,тотчас же,сразу же" Use/MT
 
 
 !=============!

@@ -1844,7 +1844,6 @@ LEXICON Numerals
 начальник:начальник NLEX ; ! ""
 начарлык:начарлык NLEX ; ! ""
 нәзир:нәзир NLEX ; ! ""
-немец:немец NLEX ; ! ""
 нәрсә:нәрсә NLEX ; ! "" FIXME: Check this is in tt-ba bidix
 нәтиҗә:нәтиҗә NLEX ; ! ""
 нәүбәт:нәүбәт NLEX ; ! ""
@@ -1852,9 +1851,6 @@ LEXICON Numerals
 нефть:нефть NLEX ; ! ""
 нефтьче:нефтьче NLEX ; ! ""
 нигез:нигез NLEX ; ! ""
-нимес:немец NLEX ; ! "German" Dir/LR
-нимес:нимес NLEX ; ! "German"
-нимыс:нимыс NLEX ; ! "German" Dir/LR
 нокта:нокта NLEX ; ! ""
 номер:номер NLEX ; ! ""
 норматив:норматив NLEX ; ! ""
@@ -2535,14 +2531,30 @@ LEXICON Numerals
 !==============
 
 татар:татар NLEX ; ! "Tatar"
-қазақ:қазақ NLEX ; ! "Kazakh"
+казакъ:казакъ NLEX ; ! "Kazakh"
 
+алман:алман NLEX ; ! "German"
 гарәп:гарәп NLEX ; ! "Arab"
 грек:грек NLEX ; ! "Greek"
+кыргыз:кыргыз NLEX ; ! "Kyrgyz"
+кытай:кытай NLEX ; ! "Chinese"
+монгол:монгол NLEX ; ! "Mongol"
+нимес:немец NLEX ; ! "German" Dir/LR
+нимес:нимес NLEX ; ! "German"
+нимес:нимыс NLEX ; ! "German" Dir/LR
+төрек:төрек NLEX ; ! "Turkish"
+урыс:урыс NLEX ; ! "Russian"
+чех:чех NLEX ; ! "Czech"
+чуваш:чуваш NLEX ; ! "Chuvash"
+чуваш:чуаш NLEX ; ! "Chuvash" Dir/LR 
+үзбәк:үзбәк NLEX ; ! "Uzbek"
+инглиз:инглиз NLEX ; ! "English"
+
 
 !===================!
  LEXICON ProperNouns 
 !===================!
+
 
 ! Toponyms
 !=========
@@ -2907,6 +2919,7 @@ LEXICON Numerals
 куш:куш A3 ; ! ""
 таулы:таулы A3 ; ! "" FIXME:NOTE: Maybe we could derive this stuff, I don't know /I.S./
 туган:туган A3 ; ! ""
+торак:торак A3 ; ! ""
 
 ! A2 adj.(comp), adj.(comp).subst
 !================================
@@ -3998,7 +4011,8 @@ cирәк:cирәк A1 ; ! ""
 тормышка% ашыр:тормышка% ашыр V-TV-IR-LEX ; ! "" FIXME:NOTE: caus; Use/MT
 тупла:тупла V-TV-IR-LEX ; ! ""
 тара:тара V-TV-IR-LEX ; ! "расчесывать"
-
+шулай% ит:шулай% ит V-IV-IR-LEX ; ! "" Use/MT
+кер:кер V-IV-IR-LEX ; ! ""
 ! Auxiliary verbs
 !================
 

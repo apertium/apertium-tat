@@ -751,10 +751,10 @@ LEXICON NLEX
 
 LEXICON N-COMPOUND-PX ! consider "N2" for the name
                       ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
-                      ! FIXME: check this, leads to foo bar\/foo barсы :)
+                      ! FIXME:NOTE: check this, leads to foo bar\/foo barсы :)
+                      ! It turned out to be because of ^CASE-ETC ; in POSS-REAL cont.class
+                      ! It will be fixed soon
 
-!%{s%}%{I%}%{n%}%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
-!%{s%}%{I%}%{n%}%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 %<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
 %<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
@@ -1429,7 +1429,7 @@ LEXICON Numerals
 дөя:дөя NLEX ; ! ""
 дулкын:дулкын NLEX ; ! ""
 дума:дума NLEX ; ! ""
-дуңгыз% баласы:дуңгыз% баласы N-COMPOUND-PX ; ! ""
+дуңгыз% баласы:дуңгыз% бала N-COMPOUND-PX ; ! ""
 дус:дус%{т%} NLEX ; ! ""    ! gets an epenthetic 'т' before affixes starting with a vowel: 'дустым'
 әби:әби NLEX ; ! ""
 егет:егет NLEX ; ! ""

@@ -260,7 +260,7 @@ LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only aft
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
-CLIT-COMMON ;
+!CLIT-COMMON ;
 # ;
 
 !LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
@@ -287,7 +287,7 @@ LEXICON CLIT                     ! These citics can join words of any POS and of
 !! Indefinite (expressing doubt) modal particles
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
-CLIT-COMMON ;
+!CLIT-COMMON ;
 # ;
 
 !! FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
@@ -1283,7 +1283,7 @@ XXI NUM-ROMAN ; ! ""
 бармак:бармак NLEX ; ! ""
 барыш:барыш NLEX ; ! ""
 баскыч:баскыч NLEX ; ! ""
-бассейн:бассейн NLEX ; ! ""
+бассейн:бассейн%{ъ%} NLEX ; ! ""
 басу:басу NLEX ; ! ""
 батыр:батыр NLEX ; ! ""
 баш:баш NLEX ; ! ""
@@ -3948,7 +3948,8 @@ cирәк:cирәк A1 ; ! ""
 аерыл:аерыл V-IV-IR-LEX ; ! "seperate,dIVorce,отделяться,отрываться"
 аерыл:аерыл V-IV-IR-LEX ; ! "лишаться,разлучаться"
 аз:аз V-IV-AR-LEX ; ! "(перен.) сбиваться с пути"
-азайт:азайт V-TV-IR-LEX ; ! "уменьшать,убавлять"
+азай:азай V-IV-IR-LEX ; ! "уменьшаться"
+азайт:азайт V-TV-IR-LEX ; ! "уменьшать,убавлять" FIXME:NOTE: caus
 айны:айны V-IV-IR-LEX ; ! "отрезвляться"
 акла:акла V-TV-IR-LEX ; ! "оправдывать"
 акса:акса V-IV-IR-LEX ; ! "хромать"

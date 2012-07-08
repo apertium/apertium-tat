@@ -263,7 +263,7 @@ LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only aft
 CLIT-COMMON ;
 # ;
 
-LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
+!LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
 
 !%+шул%<mod_ass%>:% шул # ;      ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
 
@@ -806,9 +806,9 @@ LEXICON DIGITLEX
 
 %<num%>: # ; 
 
-!LEXICON NUM-ROMAN
-!
-!NUM ;
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ;
 
 LEXICON POSTLEX
 
@@ -1123,6 +1123,29 @@ LEXICON Numerals
 җидәү:җидәү NUM-COLL ;
 
 ! In Tatar this goes on to higher numbers  !! FIXME:DISCUSS: a better idea is to derive them from cardinal numerals
+
+I NUM-ROMAN ; ! ""
+II NUM-ROMAN ; ! ""
+III NUM-ROMAN ; ! ""
+IV NUM-ROMAN ; ! ""
+V NUM-ROMAN ; ! ""
+VI NUM-ROMAN ; ! ""
+VII NUM-ROMAN ; ! ""
+VIII NUM-ROMAN ; ! ""
+IX NUM-ROMAN ; ! ""
+X NUM-ROMAN ; ! ""
+XI NUM-ROMAN ; ! ""
+XI NUM-ROMAN ; ! ""
+XII NUM-ROMAN ; ! ""
+XIII NUM-ROMAN ; ! ""
+XIV NUM-ROMAN ; ! ""
+XV NUM-ROMAN ; ! ""
+XVI NUM-ROMAN ; ! ""
+XVII NUM-ROMAN ; ! ""
+XVIII NUM-ROMAN ; ! ""
+XIX NUM-ROMAN ; ! ""
+XX NUM-ROMAN ; ! ""
+XXI NUM-ROMAN ; ! ""
 
 
 !=============!

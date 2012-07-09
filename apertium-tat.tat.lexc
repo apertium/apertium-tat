@@ -69,28 +69,27 @@ Multichar_Symbols
 %<loc%>            ! Урын-вакыт килеше     ! Местно-временнной
 
 !! some additional ~cases
-%<sim%>            ! Similative (<apprx> in kymorph)  !# DAй (-дай/-дәй, -тай, -тәй)
-%<abe%>            ! Abessive=Privative ! Лишительный !# -сыз/-сез (not used after posessives)
-!обладательный                                        !# -лы/-ле   (not used after posessives)
+%<locattr%>    ! Relativised locative=Locative attribute=Местно-временной2 !# DAGI !! Not needed anymore, bcs we switched to <loc><attr>
+%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй)
+!лишительный   !# -сыз/-сез !! not used after posessives
+!обладательный !# -лы/-ле   !! not used after posessives
 
 ! Levels of comparison of adjectives ! Сыйфат дәрәҗәләре ! Степени сравнения прилагательных
 %<comp%>           ! Comparative  ! Чагыштыру дәрәҗәсе
-!%<sup%>            ! Superlative  ! Артыклык дәрәҗәсе
+%<sup%>            ! Superlative  ! Артыклык дәрәҗәсе
 !! "weakening" form is not regular. So "weakened" :) adj are added as base lemmas.
 !! Very few adj have this form. E.g. яшел-яшькелт, сары-саргылт [but] ак-аксыл, кара-карасу.
-!! <s>As a sublexicon maybe, so that they don't get <sup> ending, which is a nonsense.</s>
-!! Right now we dont't handle superlative level morphologically (because it's a compound form).
+!! As a sublexicon maybe, so that they don't get <sup> ending, which is a nonsense
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 %<pers%>           ! Personal
 %<ref%>            ! Reflexive
-!%<recip%>          ! Reciprocal pronoun
 ! Pronoun and determiner types
 %<dem%>            ! Demonstrative
 %<ind%>            ! Indefinite
 %<itg%>            ! Interrogative
 %<qnt%>            ! Quantifier
-%<neg%>            ! Negative      !# һичкем ! NOTE: also used to denote negation in verbs
+%<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs
 
 ! Numeral types
 %<ord%>            ! Ordinal
@@ -99,11 +98,10 @@ Multichar_Symbols
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative
+%<cond%>           ! Conditional  ! Шарт  ! Условное  !! -с{A}
 %<caus%>           ! Causative
-%<coop%>           ! Cooperative
 %<pass%>           ! Passive
-
-%<cond%>           ! Conditional  ! Шарт  ! Условное  !! -с{A} ! FIXME: make this gna_cond as in kaz.lexc
+%<coop%>           ! Cooperative
 
 %<pres%>           ! -{A}
 %<past%>           ! -{G}{A}н 
@@ -151,7 +149,7 @@ Multichar_Symbols
 %<p3%>             ! Third person
 %<frm%>            ! Formality
 
-! <s>Clitics</s>, modal particles
+! Clitics
 %<qst%>            ! Modal question particle
 %<mod_foc%>        ! "Particles of politeness and ardent desire" (as in [N. Poppe. Tatar Manual])
 %<mod_ass%>        ! Assertive modal particle
@@ -859,10 +857,10 @@ LEXICON ABBR
 LEXICON ModalParticles
 
 мы:мы QSTLEX ; ! "y/n question"
-ме:ме QSTLEX ; ! "y/n question" ! Dir/LR
+ме:ме QSTLEX ; ! "y/n question" ! Dir/RL
 
 ! Actually Tatar question modal particle is written with no space before it (read separately),
-! but there are sentences like the following (although not that many I guess):
+! but there are sentences like the following (although not that much I guess):
 !# "Яңача түләү яки һәрвакыттагыча "Хотели как лучше, получилось как всегда"мы?" 
 ! Just having a space before it while treating it as a clitic wouldn't work /I.S./
 
@@ -4170,4 +4168,3 @@ cирәк:cирәк A1 ; ! ""
 /%<sent%>:/ # ;
 
 <(%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)+>  DIGITLEX ; ! Use/Circ
-

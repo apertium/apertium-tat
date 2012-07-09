@@ -338,20 +338,26 @@ LEXICON CASE
 !! китаптан
 !! китапта
 
-LEXICON ADJ-DAGI
-! This should probably be called something else
+LEXICON ATTR/SUBST
 
-%<subst%>: CASE ; 
 %<attr%>: CLIT ;
+!%<subst%>: SUBST ; ! FIXME:NOTE: I guess that this leads to recursion. Intention was to cover stuff like
+                    ! "өйдәгеләр (нишли e.g.)". If it does, add plural reading right here. /I.S./
+%<subst%>: CASE ;
 
-LEXICON ABE
+LEXICON ATTR/ADVL/SUBST
 
-%<abe%>:%>с%{I%}з CLIT ;
+%<advl%>: CLIT ;
+ATTR/SUBST ;
 
-LEXICON GENPOSS-ETC
+LEXICON ABE-ETC          ! Stuff which doesn't appear after possessives
+
+%<abe%>:%>с%{I%}з ATTR/ADVL/SUBST ;
+
+LEXICON GENPOSS-ETC      ! Stuff which can appear after possessives too
 
 %<px%>:%>н%{I%}к%{I%}%{n%} CASE ;        ! -ныкы/-неке
-%<loc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;    ! -дагы/-дәге, -тагы/-тәге ! <s>FIXME:NOTE: I am in favour for changing the tag to loc2
+%<loc%>:%>%{D%}%{A%}г%{I%} ATTR/SUBST ;  ! -дагы/-дәге, -тагы/-тәге ! <s>FIXME:NOTE: I am in favour for changing the tag to loc2
                                                                     ! ("DAGI"=loc2 and not "DAGI"=loc"DA"+attr"GI") But first
                                                                     ! I'll give some arguments in a mail to apertium-turkic</s>
 %<sim%>:%>%{D%}%{A%}й CLIT ;             ! -дай/-дәй, -тай/-тәй     ! FIXME:CHECK:In Tatar this is considered to be an adverbializer, so
@@ -383,7 +389,7 @@ CASE-ETC ; ! FIXME:NOTE:! this was temporarily put here because some gerunds and
 LEXICON N-INFL-COMMON 
 POSS-REAL ;
 CASE-ETC ;
-ABE ;
+ABE-ETC ;
 
 !!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
 !                                                               <s>(a separate ADJ-COMMON might be even better, see kaz.lexc)</s>
@@ -640,7 +646,7 @@ LEXICON PRN-PERS
 мин%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:миннән CLIT ; 
 мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:миндә CLIT ; 
 мин%<prn%>%<pers%>%<p1%>%<sg%>%<px%>:минеке%{n%} CASE ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:миндәге ADJ-DAGI ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:миндәге ATTR/SUBST ; 
 мин%<prn%>%<pers%>%<p1%>%<sg%>%<sim%>:миндәй CLIT ; 
 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:син CLIT ; 
@@ -650,7 +656,7 @@ LEXICON PRN-PERS
 син%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:синнән CLIT ; 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдә CLIT ; 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<px%>:синеке%{n%} CASE ;
-син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдәге ADJ-DAGI ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:синдәге ATTR/SUBST ; 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<sim%>:синдәй CLIT ; 
 
 ! FIXME: check Dir/ restrictions
@@ -665,8 +671,8 @@ LEXICON PRN-PERS
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:анда CLIT ;            !! also: "аңарда" (only analysed)  !!"анда" "аннан" usually instead of inanimate nouns 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңарда CLIT ; Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:аныкы%{n%} CASE ;
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:андагы ADJ-DAGI ;
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңардагы ADJ-DAGI ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:андагы ATTR/SUBST ;
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңардагы ATTR/SUBST ; Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:андай CLIT ;
 
 без%<prn%>%<pers%>%<p1%>%<pl%>:без PRON-PERS-INFL ; 

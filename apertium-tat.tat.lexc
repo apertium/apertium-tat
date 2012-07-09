@@ -82,13 +82,13 @@ Multichar_Symbols
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 %<pers%>           ! Personal
-%<ref%>            ! Reflexive
 ! Pronoun and determiner types
 %<dem%>            ! Demonstrative
 %<ind%>            ! Indefinite
 %<itg%>            ! Interrogative
 %<qnt%>            ! Quantifier
 %<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs
+%<ref%>            ! Reflexive
 
 ! Numeral types
 %<ord%>            ! Ordinal
@@ -726,9 +726,10 @@ LEXICON PRNNEG
 
 %<prn%>%<neg%>: CASE ; 
 
-LEXICON PRNREFLEX
+LEXICON PRON-REF
 
 %<prn%>%<ref%>: POSS-REAL ; 
+%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ; 
 
 !!!!!!!!!!!!!!!!!!!!!!     DETERMINERS
 
@@ -751,6 +752,10 @@ LEXICON DETITGLEX
 LEXICON DETNEGLEX
 
 %<det%>%<neg%>: # ;
+
+LEXICON DET-REF
+
+%<det%>%<ref%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS
 
@@ -1025,7 +1030,11 @@ LEXICON Postadverbs
 ук:ук POSTADVLEX ; ! "" Dir/LR
 ук:үк POSTADVLEX ; ! "" Dir/LR
 
-LEXICON Pronouns
+
+!================!
+ LEXICON Pronouns
+!================!
+
 
 PRN-PERS ; 
 
@@ -1046,7 +1055,7 @@ PRN-PERS ;
 һичкем:һичкем PRNNEG ; ! ""
 беркем:беркем PRNNEG ; ! ""
 
-үз:үз PRNREFLEX ; ! ""
+үз:үз PRON-REF ; ! "self"
 
 LEXICON Determiners
 
@@ -1076,6 +1085,8 @@ LEXICON Determiners
 бернинди:бернинди DETNEGLEX ; ! ""
 һичбер:һичбер DETNEGLEX ; ! ""
 һичнинди:һичнинди DETNEGLEX ; ! ""
+
+үз:үз DET-REF ; ! "oneself's"
 
 LEXICON Numerals 
 

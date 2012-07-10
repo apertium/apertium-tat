@@ -1156,7 +1156,6 @@ VIII NUM-ROMAN ; ! ""
 IX NUM-ROMAN ; ! ""
 X NUM-ROMAN ; ! ""
 XI NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
 XII NUM-ROMAN ; ! ""
 XIII NUM-ROMAN ; ! ""
 XIV NUM-ROMAN ; ! ""
@@ -2564,6 +2563,19 @@ XXI NUM-ROMAN ; ! ""
 металл:металл NLEX ; ! ""
 бронза:бронза NLEX ; ! ""
 
+акула:акула NLEX ; ! ""
+фараз:фараз NLEX ; ! ""
+сырт:сырт NLEX ; ! ""
+этап:этап NLEX ; ! ""
+кит:кит NLEX ; ! ""
+иңкүлек:иңкүлек NLEX ; ! ""
+олигоцен:олигоцен NLEX ; ! ""
+умыртка:умыртка NLEX ; ! ""
+фарсах:фарсах NLEX ; ! ""
+эволюция:эволюция NLEX ; ! ""
+кабык:кабык NLEX ; ! ""
+әкәм%-төкәм:әкәм%-төкәм NLEX ; ! ""
+
 ! Nouns used as postpositions when <posssessive><case>
 !=====================================================
 
@@ -2800,9 +2812,15 @@ XXI NUM-ROMAN ; ! ""
 Җаек:Җаек NPTOPLEX ; ! ""
 Иртыш:Иртыш NPTOPLEX ; ! ""
 Сырдәрья:Сырдәрья NPTOPLEX ; ! ""
+Җәйхун:Җәйхун NPTOPLEX ; ! ""
+Урта% диңгез:Урта% диңгез NPTOPLEX ; ! ""
+Күрдәр:Күрдәр NPTOPLEX ; ! ""
+Әмудәрья:Әмудәрья NPTOPLEX ; ! ""
+Әмудәрья:Амудәрья NPTOPLEX ; ! "" Dir/LR
 
 Алтай:Алтай NPTOPLEX ; ! ""
 Урал:Урал NPTOPLEX ; ! ""
+Сиякух:Сиякух NPTOPLEX ; ! ""
 
 ! FIXME:
 !-------

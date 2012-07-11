@@ -659,16 +659,16 @@ LEXICON PRN-PERS
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ул CLIT ; 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:аның CLIT ; 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңа CLIT ;             !! also synonymic variants "аңар" and "аңарга" (only analysed)
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңар CLIT ; Dir/LR
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңарга CLIT ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңар CLIT ; ! Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:аңарга CLIT ; ! Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:аны CLIT ; 
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аннан CLIT ;           !! also: "аңардан" (only analysed) !!"аңарда" "аңардан" -- instead of person
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аңардан CLIT ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:аңардан CLIT ; ! Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:анда CLIT ;            !! also: "аңарда" (only analysed)  !!"анда" "аннан" usually instead of inanimate nouns 
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңарда CLIT ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңарда CLIT ; ! Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:аныкы%{n%} CASE ;
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:андагы ATTR/SUBST ;
-ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңардагы ATTR/SUBST ; Dir/LR
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңардагы ATTR/SUBST ; ! Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<sim%>:андай CLIT ;
 
 без%<prn%>%<pers%>%<p1%>%<pl%>:без PRON-PERS-INFL ; 

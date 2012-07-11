@@ -125,13 +125,14 @@ Multichar_Symbols
 
 !! Gerunds - Исем фигыльләр
 %<ger%>            ! -{U}
-%<ger1%>           ! -м{A}{K}
+%<ger1%>           ! -м{A}к
 %<ger3%>           ! -{G}{A}ч
 %<ger4%>           ! -{G}{A}нч{I}
 %<ger5%>           ! -{G}{A}н
 %<ger6%>           ! -{I}р / -{A}р
 %<ger7%>           ! -{A}ч{A}к ! WARNING: Replaced with fut2
 %<inf%>            ! Infinitive! Инфинитив ! -{A/I}рг{A}
+%<ger_perf%>       ! -{G}{A}нл{I}к
 
 !!! the next will be removed soon; kept to let others know about changes
 %<ger2%>           ! -{I}п !WARNING: This was replaced with prc2 and gna9; turned off 
@@ -542,6 +543,8 @@ V-FINITE-FORMS ;
 %<ger3%>:%>%{G%}%{A%}ч SUBST ; 
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS-REAL ; 
 %<ger5%>:%>%{G%}%{A%}н POSS-REAL ;
+%<ger_perf%>:%>%{G%}%{A%}нл%{I%}к POSS-REAL ;
+
 !! TO REMOVE
 !%<ger2%>:%>%{I%}п POSS-REAL ; 
 !%<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;

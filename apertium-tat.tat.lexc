@@ -648,7 +648,7 @@ LEXICON PRON-PERS-INFL
 
 CASE-ETC ;
 
-LEXICON PRN-PERS
+LEXICON PRON-PERS
 
 мин%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мин CLIT ; 
 мин%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:минем CLIT ; 
@@ -686,44 +686,83 @@ LEXICON PRN-PERS
  
 сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:сез PRON-PERS-INFL ;
 
-LEXICON PRNDEM-BU
+LEXICON PRON-DEM-INFL
 
-%<prn%>%<dem%>%<nom%>:бу # ;           ! FIXME: these can get possessives too, e.g. монысының, монысына
-%<prn%>%<dem%>%<gen%>:моның # ;
-%<prn%>%<dem%>%<dat%>:моңа # ;
-%<prn%>%<dem%>%<acc%>:моны # ;
-%<prn%>%<dem%>%<loc%>:монда # ;
-%<prn%>%<dem%>%<abl%>:моннан # ;
-%<prn%>%<dem%>%<pl%>:бо%>%{L%}%{A%}р CASE ;
+%<gen%>:н%{I%}ң CLIT ;
+%<dat%>:ң%{A%} CLIT ;
+%<acc%>:н%{I%} CLIT ;
+%<abl%>:нн%{A%}н CLIT ;
+%<loc%>:нд%{A%} CLIT ;
+%<px%>:н%{I%}к%{I%}%{n%} CASE ;
+%<loc%>:нд%{A%}г%{I%} ATTR/SUBST ;  ! 
+%<sim%>:нд%{I%}й CLIT ;    ! 
+%<adv%>:л%{A%}й CLIT ; ! 
 
-LEXICON PRNDEM-ŠUL
+%<pl%>:%>%{L%}%{A%}р CASE-ETC ;
 
-%<prn%>%<dem%>%<nom%>:шул # ;
-%<prn%>%<dem%>%<gen%>:шуның # ;
-%<prn%>%<dem%>%<dat%>:шуңа # ;
-%<prn%>%<dem%>%<acc%>:шуны # ;
-%<prn%>%<dem%>%<loc%>:шунда # ;
-%<prn%>%<dem%>%<abl%>:шуннан # ;
-%<prn%>%<dem%>%<pl%>:шул%>%{L%}%{A%}р CASE ;
+! FIXME: 1) these can get possessives too, e.g. монысының, монысына
+!        2) link them to PRON-DEM-INFL if possible (like "теге" was linked there)
+   
+LEXICON PRONDEM-BU
 
-LEXICON PRNDEM-UL                     ! FIXME: refactor this, link all remaining prn.dem's to one cont. class
+бу%<prn%>%<dem%>%<nom%>:бу CLIT ;
+бу%<prn%>%<dem%>%<gen%>:моның CLIT ;
+бу%<prn%>%<dem%>%<dat%>:моңа CLIT ;
+бу%<prn%>%<dem%>%<acc%>:моны CLIT ;
+бу%<prn%>%<dem%>%<abl%>:моннан CLIT ;
+бу%<prn%>%<dem%>%<loc%>:монда CLIT ;
+бу%<prn%>%<dem%>%<px%>:моныкы CASE ;
+бу%<prn%>%<dem%>%<loc%>:мондагы ATTR/SUBST ;
+бу%<prn%>%<dem%>%<sim%>:мондый CLIT ;
+бу%<prn%>%<dem%>%<adv%>:болай CLIT ;
 
-%<prn%>%<dem%>%<nom%>:ул # ; 
-%<prn%>%<dem%>%<gen%>:аның # ; 
-%<prn%>%<dem%>%<dat%>:аңа # ;
-%<prn%>%<dem%>%<acc%>:аны # ; 
-%<prn%>%<dem%>%<loc%>:анда # ; 
-%<prn%>%<dem%>%<abl%>:аннан # ;
-%<prn%>%<dem%>%<pl%>:алар CASE ;
+бу%<prn%>%<dem%>%<pl%>:болар CASE-ETC ;
+
+LEXICON PRONDEM-ŠUL
+
+шул%<prn%>%<dem%>%<nom%>:шул CLIT ;
+шул%<prn%>%<dem%>%<gen%>:шуның CLIT ;
+шул%<prn%>%<dem%>%<dat%>:шуңа CLIT ;
+шул%<prn%>%<dem%>%<acc%>:шуны CLIT ;
+шул%<prn%>%<dem%>%<abl%>:шуннан CLIT ;
+шул%<prn%>%<dem%>%<loc%>:шунда CLIT ;
+шул%<prn%>%<dem%>%<px%>:шуныкы CASE ;
+шул%<prn%>%<dem%>%<loc%>:шундагы ATTR/SUBST ;
+шул%<prn%>%<dem%>%<sim%>:шундый CLIT ;
+шул%<prn%>%<dem%>%<adv%>:шулай CLIT ;
+
+шул%<prn%>%<dem%>%<pl%>:шулар CASE-ETC ;
+
+LEXICON PRONDEM-UL
+
+ул%<prn%>%<dem%>%<nom%>:ул CLIT ;
+ул%<prn%>%<dem%>%<gen%>:аның CLIT ; 
+ул%<prn%>%<dem%>%<dat%>:аңа CLIT ;
+ул%<prn%>%<dem%>%<acc%>:аны CLIT ; 
+ул%<prn%>%<dem%>%<abl%>:аннан CLIT ;
+ул%<prn%>%<dem%>%<loc%>:анда CLIT ; 
+ул%<prn%>%<dem%>%<px%>:аныкы CASE ;
+ул%<prn%>%<dem%>%<loc%>:андагы ATTR/SUBST ;
+ул%<prn%>%<dem%>%<sim%>:андый CLIT ;
+ул%<prn%>%<dem%>%<adv%>:алай CLIT ;
+
+ул%<prn%>%<dem%>%<pl%>:алар CASE-ETC ;
+
+LEXICON PRON-DEM
+
+теге%<prn%>%<dem%>%<nom%>:теге CLIT ; 
+теге%<prn%>%<dem%>:теге PRON-DEM-INFL ; 
+
+шушы%<prn%>%<dem%>%<nom%>:шушы CLIT ; 
+шушы%<prn%>%<dem%>:шушы PRON-DEM-INFL ; 
+
+PRONDEM-BU ;
+PRONDEM-ŠUL ;
+PRONDEM-UL ;
 
 LEXICON PRNITGLEX
 
 %<prn%>%<itg%>: POSS-REAL ; 
-
-LEXICON PRNDEMLEX
-
-%<prn%>%<dem%>: CASE ; 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASE ; 
 
 LEXICON PRNNEG
 
@@ -1039,19 +1078,14 @@ LEXICON Postadverbs
 !================!
 
 
-PRN-PERS ; 
+PRON-PERS ; 
 
 ни:ни PRNITGLEX ; ! ""
 нимә:нимә PRNITGLEX ; ! ""
 нәрсә:нәрсә PRNITGLEX ; ! "what"
 кем:кем PRNITGLEX ; ! ""
 
-бу: PRNDEM-BU ; ! ""
-шул: PRNDEM-ŠUL ; ! ""
-ул: PRNDEM-UL ; ! ""
-шушы:шушы PRNDEMLEX ; ! ""     !FIXME: these share the same endings with "бу", see мо-ңа <> шушы-ңа
-теге:теге PRNDEMLEX ; ! ""     !теге-ңә (exceptional case endings in singular)
-                               !TODO:maybe it is possible to link all PRNDEMs to one Continuation class?
+PRON-DEM ;
 
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
 бернәрсә:бернәрсә PRNNEG ; ! ""

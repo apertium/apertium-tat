@@ -392,7 +392,8 @@ LEXICON N-INFL-COMMON
 
 POSS-REAL ;
 CASE-ETC ;
-ABE-ETC ;
+ABE-ETC ; ! FIXME check whether this is possible after adjectives and other subst. things.
+          ! Maybe a better idea is to restrict it to nouns and pronouns.
 
 !!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
 !                                                               <s>(a separate ADJ-COMMON might be even better, see kaz.lexc)</s>

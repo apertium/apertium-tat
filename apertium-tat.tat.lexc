@@ -765,6 +765,10 @@ LEXICON PRNITGLEX
 
 %<prn%>%<itg%>: POSS-REAL ; 
 
+LEXICON PRON-QNT
+
+%<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
+
 LEXICON PRNNEG
 
 %<prn%>%<neg%>: CASE ; 
@@ -1081,12 +1085,14 @@ LEXICON Postadverbs
 
 PRON-PERS ; 
 
+PRON-DEM ;
+
 ни:ни PRNITGLEX ; ! ""
 нимә:нимә PRNITGLEX ; ! ""
 нәрсә:нәрсә PRNITGLEX ; ! "what"
 кем:кем PRNITGLEX ; ! ""
 
-PRON-DEM ;
+барлык:барлык PRON-QNT ; ! ""
 
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
 бернәрсә:бернәрсә PRNNEG ; ! ""

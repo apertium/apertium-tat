@@ -820,6 +820,15 @@ LEXICON N-COMPOUND-PX ! consider "N2" for the name
 %<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
 %<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
+LEXICON NAT
+! Nationalites
+
+!A1 ;              ! nationality's adjectival form, e.g. "Turkish [food]" ! Consider <n.attr> reading for this 
+NLEX ;              ! a member of the nationality, e.g. "A Turk"
+:%>ш%{A%} ADVLEX ;   ! as / in the style of the nat., e.g. "à la Turk"
+!:%>ш%{A%} ADVLEX ;   ! in the language of the nationality, e.g. "in Turkish" ! I guess ADJ was meant /I.S./
+:%>ш%{A%} NLEX ;    ! the language of the nationality, e.g. "Turkish"
+
 LEXICON NPTOPLEX
 
 %<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
@@ -2638,26 +2647,26 @@ XXI NUM-ROMAN ; ! ""
 ! Nationalities
 !==============
 
-татар:татар NLEX ; ! "Tatar"
-казакъ:казакъ NLEX ; ! "Kazakh"
+татар:татар NAT ; ! "Tatar"
+казакъ:казакъ NAT ; ! "Kazakh"
 
-алман:алман NLEX ; ! "German"
-гарәп:гарәп NLEX ; ! "Arab"
-грек:грек NLEX ; ! "Greek"
-кыргыз:кыргыз NLEX ; ! "Kyrgyz"
-кытай:кытай NLEX ; ! "Chinese"
-монгол:монгол NLEX ; ! "Mongol"
-нимес:немец NLEX ; ! "German" Dir/LR
-нимес:нимес NLEX ; ! "German"
-нимес:нимыс NLEX ; ! "German" Dir/LR
-төрек:төрек NLEX ; ! "Turkish"
-урыс:урыс NLEX ; ! "Russian"
-чех:чех NLEX ; ! "Czech"
-чуваш:чуваш NLEX ; ! "Chuvash"
-чуваш:чуаш NLEX ; ! "Chuvash" Dir/LR 
-үзбәк:үзбәк NLEX ; ! "Uzbek"
-инглиз:инглиз NLEX ; ! "English"
-фарсы:фарсы NLEX ; ! "Persian"
+алман:алман NAT ; ! "German"
+гарәп:гарәп NAT ; ! "Arab"
+грек:грек NAT ; ! "Greek"
+кыргыз:кыргыз NAT ; ! "Kyrgyz"
+кытай:кытай NAT ; ! "Chinese"
+монгол:монгол NAT ; ! "Mongol"
+нимес:немец NAT ; ! "German" Dir/LR
+нимес:нимес NAT ; ! "German"
+нимес:нимыс NAT ; ! "German" Dir/LR
+төрек:төрек NAT ; ! "Turkish"
+урыс:урыс NAT ; ! "Russian"
+чех:чех NAT ; ! "Czech"
+чуваш:чуваш NAT ; ! "Chuvash"
+чуваш:чуаш NAT ; ! "Chuvash" Dir/LR 
+үзбәк:үзбәк NAT ; ! "Uzbek"
+инглиз:инглиз NAT ; ! "English"
+фарсы:фарсы NAT ; ! "Persian"
 
 
 !===================!

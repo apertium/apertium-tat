@@ -3062,11 +3062,13 @@ XXI NUM-ROMAN ; ! ""
 кәбисә:кәбисә A3 ; ! ""
 хур:хур A3 ; ! ""
 куш:куш A3 ; ! ""
-таулы:таулы A3 ; ! "" FIXME:NOTE: Maybe we could derive this stuff, I don't know /I.S./
+таулы:таулы A3 ; ! "" FIXME NOTE Maybe we could derive this stuff, I don't know /I.S./
 туган:туган A3 ; ! ""
 торак:торак A3 ; ! ""
 рухани:рухани A3 ; ! ""
 традицион:традицион A3 ; ! ""
+
+әлеге:әлеге A3 ; ! "" FIXME CHECK
 
 ! A2 adj.(comp), adj.(comp).subst
 !================================

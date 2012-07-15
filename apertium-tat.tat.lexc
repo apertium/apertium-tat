@@ -2690,23 +2690,30 @@ XXI NUM-ROMAN ; ! ""
 ! Cities/towns/regions of Kazakhstan
 !-----------------------------------
 
-Алматы:Алматы NPTOPLEX ; ! ""
-Байконур:Байконур NPTOPLEX ; ! ""
-Байкоңыр:Байкоңыр NPTOPLEX ; ! ""
-Төркестан:Төркестан NPTOPLEX ; ! ""
-
 Акмола:Акмола NPTOPLEX ; ! ""
+Актау:Актау NPTOPLEX ; ! ""
 Актүбә:Актүбә NPTOPLEX ; ! ""
+Акъеспе:Акъеспе NPTOPLEX ; ! ""
+Алатау:Алатау NPTOPLEX ; ! ""
+Алматы:Алматы NPTOPLEX ; ! ""
+Астана:Астана NPTOPLEX ; ! ""
 Атырау:Атырау NPTOPLEX ; ! ""
+Байкоңгыр:Байконур NPTOPLEX ; ! "" Dir/LR
+Байкоңгыр:Байкоңгыр NPTOPLEX ; ! ""
 Жамбыл:Жамбыл NPTOPLEX ; ! ""
+Караганды:Караганды NPTOPLEX ; ! ""
 Костанай:Костанай NPTOPLEX ; ! ""
 Кызылорда:Кызылорда NPTOPLEX ; ! ""
 Маңгыстау:Маңгыстау NPTOPLEX ; ! ""
+Мәдәу:Мәдәу NPTOPLEX ; ! ""
+Өскәмән:Өскәмән NPTOPLEX ; ! ""
 Павлодар:Павлодар NPTOPLEX ; ! ""
-Сәмәй:Сәмәй NPTOPLEX ; ! ""
-Алатау:Алатау NPTOPLEX ; ! ""
-Акъеспе:Акъеспе NPTOPLEX ; ! ""
 Сарычыганак:Сарычыганак NPTOPLEX ; ! ""
+Сәмәй:Сәмәй NPTOPLEX ; ! ""
+Төркестан:Төркестан NPTOPLEX ; ! ""
+Шияле:Шияле NPTOPLEX ; ! ""
+Шымбулак:Шымбулак NPTOPLEX ; ! ""
+Шымкент:Шымкент NPTOPLEX ; ! ""
 
 ! Cities/towns/regions of Bashkortostan
 !--------------------------------------

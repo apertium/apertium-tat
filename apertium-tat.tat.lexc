@@ -1001,7 +1001,7 @@ LEXICON Conjunctions
 арты:арты CALEX ; ! "" ! FIXME:CHECK, TOREMOVE
 
 фикеренчә:фикеренчә CALEX ; ! ""
-
+сүзләренчә:сүзләренчә CALEX ; ! ""
 
 LEXICON Postpositions 
 
@@ -3350,19 +3350,45 @@ XXI NUM-ROMAN ; ! ""
 ! Cities of the world
 !--------------------
 
-Варшава:Варшава NPTOPLEX ; ! ""
+Анкара:Анкара NPTOPLEX ; ! "Ankara"
+Афина:Афина NPTOPLEX ; ! "Athens"
+Белград:Белград NPTOPLEX ; ! "Belgrade"
+Берлин:Берлин NPTOPLEX ; ! "Berlin"
+Бонн:Бонн NPTOPLEX ; ! "Bonn"
+Брюссель:Брюссель NPTOPLEX ; ! "Brussels"
+Будапешт:Будапешт NPTOPLEX ; ! "Budapest"
+Бухарест:Бухарест NPTOPLEX ; ! "Bucharest"
+Варшава:Варшава NPTOPLEX ; ! "Warsaw"
+Вашингтон:Вашингтон NPTOPLEX ; ! "Washington"
+Вена:Вена NPTOPLEX ; ! "Vienna"
 Вроцлав:Вроцлав NPTOPLEX ; ! ""
 Гданьск:Гданьск NPTOPLEX ; ! ""
 Донецк:Донецк NPTOPLEX ; ! ""
+Дублин:Дублин NPTOPLEX ; ! "Dublin"
+Иерусалим:Иерусалим NPTOPLEX ; ! "Jerusalem"
+Истанбул:Истанбул NPTOPLEX ; ! "Istanbul"
+Каир:Каир NPTOPLEX ; ! "Cairo"
+Канзас:Канзас NPTOPLEX ; ! "Kansas"
+Каһирә:Каһирә NPTOPLEX ; ! "Cairo"
 Киев:Киев NPTOPLEX ; ! ""
+Копенгаген:Копенгаген NPTOPLEX ; ! "Copenhagen"
 Краков:Краков NPTOPLEX ; ! ""
-Лондон:Лондон NPTOPLEX ; ! ""
+Лондон:Лондон NPTOPLEX ; ! "London"
 Львов:Львов NPTOPLEX ; ! ""
-Париж:Париж NPTOPLEX ; ! ""
+Мадрид:Мадрид NPTOPLEX ; ! "Madrid"
+Мехико:Мехико NPTOPLEX ; ! "Mexico"
+Нью%-Йорк:Нью%-Йорк NPTOPLEX ; ! "New York"
+Париж:Париж NPTOPLEX ; ! "Paris"
 Познань:Познань NPTOPLEX ; ! ""
+Прага:Прага NPTOPLEX ; ! "Prague"
+Рим:Рим NPTOPLEX ; ! "Rome"
+Сантьяго:Сантьяго NPTOPLEX ; ! "Santiago"
+Ташкент:Ташкент NPTOPLEX ; ! "Tashkent"
+Токио:Токио NPTOPLEX ; ! "Tokyo"
 Харьков:Харьков NPTOPLEX ; ! ""
-Ташкент:Ташкент NPTOPLEX ; ! ""
+Хельсинки:Хельсинки NPTOPLEX ; ! "Helsinki"
 Хорезм:Хорезм NPTOPLEX ; ! ""
+Чикаго:Чикаго NPTOPLEX ; ! "Chicago"
 
 ! Other toponyms
 !---------------

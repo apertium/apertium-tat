@@ -883,7 +883,7 @@ LEXICON NUM-ROMAN
 
 LEXICON POSTLEX
 
-%<post%>: # ; 
+%<post%>: CLIT ; 
 
 LEXICON POSTADVLEX
 

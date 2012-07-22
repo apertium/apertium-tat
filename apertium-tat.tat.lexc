@@ -297,6 +297,12 @@ LEXICON CLIT                     ! These citics can join words of any POS and of
 %+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
 %+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 
+LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
+                        ! after nominal parts of speech (and only after some cases).
+                        ! FIXME: to be checked whether leads to any overgeneration
+CLIT ;
+V-PERS-COP ;
+
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 
 ! The following combinations are possible:
@@ -325,12 +331,12 @@ LEXICON CLIT                     ! These citics can join words of any POS and of
 
 LEXICON CASE 
 
-%<nom%>: CLIT ;               ! - - -
+%<nom%>: CLIT-GENERAL ;               ! - - -
 %<gen%>:%>н%{I%}ң CLIT ;      ! -ның/-нең
 %<dat%>:%>%{G%}%{A%} CLIT ;   ! -га/-гә, -ка/-кә    ! -а/-ә in nouns with possessives in singular (see below)
 %<acc%>:%>н%{I%} CLIT ;	      ! -ны/-не
-%<abl%>:%>%{D%}%{A%}н CLIT ;  ! -дан/-дән, -тан/-тән, -нан/нән 
-%<loc%>:%>%{D%}%{A%} CLIT ;   ! -да/-дә, -та/-тә
+%<abl%>:%>%{D%}%{A%}н CLIT-GENERAL ;  ! -дан/-дән, -тан/-тән, -нан/нән 
+%<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   ! -да/-дә, -та/-тә
 
 !! китап
 !! китапның
@@ -473,8 +479,11 @@ LEXICON V-PERS-S3-NO1SG
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ;
 %<p3%>%<sg%>:%> CLIT ;
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
-%<p2%>%<pl%>:%>с%{I%}г%{I%}з CLIT ;
+%<p2%>%<pl%>:%>с%{I%}з CLIT ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
+
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ;
+%<p2%>%<frm%>%<pl%>:%>с%{I%}з CLIT ;
 
 LEXICON V-PERS-S3
 
@@ -627,6 +636,10 @@ LEXICON VAUX
 
 !!!!!!!!!!!!!!!!!!!!!!     copula
 
+LEXICON V-PERS-COP
+
+%+и%<cop%>: V-PERS-S3 ;
+
 LEXICON COP-I
 
 и%<cop%>%<neg%>:түгел V-PERS-S3 ;
@@ -697,7 +710,7 @@ LEXICON PRON-DEM-INFL
 %<px%>:н%{I%}к%{I%}%{n%} CASE ;
 %<loc%>:нд%{A%}г%{I%} ATTR/SUBST ;  ! 
 %<sim%>:нд%{I%}й CLIT ;    ! 
-%<adv%>:л%{A%}й CLIT ; ! 
+%<adv%>:л%{A%}й CLIT-GENERAL ; ! FIXME check cont. class 
 
 %<pl%>:%>%{L%}%{A%}р CASE-ETC ;
 

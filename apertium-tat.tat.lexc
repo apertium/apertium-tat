@@ -231,27 +231,6 @@ N-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!     CLITICS
 
-! FIXME: Might need some refactoring
-
-! FIXME: consider "әле" and "әллә"
-!
-! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
-!     Russian "-ка" (e.g. "скажи-ка") - e.g. "әйт әле", "кайтыйк әле";           ?>> <mod_foc>
-! #2 Нәрсә булды соң әле? = Что же случилось?
-! 
-! #4 Күрешербез әле. = Еще увидимся.
-!
-! #3 Әле кичә генә. = Еще вчера; Только вчера.
-! 
-! But if for all above examples "әлі <-> әле" translation works, distinguishing between the meanings
-! might be not needed, we'll just have to choose an appropriate tag.
-!-----
-! "әллә" can appear both before and after the word it is related to:
-! 
-! #1 "- Абау, миңа әллә нәрсә булган!"
-! #2 "Канатлы дигәч тә, мин кошмы әллә?" 
-!-------------------------------------------------------------------
-
 ! Modal/discourse particles
 
 LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives
@@ -260,38 +239,26 @@ LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only aft
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
-!CLIT-COMMON ;
 # ;
-
-!LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
-
-!%+шул%<mod_ass%>:% шул # ;      ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
 
 LEXICON CLIT                     ! These citics can join words of any POS and of any form
 
 !! Question modal particles
 
 %+мы%<qst%>:%>м%{I%} # ;
-%+микән%<qst%>:% микән # ;       ! originated from "-мы икән"
 %+мыни%<qst%>:%>м%{I%}ни # ;
 
 !! Assertive (emphasizing) modal particles
 
-%+бит%<mod_ass%>:% бит # ;
-%+ич%<mod_ass%>:% ич # ;
 %+ла%<mod_ass%>:% л%{A%} # ;
-%+ласа%<mod_ass%>:% ласа # ;
-%+ләбаса%<mod_ass%>:% ләбаса # ;
-%+ләбаса%<mod_ass%>:% лабаса # ; ! Dir/LR
 
 !! Indefinite (expressing doubt) modal particles
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
-!CLIT-COMMON ;
 # ;
 
-!! FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
-!!                and not attach them to the previous word
+!! <s> FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
+!!                and not attach them to the previous word </s>
 
 %+гына%<postadv%>:% %{G%}%{I%}н%{A%} # ; ! "only"
 %+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
@@ -926,6 +893,10 @@ LEXICON QSTLEX
 
 %<qst%>: # ; 
 
+LEXICON MOD-ASS
+
+%<mod_ass%>: # ;
+
 LEXICON INTERJ
 
 %<ij%>: # ;
@@ -938,8 +909,34 @@ LEXICON ABBR
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON ModalParticles
 
+!======================!
+ LEXICON ModalParticles
+!======================!
+
+
+! FIXME: consider "әле" and "әллә"
+!
+! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
+!     Russian "-ка" (e.g. "скажи-ка") - e.g. "әйт әле", "кайтыйк әле";           ?>> <mod_foc>
+! #2 Нәрсә булды соң әле? = Что же случилось?
+! 
+! #4 Күрешербез әле. = Еще увидимся.
+!
+! #3 Әле кичә генә. = Еще вчера; Только вчера.
+! 
+! But if for all above examples "әлі <-> әле" translation works, distinguishing between the meanings
+! might be not needed, we'll just have to choose an appropriate tag.
+!-----
+! "әллә" can appear both before and after the word it is related to:
+! 
+! #1 "- Абау, миңа әллә нәрсә булган!"
+! #2 "Канатлы дигәч тә, мин кошмы әллә?" 
+!-------------------------------------------------------------------
+
+! Question modal particles
+!=========================
+ 
 мы:мы QSTLEX ; ! "y/n question"
 ме:ме QSTLEX ; ! "y/n question" ! Dir/RL
 
@@ -948,12 +945,27 @@ LEXICON ModalParticles
 !# "Яңача түләү яки һәрвакыттагыча "Хотели как лучше, получилось как всегда"мы?" 
 ! Just having a space before it while treating it as a clitic wouldn't work /I.S./
 
+микән:микән QSTLEX ; ! originated from "-мы икән"
+
+! Assertive (emphasizing) modal particles
+!========================================
+
+бит:бит MOD-ASS ;
+ич:ич MOD-ASS ;
+ласа:ласа MOD-ASS ;
+ләбаса:ләбаса MOD-ASS ;
+ләбаса:лабаса MOD-ASS ; ! Dir/LR
+
 LEXICON Copula
 
 !и:и COP-I ; ! ""
 COP-I ; ! ""
 
-LEXICON Conjunctions
+
+!====================!
+ LEXICON Conjunctions
+!====================!
+
 
 ! FIXME: Section is to be checked later for miscategorizations
 !        [although these miscategorizations shouldn't affect much the coverage of

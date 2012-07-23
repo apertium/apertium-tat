@@ -5297,6 +5297,207 @@ XXI NUM-ROMAN ; ! ""
 комсызлан:комсызлан V-IV-IR-LEX ; ! "to be greedy"
 ялга:ялга V-TV-IR-LEX ; ! "add,attach,fasten"
 
+ялган:ялган V-IV-IR-LEX ; ! "to become tied" (kaz tat) refl
+ялгаш:ялгаш V-IV-IR-LEX ; ! "to join" (kaz tat) coop
+ялкаулан:ялкаулан V-IV-IR-LEX ; ! "to be lazy"
+ялыктыр:ялыктыр V-TV-IR-LEX ; ! "to pester" (kaz tat) caus
+ялкылан:ялкылан V-IV-IR-LEX ; ! "to flame"
+ялын:ялын V-IV-IR-LEX ; ! "to implore"
+яма:яма V-TV-IR-LEX ; ! "to mend"
+яманла:яманла V-TV-IR-LEX ; ! "to find fault (with)"
+яманлаш:яманлаш V-IV-IR-LEX ; ! "to detract each other" (kaz tat) coop
+тиз-тиз:тиз-тиз V-TV-IR-LEX ; ! "" Use/MT
+ялагайлан:ялагайлан V-IV-IR-LEX ; ! ""
+ябын:ябын V-TV-IR-LEX ; ! "to cover oneself up"
+имәргә% чык:имәргә% чык V-IV-AR-LEX ; ! "to be admitted to ewes or cows for sucking (of lambs and calves)" Use/MT
+гөр% кил:гөр% кил V-IV-IR-LEX ; ! "" Use/MT
+кагыл:кагыл V-IV-IR-LEX ; ! "to go by"
+нурлан:нурлан V-IV-IR-LEX ; ! "to brighten (of eyes)"
+якын% кил:якын% кил V-IV-IR-LEX ; ! "to border" Use/MT FIXME CHECK
+якын% куй:якын% куй V-TV-AR-LEX ; ! "to bring into contact" (kaz) caus
+якын% җибәр:якын% җибәр V-TV-IR-LEX ; ! "" (kaz) caus
+кырын% ят:кырын% ят V-IV-AR-LEX ; ! "to lie on one's side"
+җанлан:җанлан V-IV-IR-LEX ; ! "to come to life"
+ян:ян V-IV-AR-LEX ; ! "burn"
+яп:яп V-TV-AR-LEX ; ! "close"
+ябыштыр:ябыштыр V-TV-IR-LEX ; ! "to glue"
+яра:яра V-IV-IR-LEX ; ! "be useful"
+ярат:ярат V-TV-IR-LEX ; ! "create"
+яр:яр V-TV-IR-LEX ; ! "split"
+халыкка% чыгар:халыкка% чыгар V-TV-IR-LEX ; ! "announce"
+ябыш:ябыш V-IV-IR-LEX ; ! "cling"
+ярлыка:ярлыка V-TV-IR-LEX ; ! "benefit"
+кәнәгатьләндер:кәнәгатьләндер V-TV-IR-LEX ; ! "" (tat) caus
+яса:яса V-TV-IR-LEX ; ! "do,make"
+яшеллән:яшеллән V-IV-IR-LEX ; ! "to become green"
+яшер:яшер V-TV-IR-LEX ; ! "conceal,hide"
+яшерен:яшерен V-IV-IR-LEX ; ! "hide oneself" (kaz tat) refl
+ят:ят V-IV-AR-LEX ; ! "lie"
+күнегүләр% эшлә:күнегүләр% эшлә V-IV-IR-LEX ; ! "to exercize" Use/MT
+яу:яу V-IV-AR-LEX ; ! "percipitate"
+яула:яула V-TV-IR-LEX ; ! ""
+ботарла:ботарла V-TV-IR-LEX ; ! "to tear into pieces"
+аша:аша V-TV-IR-LEX ; ! "eat"
+аер:аер V-TV-IR-LEX ; ! "to separate"
+җикер:җикер V-IV-IR-LEX ; ! "to shout"
+җиктер:җиктер V-TV-IR-LEX ; ! "to order (someone) to harness (a horse)" (kaz tat) caus
+юртып% бар:юртып% бар V-TV-IR-LEX ; ! "to trot" Use/MT
+айкалдыр:айкалдыр V-TV-IR-LEX ; ! "to incite"
+җилемлә:җилемлә V-TV-IR-LEX ; ! "to glue"
+җиленлә:җиленлә V-IV-IR-LEX ; ! "to accumulate milk in udder (of cow before calving)"
+җилен% үстер:җилен% үстер V-IV-IR-LEX ; ! "to accumulate milk in udder (of cow before calving)"
+ашал:ашал V-IV-IR-LEX ; ! "to be eaten" (kaz tat) passive
+юрттырып% җибәр:юрттырып% җибәр V-TV-IR-LEX ; ! "to put trotters in a race" Use/MT
+ашат:ашат V-TV-IR-LEX ; ! "to rear" (tat) caus
+кара:кара V-TV-IR-LEX ; ! ""
+җиң:җиң V-TV-AR-LEX ; ! "win,overcome"
+читләш:читләш V-IV-IR-LEX ; ! "loose the habbit"
+кабул% итмә:кабул% итмә V-TV-IR-LEX ; ! "loose the habbit" Use/MT
+чиркан:чиркан V-IV-IR-LEX ; ! "to feel disgust"
+җирлә:җирлә V-TV-IR-LEX ; ! "to bury"
+җитәклә:җитәклә V-TV-IR-LEX ; ! "lead by hand"
+җит:җит V-IV-AR-LEX ; ! "reach"
+камилләштер:камилләштер V-TV-IR-LEX ; ! "to breed" (kaz tat) caus
+камилләш:камилләш V-IV-IR-LEX ; ! "to ripen"
+ятимлән:ятимлән V-IV-IR-LEX ; ! "to feel lonely"
+җитеш:җитеш V-IV-IR-LEX ; ! "to ripen (of fruit)"
+җиткез:җиткез V-TV-IR-LEX ; ! "to bring to" (kaz tat) caus
+ешай:ешай V-IV-IR-LEX ; ! "to become more frequent"
+ешайт:ешайт V-TV-IR-LEX ; ! "to make more frequent" (kaz tat) caus
+чиркан:чиркан V-IV-IR-LEX ; ! "to be squeamish"
+җыйна:җыйна V-TV-IR-LEX ; ! ""
+җирән:җирән V-IV-IR-LEX ; ! "to have an aversion"
+җибәр:җибәр V-TV-IR-LEX ; ! "send"
+нечкәр:нечкәр V-IV-IR-LEX ; ! "to grow thinner"
+нечкәрт:нечкәрт V-TV-IR-LEX ; ! "to make thinner" (kaz tat) caus
+планлаштыр:планлаштыр V-TV-IR-LEX ; ! "to plan"
+югал:югал V-IV-IR-LEX ; ! "lose"
+юк% иттер:юк% иттер V-TV-IR-LEX ; ! "to force or compel someone to destroy" (kaz tat) caus Use/MT
+сагын:сагын V-TV-IR-LEX ; ! "miss,mourn"
+белеш:белеш V-TV-IR-LEX ; ! "наводить справки"
+якын% кил:якын% кил V-IV-IR-LEX ; ! "to approach" Use/MT
+юлга% чык:юлга% чык V-IV-AR-LEX ; ! "to leave" Use/MT
+фаразла:фаразла V-TV-IR-LEX ; ! "suppose"
+планлаштыр:планлаштыр V-TV-IR-LEX ; ! "plan"
+ю:ю V-TV-AR-LEX ; ! "wash"
+: V-TV-IR-LEX ; ! "to let rest" (kaz tat) caus Use/MT
+йөгәнлә:йөгәнлә V-TV-IR-LEX ; ! "to bridle"
+йөгәнсезлән:йөгәнсезлән V-IV-IR-LEX ; ! "to commit excesses"
+тезлән:тезлән V-IV-IR-LEX ; ! "sit cross-legged"
+йөгер:йөгер V-IV-IR-LEX ; ! "run"
+узыш:узыш V-IV-IR-LEX ; ! "to compete in running" (kaz tat) coop
+арык:арык V-IV-IR-LEX ; ! "to grow thin"
+тормышка% аш:тормышка% аш V-IV-AR-LEX ; ! ""
+тормышка% ашыр:тормышка% ашыр V-TV-IR-LEX ; ! "" (kaz tat) caus (kaz) trimm Use/MT
+йөз:йөз V-IV-AR-LEX ; ! "swim"
+кыркы:кыркы V-TV-IR-LEX ; ! "to shear (a camel)"
+йөрт:йөрт V-TV-IR-LEX ; ! "" (kaz tat) caus
+йөртел:йөртел V-IV-IR-LEX ; ! "to be put into motion or into action" FIXME CHECK
+кауша:кауша V-IV-IR-LEX ; ! "to be timid"
+кыюсызлан:кыюсызлан V-IV-IR-LEX ; ! ""
+чүгәлә:чүгәлә V-IV-IR-LEX ; ! "to squat"
+йөр:йөр V-IV-IR-LEX ; ! "move"
+юат:юат V-TV-IR-LEX ; ! "comfort"
+йок:йок V-TV-AR-LEX ; ! "be communicated (of diseases)"
+йолкы:йолкы V-TV-IR-LEX ; ! "pluck out"
+тартып% ал:тартып% ал V-TV-IR-LEX ; ! ""
+йомша:йомша V-IV-IR-LEX ; ! "soften"
+эшлә:эшлә V-TV-IR-LEX ; ! "procces"
+җый:җый V-TV-AR-LEX ; ! "to gather"
+ек:ек V-TV-AR-LEX ; ! "knock over (passive = fall over)"
+ела:ела V-IV-IR-LEX ; ! "cry,weep"
+ялтырат:ялтырат V-TV-IR-LEX ; ! "to illuminate" (kaz tat) caus
+елмай:елмай V-IV-IR-LEX ; ! "to smile"
+ерт:ерт V-TV-IR-LEX ; ! "tear"
+имгән:имгән V-IV-IR-LEX ; ! "to become crippled"
+җәрәхәтлә:җәрәхәтлә V-TV-IR-LEX ; ! "to damage"
+җилдер:җилдер V-TV-IR-LEX ; ! "to gallop fast"
+зәвыклан:зәвыклан V-IV-IR-LEX ; ! "to want"
+тикшер:тикшер V-TV-IR-LEX ; ! "research"
+тикшерен:тикшерен V-IV-IR-LEX ; ! "research"
+и:и V-TV-AR-LEX ; ! "bend,curve"
+эрлә:эрлә V-TV-IR-LEX ; ! "spin"
+иснә:иснә V-TV-IR-LEX ; ! "smell"
+бормалан:бормалан V-IV-IR-LEX ; ! "wind"
+эзлә:эзлә V-TV-IR-LEX ; ! "seek,look for"
+эләктер:эләктер V-TV-IR-LEX ; ! "to do up"
+каптыр:каптыр V-TV-IR-LEX ; ! "to do up"
+алга% бар:алга% бар V-IV-IR-LEX ; ! "ahead" Use/MT
+алга% җибәр:алга% җибәр V-TV-IR-LEX ; ! "to increase"
+эләктер:эләктер V-TV-IR-LEX ; ! "to couple"
+эл:эл V-TV-AR-LEX ; ! "hang"
+чәбәлән:чәбәлән V-IV-IR-LEX ; ! "to be coupled"
+әйткәләш:әйткәләш V-IV-IR-LEX ; ! "to be coupled"
+эреләндер:эреләндер V-TV-IR-LEX ; ! "to enlarge" (kaz tat) caus
+майландыр:майландыр V-TV-IR-LEX ; ! "to shake (of a wineskin" (kaz tat) caus
+шеш:шеш V-IV-AR-LEX ; ! "swell"
+эшлә:эшлә V-TV-IR-LEX ; ! "do,make"
+шешен:шешен V-IV-IR-LEX ; ! "to swell"
+эч:эч V-TV-AR-LEX ; ! "drink"
+очраш:очраш V-IV-IR-LEX ; ! "to meet"
+чиратлаш:чиратлаш V-IV-IR-LEX ; ! ""
+кайгырт:кайгырт V-TV-IR-LEX ; ! "to irritate"
+кикер:кикер V-IV-IR-LEX ; ! "burp"
+килеш:килеш V-IV-IR-LEX ; ! "agree"
+кил:кил V-IV-AR-LEX ; ! "come"
+китер:китер V-TV-IR-LEX ; ! "bring" (kaz tat) caus
+туен:туен V-IV-IR-LEX ; ! "recieve full satsifaction"
+киңәш:киңәш V-IV-IR-LEX ; ! "to consult"
+кис:кис V-TV-AR-LEX ; ! "cut"
+кит:кит V-IV-AR-LEX ; ! "leave"
+кичер:кичер V-TV-IR-LEX ; ! "forgive"
+төрткәлә:төрткәлә V-TV-IR-LEX ; ! "to push"
+бүлдер:бүлдер V-TV-IR-LEX ; ! "перебивать"
+кичек:кичек V-IV-IR-LEX ; ! "stop,stay"
+кер:кер V-IV-IR-LEX ; ! "enter"
+богаула:богаула V-TV-IR-LEX ; ! "to hobble (in iron fetters)"
+кетердә:кетердә V-IV-IR-LEX ; ! "or kitip-kitip et- to crunch on"
+күбәй:күбәй V-IV-IR-LEX ; ! ""
+зәңгәрсулан:зәңгәрсулан V-IV-IR-LEX ; ! "to look blue" FIXME CHECK
+искер:искер V-IV-IR-LEX ; ! "to be shabby"
+күбеклән:күбеклән V-IV-IR-LEX ; ! "to foam"
+күмәклә:күмәклә V-TV-IR-LEX ; ! "to do something jointly with others"
+күрен:күрен V-IV-IR-LEX ; ! "be seen" (kaz tat) passive
+күр:күр V-TV-IR-LEX ; ! "see"
+күрсәт:күрсәт V-TV-IR-LEX ; ! "show" (kaz tat) ?caus
+күтәр:күтәр V-TV-IR-LEX ; ! "lift"
+күч:күч V-IV-AR-LEX ; ! "lead a nomad's life,move to another place"
+кристаллан:кристаллан V-IV-IR-LEX ; ! "to crystallize"
+кыркы:кыркы V-TV-IR-LEX ; ! "shear"
+кыр:кыр V-TV-IR-LEX ; ! "shear"
+күзәт:күзәт V-TV-IR-LEX ; ! "guard"
+сакла:сакла V-TV-IR-LEX ; ! "guard"
+көй:көй V-IV-AR-LEX ; ! "burn"
+елмай:елмай V-IV-IR-LEX ; ! "to smile"
+көлемсерә:көлемсерә V-IV-IR-LEX ; ! "to smile slightly"
+көлеш:көлеш V-IV-IR-LEX ; ! "to laugh with others" (kaz tat) coop
+көл:көл V-IV-AR-LEX ; ! "laugh"
+кабырчыклан:кабырчыклан V-IV-IR-LEX ; ! "to appear (of tumors)"
+гөрелдә:гөрелдә V-IV-IR-LEX ; ! "to emit dull sounds"
+быхылда:быхылда V-IV-IR-LEX ; ! "to plop" Use/MT
+көнлә:көнлә V-TV-IR-LEX ; ! "to envy"
+тереклек% ит:тереклек% ит V-IV-AR-LEX ; ! "to exist" Use/MT
+масай:масай V-IV-IR-LEX ; ! "to rumble"
+көрәш:көрәш V-IV-IR-LEX ; ! "deal,fight,wrestle"
+кыткылда:кыткылда V-IV-IR-LEX ; ! "to wheeze"
+гөрелдә:гөрелдә V-IV-IR-LEX ; ! "to wheeze"
+гөрселдә:гөрселдә V-IV-IR-LEX ; ! "to thunder"
+көт:көт V-TV-AR-LEX ; ! "wait"
+көч% куй:көч% куй V-IV-AR-LEX ; ! "strive"
+катла:катла V-TV-IR-LEX ; ! "to pile in layers"
+кабул% ит:кабул% ит V-TV-AR-LEX ; ! ""
+тигезләш:тигезләш V-IV-IR-LEX ; ! "to equal"
+каплан:каплан V-IV-IR-LEX ; ! "to be covered with a thin layer (of ice)" (kaz tat) ?refl; FIXME CHECK
+ялган:ялган V-IV-IR-LEX ; ! "to become flat" (tat) passive
+сытыл:сытыл V-IV-IR-LEX ; ! "to become flat" (tat) passive
+кысыл:кысыл V-IV-IR-LEX ; ! "тесниться"
+талаш:талаш V-IV-IR-LEX ; ! "браниться"
+кагыш:кагыш V-TV-IR-LEX ; ! "вколачивать" (каz tat) coop
+как:как V-TV-AR-LEX ; ! "to seek out"
+чәкештер:чәкештер V-TV-IR-LEX ; ! "чокаться"
+табыштыр:табыштыр V-TV-IR-LEX ; ! "устраивать,подыскать"
+төрттер:төрттер V-TV-IR-LEX ; ! "to tease (verbally)"
+
 ! Auxiliary verbs
 !================
 

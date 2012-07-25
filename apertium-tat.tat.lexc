@@ -260,9 +260,14 @@ LEXICON CLIT                     ! These citics can join words of any POS and of
 !! <s> FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
 !!                and not attach them to the previous word </s>
 
+%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 %+гына%<postadv%>:% %{G%}%{I%}н%{A%} # ; ! "only"
 %+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
-%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
+%+ук%<postadv%>:% %{U%}к # ; ! "~же,даже"
+
+LEXICON V-PERS-COP
+
+%+и%<cop%>: V-PERS-S3 ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
@@ -347,9 +352,17 @@ LEXICON POSS-REAL
 %<px2sg%>:%>%{I%}ң CASE-ETC ;                 ! -ың/-ең, -ң
 %<px3sp%>:%>%{s%}%{I%}%{n%} CASE-ETC ;        ! -ы/е, -сы/-се
 %<px1pl%>:%>%{I%}б%{I%}з CASE-ETC ;           ! -ыбыз/-ебез, -быз/-без
-%<px2pl%>:%>%{I%}%{G%}%{I%}з CASE-ETC ;       ! -ыгыз/-егез, -гыз/-гез
+%<px2pl%>:%>%{I%}г%{I%}з CASE-ETC ;           ! -ыгыз/-егез, -гыз/-гез
 
-CASE-ETC ; ! FIXME:NOTE:! this was temporarily put here because some gerunds and pronouns are linked
+! Again, there is only one formal form in Tatar (which could be tagged
+! as <sp><frm>), but having it duplicated as sg/pl seems to make
+! translating into Kazakh easier (leaving room to disambiguate it
+! somehow in CG) /I.S./
+ 
+%<px2sg%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
+%<px2pl%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
+
+!CASE-ETC ; ! FIXME:NOTE:! this was temporarily put here because some gerunds and pronouns are linked
                         ! to POSS-REAL. They should be linked to SUBST actually (and they will) /I.S./ 
 
 ! In dative nouns with <px1sg> <px2sg> and <px3sp> gets an "-a" ending instead of "-га/-гә, -ка/-кә"
@@ -603,10 +616,6 @@ LEXICON VAUX
 
 !!!!!!!!!!!!!!!!!!!!!!     copula
 
-LEXICON V-PERS-COP
-
-%+и%<cop%>: V-PERS-S3 ;
-
 LEXICON COP-I
 
 и%<cop%>%<neg%>:түгел V-PERS-S3 ;
@@ -703,15 +712,15 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<gen%>:моның CLIT ;
 бу%<prn%>%<dem%>%<dat%>:моңа CLIT ;
 бу%<prn%>%<dem%>%<acc%>:моны CLIT ;
-бу%<prn%>%<dem%>%<abl%>:моннан CLIT ;
-бу%<prn%>%<dem%>%<loc%>:монда CLIT ;
+бу%<prn%>%<dem%>%<abl%>:моннан CLIT-GENERAL ;
+бу%<prn%>%<dem%>%<loc%>:монда CLIT-GENERAL ;
 бу%<prn%>%<dem%>%<px%>:моныкы%{n%} CASE ;
 бу%<prn%>%<dem%>%<loc%>:мондагы ATTR/SUBST ;
 бу%<prn%>%<dem%>%<sim%>:мондый CASE ;
 бу%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
 бу%<prn%>%<dem%>%<qnt%>:монча CLIT ;
-бу%<prn%>%<dem%>%<px3sp%>:моны POSS-REAL ;
-бу%<prn%>%<dem%>%<px3sp%>:бу POSS-REAL; ! Dir/LR
+бу%<prn%>%<dem%>:моны POSS-REAL ;
+бу%<prn%>%<dem%>:бу POSS-REAL; ! Dir/LR
 
 бу%<prn%>%<dem%>%<pl%>:болар N-INFL-COMMON ;
 

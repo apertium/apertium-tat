@@ -667,6 +667,7 @@ LEXICON PRON-PERS
  
 сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:сез PRON-PERS-INFL ;
 
+
 LEXICON PRON-DEM-INFL
 
 %<gen%>:н%{I%}ң CLIT ;
@@ -675,14 +676,16 @@ LEXICON PRON-DEM-INFL
 %<abl%>:нн%{A%}н CLIT ;
 %<loc%>:нд%{A%} CLIT ;
 %<px%>:н%{I%}к%{I%}%{n%} CASE ;
-%<loc%>:нд%{A%}г%{I%} ATTR/SUBST ;  ! 
-%<sim%>:нд%{I%}й CLIT ;    ! 
-%<adv%>:л%{A%}й CLIT-GENERAL ; ! FIXME check cont. class 
+%<loc%>:нд%{A%}г%{I%} ATTR/SUBST ;
+%<sim%>:нд%{I%}й CASE ; 
+%<adv%>:л%{A%}й CLIT-GENERAL ;     ! FIXME check cont. class
+%<px3sp%>:%{s%}%{I%}%{n%} CASE ;
 
 %<pl%>:%>%{L%}%{A%}р CASE-ETC ;
+%<pl%>%<px3sp%>:%>%{L%}%{A%}р%{I%}%{n%} CASE ;
 
-! FIXME: 1) these can get possessives too, e.g. монысының, монысына
-!        2) link them to PRON-DEM-INFL if possible (like "теге" was linked there)
+! FIXME: 1) link the below to PRON-DEM-INFL if possible (like "шушы" was linked there)
+!            (later, once we are certain about things)
    
 LEXICON PRONDEM-BU
 
@@ -692,12 +695,15 @@ LEXICON PRONDEM-BU
 бу%<prn%>%<dem%>%<acc%>:моны CLIT ;
 бу%<prn%>%<dem%>%<abl%>:моннан CLIT ;
 бу%<prn%>%<dem%>%<loc%>:монда CLIT ;
-бу%<prn%>%<dem%>%<px%>:моныкы CASE ;
+бу%<prn%>%<dem%>%<px%>:моныкы%{n%} CASE ;
 бу%<prn%>%<dem%>%<loc%>:мондагы ATTR/SUBST ;
-бу%<prn%>%<dem%>%<sim%>:мондый CLIT ;
-бу%<prn%>%<dem%>%<adv%>:болай CLIT ;
+бу%<prn%>%<dem%>%<sim%>:мондый CASE ;
+бу%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
+бу%<prn%>%<dem%>%<px3sp%>:монысы%{n%} CASE ;
+бу%<prn%>%<dem%>%<px3sp%>:бусы%{n%} CASE ; ! Dir/LR
 
-бу%<prn%>%<dem%>%<pl%>:болар CASE-ETC ;
+бу%<prn%>%<dem%>%<pl%>:болар CASE-ETC ;            ! FIXME CHECK cont.class
+бу%<prn%>%<dem%>%<pl%>%<px3sp%>:болары%{n%} CASE ;
 
 LEXICON PRONDEM-ŠUL
 
@@ -707,12 +713,14 @@ LEXICON PRONDEM-ŠUL
 шул%<prn%>%<dem%>%<acc%>:шуны CLIT ;
 шул%<prn%>%<dem%>%<abl%>:шуннан CLIT ;
 шул%<prn%>%<dem%>%<loc%>:шунда CLIT ;
-шул%<prn%>%<dem%>%<px%>:шуныкы CASE ;
+шул%<prn%>%<dem%>%<px%>:шуныкы%{n%} CASE ;
 шул%<prn%>%<dem%>%<loc%>:шундагы ATTR/SUBST ;
-шул%<prn%>%<dem%>%<sim%>:шундый CLIT ;
-шул%<prn%>%<dem%>%<adv%>:шулай CLIT ;
+шул%<prn%>%<dem%>%<sim%>:шундый CASE ;
+шул%<prn%>%<dem%>%<adv%>:шулай CLIT-GENERAL ;  ! FIXME CHECK cont.class
+шул%<prn%>%<dem%>%<px3sp%>:шунысы%{n%} CASE ;
 
 шул%<prn%>%<dem%>%<pl%>:шулар CASE-ETC ;
+шул%<prn%>%<dem%>%<pl%>%<px3sp%>:шулары%{n%} CASE ;
 
 LEXICON PRONDEM-UL
 
@@ -722,17 +730,33 @@ LEXICON PRONDEM-UL
 ул%<prn%>%<dem%>%<acc%>:аны CLIT ; 
 ул%<prn%>%<dem%>%<abl%>:аннан CLIT ;
 ул%<prn%>%<dem%>%<loc%>:анда CLIT ; 
-ул%<prn%>%<dem%>%<px%>:аныкы CASE ;
+ул%<prn%>%<dem%>%<px%>:аныкы%{n%} CASE ;
 ул%<prn%>%<dem%>%<loc%>:андагы ATTR/SUBST ;
-ул%<prn%>%<dem%>%<sim%>:андый CLIT ;
-ул%<prn%>%<dem%>%<adv%>:алай CLIT ;
+ул%<prn%>%<dem%>%<sim%>:андый CASE ;
+ул%<prn%>%<dem%>%<adv%>:алай CLIT-GENERAL ;  ! FIXME CHECK cont.class
+ул%<prn%>%<dem%>%<px3sp%>:анысы%{n%} CASE ;
 
 ул%<prn%>%<dem%>%<pl%>:алар CASE-ETC ;
+ул%<prn%>%<dem%>%<pl%>%<px3sp%>:алары%{n%} CASE ;
+
+LEXICON PRONDEM-TEGE
+
+теге%<prn%>%<dem%>%<nom%>:теге CLIT ;
+теге%<prn%>%<dem%>%<gen%>:тегенең CLIT ; 
+теге%<prn%>%<dem%>%<dat%>:тегеңә CLIT ;
+теге%<prn%>%<dem%>%<acc%>:тегене CLIT ; 
+теге%<prn%>%<dem%>%<abl%>:тегеннән CLIT ;
+теге%<prn%>%<dem%>%<loc%>:тегендә CLIT ; 
+теге%<prn%>%<dem%>%<px%>:тегенеке%{n%} CASE ;
+теге%<prn%>%<dem%>%<loc%>:тегендәге ATTR/SUBST ;
+теге%<prn%>%<dem%>%<sim%>:тегенди CASE ;
+теге%<prn%>%<dem%>%<adv%>:тегеләй CLIT-GENERAL ;  ! FIXME CHECK cont.class
+теге%<prn%>%<dem%>%<px3sp%>:тегесе%{n%} CASE ;
+
+теге%<prn%>%<dem%>%<pl%>:тегеләр CASE-ETC ;
+теге%<prn%>%<dem%>%<pl%>%<px3sp%>:тегеләре%{n%} CASE ;
 
 LEXICON PRON-DEM
-
-теге%<prn%>%<dem%>%<nom%>:теге CLIT ; 
-теге%<prn%>%<dem%>:теге PRON-DEM-INFL ; 
 
 шушы%<prn%>%<dem%>%<nom%>:шушы CLIT ; 
 шушы%<prn%>%<dem%>:шушы PRON-DEM-INFL ; 
@@ -740,6 +764,7 @@ LEXICON PRON-DEM
 PRONDEM-BU ;
 PRONDEM-ŠUL ;
 PRONDEM-UL ;
+PRONDEM-TEGE ;
 
 LEXICON PRNITGLEX
 

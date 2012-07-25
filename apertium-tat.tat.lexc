@@ -615,6 +615,8 @@ LEXICON COP-I
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
+!!!!!!!   P E R S O N A L
+
 LEXICON PRON-12SG-CASES
 
 %<dat%>:иңа CLIT ;
@@ -667,6 +669,11 @@ LEXICON PRON-PERS
  
 сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:сез PRON-PERS-INFL ;
 
+!!!!!!!   D E M O N S T R A T I V E
+
+! FIXME NOTE: <prn><dem><qnt> are archaic/dialectal in Tatar, so they should be
+! restricted RL in bidix. Kazakh <prn><dem><qnt>'s should be  translated with
+! <prn><dem> + хәтле/кадәр<post> /I.S./
 
 LEXICON PRON-DEM-INFL
 
@@ -687,9 +694,12 @@ LEXICON PRON-DEM-INFL
 ! FIXME: 1) link the below to PRON-DEM-INFL if possible (like "шушы" was linked there)
 !            (later, once we are certain about things)
    
-LEXICON PRONDEM-BU
+LEXICON PRON-DEM-BU
 
-бу%<prn%>%<dem%>%<nom%>:бу CLIT ;
+! FIXME CHECK (CLIT-GENERAL vs CLIT) I can't imagine forms like "бумын, бусың" etc,
+! but not sure how it works in Kazakh /I.S./
+
+бу%<prn%>%<dem%>%<nom%>:бу CLIT-GENERAL ;
 бу%<prn%>%<dem%>%<gen%>:моның CLIT ;
 бу%<prn%>%<dem%>%<dat%>:моңа CLIT ;
 бу%<prn%>%<dem%>%<acc%>:моны CLIT ;
@@ -699,13 +709,13 @@ LEXICON PRONDEM-BU
 бу%<prn%>%<dem%>%<loc%>:мондагы ATTR/SUBST ;
 бу%<prn%>%<dem%>%<sim%>:мондый CASE ;
 бу%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
-бу%<prn%>%<dem%>%<px3sp%>:монысы%{n%} CASE ;
-бу%<prn%>%<dem%>%<px3sp%>:бусы%{n%} CASE ; ! Dir/LR
+бу%<prn%>%<dem%>%<qnt%>:монча CLIT ;
+бу%<prn%>%<dem%>%<px3sp%>:моны POSS-REAL ;
+бу%<prn%>%<dem%>%<px3sp%>:бу POSS-REAL; ! Dir/LR
 
-бу%<prn%>%<dem%>%<pl%>:болар CASE-ETC ;            ! FIXME CHECK cont.class
-бу%<prn%>%<dem%>%<pl%>%<px3sp%>:болары%{n%} CASE ;
+бу%<prn%>%<dem%>%<pl%>:болар N-INFL-COMMON ;
 
-LEXICON PRONDEM-ŠUL
+LEXICON PRON-DEM-ŠUL
 
 шул%<prn%>%<dem%>%<nom%>:шул CLIT ;
 шул%<prn%>%<dem%>%<gen%>:шуның CLIT ;
@@ -722,7 +732,7 @@ LEXICON PRONDEM-ŠUL
 шул%<prn%>%<dem%>%<pl%>:шулар CASE-ETC ;
 шул%<prn%>%<dem%>%<pl%>%<px3sp%>:шулары%{n%} CASE ;
 
-LEXICON PRONDEM-UL
+LEXICON PRON-DEM-UL
 
 ул%<prn%>%<dem%>%<nom%>:ул CLIT ;
 ул%<prn%>%<dem%>%<gen%>:аның CLIT ; 
@@ -739,7 +749,7 @@ LEXICON PRONDEM-UL
 ул%<prn%>%<dem%>%<pl%>:алар CASE-ETC ;
 ул%<prn%>%<dem%>%<pl%>%<px3sp%>:алары%{n%} CASE ;
 
-LEXICON PRONDEM-TEGE
+LEXICON PRON-DEM-TEGE
 
 теге%<prn%>%<dem%>%<nom%>:теге CLIT ;
 теге%<prn%>%<dem%>%<gen%>:тегенең CLIT ; 
@@ -761,10 +771,10 @@ LEXICON PRON-DEM
 шушы%<prn%>%<dem%>%<nom%>:шушы CLIT ; 
 шушы%<prn%>%<dem%>:шушы PRON-DEM-INFL ; 
 
-PRONDEM-BU ;
-PRONDEM-ŠUL ;
-PRONDEM-UL ;
-PRONDEM-TEGE ;
+PRON-DEM-BU ;
+PRON-DEM-ŠUL ;
+PRON-DEM-UL ;
+PRON-DEM-TEGE ;
 
 LEXICON PRNITGLEX
 

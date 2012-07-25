@@ -488,6 +488,13 @@ LEXICON V-PERS-S4 ! Volition endings
 !%<p2%>%<pl%>:%>с%{I%}г%{I%}з CLIT ;
 !%<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
+LEXICON GER-INFL
+
+POSS-REAL ;
+CASE-ETC ;
+%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
+%<pl%>:%>%{L%}%{A%}р CASE-ETC ;
+
 LEXICON V-FUT-IR
 !! verbs that get -рга/-ргә ending should be also put here,
 !! since in twol there is a rule deleting %{I%} after vowels
@@ -497,9 +504,9 @@ LEXICON V-FUT-IR
 %<neg%>%<fut%>:%>м%{A%}с V-PERS-S3-NO1SG ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR 
-%<ger6%>:%>%{I%}р POSS-REAL ;
+%<ger6%>:%>%{I%}р GER-INFL ; ! FIXME actually this is only verbal adjective, not gerund
 %<inf%>:%>%{I%}рг%{A%} # ;
-%<neg%>%<ger6%>:%>м%{A%}%>%{I%}р POSS-REAL ;
+%<neg%>%<ger6%>:%>м%{A%}%>%{I%}р GER-INFL ;
 
 LEXICON V-FUT-AR
 
@@ -507,9 +514,9 @@ LEXICON V-FUT-AR
 %<neg%>%<fut%>:%>м%{A%}с V-PERS-S3 ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м CLIT ; 
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}с%>м%{I%}н CLIT ; ! Dir/LR 
-%<ger6%>:%>%{A%}р POSS-REAL ;
+%<ger6%>:%>%{A%}р GER-INFL ;
 %<inf%>:%>%{A%}рг%{A%} # ;
-%<neg%>%<ger6%>:%>м%{A%}%>%{A%}р POSS-REAL ;
+%<neg%>%<ger6%>:%>м%{A%}%>%{A%}р GER-INFL ;
 
 LEXICON V-FINITE-FORMS
 
@@ -528,12 +535,12 @@ V-FINITE-FORMS ;
 %<prc_vol%>:%>%{E%}с%{I%} V-PERS-S4 ; 
 
 ! Gerunds
-%<ger%>:%>%{U%} POSS-REAL ;
-%<ger1%>:%>м%{A%}%{K%} POSS-REAL ; 
-%<ger3%>:%>%{G%}%{A%}ч SUBST ; 
-%<ger4%>:%>%{G%}%{A%}нч%{I%} POSS-REAL ; 
-%<ger5%>:%>%{G%}%{A%}н POSS-REAL ;
-%<ger_perf%>:%>%{G%}%{A%}нл%{I%}к POSS-REAL ;
+%<ger%>:%>%{U%} GER-INFL ;
+%<ger1%>:%>м%{A%}%{K%} GER-INFL ; 
+%<ger3%>:%>%{G%}%{A%}ч CLIT ;                 ! FIXME this is verbal adverb
+%<ger4%>:%>%{G%}%{A%}нч%{I%} CLIT ;           ! FIXME this is verbal adverb
+%<ger5%>:%>%{G%}%{A%}н GER-INFL ;
+%<ger_perf%>:%>%{G%}%{A%}нл%{I%}к GER-INFL ;
 
 !! TO REMOVE
 !%<ger2%>:%>%{I%}п POSS-REAL ; 
@@ -619,7 +626,7 @@ LEXICON VAUX
 LEXICON COP-I
 
 и%<cop%>%<neg%>:түгел V-PERS-S3 ;
-и%<cop%>%<ger5%>:%>икән POSS-REAL ;
+и%<cop%>%<ger5%>:%>икән GER-INFL ;
 и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;        
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION

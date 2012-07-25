@@ -70,8 +70,8 @@ Multichar_Symbols
 
 !! some additional ~cases
 %<sim%>            ! Similative (<apprx> in kymorph)  !# DAй (-дай/-дәй, -тай, -тәй)
-%<abe%>            ! Abessive=Privative ! Лишительный !# -сыз/-сез (not used after posessives)
-!обладательный                                        !# -лы/-ле   (not used after posessives)
+%<abe%>            ! Abessive=Privative ! Лишительный !# -сыз/-сез (not used after posessives and cases)
+!обладательный                                        !# -лы/-ле   (not used after posessives and cases)
 
 ! Levels of comparison of adjectives ! Сыйфат дәрәҗәләре ! Степени сравнения прилагательных
 %<comp%>           ! Comparative  ! Чагыштыру дәрәҗәсе
@@ -320,7 +320,7 @@ LEXICON CASE
 LEXICON ATTR/SUBST
 
 %<attr%>: CLIT ;
-!%<subst%>: SUBST ; ! FIXME:NOTE: I guess that this leads to recursion. Intention was to cover stuff like
+!%<subst%>: SUBST ; ! FIXME NOTE I guess that this leads to recursion. Intention was to cover stuff like
                     ! "өйдәгеләр (нишли e.g.)". If it does, add plural reading right here. /I.S./
 %<subst%>: CASE ;
 
@@ -332,6 +332,7 @@ ATTR/SUBST ;
 LEXICON ABE-ETC          ! Stuff which doesn't appear after possessives
 
 %<abe%>:%>с%{I%}з ATTR/ADVL/SUBST ;
+!%+сыз%<post%>:%>с%{I%}з ATTR/ADVL/SUBST ;	
 
 LEXICON GENPOSS-ETC      ! Stuff which can appear after possessives too
 
@@ -988,8 +989,8 @@ LEXICON ABBR
 ! Question modal particles
 !=========================
  
-мы:мы QSTLEX ; ! "y/n question"
-ме:ме QSTLEX ; ! "y/n question" ! Dir/RL
+мы:мы QSTLEX ; ! "y/n question" ! Dir/RL
+мы:ме QSTLEX ; ! "y/n question" ! Dir/LR
 
 ! Actually Tatar question modal particle is written with no space before it (read separately),
 ! but there are sentences like the following (although not that much I guess):

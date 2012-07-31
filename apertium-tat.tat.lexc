@@ -1210,6 +1210,7 @@ LEXICON Determiners
 
 бер:бер DETINDLEX ; ! ""
 берәр:берәр DETINDLEX ; ! "some"
+әллә% кай:әллә% кай DETINDLEX ; ! "" Use/MT
 кайбер:кайбер DETINDLEX ; ! "some"
 кайсыбер:кайсыбер DETINDLEX ; ! "some"
 
@@ -3363,6 +3364,7 @@ XXI NUM-ROMAN ; ! ""
 Шияле:Шияле NPTOPLEX ; ! ""
 Шымбулак:Шымбулак NPTOPLEX ; ! ""
 Шымкент:Шымкент NPTOPLEX ; ! ""
+Яңа% үзән:Яңа% үзән NPTOPLEX ; ! ""
 
 ! Cities/towns/regions of Bashkortostan
 !--------------------------------------

@@ -809,6 +809,10 @@ PRON-DEM-ŠUL ;
 PRON-DEM-UL ;
 PRON-DEM-TEGE ;
 
+LEXICON PRON-IND
+
+%<prn%>%<ind%>: N-INFL-COMMON ; ! FIXME: Check contlex
+
 LEXICON PRNITGLEX
 
 %<prn%>%<itg%>: POSS-REAL ; 
@@ -1208,6 +1212,8 @@ PRON-DEM ;
 нимә:нимә PRNITGLEX ; ! ""
 нәрсә:нәрсә PRNITGLEX ; ! "what"
 кем:кем PRNITGLEX ; ! ""
+
+башка:башка PRON-IND ; ! "other"
 
 барлык:барлык PRON-QNT ; ! ""
 

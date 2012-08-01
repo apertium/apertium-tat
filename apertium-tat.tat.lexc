@@ -876,13 +876,23 @@ LEXICON NPANTFLEX
 
 LEXICON NPCOGMLEX
 
+! For cognoms ending with -ов, -ев, -ин
+! They derive feminine equivalets taking -а /I.S./
+
 %<np%>%<cog%>%<m%>: CASE ; 
+%<np%>%<cog%>%<f%>:а CASE ; 
 
 LEXICON NPCOGFLEX
+
+! This isn't used at the moment,
+! but e.g. ?Polish cognoms ending with -ска would take this cont.class /I.S./ 
 
 %<np%>%<cog%>%<f%>: CASE ; 
 
 LEXICON NPCOGMFLEX
+
+! Dual-gender cognoms.
+! Don't derive anything /I.S./
 
 %<np%>%<cog%>%<mf%>: CASE ; 
 

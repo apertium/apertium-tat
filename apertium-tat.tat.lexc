@@ -712,9 +712,17 @@ LEXICON PRON-PERS
 
 !!!!!!!   D E M O N S T R A T I V E
 
+! FIXME CHECK (CLIT-GENERAL vs CLIT) I can't imagine forms like "бумын, бусың" etc,
+! but not sure how it works in Kazakh /I.S./
+!-----
 ! FIXME NOTE: <prn><dem><qnt> are archaic/dialectal in Tatar, so they should be
 ! restricted to RL. Kazakh <prn><dem><qnt>'s should be translated with
-! <prn><dem> + хәтле/кадәр<post> /I.S./
+! <prn><dem> + хәтле/кадәр<post>. Anyway, it should be handled differently
+! as it is handled now. /I.S./
+!-----
+! Good idea is to link prn.dem.sim forms alternatively to CLIT and CASE,
+! so that it's "adverbial reading" (e.g. "шундый каты кычкырды") doesn't
+! receive <nom> tag /IS/
 
 LEXICON PRON-DEM-INFL
 
@@ -737,9 +745,6 @@ LEXICON PRON-DEM-INFL
    
 LEXICON PRON-DEM-BU
 
-! FIXME CHECK (CLIT-GENERAL vs CLIT) I can't imagine forms like "бумын, бусың" etc,
-! but not sure how it works in Kazakh /I.S./
-
 бу%<prn%>%<dem%>%<nom%>:бу CLIT-GENERAL ;
 бу%<prn%>%<dem%>%<gen%>:моның CLIT ;
 бу%<prn%>%<dem%>%<dat%>:моңа CLIT ;
@@ -748,12 +753,13 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<loc%>:монда CLIT-GENERAL ;
 бу%<prn%>%<dem%>%<px%>:моныкы%{n%} CASE ;
 бу%<prn%>%<dem%>%<loc%>:мондагы ATTR/SUBST ;
-бу%<prn%>%<dem%>%<sim%>:мондый CASE ; ! A good idea is to alternatively link that to CLIT
+бу%<prn%>%<dem%>%<sim%>:мондый CASE ;
 бу%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
 бу%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
 бу%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мондыйлары%{n%} CASE ;
 бу%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
-бу%<prn%>%<dem%>%<qnt%>:монча CLIT ;
+бу%<prn%>%<dem%>%<qnt%>:бу% кадәр CLIT ;
+бу%<prn%>%<dem%>%<qnt%>:монча CLIT ; ! Dir/LR
 бу%<prn%>%<dem%>%<px3sp%>:монысы%{n%} CASE ;
 бу%<prn%>%<dem%>%<px3sp%>:бусы%{n%} CASE ; ! Dir/LR
 
@@ -762,16 +768,19 @@ LEXICON PRON-DEM-BU
 
 LEXICON PRON-DEM-ŠUL
 
-шул%<prn%>%<dem%>%<nom%>:шул CLIT ;
+шул%<prn%>%<dem%>%<nom%>:шул CLIT-GENERAL ;
 шул%<prn%>%<dem%>%<gen%>:шуның CLIT ;
 шул%<prn%>%<dem%>%<dat%>:шуңа CLIT ;
 шул%<prn%>%<dem%>%<acc%>:шуны CLIT ;
-шул%<prn%>%<dem%>%<abl%>:шуннан CLIT ;
-шул%<prn%>%<dem%>%<loc%>:шунда CLIT ;
+шул%<prn%>%<dem%>%<abl%>:шуннан CLIT-GENERAL ;
+шул%<prn%>%<dem%>%<loc%>:шунда CLIT-GENERAL ;
 шул%<prn%>%<dem%>%<px%>:шуныкы%{n%} CASE ;
 шул%<prn%>%<dem%>%<loc%>:шундагы ATTR/SUBST ;
 шул%<prn%>%<dem%>%<sim%>:шундый CASE ;
-шул%<prn%>%<dem%>%<adv%>:шулай CLIT-GENERAL ;  ! FIXME CHECK cont.class
+шул%<prn%>%<dem%>%<adv%>:шулай CLIT-GENERAL ;
+шул%<prn%>%<dem%>%<qnt%>:шулкадәр CLIT ;
+шул%<prn%>%<dem%>%<qnt%>:шулкчаклы CLIT ; ! Dir/LR
+шул%<prn%>%<dem%>%<qnt%>:шунча CLIT ; ! Dir/LR
 шул%<prn%>%<dem%>%<px3sp%>:шунысы%{n%} CASE ;
 
 шул%<prn%>%<dem%>%<pl%>:шулар CASE-ETC ;
@@ -788,7 +797,9 @@ LEXICON PRON-DEM-UL
 ул%<prn%>%<dem%>%<px%>:аныкы%{n%} CASE ;
 ул%<prn%>%<dem%>%<loc%>:андагы ATTR/SUBST ;
 ул%<prn%>%<dem%>%<sim%>:андый CASE ;
-ул%<prn%>%<dem%>%<adv%>:алай CLIT-GENERAL ;  ! FIXME CHECK cont.class
+ул%<prn%>%<dem%>%<adv%>:алай CLIT-GENERAL ;
+ул%<prn%>%<dem%>%<adv%>:аның% кадәр CLIT ; 
+ул%<prn%>%<dem%>%<adv%>:анча CLIT ; ! Dir/LR
 ул%<prn%>%<dem%>%<px3sp%>:анысы%{n%} CASE ;
 
 ул%<prn%>%<dem%>%<pl%>:алар CASE-ETC ;
@@ -813,13 +824,13 @@ LEXICON PRON-DEM-TEGE
 
 LEXICON PRON-DEM
 
-шушы%<prn%>%<dem%>%<nom%>:шушы CLIT ; 
-шушы%<prn%>%<dem%>:шушы PRON-DEM-INFL ; 
-
 PRON-DEM-BU ;
 PRON-DEM-ŠUL ;
 PRON-DEM-UL ;
 PRON-DEM-TEGE ;
+
+шушы%<prn%>%<dem%>%<nom%>:шушы CLIT ; 
+шушы%<prn%>%<dem%>:шушы PRON-DEM-INFL ; 
 
 LEXICON PRON-IND
 

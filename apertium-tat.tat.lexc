@@ -706,8 +706,8 @@ LEXICON PRON-PERS
 ! how I can make disambiguation between "сез%<prn%>%<pers%>%<p2%>%<pl%>" and
 ! "сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>"
  
-сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:сез PRON-PERS-INFL ;
-сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>%<adv%>:сезнеңчә CLIT ;
+Сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:Сез PRON-PERS-INFL ;
+Сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>%<adv%>:Сезнеңчә CLIT ;
 
 !!!!!!!   D E M O N S T R A T I V E
 

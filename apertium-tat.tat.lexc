@@ -667,11 +667,13 @@ CASE-ETC ;
 LEXICON PRON-PERS
 
 мин%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мин CLIT ; 
-мин%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:минем CLIT ; 
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:минем CLIT ;
+мин%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:минемчә CLIT ;
 мин%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-12SG-CASES ; 
 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:син CLIT ; 
 син%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:синең CLIT ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:синеңчә CLIT ; 
 син%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-12SG-CASES  ; 
 
 ! FIXME: check Dir/ restrictions
@@ -689,18 +691,23 @@ LEXICON PRON-PERS
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:андагы ATTR/SUBST ;
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:аңардагы ATTR/SUBST ; ! Dir/LR
 ул%<prn%>%<pers%>%<p3%>%<sg%>%<sim%>:андай CLIT ;
+ул%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:аныңча CLIT ;
 
 без%<prn%>%<pers%>%<p1%>%<pl%>:без PRON-PERS-INFL ; 
+без%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:безнеңчә CLIT ; 
 
 сез%<prn%>%<pers%>%<p2%>%<pl%>:сез PRON-PERS-INFL ; 
+сез%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:сезнеңчә CLIT ; 
 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-INFL ; 
+алар%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:аларча CLIT ; 
 
 ! FIXME:NOTE: maybe we should capitalize the formal "сез", because I have no idea
 ! how I can make disambiguation between "сез%<prn%>%<pers%>%<p2%>%<pl%>" and
 ! "сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>"
  
 сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:сез PRON-PERS-INFL ;
+сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>%<adv%>:сезнеңчә CLIT ;
 
 !!!!!!!   D E M O N S T R A T I V E
 

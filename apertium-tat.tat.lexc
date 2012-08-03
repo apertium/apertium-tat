@@ -702,9 +702,10 @@ LEXICON PRON-PERS
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-INFL ; 
 алар%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:аларча CLIT ; 
 
-! FIXME:NOTE: maybe we should capitalize the formal "сез", because I have no idea
-! how I can make disambiguation between "сез%<prn%>%<pers%>%<p2%>%<pl%>" and
-! "сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>"
+! Capitalized the formal "сез", because: 1) it is usually capitalized 
+! in texts; 2) I have no idea how I can make disambiguation between
+! "сез%<prn%>%<pers%>%<p2%>%<pl%>" and "сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>"
+! (disambiguating this is crucial because of Kazakh) /I.S./ 
  
 Сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>:Сез PRON-PERS-INFL ;
 Сез%<prn%>%<pers%>%<p2%>%<sp%>%<frm%>%<adv%>:Сезнеңчә CLIT ;
@@ -712,7 +713,7 @@ LEXICON PRON-PERS
 !!!!!!!   D E M O N S T R A T I V E
 
 ! FIXME NOTE: <prn><dem><qnt> are archaic/dialectal in Tatar, so they should be
-! restricted RL in bidix. Kazakh <prn><dem><qnt>'s should be  translated with
+! restricted to RL. Kazakh <prn><dem><qnt>'s should be translated with
 ! <prn><dem> + хәтле/кадәр<post> /I.S./
 
 LEXICON PRON-DEM-INFL
@@ -747,13 +748,17 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<loc%>:монда CLIT-GENERAL ;
 бу%<prn%>%<dem%>%<px%>:моныкы%{n%} CASE ;
 бу%<prn%>%<dem%>%<loc%>:мондагы ATTR/SUBST ;
-бу%<prn%>%<dem%>%<sim%>:мондый CASE ;
+бу%<prn%>%<dem%>%<sim%>:мондый CASE ; ! A good idea is to alternatively link that to CLIT
+бу%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
+бу%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
+бу%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мондыйлары%{n%} CASE ;
 бу%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
 бу%<prn%>%<dem%>%<qnt%>:монча CLIT ;
-бу%<prn%>%<dem%>:моны POSS-REAL ;
-бу%<prn%>%<dem%>:бу POSS-REAL; ! Dir/LR
+бу%<prn%>%<dem%>%<px3sp%>:монысы%{n%} CASE ;
+бу%<prn%>%<dem%>%<px3sp%>:бусы%{n%} CASE ; ! Dir/LR
 
-бу%<prn%>%<dem%>%<pl%>:болар N-INFL-COMMON ;
+бу%<prn%>%<dem%>%<pl%>:болар CASE-ETC ;
+бу%<prn%>%<dem%>%<pl%>%<px3sp%>:болары%{n%} CASE ;
 
 LEXICON PRON-DEM-ŠUL
 

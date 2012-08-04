@@ -849,6 +849,11 @@ LEXICON PRNNEG
 
 %<prn%>%<neg%>: CASE ; 
 
+LEXICON PRON-REF-ADV
+
+CASE-ETC ;
+%<adv%>:чә CLIT ;
+
 LEXICON PRON-REF
 
 ! FIXME JNW please have a look at this
@@ -866,16 +871,17 @@ LEXICON PRON-REF
 ! FIXME DISCUSS Write full forms for the lower side and put only PRON-DEF in the
 ! Root Lexicon
 
-%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}м CASE-ETC ;
-%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}ң CASE-ETC ;
-%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
-%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}б%{I%}з CASE-ETC ;
-%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}г%{I%}з CASE-ETC ;
-%<prn%>%<ref%>%<p3%>%<pl%>:%>л%{A%}р%>%{s%}%{I%}%{n%} CASE-ETC ;
+%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}м PRON-REF-ADV ;
+%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}ң PRON-REF-ADV ;
+%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
+%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}б%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<p3%>%<pl%>:%>л%{A%}р%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
 
-%<prn%>%<ref%>%<p2%>%<sg%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
-%<prn%>%<ref%>%<p2%>%<pl%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
+%<prn%>%<ref%>%<p2%>%<sg%>%<frm%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<p2%>%<pl%>%<frm%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
 
+! This is how it was before:
 !%<prn%>%<ref%>: POSS-REAL ;
 !%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
 

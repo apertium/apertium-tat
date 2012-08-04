@@ -851,8 +851,33 @@ LEXICON PRNNEG
 
 LEXICON PRON-REF
 
-%<prn%>%<ref%>: POSS-REAL ; 
-%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ; 
+! FIXME JNW please have a look at this
+! Listing all forms here because of overgeneration with *өздерім,
+! *өздеріміз, *өзіңдер etc while linking to POSS-REAL. This was the idea.
+! Now they are handled more like personal pronouns (the same tags in the same
+! order), so they should pass transfer without any trouble.
+!-----
+! A remaining problem with reflexive pronoun is that it takes personal copula
+! suffixes "selectively": e.g. prn.refl.px1sg would take only cop.px1sg
+! (prn.ref.px3sp seems to take all of them though).
+! A little bit of overgeneration won't hurt anyone :), but I think that odd
+! forms could be filtered out somehow later. Don't know how to do it./04Aug, IS/
+
+! FIXME DISCUSS Write full forms for the lower side and put only PRON-DEF in the
+! Root Lexicon
+
+%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}м CASE-ETC ;
+%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}ң CASE-ETC ;
+%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}б%{I%}з CASE-ETC ;
+%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}г%{I%}з CASE-ETC ;
+%<prn%>%<ref%>%<p3%>%<pl%>:%>л%{A%}р%>%{s%}%{I%}%{n%} CASE-ETC ;
+
+%<prn%>%<ref%>%<p2%>%<sg%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
+%<prn%>%<ref%>%<p2%>%<pl%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
+
+!%<prn%>%<ref%>: POSS-REAL ;
+!%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
 
 !!!!!!!!!!!!!!!!!!!!!!     DETERMINERS
 

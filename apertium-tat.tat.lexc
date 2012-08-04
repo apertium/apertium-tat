@@ -816,7 +816,7 @@ LEXICON PRON-DEM-TEGE
 теге%<prn%>%<dem%>%<px%>:тегенеке%{n%} CASE ;
 теге%<prn%>%<dem%>%<loc%>:тегендәге ATTR/SUBST ;
 теге%<prn%>%<dem%>%<sim%>:тегенди CASE ;
-теге%<prn%>%<dem%>%<adv%>:тегеләй CLIT-GENERAL ;  ! FIXME CHECK cont.class
+теге%<prn%>%<dem%>%<adv%>:тегеләй CLIT-GENERAL ;
 теге%<prn%>%<dem%>%<px3sp%>:тегесе%{n%} CASE ;
 
 теге%<prn%>%<dem%>%<pl%>:тегеләр CASE-ETC ;

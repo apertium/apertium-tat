@@ -103,10 +103,10 @@ Multichar_Symbols
 %<coop%>           ! Cooperative
 
 %<pres%>           ! -{A}
-%<past%>           ! -{G}{A}н 
+%<past%>           ! -{G}{A}н
 %<fut%>            ! -{I}р
 %<fut2%>           ! -{A}ч{A}к
-%<ifi%>            ! -{D}{I} 
+%<ifi%>            ! -{D}{I}
 
 ! Non-Finite verb forms ! WARNING: Number part of the tags is subject to change :)
                         ! Stay up-to-date
@@ -194,32 +194,32 @@ Multichar_Symbols
 
 LEXICON Root
 
-ModalParticles ; 
-Copula ; 
-Conjunctions ; 
-Postpositions ; 
+ModalParticles ;
+Copula ;
+Conjunctions ;
+Postpositions ;
 Postadverbs ;
-Pronouns ; 
-Determiners ; 
-Numerals ; 
-Nouns ; 
+Pronouns ;
+Determiners ;
+Numerals ;
+Nouns ;
 ProperNouns ;
-Adjectives ; 
-Adverbs ; 
-Verbs ; 
-Interjections ; 
-Abbreviations ; 
-Punctuation ; 
+Adjectives ;
+Adverbs ;
+Verbs ;
+Interjections ;
+Abbreviations ;
+Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON SUBST
 
-N-INFL-COMMON ; 
+N-INFL-COMMON ;
 %<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
 
-! NOTE: Some substantivized things might not have pl. form, numerals e.g. 
-! (not too sure, because in Tatar they have it: 
+! NOTE: Some substantivized things might not have pl. form, numerals e.g.
+! (not too sure, because in Tatar they have it:
 ! #1 meaning an approximate number: #! "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
 ! #2 <11 ones meaning pupils from a given class: #! өчләр = "pupils from the 3. class" 
 !
@@ -305,13 +305,13 @@ LEXICON CASE-COMMON
 
 %<gen%>:%>н%{I%}ң CLIT ;      ! -ның/-нең
 %<dat%>:%>%{G%}%{A%} CLIT ;   ! -га/-гә, -ка/-кә    ! -а/-ә in nouns with possessives in singular (see below)
-%<acc%>:%>н%{I%} CLIT ;	      ! -ны/-не
+%<acc%>:%>н%{I%} CLIT ;       ! -ны/-не
 
-LEXICON CASE 
+LEXICON CASE
 
 CASE-COMMON ;
 %<nom%>: CLIT-GENERAL ;               ! - - -
-%<abl%>:%>%{D%}%{A%}н CLIT-GENERAL ;  ! -дан/-дән, -тан/-тән, -нан/нән 
+%<abl%>:%>%{D%}%{A%}н CLIT-GENERAL ;  ! -дан/-дән, -тан/-тән, -нан/нән
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   ! -да/-дә, -та/-тә
 
 LEXICON CASE-2  ! The difference from CASE is that CASE-2 doesn't continue
@@ -320,7 +320,7 @@ LEXICON CASE-2  ! The difference from CASE is that CASE-2 doesn't continue
 
 CASE-COMMON ;
 %<nom%>: CLIT ;               ! - - -
-%<abl%>:%>%{D%}%{A%}н CLIT ;  ! -дан/-дән, -тан/-тән, -нан/нән 
+%<abl%>:%>%{D%}%{A%}н CLIT ;  ! -дан/-дән, -тан/-тән, -нан/нән
 %<loc%>:%>%{D%}%{A%} CLIT ;   ! -да/-дә, -та/-тә
 
 LEXICON ATTR/SUBST
@@ -348,7 +348,7 @@ LEXICON ABE-ATTR/ADVL/SUBST
 LEXICON ABE-ETC          ! Stuff which doesn't appear after possessives
 
 !%<abe%>:%>с%{I%}з ATTR/ADVL/SUBST ;
-%+сыз%<post%>:%>с%{I%}з ABE-ATTR/ADVL/SUBST ;	
+%+сыз%<post%>:%>с%{I%}з ABE-ATTR/ADVL/SUBST ;
 
 LEXICON GENPOSS-ETC      ! Stuff which can appear after possessives too
 
@@ -362,7 +362,7 @@ LEXICON CASE-ETC
 
 CASE ;
 GENPOSS-ETC ;
-  
+
 LEXICON POSS-REAL
 
 %<px1sg%>:%>%{I%}м CASE-ETC ;                 ! -ым/-ем, -м
@@ -375,7 +375,7 @@ LEXICON POSS-REAL
 ! as <sp><frm>), but having it duplicated as sg/pl seems to make
 ! translating into Kazakh easier (leaving room to disambiguate it
 ! somehow in CG) /I.S./
- 
+
 %<px2sg%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
 %<px2pl%>%<frm%>:%>%{I%}г%{I%}з CASE-ETC ;
 
@@ -383,20 +383,23 @@ LEXICON POSS-REAL
                         ! to POSS-REAL. They should be linked to SUBST actually (and they will) /I.S./ 
 
 ! In dative nouns with <px1sg> <px2sg> and <px3sp> gets an "-a" ending instead of "-га/-гә, -ка/-кә"
-! In nouns with <px3sp> there is an enclitic "н" in most cases  
+! In nouns with <px3sp> there is an enclitic "н" in most cases
 !! китабым      китабың	        китабы
 !! китабымның   китабыңның      китабының
-!! китабыма!    китабыңа!       китабы-н-а!     
+!! китабыма!    китабыңа!       китабы-н-а!
 !! китабымны    китабыңны       китабы-н      ! китабы-н-ы is an old form. Only in poetry :)
 !! китабымнан   китабыңнан      китабы-н-нан
 !! китабымда    китабыңда       китабы-н-да
 
-LEXICON N-INFL-COMMON 
+LEXICON N-INFL-COMMON
 
 POSS-REAL ;
 CASE-ETC ;
-ABE-ETC ; ! FIXME check whether this is possible after adjectives and other subst. things.
+ABE-ETC ; ! FIXME check whether this is possible after adjectives and other
+          ! subst. things.
           ! Maybe a better idea is to restrict it to nouns and pronouns.
+          ! Actually, not all pronouns take it. "Синсез" vs "*үземсез".
+          ! Be careful :) /IS to himself/
 
 !!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
 !                                                               <s>(a separate ADJ-COMMON might be even better, see kaz.lexc)</s>
@@ -837,9 +840,9 @@ LEXICON PRON-IND
 
 %<prn%>%<ind%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
-LEXICON PRNITGLEX
+LEXICON PRON-ITG
 
-%<prn%>%<itg%>: POSS-REAL ; 
+%<prn%>%<itg%>: SUBST ;
 
 LEXICON PRON-QNT
 
@@ -1259,14 +1262,14 @@ LEXICON Postadverbs
 !================!
 
 
-PRON-PERS ; 
+PRON-PERS ;
 
 PRON-DEM ;
 
-ни:ни PRNITGLEX ; ! ""
-нимә:нимә PRNITGLEX ; ! ""
-нәрсә:нәрсә PRNITGLEX ; ! "what"
-кем:кем PRNITGLEX ; ! ""
+ни:ни PRON-ITG ; ! "what"
+нимә:нимә PRON-ITG ; ! "(dial.) what"
+нәрсә:нәрсә PRON-ITG ; ! "what"
+кем:кем PRON-ITG ; ! "who"
 
 башка:башка PRON-IND ; ! "other"
 

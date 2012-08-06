@@ -885,9 +885,23 @@ LEXICON PRON-ITG-QAYSI
 ! ^ кайсылары(б/г)ыз are rare but possible in Tatar, so maybe these forms should
 ! be included too /IS/
 
+LEXICON PRON-ITG-NINDI
+
+! Might be not complete (қандайларығыз? and possessive stuff in general)
+
+нинди%<prn%>%<itg%>%<sim%>:нинди CLIT ;
+! ^ FIXME Similative form of demonstrative pronouns should receive an alternati-
+! ve continuation with CLIT too. Consider e,g.: "Ең жақсы Интернет қандай?" Here
+! it shouldn't receive <nom> tag I think /IS/
+нинди%<prn%>%<itg%>%<sim%>:нинди CASE ;
+нинди%<prn%>%<itg%>%<sim%>%<px3sp%>:ниндие%{n%} CASE ;
+нинди%<prn%>%<itg%>%<sim%>%<pl%>:ниндиләр CASE ;
+нинди%<prn%>%<itg%>%<sim%>%<pl%>%<px3sp%>:ниндиләрен%{n%} CASE ;
+
 LEXICON PRON-ITG
 
 PRON-ITG-QAYSI ;
+PRON-ITG-NINDI ;
 ни:ни PRON-ITG-INFL ; ! "what"
 нимә:нимә PRON-ITG-INFL ; ! "(dial.) what"
 нәрсә:нәрсә PRON-ITG-INFL ; ! "what"
@@ -899,7 +913,7 @@ LEXICON PRON-QNT
 
 LEXICON PRNNEG
 
-%<prn%>%<neg%>: CASE ; 
+%<prn%>%<neg%>: CASE ;
 
 LEXICON PRON-REF-ADV
 

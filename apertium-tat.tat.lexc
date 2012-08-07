@@ -149,9 +149,12 @@ Multichar_Symbols
 %<p3%>             ! Third person
 %<frm%>            ! Formality
 
-! Clitics
+! Modal particles
 %<qst%>            ! Modal question particle
-%<mod_foc%>        ! "Particles of politeness and ardent desire" (as in [N. Poppe. Tatar Manual])
+%<mod_foc%>        ! "Particles of politeness and ardent desire"
+                   ! (as in [N. Poppe. Tatar Manual]) or
+                   ! "what about ..." question particles" :)
+                   ! (as in kir.lexc)
 %<mod_ass%>        ! Assertive modal particle
 %<mod_ind%>        ! Indefinite modal particle (expresses doubt)
 
@@ -233,15 +236,22 @@ N-INFL-COMMON ;
 
 ! Modal/discourse particles
 
-LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives
+LEXICON CLIT-MODFOC-SANA
 
-!! Politeness
-
-%+чы%<mod_foc%>:%>ч%{I%} # ;
 %+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
 # ;
 
-LEXICON CLIT                     ! These citics can join words of any POS and of any form
+LEXICON CLIT-MODFOC-CHI
+
+%+чы%<mod_foc%>:%>ч%{I%} # ;
+# ;
+
+LEXICON CLIT-MODFOC
+
+CLIT-MODFOC-SANA ;
+CLIT-MODFOC-CHI ;
+
+LEXICON CLIT
 
 !! Question modal particles
 
@@ -573,12 +583,12 @@ V-FINITE-FORMS ;
 
 %<cond%>:%>с%{A%} V-PERS-S2 ;
 
-%<imp%>%<p2%>%<sg%>: CLIT-IMP2P ;
-%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-IMP2P ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з CLIT-IMP2P ; ! FIXME:NOTE: in fact, there is only one formal imperative in Tatar,
-%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з CLIT-IMP2P ; ! which should be tagged as <imp><frm><sp>. But in Kazakh there are both
-                                                     ! sg and pl forms, so I make it ambigitious here between sg/pl, maybe we could
-                                                     ! handle it somehow in CG later 
+! Imperatives
+%<imp%>%<p2%>%<sg%>: CLIT-MODFOC ;
+%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
+%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
+
 LEXICON V-COMMON-PASSIVE
 
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON-LEX ; 

@@ -526,9 +526,6 @@ CASE-ETC ;
 %<pl%>:%>%{L%}%{A%}р CASE-ETC ;
 
 LEXICON V-FUT-IR
-!! verbs that get -рга/-ргә ending should be also put here,
-!! since in twol there is a rule deleting %{I%} after vowels
-!! e.g. уйна-рга
 
 %<fut%>:%>%{I%}р V-PERS-S3 ; 
 %<neg%>%<fut%>:%>м%{A%}с V-PERS-S3-NO1SG ; 
@@ -591,13 +588,13 @@ V-FINITE-FORMS ;
 
 LEXICON V-COMMON-PASSIVE
 
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON-LEX ; 
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-FUT-IR ; 
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-NEG ;
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-FUT-IR ;
 
 LEXICON V-NEG
 %<neg%>:%>м%{A%} V-COMMON-LEX ;
-%<neg%>%<prc2%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ; ! FIXME: Check continuations ! '#' was changed to 'CLIT' /I.S./
-%<neg%>%<gna9%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ; ! FIXME: Check continuations ! '#' was changed to 'CLIT' /I.S./
+%<neg%>%<prc2%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
+%<neg%>%<gna9%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
 V-COMMON-LEX ; 
 
 LEXICON V-DER

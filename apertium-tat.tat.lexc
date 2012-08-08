@@ -115,6 +115,8 @@ Multichar_Symbols
 %<prc_impf%>       ! -{E}   !# ул _уйный_ алмады; мин _килә_ алмадым
 %<prc_perf%>       ! -{I}п  !# "_Йоклап_ яткан мәче авызына тычкан үзе _килеп_ керми."
 %<prc_vol%>        ! volition participle
+%<prc_cond%>       ! -с{A} conditional participle !# "...моны алсаң була..."
+                   ! ("ала аласың" мәгънәсендә)
 
 !! Verbal adverbs - Хәл фигыльләр - Глаголные наречия
 %<gna_cond%>       ! -с{A}  !# "...кайда икәнен _белсә_ дә, әйтми..."
@@ -581,9 +583,10 @@ LEXICON V-INFINITE-IRREGULAR_NEGATIVE
 ! Verbal adverbs
 %<neg%>%<gna9%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
 
-! Gerunds
-
 LEXICON V-INFINITE-REGULAR_NEGATIVE
+
+! Participles
+%<prc_cond%>:%>с%{A%} V-PERS-S2 ;
 
 ! Gerunds
 %<ger%>:%>%{U%} GER-INFL ;
@@ -591,6 +594,9 @@ LEXICON V-INFINITE-REGULAR_NEGATIVE
 %<ger3%>:%>%{G%}%{A%}ч CLIT ;                 ! FIXME this is verbal adverb
 %<ger5%>:%>%{G%}%{A%}н GER-INFL ;
 %<ger_perf%>:%>%{G%}%{A%}нл%{I%}к GER-INFL ;
+
+! Verbal adverbs
+%<gna_cond%>:%>с%{A%} V-PERS-S2 ;
 
 ! Imperatives
 %<imp%>%<p2%>%<sg%>: CLIT-MODFOC ;
@@ -609,16 +615,8 @@ V-INFINITE-IRREGULAR_NEGATIVE ;
 ! Gerunds
 %<ger4%>:%>%{G%}%{A%}нч%{I%} CLIT ;           ! FIXME this is verbal adverb
 
-!! TO REMOVE
-!%<ger2%>:%>%{I%}п POSS-REAL ;
-!%<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;
-!%<ger8%>:%>%{E%}с V-PERS-S4 ;
-
 ! Verbal adverbs
-%<gna_cond%>:%>с%{A%} V-PERS-S2 ;   !# "...кайда икәнен _белсә_ дә, әйтәсе килми..."
 %<gna9%>:%>%{I%}п CLIT ;
-
-%<cond%>:%>с%{A%} V-PERS-S2 ;
 
 LEXICON V-COMMON-PASSIVE
 

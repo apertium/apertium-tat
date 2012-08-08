@@ -246,29 +246,36 @@ LEXICON CLIT-MODFOC
 CLIT-MODFOC-SANA ;
 CLIT-MODFOC-CHI ;
 
-LEXICON CLIT
-
-!! Question modal particles
+LEXICON CLIT-QST
 
 %+мы%<qst%>:%>м%{I%} # ;
 %+мыни%<qst%>:%>м%{I%}ни # ;
 
-!! Assertive (emphasizing) modal particles
+LEXICON CLIT-MODASS
 
 %+ла%<mod_ass%>:% л%{A%} # ;
+# ;
 
-!! Indefinite (expressing doubt) modal particles
+LEXICON CLIT-MODIND
 
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
 # ;
 
-!! <s> FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
-!!                and not attach them to the previous word </s>
+LEXICON CLIT-GHANA-ETC
 
 %+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 %+гына%<postadv%>:% %{G%}%{I%}н%{A%} # ; ! "only"
 %+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
 %+ук%<postadv%>:% %{U%}к # ; ! "~же,даже"
+# ;
+
+LEXICON CLIT
+
+CLIT-QST ;
+CLIT-MODASS ;
+CLIT-MODIND ;
+CLIT-GHANA-ETC ;
+# ;
 
 LEXICON V-PERS-COP
 
@@ -497,12 +504,12 @@ V-PERS-S3-NO1SG ;
 
 LEXICON V-PERS-S4 ! Volition endings
 
-%<p1%>%<sg%>:м CLIT ;
-%<p2%>%<sg%>:ң CLIT ;
-%<p3%>%<sg%>: CLIT ;
-%<p1%>%<pl%>:б%{I%}з CLIT ;
-%<p2%>%<pl%>:г%{I%}з CLIT ;
-%<p3%>%<pl%>:%{L%}%{A%}р%{I%} CLIT ;
+%<p1%>%<sg%>:м CLIT-GHANA-ETC ;
+%<p2%>%<sg%>:ң CLIT-GHANA-ETC ;
+%<p3%>%<sg%>: CLIT-GHANA-ETC ;
+%<p1%>%<pl%>:б%{I%}з CLIT-GHANA-ETC ;
+%<p2%>%<pl%>:г%{I%}з CLIT-GHANA-ETC ;
+%<p3%>%<pl%>:%{L%}%{A%}р%{I%} CLIT-GHANA-ETC ;
 
 !LEXICON V-PERS-S4 ! Volition endings
 
@@ -547,6 +554,35 @@ LEXICON V-FINITE-FORMS
 %<past%>:%>%{G%}%{A%}н V-PERS-S3 ;
 %<fut2%>:%>%{j%}%{A%}ч%{A%}к V-PERS-S3 ;
 
+LEXICON V-INFINITE-IRREGULAR_NEGATIVE
+
+! Participles
+
+%<prc_perf%>:%>%{I%}п # ;
+! FIXME CHECK the correct default for negative
+%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
+%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
+! The following is dialectal, so Dir/LR restriction is correct
+%<neg%>%<prc_perf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
+%<prc_vol%>:%>%{E%}с%{I%} V-PERS-S4 ;         ! no negative form
+%<prc_impf%>:%>%{E%} # ;
+
+! "Бу хәл фигыльнең юклыгы, -ып/-еп формасындагы кебек үк, -мый/-ми,
+! -мыйча/-мичә, -маенча/-мәенчә кушымчалары белән белдерелә; -ып формасыннан
+! аермалы буларак, бу очракта фигыль янында күбрәк "гына" кисәкчәсе сорала."
+! [Хисамова 261]. Sounds correct, so add an rlx rule for this /IS/
+! Although we assume that if there is no verb to the right, it is not
+! participle at all. That is why participles do not continue with clitics./IS/
+
+%<neg%>%<prc_impf%>:%>м%{A%}%>%{E%}%>ч%{A%} # ;
+%<neg%>%<prc_ipmf%>:%>м%{A%}%>%{E%} # ;       ! Dir/LR
+%<neg%>%<prc_impf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
+
+! Verbal adverbs
+%<neg%>%<gna9%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
+
+! Gerunds
+
 LEXICON V-INFINITE-REGULAR_NEGATIVE
 
 ! Gerunds
@@ -561,31 +597,6 @@ LEXICON V-INFINITE-REGULAR_NEGATIVE
 %<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
 %<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з CLIT-MODFOC-CHI ;
-
-LEXICON V-INFINITE-IRREGULAR_NEGATIVE
-
-! Participles
-
-%<prc_perf%>:%>%{I%}п # ;
-! FIXME CHECK the correct default for negative
-%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
-%<neg%>%<prc_perf%>:%>м%{A%}%>%{E%} CLIT ; ! Dir/LR
-! The following is dialectal, so Dir/LR restriction is correct
-%<neg%>%<prc_perf%>:%>м%{A%}енч%{A%} CLIT ; ! Dir/LR
-%<prc_vol%>:%>%{E%}с%{I%} V-PERS-S4 ;
-%<prc_impf%>:%>%{E%} # ;
-! "Бу хәл фигыльнең юклыгы, -ып/-еп формасындагы кебек үк, -мый/-ми,
-! -мыйча/-мичә, -маенча/-мәенчә кушымчалары белән белдерелә; -ып формасыннан
-! аермалы буларак, бу очракта фигыль янында күбрәк "гына" кисәкчәсе сорала."
-! [Хисамова 261]. Sounds correct, so add an rlx rule for this /IS/
-%<neg%>%<prc_impf%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
-%<neg%>%<prc_ipmf%>:%>м%{A%}%>%{E%} CLIT ; ! Dir/LR
-%<neg%>%<prc_impf%>:%>м%{A%}енч%{A%} CLIT ; ! Dir/LR
-
-! Verbal adverbs
-%<neg%>%<gna9%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT ;
-
-! Gerunds
 
 LEXICON V-COMMON-LEX
 

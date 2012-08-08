@@ -632,7 +632,9 @@ V-COMMON-LEX ;
 LEXICON V-DER
 
 %<caus%>:%>%{I%}т V-COMMON-LEX ;
+%<caus%>:%>%{I%}т V-FUT-IR ;
 %<coop%>:%>%{I%}ш V-COMMON-LEX ;
+%<coop%>:%>%{I%}ш V-FUT-IR ;
 
 LEXICON V-IV-IR-LEX
 
@@ -7916,8 +7918,7 @@ Witness:Witness NPALLEX ; ! ""
 сөйләп% бир:сөйләп% бир V-TV-IR-LEX ; ! ""
 сөйлә:сөйлә V-TV-IR-LEX ; ! ""
 сөйләшеп% утыр:сөйләшеп% утыр V-IV-IR-LEX ; ! "беседовать" Use/MT
-сөйләш:сөйләш V-IV-IR-LEX ; ! ""
-сөйләш:сөйләш V-TV-IR-LEX ; ! "to talk for the last time (with someone who is dying)"
+!сөйләш:сөйләш V-TV-IR-LEX ; ! "to talk for the last time (with someone who is dying)"
 сөйрәл:сөйрәл V-IV-IR-LEX ; ! "to drag"
 сөйрә:сөйрә V-TV-IR-LEX ; ! "drag"
 сөй:сөй V-TV-AR-LEX ; ! ""

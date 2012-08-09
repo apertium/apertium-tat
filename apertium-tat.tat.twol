@@ -3,14 +3,20 @@ Alphabet
 
  А Ә Б В Г Д Е Ё Ж Җ З И Й К Л М Н Ң О Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ю Я  
  а ә б в г д е ё ж җ з и й к л м н ң о ө п р с т у ү ф х һ ц ч ш щ ъ ы ь э ю я 
-
+ %0 1 2 3 4 5 6 7 8 9
  %{A%}:а %{I%}:ы %{E%}:а %{U%}:у
 
  %{L%}:л %{G%}:г %{D%}:д %{K%}:к
 
  %{s%}:с %{j%}:0 %{w%}:0 %{n%}:0 %{l%}:л %{ъ%}:0 %{т%}:0 %{д%}:0 %{е%}:ы
 
- %>:0 %  ; 
+ %>:0 % 
+
+ !!! These are needed for the phonology of numbers, alphabetisms, and acronyms
+ !!! They trigger relevant phonology and disappear
+ %{а%}:0 %{э%}:0
+ %{й%}:0 %{л%}:0 %{н%}:0 %{з%}:0 %{с%}:0 ;
+
 
 Sets
 

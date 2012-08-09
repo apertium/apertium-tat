@@ -131,7 +131,7 @@ REMOVE Attr IF (NOT 1 N);
 # Verbs 
 # -----
 
-REMOVE Prc IF (NOT 1C V OR Vaux);
+REMOVE Prc IF (NOT 1 V OR Vaux);
 
 SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
     #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$ .

@@ -1,0 +1,52 @@
+Config:
+  hfst: 
+    App: hfst-optimised-lookup
+    Gen: numerals.RL.hfst
+    Morph: numerals.LR.hfst
+
+Tests:
+
+  "coll numbers in nom":
+    1<num><coll><nom> : "1-әү"
+    2<num><coll><nom> : "2-әү"
+    3<num><coll><nom> : "3-әү"
+    4<num><coll><nom> : "4-әү"
+    5<num><coll><nom> : "5-әү"
+    6<num><coll><nom> : "6-ау"
+    7<num><coll><nom> : "7-әү"
+    1<num><coll><advl> : "1-әү"
+    2<num><coll><advl> : "2-әү"
+    3<num><coll><advl> : "3-әү"
+    4<num><coll><advl> : "4-әү"
+    5<num><coll><advl> : "5-әү"
+    6<num><coll><advl> : "6-ау"
+    7<num><coll><advl> : "7-әү"
+
+
+  "possessive forms of coll numbers in nom":
+    1<num><coll><px3sp><nom> : "1-әве"
+    2<num><coll><px3sp><nom> : "2-әве"
+    3<num><coll><px3sp><nom> : "3-әве"
+    4<num><coll><px3sp><nom> : "4-әве"
+    5<num><coll><px3sp><nom> : "5-әве"
+    6<num><coll><px3sp><nom> : "6-авы"
+    7<num><coll><px3sp><nom> : "7-әве"
+
+  "coll numbers in acc":
+    1<num><coll><acc> : "1-әүне"
+    2<num><coll><acc> : "2-әүне"
+    3<num><coll><acc> : "3-әүне"
+    4<num><coll><acc> : "4-әүне"
+    5<num><coll><acc> : "5-әүне"
+    6<num><coll><acc> : "6-ауны"
+    7<num><coll><acc> : "7-әүне"
+
+  "possessive forms of coll numbers in acc":
+    1<num><coll><px3sp><acc> : "1-әвен"
+    2<num><coll><px3sp><acc> : "2-әвен"
+    3<num><coll><px3sp><acc> : "3-әвен"
+    4<num><coll><px3sp><acc> : "4-әвен"
+    5<num><coll><px3sp><acc> : "5-әвен"
+    6<num><coll><px3sp><acc> : "6-авын"
+    7<num><coll><px3sp><acc> : "7-әвен"
+

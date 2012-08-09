@@ -13,6 +13,9 @@
 /configure.ac -text
 /modes.xml -text
 tests/epenthesis.yaml -text
+tests/numerals/collective.yaml -text
+tests/numerals/numerals.yaml -text
+tests/numerals/percents.yaml -text
 tests/prn-pers.yaml -text
 tests/surface_epenthesis.yaml -text
 texts/cg/story.tat.cg.txt -text

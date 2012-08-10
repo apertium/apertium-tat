@@ -39,7 +39,8 @@ Multichar_Symbols
 !! gender of anthroponyms and cognoms
 %<m%>          ! Masculine    ! Мужской род
 %<f%>          ! Feminine     ! Женский род
-%<mf%>         ! Masculine/feminine !# basically cognoms without -ов/-ова ending
+%<mf%>         ! Masculine/feminine !# basically cognoms without -ов/-ова,
+               ! -ин/-ина endings
 
 ! "Syntactic" tags. Attributive use of non-adjectives etc.
 %<attr%>       ! Attributive
@@ -72,23 +73,27 @@ Multichar_Symbols
               !# DAй (-дай/-дәй, -тай, -тәй)
 %<abe%>       ! Abessive=Privative    ! Лишительный
               !# -сыз/-сез (not used after posessives and cases)
-!обладательный !# -лы/-ле   (not used after posessives and cases)
+%<reas%>      ! not used rigth now, just in case
+!обладательный !# LI (-лы/-ле) (not used after posessives and cases)
 
-! Levels of comparison of adjectives ! Сыйфат дәрәҗәләре ! Степени сравнения прилагательных
+! Levels of comparison of adj. ! Сыйфат дәрәҗәләре ! Степени сравнения прилага-х
 %<comp%>      ! Comparative  ! Чагыштыру дәрәҗәсе
 %<sup%>       ! Superlative  ! Артыклык дәрәҗәсе
-!! "weakening" form is not regular. So "weakened" :) adj are added as base lemmas.
-!! Very few adj have this form. E.g. яшел-яшькелт, сары-саргылт [but] ак-аксыл, кара-карасу.
-!! As a sublexicon maybe, so that they don't get <sup> ending, which is a nonsense
+!! "weakening" form is not regular. So "weakened" adj are added as base lemma
+!! Very few adj have this form. E.g. яшел-яшькелт, сары-саргылт [but] ак-аксыл,
+!! кара-карасу. As a sublexicon maybe, so that they don't get <sup> ending,
+!! which is a nonsense
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 %<pers%>      ! Personal
+%<recip%>     ! Reciprocal
 ! Pronoun and determiner types
 %<dem%>       ! Demonstrative
 %<ind%>       ! Indefinite
 %<itg%>       ! Interrogative
 %<qnt%>       ! Quantifier
-%<neg%>       ! Negative  (NOTE: also used to denote negation in verbs, i.e for м{A})
+%<neg%>       ! Negative        !# һичкем
+              ! (NOTE: also used to denote negation in verbs, i.e for м{A})
 %<ref%>       ! Reflexive
 
 ! Numeral types
@@ -164,7 +169,7 @@ Multichar_Symbols
 %<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к (~the ability to do the denoted action)
 %<ger_fut2%>  ! -{A}ч{A}к
 %<ger1%>      ! -м{A}к
-%<inf%>       ! -{A/I}рг{A}     Infinitive
+%<inf%>       ! -{A/I}рг{A}          Infinitive
 
 !! Transitivity ! Переходность
 %<tv%>        ! Transitive
@@ -793,7 +798,6 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 %<neg%>%<prc_perf%>:%>м%{A%}енч%{A%} # ;      ! Dir/LR
 %<prc_vol%>:%>%{E%}с%{I%} V-PERS-S4 ;         ! no negative form
 
-
 %<prc_impf%>:%>%{E%} # ;
 ! "Бу хәл фигыльнең юклыгы, -ып/-еп формасындагы кебек үк, -мый/-ми,
 ! -мыйча/-мичә, -маенча/-мәенчә кушымчалары белән белдерелә; -ып формасыннан
@@ -820,11 +824,6 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 %<gna_until%>:%>%{G%}%{A%}нч%{i%} CLIT ;
 
 
-%<gpr_impf%>:%>%{E%}% торган # ;              ! FIXME ask about compound forms
-                                              ! once more
-%<neg%>%<gpr_impf%>:%>м%{A%}%>%{E%}% торган # ;
-
-
 %<gpr_fut3%>:%>%{E%}с%{I%} # ;
 
 
@@ -840,6 +839,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gna_after%>:%>%{G%}%{A%}ч CLIT ;
 
 %<gpr_past%>:%>%{G%}%{A%}н # ;
+%<gpr_impf%>:%>%{E%}% торган # ;
 %<gpr_pot%>:%>%{U%}ч%{I%} # ;
 %<gpr_fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
 

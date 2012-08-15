@@ -787,16 +787,26 @@ LEXICON GER-CASE-ETC
 GER-CASE-NO_COPULA ;
 GER-GENPOSS-ETC ;
 
-LEXICON GER-POSS-REAL
+LEXICON GER-POSS-REAL-COMMON
 
 %<px1sg%>:%>%{I%}м GER-CASE-ETC ;
 %<px2sg%>:%>%{I%}ң GER-CASE-ETC ;
-%<px3sp%>:%>%{s%}%{I%}%{n%} GER-CASE-ETC ;
 %<px1pl%>:%>%{I%}б%{I%}з GER-CASE-ETC ;
 %<px2pl%>:%>%{I%}г%{I%}з GER-CASE-ETC ;
 
 %<px2sg%>%<frm%>:%>%{I%}г%{I%}з GER-CASE-ETC ;
 %<px2pl%>%<frm%>:%>%{I%}г%{I%}з GER-CASE-ETC ;
+
+LEXICON GER_FUT3-POSS-REAL
+
+GER-POSS-REAL-COMMON ;
+%<px3sp%>: GER-CASE-ETC ;
+
+LEXICON GER-POSS-REAL
+
+GER-POSS-REAL-COMMON ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} GER-CASE-ETC ;
+
 
 LEXICON GER-INFL
 
@@ -825,11 +835,11 @@ LEXICON V-FUT-IR
 %<gpr_ppot%>:%>%{I%}рл%{I%}к # ;
 %<neg%>%<gpr_ppot%>:%>м%{A%}сл%{I%}к # ;
 
-%<ger_fut%>:%>%{I%}р # ;
-%<neg%>%<ger_fut%>:%>м%{A%}с # ;
+%<ger_fut%>:%>%{I%}р GER-POSS-REAL ;
+%<neg%>%<ger_fut%>:%>м%{A%}с GER-POSS-REAL ;
 
-%<ger_ppot%>:%>%{I%}рл%{I%}к # ;
-%<neg%>%<ger_ppot%>:%>м%{A%}сл%{I%}к # ;
+%<ger_ppot%>:%>%{I%}рл%{I%}к GER-POSS-REAL ;
+%<neg%>%<ger_ppot%>:%>м%{A%}сл%{I%}к GER-POSS-REAL ;
 
 %<inf%>:%>%{I%}рг%{A%} # ;
 %<neg%>%<inf%>:%>м%{A%}ск%{A%} # ;
@@ -851,11 +861,11 @@ LEXICON V-FUT-AR
 %<gpr_ppot%>:%>%{A%}рл%{I%}к # ;
 %<neg%>%<gpr_ppot%>:%>м%{A%}сл%{I%}к # ;
 
-%<ger_fut%>:%>%{A%}р # ;
-%<neg%>%<ger_fut%>:%>м%{A%}с # ;
+%<ger_fut%>:%>%{A%}р GER-POSS-REAL ;
+%<neg%>%<ger_fut%>:%>м%{A%}с GER-POSS-REAL ;
 
-%<ger_ppot%>:%>%{A%}рл%{I%}к # ;
-%<neg%>%<ger_ppot%>:%>м%{A%}сл%{I%}к # ;
+%<ger_ppot%>:%>%{A%}рл%{I%}к GER-POSS-REAL ;
+%<neg%>%<ger_ppot%>:%>м%{A%}сл%{I%}к GER-POSS-REAL ;
 
 %<inf%>:%>%{A%}рг%{A%} # ;
 %<neg%>%<inf%>:%>м%{A%}ск%{A%} # ;
@@ -911,8 +921,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 %<gpr_fut3%>:%>%{E%}с%{I%} # ;
 
 ! Gerunds
-%<ger1%>:%>м%{A%}%{K%} # ;
-%<ger_fut3%>:%>%{E%}с%{I%} # ;
+%<ger1%>:%>м%{A%}%{K%} GER-INFL ;
+%<ger_fut3%>:%>%{E%}с%{I%} GER_FUT3-POSS-REAL ;
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
@@ -933,10 +943,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Gerunds
 %<ger%>:%>%{U%} GER-INFL ;
-%<ger_past%>:%>%{G%}%{A%}н # ;
-%<ger_perf%>:%>%{G%}%{A%}нл%{I%}к # ;
-%<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к # ;
-%<ger_fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
+%<ger_past%>:%>%{G%}%{A%}н GER-INFL ;
+%<ger_perf%>:%>%{G%}%{A%}нл%{I%}к GER-INFL ;
+%<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;
+%<ger_fut2%>:%>%{j%}%{A%}ч%{A%}к GER-POSS-REAL ;
 
 ! Imperatives
 %<imp%>%<p2%>%<sg%>: CLIT-MODFOC ;

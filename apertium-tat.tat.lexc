@@ -687,7 +687,11 @@ LEXICON A4                 ! "pure" adjectives - no adverbial and substantive re
                            !# милли
 
 %<adj%>: CLIT ;                                       !# милли музей
- 
+
+LEXICON V-ADJ
+
+# ;
+%<subst%>: SUBST ;
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
@@ -816,7 +820,7 @@ GER-CASE-ETC ;
 %<pl%>:%>%{L%}%{A%}р GER-CASE-ETC ;
 GER-ABE-ETC ;
 
-!!!!!!!   end of gerunds inflection
+!!!!!!!   end of gerunds inflection lexicon
 
 LEXICON V-FUT-IR
 
@@ -829,8 +833,8 @@ LEXICON V-FUT-IR
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м%{I%}н CLIT ;  ! Dir/LR
 %<neg%>%<fut%>%<p1%>%<pl%>:%>м%{A%}%>б%{I%}з CLIT ;
 
-%<gpr_fut%>:%>%{I%}р # ;
-%<neg%>%<gpr_fut%>:%>м%{A%}с # ;
+%<gpr_fut%>:%>%{I%}р V-ADJ ;
+%<neg%>%<gpr_fut%>:%>м%{A%}с V-ADJ ;
 
 %<gpr_ppot%>:%>%{I%}рл%{I%}к # ;
 %<neg%>%<gpr_ppot%>:%>м%{A%}сл%{I%}к # ;
@@ -855,8 +859,8 @@ LEXICON V-FUT-AR
 %<neg%>%<fut%>%<p1%>%<sg%>:%>м%{A%}%>м%{I%}н CLIT ;  ! Dir/LR
 %<neg%>%<fut%>%<p1%>%<pl%>:%>м%{A%}%>б%{I%}з CLIT ;
 
-%<gpr_fut%>:%>%{A%}р # ;
-%<neg%>%<gpr_fut%>:%>м%{A%}с # ;
+%<gpr_fut%>:%>%{A%}р V-ADJ ;
+%<neg%>%<gpr_fut%>:%>м%{A%}с V-ADJ ;
 
 %<gpr_ppot%>:%>%{A%}рл%{I%}к # ;
 %<neg%>%<gpr_ppot%>:%>м%{A%}сл%{I%}к # ;
@@ -918,7 +922,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 %<gna_until%>:%>%{G%}%{A%}нч%{I%} CLIT ;
 
 ! Verbal adjectives
-%<gpr_fut3%>:%>%{E%}с%{I%} # ;
+%<gpr_fut3%>:%>%{E%}с%{I%} V-ADJ ;
 
 ! Gerunds
 %<ger1%>:%>м%{A%}%{K%} GER-INFL ;
@@ -936,10 +940,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gna_after%>:%>%{G%}%{A%}ч CLIT ;
 
 ! Verbal adjectives
-%<gpr_past%>:%>%{G%}%{A%}н # ;
-%<gpr_impf%>:%>%{E%}% торган # ;
-%<gpr_pot%>:%>%{U%}ч%{I%} # ;
-%<gpr_fut2%>:%>%{j%}%{A%}ч%{A%}к # ;
+%<gpr_past%>:%>%{G%}%{A%}н V-ADJ ;
+%<gpr_impf%>:%>%{E%}% торган V-ADJ ;
+%<gpr_pot%>:%>%{U%}ч%{I%} V-ADJ ;
+%<gpr_fut2%>:%>%{j%}%{A%}ч%{A%}к V-ADJ ;
 
 ! Gerunds
 %<ger%>:%>%{U%} GER-INFL ;

@@ -811,7 +811,6 @@ LEXICON GER-POSS-REAL
 GER-POSS-REAL-COMMON ;
 %<px3sp%>:%>%{s%}%{I%}%{n%} GER-CASE-ETC ;
 
-
 LEXICON GER-INFL
 
 GER-POSS-REAL ;
@@ -823,8 +822,6 @@ GER-ABE-ETC ;
 !!!!!!!   end of gerunds inflection lexicon
 
 LEXICON V-FUT-IR
-
-! Cont.classes to be checked
 
 %<fut%>:%>%{I%}р V-PERS-S1 ;
 %<neg%>%<fut%>:%>м%{A%}с V-PERS-S1-NO1PERSON ;
@@ -845,12 +842,10 @@ LEXICON V-FUT-IR
 %<ger_ppot%>:%>%{I%}рл%{I%}к GER-POSS-REAL ;
 %<neg%>%<ger_ppot%>:%>м%{A%}сл%{I%}к GER-POSS-REAL ;
 
-%<inf%>:%>%{I%}рг%{A%} # ;
-%<neg%>%<inf%>:%>м%{A%}ск%{A%} # ;
+%<inf%>:%>%{I%}рг%{A%} CLIT ;
+%<neg%>%<inf%>:%>м%{A%}ск%{A%} CLIT ;
 
 LEXICON V-FUT-AR
-
-! Cont.classes to be checked
 
 %<fut%>:%>%{A%}р V-PERS-S1 ;
 %<neg%>%<fut%>:%>м%{A%}с V-PERS-S1-NO1PERSON ;
@@ -871,8 +866,8 @@ LEXICON V-FUT-AR
 %<ger_ppot%>:%>%{A%}рл%{I%}к GER-POSS-REAL ;
 %<neg%>%<ger_ppot%>:%>м%{A%}сл%{I%}к GER-POSS-REAL ;
 
-%<inf%>:%>%{A%}рг%{A%} # ;
-%<neg%>%<inf%>:%>м%{A%}ск%{A%} # ;
+%<inf%>:%>%{A%}рг%{A%} CLIT ;
+%<neg%>%<inf%>:%>м%{A%}ск%{A%} CLIT ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
@@ -884,8 +879,6 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
                                              ! no negative  form at all
-
-! Cont.classes to be checked
 
 ! Participles
 %<prc_perf%>:%>%{I%}п CLIT-GHANA-ETC ;
@@ -900,9 +893,6 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 ! -мыйча/-мичә, -маенча/-мәенчә кушымчалары белән белдерелә; -ып формасыннан
 ! аермалы буларак, бу очракта фигыль янында күбрәк "гына" кисәкчәсе сорала."
 ! [Хисамова 261]. Sounds correct, so add an rlx rule for this /IS/
-! Although we assume that if there is no verb to the right, it is not
-! participle at all. That is why participles do not continue with clitics.
-! Although clitics pass CG as subreadings. A bit confused >> DISCUSS this /IS/
 %<neg%>%<prc_impf%>:%>м%{A%}%>%{E%}%>ч%{A%} CLIT-GHANA-ETC ;
 %<neg%>%<prc_impf%>:%>м%{A%}%>%{E%} CLIT-GHANA-ETC ;       ! Dir/LR
 %<neg%>%<prc_impf%>:%>м%{A%}енч%{A%} CLIT-GHANA-ETC ;      ! Dir/LR
@@ -929,8 +919,6 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 %<ger_fut3%>:%>%{E%}с%{I%} GER_FUT3-POSS-REAL ;
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
-
-! Cont. classes to be checked
 
 ! Participles
 %<prc_cond%>:%>с%{A%} V-PERS-S2 ;
@@ -963,10 +951,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! FIXME
 ! echo '^кил<v><iv><opt><p1><sg>$' | hfst-proc -g kaz-tat.autogen.hfst >> килейм
 ! Should be: "килим"
-%<opt%>%<p1%>%<sg%>:%>%{I%}йм # ;
-%<opt%>%<p3%>%<sg%>:%>с%{I%}н # ;
-%<opt%>%<p1%>%<pl%>:%>%{I%}йк # ;
-%<opt%>%<p3%>%<pl%>:%>с%{I%}нн%{A%}р # ;
+%<opt%>%<p1%>%<sg%>:%>%{I%}йм CLIT ;
+%<opt%>%<p3%>%<sg%>:%>с%{I%}н CLIT ;
+%<opt%>%<p1%>%<pl%>:%>%{I%}йк CLIT ;
+%<opt%>%<p3%>%<pl%>:%>с%{I%}нн%{A%}р CLIT ;
 
 LEXICON V-COMMON
 

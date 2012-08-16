@@ -1470,13 +1470,13 @@ LEXICON POSTADVLEX
 
 %<postadv%>: # ; 
 
-LEXICON ADVITGLEX
+LEXICON ADVITG
 
-%<adv%>%<itg%>: # ; 
+%<adv%>%<itg%>: # ;
 
-LEXICON ADVLEX
+LEXICON ADV
 
-%<adv%>: CLIT ; 
+%<adv%>: CLIT ;
 
 LEXICON CCLEX
 
@@ -7014,128 +7014,129 @@ Witness:Witness NPALLEX ; ! ""
 
 
 !===============!
- LEXICON Adverbs 
+ LEXICON Adverbs
 !===============!
 
 
 ! Interrogative adverbs
 !======================
 
-кайда:кайда ADVITGLEX ; ! ""
-кайдан:кайдан ADVITGLEX ; ! ""
-кайчан:кайчан ADVITGLEX ; ! ""
-кая:кая ADVITGLEX ; ! ""
-ничек:ничек ADVITGLEX ; ! "how"
-ни% өчен:ни% өчен ADVITGLEX ; ! "why,what for" Use/MT
-никадәр:никадәр ADVITGLEX ; ! ""
+кайда:кайда ADVITG ; ! ""
+кайдан:кайдан ADVITG ; ! ""
+кайчан:кайчан ADVITG ; ! ""
+кая:кая ADVITG ; ! ""
+ничек:ничек ADVITG ; ! "how"
+ни% өчен:ни% өчен ADVITG ; ! "why,what for" Use/MT
+никадәр:никадәр ADVITG ; ! ""
 
-һичкайчан:һичкайчан ADVLEX ; ! "never"
-беркайчан:беркайчан ADVLEX ; ! "never"
-беркайчан% да:беркайчан% да ADVLEX ; ! "never" Use/MT
+һичкайчан:һичкайчан ADV ; ! "never"
+беркайчан:беркайчан ADV ; ! "never"
+беркайчан% да:беркайчан% да ADV ; ! "never" Use/MT
 
-аеруча:аеруча ADVLEX ; ! ""
-аеруча:аеруча ADVLEX ; ! "especially"
-акрын%-акрын:акрын%-акрын ADVLEX ; ! ""
-алайса:алайса ADVLEX ; ! "~таким образом" FIXME:CHECK
-алга:алга ADVLEX ; ! "forward"
-алдан:алдан ADVLEX ; ! "at first"
-аннары:аннары ADVLEX ; ! "then"
-аңлатуларынча:аңлатуларынча ADVLEX ; ! ""
-ары:ары ADVLEX ; ! "otherside"
-!аска:аска ADVLEX ; ! "down"
-барысы:барысы ADVLEX ; ! ""
-башлыча:башлыча ADVLEX ; ! ""
-башта:башта ADVLEX ; ! "at first"
-баштан:баштан ADVLEX ; ! "at first"
-бераз:бераз ADVLEX ; ! "a little" FIXME:NOTE: also a quantifier -->"
-бергә:бергә ADVLEX ; ! "together"
-бергәләп:бергәләп ADVLEX ; ! ""
-бер% дә:бер% дә ADVLEX ; ! "~not a bit" Use/MT
-беркадәр:беркадәр ADVLEX ; ! ""
-бигрәк:бигрәк ADVLEX ; ! ""
-бик:бик ADVLEX ; ! "very"
-билгеләнүенчә:билгеләнүенчә ADVLEX ; ! ""
-билгеләүләренчә:билгеләүләренчә ADVLEX ; ! ""
-бире:бире ADVLEX ; ! "nearside"
-борын:борын ADVLEX ; ! "earlier"
-бөтенләй:бөтенләй ADVLEX ; ! ""
-бүген:бүген ADVLEX ; ! "today"
-бүгендә:бүгендә ADVLEX ; ! "" FIXME CHECK pos
-бүгеннән:бүгеннән ADVLEX ; ! ""
-быел:быел ADVLEX ; ! "this year"
-былтыр:былтыр ADVLEX ; ! "last year"
-вакытлыча:вакытлыча ADVLEX ; ! ""
-вакыттагыча:вакыттагыча ADVLEX ; ! ""
-гадәттә:гадәттә ADVLEX ; ! ""
-гадәттәгечә:гадәттәгечә ADVLEX ; ! ""
-гаҗәеп:гаҗәеп ADVLEX ; ! "extremely"
-гаять:гаять ADVLEX ; ! "very"
-гел:гел ADVLEX ; ! "always"
-гомумән:гомумән ADVLEX ; ! ""
-!диярлек:диярлек ADVLEX ; ! ""
-дусларча:дусларча ADVLEX ; ! ""
-әйтелүенчә:әйтелүенчә ADVLEX ; ! ""
-әйткәндәй:әйткәндәй ADVLEX ; ! ""
-әйтүләренчә:әйтүләренчә ADVLEX ; ! ""
-әкрен% генә:әкрен% генә ADVLEX ; ! "slowly" Use/MT
-әлбәттә:әлбәттә ADVLEX ; ! "certainly"
-әлегә:әлегә ADVLEX ; ! "for now"
-әле:әле ADVLEX ; ! "now"
-әүвәл:әүвәл ADVLEX ; ! "now"
-җәмгысе:җәмгысе ADVLEX ; ! ""
-инде:инде ADVLEX ; ! "now"
-иң:иң ADVLEX ; ! "most"
-иртәгә:иртәгә ADVLEX ; ! "tomorrow"
-иртән:иртән ADVLEX ; ! "morning"
-исәпләвенчә:исәпләвенчә ADVLEX ; ! ""
-кабат:кабат ADVLEX ; ! ""
-кайвакыт:кайвакыт ADVLEX ; ! "sometimes"
-кайтадан:кайтадан ADVLEX ; ! "once again"
-кайчак:кайчак ADVLEX ; ! "sometimes"
-кичә:кичә ADVLEX ; ! "yesterday"
-кич:кич ADVLEX ; ! "in evening"
-көндез:көндез ADVLEX ; ! "during the day"
-күбесенчә:күбесенчә ADVLEX ; ! "mostly"
-күмәртәләп:күмәртәләп ADVLEX ; ! ""
-күпләп:күпләп ADVLEX ; ! ""
-күптән:күптән ADVLEX ; ! "long ago"
-менә:менә ADVLEX ; ! ""
-моңача:моңача ADVLEX ; ! ""
-мөгаен:мөгаен ADVLEX ; ! ""
-мөмкин% булган% кадәр:мөмкин% булган% кадәр ADVLEX ; ! "" Use/MT
-нәкъ:нәкъ ADVLEX ; ! "exactly"
-ничек% кенә% булмасын:ничек% кенә% булмасын ADVLEX ; ! "somehow" Use/MT
-!сизелерлек:сизелерлек ADVLEX ; ! ""
-соңга:соңга ADVLEX ; ! ""
-соңрак:соңрак ADVLEX ; ! ""
-соңыннан:соңыннан ADVLEX ; ! ""
-сөйләвенчә:сөйләвенчә ADVLEX ; ! ""
-тагын:тагын ADVLEX ; ! "more,again"
-тагы:тагы ADVLEX ; ! "more,again"
-тәфсирләп:тәфсирләп ADVLEX ; ! ""
-тик:тик ADVLEX ; ! "only" FIXME:NOTE: also added as conj. -->"
-туктаусыз:туктаусыз ADVLEX ; ! ""
-тулаем:тулаем ADVLEX ; ! ""
-тулысынча:тулысынча ADVLEX ; ! ""
-үтә:үтә ADVLEX ; ! "very"
-хайваннарча:хайваннарча ADVLEX ; ! ""
-хәзер:хәзер ADVLEX ; ! "contrastive now"
-хәтта:хәтта ADVLEX ; ! "too"
-һаман:һаман ADVLEX ; ! "still"
-һәрвакыт:һәрвакыт ADVLEX ; ! "always"
-һәрдаим:һәрдаим ADVLEX ; ! "always"
-һич:һич ADVLEX ; ! ""
-чынлап:чынлап ADVLEX ; ! ""
-шәхсән:шәхсән ADVLEX ; ! ""
-шунда% ук:шунда% ук ADVLEX ; ! "тут же,тотчас же,сразу же" Use/MT
-элгәре:элгәре ADVLEX ; ! ""
-элек:элек ADVLEX ; ! "earlier"
-юлда% чагында:юлда% чагында ADVLEX ; ! "" Use/MT
-якынча:якынча ADVLEX ; ! ""
-янәдән:янәдән ADVLEX ; ! "again"
-янә:янә ADVLEX ; ! "again"
-яртылаш:яртылаш ADVLEX ; ! ""
+аеруча:аеруча ADV ; ! ""
+аеруча:аеруча ADV ; ! "especially"
+акрын%-акрын:акрын%-акрын ADV ; ! ""
+алайса:алайса ADV ; ! "~таким образом"
+алга:алга ADV ; ! "forward"
+алдан:алдан ADV ; ! "at first"
+аннары:аннары ADV ; ! "then"
+аңлатуларынча:аңлатуларынча ADV ; ! ""
+ары:ары ADV ; ! "otherside"
+!аска:аска ADV ; ! "down"
+барысы:барысы ADV ; ! ""
+башлыча:башлыча ADV ; ! ""
+башта:башта ADV ; ! "at first"
+баштан:баштан ADV ; ! "at first"
+бераз:бераз ADV ; ! "a little" -->"
+бергә:бергә ADV ; ! "together"
+бергәләп:бергәләп ADV ; ! ""
+бер% дә:бер% дә ADV ; ! "~not a bit" Use/MT
+беркадәр:беркадәр ADV ; ! ""
+бигрәк:бигрәк ADV ; ! ""
+бик:бик ADV ; ! "very"
+билгеләнүенчә:билгеләнүенчә ADV ; ! ""
+билгеләүләренчә:билгеләүләренчә ADV ; ! ""
+бире:бире ADV ; ! "nearside"
+борын:борын ADV ; ! "earlier"
+бөтенләй:бөтенләй ADV ; ! ""
+бүген:бүген ADV ; ! "today"
+бүгендә:бүгендә ADV ; ! "" FIXME CHECK pos
+бүгеннән:бүгеннән ADV ; ! ""
+быел:быел ADV ; ! "this year"
+былтыр:былтыр ADV ; ! "last year"
+вакытлыча:вакытлыча ADV ; ! ""
+вакыттагыча:вакыттагыча ADV ; ! ""
+гадәттә:гадәттә ADV ; ! ""
+гадәттәгечә:гадәттәгечә ADV ; ! ""
+гаҗәеп:гаҗәеп ADV ; ! "extremely"
+гаять:гаять ADV ; ! "very"
+гел:гел ADV ; ! "always"
+гомумән:гомумән ADV ; ! ""
+!диярлек:диярлек ADV ; ! ""
+дусларча:дусларча ADV ; ! ""
+әйтелүенчә:әйтелүенчә ADV ; ! ""
+әйткәндәй:әйткәндәй ADV ; ! ""
+әйтүләренчә:әйтүләренчә ADV ; ! ""
+әкрен% генә:әкрен% генә ADV ; ! "slowly" Use/MT
+әлбәттә:әлбәттә ADV ; ! "certainly"
+әлегә:әлегә ADV ; ! "for now"
+әле:әле ADV ; ! "now"
+әүвәл:әүвәл ADV ; ! "now"
+җәмгысе:җәмгысе ADV ; ! ""
+инде:инде ADV ; ! "now"
+иң:иң ADV ; ! "most"
+иртәгә:иртәгә ADV ; ! "tomorrow"
+иртән:иртән ADV ; ! "morning"
+исәпләвенчә:исәпләвенчә ADV ; ! ""
+кабат:кабат ADV ; ! ""
+кайвакыт:кайвакыт ADV ; ! "sometimes"
+кайтадан:кайтадан ADV ; ! "once again"
+кайчак:кайчак ADV ; ! "sometimes"
+кичә:кичә ADV ; ! "yesterday"
+кич:кич ADV ; ! "in evening"
+көндез:көндез ADV ; ! "during the day"
+күбесенчә:күбесенчә ADV ; ! "mostly"
+күмәртәләп:күмәртәләп ADV ; ! ""
+күпләп:күпләп ADV ; ! ""
+күптән:күптән ADV ; ! "long ago"
+менә:менә ADV ; ! ""
+моңача:моңача ADV ; ! ""
+мөгаен:мөгаен ADV ; ! ""
+мөмкин% булган% кадәр:мөмкин% булган% кадәр ADV ; ! "" Use/MT
+нәкъ:нәкъ ADV ; ! "exactly"
+ничек% кенә% булмасын:ничек% кенә% булмасын ADV ; ! "somehow" Use/MT
+соңга:соңга ADV ; ! ""
+соңрак:соңрак ADV ; ! ""
+соңыннан:соңыннан ADV ; ! ""
+сөйләвенчә:сөйләвенчә ADV ; ! ""
+тагын:тагын ADV ; ! "more,again"
+тагы:тагы ADV ; ! "more,again"
+тәфсирләп:тәфсирләп ADV ; ! ""
+тик:тик ADV ; ! "only""
+туктаусыз:туктаусыз ADV ; ! ""
+тулаем:тулаем ADV ; ! ""
+тулысынча:тулысынча ADV ; ! ""
+үтә:үтә ADV ; ! "very"
+хайваннарча:хайваннарча ADV ; ! ""
+хәзер:хәзер ADV ; ! "contrastive now"
+хәтта:хәтта ADV ; ! "too"
+һаман:һаман ADV ; ! "still"
+һәрвакыт:һәрвакыт ADV ; ! "always"
+һәрдаим:һәрдаим ADV ; ! "always"
+һич:һич ADV ; ! ""
+чынлап:чынлап ADV ; ! ""
+шәхсән:шәхсән ADV ; ! ""
+шунда% ук:шунда% ук ADV ; ! "тут же,тотчас же,сразу же" Use/MT
+элгәре:элгәре ADV ; ! ""
+элек:элек ADV ; ! "earlier"
+юлда% чагында:юлда% чагында ADV ; ! "" Use/MT
+якынча:якынча ADV ; ! ""
+янәдән:янәдән ADV ; ! "again"
+янә:янә ADV ; ! "again"
+яртылаш:яртылаш ADV ; ! ""
 
+! Adverbs wich take -KI and become an attr/adj
+!=============================================
 
 !=============!
  LEXICON Verbs

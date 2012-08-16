@@ -1502,7 +1502,7 @@ LEXICON INTERJ
 
 %<ij%>: # ;
 
-LEXICON ABBR 
+LEXICON ABBR
 
 %<abbr%>: # ;
 
@@ -8435,8 +8435,10 @@ Kaz:Kaz ABBR ; ! ""
 ШХО:ШХО ABBR ; ! "Shanghai Cooperaton Organization"
 ЭЧ:ЭЧ ABBR ; ! ""
 ЭЭМ:ЭЭМ ABBR ; ! "Эчке эшләр министрлыгы"
-б%.э%.к:б%.э%.к ABBR ;  ! "BCE"
-б%.э:б%.э ABBR ;  ! "CE"
+б%.э%.к%.:б%.э%.к%. ABBR ;  ! "BCE"
+б%.э%.к%.:б%.э%.к ABBR ;  ! "BCE" Dir/LR
+б%.э%.:б%.э%. ABBR ;  ! "CE"
+б%.э%.:б%.э ABBR ;  ! "CE" Dir/LR
 биекл%.:биекл%. ABBR ; ! ""
 биол%.:биол%. ABBR ; ! ""
 геогр%.:геогр%. ABBR ; ! ""

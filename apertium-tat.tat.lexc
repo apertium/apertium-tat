@@ -8494,7 +8494,7 @@ Kaz:Kaz ABBR ; ! ""
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 ,%<cm%>:, # ;
-%?%<sent%>:%? # ; 
+%?%<sent%>:%? # ;
 %'%<apos%>:%' # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
@@ -8505,8 +8505,8 @@ Kaz:Kaz ABBR ; ! ""
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
 %)%<rpar%>:%) # ;
-\%<sent%>:\ # ;
-/%<sent%>:/ # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
 
 LEXICON Digits ! Use/Circ
 

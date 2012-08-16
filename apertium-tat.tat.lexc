@@ -8360,16 +8360,28 @@ Witness:Witness NPALLEX ; ! ""
 
 
 !=====================!
- LEXICON Interjections 
+ LEXICON Interjections
 !=====================!
 
 
-димәк:димәк INTERJ ; ! "" 
+ай:ай INTERJ ; ! ""
+Ай% Аллам:Ай% Аллам INTERJ ; ! ""
+аңлашылды:аңлашылды INTERJ ; ! ""
+бәрәкалла:бәрәкалла INTERJ ; ! ""
+булды:булды INTERJ ; ! ""
+димәк:димәк INTERJ ; ! ""
+дөрес:дөрес INTERJ ; ! ""
 ә:ә INTERJ ; ! ""
 әйе:әйе INTERJ ; ! ""
-әлбәттә:әлбәттә INTERJ ; ! "" 
+әлбәттә:әлбәттә INTERJ ; ! ""
 менә:менә INTERJ ; ! "here is, вот"
+мә:мә INTERJ ; ! ""
+мына:мына INTERJ ; ! ""
 юк:юк INTERJ ; ! ""
+я:я INTERJ ; ! ""
+ярар:ярар INTERJ ; ! ""
+ярый:ярый INTERJ ; ! ""
+яхшы:яхшы INTERJ ; ! ""
 
 ! Вводные слова
 !==============

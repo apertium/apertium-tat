@@ -1270,7 +1270,7 @@ LEXICON PRON-ITG-QAYSI
 кайсы%<prn%>%<itg%>%<px%>:кайсынікі%{n%} CASE ;
 кайсы%<prn%>%<itg%>: POSS-REAL ; ! кайсысы, кайсыбыз, кайсыгыз
 
-кайсы%<prn%>%<itg%>%<pl%>:кайсылар CASE-ETC ;
+кайсы%<prn%>%<itg%>%<pl%>:кайсылар GER-CASE-ETC ;
 кайсы%<prn%>%<itg%>%<pl%>%<px3sp%>:кайсылары%{n%} CASE ;
 ! ^ кайсылары(б/г)ыз are rare but possible in Tatar, so maybe these forms should
 ! be included too /IS/

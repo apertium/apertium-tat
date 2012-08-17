@@ -1388,8 +1388,8 @@ LEXICON NAT
 
 !A1 ;              ! nationality's adjectival form, e.g. "Turkish [food]" ! Consider <n.attr> reading for this 
 NLEX ;              ! a member of the nationality, e.g. "A Turk"
-:%>ш%{A%} ADVLEX ;   ! as / in the style of the nat., e.g. "à la Turk"
-!:%>ш%{A%} ADVLEX ;   ! in the language of the nationality, e.g. "in Turkish" ! I guess ADJ was meant /I.S./
+:%>ш%{A%} ADV ;   ! as / in the style of the nat., e.g. "à la Turk"
+!:%>ш%{A%} ADV ;   ! in the language of the nationality, e.g. "in Turkish" ! I guess ADJ was meant /I.S./
 :%>ш%{A%} NLEX ;    ! the language of the nationality, e.g. "Turkish"
 
 LEXICON NPTOPLEX

@@ -1341,25 +1341,25 @@ LEXICON PRON-REF
 !%<prn%>%<ref%>: POSS-REAL ;
 !%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
 
-!!!!!!!!!!!!!!!!!!!!!!     DETERMINERS
+!!!!!!!!!!!!!!!!!!!!!      DETERMINERS
 
-LEXICON DETDEMLEX
+LEXICON DET-DEM
 
-%<det%>%<dem%>: # ; 
+%<det%>%<dem%>: # ;
 
-LEXICON DETQNTLEX 
+LEXICON DET-QNT
 
-%<det%>%<qnt%>: # ; 
+%<det%>%<qnt%>: # ;
 
-LEXICON DETINDLEX
+LEXICON DET-IND
 
-%<det%>%<ind%>: # ; 
+%<det%>%<ind%>: # ;
 
-LEXICON DETITGLEX
+LEXICON DET-ITG
 
-%<det%>%<itg%>: # ; 
+%<det%>%<itg%>: # ;
 
-LEXICON DETNEGLEX
+LEXICON DET-NEG
 
 %<det%>%<neg%>: # ;
 
@@ -1744,36 +1744,42 @@ PRON-ITG ;
 
 үз:үз PRON-REF ; ! "self"
 
-LEXICON Determiners
 
-бу:бу DETDEMLEX ; ! ""
-теге:теге DETDEMLEX ; ! ""
-шул:шул DETDEMLEX ; ! ""
-шушы:шушы DETDEMLEX ; ! ""
-әлеге:әлеге DETDEMLEX ; ! ""
+!===================!
+ LEXICON Determiners
+!===================!
 
-бар:бар DETQNTLEX ; ! ""
-барлык:барлык DETQNTLEX ; ! ""
-берничә:берничә DETQNTLEX ; ! "some"
-бер% рәт:бер% рәт DETQNTLEX ; ! "several" Use/MT
-бөтен:бөтен DETQNTLEX ; ! ""
-күпләгән:күпләгән DETQNTLEX ; ! ""
-һәрбер:һәрбер DETQNTLEX ; ! ""
-һәртөрле:һәртөрле DETQNTLEX ; ! ""
-һәр:һәр DETQNTLEX ; ! ""
 
-бер:бер DETINDLEX ; ! ""
-берәр:берәр DETINDLEX ; ! "some"
-әллә% кай:әллә% кай DETINDLEX ; ! "" Use/MT
-кайбер:кайбер DETINDLEX ; ! "some"
-кайсыбер:кайсыбер DETINDLEX ; ! "some"
+бу:бу DET-DEM ; ! ""
+әлеге:әлеге DET-DEM ; ! ""
+әнә% теге:әнә% теге DET-DEM ; ! ""
+менә% бу:менә% бу DET-DEM ; ! ""
+теге:теге DET-DEM ; ! ""
+шул:шул DET-DEM ; ! ""
+шушы:шушы DET-DEM ; ! ""
 
-кай:кай DETITGLEX ; ! "which"
-кайсы:кайсы DETITGLEX ; ! "which"
+бар:бар DET-QNT ; ! ""
+барлык:барлык DET-QNT ; ! ""
+берничә:берничә DET-QNT ; ! "some"
+бер% рәт:бер% рәт DET-QNT ; ! "several" Use/MT
+бөтен:бөтен DET-QNT ; ! ""
+күпләгән:күпләгән DET-QNT ; ! ""
+һәрбер:һәрбер DET-QNT ; ! ""
+һәртөрле:һәртөрле DET-QNT ; ! ""
+һәр:һәр DET-QNT ; ! ""
 
-бернинди:бернинди DETNEGLEX ; ! ""
-һичбер:һичбер DETNEGLEX ; ! ""
-һичнинди:һичнинди DETNEGLEX ; ! ""
+бер:бер DET-IND ; ! ""
+берәр:берәр DET-IND ; ! "some"
+әллә% кай:әллә% кай DET-IND ; ! "" Use/MT
+кайбер:кайбер DET-IND ; ! "some"
+кайсыбер:кайсыбер DET-IND ; ! "some"
+
+кай:кай DET-ITG ; ! "which"
+кайсы:кайсы DET-ITG ; ! "which"
+
+бернинди:бернинди DET-NEG ; ! ""
+һичбер:һичбер DET-NEG ; ! ""
+һичнинди:һичнинди DET-NEG ; ! ""
 
 үз:үз DET-REF ; ! "oneself's"
 

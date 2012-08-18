@@ -937,7 +937,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! Gerunds
 %<ger%>:%>%{U%} GER-INFL ;
 %<ger_past%>:%>%{G%}%{A%}н GER-INFL ;
-%<ger_perf%>:%>%{G%}%{A%}нл%{I%}к GER-INFL ;
+%<ger_perf%>:%>%{G%}%{A%}н%>л%{I%}к GER-INFL ;
 %<ger_abs%>:%>%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;
 %<ger_fut2%>:%>%{j%}%{A%}ч%{A%}к GER-POSS-REAL ;
 
@@ -1035,9 +1035,13 @@ LEXICON VAUX-AR
 
 LEXICON COP-I
 
+и%<cop%>%<ger_past%>:икән GER-POSS-REAL ;
+и%<cop%>%<ger_past%>:икән%>л%{I%}к GER-POSS-REAL ;
+
 и%<cop%>%<neg%>:түгел V-PERS-S1 ;
-и%<cop%>%<ger_past%>:%>икән GER-INFL ;
-и%<cop%>%<ifi%>:%>иде V-PERS-S2 ;
+и%<cop%>%<past%>:икән V-PERS-S1 ;
+и%<cop%>%<neg%>%<past%>:түгел% икән V-PERS-S1 ;
+и%<cop%>%<ifi%>:иде V-PERS-S2 ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
@@ -1498,6 +1502,10 @@ LEXICON MOD-ASS
 
 %<mod_ass%>: # ;
 
+LEXICON MOD-IND
+
+%<mod_ind%>: # ;
+
 LEXICON INTERJ
 
 %<ij%>: # ;
@@ -1521,23 +1529,23 @@ LEXICON ABBR
 ! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
 !     Russian "-ка" (e.g. "скажи-ка") - e.g. "әйт әле", "кайтыйк әле";           ?>> <mod_foc>
 ! #2 Нәрсә булды соң әле? = Что же случилось?
-! 
+!
 ! #4 Күрешербез әле. = Еще увидимся.
 !
 ! #3 Әле кичә генә. = Еще вчера; Только вчера.
-! 
+!
 ! But if for all above examples "әлі <-> әле" translation works, distinguishing between the meanings
 ! might be not needed, we'll just have to choose an appropriate tag.
 !-----
 ! "әллә" can appear both before and after the word it is related to:
-! 
+!
 ! #1 "- Абау, миңа әллә нәрсә булган!"
-! #2 "Канатлы дигәч тә, мин кошмы әллә?" 
+! #2 "Канатлы дигәч тә, мин кошмы әллә?"
 !-------------------------------------------------------------------
 
 ! Question modal particles
 !=========================
- 
+
 мы:мы QSTLEX ; ! "y/n question" ! Dir/RL
 мы:ме QSTLEX ; ! "y/n question" ! Dir/LR
 
@@ -1556,6 +1564,12 @@ LEXICON ABBR
 ласа:ласа MOD-ASS ;
 ләбаса:ләбаса MOD-ASS ;
 ләбаса:лабаса MOD-ASS ; ! Dir/LR
+
+! Indefinite modal particles
+!===========================
+
+дыр:дыр MOD-IND ; ! "y/n question" ! Dir/RL
+тыр:тыр MOD-IND ; ! "y/n question" ! Dir/LR
 
 
 !==============!

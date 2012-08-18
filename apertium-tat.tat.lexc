@@ -1577,6 +1577,7 @@ COP-I ; ! ""
 !        the translator, since they are part of kaz.lexc too :) ] /I.S./
 
 ! Co-ordinating conjunctions
+!===========================
 
 !! Соединительные - Җыючы теркәгечләр
 
@@ -1610,6 +1611,7 @@ COP-I ; ! ""
 әле:әле CCLEX ; ! "то ... , то ... (х2) "
 
 ! Sub-ordinating conjunctions
+!============================
 
 гүя:гүя CSLEX ; ! "as if"
 гүяки:гүяки CSLEX ; ! "as if"
@@ -1638,7 +1640,11 @@ COP-I ; ! ""
 фикеренчә:фикеренчә CALEX ; ! ""
 хәбәр% итүенчә:хәбәр% итүенчә CALEX ; ! ""
 
-LEXICON Postpositions
+
+!=====================!
+ LEXICON Postpositions
+!=====================!
+
 
 ! Some of them are postpositions derived from nouns ( "auxilliary nouns"
 ! aka "служебные имена") which take location cases. Think about them later /I.S./
@@ -1708,7 +1714,11 @@ LEXICON Postpositions
 
 буларак:буларак POST ; ! ""
 
-LEXICON Postadverbs
+
+!===================!
+ LEXICON Postadverbs
+!===================!
+
 
 гына:%~гына POSTADV ; ! "only" Dir/RL
 гына:гына POSTADV ; ! "" Dir/LR
@@ -1788,7 +1798,7 @@ PRON-ITG ;
 
 үз:үз DET-REF ; ! "oneself's"
 
-LEXICON Numerals 
+LEXICON Numerals
 
 нуль:нуль NUMLEX ; ! ""
 нуль:ноль NUMLEX ; ! "" ! Dir/LR

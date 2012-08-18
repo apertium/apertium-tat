@@ -1272,7 +1272,7 @@ LEXICON PRON-ITG-QAYSI
 кайсы%<prn%>%<itg%>%<loc%>:кайсында CLIT ;
 
 кайсы%<prn%>%<itg%>%<px%>:кайсынікі%{n%} CASE ;
-кайсы%<prn%>%<itg%>: POSS-REAL ; ! кайсысы, кайсыбыз, кайсыгыз
+кайсы%<prn%>%<itg%>:кайсы POSS-REAL ; ! кайсысы, кайсыбыз, кайсыгыз
 
 кайсы%<prn%>%<itg%>%<pl%>:кайсылар GER-CASE-ETC ;
 кайсы%<prn%>%<itg%>%<pl%>%<px3sp%>:кайсылары%{n%} CASE ;

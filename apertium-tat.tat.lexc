@@ -1638,7 +1638,7 @@ COP-I ; ! ""
 фикеренчә:фикеренчә CALEX ; ! ""
 хәбәр% итүенчә:хәбәр% итүенчә CALEX ; ! ""
 
-LEXICON Postpositions 
+LEXICON Postpositions
 
 ! Some of them are postpositions derived from nouns ( "auxilliary nouns"
 ! aka "служебные имена") which take location cases. Think about them later /I.S./
@@ -1681,6 +1681,7 @@ LEXICON Postpositions
 
 караганда:караганда POSTLEX ; ! ""
 карамастан:карамастан POSTLEX ; ! ""
+карамый:карамый POSTLEX ; ! ""
 карата:карата POSTLEX ; ! ""
 каршы:каршы POSTLEX ; ! ""
 күрә:күрә POSTLEX ; ! ""
@@ -1698,6 +1699,10 @@ LEXICON Postpositions
 соң:соң POSTLEX ; ! "after+ABL"
 тыш:тыш POSTLEX ; ! "+ABL"
 элек:элек POSTLEX ; ! "+ABL"
+
+! which require "белән" before them
+
+бергә:бергә POSTLEX ; ! ""
 
 ! FIXME: To be checked
 

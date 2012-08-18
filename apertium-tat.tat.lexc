@@ -1462,13 +1462,13 @@ LEXICON NUM-ROMAN
 
 %<num%>%<ord%>: # ;
 
-LEXICON POSTLEX
+LEXICON POST
 
-%<post%>: CLIT ; 
+%<post%>: CLIT ;
 
-LEXICON POSTADVLEX
+LEXICON POSTADV
 
-%<postadv%>: # ; 
+%<postadv%>: # ;
 
 LEXICON ADVITG
 
@@ -1646,85 +1646,85 @@ LEXICON Postpositions
 ! which Govern the Nominative Case of Nouns and
 ! the Genitive Case of (personal and demonstrative) Pronouns.
 
-аркылы:аркылы POSTLEX ; ! ""
-астына:астына POSTLEX ; ! ""
-астында:астында POSTLEX ; ! ""
-аша:аша POSTLEX ; ! ""
-белән:белән POSTLEX ; ! ""
-буе:буе POSTLEX ; ! ""
-буенда:буенда POSTLEX ; ! ""
-буенча:буенча POSTLEX ; ! ""
-буйлап:буйлап POSTLEX ; ! ""
-кебек:кебек POSTLEX ; ! ""
-күк:күк POSTLEX ; ! ""
-максатында:максатында POSTLEX ; ! "" Use/MT
-саен:саен POSTLEX ; ! ""
-сыман:сыман POSTLEX ; ! ""
-турында:турында POSTLEX ; ! ""
-хакында:хакында POSTLEX ; ! ""
-шикелле:шикелле POSTLEX ; ! ""
-өчен:өчен POSTLEX ; ! ""
+аркылы:аркылы POST ; ! ""
+астына:астына POST ; ! ""
+астында:астында POST ; ! ""
+аша:аша POST ; ! ""
+белән:белән POST ; ! ""
+буе:буе POST ; ! ""
+буенда:буенда POST ; ! ""
+буенча:буенча POST ; ! ""
+буйлап:буйлап POST ; ! ""
+кебек:кебек POST ; ! ""
+күк:күк POST ; ! ""
+максатында:максатында POST ; ! "" Use/MT
+саен:саен POST ; ! ""
+сыман:сыман POST ; ! ""
+турында:турында POST ; ! ""
+хакында:хакында POST ; ! ""
+шикелле:шикелле POST ; ! ""
+өчен:өчен POST ; ! ""
 
 ! which Govern the Nominative Case
 ! (just because it is hard to imagine them be used with personal and demonstrative pronouns)
 
-тапкыр:тапкыр POSTLEX ; ! "" FIXME:CHECK: POS - noun?
+тапкыр:тапкыр POST ; ! "" FIXME:CHECK: POS - noun?
 
 ! which Govern Nominative/Genitive/Dative cases
 
-кадәр:кадәр POSTLEX ; ! ""
-тикле:тикле POSTLEX ; ! ""
-хәтле:хәтле POSTLEX ; ! ""
-чаклы:чаклы POSTLEX ; ! ""
+кадәр:кадәр POST ; ! ""
+тикле:тикле POST ; ! ""
+хәтле:хәтле POST ; ! ""
+чаклы:чаклы POST ; ! ""
 
 ! which Govern the Dative Case
 
-караганда:караганда POSTLEX ; ! ""
-карамастан:карамастан POSTLEX ; ! ""
-карамый:карамый POSTLEX ; ! ""
-карата:карата POSTLEX ; ! ""
-каршы:каршы POSTLEX ; ! ""
-күрә:күрә POSTLEX ; ! ""
-таба:таба POSTLEX ; ! ""
-тәгаенләнгән:тәгаенләнгән POSTLEX ; ! "" Use/MT
-якын:якын POSTLEX ; ! ""
-ярашлы% рәвештә:ярашлы% рәвештә POSTLEX ; ! "" Use/MT
+караганда:караганда POST ; ! ""
+карамастан:карамастан POST ; ! ""
+карамый:карамый POST ; ! ""
+карата:карата POST ; ! ""
+каршы:каршы POST ; ! ""
+күрә:күрә POST ; ! ""
+таба:таба POST ; ! ""
+тәгаенләнгән:тәгаенләнгән POST ; ! "" Use/MT
+якын:якын POST ; ! ""
+ярашлы% рәвештә:ярашлы% рәвештә POST ; ! "" Use/MT
 
 ! which Govern the Ablative Case
 
-ары:ары POSTLEX ; ! "+ABL"
-башка:башка POSTLEX ; ! "+ABL"
-бирле:бирле POSTLEX ; ! "+ABL"
-бүтән:бүтән POSTLEX ; ! "+ABL"
-соң:соң POSTLEX ; ! "after+ABL"
-тыш:тыш POSTLEX ; ! "+ABL"
-элек:элек POSTLEX ; ! "+ABL"
+ары:ары POST ; ! "+ABL"
+башка:башка POST ; ! "+ABL"
+бирле:бирле POST ; ! "+ABL"
+бүтән:бүтән POST ; ! "+ABL"
+соң:соң POST ; ! "after+ABL"
+тыш:тыш POST ; ! "+ABL"
+элек:элек POST ; ! "+ABL"
 
 ! which require "белән" before them
 
-бергә:бергә POSTLEX ; ! ""
+бергә:бергә POST ; ! ""
 
 ! FIXME: To be checked
 
-буларак:буларак POSTLEX ; ! ""
+буларак:буларак POST ; ! ""
 
 LEXICON Postadverbs
 
-гына:%~гына POSTADVLEX ; ! "only" Dir/RL
-гына:гына POSTADVLEX ; ! "" Dir/LR
-гына:генә POSTADVLEX ; ! "" Dir/LR
-гына:кына POSTADVLEX ; ! "" Dir/LR
-гына:кенә POSTADVLEX ; ! "" Dir/LR
+гына:%~гына POSTADV ; ! "only" Dir/RL
+гына:гына POSTADV ; ! "" Dir/LR
+гына:генә POSTADV ; ! "" Dir/LR
+гына:кына POSTADV ; ! "" Dir/LR
+гына:кенә POSTADV ; ! "" Dir/LR
 
-да:%~да POSTADVLEX ; ! "1. even if" Dir/RL
-да:да POSTADVLEX ; ! "" Dir/LR
-да:дә POSTADVLEX ; ! "" Dir/LR
-да:та POSTADVLEX ; ! "" Dir/LR
-да:тә POSTADVLEX ; ! "" Dir/LR
+да:%~да POSTADV ; ! "1. even if" Dir/RL
+да:да POSTADV ; ! "" Dir/LR
+да:дә POSTADV ; ! "" Dir/LR
+да:та POSTADV ; ! "" Dir/LR
+да:тә POSTADV ; ! "" Dir/LR
 
-ук:%~ук POSTADVLEX ; ! "же, даже" Dir/RL
-ук:ук POSTADVLEX ; ! "" Dir/LR
-ук:үк POSTADVLEX ; ! "" Dir/LR
+ук:%~ук POSTADV ; ! "же, даже" Dir/RL
+ук:ук POSTADV ; ! "" Dir/LR
+ук:үк POSTADV ; ! "" Dir/LR
 
 
 !================!

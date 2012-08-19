@@ -33,6 +33,7 @@ Multichar_Symbols
 %<top%>        ! Toponym      ! Географик атама
 %<ant%>        ! Anthroponym  ! Кеше исеме
 %<cog%>        ! Cognomen     ! Фамилия
+%<pat%>        ! Patronym     ! Отчество
 %<org%>        ! Organization ! Оешма исеме
 %<al%>         ! Other        ! Калганнар
 
@@ -1423,14 +1424,23 @@ LEXICON NPCOGFLEX
 ! This isn't used at the moment,
 ! but e.g. ?Polish cognoms ending with -ска would take this cont.class /I.S./ 
 
-%<np%>%<cog%>%<f%>: CASE ; 
+%<np%>%<cog%>%<f%>: CASE ;
 
 LEXICON NPCOGMFLEX
 
 ! Dual-gender cognoms.
 ! Don't derive anything /I.S./
 
-%<np%>%<cog%>%<mf%>: CASE ; 
+%<np%>%<cog%>%<mf%>: CASE ;
+
+LEXICON NP-PAT-OVICH
+
+! For patronyms ending with -вич
+! Their feminine equivalets end with -вна /I.S./
+
+%<np%>%<pat%>%<m%>:вич CASE ;
+
+%<np%>%<pat%>%<f%>:вна CASE ;
 
 LEXICON NPORGLEX
 

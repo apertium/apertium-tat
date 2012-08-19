@@ -1399,7 +1399,8 @@ NLEX ;              ! a member of the nationality, e.g. "A Turk"
 LEXICON NPTOPLEX
 
 %<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
-                                ! *Мәскәүдәй?             
+                                ! *Мәскәүдәй?
+%<np%>%<top%>%<attr%>: # ;
 
 LEXICON NPANTMLEX
 

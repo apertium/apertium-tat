@@ -973,51 +973,51 @@ LEXICON V-COMMON-PASSIVE
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-FUT-IR ;
 
-!LEXICON V-DER
+LEXICON V-DER
 
 !%<caus%>:%>%{I%}т V-COMMON ;
 !%<caus%>:%>%{I%}т V-FUT-IR ;
 
-!%<coop%>:%>%{I%}ш V-COMMON ;
-!%<coop%>:%>%{I%}ш V-FUT-IR ;
+%<coop%>:%>%{I%}ш V-COMMON ;
+%<coop%>:%>%{I%}ш V-FUT-IR ;
 
 LEXICON V-IV-IR
 
 %<v%>%<iv%>: V-COMMON ;
 %<v%>%<iv%>: V-FUT-IR;
-!%<v%>%<iv%>: V-DER;
+%<v%>%<iv%>: V-DER;
 
 LEXICON V-TV-NOPASS-IR
 
 %<v%>%<tv%>: V-COMMON ;
 %<v%>%<tv%>: V-FUT-IR;
-!%<v%>%<tv%>: V-DER;
+%<v%>%<tv%>: V-DER;
 
 LEXICON V-TV-PASS-IR
 
 ! e.g. күрен
 %<v%>%<tv%>%<pass%>: V-COMMON ;
 %<v%>%<tv%>%<pass%>: V-FUT-IR;
-!%<v%>%<tv%>%<pass%>: V-DER;
+%<v%>%<tv%>%<pass%>: V-DER;
 
 LEXICON V-TV-IR
 
 %<v%>%<tv%>: V-COMMON ;
 %<v%>%<tv%>: V-FUT-IR;
-!%<v%>%<tv%>: V-DER;
+%<v%>%<tv%>: V-DER;
 V-COMMON-PASSIVE ;
 
 LEXICON V-IV-AR
 
 %<v%>%<iv%>: V-COMMON ;
 %<v%>%<iv%>: V-FUT-AR ;
-!%<v%>%<iv%>: V-DER;
+%<v%>%<iv%>: V-DER;
 
 LEXICON V-TV-AR
 
 %<v%>%<tv%>: V-COMMON ;
 %<v%>%<tv%>: V-FUT-AR ;
-!%<v%>%<tv%>: V-DER;
+%<v%>%<tv%>: V-DER;
 V-COMMON-PASSIVE ;
 
 !!!!!!!!!!!!!!!!!!!!!!     auxiliary verbs

@@ -1390,14 +1390,16 @@ LEXICON N3
 %<n%>%<attr%>: # ;
 %<n%>: N-INFL-COMMON ;
 
-LEXICON NAT
+!LEXICON NAT
 ! Nationalites
+!
+!NLEX ;            ! a member of the nationality, e.g. "A Turk"
+!:%>ш%{A%} ADV ;   ! as / in the style of the nat., e.g. "à la Turk"
+!:%>ш%{A%} NLEX ;  ! the language of the nationality, e.g. "Turkish"
 
-!A1 ;              ! nationality's adjectival form, e.g. "Turkish [food]" ! Consider <n.attr> reading for this 
-NLEX ;              ! a member of the nationality, e.g. "A Turk"
-:%>ш%{A%} ADV ;   ! as / in the style of the nat., e.g. "à la Turk"
-!:%>ш%{A%} ADV ;   ! in the language of the nationality, e.g. "in Turkish" ! I guess ADJ was meant /I.S./
-:%>ш%{A%} NLEX ;    ! the language of the nationality, e.g. "Turkish"
+LEXICON ADV-LANG
+NLEX ;
+ADV ;
 
 LEXICON NPTOPLEX
 
@@ -4302,45 +4304,44 @@ XXI NUM-ROMAN ; ! ""
 ! Nationalities
 !==============
 
-алман:алман NAT ; ! "German"
-американ:американ NAT ; ! ""
-гарәп:гарәп NAT ; ! "Arab"
-грек:грек NAT ; ! "Greek"
-инглиз:инглиз NAT ; ! "English"
-казакъ:казакъ NAT ; ! "Kazakh"
-карел:карел NAT ; ! ""
-кыргыз:кыргыз NAT ; ! "Kyrgyz"
-кытай:кытай NAT ; ! "Chinese"
-латин:латин NAT ; ! "Latin"
-монгол:монгол NAT ; ! "Mongol"
-нимес:немец NAT ; ! "German" Dir/LR
-нимес:нимес NAT ; ! "German"
-нимес:нимыс NAT ; ! "German" Dir/LR
-таҗик:таҗик NAT ; ! ""
-татар:татар NAT ; ! "Tatar"
-төрек:төрек NAT ; ! "Turkish"
-украин:украин NAT ; ! ""
-урыс:урыс NAT ; ! "Russian"
-үзбәк:үзбәк NAT ; ! "Uzbek"
-фарсы:фарсы NAT ; ! "Persian"
-француз:француз NAT ; ! "French"
-чех:чех NAT ; ! "Czech"
-чуваш:чуаш NAT ; ! "Chuvash" Dir/LR 
-чуваш:чуваш NAT ; ! "Chuvash"
-грузин:грузин NAT ; ! ""
-бурят:бурят NAT ; ! ""
-венгр:венгр NAT ; ! ""
-белорус:белорус NAT ; ! ""
-арамей:арамей NAT ; ! ""
-поляк:поляк NAT ; ! ""
-урду:урду NAT ; ! ""
-мордва:мордва NAT ; ! ""
-гуарани:гуарани NAT ; ! ""
-башкорт:башкорт NAT ; ! ""
-итальян:итальян NAT ; ! ""
-швед:швед NAT ; ! ""
-якут:якут NAT ; ! ""
-американ:американ NAT ; ! ""
+алман:алман NLEX ; ! "German"
+американ:американ NLEX ; ! ""
+гарәп:гарәп NLEX ; ! "Arab"
+грек:грек NLEX ; ! "Greek"
+инглиз:инглиз NLEX ; ! "English"
+казакъ:казакъ NLEX ; ! "Kazakh"
+карел:карел NLEX ; ! ""
+кыргыз:кыргыз NLEX ; ! "Kyrgyz"
+кытай:кытай NLEX ; ! "Chinese"
+латин:латин NLEX ; ! "Latin"
+монгол:монгол NLEX ; ! "Mongol"
+нимес:немец NLEX ; ! "German" Dir/LR
+нимес:нимес NLEX ; ! "German"
+нимес:нимыс NLEX ; ! "German" Dir/LR
+таҗик:таҗик NLEX ; ! ""
+татар:татар NLEX ; ! "Tatar"
+төрек:төрек NLEX ; ! "Turkish"
+украин:украин NLEX ; ! ""
+урыс:урыс NLEX ; ! "Russian"
+үзбәк:үзбәк NLEX ; ! "Uzbek"
+фарсы:фарсы NLEX ; ! "Persian"
+француз:француз NLEX ; ! "French"
+чех:чех NLEX ; ! "Czech"
+чуваш:чуаш NLEX ; ! "Chuvash" Dir/LR
+чуваш:чуваш NLEX ; ! "Chuvash"
+грузин:грузин NLEX ; ! ""
+бурят:бурят NLEX ; ! ""
+венгр:венгр NLEX ; ! ""
+белорус:белорус NLEX ; ! ""
+арамей:арамей NLEX ; ! ""
+поляк:поляк NLEX ; ! ""
+урду:урду NLEX ; ! ""
+мордва:мордва NLEX ; ! ""
+гуарани:гуарани NLEX ; ! ""
+башкорт:башкорт NLEX ; ! ""
+итальян:итальян NLEX ; ! ""
+швед:швед NLEX ; ! ""
+якут:якут NLEX ; ! ""
 
 
 !===================!
@@ -8101,6 +8102,50 @@ Witness:Witness NPALLEX ; ! ""
 
 ! Adverbs wich take -KI and become an attr/adj
 !=============================================
+
+! Languages :)
+!=============
+
+алманча:алманча ADV-LANG ; ! "German"
+американча:американча ADV-LANG ; ! ""
+гарәпчә:гарәпчә ADV-LANG ; ! "Arab"
+грекча:грекча ADV-LANG ; ! "Greek"
+инглизчә:инглизчә ADV-LANG ; ! "English"
+казакъча:казакъча ADV-LANG ; ! "Kazakh"
+карелча:карелча ADV-LANG ; ! ""
+кыргызча:кыргызча ADV-LANG ; ! "Kyrgyz"
+кытайча:кытайча ADV-LANG ; ! "Chinese"
+латинча:латинча ADV-LANG ; ! "Latin"
+монголча:монголча ADV-LANG ; ! "Mongol"
+нимесчә:немецча ADV-LANG ; ! "German" Dir/LR
+нимесчә:нимесчә ADV-LANG ; ! "German"
+нимесчә:нимысча ADV-LANG ; ! "German" Dir/LR
+таҗикча:таҗикча ADV-LANG ; ! ""
+татарча:татарча ADV-LANG ; ! "Tatar"
+төрекчә:төрекчә ADV-LANG ; ! "Turkish"
+украинча:украинча ADV-LANG ; ! ""
+урысча:урысча ADV-LANG ; ! "Russian"
+үзбәкчә:үзбәкчә ADV-LANG ; ! "Uzbek"
+фарсыча:фарсыча ADV-LANG ; ! "Persian"
+французча:французча ADV-LANG ; ! "French"
+чехча:чехча ADV-LANG ; ! "Czech"
+чувашча:чуашча ADV-LANG ; ! "Chuvash" Dir/LR
+чувашча:чувашча ADV-LANG ; ! "Chuvash"
+грузинча:грузинча ADV-LANG ; ! ""
+бурятча:бурятча ADV-LANG ; ! ""
+венгрча:венгрча ADV-LANG ; ! ""
+белорусча:белорусча ADV-LANG ; ! ""
+арамейча:арамейча ADV-LANG ; ! ""
+полякча:полякча ADV-LANG ; ! ""
+урдуча:урдуча ADV-LANG ; ! ""
+мордвача:мордвача ADV-LANG ; ! ""
+гуаранича:гуаранича ADV-LANG ; ! ""
+башкортча:башкортча ADV-LANG ; ! ""
+итальянча:итальянча ADV-LANG ; ! ""
+шведчә:шведчә ADV-LANG ; ! ""
+шведчә:шведча ADV-LANG ; ! "" Dir/LR
+якутча:якутча ADV-LANG ; ! ""
+
 
 !=============!
  LEXICON Verbs

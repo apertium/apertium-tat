@@ -1439,7 +1439,7 @@ LEXICON NPCOGMFLEX
 
 %<np%>%<cog%>%<mf%>: CASE ;
 
-LEXICON NP-PAT-OVICH
+LEXICON NP-PAT-VICH
 
 ! For patronyms ending with -вич
 ! Their feminine equivalets end with -вна /I.S./
@@ -4434,6 +4434,8 @@ XXI NUM-ROMAN ; ! ""
 Тубыл:Тубыл NPTOPLEX ; ! ""
 Чечня:Чечня NPTOPLEX ; ! ""
 Чиләбе:Чиләбе NPTOPLEX ; ! ""
+Петербург:Петербург NPTOPLEX ; ! ""
+Сталинград:Сталинград NPTOPLEX ; ! ""
 
 ! Countries
 !----------
@@ -4788,6 +4790,7 @@ XXI NUM-ROMAN ; ! ""
 Аурупа:Аурупа NPTOPLEX ; ! ""
 Аурупа:Европа NPTOPLEX ; ! "" Dir/LR
 Африка:Африка NPTOPLEX ; ! ""
+Антарктида:Антарктида NPTOPLEX ; ! ""
 
 Агыйдел:Агыйдел NPTOPLEX ; ! ""
 Айдос:Айдос NPTOPLEX ; ! ""
@@ -4816,6 +4819,7 @@ XXI NUM-ROMAN ; ! ""
 Тын:Тын NPTOPLEX ; ! ""
 Урта% диңгез:Урта% диңгез NPTOPLEX ; ! ""
 Чулман:Чулман NPTOPLEX ; ! ""
+Байкал:Байкал NPTOPLEX ; ! ""
 
 Алай:Алай NPTOPLEX ; ! ""
 Алаш:Алаш NPTOPLEX ; ! ""
@@ -4830,6 +4834,9 @@ XXI NUM-ROMAN ; ! ""
 Улытау:Улытау NPTOPLEX ; ! "" FIXME CHECK -->"
 Урал:Урал NPTOPLEX ; ! ""
 Урта% Көнчыгыш:Урта% Көнчыгыш NPTOPLEX ; ! ""
+Гималай:Гималай NPTOPLEX ; ! ""
+Тибет:Тибет NPTOPLEX ; ! ""
+Цейлон:Цейлон NPTOPLEX ; ! ""
 
 ! Anthroponyms
 !=============
@@ -5154,6 +5161,14 @@ XXI NUM-ROMAN ; ! ""
 Леонардо:Леонардо NPANTMLEX ; ! ""
 Михаэлис:Михаэлис NPANTMLEX ; ! ""
 Платон:Платон NPANTMLEX ; ! ""
+
+! Patronyms
+!==========
+
+Васильевич:Василье NP-PAT-VICH ; ! ""
+Павлович:Павло NP-PAT-VICH ; ! ""
+Сергеевич:Сергее NP-PAT-VICH ; ! ""
+Иванович:Ивано NP-PAT-VICH ; ! ""
 
 ! Cognoms
 !========
@@ -7210,6 +7225,11 @@ Witness:Witness NPALLEX ; ! ""
 Юность:Юность NPALLEX ; ! ""
 Остров:Остров NPALLEX ; ! ""
 Мир:Мир NPALLEX ; ! ""
+
+Аполло:Аполло NPALLEX ; ! ""
+Атлант:Атлант NPALLEX ; ! ""
+Волга:Волга NPALLEX ; ! ""
+Казакфильм:Казакфильм NPALLEX ; ! ""
 
 !==================!
  LEXICON Adjectives

@@ -1426,6 +1426,10 @@ LEXICON NPCOGFLEX
 
 %<np%>%<cog%>%<f%>: CASE ;
 
+LEXICON NP-COG-M
+
+%<np%>%<cog%>%<m%>: CASE ;
+
 LEXICON NPCOGMFLEX
 
 ! Dual-gender cognoms.
@@ -4758,6 +4762,10 @@ XXI NUM-ROMAN ; ! ""
 Таллин:Таллин NPTOPLEX ; ! ""
 Тирана:Тирана NPTOPLEX ; ! ""
 
+Нарын:Нарын NPTOPLEX ; ! ""
+Фирганә:Фирганә NPTOPLEX ; ! ""
+Венеция:Венеция NPTOPLEX ; ! ""
+
 ! Other toponyms
 !---------------
 
@@ -5129,9 +5137,21 @@ XXI NUM-ROMAN ; ! ""
 Эмомали:Эмомали NPANTMLEX ; ! ""
 Юлия:Юлия NPANTFLEX ; ! ""
 Юрий:Юрий NPANTMLEX ; ! ""
+Аристотель:Аристотель NPANTMLEX ; ! ""
+Гомер:Гомер NPANTMLEX ; ! ""
+Ибраһим:Ибраһим NPANTMLEX ; ! ""
+Карл:Карл NPANTMLEX ; ! ""
+Леонардо:Леонардо NPANTMLEX ; ! ""
+Михаэлис:Михаэлис NPANTMLEX ; ! ""
+Платон:Платон NPANTMLEX ; ! ""
 
 ! Cognoms
 !========
+
+! Masculine
+!----------
+
+Толстой:Толстой NP-COG-M ; ! ""
 
 ! Masculine/feminine
 !-------------------
@@ -5338,6 +5358,11 @@ Cәрсенбайулы:Cәрсенбайулы NPCOGMFLEX ; ! ""
 Антоненко:Антоненко NPCOGMFLEX ; ! ""
 Анищенко:Анищенко NPCOGMFLEX ; ! ""
 Авраменко:Авраменко NPCOGMFLEX ; ! ""
+Гоголь:Гоголь NPCOGMFLEX ; ! ""
+Маркс:Маркс NPCOGMFLEX ; ! ""
+Мендель:Мендель NPCOGMFLEX ; ! ""
+Шевченко:Шевченко NPCOGMFLEX ; ! ""
+Шекспир:Шекспир NPCOGMFLEX ; ! ""
 
 ! Masculine -ов and -ин cognoms
 !------------------------------
@@ -7068,6 +7093,7 @@ Cәрсенбайулы:Cәрсенбайулы NPCOGMFLEX ; ! ""
 Ямышев:Ямышев NP-COG-OB ; ! ""
 Яранцев:Яранцев NP-COG-OB ; ! ""
 Ярославцев:Ярославцев NP-COG-OB ; ! ""
+Пушкин:Пушкин NP-COG-OB ; ! ""
 
 ! Feminine  ! FIXME: derive them from masculine cognoms
 !---------

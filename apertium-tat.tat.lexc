@@ -1376,17 +1376,19 @@ LEXICON DET-REF
 
 LEXICON NLEX
 
-%<n%>%<attr%>: # ; 
+%<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
 LEXICON N-COMPOUND-PX ! consider "N2" for the name
                       ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
-                      ! FIXME:NOTE: check this, leads to foo bar\/foo barсы :)
-                      ! It turned out to be because of ^CASE-ETC ; in POSS-REAL cont.class
-                      ! It will be fixed soon
 
 %<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
 %<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+
+LEXICON N3
+
+%<n%>%<attr%>: # ;
+%<n%>: N-INFL-COMMON ;
 
 LEXICON NAT
 ! Nationalites
@@ -4265,6 +4267,9 @@ XXI NUM-ROMAN ; ! ""
 гигиена:гигиена NLEX ; ! ""
 метаморф:метаморф NLEX ; ! ""
 пластика:пластика NLEX ; ! ""
+компартия:компартия NLEX ; ! ""
+Аллаһ:Аллаһ N3 ; ! ""
+Будда:Будда N3 ; ! ""
 
 ! Nouns used as postpositions when <posssessive><case>
 !=====================================================
@@ -4321,10 +4326,11 @@ XXI NUM-ROMAN ; ! ""
 итальян:итальян NAT ; ! ""
 швед:швед NAT ; ! ""
 якут:якут NAT ; ! ""
+американ:американ NAT ; ! ""
 
 
 !===================!
- LEXICON ProperNouns 
+ LEXICON ProperNouns
 !===================!
 
 
@@ -4620,6 +4626,10 @@ XXI NUM-ROMAN ; ! ""
 Экваториаль% Гвинея:Экваториаль% Гвинея NPTOPLEX ; ! ""
 Эритрея:Эритрея NPTOPLEX ; ! ""
 Эфиопия:Эфиопия NPTOPLEX ; ! ""
+Византия:Византия NPTOPLEX ; ! ""
+Зеландия:Зеландия NPTOPLEX ; ! ""
+Моголстан:Моголстан NPTOPLEX ; ! ""
+Госман:Госман NPTOPLEX ; ! ""
 
 ! Cities of the world
 !--------------------

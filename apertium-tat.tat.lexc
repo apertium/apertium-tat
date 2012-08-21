@@ -1037,7 +1037,7 @@ LEXICON VAUX-AR
 LEXICON COP-I
 
 и%<cop%>%<ger_past%>:икән GER-POSS-REAL ;
-и%<cop%>%<ger_past%>:икән%>л%{I%}к GER-POSS-REAL ;
+и%<cop%>%<ger_perf%>:икән%>л%{I%}к GER-POSS-REAL ;
 
 и%<cop%>%<neg%>:түгел V-PERS-S1 ;
 и%<cop%>%<past%>:икән V-PERS-S1 ;

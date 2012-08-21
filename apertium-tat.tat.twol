@@ -207,7 +207,8 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 ! I don't think this happens after /r/?  -JNW
 "Passive {l} becomes n after verb stem ending in /l/ or /r/"
 %{l%}:н <=> [ л :Vow ]/[ :0 | %>: ] _ ;
-            [ р :Vow ]/[ :0 | %>: ] _ ;
+!            [ р :Vow ]/[ :0 | %>: ] _ ; ! бирелгән, каралган - I don't think that
+                                         ! the last line is needed /IS/
 
 "Forward voicing assimilation"
 Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;

@@ -1493,13 +1493,26 @@ LEXICON POSTADV
 
 %<postadv%>: # ;
 
-LEXICON ADVITG
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-%<adv%>%<itg%>: # ;
+LEXICON KI
+
+%<attr%>:%>%{G%}%{I%} CLIT ;
 
 LEXICON ADV
 
 %<adv%>: CLIT ;
+
+LEXICON ADV-WITH-KI
+
+ADV ;
+%<adv%>: KI ;
+
+LEXICON ADVITG
+
+%<adv%>%<itg%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON CCLEX
 
@@ -8026,7 +8039,6 @@ Witness:Witness NPALLEX ; ! ""
 бүгендә:бүгендә ADV ; ! "" FIXME CHECK pos
 бүгеннән:бүгеннән ADV ; ! ""
 быел:быел ADV ; ! "this year"
-былтыр:былтыр ADV ; ! "last year"
 вакытлыча:вакытлыча ADV ; ! ""
 вакыттагыча:вакыттагыча ADV ; ! ""
 гадәттә:гадәттә ADV ; ! ""
@@ -8101,6 +8113,8 @@ Witness:Witness NPALLEX ; ! ""
 
 ! Adverbs wich take -KI and become an attr/adj
 !=============================================
+
+былтыр:былтыр ADV-WITH-KI ; ! "last year"
 
 ! Languages :)
 !=============

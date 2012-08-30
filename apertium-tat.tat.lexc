@@ -1508,6 +1508,11 @@ LEXICON ADV-WITH-KI
 ADV ;
 %<adv%>: KI ;
 
+LEXICON ADV-WITH-KI-BIRE
+
+ADV ;
+%<adv%>%<attr%>:дәге CLIT ;
+
 LEXICON ADVITG
 
 %<adv%>%<itg%>: # ;
@@ -8109,6 +8114,8 @@ Witness:Witness NPALLEX ; ! ""
 соң:соң ADV-WITH-KI ; ! ""
 хәзер:хәзер ADV-WITH-KI ; ! "contrastive now"
 элек:элек ADV-WITH-KI ; ! "earlier"
+
+бире:бире ADV-WITH-KI-BIRE ; ! "" FIXME CHECK
 
 ! Languages :)
 !=============

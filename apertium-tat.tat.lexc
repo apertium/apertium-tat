@@ -1690,7 +1690,7 @@ COP-I ; ! ""
 шул% сәбәпле:шул% сәбәпле CALEX ; ! "therefore"
 шунлыктан:шунлыктан CALEX ; ! "that is why"
 шуңа% күрә:шуңа% күрә CALEX ; ! "therefore"
-
+cүзенчә:cүзенчә CALEX ; ! ""
 
 !=====================!
  LEXICON Postpositions
@@ -1807,6 +1807,7 @@ PRON-ITG ;
 бернәрсә:бернәрсә PRNNEG ; ! ""
 һичкем:һичкем PRNNEG ; ! ""
 беркем:беркем PRNNEG ; ! ""
+берни:берни PRNNEG ; ! ""
 
 үз:үз PRON-REF ; ! "self"
 
@@ -4320,6 +4321,36 @@ XXI NUM-ROMAN ; ! ""
 яшь:яшь NLEX ; ! ""
 ящек:ящек NLEX ; ! ""
 
+иммиграция:иммиграция NLEX ; ! ""
+автобус:автобус NLEX ; ! ""
+гаеп:гаеп NLEX ; ! ""
+утрау:утрау NLEX ; ! ""
+хастаханә:хастаханә NLEX ; ! ""
+балкон:балкон NLEX ; ! ""
+пикет:пикет NLEX ; ! ""
+бомба:бомба NLEX ; ! ""
+илчелек:илчелек NLEX ; ! ""
+сугышчы:сугышчы NLEX ; ! ""
+застава:застава NLEX ; ! ""
+пенсия:пенсия NLEX ; ! ""
+кабинет:кабинет%{ъ%} NLEX ; ! ""
+корал:корал NLEX ; ! ""
+соң:соң NLEX ; ! ""
+кодекс:кодекс%{ъ%} NLEX ; ! ""
+машина:машина NLEX ; ! ""
+хезмәттәш:хезмәттәш NLEX ; ! ""
+панк:панк NLEX ; ! ""
+сайт:сайт NLEX ; ! ""
+солдат:солдат NLEX ; ! ""
+диңгезче:диңгезче NLEX ; ! ""
+теракт:теракт NLEX ; ! ""
+аңлатма:аңлатма NLEX ; ! ""
+вилаят:вилаят NLEX ; ! ""
+тәнәфес:тәнәфес NLEX ; ! ""
+фронт:фронт NLEX ; ! ""
+чик% сакчысы:чик% сакчы N-COMPOUND-PX ; ! ""
+штаб:штаб NLEX ; ! ""
+
 ! Nouns used as postpositions when <posssessive><case>
 !=====================================================
 
@@ -4374,6 +4405,7 @@ XXI NUM-ROMAN ; ! ""
 чуваш:чуваш NLEX ; ! "Chuvash"
 швед:швед NLEX ; ! ""
 якут:якут NLEX ; ! ""
+көрд:көрд NLEX ; ! ""
 
 
 !===================!
@@ -4678,6 +4710,7 @@ XXI NUM-ROMAN ; ! ""
 Эстония:Эстония NPTOPLEX ; ! "Estonia"
 Эфиопия:Эфиопия NPTOPLEX ; ! ""
 Япония:Япония NPTOPLEX ; ! "Japan"
+Эквадор:Эквадор NPTOPLEX ; ! ""
 
 ! Cities of the world
 !--------------------
@@ -4722,7 +4755,8 @@ XXI NUM-ROMAN ; ! ""
 Вильнюс:Вильнюс NPTOPLEX ; ! "" 
 Вроцлав:Вроцлав NPTOPLEX ; ! ""
 Вьентьян:Вьентьян NPTOPLEX ; ! "" 
-Гаванна:Гаванна NPTOPLEX ; ! "" 
+Гаванна:Гаванна NPTOPLEX ; ! ""
+Газиантеп:Газиантеп NPTOPLEX ; ! ""
 Гамман:Гамман NPTOPLEX ; ! "" 
 Гданьск:Гданьск NPTOPLEX ; ! ""
 Дакар:Дакар NPTOPLEX ; ! "" 
@@ -4863,6 +4897,8 @@ XXI NUM-ROMAN ; ! ""
 Тын:Тын NPTOPLEX ; ! ""
 Урта% диңгез:Урта% диңгез NPTOPLEX ; ! ""
 Чулман:Чулман NPTOPLEX ; ! ""
+Ак%-Су:Ак%-Су NPTOPLEX ; ! ""
+Ысыккүл:Ысыккүл NPTOPLEX ; ! ""
 
 Алай:Алай NPTOPLEX ; ! ""
 Алаш:Алаш NPTOPLEX ; ! ""
@@ -4880,6 +4916,8 @@ XXI NUM-ROMAN ; ! ""
 Урал:Урал NPTOPLEX ; ! ""
 Урта% Көнчыгыш:Урта% Көнчыгыш NPTOPLEX ; ! ""
 Цейлон:Цейлон NPTOPLEX ; ! ""
+Сенкаку:Сенкаку NPTOPLEX ; ! ""
+Эчкили%-Таш:Эчкили%-Таш NPTOPLEX ; ! ""
 
 ! Anthroponyms
 !=============
@@ -5198,8 +5236,7 @@ XXI NUM-ROMAN ; ! ""
 Хиллари:Хиллари NPANTFLEX ; ! ""
 Хосе:Хосе NPANTMLEX ; ! ""
 Чыңгыз:Чыңгыз NPANTMLEX ; ! ""
-Чыңгызхан:Чыңгызхан NPANTMLEX ; ! "" Mosty it's written
-                               ! separately, but occures as one word also
+Чыңгызхан:Чыңгызхан NPANTMLEX ; ! "" Mosty it's written separately, but occures as one word also
 Шәмше:Шәмше NPANTMLEX ; ! ""
 Шәүкәт:Шәүкәт NPANTMLEX ; ! ""
 Шәүкәт:Шәүкәт NPANTMLEX ; ! ""
@@ -5209,6 +5246,13 @@ XXI NUM-ROMAN ; ! ""
 Эмомали:Эмомали NPANTMLEX ; ! ""
 Юлия:Юлия NPANTFLEX ; ! ""
 Юрий:Юрий NPANTMLEX ; ! ""
+
+Акжанат:Акжанат NPANTMLEX ; ! ""
+Арсений:Арсений NPANTMLEX ; ! ""
+Бәсир:Бәсир NPANTMLEX ; ! ""
+Сапаргали:Сапаргали NPANTMLEX ; ! ""
+Сәрек:Сәрек NPANTMLEX ; ! ""
+Сталбәк:Сталбәк NPANTMLEX ; ! ""
 
 ! Patronyms
 !==========
@@ -5436,6 +5480,10 @@ XXI NUM-ROMAN ; ! ""
 Янукович:Янукович NPCOGMFLEX ; ! ""
 Ясави:Ясави NPCOGMFLEX ; ! ""
 Яценко:Яценко NPCOGMFLEX ; ! ""
+
+Ассанж:Ассанж NPCOGMFLEX ; ! ""
+Аталай:Аталай NPCOGMFLEX ; ! ""
+Кей:Кей NPCOGMFLEX ; ! ""
 
 ! Masculine -ов and -ин cognoms
 !------------------------------
@@ -7173,6 +7221,11 @@ XXI NUM-ROMAN ; ! ""
 Яранцев:Яранцев NP-COG-OB ; ! ""
 Ярославцев:Ярославцев NP-COG-OB ; ! ""
 
+Әминов:Әминов NP-COG-OB ; ! ""
+Плугов:Плугов NP-COG-OB ; ! ""
+Турчинов:Турчинов NP-COG-OB ; ! ""
+Усубакунов:Усубакунов NP-COG-OB ; ! ""
+
 ! Organizations
 !==============
 
@@ -7273,7 +7326,7 @@ Witness:Witness NPALLEX ; ! ""
 Челси:Челси NPALLEX ; ! ""
 Читта:Читта NPALLEX ; ! ""
 Юность:Юность NPALLEX ; ! ""
-
+New% York% Times:New% York% Times NPALLEX ; ! ""
 
 !==================!
  LEXICON Adjectives
@@ -7466,6 +7519,10 @@ Witness:Witness NPALLEX ; ! ""
 этнографик:этнографик A4 ; ! ""
 югарыда% әйтелгән:югарыда% әйтелгән A4 ; ! "" Use/MT
 юридик:юридик A4 ; ! ""
+зеландияле:зеландияле A4 ; ! ""
+кытайлы:кытайлы A4 ; ! ""
+коллектив:коллектив A4 ; ! ""
+украиналы:украиналы A4 ; ! ""
 
 ! A3 adj., adj.subst
 !===================
@@ -8113,6 +8170,7 @@ Witness:Witness NPALLEX ; ! ""
 янәдән:янәдән ADV ; ! "again"
 янә:янә ADV ; ! "again"
 яртылаш:яртылаш ADV ; ! ""
+алда:алда ADV ; ! "" FIXME CHECK
 
 ! Adverbs wich take -KI and become an attr/adj
 !=============================================
@@ -9290,7 +9348,7 @@ Witness:Witness NPALLEX ; ! ""
 ыр:ыр V-TV-IR ; ! "hit"
 ышан:ышан V-TV-IR ; ! "believe"
 ышыклан:ышыклан V-IV-IR ; ! "to seek shelter (from bad weather)"
-эвакуациялән:эвакуациялән V-IV-IR ; ! "to evacuate"
+эвакуациялә:эвакуациялә V-TV-IR ; ! "to evacuate"
 эзәрлә:эзәрлә V-TV-IR ; ! "follow someone closely"
 эзлә:эзлә V-TV-IR ; ! ""
 элеп% куй:элеп% куй V-TV-AR ; ! "to line" Use/MT
@@ -9384,6 +9442,18 @@ Witness:Witness NPALLEX ; ! ""
 яшерен:яшерен V-IV-IR ; ! ""
 яшер:яшер V-TV-IR ; ! ""
 яшә:яшә V-TV-IR ; ! "" consider яшәлгән >> transitive because of that
+
+көчлә:көчлә V-TV-IR ; ! ""
+канәгатьләндер:канәгатьләндер V-TV-IR ; ! ""
+әзерлеклә:әзерлеклә V-TV-IR ; ! ""
+тәгаенлә:тәгаенлә V-TV-IR ; ! ""
+туктат:туктат V-TV-IR ; ! ""
+тоткарла:тоткарла V-TV-IR ; ! ""
+экстрадициялә:экстрадициялә V-TV-IR ; ! ""
+
+яралан:яралан V-IV-IR ; ! ""
+вафат% бул:вафат% бул V-IV-IR ; ! ""
+һәлак% бул:һәлак% бул V-IV-IR ; ! ""
 
 ! Auxiliary verbs
 !================

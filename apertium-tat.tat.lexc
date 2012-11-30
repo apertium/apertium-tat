@@ -638,13 +638,17 @@ ABE-ETC ; ! FIXME check whether this is possible after adjectives and other
           ! Actually, not all pronouns take it. "Синсез" vs "*үземсез".
           ! Be careful :) /IS to himself/
 
-!!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
-!                                                               <s>(a separate ADJ-COMMON might be even better, see kaz.lexc)</s>
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION
+!
 ! FIXME: this section might need some refactoring
 !! e.g. change <adj><comp><subst> to <adj><subst><comp>
-!! and make use of ADJ-LEVELS class
+!! and make use of COMPARATIVE continuation class
 
-LEXICON ADJ-LEVELS
+LEXICON COMPARATIVE
 
 %<comp%>:%>р%{A%}%{K%} CLIT ;
 CLIT ;
@@ -662,7 +666,7 @@ LEXICON A1                ! adjectives that can be both substantivized and andve
 %<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
 %<adj%>%<comp%>%<advl%>:%>р%{A%}%{K%} CLIT ;          !# "Бәла бәхеттән тизрәк йөри."
 
-LEXICON A2                 ! (derived/not fully lexicalized) adjectives without adverbial reading;
+LEXICON A2                 ! adjectives without adverbial reading;
                            ! <adj> and <adj.subst> readings have comparison levels.
                            !# иске
 
@@ -672,8 +676,7 @@ LEXICON A2                 ! (derived/not fully lexicalized) adjectives without 
 %<adj%>%<subst%>: SUBST ;                             !# "Яңа булды дип, искене ташлама."
 %<adj%>%<comp%>%<subst%>:%>р%{A%}%{K%} SUBST ;        !# "Ихтимал, бу бина башкасы, искерәге урынында утырадыр."
  
-LEXICON A3                 ! (derived/not fully lexicalized) adjectives without adverbial reading,
-                           ! so-called "predicatives" (бар, юк);
+LEXICON A3                 ! adjectives without adverbial reading & so-called "predicatives" (бар, юк);
                            ! no comparison levels at all.
                            !# язгы, яшьлек, бар, юк
                             
@@ -681,7 +684,7 @@ LEXICON A3                 ! (derived/not fully lexicalized) adjectives without 
 %<adj%>%<subst%>: SUBST ;                             !# "Ул 14-25 яшьлекләргә бирелә."
                                                       !# "Хатыны юкның якыны юк." !# "Эше барның ашы бар."
 
-! FIXME:NOTE:loc.attr/subst form of some of them seems to be pure overgeneration:
+! FIXME:NOTE:loc.attr/subst form of some of them seems to be overgeneration:
 ! e.g. *язгыдагы
 
 LEXICON A4                 ! "pure" adjectives - no adverbial and substantive readings, no comparison levels;
@@ -694,6 +697,10 @@ LEXICON V-ADJ
 # ;
 %<subst%>: GER-INFL ; ! Dont't be confused by the name of the cont.class,
                       ! it's basically just a simplified N-INFL-COMMON
+
+
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 

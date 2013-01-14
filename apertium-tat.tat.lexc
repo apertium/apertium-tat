@@ -8751,7 +8751,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 кайгыр:кайгыр V-IV-IR ; ! "be in mourning, express sorrow, present condolences"
 кайгырт:кайгырт V-TV-IR ; ! "to irritate"
 кайна:кайна V-IV-IR ; ! "boil"
-кайтар:кайтар V-TV-IR ; ! "to trim the sharp end of some­thing"
+кайтар:кайтар V-TV-IR ; ! "" ?caus
 кайтарып% бир:кайтарып% бир V-TV-IR ; ! "" Use/MT
 кайт:кайт V-IV-IR ; ! "return"
 как:как V-TV-AR ; ! "knock"
@@ -9583,6 +9583,26 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 шулай& ит:шулай& ит V-TV-AR ; ! "" Use/MT
 түк:түк V-TV-AR ; ! ""
 тык:тык V-TV-AR ; ! ""
+
+ия% бул:ия% бул V-TV-IR ; ! ""
+искәрт:искәрт V-TV-IR ; ! ""
+ярала:ярала V-TV-IR ; ! ""
+яудыр:яудыр V-TV-IR ; ! "" caus
+юлла:юлла V-TV-IR ; ! ""
+күзлә:күзлә V-TV-IR ; ! ""
+рәнҗет:рәнҗет V-TV-IR ; ! "" caus
+сына:сына V-TV-IR ; ! ""
+таныт:таныт V-TV-IR ; ! "" caus
+тарат:тарат V-TV-IR ; ! ""
+терелт:терелт V-TV-IR ; ! "" caus
+түлә:түлә V-TV-IR ; ! ""
+төрт:төрт V-TV-IR ; ! ""
+төтәт:төтәт V-TV-IR ; ! ""
+торгыз:торгыз V-TV-IR ; ! "" caus
+кулга% ал:кулга% ал V-TV-IR ; ! ""
+өләш:өләш V-TV-IR ; ! ""
+чиклә:чиклә V-TV-IR ; ! ""
+коендыр:коендыр V-TV-IR ; ! "" caus
 
 ! Auxiliary verbs
 !================

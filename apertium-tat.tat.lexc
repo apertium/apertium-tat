@@ -8892,8 +8892,9 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 күреп% кал:күреп% кал V-TV-IR ; ! "" Use/MT
 күр:күр V-TV-NOPASS-IR ; ! ""
 күр:күрен V-TV-PASS-IR ; ! ""
-күрсәт:күрсәт V-TV-IR ; ! "show" (kaz tat) ?caus
-күтәр:күтәр V-TV-IR ; ! "lift"
+күрсәт:күрсәт V-TV-IR ; ! "to show" (kaz tat) ?caus
+күтәр:күтәр V-TV-IR ; ! "to lift"
+күтәрел:күтәрел V-IV-IR ; ! "to rise"
 күтәрт:күтәрт V-TV-IR ; ! "to load on someone's back" (tat) caus
 күчеп% йөр:күчеп% йөр V-IV-IR ; ! "to move to another place (of nomads)" Use/MT
 күчер:күчер V-TV-IR ; ! "to move"
@@ -9561,6 +9562,20 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 
 күчен:күчен V-IV-IR ; ! ""
 кичектер:кичектер V-TV-IR ; ! ""
+
+ясан:ясан V-IV-IR ; ! ""
+юнәл:юнәл V-IV-IR ; ! ""
+көрсен:көрсен V-IV-IR ; ! ""
+ватыл:ватыл V-IV-IR ; ! ""
+һәлакәткә% очра:һәлакәткә% очра V-IV-IR ; ! "" Use/MT
+сыен:сыен V-IV-IR ; ! ""
+кебек% бул:кебек% бул V-IV-IR ; ! "" Use/MT
+соклан:соклан V-IV-IR ; ! ""
+табын:табын V-IV-IR ; ! ""
+тагыл:тагыл V-IV-IR ; ! ""
+тазар:тазар V-IV-IR ; ! ""
+тул:тул V-IV-IR ; ! ""
+өрке:өрке V-IV-IR ; ! ""
 
 ! Auxiliary verbs
 !================

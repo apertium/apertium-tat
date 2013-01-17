@@ -7605,7 +7605,6 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 функциональ:функциональ A4 ; ! ""
 халыкара:халыкара A4 ; ! "international"
 хәбәрдар:хәбәрдар A4 ; ! "" FIXME note that this takes personal copula endings
-хәләл:хәләл A4 ; ! ""
 химик:химик A4 ; ! ""
 цикллы:цикллы A4 ; ! ""
 чагыштырмалы:чагыштырмалы A4 ; ! ""
@@ -7677,6 +7676,11 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 ябык:ябык A3 ; ! "closed"
 язгы:язгы A3 ; ! ""
 яшьлек:яшьлек A3 ; ! "after numerals: of ageX"
+
+хәләл:хәләл A3 ; ! ""
+тугры:тугры A3 ; ! ""
+ап%-ак:ап%-ак A3 ; ! ""
+ачулы:ачулы A3 ; ! ""
 
 ! A2 adj.(comp), adj.(comp).subst
 !================================

@@ -4820,6 +4820,11 @@ XXI NUM-ROMAN ; ! ""
 Япония:Япония NPTOPLEX ; ! "Japan"
 Эквадор:Эквадор NPTOPLEX ; ! ""
 
+Исраил:Исраил NPTOPLEX ; ! ""
+Исраил:Израиль NPTOPLEX ; ! "" Dir/LR
+Фиргавен:Фиргавен NPTOPLEX ; ! ""
+Сәмуд:Сәмуд NPTOPLEX ; ! ""
+
 ! Cities of the world
 !--------------------
 
@@ -5417,6 +5422,7 @@ XXI NUM-ROMAN ; ! ""
 Ыргызбай:Ыргызбай NPANTMLEX ; ! ""
 Йосыф:Йосыф NPANTMLEX ; ! ""
 Ягъкуб:Ягъкуб NPANTMLEX ; ! ""
+Израил:Израил NPANTMLEX ; ! ""
 
 ! Patronyms
 !==========

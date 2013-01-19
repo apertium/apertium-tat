@@ -1831,6 +1831,7 @@ PRON-ITG ;
 теге:теге DET-DEM ; ! ""
 шул:шул DET-DEM ; ! ""
 шушы:шушы DET-DEM ; ! ""
+ошбу:ошбу DET-DEM ; ! ""
 
 бар:бар DET-QNT ; ! ""
 барлык:барлык DET-QNT ; ! ""
@@ -1855,6 +1856,7 @@ PRON-ITG ;
 әллә% кай:әллә% кай DET-IND ; ! "" Use/MT
 кайбер:кайбер DET-IND ; ! "some"
 кайсыбер:кайсыбер DET-IND ; ! "some"
+әллә% ничә:әллә% ничә DET-IND ; ! ""
 
 кай:кай DET-ITG ; ! "which"
 кайсы:кайсы DET-ITG ; ! "which"

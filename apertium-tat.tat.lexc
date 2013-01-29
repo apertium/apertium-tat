@@ -8318,9 +8318,10 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 !===============!
 
 
-! Interrogative adverbs
-!======================
+! "Interrogative adverbs", "pronoun-adverbs"
+! ==========================================
 
+! Better classification/implementation possible
 кайда:кайда ADVITG ; ! ""
 кайдан:кайдан ADVITG ; ! ""
 кайчан:кайчан ADVITG ; ! ""
@@ -8328,7 +8329,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 ничек:ничек ADVITG ; ! "how"
 ни% өчен:ни% өчен ADVITG ; ! "why,what for" Use/MT
 никадәр:никадәр ADVITG ; ! ""
-
+никадәрле:никадәрле ADVITG ; ! ""
 һичкайчан:һичкайчан ADV ; ! "never"
 беркайчан:беркайчан ADV ; ! "never"
 беркайчан% да:беркайчан% да ADV ; ! "never" Use/MT

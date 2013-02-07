@@ -1221,7 +1221,7 @@ LEXICON PRON-DEM-TEGE
 теге%<prn%>%<dem%>%<pl%>:тегеләр CASE-ETC ;
 теге%<prn%>%<dem%>%<pl%>%<px3sp%>:тегеләре%{n%} CASE ;
 
-LEXICON PRON-DEM
+LEXICON DemonstrativePronouns
 
 PRON-DEM-BU ;
 PRON-DEM-ŠUL ;
@@ -1294,7 +1294,7 @@ LEXICON PRON-ITG-NINDI
 нинди%<prn%>%<itg%>%<sim%>%<pl%>:ниндиләр CASE ;
 нинди%<prn%>%<itg%>%<sim%>%<pl%>%<px3sp%>:ниндиләрен%{n%} CASE ;
 
-LEXICON PRON-ITG
+LEXICON InterrogativePronouns
 
 PRON-ITG-QAYSI ;
 PRON-ITG-NINDI ;
@@ -1797,20 +1797,21 @@ COP-I ; ! ""
 
 PersonalPronouns ;
 
-PRON-DEM ;
+DemonstrativePronouns ;
 
-PRON-ITG ;
+InterrogativePronouns ;
 
 башка:башка PRON-IND ; ! "other"
 
 барлык:барлык PRON-QNT ; ! ""
+берәү:берәү PRON-QNT ; ! ""
 һәркем:һәркем PRON-QNT ; ! ""
 
-һичнәрсә:һичнәрсә PRNNEG ; ! ""
-бернәрсә:бернәрсә PRNNEG ; ! ""
-һичкем:һичкем PRNNEG ; ! ""
 беркем:беркем PRNNEG ; ! ""
+бернәрсә:бернәрсә PRNNEG ; ! ""
 берни:берни PRNNEG ; ! ""
+һичкем:һичкем PRNNEG ; ! ""
+һичнәрсә:һичнәрсә PRNNEG ; ! ""
 
 үз:үз PRON-REF ; ! "self"
 
@@ -2569,6 +2570,7 @@ XXI NUM-ROMAN ; ! ""
 журналчы:журналчы NLEX ; ! ""
 җыелма:җыелма NLEX ; ! ""
 җыелыш:җыелыш NLEX ; ! ""
+җыен:җыен NLEX ; ! ""
 җыентык:җыентык NLEX ; ! ""
 җылдамлык:җылдамлык NLEX ; ! ""
 җылы:җылы NLEX ; ! ""
@@ -7521,7 +7523,6 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 ! A4 adj.
 ! =======
 
-абсолют:абсолют A4 ; ! ""
 абсолют:абсолют A4 ; ! ""
 авиацион:авиацион A4 ; ! ""
 автоном:автоном A4 ; ! ""

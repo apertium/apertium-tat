@@ -1,0 +1,21 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tat.autogen.hfst
+    Morph:  ../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] some basic noun forms": 
+    ай<n><nom> : ай
+    ай<n><px3sp><nom> : ае
+    ай<n><px1sg><nom> : аем
+    уңай<adj><subst><nom> : уңай
+    уңай<adj><subst><px3sp><nom> : уңае
+    уңай<adj><subst><px1sg><nom> : уңаем
+
+  "[twol] some forms that should harmonise":
+    ай<n><px3sp><loc> : аенда
+    ай<n><px3sp><gen> : аеның
+    уңай<adj><subst><px3sp><loc> : уңаенда
+    уңай<adj><subst><px3sp><gen> : уңаеның

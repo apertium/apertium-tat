@@ -245,6 +245,8 @@ Multichar_Symbols
 %{т%}         ! 
 %{с%}         ! 
 
+%{☭%}         ! Used to tell the phonology about a Russian word
+
 %>            ! Morpheme boundary
 %             ! Space
 %-            !
@@ -1379,6 +1381,11 @@ LEXICON NLEX
 
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
+
+LEXICON NLEX-RUS
+! This for Russian nouns
+
+:%{☭%} NLEX ;
 
 LEXICON N-COMPOUND-PX ! consider "N2" for the name
                       ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
@@ -3429,7 +3436,7 @@ XXI NUM-ROMAN ; ! ""
 програм:програм NLEX ; ! ""
 прогресс:прогресс NLEX ; ! ""
 продукция:продукция NLEX ; ! ""
-проект:проект NLEX ; ! ""
+проект:проект NLEX-RUS ; ! ""
 проза:проза NLEX ; ! ""
 проза:проза NLEX ; ! ""
 прокуратура:прокуратура NLEX ; ! ""
@@ -3639,7 +3646,7 @@ XXI NUM-ROMAN ; ! ""
 страховкалау:страховкалау NLEX ; ! ""
 структура:структура NLEX ; ! ""
 студент% кыз:студент% кыз NLEX ; ! "" Use/MT
-студент:студент NLEX ; ! ""
+студент:студент NLEX-RUS ; ! ""
 су% буе:су% буе NLEX ; ! ""             !! FIXME: px3sp ending
 субъект:субъект NLEX ; ! ""
 суган:суган NLEX ; ! ""
@@ -3948,7 +3955,7 @@ XXI NUM-ROMAN ; ! ""
 уҡыу:уҡыу NLEX ; ! ""
 ул:ул NLEX ; ! "son"
 умыртка:умыртка NLEX ; ! ""
-университет:университет NLEX ; ! ""
+университет:университет NLEX-RUS ; ! ""
 уңай:уңай NLEX ; ! ""
 уңыш:уңыш NLEX ; ! ""
 ураза:ураза NLEX ; ! ""
@@ -4698,7 +4705,7 @@ XXI NUM-ROMAN ; ! ""
 Әнкара:Әнкара NP-TOP ; ! ""
 Жалалабат:Жалалабат NP-TOP ; ! ""
 Загреб:Загреб NP-TOP ; ! "" 
-Иерусалим:Иерусалим NP-TOP ; ! "Jerusalem"
+Иерусалим:Иерусалим%{☭%} NP-TOP ; ! "Jerusalem"
 Истанбул:Истанбул NP-TOP ; ! "Istanbul"
 Йорк:Йорк NP-TOP ; ! ""
 Кабул:Кабул NP-TOP ; ! "" 

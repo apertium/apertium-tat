@@ -19,3 +19,11 @@ Tests:
     ай<n><px3sp><gen> : аеның
     уңай<adj><subst><px3sp><loc> : уңаенда
     уңай<adj><subst><px3sp><gen> : уңаеның
+
+  "[twol] normal words with final й that shouldn't disappear":
+    куй<v><tv><ifi><p3><sg> : куйды
+    өй<n><dat> : өйгә
+
+  "[twol] normal words with final й that should disappear":
+    куй<v><tv><pres><p1><sg> : куям
+    өй<n><px1sg><nom> : өем

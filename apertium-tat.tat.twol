@@ -153,6 +153,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !                               :FrontVow %>: _ ;
                          %{A%}:/[ %>: | :0 ] _ ;
                               FrontVow:0 %>: _ ;
+                [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 
 "Turn {E} into й after a vowel"
@@ -162,8 +163,9 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !             %{A%}:ә/[ %>: | :0 ] _ ;
 !             %{A%}:0/[ %>: | :0 ] _ ;
      [ :FrontVow :Cns* :Cns %{A%}: ]/[ %>: | :0 ] _ ;  
-                    :FrontVow %>: _ ;
+                     :FrontVow %>: _ ;
                     FrontVow:0 %>: _ ;
+      [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 "Turn {E} into и to combine with ә"
 !%{E%}:и <=> ә: %>: _ ;
@@ -173,6 +175,8 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !               %{A%}: %>: _ ;
             [ :FrontVow :Cns* :Cns %{A%}: ]/[ %>: | :0 ] _ ;  
             FrontVow:0 %>: _ ;
+        except
+            [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 "Delete ә before E:и"
 ә:0 <=> _ %>: %{E%}:и ;
@@ -251,12 +255,16 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 !!!! й stuff !!!!
 
 "Delete й in й>е and й>я and й>ю"
-й:0 <=> _ %>:/:0 :е ;
-        _ %>:/:0 :я ;
-        _ %>:/:0 :ю ;
+й:0 <=> _ %>: :AmbigVow/:0 ;
+!        _ %>:/:0 :е ;
+!        _ %>:/:0 :я ;
+!        _ %>:/:0 :ю ;
 
 "Convert {A} to я after й and {j}"
 %{A%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
+
+"Convert {E} to я after й and {j}"
+%{E%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
 !!!! Special archiphonemes !!!!
 

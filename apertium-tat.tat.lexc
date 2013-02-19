@@ -245,7 +245,7 @@ Multichar_Symbols
 %{т%}         ! 
 %{с%}         ! 
 
-%{☭%}         ! Used to tell the phonology about a Russian word
+%{☭%}        ! Used to tell the phonology about a Russian word
 
 %>            ! Morpheme boundary
 %             ! Space

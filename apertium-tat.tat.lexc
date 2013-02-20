@@ -1531,7 +1531,7 @@ LEXICON CALEX
 
 %<cnjadv%>: # ; 
 
-LEXICON QSTLEX
+LEXICON QST
 
 %<qst%>: # ; 
 
@@ -1581,20 +1581,15 @@ LEXICON ABBR
 !-------------------------------------------------------------------
 
 ! Question modal particles
-!=========================
+! ========================
 
-мы:мы QSTLEX ; ! "y/n question" ! Dir/RL
-мы:ме QSTLEX ; ! "y/n question" ! Dir/LR
-
-! Actually Tatar question modal particle is written with no space before it (read separately),
-! but there are sentences like the following (although not that much I guess):
-!# "Яңача түләү яки һәрвакыттагыча "Хотели как лучше, получилось как всегда"мы?" 
-! Just having a space before it while treating it as a clitic wouldn't work /I.S./
-
-микән:микән QSTLEX ; ! originated from "-мы икән"
+мы:%~мы QST ; ! "y/n question" ! Dir/RL
+мы:мы QST ; ! "y/n question" ! Dir/LR
+мы:ме QST ; ! "y/n question" ! Dir/LR
+микән:микән QST ; ! originated from "-мы икән"
 
 ! Assertive (emphasizing) modal particles
-!========================================
+! =======================================
 
 бит:бит MOD-ASS ;
 ич:ич MOD-ASS ;
@@ -1603,10 +1598,11 @@ LEXICON ABBR
 ләбаса:лабаса MOD-ASS ; ! Dir/LR
 
 ! Indefinite modal particles
-!===========================
+! ==========================
 
-дыр:дыр MOD-IND ; ! "y/n question" ! Dir/RL
-тыр:тыр MOD-IND ; ! "y/n question" ! Dir/LR
+дыр:%~дыр MOD-IND ; ! "" ! Dir/RL
+дыр:дыр MOD-IND ; ! "" ! Dir/LR
+тыр:тыр MOD-IND ; ! "" ! Dir/LR
 
 
 !==============!

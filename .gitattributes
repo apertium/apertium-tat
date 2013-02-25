@@ -13,6 +13,10 @@
 /configure.ac -text
 dev/countstems.sh -text
 /modes.xml -text
+paper/mtsxiv.bst -text
+paper/mtsxiv.pdf -text
+paper/mtsxiv.sty -text
+paper/mtsxiv.tex -text
 tests/epenthesis.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text

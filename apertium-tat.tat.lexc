@@ -1722,6 +1722,9 @@ COP-I ; ! ""
 шикелле:шикелле POST ; ! ""
 өчен:өчен POST ; ! ""
 
+карамагында:карамагында POST ; ! "" FIXME CHECK
+карамагындагы:карамагындагы POST ; ! "" FIXME CHECK
+
 ! which Govern the Nominative Case
 ! (just because it is hard to imagine them be used with personal and demonstrative pronouns)
 
@@ -8387,6 +8390,8 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 беркайчан% да:беркайчан% да ADV ; ! "never" Use/MT
 әллә% кайда:әллә% кайда ADV ; ! "" Use/MT
 әллә% кая:әллә% кая ADV ; ! "" Use/MT
+
+шул% рәвешчә:шул% рәвешчә ADV ; ! "" Use/MT
 
 ! More or less regular stuff
 ! ==========================

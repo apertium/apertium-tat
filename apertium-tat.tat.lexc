@@ -7,27 +7,27 @@
 Multichar_Symbols
 ! Followed http://wiki.apertium.org/wiki/Turkic_languages
 
-! Part of speech categories
-%<n%>          ! Noun                       ! Исем              ! Существительное
-%<np%>         ! Proper noun                ! Ялгызлык исем     ! Имя cобственное
-%<adj%>        ! Adjective                  ! Сыйфат            ! Прилагательное
-%<num%>        ! Numeral                    ! Сан               ! Числительное   
-%<prn%>        ! Pronoun                    ! Алмашлык          ! Местоимение
-%<det%>        ! Determiner                 ! Детерминатив      ! Детерминатив
-%<v%>          ! Verb                       ! Фигыль            ! Глагол
-%<vaux%>       ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный гл.
-%<adv%>        ! Adverb                     ! Рәвеш             ! Наречие
-%<post%>       ! Postposition               ! Бәйлек            ! Послелог
-%<postadv%>    ! Postadverb                 ! "Артрәвеш"(*1)    ! "Посленаречие" !# "гына"
-%<cnjcoo%>     ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
-%<cnjsub%>     ! Sub-ordinating conjunction ! Ияртүче теркәгеч  ! Подчинительный союз
-%<cnjadv%>     ! Adverbial conjunction      ! ~"рәвеш-теркәгеч" ! ~союз
-%<ij%>         ! Interjection               ! Ымлык             ! Междометие
-%<abbr%>       ! Abbreviation               ! Кыскартылма       ! Аббревиатура
-%<cop%>        ! Copula                     ! Копула            ! Связка
-!%<ideo%>       ! Ideophone                  ! Аваз ияртеме      ! (Звуко)подражательное слово
+! Part of speech categories = First-level tags
+%<n%>         ! Noun                       ! Исем              ! Существительное
+%<np%>        ! Proper noun                ! Ялгызлык исем     ! Имя cобственное
+%<adj%>       ! Adjective                  ! Сыйфат            ! Прилагательное
+%<num%>       ! Numeral                    ! Сан               ! Числительное
+%<prn%>       ! Pronoun                    ! Алмашлык          ! Местоимение
+%<det%>       ! Determiner                 ! Детерминатив      ! Детерминатив
+%<v%>         ! Verb                       ! Фигыль            ! Глагол
+%<vaux%>      ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный глагол
+%<adv%>       ! Adverb                     ! Рәвеш             ! Наречие
+%<post%>      ! Postposition               ! Бәйлек            ! Послелог
+%<postadv%>   ! Postadverb                 ! "Пострәвеш"(*1)   ! "Посленаречие"
+%<cnjcoo%>    ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
+%<cnjsub%>    ! Sub-ordinating conjunction ! Ияртүче теркәгеч  ! Подчинительный союз
+%<cnjadv%>    ! Adverbial conjunction      ! "Рәвеш-теркәгеч"  ! ~союз
+%<ij%>        ! Interjection               ! Ымлык             ! Междометие
+%<abbr%>      ! Abbreviation               ! Кыскартылма       ! Аббревиатура
+%<cop%>       ! Copula                     ! Копула            ! Связка
+!%<ideo%>      ! Ideophone                  ! Аваз ияртеме      ! (Звуко)подражательное слово
 
-! *1. Ачыклаган сүзләренең артыннан килә торган рәвешләр/"кисәкчәләр" !# гына, ук
+! *1. Ачыклаган сүзләренең артыннан килә торган рәвешләр ("кисәкчәләр") !# гына, ук
 
 ! Proper noun types
 %<top%>        ! Toponym      ! Географик атама

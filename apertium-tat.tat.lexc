@@ -41,7 +41,7 @@ Multichar_Symbols
 %<m%>          ! Masculine    ! Мужской род
 %<f%>          ! Feminine     ! Женский род
 %<mf%>         ! Masculine/feminine !# basically cognoms without -ов/-ова,
-               ! -ин/-ина endings
+                                    ! -ин/-ина endings
 
 ! "Syntactic" tags. Attributive use of non-adjectives etc.
 %<attr%>       ! Attributive
@@ -88,7 +88,7 @@ Multichar_Symbols
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 %<pers%>      ! Personal
 %<recip%>     ! Reciprocal
-! Pronoun and determiner types
+! Pronoun&Determiner types
 %<dem%>       ! Demonstrative
 %<ind%>       ! Indefinite
 %<itg%>       ! Interrogative
@@ -239,11 +239,11 @@ Multichar_Symbols
 %{э%}         !
 
 %{й%}         !
-%{л%}         ! 
-%{н%}         ! 
-%{з%}         ! 
-%{т%}         ! 
-%{с%}         ! 
+%{л%}         !
+%{н%}         !
+%{з%}         !
+%{т%}         !
+%{с%}         !
 
 %{☭%}        ! Used to tell the phonology about a Russian word
 
@@ -251,10 +251,10 @@ Multichar_Symbols
 %             ! Space
 %-            !
 
-%-            ! 
-%,            ! 
-%.            ! 
-%%            ! 
+%-            !
+%,            !
+%.            !
+%%            !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!

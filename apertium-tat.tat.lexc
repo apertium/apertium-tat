@@ -4581,6 +4581,7 @@ XXI NUM-ROMAN ; ! ""
 рейтинг:рейтинг N1-RUS ; ! ""
 саммит:саммит N1-RUS ; ! ""
 санкция:санкция N1-RUS ; ! ""
+күрсәтмә:күрсәтмә N1 ; ! ""
 
 ! Nouns used as postpositions when <posssessive><case>
 !=====================================================
@@ -9087,7 +9088,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 ит:ит V-TV-AR ; ! "do,make"
 ишет:ишет V-TV-IR ; ! "hear"
 иш:иш V-TV-AR ; ! "to felt (wool)"
-ия% бул:ия% бул V-TV-IR ; ! ""
+ия% бул:ия% бул V-IV-IR ; ! ""
 ияр:ияр V-IV-IR ; ! "follow"
 иярт:иярт V-TV-IR ; ! "" caus
 иярлә:иярлә V-TV-IR ; ! "седлать"
@@ -9991,6 +9992,13 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 тидер:тидер V-TV-IR ; ! "" caus
 озынайт:озынайт V-TV-IR ; ! "" caus
 
+йом:йом V-TV-AR ; ! ""
+кич:кич V-TV-AR ; ! ""
+ки:ки V-TV-AR ; ! ""
+так:так V-TV-AR ; ! ""
+тип:тип V-TV-AR ; ! ""
+эзләт:эзләт V-TV-IR ; ! "" caus
+сарыф% ит:сарыф% ит V-TV-IR ; ! ""
 
 ! Auxiliary verbs
 ! ===============

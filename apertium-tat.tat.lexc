@@ -1691,6 +1691,9 @@ COP-I ; ! ""
 
 әйтүләренчә:әйтүләренчә CA ; ! ""
 уенча:уенча CA ; ! ""
+мәгълүматынча:мәгълүматынча CA ; ! ""
+уйлавынча:уйлавынча CA ; ! ""
+
 
 !=====================!
  LEXICON Postpositions
@@ -4643,6 +4646,9 @@ XXI NUM-ROMAN ; ! ""
 чуваш:чуваш N1 ; ! "Chuvash"
 швед:швед N1 ; ! ""
 якут:якут N1 ; ! ""
+әрмән:әрмән N1 ; ! ""
+еврей:еврей N1 ; ! ""
+уйгыр:уйгыр N1 ; ! ""
 
 !===================!
  LEXICON ProperNouns
@@ -5100,6 +5106,8 @@ XXI NUM-ROMAN ; ! ""
 Эстония:Эстония NP-TOP ; ! "Estonia"
 Эфиопия:Эфиопия NP-TOP ; ! ""
 Япония:Япония NP-TOP ; ! "Japan"
+Кокан:Кокан NP-TOP ; ! ""
+Малайзия:Малайзия NP-TOP ; ! ""
 
 ! Other toponyms
 ! --------------
@@ -5557,6 +5565,9 @@ XXI NUM-ROMAN ; ! ""
 Юрий:Юрий NP-ANT-M ; ! ""
 Ягъкуб:Ягъкуб NP-ANT-M ; ! ""
 
+Дәурен:Дәурен NP-ANT-M ; ! ""
+Ержан:Ержан NP-ANT-M ; ! ""
+
 ! Patronyms
 ! =========
 
@@ -5788,6 +5799,8 @@ XXI NUM-ROMAN ; ! ""
 Аталай:Аталай NPCOGMFLEX ; ! ""
 Кей:Кей NPCOGMFLEX ; ! ""
 Холбрук:Холбрук NPCOGMFLEX ; ! ""
+Жовтис:Жовтис NPCOGMFLEX ; ! ""
+Ни:Ни NPCOGMFLEX ; ! ""
 
 ! Masculine -ов and -ин cognoms
 !------------------------------
@@ -7529,6 +7542,8 @@ XXI NUM-ROMAN ; ! ""
 Плугов:Плугов NP-COG-OB ; ! ""
 Турчинов:Турчинов NP-COG-OB ; ! ""
 Усубакунов:Усубакунов NP-COG-OB ; ! ""
+Курамшин:Курамшин NP-COG-OB ; ! ""
+Мәсемов:Мәсемов NP-COG-OB ; ! ""
 
 ! Organizations
 !==============
@@ -7639,6 +7654,9 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 Тәүрат:Тәурат NPALLEX ; ! "" Dir/LR
 Тәүрат:Тәүрәт NPALLEX ; ! "" Dir/LR
 Тобыкты:Тобыкты NPALLEX ; ! ""
+таймс:таймс NPALLEX ; ! ""
+Золото:Золото NPALLEX ; ! ""
+Kazakhstan:Kazakhstan NPALLEX ; ! ""
 
 
 !==================!
@@ -7648,6 +7666,21 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 
 ! A4 adjectives
 ! =============
+
+! Toponyms + LIK
+! --------------
+
+! FIXME There is a better way of handling them, find it!
+! (note that they all are ambigious between adj/n)
+
+пакъстанлы:пакъстанлы A4 ; ! ""
+кубалы:кубалы A4 ; ! ""
+японияле:японияле A4 ; ! ""
+иранлы:иранлы A4 ; ! ""
+актүбәле:актүбәле A4 ; ! ""
+
+! Other
+! -----
 
 абсолют:абсолют A4 ; ! ""
 авиацион:авиацион A4 ; ! ""
@@ -8519,6 +8552,11 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 әллә% кая:әллә% кая ADV ; ! "" Use/MT
 
 шул% рәвешчә:шул% рәвешчә ADV ; ! "" Use/MT
+алай:алай ADV ; ! ""
+ник% алай:ник% алай ADV ; ! "" Use/MT
+нилектән:нилектән ADV ; ! ""
+шуның% кадәр:шуның% кадәр ADV ; ! "" Use/MT
+шул% хәтле:шул% хәтле ADV ; ! "" Use/MT
 
 ! More or less regular stuff
 ! ==========================
@@ -8650,6 +8688,8 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 ара%-тирә:ара%-тирә ADV ; ! ""
 кичен:кичен ADV ; ! ""
 нибары:нибары ADV ; ! ""
+җитди% рәвештә:җитди% рәвештә ADV ; ! "" Use/MT
+очраклы% рәвештә:очраклы% рәвештә ADV ; ! "" Use/MT
 
 ! Adverbs wich take -KI and become an attr/adj
 ! ============================================
@@ -10058,6 +10098,7 @@ New% York% Times:New% York% Times NPALLEX ; ! ""
 ярый:ярый INTERJ ; ! ""
 яхшы:яхшы INTERJ ; ! ""
 я:я INTERJ ; ! ""
+әү:әү INTERJ ; ! ""
 
 ! Вводные слова
 ! =============
@@ -10083,6 +10124,7 @@ IMD:IMD ABBR ; ! ""
 Kaz:Kaz ABBR ; ! ""
 KPO:KPO ABBR ; ! ""
 KZ:KZ ABBR ; ! ""
+kz:kz ABBR ; ! ""
 ААҖ:ААҖ ABBR ; ! "Ачык акционерлык җәмгыять=Public company"
 АК:АК ABBR ; ! ""
 АКШ:АКШ ABBR ; ! "USA"
@@ -10116,8 +10158,9 @@ KZ:KZ ABBR ; ! ""
 Казатомпром:Казатомпром ABBR ; ! ""
 КазМУ:КазМУ ABBR ; ! "Al-Farabi Kazakh National Universty"
 Казмунайгаз:Казмунайгаз ABBR ; ! ""
-Қазпошта:Қазпошта ABBR ; ! ""
+Казпошта:Казпошта ABBR ; ! ""
 КазССР:КазССР ABBR ; ! ""
+КазТАГ:КазТАГ ABBR ; ! ""
 КГБ:КГБ ABBR ; ! ""
 кг:кг ABBR ;  ! "kg"
 к%.:к%. ABBR ; ! "оңтүстік,көньяк,south" FIXME:CHECK -->"

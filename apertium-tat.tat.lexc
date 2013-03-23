@@ -1700,11 +1700,23 @@ COP-I ; ! ""
 !=====================!
 
 
-! Some of them are postpositions derived from nouns ( "auxilliary nouns"
-! aka "служебные имена") which take location cases. Think about them later /I.S./
+! Many of them are derived from other parts of speech.
+! There is also a special category of nouns (like "front", "back", "center" etc) - so caled "auxilliary nouns"
+! ("служебные имена") - which are used as postpositioins when they take possessive endings and location cases.
+! They govern both nominative and genitive (with noun in genitive referring to a definite object), e.g.:
+! # Шкаф эчендә / Шкаф ішінде  =  in a cupboard
+! # Шкафның эчендә / Шкафтың ішінде  =  in the cupboard
+!
+! Currently these words are tagged as nouns (see the subsection at the end of the Nouns lexicon)
+
+! which Govern the Nominative Case
+! ================================
+
+тапкыр:тапкыр POST ; ! "" FIXME CHECK pos - a noun?
 
 ! which Govern the Nominative Case of Nouns and
-! the Genitive Case of (personal and demonstrative) Pronouns.
+! the Genitive Case of (Personal and Demonstrative) Pronouns
+! ==========================================================
 
 аркылы:аркылы POST ; ! ""
 астына:астына POST ; ! ""
@@ -1715,25 +1727,20 @@ COP-I ; ! ""
 буенда:буенда POST ; ! ""
 буенча:буенча POST ; ! ""
 буйлап:буйлап POST ; ! ""
+карамагындагы:карамагындагы POST ; ! "" FIXME CHECK
+карамагында:карамагында POST ; ! "" FIXME CHECK
 кебек:кебек POST ; ! ""
 күк:күк POST ; ! ""
 максатында:максатында POST ; ! "" Use/MT
+өчен:өчен POST ; ! ""
 саен:саен POST ; ! ""
 сыман:сыман POST ; ! ""
 турында:турында POST ; ! ""
 хакында:хакында POST ; ! ""
 шикелле:шикелле POST ; ! ""
-өчен:өчен POST ; ! ""
-
-карамагында:карамагында POST ; ! "" FIXME CHECK
-карамагындагы:карамагындагы POST ; ! "" FIXME CHECK
-
-! which Govern the Nominative Case
-! (just because it is hard to imagine them be used with personal and demonstrative pronouns)
-
-тапкыр:тапкыр POST ; ! "" FIXME:CHECK: POS - noun?
 
 ! which Govern Nominative/Genitive/Dative cases
+! =============================================
 
 кадәр:кадәр POST ; ! ""
 тикле:тикле POST ; ! ""
@@ -1741,6 +1748,7 @@ COP-I ; ! ""
 чаклы:чаклы POST ; ! ""
 
 ! which Govern the Dative Case
+! ============================
 
 караганда:караганда POST ; ! ""
 карамастан:карамастан POST ; ! ""
@@ -1754,6 +1762,7 @@ COP-I ; ! ""
 ярашлы% рәвештә:ярашлы% рәвештә POST ; ! "" Use/MT
 
 ! which Govern the Ablative Case
+! ==============================
 
 ары:ары POST ; ! "+ABL"
 башка:башка POST ; ! "+ABL"
@@ -1764,10 +1773,12 @@ COP-I ; ! ""
 элек:элек POST ; ! "+ABL"
 
 ! which require "белән" before them
+! =================================
 
 бергә:бергә POST ; ! ""
 
 ! FIXME: To be checked
+! ====================
 
 буларак:буларак POST ; ! ""
 
@@ -4279,6 +4290,7 @@ XXI NUM-ROMAN ; ! ""
 хәйлә:хәйлә N1 ; ! ""
 хәйрия:хәйрия N1 ; ! ""
 хәким:хәким N1 ; ! ""
+хәләл% җефет:хәләл% җефет N1 ; ! ""
 хәлифәт:хәлифәт N1 ; ! ""
 хәл%-торыш:хәл%-торыш N1 ; ! ""
 хәл:хәл N1 ; ! ""

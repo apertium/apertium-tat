@@ -4741,7 +4741,8 @@ XXI NUM-ROMAN ; ! ""
 чуваш:чуваш N1 ; ! "Chuvash"
 швед:швед N1 ; ! ""
 якут:якут N1 ; ! ""
-
+славян:славян N1 ; ! ""
+яһүди:яһүди N1 ; ! ""
 
 !===================!
  LEXICON ProperNouns
@@ -4859,6 +4860,8 @@ XXI NUM-ROMAN ; ! ""
 Тубыл:Тубыл NP-TOP ; ! ""
 Чечня:Чечня NP-TOP ; ! ""
 Чиләбе:Чиләбе NP-TOP ; ! ""
+
+Ханты%-Мансийск:Ханты%-Мансийск NP-TOP ; ! ""
 
 ! Cities of the world
 ! -------------------
@@ -5004,6 +5007,12 @@ XXI NUM-ROMAN ; ! ""
 Шыңжаң:Шыңжаң NP-TOP ; ! ""
 Эр%-Рияд:Эр%-Рияд NP-TOP ; ! "" 
 Ямусукро:Ямусукро NP-TOP ; ! ""
+
+Багдад:Багдад NP-TOP ; ! ""
+Бохара:Бохара NP-TOP ; ! ""
+Дубай:Дубай NP-TOP ; ! ""
+Сәнга:Сәнга NP-TOP ; ! ""
+Улан%-Батыр:Улан%-Батыр NP-TOP ; ! ""
 
 ! Countries
 ! ---------
@@ -6158,6 +6167,7 @@ XXI NUM-ROMAN ; ! ""
 Ихсан:Ихсан NP-ANT-M ; ! ""
 Эрик:Эрик NP-ANT-M ; ! ""
 Эрнст:Эрнст NP-ANT-M ; ! ""
+Мира:Мира NP-ANT-F ; ! ""
 
 ! Patronyms
 ! =========
@@ -8199,6 +8209,11 @@ Wrigley:Wrigley NPORGLEX ; ! ""
 Цинказ:Цинказ NPORGLEX ; ! ""
 Этнодизайн:Этнодизайн NPORGLEX ; ! ""
 
+Майкрософт:Майкрософт NPORGLEX ; ! ""
+Нью%-Йорк% таймс:Нью%-Йорк% таймс NPORGLEX ; ! ""
+Нью%-Йорк% таймс:Нью%-Йорк% Таймс NPORGLEX ; ! "" Dir/LR
+Юроуп:Юроуп NPORGLEX ; ! ""
+
 ! Other proper names (events etc)
 !================================
 
@@ -8280,6 +8295,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 японияле:японияле A4 ; ! ""
 иранлы:иранлы A4 ; ! ""
 актүбәле:актүбәле A4 ; ! ""
+марокколы:марокколы A4 ; ! ""
 
 ! Other
 ! -----
@@ -8561,6 +8577,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 экс:экс A4 ; ! ""
 фундаменталь:фундаменталь A4 ; ! ""
 
+аскы:аскы A4 ; ! ""
+
 ! A3 adj., adj.subst
 ! ==================
 
@@ -8667,6 +8685,11 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 туклыклы:туклыклы A2 ; ! ""
 уңдырышлы:уңдырышлы A2 ; ! ""
 ярлы:ярлы A2 ; ! ""
+
+нык:нык A2 ; ! ""
+бөдрә:бөдрә A2 ; ! ""
+өметле:өметле A2 ; ! ""
+майлы:майлы A2 ; ! ""
 
 ! A1 adj.(comp), adj.(comp).advl, adj.(comp).subst,
 ! and when not sure where exactly an adjective belongs
@@ -9293,6 +9316,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 нибары:нибары ADV ; ! ""
 җитди% рәвештә:җитди% рәвештә ADV ; ! "" Use/MT
 очраклы% рәвештә:очраклы% рәвештә ADV ; ! "" Use/MT
+иртәгә:иртәгә ADV ; ! ""
+хәзер:хәзер ADV ; ! ""
 
 ! Adverbs wich take -KI and become an attr/adj
 ! ============================================
@@ -9311,6 +9336,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 соң:соң ADV-WITH-KI ; ! ""
 хәзер:хәзер ADV-WITH-KI ; ! "contrastive now"
 элек:элек ADV-WITH-KI ; ! "earlier"
+әле:әле ADV-WITH-KI ; ! ""
 
 бире:бире ADV-WITH-KI-BIRE ; ! "" FIXME CHECK
 
@@ -10142,7 +10168,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 сүтел:сүтел V-IV-IR ; ! "set out for the pasture,unroll"
 сыдыр:сыдыр V-TV-IR ; ! "to skin an animal"
 сыен:сыен V-IV-IR ; ! ""
-сыеш:сыеш V-IV-IR ; ! "to get on (with someone)"
+сыеш:сыеш V-IV-IR ; ! "to get on (with someone)" coop?
 сызгала:сызгала V-TV-IR ; ! "to trace"
 сызгандыр:сызгандыр V-TV-IR ; ! "to make someone roll up the sleeves" (kaz tat) caus
 сызгыр:сызгыр V-IV-IR ; ! "to whistle"
@@ -10653,6 +10679,19 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 сарыф% ит:сарыф% ит V-TV-IR ; ! ""
 тетрә:тетрә V-IV-IR ; ! ""
 
+көндәшлек% ит:көндәшлек% ит V-IV-AR ; ! ""
+дыңгырда:дыңгырда V-IV-IR ; ! ""
+яраш:яраш V-IV-IR ; ! ""
+коры:коры V-IV-IR ; ! ""
+кызык:кызык V-IV-IR ; ! ""
+
+кый:кый V-TV-AR ; ! ""
+агыз:агыз V-TV-IR ; ! "" caus
+дыңгырдат:дыңгырдат V-TV-IR ; ! "" caus
+ясат:ясат V-TV-IR ; ! "" caus
+ута:ута V-TV-IR ; ! ""
+утырт:утырт V-TV-IR ; ! "" caus
+
 ! Auxiliary verbs
 ! ===============
 
@@ -10671,6 +10710,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 тор:тор VAUX-IR ; ! ""
 утыр:утыр VAUX-IR ; ! ""
 чык:чык VAUX-AR ; ! ""
+яз:яз VAUX-AR ; ! ""
 ят:ят VAUX-AR ; ! ""
 
 
@@ -10827,7 +10867,7 @@ kz:kz ABBR ; ! ""
 ЭЧ:ЭЧ ABBR ; ! ""
 ЭЭМ:ЭЭМ ABBR ; ! "Эчке эшләр министрлыгы"
 ЮНЕСКО:ЮНЕСКО ABBR ; ! ""
-
+EITI:EITI ABBR ; ! ""
 
 !===================!
  LEXICON Punctuation

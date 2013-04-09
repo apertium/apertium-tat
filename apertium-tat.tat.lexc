@@ -4699,6 +4699,7 @@ XXI NUM-ROMAN ; ! ""
 коръән:коръән N1 ; ! ""
 упкын:упкын N1 ; ! ""
 эңгер%-меңгер:эңгер%-меңгер N1 ; ! ""
+хаталык:хаталык N1 ; ! ""
 
 ! Nouns used as postpositions when <posssessive><case>
 ! ====================================================
@@ -5014,6 +5015,7 @@ XXI NUM-ROMAN ; ! ""
 Таллин:Таллин NP-TOP ; ! ""
 Таллин:Таллин NP-TOP ; ! "" 
 Ташкент:Ташкент NP-TOP ; ! "Tashkent"
+Тегеран:Тегеран NP-TOP ; ! "" 
 Тегусигальпа:Тегусигальпа NP-TOP ; ! "" 
 Тәһран:Тәһран NP-TOP ; ! ""
 Тирана:Тирана NP-TOP ; ! ""
@@ -5099,6 +5101,7 @@ XXI NUM-ROMAN ; ! ""
 Гыйрак:Ирак NP-TOP ; ! "Iraq" Dir/LR
 Дания:Дания NP-TOP ; ! "Denmark"
 Доминика:Доминика NP-TOP ; ! ""
+Египет:Египет NP-TOP ; ! ""
 Әрмәнстан:Әрмәнстан NP-TOP ; ! "Armenia"
 Әфганстан:Әфганстан NP-TOP ; ! "Afghanistan"
 Җерси:Җерси NP-TOP ; ! ""
@@ -8293,6 +8296,7 @@ Wrigley:Wrigley NPORGLEX ; ! ""
 Нью%-Йорк% таймс:Нью%-Йорк% таймс NPORGLEX ; ! ""
 Нью%-Йорк% таймс:Нью%-Йорк% Таймс NPORGLEX ; ! "" Dir/LR
 Юроуп:Юроуп NPORGLEX ; ! ""
+Google:Google NPORGLEX ; ! ""
 
 ! Other proper names (events etc)
 !================================

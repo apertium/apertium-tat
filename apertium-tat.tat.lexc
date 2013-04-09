@@ -4700,6 +4700,12 @@ XXI NUM-ROMAN ; ! ""
 упкын:упкын N1 ; ! ""
 эңгер%-меңгер:эңгер%-меңгер N1 ; ! ""
 хаталык:хаталык N1 ; ! ""
+атлет:атлет N1 ; ! ""
+тренер:тренер N1 ; ! ""
+виза:виза N1 ; ! ""
+приз:приз N1 ; ! ""
+спортчы:спортчы N1 ; ! ""
+зыян% күрүче:зыян% күрүче N1 ; ! ""
 
 ! Nouns used as postpositions when <posssessive><case>
 ! ====================================================
@@ -4836,6 +4842,9 @@ XXI NUM-ROMAN ; ! ""
 Саран:Саран NP-TOP ; ! ""
 
 Айдарлы:Айдарлы NP-TOP ; ! ""
+Темиртау:Темиртау NP-TOP ; ! ""
+Шетпе:Шетпе NP-TOP ; ! ""
+Шубарши:Шубарши NP-TOP ; ! ""
 
 ! Cities/towns/regions of Bashkortostan
 ! -------------------------------------
@@ -5038,6 +5047,7 @@ XXI NUM-ROMAN ; ! ""
 Сәнга:Сәнга NP-TOP ; ! ""
 Улан%-Батыр:Улан%-Батыр NP-TOP ; ! ""
 Дәвир:Дәвир NP-TOP ; ! ""
+Пекин:Пекин NP-TOP ; ! ""
 
 ! Countries
 ! ---------
@@ -6252,6 +6262,12 @@ XXI NUM-ROMAN ; ! ""
 Зәрә:Зәрә NP-ANT-F ; ! ""
 Камка:Камка NP-ANT-F ; ! ""
 
+Айжангүл NP-ANT-F ; ! ""
+Сагынай NP-ANT-F ; ! ""
+Арон NP-ANT-M ; ! ""
+Башар NP-ANT-M ; ! ""
+Мәдәлбәк NP-ANT-M ; ! ""
+
 ! Patronyms
 ! =========
 
@@ -6491,6 +6507,10 @@ XXI NUM-ROMAN ; ! ""
 Максуди:Максуди NPCOGMFLEX ; ! ""
 Маршал:Маршал NPCOGMFLEX ; ! ""
 Фридман:Фридман NPCOGMFLEX ; ! ""
+Асад:Асад NPCOGMFLEX ; ! ""
+Блэр:Блэр NPCOGMFLEX ; ! ""
+Ромни:Ромни NPCOGMFLEX ; ! ""
+Челах:Челах NPCOGMFLEX ; ! ""
 
 ! Masculine -ов and -ин cognoms
 !------------------------------
@@ -8297,6 +8317,8 @@ Wrigley:Wrigley NPORGLEX ; ! ""
 Нью%-Йорк% таймс:Нью%-Йорк% Таймс NPORGLEX ; ! "" Dir/LR
 Юроуп:Юроуп NPORGLEX ; ! ""
 Google:Google NPORGLEX ; ! ""
+Twitter:Twitter NPORGLEX ; ! ""
+YouTube:YouTube NPORGLEX ; ! ""
 
 ! Other proper names (events etc)
 !================================
@@ -8674,6 +8696,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 гадәттән% тыш:гадәттән% тыш A4 ; ! ""
 өйле:өйле A4 ; ! ""
 олы% яшьтәге:олы% яшьтәге A4 ; ! "" Use/MT
+экстремистик:экстремистик A4 ; ! ""
 
 ! A3 adj., adj.subst
 ! ==================
@@ -10999,6 +11022,7 @@ kz:kz ABBR ; ! ""
 ЭЭМ:ЭЭМ ABBR ; ! "Эчке эшләр министрлыгы"
 ЮНЕСКО:ЮНЕСКО ABBR ; ! ""
 EITI:EITI ABBR ; ! ""
+ЕБ:ЕБ ABBR ; ! ""
 
 !===================!
  LEXICON Punctuation

@@ -1781,7 +1781,8 @@ COP-I ; ! ""
 ! which require "белән" before them
 ! =================================
 
-бергә:бергә POST ; ! ""
+бергә:бергә POST ; ! "" + INS
+беррәттән:беррәттән POST ; ! "along with" + INS
 
 ! FIXME: To be checked
 ! ====================

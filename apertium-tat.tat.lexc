@@ -1380,6 +1380,8 @@ LEXICON N-COMPOUND-PX ! consider "N2" for the name
                       ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
 
 %<n%>:%>%{s%}%{I%}%{n%} Cases-etc ;
+%<n%>%<pl%>:%>%{L%}%{A%}р%>%{s%}%{I%}%{n%} Cases-etc ; ! (e.g. чик сакчылары=пограничники)
+                                                         !  FIXME CHECK: Is {s} needed here ?
 %<n%>: Possessives ;                 ! for stuff like "біздің ауа райымыз" and even "оның ауа райы",
                                      ! which should have a <px3sp> analysis
 
@@ -1528,7 +1530,7 @@ LEXICON CSLEX
 
 LEXICON CA
 
-%<cnjadv%>: # ; 
+%<cnjadv%>: CLIT-GHANA-ETC ;
 
 LEXICON QST
 

@@ -1463,6 +1463,7 @@ LEXICON NUMLEX
 
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} # ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ;
 %<num%>%<dist%>:%>%{A%}р SUBST ; ! FIXME
 
@@ -1471,6 +1472,7 @@ LEXICON NUM-ITG ! This is a temporal solution
 
 %<num%>%<itg%>: # ;
 %<num%>%<itg%>%<subst%>: SUBST ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} # ;
 %<num%>%<itg%>%<ord%>:%>%{I%}нч%{I%} SUBST ;
 %<num%>%<itg%>%<dist%>:%>%{A%}р SUBST ; ! FIXME
 

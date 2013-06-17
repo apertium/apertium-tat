@@ -507,15 +507,14 @@ CLIT-MODASS ;
 CLIT-MODIND ;
 CLIT-GHANA-ETC ;
 
-LEXICON V-PERS-COP
+LEXICON CLIT-COPULAS
 
 %+и%<cop%>: V-PERS-S1 ;
 
-LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
-                        ! after nominal parts of speech (and only after some cases).
-                        ! FIXME: to be checked whether leads to any overgeneration
+LEXICON CLIT-INCLUDING-COPULAS ! Can appear only after nominal parts of speech (and only
+                               ! after some cases).
 CLIT ;
-V-PERS-COP ;
+CLIT-COPULAS ;
 
 
 
@@ -556,9 +555,9 @@ LEXICON Cases-common
 LEXICON Cases
 
 Cases-common ;
-%<nom%>: CLIT-GENERAL ;
-%<abl%>:%>%{D%}%{A%}н CLIT-GENERAL ;
-%<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;
+%<nom%>: CLIT-INCLUDING-COPULAS ;
+%<abl%>:%>%{D%}%{A%}н CLIT-INCLUDING-COPULAS ;
+%<loc%>:%>%{D%}%{A%} CLIT-INCLUDING-COPULAS ;
 
 LEXICON CasesWithoutCopulas
 
@@ -1102,7 +1101,7 @@ LEXICON PersonalPronouns
 
 !!!!!!!   D E M O N S T R A T I V E
 
-! FIXME CHECK (CLIT-GENERAL vs CLIT) I can't imagine forms like "бумын, бусың" etc,
+! FIXME CHECK (CLIT-INCLUDING-COPULAS vs CLIT) I can't imagine forms like "бумын, бусың" etc,
 ! but not sure how it works in Kazakh /I.S./
 !-----
 ! FIXME NOTE: <prn><dem><qnt> are archaic/dialectal in Tatar, so they should be
@@ -1119,12 +1118,12 @@ LEXICON PRON-DEM-INFL
 %<gen%>:н%{I%}ң CLIT ;
 %<dat%>:ң%{A%} CLIT ;
 %<acc%>:н%{I%} CLIT ;
-%<abl%>:нн%{A%}н CLIT-GENERAL ;
-%<loc%>:нд%{A%} CLIT-GENERAL ;
+%<abl%>:нн%{A%}н CLIT-INCLUDING-COPULAS ;
+%<loc%>:нд%{A%} CLIT-INCLUDING-COPULAS ;
 %<px%>:н%{I%}к%{I%}%{n%} Cases ;
 %<loc%>:нд%{A%}г%{I%} ATTR/SUBST ;
 %<sim%>:нд%{I%}й Cases ;
-%<adv%>:л%{A%}й CLIT-GENERAL ;     ! FIXME check cont. class
+%<adv%>:л%{A%}й CLIT-INCLUDING-COPULAS ;     ! FIXME check cont. class
 %<px3sp%>:%{s%}%{I%}%{n%} Cases ;
 
 %<pl%>:%>%{L%}%{A%}р Cases-etc ;
@@ -1135,19 +1134,19 @@ LEXICON PRON-DEM-INFL
    
 LEXICON PRON-DEM-BU
 
-бу%<prn%>%<dem%>%<nom%>:бу CLIT-GENERAL ;
+бу%<prn%>%<dem%>%<nom%>:бу CLIT-INCLUDING-COPULAS ;
 бу%<prn%>%<dem%>%<gen%>:моның CLIT ;
 бу%<prn%>%<dem%>%<dat%>:моңа CLIT ;
 бу%<prn%>%<dem%>%<acc%>:моны CLIT ;
-бу%<prn%>%<dem%>%<abl%>:моннан CLIT-GENERAL ;
-бу%<prn%>%<dem%>%<loc%>:монда CLIT-GENERAL ;
+бу%<prn%>%<dem%>%<abl%>:моннан CLIT-INCLUDING-COPULAS ;
+бу%<prn%>%<dem%>%<loc%>:монда CLIT-INCLUDING-COPULAS ;
 бу%<prn%>%<dem%>%<px%>:моныкы%{n%} Cases ;
 бу%<prn%>%<dem%>%<loc%>:мондагы ATTR/SUBST ;
 бу%<prn%>%<dem%>%<sim%>:мондый Cases ;
 бу%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} Cases ; ! FIXME CHECK мондый%{I%}%{n%} instead?
 бу%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар Cases ;
 бу%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мондыйлары%{n%} Cases ;
-бу%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
+бу%<prn%>%<dem%>%<adv%>:болай CLIT-INCLUDING-COPULAS ;
 бу%<prn%>%<dem%>%<qnt%>:бу% кадәр CLIT ;
 бу%<prn%>%<dem%>%<qnt%>:монча CLIT ; ! Dir/LR
 бу%<prn%>%<dem%>%<px3sp%>:монысы%{n%} Cases ;
@@ -1158,16 +1157,16 @@ LEXICON PRON-DEM-BU
 
 LEXICON PRON-DEM-ŠUL
 
-шул%<prn%>%<dem%>%<nom%>:шул CLIT-GENERAL ;
+шул%<prn%>%<dem%>%<nom%>:шул CLIT-INCLUDING-COPULAS ;
 шул%<prn%>%<dem%>%<gen%>:шуның CLIT ;
 шул%<prn%>%<dem%>%<dat%>:шуңа CLIT ;
 шул%<prn%>%<dem%>%<acc%>:шуны CLIT ;
-шул%<prn%>%<dem%>%<abl%>:шуннан CLIT-GENERAL ;
-шул%<prn%>%<dem%>%<loc%>:шунда CLIT-GENERAL ;
+шул%<prn%>%<dem%>%<abl%>:шуннан CLIT-INCLUDING-COPULAS ;
+шул%<prn%>%<dem%>%<loc%>:шунда CLIT-INCLUDING-COPULAS ;
 шул%<prn%>%<dem%>%<px%>:шуныкы%{n%} Cases ;
 шул%<prn%>%<dem%>%<loc%>:шундагы ATTR/SUBST ;
 шул%<prn%>%<dem%>%<sim%>:шундый Cases ;
-шул%<prn%>%<dem%>%<adv%>:шулай CLIT-GENERAL ;
+шул%<prn%>%<dem%>%<adv%>:шулай CLIT-INCLUDING-COPULAS ;
 шул%<prn%>%<dem%>%<qnt%>:шулкадәр CLIT ;
 шул%<prn%>%<dem%>%<qnt%>:шулкчаклы CLIT ; ! Dir/LR
 шул%<prn%>%<dem%>%<qnt%>:шунча CLIT ; ! Dir/LR
@@ -1178,16 +1177,16 @@ LEXICON PRON-DEM-ŠUL
 
 LEXICON PRON-DEM-UL
 
-ул%<prn%>%<dem%>%<nom%>:ул CLIT-GENERAL ;
+ул%<prn%>%<dem%>%<nom%>:ул CLIT-INCLUDING-COPULAS ;
 ул%<prn%>%<dem%>%<gen%>:аның CLIT ; 
 ул%<prn%>%<dem%>%<dat%>:аңа CLIT ;
 ул%<prn%>%<dem%>%<acc%>:аны CLIT ; 
-ул%<prn%>%<dem%>%<abl%>:аннан CLIT-GENERAL ;
-ул%<prn%>%<dem%>%<loc%>:анда CLIT-GENERAL ; 
+ул%<prn%>%<dem%>%<abl%>:аннан CLIT-INCLUDING-COPULAS ;
+ул%<prn%>%<dem%>%<loc%>:анда CLIT-INCLUDING-COPULAS ; 
 ул%<prn%>%<dem%>%<px%>:аныкы%{n%} Cases ;
 ул%<prn%>%<dem%>%<loc%>:андагы ATTR/SUBST ;
 ул%<prn%>%<dem%>%<sim%>:андый Cases ;
-ул%<prn%>%<dem%>%<adv%>:алай CLIT-GENERAL ;
+ул%<prn%>%<dem%>%<adv%>:алай CLIT-INCLUDING-COPULAS ;
 ул%<prn%>%<dem%>%<qnt%>:аның% кадәр CLIT ; 
 ул%<prn%>%<dem%>%<qnt%>:анча CLIT ; ! Dir/LR
 ул%<prn%>%<dem%>%<px3sp%>:анысы%{n%} Cases ;
@@ -1197,16 +1196,16 @@ LEXICON PRON-DEM-UL
 
 LEXICON PRON-DEM-TEGE
 
-теге%<prn%>%<dem%>%<nom%>:теге CLIT-GENERAL ;
+теге%<prn%>%<dem%>%<nom%>:теге CLIT-INCLUDING-COPULAS ;
 теге%<prn%>%<dem%>%<gen%>:тегенең CLIT ; 
 теге%<prn%>%<dem%>%<dat%>:тегеңә CLIT ;
 теге%<prn%>%<dem%>%<acc%>:тегене2 CLIT ; 
-теге%<prn%>%<dem%>%<abl%>:тегеннән CLIT-GENERAL ;
-теге%<prn%>%<dem%>%<loc%>:тегендә CLIT-GENERAL ; 
+теге%<prn%>%<dem%>%<abl%>:тегеннән CLIT-INCLUDING-COPULAS ;
+теге%<prn%>%<dem%>%<loc%>:тегендә CLIT-INCLUDING-COPULAS ; 
 теге%<prn%>%<dem%>%<px%>:тегенеке%{n%} Cases ;
 теге%<prn%>%<dem%>%<loc%>:тегендәге ATTR/SUBST ;
 теге%<prn%>%<dem%>%<sim%>:тегенди Cases ;
-теге%<prn%>%<dem%>%<adv%>:тегеләй CLIT-GENERAL ;
+теге%<prn%>%<dem%>%<adv%>:тегеләй CLIT-INCLUDING-COPULAS ;
 теге%<prn%>%<dem%>%<px3sp%>:тегесе%{n%} Cases ;
 
 теге%<prn%>%<dem%>%<pl%>:тегеләр Cases-etc ;

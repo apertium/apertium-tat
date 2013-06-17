@@ -494,8 +494,8 @@ LEXICON CLIT-MODIND
 
 LEXICON CLIT-GHANA-ETC
 
-%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 %+гына%<postadv%>:% %{G%}%{I%}н%{A%} # ; ! "only"
+%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 %+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
 %+ук%<postadv%>:% %{U%}к # ; ! "~же,даже"
 # ;

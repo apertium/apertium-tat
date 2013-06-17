@@ -705,7 +705,7 @@ LEXICON V-PERS-S1-NO1PERSON
 
 LEXICON V-PERS-S1          ! Тулы төрләнеш
 
-! Used for: -IR/AR-<fut>,
+! Used for: -IR/AR-<fut>, copula
 
 V-PERS-S1-NO1PERSON ;
 %<p1%>%<sg%>:%>м%{I%}н CLIT ;

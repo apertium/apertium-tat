@@ -63,6 +63,7 @@ LIST A = adj ;
 LIST Adv = adv ;
 LIST Pron = prn ;
 LIST N = n ;
+LIST Prop = np ;
 LIST V = v ;
 LIST Vaux = vaux ;
 LIST Cop = cop ;
@@ -144,15 +145,94 @@ LIST Ger6 = ger6 ;
 
 SET S-BOUNDARY = CS | Interr | EOS;
 
-SECTION
 
-SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
-SELECT A IF (0C A OR Adv) (1* N BARRIER NPNHA); 
+# ======= #
+  SECTION
+# ======= #
 
-# Determiners 
-# -----------
 
-REMOVE Det IF (NOT 1/-1 NPMARK OR N OR Pron); 
+#
+ REMOVE Cop IF
+        (NOT 1 EOS OR MARK)
+;
+##
+
+
+#
+ SELECT Cop IF
+        (1 EOS OR MARK)
+;
+## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
+## TODO (!) Дұрыс, оның мысығы бар.
+
+
+# ======= #
+  SECTION
+# ======= #
+
+
+
+# Part-of-speech marking
+# ======================
+
+
+
+#
+ SELECT FiniteVerb IF
+        (1 EOS OR ("ди"i))   # FIXME s/.*/SentenceBoundary/
+        (NOT 0 ("бар"i))     # FIXME a better way?
+;
+## (!) 40 . Мүмкін бұл Азамат [0]шығар?
+##  (!) 13 . Жоқ, Айгүлдің күшігі жоқ, оның мысығы [0]бар.
+## Мағынасы төңкеріліп [0]кетті деп ойламағаным үшін ғафу етіңіз.
+
+
+#
+ SELECT Interj IF
+        (-1 BOS)
+        (1 Cm)
+;
+## "Мысалы, ежелгі заманның өзінде Арал теңізі көп елдерге мәлім болған."
+
+
+#
+ REMOVE Post IF
+        (NOT -1 N OR Prop OR Pron OR Subst OR Gerund) # FIXME What about referring to all
+;                                                     # these (referring *consistently*) as
+                                                      # 'Nominal's?
+##
+
+
+# Proper noun vs noun
+ SELECT Prop IF
+        (0 N)
+        (0 Prop)
+        (0 ("[:upper:]+[:lower:]*"r))
+        (NOT -1 BOS)
+;
+## 108. Өйткені бүгінгі _Арал_ деген атау сол XVII ғасырдан бергі жерге берілген.
+ SELECT Prop IF
+        (0 N)
+        (0 Prop)
+        (0 ("[:upper:][:upper:]+"r))
+;
+## АЗАМАТ ҚАЙДА?
+ SELECT Prop IF
+        (0 Prop)
+        (0 N)
+        (1 ("белән") + Post)
+        (2 Prop)
+;
+## Азамат белән Айгөл бакчада.
+
+
+
+# Determiners
+# ===========
+
+
+
+REMOVE Det IF (NOT 1/-1 NPMARK OR N OR Pron);
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ ,
     #! әлегә эт дә бакчада .
     ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn. Maybe we should consider it noun (as in Kazakh)'
@@ -162,34 +242,186 @@ SELECT Det IF (0C V OR Det OR A OR N) (1 NPMARK OR N) ;
     #! Акча бармы? Бар<adj>.
     #! Акча бармы? Бар<adj>, ләкин бик аз!
 
-SELECT Det IF (-1C A) (1 N); 
+SELECT Det IF (-1C A) (1 N);
     #! Әхмәт тиз генә иске зур бер агачка йөгерә.
     #! Әхмәт акрын гына иске зур бер агачка йөгерә.
 
-# Nouns 
-# -----
 
-REMOVE Attr IF (NOT 1 N); 
 
-# Verbs 
-# -----
+# Nouns
+# =====
 
-REMOVE Prc IF (NOT 1 V OR Vaux);
+
+
+#
+ REMOVE Attr IF
+       (0 N OR Prop)
+       (NOT 0 Loc)
+       (NOT 1 N OR Prop)
+;
+## 176. Орталықта Түркістанның төл тарихына арналған музейлік [0]экспозиция жасақталған.
+## (!) 184 . Үшінші қабатта «Тәуелсіз [0]Қазақстандағы жаңа Түркістан» атты экспозициялар қойылған.
+
+
+# Select attributive reading of the first noun of the II izafet construct
+# (as Tatar grammars call it)
+ SELECT Attr IF
+        (0C N OR Prop)
+        (1 N OR Prop OR Subst)
+        (1 (px3sp))
+;
+## 111. Түркияның оңтүстік-шығысындағы [0]Газиантеп қаласында кеше болған жарылыстан қаза тапқандар саны 9-ға жетті.
+
+
+# If a former gerund or verbal adjective was lexicalized as a noun, select noun
+ SELECT N IF
+        (0 N)
+        (0 Gerund  OR (gpr_pot))
+;
+## professions, such as "оқушы"; -U gerunds , in theory other gerunds too
+
+
+
+# Adjectives
+# ==========
+
+
+
+# select adverbial reading of adjectives if any verbal form except gerund follows
+# FIXME CHECK it might be a gerund as well
+ SELECT Advl IF
+         (1C V-NotGerund)
+;
+##
+
+
+# select pure adjective reading ("predicative" in this case) of an adjective if sentence ends
+ REMOVE Advl IF
+        (0 A1)
+        (1 EOS)
+;
+ REMOVE Subst IF
+        (0 A1)
+        (1 EOS)
+        (NOT 0/1 Cop) ## FIXME CHECK
+;
+## TODO (!) Син әкренсең -- (adj+cop vs adj.subst+cop)?
+
+
+
+# Postpositions
+# =============
+
+
+
+#
+ "<таба>" SELECT Post IF
+          (-1 Dat)
+;
+##
+
+
+#
+ "<бергә>" SELECT Post IF
+        (-1 ("белән"))
+;
+##
+
+
+
+# Verbs
+# =====
+
+
+
+REMOVE Participle IF
+       (NOT 1C V OR Vaux)
+;
+
+
+# <prc_cond> vs. <gna_cond>
+ REMOVE (prc_cond) IF
+        (NOT 1 ("бул") + V)
+;
+## 34 . Ол Азаматтың қайда екенін [0]білсе де айтқысы келген жоқ.
+
+
+#
+ SELECT Participle IF
+        (0C Participle OR VerbalAdverb)
+        (1 Vaux)
+;
+## 16 . Азамат ескі үлкен бір ағашқа қарай қатты [?]жүгіріп бара жатыр, ол сол
+## ағаштың артына Айгүлден [0]жасырынып жатыр.
+
+
+#
+ REMOVE Vaux IF
+        (NOT -1 Participle)
+;
+## 187 . Біздің дәуірімізден 1 миллион жыл бұрын өмір сүрген "тік жүретін адамнан" [0]бастап, өз замандастарына дейінгі
+## кезеңдерді қамтитын, ... орталықтың экспозициясы негізгі сегіз ірі бөлімнен тұрады.
+
 
 SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
-    #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$ .
+    #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
 
-# Wordform specific    # Adding new stuff here is discouraged.  
-# -----------------    # Try to generalize, if possible, existing rules.
+
+#
+ SELECT (gpr_past) IF
+        (0C (ger_past) + Nom)
+        (1 N)
+;
+##  172 . Сот арқылы немесе өзгеде осындай құзыреті бар мемлекеттік органдардың
+## шешімі арқылы тәркіленген мұражайлық маңызы бар жинақтардың немесе [0]жекелеген заттардың есебінен;
+
+
+###################################### TO BE SORTED ############################
+
 
 SELECT A IF (0 ("бар")) (-1 PersonalPossessives );
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ .
     ## FIXME:CHECK
 
+
 # RISKY
 SELECT Det IF (0 ("берәр")) (1/-1 PX OR Pron);
     #! Ул берәр хайванныкы да кошныкы да түгел.
     ## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
+
+
+################################################################################
+
+
+
+# Wordform/lemma-specific rules   # Adding new stuff here is discouraged.
+# =============================   # Try to generalize, if possible, existing rules.
+
+
+#
+ "<үтә>" SELECT Adv IF
+                (1 A)
+;
+## Бірақ кеше _өте_ суық еді!
+
+
+# да<postadv/conj>
+ SELECT SUB:1 Postadv IF
+        (0 (gna_cond))
+;
+## 34 . Ол Азаматтың қайда екенін [0]білсе+[0/1_or_-1]де айтқысы келген жоқ.  # with SUBREADINGS = LTR ; option
+## Ол Азаматтың қайла екенін [0]білсе+[0/1]де+[0/2_or_-1]мі?                  # with SUBREADINGS = LTR ; option
+
+
+#
+ SELECT Adv IF
+        (0 ("бірге"))
+        (NOT -1 Ins)
+        (1 V)
+;
+## 6 . Азамат пен Айгүл ойнағанды жақсы көреді, олар әрдайым үлкен үйдің алдындағы бақшада [0]бірге ойнайды.
+## (!) Ол Азаматпен бірге келді.
+
 
 ###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
 ###################   SOME SHOULD BE REWRITTEN/REMOVED LATER        ####################

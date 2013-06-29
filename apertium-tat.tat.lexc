@@ -164,7 +164,7 @@ Multichar_Symbols
               !# барыр җир; сөйләр сүз;
 %<gpr_fut2%>  ! -{A}ч{A}к
               !# әйтеләчәк фикер; эшләнәчәк эш;
-%<gpr_fut3%>  ! {E}с{I}         (see volition participle above)
+%<gpr_fut3%>  ! {E}с{I}         (ambigious with the volition participle (see above))
               !# "_Үләсе_ күбәләк ут күзенә керер";
 
 !!! Gerunds (verbal nouns) - Исем фигыльләр
@@ -181,7 +181,7 @@ Multichar_Symbols
 %<ger_fut%>   ! -{I}р/-{A}р
               !# "Ярым кем _булырын_ белмим, мин әле ялгыз йөрим." (Ш.Галиев);
 %<ger_fut2%>  ! -{A}ч{A}к
-%<ger_fut3%>  ! {E}с{I}         (see volition participle above)
+%<ger_fut3%>  ! {E}с{I}         (ambigious with the volition participle (see above))
               !# "_Күрәселәре_ алда әле";
 %<ger1%>      ! -м{A}к
 %<inf%>       ! -{A/I}рг{A}          Infinitive
@@ -212,6 +212,8 @@ Multichar_Symbols
 %<lquot%>     ! Quote marker (left hand side)
 %<rpar%>      ! Parenthetical marker (right hand side)
 %<lpar%>      ! Parenthetical marker (left hand side)
+
+! Archiphonemes
 
 %{L%}         ! Realised as
 %{G%}         ! Realised as
@@ -645,10 +647,10 @@ LEXICON A1                ! adjectives that can be both substantivized and andve
                           ! all three readings (<adj>, <adj.subst> and <adj.advl>) have comparison levels.
                           !# яхшы, тиз
 
-%<adj%>: CLIT ;                                       !# яхшы кеше
-%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ;                  !# яхшырак эш
+%<adj%>: CLIT-INCLUDING-COPULAS ;                        !# яхшы кеше
+%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT-INCLUDING-COPULAS ;   !# яхшырак эш
 
-%<adj%>%<subst%>: SUBST ;                             !# "Яхшы яхшыны тудыра." 
+%<adj%>%<subst%>: SUBST ;                             !# "Яхшы яхшыны тудыра."
 %<adj%>%<comp%>%<subst%>:%>р%{A%}%{K%} SUBST ;        !# яхшыракны таптым
 
 %<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
@@ -658,17 +660,17 @@ LEXICON A2                 ! adjectives without adverbial reading;
                            ! <adj> and <adj.subst> readings have comparison levels.
                            !# иске
 
-%<adj%>: CLIT ;                                       !# иске дус
-%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ;                  !# искерәк версия
+%<adj%>: CLIT-INCLUDING-COPULAS ;                        !# иске дус
+%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT-INCLUDING-COPULAS ;   !# искерәк версия
 
 %<adj%>%<subst%>: SUBST ;                             !# "Яңа булды дип, искене ташлама."
 %<adj%>%<comp%>%<subst%>:%>р%{A%}%{K%} SUBST ;        !# "Ихтимал, бу бина башкасы, искерәге урынында утырадыр."
- 
+
 LEXICON A3                 ! adjectives without adverbial reading & so-called "predicatives" (бар, юк);
                            ! no comparison levels at all.
                            !# язгы, яшьлек, бар, юк
 
-%<adj%>: CLIT ;                                       !# язгы кыр эшләре
+%<adj%>: CLIT-INCLUDING-COPULAS ;                     !# язгы кыр эшләре
 %<adj%>%<subst%>: SUBST ;                             !# "Ул 14-25 яшьлекләргә бирелә."
                                                       !# "Хатыны юкның якыны юк." !# "Эше барның ашы бар."
 
@@ -678,7 +680,7 @@ LEXICON A3                 ! adjectives without adverbial reading & so-called "p
 LEXICON A4                 ! "pure" adjectives - no adverbial and substantive readings, no comparison levels;
                            !# милли
 
-%<adj%>: CLIT ;                                       !# милли музей
+%<adj%>: CLIT-INCLUDING-COPULAS ;                     !# милли музей
 
 LEXICON V-ADJ
 

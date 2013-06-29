@@ -1,10 +1,51 @@
 
+# ============================================================================= #
+#            A COMMENTARY ON FORMATTING OF MAJORITY OF RULES
+#              (read: a wannabe FORMATTING GUIDELINES)
+# ============================================================================= #
+
+# How most of the rules look like?
+# ================================
+
+#          # An explanation of what the rule does (if it's not obvious from code!), a name
+#          # or any other comment
+#           SELECT ABC IF
+#                  (0 DEF)
+#                  (1 GHI)
+#          ;
+#          ## A sentence the rule was written for.
+#          ## (!) A corner-case-sentence: the rule mispredicted on it initially but was
+#          ## modified accordingly (additional constraints etc.); or the rule still
+##         ## mispredicts on it, but this kind of sentences aren't that frequent.
+
+
+#          # Sometimes you can't disambiguate a form with only one rule. In that case,
+##         # several rules dealing with the same thing are grouped together
+#           SELECT ABC IF
+#                  (0 DEF)
+#                  (1 KLM)
+#          ;
+#           REMOVE XYZ IF
+#                  (0 DEF)
+#                  (1 NOP)
+#                  (2 QRS)
+#          ;
+#          ## Example sentences for both of the rules.
+#          ## Another example sentence.
+#          ## (!) And another, on which the rule didn't/doesn't work.
+
+# ============================ #
+# END OF FORMATTING GUIDELINES #
+# ============================ #
+
 # ========== #
 # Delimiters #
 # ========== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
+
+SUBREADINGS =LTR ; # Alternate, left-to-right (main reading on the left)
 
 # ============= #
 # Tags and sets #
@@ -15,68 +56,54 @@ SETS
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
-# Parts of speech
-# ---------------
+# First-level/Parts-of-speech tags
+# ================================
 
 LIST A = adj ;
 LIST Adv = adv ;
-LIST Pron = prn ; 
-LIST N = n ; 
+LIST Pron = prn ;
+LIST N = n ;
 LIST V = v ;
 LIST Vaux = vaux ;
-LIST Det = det ; 
+LIST Cop = cop ;
+LIST Det = det ;
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
 LIST Interj = ij ;
-LIST Num = num ; 
-LIST Post = post ; 
-LIST Postadv = postadv ; 
-LIST Cm = cm ; 
+LIST Num = num ;
+LIST Post = post ;
+LIST Postadv = postadv ;
+LIST Cm = cm ;
+LIST Rquot = rquot ;
 
 # POS sub-categories
-# ------------------
+# ==================
 
 LIST Pers = pers ;
 LIST Interr = itg ;
 
 # "Syntactic" tags
-# ----------------
+# ================
 
 LIST Advl = advl ;
-LIST Pred = pred ;
 LIST Attr = attr ;
 LIST Subst = subst ;
 
-# Morphosyntactic properties
-# --------------------------
+# Morphosyntactic properties   # if you find yourself embracing the same tag in
+# ==========================   # brackets over and over again, you may want to
+                               # add it here
 
 LIST Sg = sg ;
 LIST Pl = pl ;
 
-LIST PX = px px1sg px2sg px3sp px1pl px2pl ; 
-
-# Verbal Properties 
-# -----------------
-
-LIST Pres = pres ;
-LIST Prc = prc_perf prc_impf prc_cond prc_vol ;
-LIST Prc-Impf = prc_impf ;
-LIST Inf = inf ;
-LIST Ger6 = ger6 ;
-
-# Semantic lists 
-# --------------
-
-LIST MOVEMENT-V = "йөгер" ; 
-
-LIST MOVEMENT-ADV = "тиз" "акрын" "әкрен" ; 
+LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
 
 # All possible word categories
-# ----------------------------
+# ============================
 
 SET WORD = N | V | A | Post | Postadv | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
-SET PRE-N =  A | Det | Postadv | Num | (n gen) | (prn gen) | CC ; 
+SET PRE-N =  A | Det | Postadv | Num | (n gen) | (prn gen) | CC ;
 
 SET MARK =  Cm | ("\\") | ("\;") ;
 
@@ -88,18 +115,34 @@ SET ADJ-MOD = Postadv | Adv ;
 
 SET NPMARK = N-MOD | ADJ-MOD ;
 
-# Categories which cannot be part of a noun phrase 
-# ------------------------------------------------
+# Categories which cannot be part of a noun phrase
+# ================================================
 
 SET NPNH = WORDMARK - PRE-N ;
 SET NPNHA = WORDMARK - PRE-N - Adv ;
 SET NOT-ADV = WORDMARK - Adv ;
 
+# Adjective sets
+# ==============
 
-# Barriers 
-# --------
+LIST A/Advl = (adj advl) ;
+LIST A/Subst = (adj subst nom) ;
+SET A1 = A/Advl | A/Subst ;
 
-SET S-BOUNDARY = CS | Interr | EOS; 
+# Verb sets
+# =========
+
+LIST FiniteVerb = pres past ifi  fut fut2 imp opt;
+LIST Pres = pres ;
+LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
+LIST Prc-Impf = prc_impf ;
+LIST Inf = inf ;
+LIST Ger6 = ger6 ;
+
+# Barriers
+# ========
+
+SET S-BOUNDARY = CS | Interr | EOS;
 
 SECTION
 
@@ -139,7 +182,7 @@ SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
 # Wordform specific    # Adding new stuff here is discouraged.  
 # -----------------    # Try to generalize, if possible, existing rules.
 
-SELECT A IF (0 ("бар")) (-1 PX );
+SELECT A IF (0 ("бар")) (-1 PersonalPossessives );
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ .
     ## FIXME:CHECK
 

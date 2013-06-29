@@ -97,6 +97,17 @@ LIST Subst = subst ;
 LIST Sg = sg ;
 LIST Pl = pl ;
 
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Abl = abl ;
+LIST Loc = loc ;
+LIST Ins = ins ;
+
+LIST P1 = p1 ;
+LIST P3 = p3 ;
+
 LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
 
 # All possible word categories
@@ -134,8 +145,11 @@ SET A1 = A/Advl | A/Subst ;
 # =========
 
 LIST FiniteVerb = pres past ifi  fut fut2 imp opt;
+LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
+SET V-NotGerund = V - Gerund ;
 LIST Pres = pres ;
 LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
+LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
 LIST Prc-Impf = prc_impf ;
 LIST Inf = inf ;
 LIST Ger6 = ger6 ;
@@ -385,7 +399,7 @@ SELECT A IF (0 ("бар")) (-1 PersonalPossessives );
 
 
 # RISKY
-SELECT Det IF (0 ("берәр")) (1/-1 PX OR Pron);
+SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
     #! Ул берәр хайванныкы да кошныкы да түгел.
     ## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
 

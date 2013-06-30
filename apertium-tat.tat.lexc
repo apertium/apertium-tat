@@ -1406,6 +1406,9 @@ LEXICON ADV-LANG
 N1 ;
 ADV ;
 
+LEXICON NP-COMMON
+FullNominalInflection ;
+
 LEXICON NP-TOP
 
 %<np%>%<top%>: FullNominalInflection  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
@@ -1414,11 +1417,13 @@ LEXICON NP-TOP
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: Cases ;
+%<np%>%<ant%>%<m%>: NP-COMMON ;
+%<np%>%<ant%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: Cases ;
+%<np%>%<ant%>%<f%>: NP-COMMON ;
+%<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
 LEXICON NP-COG-OB
 

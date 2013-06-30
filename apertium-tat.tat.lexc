@@ -1411,7 +1411,7 @@ FullNominalInflection ;
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: FullNominalInflection  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
+%<np%>%<top%>: NP-COMMON ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
                                         ! *Мәскәүдәй?
 %<np%>%<top%>%<attr%>: # ;
 

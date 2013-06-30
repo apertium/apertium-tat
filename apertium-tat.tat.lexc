@@ -1425,21 +1425,6 @@ LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>: NP-COMMON ;
 %<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
-LEXICON NP-COG-OB
-
-! For cognoms ending with -ов, -ев, -ин
-! They derive feminine equivalets taking -а
-
-%<np%>%<cog%>%<m%>: Cases ;
-%<np%>%<cog%>%<f%>:а Cases ;
-
-LEXICON NPCOGFLEX
-
-! This isn't used at the moment,
-! but e.g. ?Polish cognoms ending with -ска would take this cont.class /I.S./ 
-
-%<np%>%<cog%>%<f%>: Cases ;
-
 LEXICON NP-COG-M
 
 %<np%>%<cog%>%<m%>: NP-COMMON ;
@@ -1453,14 +1438,42 @@ LEXICON NPCOGMFLEX
 %<np%>%<cog%>%<mf%>: NP-COMMON ;
 %<np%>%<cog%>%<mf%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
+LEXICON NP-COG-OBIN-FEM
+
+%<np%>%<cog%>%<f%>:а NP-COMMON ;
+%<np%>%<cog%>%<f%>%<pl%>:а%>%{L%}%{A%}р NP-COMMON ;
+
+
+LEXICON NP-COG-OB
+
+! For cognoms ending with -ов, -ев
+! They derive feminine equivalets taking -а /I.S./
+! Also, even the ев ones are normally pronounced
+!    (and take harmony) as if they end in йыф/йып
+
+%<np%>%<cog%>%<m%>:%{☭%} NP-COMMON ;                       ! Dir/LR
+%<np%>%<cog%>%<m%>%<pl%>:%{☭%}%>%{L%}%{A%}р NP-COMMON ;    ! Dir/LR
+
+%<np%>%<cog%>%<m%>:%{а%}%{с%} NP-COMMON ;
+%<np%>%<cog%>%<m%>%<pl%>:%{а%}%{с%}%>%{L%}%{A%}р NP-COMMON ;
+
+NP-COG-OBIN-FEM ;
+
+LEXICON NPCOGFLEX
+
+! This isn't used at the moment,
+! but e.g. ?Polish cognoms ending with -ска would take this cont.class /I.S./ 
+
+%<np%>%<cog%>%<f%>: Cases ;
+
 LEXICON NP-PAT-VICH
 
 ! For patronyms ending with -вич
 ! Their feminine equivalets end with -вна /I.S./
 
-%<np%>%<pat%>%<m%>:вич Cases ;
+%<np%>%<pat%>%<m%>:вич NP-COMMON ;
 
-%<np%>%<pat%>%<f%>:вна Cases ;
+%<np%>%<pat%>%<f%>:вна NP-COMMON ;
 
 LEXICON NPORGLEX
 

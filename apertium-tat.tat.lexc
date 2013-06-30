@@ -1442,14 +1442,16 @@ LEXICON NPCOGFLEX
 
 LEXICON NP-COG-M
 
-%<np%>%<cog%>%<m%>: Cases ;
+%<np%>%<cog%>%<m%>: NP-COMMON ;
+%<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
 LEXICON NPCOGMFLEX
 
 ! Dual-gender cognoms.
 ! Don't derive anything
 
-%<np%>%<cog%>%<mf%>: Cases ;
+%<np%>%<cog%>%<mf%>: NP-COMMON ;
+%<np%>%<cog%>%<mf%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
 LEXICON NP-PAT-VICH
 

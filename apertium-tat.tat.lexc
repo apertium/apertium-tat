@@ -1303,6 +1303,10 @@ LEXICON PRNNEG
 
 %<prn%>%<neg%>: Cases ;
 
+LEXICON PRON-RECIP
+
+%<prn%>%<recip%>: Possessives ;
+
 LEXICON PRON-REF-ADV
 
 Cases-etc ;
@@ -1338,6 +1342,7 @@ LEXICON PRON-REF
 ! This is how it was before:
 !%<prn%>%<ref%>: POSS-REAL ;
 !%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
+
 
 !!!!!!!!!!!!!!!!!!!!!      DETERMINERS
 
@@ -1839,6 +1844,8 @@ InterrogativePronouns ;
 берни:берни PRNNEG ; ! ""
 һичкем:һичкем PRNNEG ; ! ""
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
+
+бер%-бер:бер%-бер PRON-RECIP ; ! "each-other, one another"
 
 үз:үз PRON-REF ; ! "self"
 

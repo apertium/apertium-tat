@@ -1295,6 +1295,10 @@ PRON-ITG-NINDI ;
 нәрсә:нәрсә PRON-ITG-INFL ; ! "what"
 кем:кем PRON-ITG-INFL ; ! "who"
 
+LEXICON PRON-QNT-POSS
+
+%<prn%>%<qnt%>: Possessives ;
+
 LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: GER-INFL ;
@@ -1832,10 +1836,12 @@ DemonstrativePronouns ;
 
 InterrogativePronouns ;
 
+
 башка:башка PRON-IND ; ! "other"
 бер% нәрсә:бер% нәрсә PRON-IND ; ! "something" Use/MT
 
 барлык:барлык PRON-QNT ; ! ""
+бары:бары PRON-QNT-POSS ; ! ""
 берәү:берәү PRON-QNT ; ! ""
 һәркем:һәркем PRON-QNT ; ! ""
 

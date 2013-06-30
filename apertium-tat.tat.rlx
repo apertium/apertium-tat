@@ -103,7 +103,6 @@ LIST Dat = dat ;
 LIST Acc = acc ;
 LIST Abl = abl ;
 LIST Loc = loc ;
-LIST Ins = ins ;
 
 LIST P1 = p1 ;
 LIST P3 = p3 ;
@@ -261,6 +260,14 @@ SELECT Det IF (-1C A) (1 N);
     #! Әхмәт акрын гына иске зур бер агачка йөгерә.
 
 
+#
+ SELECT Pron IF
+        (0C Det OR Pron)
+        (1 Adv)
+;
+## 44 . [0]Ол енді ол дыбысты анығырақ ести бастады.
+
+
 
 # Nouns
 # =====
@@ -322,6 +329,13 @@ SELECT Det IF (-1C A) (1 N);
 ## TODO (!) Син әкренсең -- (adj+cop vs adj.subst+cop)?
 
 
+#
+REMOVE SUB:1 P3 IF
+       (0/1 Cop)
+       (0/1 P1) ;
+## "Біз [0]қуаныштымыз."
+
+
 
 # Postpositions
 # =============
@@ -340,6 +354,13 @@ SELECT Det IF (-1C A) (1 N);
         (-1 ("белән"))
 ;
 ##
+
+
+#
+ "<соң>" SELECT Post IF
+                (-1 Abl)
+;
+## 23. Айгөл санап бетергәннән соң тирә-ягына карады.
 
 
 
@@ -429,17 +450,9 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 
 #
  SELECT Adv IF
-        (0 ("бірге"))
-        (NOT -1 Ins)
+        (0 ("бергә"))
+        (NOT -1 ("белән"))
         (1 V)
 ;
 ## 6 . Азамат пен Айгүл ойнағанды жақсы көреді, олар әрдайым үлкен үйдің алдындағы бақшада [0]бірге ойнайды.
 ## (!) Ол Азаматпен бірге келді.
-
-
-###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
-###################   SOME SHOULD BE REWRITTEN/REMOVED LATER        ####################
-
-SELECT Inf IF (0 Inf OR Ger6) (1 ("ярат") OR ("тырыш"));
-    #! Әхмәт һәм Гөлнара ^уйнарга/уйна<v><tv><ger6><dat>/уйна<v><tv><inf>$ яраталар .
-    #! Һаман Әхмәтне ^табарга/тап<v><tv><ger6><dat>/тап<v><tv><inf>$ тырыша .

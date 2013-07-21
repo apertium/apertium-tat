@@ -1,6 +1,6 @@
 !==============================================================================!
 !                               CHANGELOG
-! r45894: nominal inflection refactored
+! r45895: nominal inflection refactored
 !==============================================================================!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -550,8 +550,18 @@ CLIT-COPULA ;
 ! stem > сыз(plural) > possessives > case
 !----
 ! *1. "ныкы" form in some Tatar grammars is called "predicative genitive".
-!     Indeed, when not substantivized, it has predicative use:
-!     "Бу яулык әнинеке." (vs "Әнинең яулыгы.")
+!     Indeed, when not substantivized, it is used as a predicate:
+!     "Бу яулык әнинеке." (vs "Әнинең яулыгы.)
+!
+!     Currently we don't mark it with a <subst> tag, but probably we should,
+!     since we let it continue with case tags.
+!
+!     An alternative to a [predicative general possessive <px>] vs
+!     [substantivized general possessive <px>subst>] opposition is to view it as
+!     an always substantivized thing and hence mark it with a <subst> tag
+!     (see e.g. http://wiki.apertium.org/wiki/Turkic_languages/Ki)
+!     At the end of sentences it will have attached copulas, which will indicate
+!     predicative use anyway.
 ! *2. This doesn't work atm (it's recursive), but it doesn't seem to be very
 !     frequent also.
 !     Most likely it is restricted to px3sp.

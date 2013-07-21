@@ -557,42 +557,47 @@ LEXICON CASES-COMMON
 LEXICON CASES
 
 CASES-COMMON ;
-%<nom%>: CLITICS-INCLUDING-COPULA ;
-%<abl%>:%>%{D%}%{A%}н CLITICS-INCLUDING-COPULA ;
-%<loc%>:%>%{D%}%{A%} CLITICS-INCLUDING-COPULA ;
+%<nom%>: NOMINAL_CLITICS ;
+%<abl%>:%>%{D%}%{A%}н NOMINAL_CLITICS ;
+%<loc%>:%>%{D%}%{A%} NOMINAL_CLITICS ;
 
 LEXICON CASES-WITHOUT-COPULAS
 
 CASES-COMMON ;
-%<nom%>: CLITICS ;
-%<abl%>:%>%{D%}%{A%}н CLITICS ;
-%<loc%>:%>%{D%}%{A%} CLITICS ;
+%<nom%>: COMMON-CLITICS ;
+%<abl%>:%>%{D%}%{A%}н COMMON-CLITICS ;
+%<loc%>:%>%{D%}%{A%} COMMON-CLITICS ;
 
-LEXICON ATTR/SUBST
-
-%<attr%>: CLITICS ;
-%<subst%>: Cases ;
-%<subst%>%<pl%>:%>%{L%}%{A%}р Cases ;
-
-LEXICON ABESSIVE
-
-! Doesn't appear after possessives.
+!------
+! A note on abessive SIZ:
+! It doesn't appear after possessives.
 ! Doesn't take personal copula suffixes. A counterexample could be e.g.
 ! "бәхет-сез-мен", but that's only because "бәхетсез" has lexicalized as an
 ! adjective.
+! *Китапларсызлар is not legal, but китапларсыз and китапсызлар are correct.
+!----
 
-%+сыз%<post%>:%>с%{I%}з CLITICS ;
-%<subst%>: CASES-WITHOUT-COPULAS ;
-%<subst%>%<pl%>:%>%{L%}%{A%}р CASES-WITHOUT-COPULAS ;
+LEXICON ABESSIVE-SUBSTANTIVIZED
+
+%+сыз%<post%>%<subst%>:%>с%{I%}з CASES-WITHOUT-COPULAS ;
+%+сыз%<post%>%<subst%>%<pl%>:%>%{L%}%{A%}р CASES-WITHOUT-COPULAS ;
+
+LEXICON ABESSIVE-POSTPOSITION
+
+%+сыз%<post%>:%>с%{I%}з COMMON-CLITICS ;
+
+LEXICON ATTR/SUBST
+
+%<attr%>: COMMON-CLITICS ;
+%<subst%>: CASES ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON GENERAL_POSSESSIVE-ETC   ! Stuff which can appear after possessives too
 
-%<px%>:%>н%{I%}к%{I%}%{n%} Cases ;
-%<loc%>:%>%{D%}%{A%}г%{I%} ATTR/SUBST ; ! <s>FIXME:NOTE: I am in favour for changing the tag to loc2
-                                        ! ("DAGI"=loc2 and not "DAGI"=loc"DA"+attr"GI") But first
-                                        ! I'll give some arguments in a mail to apertium-turkic</s>
-%<sim%>:%>%{D%}%{A%}й CLITICS ;            ! FIXME:CHECK:In Tatar this is considered to be an adverbializer, so
-                                        ! no case endings after it. In Kazakh it should be the same
+%<px%>:%>н%{I%}к%{I%}%{n%}  ;
+%<loc%>:%>%{D%}%{A%}г%{I%} ATTR/SUBST ;
+%<sim%>:%>%{D%}%{A%}й COMMON-CLITICS ; ! In Tatar this is considered to be an
+                                       ! adverbializer, so no cases after it.
 
 LEXICON CASES-ETC
 
@@ -617,18 +622,19 @@ LEXICON POSSESSIVES
 
 LEXICON NOMINAL-AFFIXES-EXCEPT-PLURAL
 
-POSSESSIVES ;
 CASES-ETC ;
-ABESSIVE ;
+POSSESSIVES ;
+ABESSIVE-POSTPOSITION ;
 
 LEXICON PLURAL
 
-%<pl%>:%>%{L%}%{A%}р NOMINAL_AFFIXES-EXCEPT-PLURAL ;
-NOMINAL-AFFIXES-EXCEPT-PLURAL ;
+%<pl%>:%>%{L%}%{A%}р NOMINAL_AFFIXES-AFTER-PLURAL ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 
 PLURAL ;
+NOMINAL-AFFIXES-EXCEPT-PLURAL ;
+ABESSIVE-SUBSTANTIVIZED ;
 
 !==============================================================================!
 !                 ADJECTIVE'S (ADJECTIVIAL) INFLECTION

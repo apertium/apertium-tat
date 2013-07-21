@@ -513,8 +513,8 @@ CLIT-MODASS ;
 CLIT-MODIND ;
 CLIT-GHANA-ETC ;
 
-LEXICON NOMINAL-CLITICS ! Can appear only after nominals
-                        ! (and only after some cases).
+LEXICON CLITICS-INCLUDING-COPULA ! Can appear only after nominals
+                                 ! (and only after some cases).
 COMMON-CLITICS ;
 CLIT-COPULA ;
 
@@ -536,9 +536,9 @@ CLIT-COPULA ;
 ! stem > ныкы/дагы/дай                               : әтинеке/әтидәге/әтидәй
 ! stem > ныкы/дагы(*2) > case                        : Бу соңгы _еллардагының_ өчтән икесе чамасы.
 !
-! stem > сыз(abe)                  WORKS
-! stem > сыз(abe) > case           DOESN'T WORK YET
-! stem > сыз(abe) > poss > case    (?)
+! stem > сыз(abe)
+! stem > сыз(abe) > case
+! stem > сыз(abe) > poss > case
 !
 ! *1. "ныкы" form in some Tatar grammars is called "predicative genitive".
 !     Indeed, when not substantivized, it has predicative use:
@@ -568,36 +568,17 @@ CASES-COMMON ;
 %<abl%>:%>%{D%}%{A%}н COMMON-CLITICS ;
 %<loc%>:%>%{D%}%{A%} COMMON-CLITICS ;
 
-!------
-! A note on abessive SIZ:
-! It doesn't appear after possessives.
-! Doesn't take personal copula suffixes. A counterexample could be e.g.
-! "бәхет-сез-мен", but that's only because "бәхетсез" has lexicalized as an
-! adjective.
-! *Китапларсызлар is not legal, but китапларсыз and китапсызлар are correct.
-!----
-
-LEXICON ABESSIVE-SUBSTANTIVIZED
-
-%+сыз%<post%>%<subst%>:%>с%{I%}з CASES-WITHOUT-COPULAS ;
-%+сыз%<post%>%<subst%>%<pl%>:%>%{L%}%{A%}р CASES-WITHOUT-COPULAS ;
-
-LEXICON ABESSIVE-POSTPOSITION
-
-%+сыз%<post%>:%>с%{I%}з COMMON-CLITICS ;
-
 LEXICON ATTR/SUBST
 
-%<attr%>: COMMON-CLITICS ;
+%<attr%>: # ;
 %<subst%>: CASES ;
 %<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON GENERAL_POSSESSIVE-ETC   ! Stuff which can appear after possessives too
 
-%<px%>:%>н%{I%}к%{I%}%{n%}  ;
+%<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
 %<loc%>:%>%{D%}%{A%}г%{I%} ATTR/SUBST ;
-%<sim%>:%>%{D%}%{A%}й COMMON-CLITICS ; ! In Tatar this is considered to be an
-                                       ! adverbializer, so no cases after it.
+%<sim%>:%>%{D%}%{A%}й COMMON-CLITICS ;
 
 LEXICON CASES-ETC
 
@@ -620,6 +601,24 @@ LEXICON POSSESSIVES
 %<px2sg%>%<frm%>:%>%{I%}г%{I%}з CASES-ETC ;
 %<px2pl%>%<frm%>:%>%{I%}г%{I%}з CASES-ETC ;
 
+!------
+! A note on abessive SIZ:
+! It doesn't appear after possessives.
+! Doesn't take personal copula suffixes. A counterexample could be e.g.
+! "бәхет-сез-мен", but that's only because "бәхетсез" has lexicalized as an
+! adjective.
+! *Китапларсызлар is not legal, but китапларсыз and китапсызлар are correct.
+!----
+
+LEXICON ABESSIVE-SUBSTANTIVIZED
+
+%+сыз%<post%>%<subst%>:%>с%{I%}з POSSESSIVES ;
+%+сыз%<post%>%<subst%>%<pl%>:%>%{L%}%{A%}р POSSESSIVES ;
+
+LEXICON ABESSIVE-POSTPOSITION
+
+%+сыз%<post%>:%>с%{I%}з COMMON-CLITICS ;
+
 LEXICON NOMINAL-AFFIXES-EXCEPT-PLURAL
 
 CASES-ETC ;
@@ -628,7 +627,7 @@ ABESSIVE-POSTPOSITION ;
 
 LEXICON PLURAL
 
-%<pl%>:%>%{L%}%{A%}р NOMINAL_AFFIXES-AFTER-PLURAL ;
+%<pl%>:%>%{L%}%{A%}р NOMINAL_AFFIXES-EXCEPT-PLURAL ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 

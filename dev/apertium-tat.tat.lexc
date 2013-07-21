@@ -634,10 +634,8 @@ LEXICON POSSESSIVES
 
 LEXICON ABESSIVE-SUBSTANTIVIZED
 
-%+сыз%<post%>%<subst%>:%>с%{I%}з CASES-ETC ;
-%+сыз%<post%>%<subst%>%<pl%>:%>с%{I%}з%>%{L%}%{A%}р CASES-ETC ;
-%+сыз%<post%>%<subst%>:%>с%{I%}з POSSESSIVES ;
-%+сыз%<post%>%<subst%>%<pl%>:%>с%{I%}з%>%{L%}%{A%}р POSSESSIVES ;
+%+сыз%<post%>%<subst%>:%>с%{I%}з CASES-WITHOUT-COPULAS ;
+%+сыз%<post%>%<subst%>%<pl%>:%>с%{I%}з%>%{L%}%{A%}р CASES-WITHOUT-COPULAS ;
 
 LEXICON ABESSIVE-POSTPOSITION
 

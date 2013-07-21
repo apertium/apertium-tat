@@ -537,10 +537,10 @@ CLIT-COPULA ;
 ! stem(plural) > possessives > case                       !# әтиемне<px1sg><acc>
 ! stem(plural) > possessives > ныкы/дагы/дай(*1)
                                                !# әтиемнеке,китабындагы,әтиемдәй
-! stem(plural) > possessives > ныкы/дагы > case
+! stem(plural) > possessives > ныкы/дагы(plural(*2)) > case
                                    !# Монда _эчеңдәгене_ тышка чыгарырга ярамый.
-! stem(plural) > possessives > дагы > possessives > case
-                     !# _Эчендәгесе_(*2) – тышында, диләр андый кешеләр турында.
+! stem(plural) > possessives > дагы(plural(*2)) > possessives > case
+                     !# _Эчендәгесе_(*3) – тышында, диләр андый кешеләр турында.
 !----
 ! stem(plural) > ныкы/дагы/дай                         !# әтинеке/әтидәге/әтидәй
 ! stem(plural) > ныкы/дагы > case  !#Бу соңгы _еллардагының_ өчтән икесе чамасы.
@@ -562,12 +562,12 @@ CLIT-COPULA ;
 !     (see e.g. http://wiki.apertium.org/wiki/Turkic_languages/Ki)
 !     At the end of sentences it will have attached copulas, which will indicate
 !     predicative use anyway.
-! *2. This doesn't work atm (it's recursive), but it doesn't seem to be very
+! *2. TODO: Does double plural in a word make sence? Ерак илләрдәгеләр looks ok,
+!     and occurs in the RFERL copus (though very rarely). What about the general
+!     possessive?
+! *3. This doesn't work atm (it's recursive), but it doesn't seem to be very
 !     frequent also.
 !     Most likely it is restricted to px3sp.
-!----
-! TODO: what about currently recognized <n.pl.DAGI/NIKI/.pl> forms (they sound
-! quite odd) >> check on corpus.
 !-------------------------------------------------------------------------------
 
 !-------------------------------------------------------------------------------

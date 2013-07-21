@@ -11,6 +11,7 @@
 /apertium-tat.tat.twol -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-tat.tat.lexc -text
 dev/countstems.sh -text
 /modes.xml -text
 tests/epenthesis.yaml -text

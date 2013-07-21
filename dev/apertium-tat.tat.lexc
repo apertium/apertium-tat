@@ -1,3 +1,8 @@
+!==============================================================================!
+!                               CHANGELOG
+! r45894: nominal inflection refactored
+!==============================================================================!
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R     !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -524,42 +529,58 @@ CLIT-COPULA ;
 ! It starts with the LEXICON FULL-NOMINAL-INFLECTION
 !==============================================================================!
 
+!-------------------------------------------------------------------------------
 ! The following combinations are possible:
 !
-! stem > case                                        : әти<nom> : әтине<acc>
-!
-! stem > poss-real > case                            : әтием<px1sg><nom> : әтиемне<px1sg><acc>
-! stem > poss-real > ныкы/дагы/дай(*1)               : әтиемнеке/китабындагы,өегездәге/әтиемдәй
-! stem > poss-real > ныкы/дагы > case                : Монда _эчеңдәгене_ тышка чыгарырга ярамый. (источник: musulman.su) 
-! stem > poss-real > [ныкы]/дагы > poss-real > case  : _Эчендәгесе_(*3) – тышында, диләр андый кешеләр турында. (источник: beznen.ru)
-!
-! stem > ныкы/дагы/дай                               : әтинеке/әтидәге/әтидәй
-! stem > ныкы/дагы(*2) > case                        : Бу соңгы _еллардагының_ өчтән икесе чамасы.
-!
-! stem > сыз(abe)
-! stem > сыз(abe) > case
-! stem > сыз(abe) > poss > case
-!
+! stem(plural) > case                                     # әти<nom>, әтине<acc>
+!----
+! stem(plural) > possessives > case                       !# әтиемне<px1sg><acc>
+! stem(plural) > possessives > ныкы/дагы/дай(*1)
+                                               !# әтиемнеке,китабындагы,әтиемдәй
+! stem(plural) > possessives > ныкы/дагы > case
+                                   !# Монда _эчеңдәгене_ тышка чыгарырга ярамый.
+! stem(plural) > possessives > дагы > possessives > case
+                     !# _Эчендәгесе_(*2) – тышында, диләр андый кешеләр турында.
+!----
+! stem(plural) > ныкы/дагы/дай                         !# әтинеке/әтидәге/әтидәй
+! stem(plural) > ныкы/дагы > case  !#Бу соңгы _еллардагының_ өчтән икесе чамасы.
+!-----
+! stem(plural) > сыз
+! stem > сыз(plural) > case
+! stem > сыз(plural) > possessives > case
+!----
 ! *1. "ныкы" form in some Tatar grammars is called "predicative genitive".
 !     Indeed, when not substantivized, it has predicative use:
 !     "Бу яулык әнинеке." (vs "Әнинең яулыгы.")
-! *2. "дай" is considered to be an adverbializer, so no case endings after it (=no <subst> reading).
-! *3. This doesn't work atm (it's recursive), but it doesn't seem to be very frequent also;
+! *2. This doesn't work atm (it's recursive), but it doesn't seem to be very
+!     frequent also.
 !     Most likely it is restricted to px3sp.
-!-------------------------------------------
+!----
+! TODO: what about currently recognized <n.pl.DAGI/NIKI/.pl> forms (they sound
+! quite odd) >> check on corpus.
+!-------------------------------------------------------------------------------
+
+!-------------------------------------------------------------------------------
+! A note on abessive SIZ:
+! It doesn't appear after possessives.
+! Doesn't take personal copula suffixes. A counterexample could be e.g.
+! "бәхет-сез-мен", but that's only because "бәхетсез" has lexicalized as an
+! adjective >> FIXME CHECK this
+! *Китапларсызлар is not legal, but китапларсыз and китапсызлар are correct.
+!-------------------------------------------------------------------------------
 
 LEXICON CASES-COMMON
 
-%<gen%>:%>н%{I%}ң CLITICS ;
-%<dat%>:%>%{G%}%{A%} CLITICS ;
-%<acc%>:%>н%{I%} CLITICS ;
+%<gen%>:%>н%{I%}ң COMMON-CLITICS ;
+%<dat%>:%>%{G%}%{A%} COMMON-CLITICS ;
+%<acc%>:%>н%{I%} COMMON-CLITICS ;
 
 LEXICON CASES
 
 CASES-COMMON ;
-%<nom%>: NOMINAL_CLITICS ;
-%<abl%>:%>%{D%}%{A%}н NOMINAL_CLITICS ;
-%<loc%>:%>%{D%}%{A%} NOMINAL_CLITICS ;
+%<nom%>: CLITICS-INCLUDING-COPULA ;
+%<abl%>:%>%{D%}%{A%}н CLITICS-INCLUDING-COPULA ;
+%<loc%>:%>%{D%}%{A%} CLITICS-INCLUDING-COPULA ;
 
 LEXICON CASES-WITHOUT-COPULAS
 
@@ -568,22 +589,22 @@ CASES-COMMON ;
 %<abl%>:%>%{D%}%{A%}н COMMON-CLITICS ;
 %<loc%>:%>%{D%}%{A%} COMMON-CLITICS ;
 
-LEXICON ATTR/SUBST
+LEXICON ATTR-SUBST
 
 %<attr%>: # ;
 %<subst%>: CASES ;
 %<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
-LEXICON GENERAL_POSSESSIVE-ETC   ! Stuff which can appear after possessives too
+LEXICON GENERAL-POSSESSIVE-ETC
 
 %<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
-%<loc%>:%>%{D%}%{A%}г%{I%} ATTR/SUBST ;
+%<loc%>:%>%{D%}%{A%}г%{I%} ATTR-SUBST ;
 %<sim%>:%>%{D%}%{A%}й COMMON-CLITICS ;
 
 LEXICON CASES-ETC
 
 CASES ;
-GENERAL_POSSESSIVE-ETC ;
+GENERAL-POSSESSIVE-ETC ;
 
 LEXICON POSSESSIVES
 
@@ -601,19 +622,12 @@ LEXICON POSSESSIVES
 %<px2sg%>%<frm%>:%>%{I%}г%{I%}з CASES-ETC ;
 %<px2pl%>%<frm%>:%>%{I%}г%{I%}з CASES-ETC ;
 
-!------
-! A note on abessive SIZ:
-! It doesn't appear after possessives.
-! Doesn't take personal copula suffixes. A counterexample could be e.g.
-! "бәхет-сез-мен", but that's only because "бәхетсез" has lexicalized as an
-! adjective.
-! *Китапларсызлар is not legal, but китапларсыз and китапсызлар are correct.
-!----
-
 LEXICON ABESSIVE-SUBSTANTIVIZED
 
+%+сыз%<post%>%<subst%>:%>с%{I%}з CASES-ETC ;
+%+сыз%<post%>%<subst%>%<pl%>:%>с%{I%}з%>%{L%}%{A%}р CASES-ETC ;
 %+сыз%<post%>%<subst%>:%>с%{I%}з POSSESSIVES ;
-%+сыз%<post%>%<subst%>%<pl%>:%>%{L%}%{A%}р POSSESSIVES ;
+%+сыз%<post%>%<subst%>%<pl%>:%>с%{I%}з%>%{L%}%{A%}р POSSESSIVES ;
 
 LEXICON ABESSIVE-POSTPOSITION
 
@@ -627,7 +641,7 @@ ABESSIVE-POSTPOSITION ;
 
 LEXICON PLURAL
 
-%<pl%>:%>%{L%}%{A%}р NOMINAL_AFFIXES-EXCEPT-PLURAL ;
+%<pl%>:%>%{L%}%{A%}р NOMINAL-AFFIXES-EXCEPT-PLURAL ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 
@@ -1373,15 +1387,17 @@ LEXICON DET-REF
 
 %<det%>%<ref%>: # ;
 
-!!!!!!!!!!!!!!!!!!!!!!     OTHER PART-OF-SPEECH LEXICONS
+!==============================================================================!
+!                         PART-OF-SPEECH LEXICONS
+! Stems will continue with one of the following lexicons:
+!==============================================================================!
 
 LEXICON N1
 
 %<n%>%<attr%>: # ;
-%<n%>: SUBST ;
+%<n%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON N1-RUS
-! This for Russian nouns
 
 :%{☭%} N1 ;
 

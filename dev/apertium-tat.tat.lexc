@@ -459,6 +459,8 @@ LEXICON DIGITLEX
 ! CLITICS
 !===============================================================================
 
+! First, let's list all the clitics we have
+
 LEXICON CLIT-EMPH-SANA
 
 %+сана%<emph%>:%>с%{A%}н%{A%} # ;
@@ -502,16 +504,18 @@ LEXICON CLIT-COPULA
 
 %+и%<cop%>: V-PERS-S1 ;
 
-LEXICON CLITICS
+! Now, let's group them depending on what they can attach to
+
+LEXICON COMMON-CLITICS
 
 CLIT-QST ;
 CLIT-MODASS ;
 CLIT-MODIND ;
 CLIT-GHANA-ETC ;
 
-LEXICON CLITICS-INCLUDING-COPULA ! Can appear only after nominals
-                                 ! (and only after some cases).
-CLITICS ;
+LEXICON NOMINAL-CLITICS ! Can appear only after nominals
+                        ! (and only after some cases).
+COMMON-CLITICS ;
 CLIT-COPULA ;
 
 !==============================================================================!

@@ -4,54 +4,57 @@
 
 ! See http://wiki.apertium.org/wiki/Turkic_lexicon
 
-Multichar_Symbols
+!=================!
+ Multichar_Symbols
+!=================!
+
 ! Followed http://wiki.apertium.org/wiki/Turkic_languages
 
 ! Part of speech categories = First-level tags
-%<n%>         ! Noun                       ! Исем              ! Существительное
-%<np%>        ! Proper noun                ! Ялгызлык исем     ! Имя cобственное
-%<adj%>       ! Adjective                  ! Сыйфат            ! Прилагательное
-%<num%>       ! Numeral                    ! Сан               ! Числительное
-%<prn%>       ! Pronoun                    ! Алмашлык          ! Местоимение
-%<det%>       ! Determiner                 ! Детерминатив      ! Детерминатив
-%<v%>         ! Verb                       ! Фигыль            ! Глагол
-%<vaux%>      ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный глагол
-%<adv%>       ! Adverb                     ! Рәвеш             ! Наречие
-%<post%>      ! Postposition               ! Бәйлек            ! Послелог
-%<postadv%>   ! Postadverb                 ! "Пострәвеш"(*1)   ! "Посленаречие"
-%<cnjcoo%>    ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
-%<cnjsub%>    ! Sub-ordinating conjunction ! Ияртүче теркәгеч  ! Подчинительный союз
-%<cnjadv%>    ! Adverbial conjunction      ! "Рәвеш-теркәгеч"  ! ~союз
-%<ij%>        ! Interjection               ! Ымлык             ! Междометие
-%<abbr%>      ! Abbreviation               ! Кыскартылма       ! Аббревиатура
-%<cop%>       ! Copula                     ! Копула            ! Связка
-%<ideo%>      ! Ideophone                  ! Аваз ияртеме      ! (Звуко)подражательное слово
+%<n%>         ! Noun                       ! Исем             ! Существительное
+%<np%>        ! Proper noun                ! Ялгызлык исем    ! Имя cобственное
+%<adj%>       ! Adjective                  ! Сыйфат           ! Прилагательное
+%<num%>       ! Numeral                    ! Сан              ! Числительное
+%<prn%>       ! Pronoun                    ! Алмашлык         ! Местоимение
+%<det%>       ! Determiner                 ! Детерминатив     ! Детерминатив
+%<v%>         ! Verb                       ! Фигыль           ! Глагол
+%<vaux%>      ! Auxilary verb              ! Ярдәмче фигыль   ! Вспом. глагол
+%<adv%>       ! Adverb                     ! Рәвеш            ! Наречие
+%<post%>      ! Postposition               ! Бәйлек           ! Послелог
+%<postadv%>   ! Postadverb                 ! "Пострәвеш"(*1)  ! "Посленаречие"
+%<cnjcoo%>    ! Co-ordinating conjunction  ! Тезүче теркәгеч  ! Сочинит. союз
+%<cnjsub%>    ! Sub-ordinating conjunction ! Ияртүче теркәгеч ! Подчинит. союз
+%<cnjadv%>    ! Adverbial conjunction      ! "Рәвеш-теркәгеч" ! ~союз
+%<ij%>        ! Interjection               ! Ымлык            ! Междометие
+%<abbr%>      ! Abbreviation               ! Кыскартылма      ! Аббревиатура
+%<cop%>       ! Copula                     ! Копула           ! Связка
+%<ideo%>      ! Ideophone                  ! Аваз ияртеме     ! Звукоподраж. сл.
 
-! *1. Ачыклаган сүзләренең артыннан килә торган рәвешләр ("кисәкчәләр") !# гына, ук
+! *1. Ачыклаган сүзләренең артыннан килүче рәвешләр ("кисәкчәләр") !# гына, ук
 
 ! Proper noun types
-%<top%>        ! Toponym      ! Географик атама
-%<ant%>        ! Anthroponym  ! Кеше исеме
-%<cog%>        ! Cognomen     ! Фамилия
-%<pat%>        ! Patronym     ! Отчество
-%<org%>        ! Organization ! Оешма исеме
-%<al%>         ! Other        ! Калганнар
+%<top%>       ! Toponym      ! Географик атама
+%<ant%>       ! Anthroponym  ! Кеше исеме
+%<cog%>       ! Cognomen     ! Фамилия
+%<pat%>       ! Patronym     ! Отчество
+%<org%>       ! Organization ! Оешма исеме
+%<al%>        ! Other        ! Калганнар
 
 !! gender of anthroponyms and cognoms
-%<m%>          ! Masculine    ! Мужской род
-%<f%>          ! Feminine     ! Женский род
-%<mf%>         ! Masculine/feminine !# basically cognoms without -ов/-ова,
-                                    ! -ин/-ина endings
+%<m%>         ! Masculine    ! Мужской род
+%<f%>         ! Feminine     ! Женский род
+%<mf%>        ! Masculine/feminine !# basically cognoms without -ов/-ова,
+                                   ! -ин/-ина endings
 
 ! "Syntactic" tags. Attributive use of non-adjectives etc.
-%<attr%>       ! Attributive
-%<subst%>      ! Substantive
-%<advl%>       ! Adverbial
+%<attr%>      ! Attributive
+%<subst%>     ! Substantive
+%<advl%>      ! Adverbial
 
 ! Number ! Сан ! Число
-%<sg%>         ! Singular  ! Берлек сан  ! Единственное число
-%<pl%>         ! Plural    ! Күплек сан  ! Множественное число
-%<sp%>         ! Singular/Plural
+%<sg%>        ! Singular ! Берлек сан ! Единственное число
+%<pl%>        ! Plural   ! Күплек сан ! Множественное число
+%<sp%>        ! Singular/Plural
 
 ! Possessives ! Тартым ! Притяжательные окончания
 %<px1sg%>     ! First person singular
@@ -62,33 +65,40 @@ Multichar_Symbols
 %<px%>        ! General possessive               !# н{I}к{I} (-ныкы/-неке)
 
 ! Cases ! Килешләр ! Падежи
-%<nom%>       ! Баш килеш             ! Именительный
-%<gen%>       ! Иялек килеше          ! Родительный
-%<dat%>       ! Юнәлеш килеше         ! Дательный
-%<acc%>       ! Төшем килеше          ! Винительый
-%<abl%>       ! Чыгыш килеше          ! Творительный
-%<loc%>       ! Урын-вакыт килеше     ! Местно-временнной
+%<nom%>       ! Nominative ! Баш килеш         ! Именительный
+%<gen%>       ! Genitive   ! Иялек килеше      ! Родительный
+%<dat%>       ! Dative     ! Юнәлеш килеше     ! Дательный
+%<acc%>       ! Accusative ! Төшем килеше      ! Винительый
+%<abl%>       ! Ablative   ! Чыгыш килеше      ! Творительный
+%<loc%>       ! Locative   ! Урын-вакыт килеше ! Местно-временнной
 
 !! some additional ~cases
-%<sim%>       ! Similative (<apprx> in kymorph)
-              !# DAй (-дай/-дәй, -тай, -тәй)
-%<abe%>       ! Abessive=Privative    ! Лишительный
-              !# -сыз/-сез (not used after posessives and cases)
-%<reas%>      ! not used rigth now, just in case
-!обладательный !# LI (-лы/-ле) (not used after posessives and cases)
+%<sim%>       ! Similative
+              !# DAй (-дай/-дәй, -тай/-тәй)
+%<abe%>       ! Abessive=Privative ! Лишительный
+              !# SIZ (-сыз/-сез) (not used after posessives and cases)
+%<reas%>      ! not used rigth now, just in case for
+              !# LIKTAN
 
-! Levels of comparison of adj. ! Сыйфат дәрәҗәләре ! Степени сравнения прилага-х
-%<comp%>      ! Comparative  ! Чагыштыру дәрәҗәсе
-%<sup%>       ! Superlative  ! Артыклык дәрәҗәсе
-!! "weakening" form is not regular. So "weakened" adj are added as base lemma
-!! Very few adj have this form. E.g. яшел-яшькелт, сары-саргылт [but] ак-аксыл,
-!! кара-карасу. As a sublexicon maybe, so that they don't get <sup> ending,
-!! which is a nonsense
+! Levels of comparison of adj. ! Сыйфат дәрәҗәләре ! Степени сравнения прилаг-х
+%<comp%>      ! Comparative  ! Чагыштыру дәрәҗәсе ! Сравнительная степень
+
+! TODO
+!! Some adjecives have a "weakening" form, e.g. яшел>яшькелт, сары>саргылт; but
+!! also ак>аксыл, кара>карасу. Sometimes they take the comparative RAK affix,
+!! e.g. кызгылтрак.
+
+! TODO
+!! There is also what can be called a synthetic superlative form (as opposed
+!! to the /иң<adv>+X<adj>/ construction) -- кап-кара, тип-тигез, төп-төгәл etc.
+!! Probably easiest way would be just to lexicalize them, but make sure that
+!! they don't take the comparative affix.
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
-%<pers%>      ! Personal
+%<pers%>      ! Personal    ! Зат алмашлыклары ! Личные местоимения
 %<recip%>     ! Reciprocal
-! Pronoun&Determiner types
+
+!! Pronoun&Determiner types
 %<dem%>       ! Demonstrative
 %<ind%>       ! Indefinite
 %<itg%>       ! Interrogative
@@ -105,8 +115,8 @@ Multichar_Symbols
 ! Verbal features
 
 !! Mood
-%<imp%>       ! Imperative
-%<opt%>       ! Optative/jussive
+%<imp%>       ! Imperative       ! Боерык фигыль
+%<opt%>       ! Optative/jussive ! Теләк фигыль
 
 !! Derivation
 %<caus%>      ! Causative
@@ -124,19 +134,23 @@ Multichar_Symbols
 !! Non-Finite verb forms
 
 !!! Participles
-%<prc_perf%>  ! -{I}п
+%<prc_perf%>  ! Perfect participle
+              ! -{I}п
               !# "_Йоклап_ яткан мәче авызына тычкан үзе _килеп_ керми.";
-%<prc_impf%>  ! -{E}
+%<prc_impf%>  ! Imperfect participle
+              ! -{E}
               !# ул _уйный_ алмады; мин _яза_ башладым;
-%<prc_vol%>   ! {E}с{I}         volition participle
+%<prc_vol%>   ! Volition participle
+              ! {E}с{I}
               !# _эчәсем_ килә;
-%<prc_cond%>  ! -с{A}           conditional participle
-              !# "...моны алсаң була..." ("ала аласың" мәгънәсендә);
-
-%<prc_fplan%> ! -м{A}кч{I}      future plan participle
+%<prc_cond%>  ! Conditional participle
+              ! -с{A}
+              !# "...моны _алсаң_ була..." ("ала аласың" мәгънәсендә);
+%<prc_fplan%> ! Future plan participle
+              ! -м{A}кч{I}
               !# "Бакчага бармакчы идем.";
 
-!!! Verbal adverbs - Хәл фигыльләр - Глагольные наречия
+!!! Verbal adverbs ! Хәл фигыльләр ! Глагольные наречия
 %<gna_perf%>  ! -{I}п
               !# "...ул вакытта инде кояш _баеп_, йолдызлар күренә башлаган
               !# иде..." (Ф.Хөсни);
@@ -150,12 +164,12 @@ Multichar_Symbols
               ! (name covers only the temporal meaning of it, form has more)
               !# "Берәү, патша йортын күреп _кайткач_, үз өенә ут төрткән, ди.";
 
-!!! Verbal adjectives - Сыйфат фигыльләр - Глагольные причастия
+!!! Verbal adjectives ! Сыйфат фигыльләр ! Глагольные причастия
 %<gpr_past%>  ! -{G}{A}н
               !# килгән кеше;укылмаган китап;
 %<gpr_impf%>  ! -{A} торган
-              ! this is equivalent of Kazakh <gpr_impf>; I know that compound
-              ! forms should be handled in transfer, so check once more, whether
+              ! TODO: this is equivalent of Kazakh <gpr_impf>; compound forms
+              ! should be handled in transfer, so check once more, whether
               ! there is a real reason not to handle it there (it seemed so)
 %<gpr_pot%>   ! {U}ч{I}
               !# сөйләүче кеше;үз урынын белмәүче;
@@ -164,16 +178,19 @@ Multichar_Symbols
               !# барыр җир; сөйләр сүз;
 %<gpr_fut2%>  ! -{A}ч{A}к
               !# әйтеләчәк фикер; эшләнәчәк эш;
-%<gpr_fut3%>  ! {E}с{I}         (ambigious with the volition participle (see above))
+%<gpr_fut3%>  ! {E}с{I}
+              ! (NOTE: ambigious with the volition participle (see above))
               !# "_Үләсе_ күбәләк ут күзенә керер";
 
-!!! Gerunds (verbal nouns) - Исем фигыльләр
+!!! Gerunds (verbal nouns) ! Исем фигыльләр
 %<ger%>       ! -{U}
 %<ger_past%>  ! -{G}{A}н
-%<ger_perf%>  ! -{G}{A}нл{I}к        (stresses the fact that something happened)
+%<ger_perf%>  ! -{G}{A}нл{I}к
+              ! (stresses the fact that something happened)
               !# "Барысының да мәсьәләне үз башында _йөрткәнлеге_, теге яктан
               !# да, бу яктан да үлчәп _караганлыгы_ сизелеп тора." (Ф. Хөсни);
-%<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к (~the ability to do the denoted action)
+%<ger_ppot%>  ! -{I}рл{I}к/-{A}рл{I}к
+              ! (~the ability to do the denoted action)
 %<ger_abs%>   ! -{U}ч{I}л{I}к        FIXME CHECK
               ! This form shouldn't be that productive in Tatar, consider adding
               ! them as nouns if they appear in corpus. Kazakh <ger_abs> is
@@ -181,12 +198,13 @@ Multichar_Symbols
 %<ger_fut%>   ! -{I}р/-{A}р
               !# "Ярым кем _булырын_ белмим, мин әле ялгыз йөрим." (Ш.Галиев);
 %<ger_fut2%>  ! -{A}ч{A}к
-%<ger_fut3%>  ! {E}с{I}         (ambigious with the volition participle (see above))
+%<ger_fut3%>  ! {E}с{I}
+              ! (NOTE: ambigious with the volition participle (see above))
               !# "_Күрәселәре_ алда әле";
 %<ger1%>      ! -м{A}к
-%<inf%>       ! -{A/I}рг{A}          Infinitive
+%<inf%>       ! -{A/I}рг{A}
 
-!! Transitivity ! Переходность
+!! Transitivity ! Күчмәлек ! Переходность
 %<tv%>        ! Transitive
 %<iv%>        ! Intransitive
 
@@ -198,12 +216,13 @@ Multichar_Symbols
 
 ! Modal particles
 %<qst%>       ! Modal question particle
-%<emph%>      ! Emphasizing modal particle (for imperative and jussive/optative forms)
-              !# -чы/-че, -сана/-сәнә
+              !# м{I}
+%<emph%>      ! Emphasizing modal particle
+              !# -ч{I}, -с{A}н{A}
 %<mod_ass%>   ! Assertive modal particle
 %<mod_ind%>   ! Indefinite modal particle (expresses doubt)
 
-! Punctuaton ! Пунктуация
+! Punctuation ! Пунктуация
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
 %<cm%>        ! Comma
@@ -234,9 +253,8 @@ Multichar_Symbols
 %{т%}         ! Realised as т before vowels, 0 otherwise
 %{е%}         ! Realised as е/ы in some contexts, 0 otherwise
 
-
 %{а%}         ! Archiphoneme for back vowel numerals/abbreviation
-%{э%}         !
+%{э%}         ! Archiphoneme for front vowel numerals/abbreviation
 
 %{й%}         !
 %{л%}         !
@@ -249,8 +267,6 @@ Multichar_Symbols
 
 %>            ! Morpheme boundary
 %             ! Space
-%-            !
-
 %-            !
 %,            !
 %.            !
@@ -1985,7 +2001,7 @@ I NUM-ROMAN ; ! ""
 II NUM-ROMAN ; ! ""
 III NUM-ROMAN ; ! ""
 IV NUM-ROMAN ; ! ""
-V NUM-ROMAN ; ! ""
+V NUM-ROMAN ;  ! ""
 VI NUM-ROMAN ; ! ""
 VII NUM-ROMAN ; ! ""
 VIII NUM-ROMAN ; ! ""

@@ -1,6 +1,6 @@
 !==============================================================================!
 !                               CHANGELOG
-! r45895: nominal inflection refactored
+! r45920: nominal inflection refactored
 !==============================================================================!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -537,9 +537,10 @@ CLIT-COPULA ;
 ! stem(plural) > possessives > case                       !# әтиемне<px1sg><acc>
 ! stem(plural) > possessives > ныкы/дагы/дай(*1)
                                                !# әтиемнеке,китабындагы,әтиемдәй
-! stem(plural) > possessives > ныкы/дагы(plural(*2)) > case
+! stem(plural) > possessives > ныкы > case
+! stem(plural) > possessives > дагы(plural(*2)) > case
                                    !# Монда _эчеңдәгене_ тышка чыгарырга ярамый.
-! stem(plural) > possessives > дагы(plural(*2)) > possessives > case
+! stem(plural) > possessives > дагы(plural) > possessives > case
                      !# _Эчендәгесе_(*3) – тышында, диләр андый кешеләр турында.
 !----
 ! stem(plural) > ныкы/дагы/дай                         !# әтинеке/әтидәге/әтидәй
@@ -563,8 +564,8 @@ CLIT-COPULA ;
 !     At the end of sentences it will have attached copulas, which will indicate
 !     predicative use anyway.
 ! *2. TODO: Does double plural in a word make sence? Ерак илләрдәгеләр looks ok,
-!     and occurs in the RFERL copus (though very rarely). What about the general
-!     possessive?
+!     and occurs in the RFERL copus (though very rarely). Plural affix both
+!     before and after the the general possessive does not look ok.
 ! *3. This doesn't work atm (it's recursive), but it doesn't seem to be very
 !     frequent also.
 !     Most likely it is restricted to px3sp.
@@ -607,7 +608,16 @@ LEXICON ATTR-SUBST
 
 LEXICON GENERAL-POSSESSIVE-ETC
 
+!------------------------------------------------------------------------------!
+! <n.pl.NIKI.pl> sequence should not be allowed. This form is rare (1 (!)
+! match in RFERL corpus for 'ныкылар'), probably not worh bothering at all.
+! It could be handled in a way abessive is handled, but since NIKI in contrast
+! to the abessive SIZ can appear after possessves, that would require
+! duplicatin possessives as well.
+!------------------------------------------------------------------------------!
+
 %<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
+%<px%>%<pl%>:%>н%{I%}к%{I%}%>л%{A%}р CASES ;
 %<loc%>:%>%{D%}%{A%}г%{I%} ATTR-SUBST ;
 %<sim%>:%>%{D%}%{A%}й COMMON-CLITICS ;
 
@@ -641,20 +651,18 @@ LEXICON ABESSIVE-POSTPOSITION
 
 %+сыз%<post%>:%>с%{I%}з COMMON-CLITICS ;
 
-LEXICON NOMINAL-AFFIXES-EXCEPT-PLURAL
-
-CASES-ETC ;
-POSSESSIVES ;
-ABESSIVE-POSTPOSITION ;
-
 LEXICON PLURAL
 
-%<pl%>:%>%{L%}%{A%}р NOMINAL-AFFIXES-EXCEPT-PLURAL ;
+%<pl%>:%>%{L%}%{A%}р CASES-ETC ;
+%<pl%>:%>%{L%}%{A%}р POSSESSIVES ;
+%<pl%>:%>%{L%}%{A%}р ABESSIVE-POSTPOSITION ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 
 PLURAL ;
-NOMINAL-AFFIXES-EXCEPT-PLURAL ;
+CASES-ETC ;
+POSSESSIVES ;
+ABESSIVE-POSTPOSITION ;
 ABESSIVE-SUBSTANTIVIZED ;
 
 !==============================================================================!

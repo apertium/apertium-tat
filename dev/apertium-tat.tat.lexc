@@ -232,7 +232,7 @@
 %<rpar%>      ! Parenthetical marker (right hand side)
 %<lpar%>      ! Parenthetical marker (left hand side)
 
-! Archiphonemes
+! Archiphonemes and escaped symbols
 
 %{L%}         ! Realised as
 %{G%}         ! Realised as
@@ -263,7 +263,7 @@
 %{т%}         !
 %{с%}         !
 
-%{☭%}        ! Used to tell the phonology about a Russian word
+%{☭%}         ! Used to tell the phonology about a Russian word
 
 %>            ! Morpheme boundary
 %             ! Space

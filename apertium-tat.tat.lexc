@@ -119,9 +119,9 @@
 %<opt%>       ! Optative/jussive ! Теләк фигыль
 
 !! Derivation
-%<caus%>      ! Causative
-%<pass%>      ! Passive
-%<coop%>      ! Cooperative
+%<caus%>      ! Causative   ! Йөкләтү юнәлеше
+%<pass%>      ! Passive     ! Төшем юнәлеше
+%<coop%>      ! Cooperative ! Уртаклык юнәлеше
 
 !! Tenses / finite forms
 %<pres%>      ! -{E}

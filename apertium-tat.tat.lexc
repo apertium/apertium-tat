@@ -573,9 +573,10 @@ CLIT-COPULA ;
 !-------------------------------------------------------------------------------
 ! A note on abessive SIZ:
 ! It doesn't appear after possessives.
-! Doesn't take personal copula suffixes. A counterexample could be e.g.
+! We don't let it take copula suffixes here. A counterexample could be e.g.
 ! "бәхет-сез-мен", but that's only because "бәхетсез" has lexicalized as an
-! adjective >> FIXME CHECK this
+! adjective (try to grep "с[ыі]зм[ыі]н" on a large corpora -- that's just a
+! few words which are rather  adjectives.
 ! *Китапларсызлар is not legal, but китапларсыз and китапсызлар are correct.
 !-------------------------------------------------------------------------------
 

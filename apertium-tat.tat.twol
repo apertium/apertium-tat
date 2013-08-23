@@ -10,7 +10,7 @@ Alphabet
 
  %{s%}:с %{j%}:0 %{w%}:0 %{n%}:0 %{l%}:л %{ъ%}:0 %{т%}:0 %{д%}:0 %{е%}:ы
 
- %>:0 % 
+ ° %% %, %. %- %>:0 %    ! punctuation and boundaries
 
  !!! These are needed for the phonology of numbers, alphabetisms, and acronyms
  !!! They trigger relevant phonology and disappear

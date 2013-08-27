@@ -13,8 +13,8 @@
 
   <mode name="tat-morph">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tat.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tat.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -30,16 +30,16 @@
 
   <mode name="tat-gener">
     <pipeline>
-      <program name="hfst-proc -g">
-        <file name="tat.autogen.hfst"/>
+      <program name="lt-proc -g">
+        <file name="tat.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <mode name="tat-disam">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tat.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="tat.rlx.bin"/>

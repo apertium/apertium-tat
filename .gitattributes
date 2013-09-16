@@ -12,7 +12,12 @@
 /autogen.sh -text
 /configure.ac -text
 dev/countstems.sh -text
+dev/editdist.py -text
 /modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
 tests/epenthesis.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text

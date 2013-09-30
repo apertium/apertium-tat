@@ -504,22 +504,22 @@ LEXICON CLIT-GHANA-ETC
 %+ук%<postadv%>:% %{U%}к # ; ! ""
 # ;
 
-LEXICON CLIT-COPULA
+LEXICON CLIT-COP
 
 %+и%<cop%>: V-PERS-S1 ;
 
 ! Now, let's group them depending on what they can attach to
 
-LEXICON COMMON-CLITICS
+LEXICON CLITICS-NO-COP
 
 CLIT-QST ;
 CLIT-MODASS ;
 CLIT-MODIND ;
 CLIT-GHANA-ETC ;
 
-LEXICON CLITICS-INCLUDING-COPULA ! Can appear only after nominals
-                                 ! (and only after some cases).
-COMMON-CLITICS ;
+LEXICON CLITICS-INCL-COP ! Can appear only after nominals
+                         ! (and only after some cases).
+CLITICS-NO-COP ;
 CLIT-COPULA ;
 
 !==============================================================================!

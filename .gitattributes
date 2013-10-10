@@ -13,6 +13,8 @@
 /configure.ac -text
 dev/countstems.sh -text
 dev/editdist.py -text
+eval/Makefile -text
+eval/evaluate-morph.py -text
 /modes.xml -text
 speller/editdist.default.txt -text
 speller/index.xml -text

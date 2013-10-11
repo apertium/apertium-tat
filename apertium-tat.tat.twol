@@ -166,6 +166,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
                      :FrontVow %>: _ ;
                     FrontVow:0 %>: _ ;
       [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
+                            :у %>: _ ;
 
 "Turn {E} into и to combine with ә"
 !%{E%}:и <=> ә: %>: _ ;

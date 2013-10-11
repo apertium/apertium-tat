@@ -1,0 +1,24 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tat.autogen.hfst
+    Morph:  ../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] some у verb forms": 
+    ту<v><iv><prc_impf> : туа
+    ту<v><iv><pres><p3><sg> : туа
+    ту<v><iv><pres><p2><pl> : туасыз
+
+  "[twol] some у noun forms": 
+    су<n><px1sg><nom> : суым
+
+  "[twol] ger stuff":
+    сөйлә<v><tv><ger><px3sp><acc> : сөйләвен
+    уйна<v><tv><ger><px3sp><nom> : уйнавы
+
+  "[twol] U > ю after й":
+    сөй<v><tv><ger><nom> : сөю
+    куй<v><tv><ger><nom> : кую
+

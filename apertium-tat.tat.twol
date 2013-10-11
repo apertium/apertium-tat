@@ -73,7 +73,7 @@ Rules
 %{I%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
 !                                 [ :BackVow :Cns* й: ]/[ %>: | :0 ] _ ;
                                                 [ й: ]/[ %>: | :0 ] _ ;
-                                          [ ь: :Cns* ]/[ %>: | :0 ] _ ;
+                                     [ :Cns ь: :Cns* ]/[ %>: | :0 ] _ ;
                              [ :и :я :Cns* :Cns ]/[ %>: | %  | :0 ] _ ;
             except
                  [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
@@ -283,7 +283,7 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 
 "{т} surfaces before vowels"
 %{т%}:т <=> _ :Vow/[ %>: | :0 ] ;
-! ас%{т%}+{D}{A}н     ал%{д%}+{I}
+! ас%{т%}+{D}{A}н     ас%{т%}+{I}
 ! ас-тан              аст-ы
 
 !"Soft sign deletion before suffix starting with a vowel" ! FIXME: J.N.W., please check this
@@ -295,3 +295,5 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 !ь:0 <=> _ %>: %{I%}: ;            
 !        _ %>: %{s%}: ;
 
+"Soft sign deletion before suffix starting with a vowel"
+ь:0 <=> _ :Vow/[ %>: | :0 ] ;    ! They all lead to a rule conflict

@@ -296,4 +296,4 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 !        _ %>: %{s%}: ;
 
 "Soft sign deletion before suffix starting with a vowel"
-ь:0 <=> _ :Vow/[ %>: | :0 ] ;    ! They all lead to a rule conflict
+ь:0 <=> _ %>: :Vow/[ :0 - %>: ] ;

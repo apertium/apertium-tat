@@ -1,0 +1,36 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tat.autogen.hfst
+    Morph:  ../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] months no ь deletion":
+    январь<n><loc> : январьдә
+    февраль<n><loc> : февральдә
+    апрель<n><loc> : апрельдә
+    июнь<n><loc> : июньдә
+    июль<n><loc> : июльдә
+    сентябрь<n><loc> : сентябрьдә
+    октябрь<n><loc> : октябрьдә
+    ноябрь<n><loc> : ноябрьдә
+    декабрь<n><loc> : декабрьдә
+
+  "[twol] months ь deletion":
+    январь<n><px3sp><loc> : январендә
+    февраль<n><px3sp><loc> : февралендә
+    апрель<n><px3sp><loc> : апрелендә
+    июнь<n><px3sp><loc> : июнендә
+    июль<n><px3sp><loc> : июлендә
+    сентябрь<n><px3sp><loc> : сентябрендә
+    октябрь<n><px3sp><loc> : октябрендә
+    ноябрь<n><px3sp><loc> : ноябрендә
+    декабрь<n><px3sp><loc> : декабрендә
+
+  "[twol] basic ь deletion":
+    яшь<n><px1sg><nom> : яшем
+    яшь<n><px3sp><nom> : яше
+
+  "[twol] no ь deletion":
+    табигать<n><abl> : табигатьтән

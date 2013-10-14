@@ -1,0 +1,3 @@
+SECTION
+
+MAP (@father_name) TARGET (np cog) IF (-1 ("ибн"));

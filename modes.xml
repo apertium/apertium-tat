@@ -36,7 +36,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tat-disam">
+  <mode name="tat-tagger">
     <pipeline>
       <program name="lt-proc -w">
         <file name="tat.automorf.bin"/>
@@ -46,5 +46,18 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="tat-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="tat.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l" />
+      <program name="vislcg3 --trace -g">
+        <file name="apertium-tat.tat.rlx"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 </modes>

@@ -13,6 +13,7 @@
 /configure.ac -text
 dev/countstems.sh -text
 dev/editdist.py -text
+dev/metrics.rlx -text
 eval/Makefile -text
 eval/evaluate-morph.py -text
 /modes.xml -text

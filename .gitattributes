@@ -5,7 +5,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-tat-0.1.pc.in -text
+/apertium-tat.pc.in -text
 /apertium-tat.tat.lexc -text
 /apertium-tat.tat.rlx -text
 /apertium-tat.tat.twol -text

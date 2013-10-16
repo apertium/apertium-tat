@@ -12,20 +12,25 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
         $(LANG1).rlx.bin
 
+# Use this goal for creating .deps, otherwise make -j2 will give problems:
+.deps/.d:
+	test -d .deps || mkdir .deps
+	touch $@
+
+# Prevent the .d file from being removed automatically:
+.PRECIOUS: .deps/.d
+
 ###############################################################################
 ## Tatar transducer
 ###############################################################################
 
-.deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol .deps/.d
 	hfst-twolc $< -o $@
 
-.deps/$(LANG1).RL.lexc: $(BASENAME).$(LANG1).lexc
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(LANG1).RL.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
 	cat $< | grep -v 'Dir/LR' > $@
 
-.deps/$(LANG1).LR.lexc: $(BASENAME).$(LANG1).lexc
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(LANG1).LR.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
 	cat $< | grep -v 'Dir/RL' > $@
 
 .deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
@@ -52,13 +57,11 @@ $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 $(LANG1).automorf.att.gz: $(LANG1).automorf.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@
 
-$(LANG1).autogen.bin: $(LANG1).autogen.att.gz
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(LANG1).autogen.bin: $(LANG1).autogen.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).autogen.att
 	lt-comp lr .deps/$(LANG1).autogen.att $@
 
-$(LANG1).automorf.bin: $(LANG1).automorf.att.gz
-	if [ ! -d .deps ]; then mkdir .deps; fi
+$(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).automorf.att
 	lt-comp lr .deps/$(LANG1).automorf.att $@
 
@@ -68,8 +71,7 @@ $(LANG1).automorf.bin: $(LANG1).automorf.att.gz
 
 debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG1).lexc.hfst
 
-.deps/$(LANG1).LR-debug.hfst: $(BASENAME).$(LANG1).lexc
-	if [ ! -d .deps ]; then mkdir .deps; fi
+.deps/$(LANG1).LR-debug.hfst: $(BASENAME).$(LANG1).lexc .deps/.d
 	cat $< | grep -v 'Dir/RL' | grep -v 'Use/Circ' > .deps/$(LANG1).LR-debug.lexc
 	hfst-lexc --format foma .deps/$(LANG1).LR-debug.lexc -o .deps/$(LANG1).LR-debug.lexc.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR-debug.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
@@ -100,17 +102,17 @@ $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 	hfst-disjunct .deps/words.default.hfst .deps/editstrings.default.hfst \
 	| hfst-fst2fst  -f olw -o $@
 
-.deps/words.default.hfst: speller/words.default.txt
+.deps/words.default.hfst: speller/words.default.txt .deps/.d
 	grep -v -e "^#" -e "^$$" $< | hfst-strings2fst  -j -o $@
 
 .deps/strings.default.hfst: speller/strings.default.txt .deps/anystar.hfst
 	grep -v -e "^#" -e "^$$" $< | hfst-strings2fst  -j | hfst-concatenate .deps/anystar.hfst - |\
 	hfst-concatenate - .deps/anystar.hfst -o $@
 
-.deps/anystar.hfst:
+.deps/anystar.hfst: .deps/.d
 	echo "?*;" | hfst-regexp2fst -S -o $@
 
-.deps/acceptor.default.hfst: $(LANG1).autogen.hfst
+.deps/acceptor.default.hfst: $(LANG1).autogen.hfst .deps/.d
 	cat $< | hfst-fst2fst -t | hfst-project  --project=lower | hfst-minimise |hfst-fst2fst  -f olw -o $@
 
 

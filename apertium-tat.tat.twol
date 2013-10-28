@@ -29,6 +29,9 @@ BackVow    =  А О Ы У
 FrontVow   =  Ә Е Э И Ө Ү
               ә е э и ө ү; 
 
+UnambigFrontVow =  Ә Э Ө Ү
+                   ә э ө ү; 
+
 AmbigVow  = Я Е Ю
             я е ю ;
 
@@ -54,10 +57,10 @@ CnsVoiceless = К П Т Ф Х Һ Ц Ч С Ш Щ
 Rules 
 
 "A Vowel Harmony"
-%{A%}:ә <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
-                                          [ ь: :Cns* ]/[ %>: | :0 ] _ ;
-               [ :и :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
-  [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
+%{A%}:ә <=>         [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
+                                                               [ ь: :Cns* ]/[ %>: | :0 ] _ ;
+             [ [ :и | :UnambigFrontVow ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
+    [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
            except
                  [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
                              [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
@@ -72,9 +75,9 @@ Rules
 "I Vowel Harmony"
 %{I%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
 !                                 [ :BackVow :Cns* й: ]/[ %>: | :0 ] _ ;
-                                                [ й: ]/[ %>: | :0 ] _ ;
-                                     [ :Cns ь: :Cns* ]/[ %>: | :0 ] _ ;
-               [ :и :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
+                                                             [ й: ]/[ %>: | :0 ] _ ;
+                                                  [ :Cns ь: :Cns* ]/[ %>: | :0 ] _ ;
+     [ [ :и | :UnambigFrontVow ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
             except
                  [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
                                                      %{n%}: %>: н:0 _ .#. ;

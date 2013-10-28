@@ -11,7 +11,7 @@ MAP (@residence_qarya) TARGET (np top nom) IF (1 ("карья" n px3sp));
 MAP (@residence_volos) TARGET (np top nom) IF (1 ("волос" n px3sp));
 MAP (@residence_gubernya) TARGET (np top nom) IF (1 ("губерна" n px3sp));
 
-MAP (@TOP_guess) TARGET ("\\*.*"r) IF (1 Divisions) (1 (n px3sp));
+MAP (@guess_TOP) TARGET ("\\*.*"r) IF (1 Divisions) (1 (n px3sp));
 
 
 MAP (@maternal_grandfather_name) TARGET (np ant m) IF (1 ("кыз" n px3sp));
@@ -21,7 +21,9 @@ MAP (@mother_name) TARGET (np ant f) IF (-1 ("әнкә" n px3sp));
 MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfather_name));
 
 MAP (@guess_ANT-M) TARGET ("\\*.*"r) IF ((1 ("кыз" n px3sp)) OR (1 ("ул" n px3sp)));
-MAP (@guess_ANT-M) TARGET ("\\*.*"r) IF ((-1 ("бинт" n px3sp)) OR (-1 ("ибн" n px3sp)));
+MAP (@guess_ANT-M) TARGET ("\\*.*"r) IF ((-1 ("бинт" n px3sp)) OR (-1 ("ибн" n px3sp)) OR (-1 ("вәләд")));
+
+MAP (@guess_ANT-F) TARGET ("\\*.*"r) IF (-1 ("әнкә" n px3sp));
 
 MAP (@guess_COG-M) TARGET ("\\*[А-Я].*[ое]в"r);
 

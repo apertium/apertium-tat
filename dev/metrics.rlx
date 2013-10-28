@@ -5,10 +5,12 @@ MAP (@father_name) TARGET (np ant) IF ((1 ("ибн")) OR (-1 ("вәләд")));
 
 MAP (@residence_uyezd) TARGET (np top nom) IF (1 ("өяз" n px3sp));
 MAP (@residence_qarya) TARGET (np top nom) IF (1 ("карья" n px3sp));
+MAP (@residence_qarya) TARGET (*) IF (1 ("карья" n px3sp));
 MAP (@residence_volos) TARGET (np top nom) IF (1 ("волос" n px3sp));
 MAP (@residence_gubernya) TARGET (np top nom) IF (1 ("губерна" n px3sp));
 
 MAP (@maternal_grandfather_name) TARGET (np ant m) IF (1 ("кыз" n px3sp));
+MAP (@maternal_grandfather_name) TARGET (np ant m) IF (-1 ("бинт" n px3sp));
 MAP (@mother_name) TARGET (np ant f) IF (-1 ("әнкә" n px3sp));
 
 MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfather_name));

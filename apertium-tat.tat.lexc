@@ -252,6 +252,7 @@
 %{д%}         ! Realised as д before vowels, 0 otherwise
 %{т%}         ! Realised as т before vowels, 0 otherwise
 %{е%}         ! Realised as е/ы in some contexts, 0 otherwise
+%{ь%}         ! Realised as 0, but triggers front vowel harmony
 
 %{а%}         ! Archiphoneme for back vowel numerals/abbreviation
 %{э%}         ! Archiphoneme for front vowel numerals/abbreviation
@@ -4675,7 +4676,7 @@ XXI NUM-ROMAN ; ! ""
 ! ================================================
 өяз:өяз N1 ; ! "уезд"    front vowel endings
 карья:карья N1 ; ! ""    front vowel endings
-волос:волос N1 ; ! ""    front vowel endings
+волос:волос%{ь%} N1 ; ! ""    front vowel endings
 губерна:губерна N1 ; ! "губерния"
 мещан:мещан N1 ; ! "мещанин"
 сәүдәгәр:сәүдәгәр N1 ; ! "merchant"

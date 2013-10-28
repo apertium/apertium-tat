@@ -1,3 +1,6 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+SOFT-DELIMITERS = "<,>";
+
 LIST Divisions = "өяз" "карья" "волос" "губерна";
 
 SECTION

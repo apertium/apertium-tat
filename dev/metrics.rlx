@@ -1,16 +1,33 @@
+LIST Divisions = "өяз" "карья" "волос" "губерна";
+
 SECTION
 
 MAP (@paternal_grandfather_name) TARGET (np ant m) IF (-1 ("ибн"));
 MAP (@father_name) TARGET (np ant) IF ((1 ("ибн")) OR (-1 ("вәләд")));
+MAP (@father_name) TARGET (np ant m) IF (1 ("ул" n px3sp));
 
 MAP (@residence_uyezd) TARGET (np top nom) IF (1 ("өяз" n px3sp));
 MAP (@residence_qarya) TARGET (np top nom) IF (1 ("карья" n px3sp));
-MAP (@residence_qarya) TARGET (*) IF (1 ("карья" n px3sp));
 MAP (@residence_volos) TARGET (np top nom) IF (1 ("волос" n px3sp));
 MAP (@residence_gubernya) TARGET (np top nom) IF (1 ("губерна" n px3sp));
+
+MAP (@TOP_guess) TARGET ("\\*.*"r) IF (1 Divisions) (1 (n px3sp));
+
 
 MAP (@maternal_grandfather_name) TARGET (np ant m) IF (1 ("кыз" n px3sp));
 MAP (@maternal_grandfather_name) TARGET (np ant m) IF (-1 ("бинт" n px3sp));
 MAP (@mother_name) TARGET (np ant f) IF (-1 ("әнкә" n px3sp));
 
 MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfather_name));
+
+MAP (@guess_ANT-M) TARGET ("\\*.*"r) IF ((1 ("кыз" n px3sp)) OR (1 ("ул" n px3sp)));
+MAP (@guess_ANT-M) TARGET ("\\*.*"r) IF ((-1 ("бинт" n px3sp)) OR (-1 ("ибн" n px3sp)));
+
+MAP (@guess_COG-M) TARGET ("\\*[А-Я].*[ое]в"r);
+
+
+AFTER-SECTIONS
+
+# this stuff removes readings that don't have @tags on words that otherwise got them
+MAP (@X) TARGET (*);
+REMOVE (@X);

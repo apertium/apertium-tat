@@ -2,7 +2,7 @@
 
 
 while IFS= read -r line; do
-	string=`echo $line | lt-proc ../tat.automorf.bin | cg-conv -a 2>/dev/null | vislcg3 --grammar metrics.rlx`;
+	string=`echo $line | lt-proc $APERTIUMPATH/languages/apertium-tat/tat.automorf.bin | cg-conv -a 2>/dev/null | vislcg3 --grammar $APERTIUMPATH/languages/apertium-tat/dev/metrics.rlx`;
 	IFS=$'\n';
 	for fooline in $string; do
 		guess=`echo $fooline | grep "guess_"`;

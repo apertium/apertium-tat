@@ -2450,8 +2450,8 @@ XXI NUM-ROMAN ; ! ""
 взвод:взвод N1 ; ! ""
 видео:видео N1-RUS ; ! ""
 виза:виза N1 ; ! ""
-вилаять:вилаят N1 ; ! "" Dir/LR FIXME should take FV endings (what archiphoneme?)
-вилаять:вилаять N1 ; ! ""
+вилаять:вилаят%{ь%} N1 ; ! "" Dir/LR FIXME should take FV endings (what archiphoneme?)
+вилаять:вилаять N1 ; ! ""  FIXME: Check that needed now that above works
 вирус:вирус N1 ; ! ""
 витамин:витамин N1 ; ! ""
 вице%-министр:вице%-министр N1 ; ! ""
@@ -4676,9 +4676,10 @@ XXI NUM-ROMAN ; ! ""
 ! ================================================
 өяз:өяз N1 ; ! "уезд"    front vowel endings
 карья:карья N1 ; ! ""    front vowel endings
-волос:волос%{ь%} N1 ; ! ""    front vowel endings
+волос:волос%{ь%} N1 ; ! "волость = volost = ~district"    front vowel endings
 губерна:губерна N1 ; ! "губерния"
-мещан:мещан N1 ; ! "мещанин"
+мещан:мещан N1 ; ! "мещанин = burgess"
+дворянин:дворянин N1 ; ! "дворянин = nobleman"
 сәүдәгәр:сәүдәгәр N1 ; ! "merchant"
 әнкә:әнкә N1 ; ! "mother"
 вәләд:вәләд N1 ; ! "child of ??"

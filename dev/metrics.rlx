@@ -2,7 +2,7 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
 SOFT-DELIMITERS = "<,>";
 
 LIST Divisions = "өяз" "карья" "волос" "губерна";
-LIST Professions = "мулла", "сәүдәгәр" "мещанин";
+LIST Professions = "мулла", "сәүдәгәр" "мещан";
 LIST Punct = "[" "]" ;
 
 SECTION

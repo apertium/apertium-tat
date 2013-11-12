@@ -2,6 +2,8 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
 SOFT-DELIMITERS = "<,>";
 
 LIST Divisions = "өяз" "карья" "волос" "губерна";
+LIST Professions = "мулла", "сәүдәгәр" "мещанин";
+LIST Punct = "[" "]" ;
 
 SECTION
 
@@ -23,10 +25,18 @@ MAP (@mother_name) TARGET (np ant f) IF ((-1 ("әнкә" n px3sp)) OR (-1 ("ан
 
 MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfather_name));
 
+MAP (@paternal_grandfather_origin) TARGET (np top nom) IF ((-1 (@paternal_grandfather_name)) OR (-1 (@paternal_grandfather_lastname)))
+
+MAP (@paternal_grandfather_profession) TARGET Professions IF (-1 (@paternal_grandfather_origin))
+
+
+#### GUESSER FUNCTIONS ####
+
 MAP (@guess_ANT-M) TARGET ("\\*.*"r) IF ((1 ("кыз" n px3sp)) OR (1 ("ул" n px3sp)));
 MAP (@guess_ANT-M) TARGET ("\\*.*"r) IF ((-1 ("бинт" n px3sp)) OR (-1 ("ибн" n px3sp)) OR (-1 ("вәләд")) OR (-1 ("бин")));
 
-MAP (@guess_ANT-F) TARGET ("\\*.*"r) IF (-1 ("әнкә" n px3sp));
+#MAP (@guess_ANT-F) TARGET ("\\*.*"r) IF (((-1 ("әнкә" n px3sp)) OR (-1 ("ана" n px3sp))) (0 NOT Punct));
+MAP (@guess_ANT-F) TARGET ("\\*.*"r) IF (-1 ("әнкә" n px3sp) OR ("ана" n px3sp)) (NOT 0 Punct);
 
 MAP (@guess_COG-M) TARGET ("\\*[А-Я].*[ое]в"r);
 

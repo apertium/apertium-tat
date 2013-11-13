@@ -4676,7 +4676,8 @@ XXI NUM-ROMAN ; ! ""
 ! ================================================
 өяз:өяз N1 ; ! "уезд"    front vowel endings
 карья:карья N1 ; ! ""    front vowel endings
-волос:волос%{ь%} N1 ; ! "волость = volost = ~district"    front vowel endings
+волость:волос%{ь%} N1 ; ! "волость = volost = ~district"    front vowel endings
+волость:волость N1 ; !
 губерна:губерна N1 ; ! "губерния"
 мещан:мещан N1 ; ! "мещанин = burgess"
 дворянин:дворянин N1 ; ! "дворянин = nobleman"
@@ -5308,6 +5309,9 @@ XXI NUM-ROMAN ; ! ""
 Вавилон:Вавилон NP-TOP ; ! ""
 Сион:Сион NP-TOP ; ! ""
 Бәтән:Бәтән NP-TOP ; ! ""
+
+Яңа% Зеленай:Яңа% Зеленай NP-TOP ; ! ""
+
 
 ! Anthroponyms
 ! ============

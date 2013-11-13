@@ -1,5 +1,6 @@
 #!/bin/bash
 
+APERTIUMPATH=~/apertium
 
 while IFS= read -r line; do
 	string=`echo $line | lt-proc $APERTIUMPATH/languages/apertium-tat/tat.automorf.bin | cg-conv -a 2>/dev/null | vislcg3 --grammar $APERTIUMPATH/languages/apertium-tat/dev/metrics.rlx`;

@@ -1707,6 +1707,7 @@ COP-I ; ! ""
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
 
+белән:белән CCLEX ; ! ""
 вә:вә CCLEX ; ! "and (archaic)"
 ни:ни CCLEX ; ! "neither... , nor ... (x2)"
 түгел:түгел CCLEX ; ! "not only, but also/even" #! Кеше түгел, эт тә чыдамас. FIXME:CHECK Use/MT

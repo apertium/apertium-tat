@@ -16,9 +16,13 @@ MAP (@residence_qarya) TARGET (np top nom) IF (1 ("карья" n px3sp));
 MAP (@residence_volos) TARGET (np top nom) IF ((1 ("волос" n px3sp)) OR (1 ("волость" n px3sp)));
 MAP (@residence_gubernya) TARGET (np top nom) IF (1 ("губерна" n px3sp));
 
-MAP (@maternal_grandfather_name) TARGET (np ant m) IF (1 ("кыз" n px3sp));
-MAP (@maternal_grandfather_name) TARGET (np ant m) IF (-1 ("бинт" n px3sp));
+MAP (@maternal_grandfather_name) TARGET (np ant m) IF ((1 ("кыз" n px3sp)) OR (1 (@maternal_grandfather_lastname)));
+MAP (@maternal_grandfather_name) TARGET (np ant m) IF ((-1 ("бинт" n px3sp)) OR (-1 (@mother_name)));
 MAP (@mother_name) TARGET (np ant f) IF ((-1 ("әнкә" n px3sp)) OR (-1 ("ана" n px3sp)));
+MAP (@mother_name) TARGET (np ant f) IF (1 (@maternal_grandfather_name));
+MAP (@maternal_grandfather_lastname) TARGET (np cog m) IF (1 ("кыз" n px3sp));
+
+
 
 MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfather_name));
 
@@ -26,6 +30,9 @@ MAP (@paternal_grandfather_origin) TARGET (np top nom) IF ((-1 (@paternal_grandf
 MAP (@paternal_grandfather_profession) TARGET Professions IF (-1 (@paternal_grandfather_origin));
 
 MAP (@father_profession) TARGET Professions IF (-1 (np top));
+MAP (@father_profession) TARGET Professions IF ((-1 (@family_name)) OR (-1 (@father_name)));
+
+MAP (@family_name) TARGET (np cog m) IF ((-1 (@father_name)) OR (-1 (@paternal_grandfather_name)));
 
 
 #### GUESSER FUNCTIONS ####

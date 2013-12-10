@@ -6217,6 +6217,12 @@ XXI NUM-ROMAN ; ! ""
 Дәурен:Дәурен NP-ANT-M ; ! ""
 Ержан:Ержан NP-ANT-M ; ! ""
 
+Паул:Паул NP-ANT-M ; ! "Paul"
+Петер:Петер NP-ANT-M ; ! "Peter"
+Шимун:Шимун NP-ANT-M ; ! "Simon"
+Пилат:Пилат NP-ANT-M ; ! "Pilatus"
+
+
 Ада:Ада NP-ANT-F ; ! ""
 Ажар:Ажар NP-ANT-F ; ! ""
 Аида:Аида NP-ANT-F ; ! ""

@@ -8,8 +8,11 @@ LIST Punct = "[" "]" ;
 SECTION
 
 MAP (@paternal_grandfather_name) TARGET (np ant m) IF ((-1 ("ибн")) OR (-1 ("бин")));
-MAP (@father_name) TARGET (np ant) IF ((1 ("ибн")) OR (-1 ("вәләд")) OR (-1 ("ата" n px3sp)));
-MAP (@father_name) TARGET (np ant m) IF (1 ("ул" n px3sp));
+#MAP (@father_name) TARGET (np ant m) IF ((1 ("ибн")) OR (-1 ("вәләд")) OR (-1 ("ата" n px3sp)));
+#MAP (@father_name) TARGET (np ant m) IF (1 ("ул" n px3sp));
+MAP (@father_name) TARGET (np ant m) IF
+	((1 ("ибн")) OR (-1 ("вәләд")) OR (-1 ("ата" n px3sp)) OR (1 ("ул" n px3sp)));
+
 
 MAP (@residence_uyezd) TARGET (np top nom) IF (1 ("өяз" n px3sp));
 MAP (@residence_qarya) TARGET (np top nom) IF (1 ("карья" n px3sp));
@@ -25,14 +28,21 @@ MAP (@maternal_grandfather_lastname) TARGET (np cog m) IF (1 ("кыз" n px3sp))
 
 
 MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfather_name));
+MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 ("ул" n px3sp));
 
 MAP (@paternal_grandfather_origin) TARGET (np top nom) IF ((-1 (@paternal_grandfather_name)) OR (-1 (@paternal_grandfather_lastname)));
-MAP (@paternal_grandfather_profession) TARGET Professions IF (-1 (@paternal_grandfather_origin));
+MAP (@paternal_grandfather_profession) TARGET Professions IF
+	((-1 (@paternal_grandfather_origin)) OR ((-1 (@paternal_grandfather_lastname))));
 
 MAP (@father_profession) TARGET Professions IF (-1 (np top));
 MAP (@father_profession) TARGET Professions IF ((-1 (@family_name)) OR (-1 (@father_name)));
 
 MAP (@family_name) TARGET (np cog m) IF ((-1 (@father_name)) OR (-1 (@paternal_grandfather_name)));
+
+
+REMOVE (top) IF (NOT 1 Professions) ;
+REMOVE ("и" cop) ;
+REMOVE (attr) ;
 
 
 #### GUESSER FUNCTIONS ####

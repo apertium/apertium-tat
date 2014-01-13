@@ -1019,40 +1019,40 @@ LEXICON V-DER
 LEXICON V-IV-IR
 
 %<v%>%<iv%>: V-COMMON ;
-%<v%>%<iv%>: V-FUT-IR;
-%<v%>%<iv%>: V-DER;
+%<v%>%<iv%>: V-FUT-IR ;
+%<v%>%<iv%>: V-DER ;
 
 LEXICON V-TV-NOPASS-IR
 
 %<v%>%<tv%>: V-COMMON ;
-%<v%>%<tv%>: V-FUT-IR;
-%<v%>%<tv%>: V-DER;
+%<v%>%<tv%>: V-FUT-IR ;
+%<v%>%<tv%>: V-DER ;
 
 LEXICON V-TV-PASS-IR
 
 ! e.g. күрен
 %<v%>%<tv%>%<pass%>: V-COMMON ;
-%<v%>%<tv%>%<pass%>: V-FUT-IR;
-%<v%>%<tv%>%<pass%>: V-DER;
+%<v%>%<tv%>%<pass%>: V-FUT-IR ;
+%<v%>%<tv%>%<pass%>: V-DER ;
 
 LEXICON V-TV-IR
 
 %<v%>%<tv%>: V-COMMON ;
-%<v%>%<tv%>: V-FUT-IR;
-%<v%>%<tv%>: V-DER;
+%<v%>%<tv%>: V-FUT-IR ;
+%<v%>%<tv%>: V-DER ;
 V-COMMON-PASSIVE ;
 
 LEXICON V-IV-AR
 
 %<v%>%<iv%>: V-COMMON ;
 %<v%>%<iv%>: V-FUT-AR ;
-%<v%>%<iv%>: V-DER;
+%<v%>%<iv%>: V-DER ;
 
 LEXICON V-TV-AR
 
 %<v%>%<tv%>: V-COMMON ;
 %<v%>%<tv%>: V-FUT-AR ;
-%<v%>%<tv%>: V-DER;
+%<v%>%<tv%>: V-DER ;
 V-COMMON-PASSIVE ;
 
 !!!!!!!!!!!!!!!!!!!!!!     auxiliary verbs
@@ -6042,7 +6042,7 @@ XXI NUM-ROMAN ; ! ""
 Кәнжалы:Кәнжалы NP-ANT-M ; ! ""
 Кәнжәбәк:Кәнжәбәк NP-ANT-M ; ! ""
 Кәрәй:Кәрәй NP-ANT-M ; ! ""
-Кенесары:Кенесары NP-ANT-M; ! ""
+Кенесары:Кенесары NP-ANT-M ; ! ""
 Ким:Ким NP-ANT-M ; ! ""
 Кирилл:Кирилл NP-ANT-M ; ! ""
 Клаус:Клаус NP-ANT-M ; ! ""
@@ -6100,7 +6100,7 @@ XXI NUM-ROMAN ; ! ""
 Мирослав:Мирослав NP-ANT-M ; ! ""
 Михаил:Михаил NP-ANT-M ; ! ""
 Михаэлис:Михаэлис NP-ANT-M ; ! ""
-Мишель:Мишель NP-ANT-M; ! ""
+Мишель:Мишель NP-ANT-M ; ! ""
 Моратбәк:Моратбәк NP-ANT-M ; ! ""
 Мостафа:Мостафа NP-ANT-M ; ! ""
 Мохтар:Мохтар NP-ANT-M ; ! ""

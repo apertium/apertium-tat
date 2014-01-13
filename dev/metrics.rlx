@@ -15,7 +15,7 @@ SECTION
 MAP (@father_name) TARGET (np ant m) IF
 	( (-1 ("вәләд")) OR (-1 ("ата" n px3sp)) );
 MAP (@paternal_grandfather_name) TARGET (np ant m) IF
-	( (-1 ("ибн")) OR (-1 ("бин")) OR (1 ("ул" n px3sp)) );
+	( (-1 ("ибн")) OR (-1 ("бин")) OR (1 ("ул" n px3sp)) OR (-1 (@father_name)) );
 
 
 MAP (@residence_uyezd) TARGET (np top nom) IF (1 ("өяз" n px3sp));
@@ -38,6 +38,7 @@ MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 ("ул" n px3sp));
 MAP (@paternal_grandfather_origin) TARGET (np top nom) IF ((-1 (@paternal_grandfather_name)) OR (-1 (@paternal_grandfather_lastname)));
 MAP (@paternal_grandfather_profession) TARGET Professions IF
 	((-1 (@paternal_grandfather_origin)) OR ((-1 (@paternal_grandfather_lastname))));
+MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfather_profession));
 
 MAP (@father_profession) TARGET Professions IF (-1 (np top));
 MAP (@father_profession) TARGET Professions IF ((-1 (@family_name)) OR (-1 (@father_name)));

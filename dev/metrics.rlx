@@ -43,6 +43,9 @@ MAP (@paternal_grandfather_lastname) TARGET (np cog m) IF (-1 (@paternal_grandfa
 MAP (@father_profession) TARGET Professions IF (-1 (np top));
 MAP (@father_profession) TARGET Professions IF ((-1 (@family_name)) OR (-1 (@father_name)));
 
+MAP (@father_origin) TARGET (np top nom) IF (1 (@father_profession)) ;
+MAP (@father_name) TARGET (np ant m) IF (1 (@paternal_grandfather_name)) ;
+
 MAP (@family_name) TARGET (np cog m) IF ((-1 (@father_name)) OR (-1 (@paternal_grandfather_name)));
 
 

@@ -19,13 +19,22 @@
     </pipeline>
   </mode>
 
-  <mode name="tat-lexc">
+  <mode name="tat-lexcgener">
     <pipeline>
       <program name="hfst-proc -g">
-        <file name=".deps/tat.lexc.hfst"/>
+        <file name=".deps/tat.LR.lexc.hfst"/>
       </program>
     </pipeline>
   </mode>
+  <mode name="tat-lexcmorph">
+    <pipeline>
+      <program name="hfst-proc -g">
+        <file name=".deps/tat.RL.lexc.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 
 
   <mode name="tat-gener">

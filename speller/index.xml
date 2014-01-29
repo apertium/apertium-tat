@@ -4,6 +4,7 @@
     <locale>tt</locale>
     <title>Apertium morphological analyser-based speller (Tatar)</title>
     <description>
+      A spellchecker for Tatar.
     </description>
     <version vcsrev="GT_REVISION">GT_VERSION</version>
     <date>DATE</date>

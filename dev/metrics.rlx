@@ -22,7 +22,7 @@ MAP (@paternal_grandfather_name) TARGET (np ant m) IF
 MAP (@family_name) TARGET (np cog m) IF
 	( (1 ("ул" n px3sp)) );
 
-
+MAP (@residence_awyl) TARGET (np top nom) IF (1 ("авыл" n px3sp));
 MAP (@residence_uyezd) TARGET (np top nom) IF (1 ("өяз" n px3sp));
 MAP (@residence_qarya) TARGET (np top nom) IF (1 ("карья" n px3sp));
 MAP (@residence_volos) TARGET (np top nom) IF ((1 ("волос" n px3sp)) OR (1 ("волость" n px3sp)));

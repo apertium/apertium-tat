@@ -82,7 +82,7 @@ Rules
                               [ [ :Vow %{j%}: ] | й: ]/[ %>: | [ :0 - %{j%}: ] ] _ ; ! ай>{s}{I}:ае
 
             except
-                 [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
+                 [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
                                                      %{n%}: %>: н:0 _ .#. ;
 !                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
                               [ :Vow - :Cns ]/[ [ :0 - й: ] | %>: ] _ ; ! avoid conflict with {I} deletion

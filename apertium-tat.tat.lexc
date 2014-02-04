@@ -11419,7 +11419,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 дәвам% ит:дәвам% ит V-TV-AR ; ! ""
 дәлиллә:дәлиллә V-TV-IR ; ! "prove"
 дәртләндер:дәртләндер V-TV-IR ; ! "to inspire"
-ди:ди%{j%} V-TV-AR ; ! "сказать,называть" FIXME
+!ди:ди%{j%} V-TV-AR ; ! "сказать,называть" FIXME
+ди:ди V-TV-AR ; ! "сказать,называть" FIXME
 !ди:ди V-TV-IR ; ! ""
 дистәлә:дистәлә V-TV-IR ; ! "to count by tens"
 дошманлаш:дошманлаш V-IV-IR ; ! "be at loggerheads with"

@@ -1,8 +1,8 @@
 Config:
   hfst: 
     App: hfst-optimised-lookup
-    Gen: numerals.RL.hfst
-    Morph: numerals.LR.hfst
+    Gen: ../../tat.autogen.hfst
+    Morph: ../../tat.automorf.hfst
 
 Tests:
 

@@ -22,6 +22,7 @@ speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
+tests/morphophonology/diyerge.yaml -text
 tests/morphophonology/epenthesis.yaml -text
 tests/morphophonology/prn-pers.yaml -text
 tests/morphophonology/surface_epenthesis.yaml -text

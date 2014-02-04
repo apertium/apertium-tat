@@ -22,14 +22,14 @@ speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
-tests/epenthesis.yaml -text
+tests/morphophonology/epenthesis.yaml -text
+tests/morphophonology/prn-pers.yaml -text
+tests/morphophonology/surface_epenthesis.yaml -text
+tests/morphophonology/w-phon.yaml -text
+tests/morphophonology/y-ligatures.yaml -text
+tests/morphophonology/ь.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text
 tests/numerals/percents.yaml -text
-tests/prn-pers.yaml -text
-tests/surface_epenthesis.yaml -text
-tests/w-phon.yaml -text
-tests/y-ligatures.yaml -text
-tests/ь.yaml -text
 texts/cg/story.tat.cg.txt -text
 texts/story.tat.txt -text svneol=unset#application/octet-stream

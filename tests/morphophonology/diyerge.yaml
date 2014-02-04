@@ -1,0 +1,13 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../../tat.autogen.hfst
+    Morph:  ../../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] some у verb forms": 
+    ди<v><tv><gna_perf> : дип
+    ди<v><tv><prc_perf> : дип
+    ди<v><tv><pass><gpr_past> : диелгән
+

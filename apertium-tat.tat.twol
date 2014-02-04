@@ -79,11 +79,13 @@ Rules
                                                   [ :Cns ь: :Cns* ]/[ %>: | :0 ] _ ;
 [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
                                           [ %{ь%}:0 :Cns* ]/[ [ :0 - %{ь%}:0 ] ] _ ;
+                              [ [ :Vow %{j%}: ] | й: ]/[ %>: | [ :0 - %{j%}: ] ] _ ; ! ай>{s}{I}:ае
+
             except
                  [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
                                                      %{n%}: %>: н:0 _ .#. ;
-                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
-                                       [ :Vow - :Cns ]/[ :0 | %>: ] _ ; ! avoid conflict with {I} deletion
+!                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
+                              [ :Vow - :Cns ]/[ [ :0 - й: ] | %>: ] _ ; ! avoid conflict with {I} deletion
 
 "Epenthetic {e} Vowel Harmony"
 %{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
@@ -205,7 +207,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !%{j%}:0 <=> :Cns/[ %>: | :0 ] _ ;
 
 "Deletion of {I} after vowels"
-%{I%}:0 <=> [ :Vow - :Cns ]/[ :0 | %>: ] _ ;
+%{I%}:0 <=> [ :Vow - :Cns ]/[ [ :0 - й: ] | %>: ] _ ;
             except
                                %{n%}:/:0 _ ;
 !      [ :BackVow :Cns* й: ]/[ %>: | :0 ] _ ;
@@ -237,6 +239,7 @@ Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
                        [ :FrontVow ]/[ %>: | :0 ] _ ;  ! сөйлә>{U}:сөйләү
             except
                        [ :Vow ]/[ %>: | :0 ] _ [ :Vow ]/[ %>: | :0 ] ;
+                    [ :BackVow :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ; ! җыел>{U}>{s}{I}:җыелуы
                                       й: %>: _ ;
 ! кайт>{U}:кайту
 
@@ -271,9 +274,6 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 
 "Convert {E} to я after й and {j}"
 %{E%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
-
-"Convert {I} to е after й and {j}"
-%{I%}:е <=> [ [ :Vow %{j%}: ] | й: ]/[ %>: | [ :0 - %{j%}: ] ] _ ;
 
 
 !!!! Special archiphonemes !!!!

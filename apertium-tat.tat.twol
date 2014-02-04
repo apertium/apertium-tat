@@ -272,6 +272,10 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 "Convert {E} to я after й and {j}"
 %{E%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
 
+"Convert {I} to е after й and {j}"
+%{I%}:е <=> [ [ :Vow %{j%}: ] | й: ]/[ %>: | [ :0 - %{j%}: ] ] _ ;
+
+
 !!!! Special archiphonemes !!!!
 
 "Deletion of dative {G} after px1sg, px2sg"

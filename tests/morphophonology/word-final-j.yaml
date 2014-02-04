@@ -1,0 +1,13 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../../tat.autogen.hfst
+    Morph:  ../../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] various not working stuff from the corpa/corpus.kaz.txt":
+    ай<n><px3sp><gen> : аеның
+    ай<n><px3sp><abl> : аеннан
+    ай<n><px3sp><loc> : аенда
+    музей<n><px3sp><nom> : музее

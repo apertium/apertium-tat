@@ -1,0 +1,13 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../../tat.autogen.hfst
+    Morph:  ../../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] язарга": 
+     яз<v><tv><neg><imp><p2><sg> : язма
+     яз<v><tv><neg><pres><p2><sg> : язмыйсың
+     яз<v><tv><neg><pres><p3><sg> : язмый
+     яз<v><tv><neg><pres><p1><pl> : язмыйбыз

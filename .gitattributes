@@ -29,6 +29,7 @@ tests/morphophonology/surface_epenthesis.yaml -text
 tests/morphophonology/w-phon.yaml -text
 tests/morphophonology/word-final-j.yaml -text
 tests/morphophonology/y-ligatures.yaml -text
+tests/morphophonology/yazarga.yaml -text
 tests/morphophonology/ь.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text

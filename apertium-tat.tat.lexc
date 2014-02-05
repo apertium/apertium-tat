@@ -11172,6 +11172,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 авыш:авыш V-IV-IR ; ! "move,pass"
 агар:агар V-IV-IR ; ! "to grow white"
 агарт:агарт V-TV-IR ; ! "to whiten" (tat) caus
+агарын:агарын V-IV-IR ; ! "" refl
+агыз:агыз V-TV-IR ; ! "" caus
 агыл:агыл V-IV-IR ; ! "хлынуть"
 адаш:адаш V-IV-IR ; ! "err,be mistaken,loose one's way,get lost"
 аек:аек V-IV-IR ; ! "отрезвляться"
@@ -11272,6 +11274,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 ашкын:ашкын V-IV-IR ; ! "thirst for,yearn for"
 ашык:ашык V-IV-IR ; ! "hurry"
 ашык:ашык V-IV-IR ; ! "торопиться,спешить"
+ашыктыр:ашыктыр V-TV-IR ; ! "" caus
 ашыр:ашыр V-TV-IR ; ! "drive off,drive through,overfill" caus
 ая:ая V-TV-IR ; ! "жалеть,щадить,сжаливаться"
 аякка% бас:аякка% бас V-IV-AR ; ! "" Use/MT
@@ -11425,6 +11428,9 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 дистәлә:дистәлә V-TV-IR ; ! "to count by tens"
 дошманлаш:дошманлаш V-IV-IR ; ! "be at loggerheads with"
 дуслаш:дуслаш V-IV-IR ; ! "to be reconciled (with)"
+дучар% бул:дучар% бул V-IV-IR ; ! ""
+дыңгырда:дыңгырда V-IV-IR ; ! ""
+дыңгырдат:дыңгырдат V-TV-IR ; ! "" caus
 егет% бул:егет% бул V-IV-IR ; ! "to distinguish oneself" Use/MT
 егыл:егыл V-IV-IR ; ! "fall"
 ек:ек V-TV-AR ; ! "knock over (passive = fall over)"
@@ -11445,6 +11451,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 әйлән:әйлән V-IV-IR ; ! "вращаться;превращаться"
 әйт:әйт V-TV-IR ; ! "сказать,говорить,рассказывать"
 әйткәләш:әйткәләш V-IV-IR ; ! "to get into a fight"
+әйттер:әйттер V-TV-IR ; ! "" caus
 әкренәй:әкренәй V-IV-IR ; ! "to slow down"
 әмәллә:әмәллә V-TV-IR ; ! "contrive,manage,find a way out"
 әңгәмәләш:әңгәмәләш V-IV-IR ; ! ""
@@ -11457,9 +11464,11 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 җаен% тап:җаен% тап V-IV-AR ; ! "" Use/MT
 җайла:җайла V-TV-IR ; ! "to designate"
 җайлаш:җайлаш V-IV-IR ; ! "to get settled"
+жалоба% бир:жалоба% бир V-IV-IR ; ! ""
 җанлан:җанлан V-IV-IR ; ! "to come to life"
 җаны% чыккан% бул:җаны% чыккан% бул V-IV-IR ; ! "be beaten half to death" Use/MT
 җәел:җәел V-IV-IR ; ! "extend,overflow" (kaz tat) pass
+җәзала:җәзала V-TV-IR ; ! ""
 җәй:җәй V-TV-AR ; ! "to pasture"
 җәйлә:җәйлә V-IV-IR ; ! "to set up a summer camp"
 җәлеп% ит:җәлеп% ит V-TV-AR ; ! "привлекaть,вовлекать"
@@ -11477,8 +11486,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 җиңеләйт:җиңеләйт V-TV-IR ; ! ""
 җиң:җиң V-TV-AR ; ! "win,overcome"
 җиң% сызган:җиң% сызган V-IV-IR ; ! "train oneself,display activity" Use/MT
-җирән:җирән V-IV-IR ; ! "to have an aversion"
 җирәнеп% кара:җирәнеп% кара V-TV-IR ; ! "" Use/MT
+җирән:җирән V-IV-IR ; ! "to have an aversion"
 җирлә:җирлә V-TV-IR ; ! "to bury"
 җител:җител V-IV-IR ; ! ""
 җитеш:җитеш V-IV-IR ; ! "to ripen (of fruit)"
@@ -11488,12 +11497,14 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 җиткез:җиткез V-TV-IR ; ! "to bring to" (kaz tat) caus
 җиһазлан:җиһазлан V-IV-IR ; ! "to be equipped with tools"
 җыел:җыел V-IV-IR ; ! "to accumulate"
+җыен:җыен V-IV-IR ; ! "" refl
 җыерыл:җыерыл V-IV-IR ; ! "to develop (of folds"
 җыйдыр:җыйдыр V-TV-IR ; ! ""
 җый:җый V-TV-AR ; ! "to gather"
 җыйна:җыйна V-TV-IR ; ! ""
 җылын:җылын V-TV-IR ; ! ""
 җырла:җырла V-TV-IR ; ! ""
+зарлан:зарлан V-IV-IR ; ! ""
 зарык:зарык V-IV-IR ; ! "be bored"
 зәвыклан:зәвыклан V-IV-IR ; ! "to want"
 зәңгәрсулан:зәңгәрсулан V-IV-IR ; ! "to look blue" FIXME CHECK
@@ -11517,6 +11528,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 имәргә% чык:имәргә% чык V-IV-AR ; ! "to be admitted to ewes or cows for sucking (of lambs and calves)" Use/MT
 имчәктән% аер:имчәктән% аер V-TV-IR ; ! "to wean a child" Use/MT
 интектер:интектер V-TV-IR ; ! "to bore"
+иңрә:иңрә V-IV-IR ; ! ""
 иплә:иплә V-TV-IR ; ! "to gain"
 ирен:ирен V-IV-IR ; ! "лениться"
 иреш:иреш V-IV-IR ; ! "to attain"
@@ -11540,14 +11552,15 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 иш:иш V-TV-AR ; ! "to felt (wool)"
 ия% бул:ия% бул V-IV-IR ; ! ""
 ияр:ияр V-IV-IR ; ! "follow"
-иярт:иярт V-TV-IR ; ! "" caus
 иярлә:иярлә V-TV-IR ; ! "седлать"
+иярт:иярт V-TV-IR ; ! "" caus
 йогышсызландыр:йогышсызландыр V-TV-IR ; ! "to disinfect" (tat) caus
 йок:йок V-TV-AR ; ! "be communicated (of diseases)"
 йокла:йокла V-IV-IR ; ! ""
 йокымсыра:йокымсыра V-IV-IR ; ! "be in a sluggish and drowsy state"
 йолкы:йолкы V-TV-IR ; ! "pluck out"
 йомгакла:йомгакла V-TV-IR ; ! "to conclude"
+йом:йом V-TV-AR ; ! ""
 йомша:йомша V-IV-IR ; ! "soften"
 йомшарт:йомшарт V-TV-IR ; ! "to turn up" (kaz tat) caus
 йот:йот V-TV-AR ; ! ""
@@ -11631,6 +11644,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 каушатып% җибәр:каушатып% җибәр V-TV-IR ; ! "to disturb" Use/MT
 каһәрлән:каһәрлән V-IV-IR ; ! "to get angry"
 кач:кач V-IV-AR ; ! "flee"
+каш% җыер:каш% җыер V-IV-IR ; ! "" Use/MT
 квалификациялән:квалификациялән V-IV-IR ; ! "specialize"
 кебек% бул:кебек% бул V-IV-IR ; ! "" Use/MT
 кер:кер V-IV-IR ; ! "enter"
@@ -11640,8 +11654,10 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 кешнә:кешнә V-IV-IR ; ! "to neigh loudly (of a stallion)"
 кәнәгать% булма:кәнәгать% булма V-IV-IR ; ! "not to  be content (with)" Use/MT
 кәнәгатьләндер:кәнәгатьләндер V-TV-IR ; ! "" (tat) caus
+киен:киен V-IV-IR ; ! "" refl
 киерел:киерел V-IV-IR ; ! "to be in an agonizing condition"
 кикер:кикер V-IV-IR ; ! "burp"
+ки:ки V-TV-AR ; ! ""
 килеп% җит:килеп% җит V-TV-IR ; ! "" Use/MT
 килеп% чык:килеп% чык V-IV-AR ; ! "" Use/MT
 килеш:килеш V-IV-IR ; ! "agree"
@@ -11650,18 +11666,20 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 кинаяле% сөйлә:кинаяле% сөйлә V-IV-IR ; ! "to line" Use/MT
 киңәйт:киңәйт V-TV-IR ; ! ""
 киңәш:киңәш V-IV-IR ; ! "to consult"
+киңәшләш:киңәшләш V-IV-IR ; ! ""
 кип:кип V-IV-AR ; ! "to crack"
 кире% бир:кире% бир V-TV-IR ; ! "" Use/MT
 кисеп% ал:кисеп% ал V-TV-IR ; ! "to cut off" Use/MT
 кисеш:кисеш V-IV-IR ; ! "to gather in one place"
-кис:кис V-TV-AR ; ! "cut"
 кисәт:кисәт V-TV-IR ; ! ""
+кис:кис V-TV-AR ; ! "cut"
 кител:кител V-IV-IR ; ! "to repulse"
 китер:китер V-TV-IR ; ! "bring" (kaz tat) caus
 кит:кит V-IV-AR ; ! "leave"
 кичек:кичек V-IV-IR ; ! "stop,stay"
 кичектер:кичектер V-TV-IR ; ! ""
 кичер:кичер V-TV-IR ; ! "forgive"
+кич:кич V-TV-AR ; ! ""
 коендыр:коендыр V-TV-IR ; ! "" caus
 кой:кой V-TV-AR ; ! "to fall (of rain)"
 комга% утыр:комга% утыр V-IV-IR ; ! "to run aground (of a vessel)" Use/MT
@@ -11671,6 +11689,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 кораллан:кораллан V-IV-IR ; ! "to arm oneself"
 коргаксы:коргаксы V-IV-IR ; ! "to dry out"
 кор:кор V-TV-IR ; ! "build"
+коры:коры V-IV-IR ; ! ""
 корыт:корыт V-TV-IR ; ! "to be dried up"
 коткар:коткар V-TV-IR ; ! "save"
 котла:котла V-TV-IR ; ! "to congratulate"
@@ -11683,12 +11702,14 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 көлемсерә:көлемсерә V-IV-IR ; ! "to smile slightly"
 көлеш:көлеш V-IV-IR ; ! "to laugh with others" (kaz tat) coop
 көл:көл V-IV-AR ; ! "laugh"
+көндәшлек% ит:көндәшлек% ит V-IV-AR ; ! ""
 көнлә:көнлә V-TV-IR ; ! "to envy"
 көпшәкләндер:көпшәкләндер V-TV-IR ; ! "to turn inside out" (kaz tat) caus
 көрәш:көрәш V-IV-IR ; ! "to wrestle"
 көрсен:көрсен V-IV-IR ; ! ""
 көт:көт V-TV-AR ; ! "wait"
 көчәй:көчәй V-IV-AR ; ! ""
+көчәйт:көчәйт V-TV-IR ; ! "" caus
 көч% куй:көч% куй V-IV-AR ; ! "strive" Use/MT
 көчлә:көчлә V-TV-IR ; ! ""
 кристаллан:кристаллан V-IV-IR ; ! "to crystallize"
@@ -11741,9 +11762,11 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 кызар:кызар V-IV-IR ; ! "to be covered with bruises"
 кызган:кызган V-TV-IR ; ! "жалеть"
 кыз:кыз V-IV-AR ; ! "to get overcurdled (of sour milk)"
+кызык:кызык V-IV-IR ; ! ""
 кызыксын:кызыксын V-IV-IR ; ! "to get interested in"
 кызыктыр:кызыктыр V-TV-IR ; ! "to cause interest" (kaz tat) caus
 кызыш:кызыш V-IV-IR ; ! "to rot"
+кый:кый V-TV-AR ; ! ""
 кылан:кылан V-TV-IR ; ! "pretend,feign"
 кыл:кыл V-TV-IR ; ! "do"
 кыраулан:кыраулан V-IV-IR ; ! "to be covered with frost"
@@ -11781,6 +11804,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 маташ:маташ V-IV-IR ; ! "суетиться,возиться"
 машиналаштыр:машиналаштыр V-TV-IR ; ! "mechanize"
 межала:межала V-TV-IR ; ! "draw a boundary line"
+менгез:менгез V-TV-IR ; ! "" caus
 мен:мен V-IV-AR ; ! ""
 мәгълүм% ит:мәгълүм% ит V-TV-AR ; ! "to inform"
 мәлҗерә:мәлҗерә V-IV-IR ; ! "to become languid"
@@ -11797,6 +11821,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 нәкышла:нәкышла V-TV-IR ; ! "to decorate with designs"
 нигезлә:нигезлә V-TV-IR ; ! ""
 никахлаш:никахлаш V-IV-IR ; ! "to marry"
+нишлә:нишлә V-IV-IR ; ! ""
 ниятлән:ниятлән V-IV-IR ; ! "intend"
 нормалаштыр:нормалаштыр V-TV-IR ; ! "to standardize"
 нужа% күр:нужа% күр V-IV-IR ; ! "to live in poverty" Use/MT
@@ -11805,12 +11830,14 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 ныгыт:ныгыт V-TV-IR ; ! ""
 ныкла:ныкла V-TV-IR ; ! "fasten"
 нык% тор:нык% тор V-IV-IR ; ! "to be attached to" Use/MT
+нык% тор:нык% тор V-IV-IR ; ! "" Use/MT
 ое:ое V-IV-IR ; ! "be in a sluggish and drowsy state"
 оет:оет V-TV-IR ; ! "sour,thicken"
 оештыр:оештыр V-TV-IR ; ! "organize"
 озата% бар:озата% бар V-TV-IR ; ! "" Use/MT
 озат:озат V-TV-IR ; ! ""
 озынай:озынай V-IV-IR ; ! "get longer"
+озынайт:озынайт V-TV-IR ; ! "" caus
 олтан% сал:олтан% сал V-IV-IR ; ! "to fix a new sole to a shoe" Use/MT
 омтыл:омтыл V-IV-IR ; ! "move ahead"
 оныт:оныт V-TV-IR ; ! "forget,mislay"
@@ -11822,10 +11849,12 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 оч:оч V-IV-AR ; ! "fly"
 очра:очра V-IV-IR ; ! "befell,meet unexpectedly"
 очраш:очраш V-IV-IR ; ! "to meet"
+очыр:очыр V-TV-IR ; ! "" caus
 оша:оша V-IV-IR ; ! ""
 оял:оял V-IV-IR ; ! "be ashamed"
 өзлек:өзлек V-IV-IR ; ! "осложниться /о болезни/"
 өз:өз V-TV-AR ; ! "cut,pluck" pluck
+өй:өй V-TV-AR ; ! ""
 өйрәнеп% кит:өйрәнеп% кит V-IV-AR ; ! "to make a habit of frequently calling somewhere" Use/MT
 өйрән:өйрән V-TV-IR ; ! "learn"
 өйрәт:өйрәт V-TV-IR ; ! "teach"
@@ -11879,6 +11908,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 салын:салын V-IV-IR ; ! "to dangle"
 салынып% төш:салынып% төш V-IV-AR ; ! "to drag" Use/MT
 сана:сана V-TV-IR ; ! ""
+сарыф% ит:сарыф% ит V-TV-IR ; ! ""
 сасы:сасы V-IV-IR ; ! "stink"
 саташ:саташ V-IV-IR ; ! "be in one's dotage"
 сат:сат V-TV-AR ; ! ""
@@ -11936,6 +11966,9 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 сусат:сусат V-TV-IR ; ! "to cause hunger"
 суы:суы V-IV-IR ; ! "to cool down"
 суыт:суыт V-TV-IR ; ! ""
+сүген:сүген V-IV-IR ; ! "" refl
+сүк:сүк V-TV-AR ; ! ""
+сүк:сүк V-TV-AR ; ! ""
 сүлпәнлән:сүлпәнлән V-IV-IR ; ! "become sluggish" inert
 сүтел:сүтел V-IV-IR ; ! "set out for the pasture,unroll"
 сыдыр:сыдыр V-TV-IR ; ! "to skin an animal"
@@ -11960,6 +11993,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 тавышлан:тавышлан V-IV-IR ; ! "to make a row"
 тагыл:тагыл V-IV-IR ; ! ""
 тазар:тазар V-IV-IR ; ! ""
+такмаклап% ела:такмаклап% ела V-IV-IR ; ! "" Use/MT
+так:так V-TV-AR ; ! ""
 тала:тала V-TV-IR ; ! "dispute,argue"
 талаш:талаш V-IV-IR ; ! "браниться"
 талдыр:талдыр V-TV-IR ; ! "to exhaust"
@@ -12002,6 +12037,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 таушал:таушал V-IV-IR ; ! "to become spoiled"
 ташлан:ташлан V-IV-IR ; ! "to attack (someone) furiously (with one's eyes starting out of one's head)"
 ташла:ташла V-TV-IR ; ! ""
+ташы:ташы V-IV-IR ; ! ""
 ташы:ташы V-TV-IR ; ! ""
 таян:таян V-IV-IR ; ! "to lean one's elbows (on)"
 тезлән:тезлән V-IV-IR ; ! "sit cross-legged"
@@ -12015,9 +12051,11 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 тереклек% ит:тереклек% ит V-IV-AR ; ! "to exist" Use/MT
 терел:терел V-IV-IR ; ! "выздоравливать"
 терелт:терелт V-TV-IR ; ! "" caus
+терәл:терәл V-IV-IR ; ! "" refl?
 терә:терә V-TV-IR ; ! "support"
 терәш:терәш V-IV-IR ; ! "vie with someone"
 теркә:теркә V-TV-IR ; ! "attach/register"
+тетрә:тетрә V-IV-IR ; ! ""
 тешлә:тешлә V-TV-IR ; ! "bite"
 тәбриклә:тәбриклә V-TV-IR ; ! "to approve"
 тәвәкәллә:тәвәкәллә V-IV-IR ; ! "решиться"
@@ -12038,6 +12076,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 тәэмин% ит:тәэмин% ит V-TV-AR ; ! "provide"
 тибеш:тибеш V-IV-IR ; ! "to be disquieted by stings of gadflies (of horses)"
 тигезләш:тигезләш V-IV-IR ; ! "to equal"
+тидер:тидер V-TV-IR ; ! "" caus
 тизлән:тизлән V-IV-IR ; ! "to rush"
 тизләт:тизләт V-TV-IR ; ! "to hurry"
 тиз%-тиз% чәйнә:тиз%-тиз% чәйнә V-TV-IR ; ! "" Use/MT
@@ -12046,6 +12085,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 тилер:тилер V-IV-IR ; ! "to become abnormal"
 тилмер:тилмер V-IV-IR ; ! "to stare"
 тимерлә:тимерлә V-TV-IR ; ! "to encircle"
+типтер:типтер V-IV-IR ; ! ""
+тип:тип V-TV-AR ; ! ""
 тирбәл:тирбәл V-IV-IR ; ! "to reel"
 тирбәт:тирбәт V-TV-IR ; ! "to rock"
 тирәнәй:тирәнәй V-IV-IR ; ! "to get deeper"
@@ -12057,6 +12098,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 тормышка% ашыр:тормышка% ашыр V-TV-IR ; ! "" FIXME NOTE caus Use/MT
 тор:тор V-IV-IR ; ! ""
 тоташ:тоташ V-IV-IR ; ! ""
+тоташтыр:тоташтыр V-TV-IR ; ! "" caus
 тоткарлан:тоткарлан V-IV-IR ; ! "задерживаться"
 тоткарла:тоткарла V-TV-IR ; ! ""
 тотлык:тотлык V-IV-IR ; ! "to falter"
@@ -12101,6 +12143,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 туктат:туктат V-TV-IR ; ! ""
 тукта:тукта V-IV-IR ; ! ""
 тукы:тукы V-TV-IR ; ! "weave"
+тулган:тулган V-IV-IR ; ! ""
 тул:тул V-IV-IR ; ! ""
 тулыла:тулыла V-TV-IR ; ! ""
 туна:туна V-TV-IR ; ! "rob,plunder"
@@ -12109,6 +12152,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 туракла:туракла V-TV-IR ; ! "to cut a carcass to pieces"
 турсай:турсай V-IV-IR ; ! "to be on the watch for"
 туры% кил:туры% кил V-IV-AR ; ! "" Use/MT
+ту:ту V-IV-AR ; ! ""
 түбәнәй:түбәнәй V-IV-IR ; ! "fall,sink,become lower"
 түзеп% утыра% алма:түзеп% утыра% алма V-IV-IR ; ! "to be restless" Use/MT
 түз:түз V-IV-AR ; ! "endure"
@@ -12141,6 +12185,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 уйна:уйна V-TV-IR ; ! ""
 укала:укала V-TV-IR ; ! "to sew on lace or braid"
 укый%-яза% бел:укый%-яза% бел V-IV-IR ; ! "to become literate" Use/MT
+укыт:укыт V-TV-IR ; ! "" caus
 укы:укы V-IV-IR ; ! "study (in a school)"
 укы:укы V-TV-IR ; ! "read"
 ула:ула V-IV-IR ; ! ""
@@ -12154,6 +12199,8 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 урнаш:урнаш V-IV-IR ; ! "be installed,be fortified"
 ур:ур V-TV-IR ; ! "mow"
 утал:утал V-IV-IR ; ! "полоть" (kaz tat) passive
+ута:ута V-TV-IR ; ! ""
+утырт:утырт V-TV-IR ; ! "" caus
 утыр:утыр V-IV-IR ; ! ""
 у:у V-TV-AR ; ! "to rub with the palm"
 уян:уян V-IV-IR ; ! "wake" (kaz tat) refl
@@ -12200,19 +12247,24 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 формалаш:формалаш V-IV-IR ; ! ""
 халыкка% чыгар:халыкка% чыгар V-TV-IR ; ! "announce" Use/MT
 характерла:характерла V-TV-IR ; ! "to describe"
+хаслан:хаслан V-IV-IR ; ! ""
 хафалан:хафалан V-IV-IR ; ! "огорчаться"
 хезмәт% ит:хезмәт% ит V-IV-AR ; ! ""
 хәбәр% ит:хәбәр% ит V-TV-AR ; ! ""
 хәвефлән:хәвефлән V-IV-IR ; ! "to fear"
 хәерчелән:хәерчелән V-IV-IR ; ! "to become impoverished" (kat tat) passive
+хәйләлә:хәйләлә V-IV-IR ; ! ""
 хәлдән% тай:хәлдән% тай V-IV-AR ; ! "to get tired" Use/MT
 хәл% ит:хәл% ит V-TV-AR ; ! ""
 хәллән:хәллән V-IV-IR ; ! "to get well"
 хәлсезлән:хәлсезлән V-IV-IR ; ! "be feeble"
 хәрефлә:хәрефлә V-TV-IR ; ! "spell"
+хәстәрлән:хәстәрлән V-IV-IR ; ! "" refl
+хәстәрлә:хәстәрлә V-TV-IR ; ! ""
 хәтердә% тот:хәтердә% тот V-TV-AR ; ! "" Use/MT
 хәтерен% калдыр:хәтерен% калдыр V-IV-IR ; ! "chatter,pester (with)" Use/MT
 хәтерлә:хәтерлә V-TV-IR ; ! ""
+хосусыйлаштыр:хосусыйлаштыр V-TV-IR ; ! "" caus
 хулиганлан:хулиганлан V-IV-IR ; ! "to be pugnacious"
 хупла:хупла V-TV-IR ; ! ""
 хурла:хурла V-TV-IR ; ! "to humiliate"
@@ -12232,6 +12284,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 чакыр:чакыр V-TV-IR ; ! ""
 чакырып% чыгар:чакырып% чыгар V-TV-IR ; ! "" Use/MT
 чал:чал V-TV-AR ; ! "sacrifice,bring down"
+чапкала:чапкала V-TV-IR ; ! ""
 чап:чап V-IV-AR ; ! ""
 чап:чап V-TV-AR ; ! "to hew"
 чатанла:чатанла V-IV-IR ; ! "to limp slightly"
@@ -12320,6 +12373,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 ышыклан:ышыклан V-IV-IR ; ! "to seek shelter (from bad weather)"
 эвакуациялә:эвакуациялә V-TV-IR ; ! "to evacuate"
 эзәрлә:эзәрлә V-TV-IR ; ! "follow someone closely"
+эзләт:эзләт V-TV-IR ; ! "" caus
 эзлә:эзлә V-TV-IR ; ! ""
 экстрадициялә:экстрадициялә V-TV-IR ; ! ""
 элеп% куй:элеп% куй V-TV-AR ; ! "to line" Use/MT
@@ -12366,6 +12420,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 якалаш:якалаш V-IV-IR ; ! "to catch one another by throat" (kaz tat) coop
 якла:якла V-TV-IR ; ! ""
 яктыр:яктыр V-TV-IR ; ! "заставить разжечь" (kaz tat) caus
+якынайт:якынайт V-TV-IR ; ! "" caus
 якынай:якынай V-IV-IR ; ! "to become good friends"
 якын% җибәр:якын% җибәр V-TV-IR ; ! "" Use/MT
 якын% кил:якын% кил V-IV-IR ; ! "to approach" Use/MT
@@ -12382,6 +12437,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 ял% ит:ял% ит V-IV-AR ; ! "отдыхать"
 ялкаулан:ялкаулан V-IV-IR ; ! "to be lazy"
 ялкынлан:ялкынлан V-IV-IR ; ! "to flame"
+ялла:ялла V-TV-IR ; ! ""
 ялтырат:ялтырат V-TV-IR ; ! "to illuminate" (kaz tat) caus
 ялыктыр:ялыктыр V-TV-IR ; ! "to pester" (kaz tat) caus
 ялын:ялын V-IV-IR ; ! "to implore"
@@ -12395,6 +12451,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 яралан:яралан V-IV-IR ; ! ""
 ярала:ярала V-TV-IR ; ! ""
 ярат:ярат V-TV-IR ; ! ""
+яраш:яраш V-IV-IR ; ! ""
 яра:яра V-IV-IR ; ! ""
 ярдәм% ит:ярдәм% ит V-IV-AR ; ! ""
 ярлыка:ярлыка V-TV-IR ; ! "benefit"
@@ -12403,6 +12460,7 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 ярсы:ярсы V-IV-IR ; ! "закатиться в плаче"
 яр:яр V-TV-IR ; ! "to hew"
 ясан:ясан V-IV-IR ; ! ""
+ясат:ясат V-TV-IR ; ! "" caus
 яса:яса V-TV-IR ; ! ""
 яссы% бул:яссы% бул V-IV-IR ; ! "to be well-trodden" Use/MT
 ятимлән:ятимлән V-IV-IR ; ! "to feel lonely"
@@ -12420,72 +12478,6 @@ Kazakhstan:Kazakhstan NPALLEX ; ! ""
 яшерен:яшерен V-IV-IR ; ! ""
 яшер:яшер V-TV-IR ; ! ""
 яшә:яшә V-TV-IR ; ! "" consider яшәлгән >> transitive because of that
-
-хаслан:хаслан V-IV-IR ; ! ""
-
-ту:ту V-IV-AR ; ! ""
-дучар% бул:дучар% бул V-IV-IR ; ! ""
-җыен:җыен V-IV-IR ; ! "" refl
-ташы:ташы V-IV-IR ; ! ""
-терәл:терәл V-IV-IR ; ! "" refl?
-жалоба% бир:жалоба% бир V-IV-IR ; ! ""
-зарлан:зарлан V-IV-IR ; ! ""
-
-нык% тор:нык% тор V-IV-IR ; ! ""
-җәзала:җәзала V-TV-IR ; ! ""
-тоташтыр:тоташтыр V-TV-IR ; ! "" caus
-ялла:ялла V-TV-IR ; ! ""
-хосусыйлаштыр:хосусыйлаштыр V-TV-IR ; ! "" caus
-көчәйт:көчәйт V-TV-IR ; ! "" caus
-укыт:укыт V-TV-IR ; ! "" caus
-тидер:тидер V-TV-IR ; ! "" caus
-озынайт:озынайт V-TV-IR ; ! "" caus
-
-йом:йом V-TV-AR ; ! ""
-кич:кич V-TV-AR ; ! ""
-ки:ки V-TV-AR ; ! ""
-так:так V-TV-AR ; ! ""
-тип:тип V-TV-AR ; ! ""
-эзләт:эзләт V-TV-IR ; ! "" caus
-сарыф% ит:сарыф% ит V-TV-IR ; ! ""
-тетрә:тетрә V-IV-IR ; ! ""
-
-көндәшлек% ит:көндәшлек% ит V-IV-AR ; ! ""
-дыңгырда:дыңгырда V-IV-IR ; ! ""
-яраш:яраш V-IV-IR ; ! ""
-коры:коры V-IV-IR ; ! ""
-кызык:кызык V-IV-IR ; ! ""
-
-кый:кый V-TV-AR ; ! ""
-агыз:агыз V-TV-IR ; ! "" caus
-дыңгырдат:дыңгырдат V-TV-IR ; ! "" caus
-ясат:ясат V-TV-IR ; ! "" caus
-ута:ута V-TV-IR ; ! ""
-утырт:утырт V-TV-IR ; ! "" caus
-
-такмаклап% ела:такмаклап% ела V-IV-IR ; ! "" Use/MT
-киңәшләш:киңәшләш V-IV-IR ; ! ""
-иңрә:иңрә V-IV-IR ; ! ""
-сүк:сүк V-TV-AR ; ! ""
-сүген:сүген V-IV-IR ; ! "" refl
-хәйләлә:хәйләлә V-IV-IR ; ! ""
-киен:киен V-IV-IR ; ! "" refl
-нишлә:нишлә V-IV-IR ; ! ""
-хәстәрлән:хәстәрлән V-IV-IR ; ! "" refl
-типтер:типтер V-IV-IR ; ! ""
-тулган:тулган V-IV-IR ; ! ""
-агарын:агарын V-IV-IR ; ! "" refl
-каш% җыер:каш% җыер V-IV-IR ; ! "" Use/MT
-
-сүк:сүк V-TV-AR ; ! ""
-өй:өй V-TV-AR ; ! ""
-әйттер:әйттер V-TV-IR ; ! "" caus
-ашыктыр:ашыктыр V-TV-IR ; ! "" caus
-хәстәрлә:хәстәрлә V-TV-IR ; ! ""
-менгез:менгез V-TV-IR ; ! "" caus
-якынайт:якынайт V-TV-IR ; ! "" caus
-очыр:очыр V-TV-IR ; ! "" caus
-чапкала:чапкала V-TV-IR ; ! ""
 
 ! Auxiliary verbs
 ! ===============

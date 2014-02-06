@@ -6,11 +6,17 @@ Config:
 
 Tests: 
 
-  "[twol] back vowels (язарга)": 
+  "[twol] ambiguous back vowels (язарга)": 
      яз<v><tv><neg><imp><p2><sg> : язма
      яз<v><tv><neg><pres><p2><sg> : язмыйсың
      яз<v><tv><neg><pres><p3><sg> : язмый
      яз<v><tv><neg><pres><p1><pl> : язмыйбыз
+
+  "[twol] unambiguous back vowels (басарга)": 
+     бас<v><tv><neg><imp><p2><sg> : басма
+     бас<v><tv><neg><pres><p2><sg> : басмыйсың
+     бас<v><tv><neg><pres><p3><sg> : басмый
+     бас<v><tv><neg><pres><p1><pl> : басмыйбыз
 
   "[twol] front vowels (белергә)": 
      бел<v><tv><neg><imp><p2><sg> : белмә

@@ -1,0 +1,52 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../../tat.autogen.hfst
+    Morph:  ../../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] please move it from the pending folder above to other tests once you make it work": 
+     кара<vaux><opt><p1><sg> : карыйм
+     кара<vaux><opt><p1><pl> : карыйк
+     кара<vaux><opt><p3><sg> : карасын
+     кара<vaux><opt><p3><pl> : карасыннар
+
+     бәйлә<v><tv><opt><p1><sg> : бәйлим
+     бәйлә<v><tv><opt><p1><pl> : бәйлик
+     бәйлә<v><tv><opt><p3><sg> : бәйләсен
+     бәйлә<v><tv><opt><p3><pl> : бәйләсеннәр
+
+     укы<v><tv><opt><p1><sg> : укыйм
+     укы<v><tv><opt><p1><pl> : укыйк
+     укы<v><tv><opt><p3><sg> : укысын
+     укы<v><tv><opt><p3><pl> : укысыннар
+
+     селке<v><tv><opt><p1><sg> : селким
+     селке<v><tv><opt><p1><pl> : селкик
+     селке<v><tv><opt><p3><sg> : селкесен
+     селке<v><tv><opt><p3><pl> : селкесеннәр
+
+     сук<v><iv><opt><p1><sg> : сугыйм
+     сук<v><iv><opt><p1><pl> : сугыйк
+     сук<v><iv><opt><p3><sg> : суксын
+     сук<v><iv><opt><p3><pl> : суксыннар
+
+     сүк<v><tv><opt><p1><sg> : сүгим
+     сүк<v><tv><opt><p1><pl> : сүгик
+     сүк<v><tv><opt><p3><sg> : сүксен
+     сүк<v><tv><opt><p3><pl> : сүксеннәр
+
+     буя<v><tv><opt><p1><sg> : буйыйм
+     буя<v><tv><opt><p1><pl> : буйыйк
+     буя<v><tv><opt><p3><sg> : буясын
+     буя<v><tv><opt><p3><pl> : буясыннар
+
+     сөй<v><tv><opt><p1><sg> : сөйим
+     сөй<v><tv><opt><p1><pl> : сөйик
+     сөй<v><tv><opt><p3><sg> : сөйсен
+     сөй<v><tv><opt><p3><pl> : сөйсеннәр
+
+     си<v><iv><opt><p1><sg> : сиим
+     си<v><iv><opt><p3><sg> : сисен
+

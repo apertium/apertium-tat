@@ -988,9 +988,9 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! FIXME
 ! echo '^кил<v><iv><opt><p1><sg>$' | hfst-proc -g kaz-tat.autogen.hfst >> килейм
 ! Should be: "килим"
-%<opt%>%<p1%>%<sg%>:%>%{I%}йм CLITICS-NO-COP ;
+%<opt%>%<p1%>%<sg%>:%>%{E%}м CLITICS-NO-COP ;
 %<opt%>%<p3%>%<sg%>:%>с%{I%}н CLITICS-NO-COP ;
-%<opt%>%<p1%>%<pl%>:%>%{I%}йк CLITICS-NO-COP ;
+%<opt%>%<p1%>%<pl%>:%>%{E%}к CLITICS-NO-COP ;
 %<opt%>%<p3%>%<pl%>:%>с%{I%}нн%{A%}р CLITICS-NO-COP ;
 
 LEXICON V-COMMON

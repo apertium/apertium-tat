@@ -6,8 +6,16 @@ Config:
 
 Tests: 
 
-  "[twol] язарга": 
+  "[twol] back vowels (язарга)": 
      яз<v><tv><neg><imp><p2><sg> : язма
      яз<v><tv><neg><pres><p2><sg> : язмыйсың
      яз<v><tv><neg><pres><p3><sg> : язмый
      яз<v><tv><neg><pres><p1><pl> : язмыйбыз
+
+  "[twol] front vowels (белергә)": 
+     бел<v><tv><neg><imp><p2><sg> : белмә
+     бел<v><tv><neg><pres><p2><sg> : белмисең
+     бел<v><tv><neg><pres><p3><sg> : белми
+     бел<v><tv><neg><pres><p1><pl> : белмибез
+
+

@@ -24,12 +24,12 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/morphophonology/diyerge.yaml -text
 tests/morphophonology/epenthesis.yaml -text
+tests/morphophonology/negative.yaml -text
 tests/morphophonology/prn-pers.yaml -text
 tests/morphophonology/surface_epenthesis.yaml -text
 tests/morphophonology/w-phon.yaml -text
 tests/morphophonology/word-final-j.yaml -text
 tests/morphophonology/y-ligatures.yaml -text
-tests/morphophonology/yazarga.yaml -text
 tests/morphophonology/ь.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text

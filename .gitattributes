@@ -25,7 +25,7 @@ speller/words.default.txt -text
 tests/morphophonology/diyerge.yaml -text
 tests/morphophonology/epenthesis.yaml -text
 tests/morphophonology/negative.yaml -text
-tests/morphophonology/pending/optative.yaml -text
+tests/morphophonology/optative.yaml -text
 tests/morphophonology/prn-pers.yaml -text
 tests/morphophonology/surface_epenthesis.yaml -text
 tests/morphophonology/w-phon.yaml -text

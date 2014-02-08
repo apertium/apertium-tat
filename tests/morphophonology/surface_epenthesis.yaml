@@ -1,6 +1,6 @@
 Config: 
   hfst: 
-    App:  hfst-optimised-lookup
+    App:  hfst-lookup
     Gen:  ../../tat.autogen.hfst
     Morph:  ../../tat.automorf.hfst
 

@@ -26,14 +26,15 @@ tests/morphophonology/diyerge.yaml -text
 tests/morphophonology/epenthesis.yaml -text
 tests/morphophonology/negative.yaml -text
 tests/morphophonology/optative.yaml -text
-tests/morphophonology/prn-pers.yaml -text
+tests/morphophonology/pending/V-ә-prc_impf.yaml -text
+tests/morphophonology/pending/w-phon.yaml -text
 tests/morphophonology/surface_epenthesis.yaml -text
-tests/morphophonology/w-phon.yaml -text
 tests/morphophonology/word-final-j.yaml -text
 tests/morphophonology/y-ligatures.yaml -text
 tests/morphophonology/ь.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text
 tests/numerals/percents.yaml -text
+tests/prn-pers.yaml -text
 texts/cg/story.tat.cg.txt -text
 texts/story.tat.txt -text svneol=unset#application/octet-stream

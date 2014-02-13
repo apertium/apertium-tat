@@ -1,0 +1,86 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../../tat.autogen.hfst
+    Morph:  ../../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] di": 
+    ди<v><tv><pres><p3><sg> : ди
+
+  "[twol] (pres forms from negatives) ambiguous back vowels": 
+    яз<v><tv><neg><pres><p2><sg> : язмыйсың
+    яз<v><tv><neg><pres><p3><sg> : язмый
+    яз<v><tv><neg><pres><p1><pl> : язмыйбыз
+
+  "[twol] (pres forms from negatives) unambiguous back vowels (басарга)": 
+    бас<v><tv><neg><pres><p2><sg> : басмыйсың
+    бас<v><tv><neg><pres><p3><sg> : басмый
+    бас<v><tv><neg><pres><p1><pl> : басмыйбыз
+
+  "[twol] (pres forms from negatives) front vowels (белергә)": 
+    бел<v><tv><neg><pres><p2><sg> : белмисең
+    бел<v><tv><neg><pres><p3><sg> : белми
+    бел<v><tv><neg><pres><p1><pl> : белмибез
+
+  "[twol] (optatives) 3p.pl":
+     кара<vaux><opt><p3><pl> : карасыннар
+     бәйлә<v><tv><opt><p3><pl> : бәйләсеннәр
+     укы<v><tv><opt><p3><pl> : укысыннар
+     селке<v><tv><opt><p3><pl> : селкесеннәр
+     сук<v><iv><opt><p3><pl> : суксыннар
+     сүк<v><tv><opt><p3><pl> : сүксеннәр
+     буя<v><tv><opt><p3><pl> : буясыннар
+     сөй<v><tv><opt><p3><pl> : сөйсеннәр
+
+  "[twol] (optatives) 3p.sg":
+     кара<vaux><opt><p3><sg> : карасын
+     бәйлә<v><tv><opt><p3><sg> : бәйләсен
+     укы<v><tv><opt><p3><sg> : укысын
+     селке<v><tv><opt><p3><sg> : селкесен
+     сук<v><iv><opt><p3><sg> : суксын
+     сүк<v><tv><opt><p3><sg> : сүксен
+     буя<v><tv><opt><p3><sg> : буясын
+     сөй<v><tv><opt><p3><sg> : сөйсен
+     си<v><iv><opt><p3><sg> : сисен
+
+  "[twol] (optatives) 1p.sg":
+     кара<vaux><opt><p1><sg> : карыйм
+     бәйлә<v><tv><opt><p1><sg> : бәйлим
+     укы<v><tv><opt><p1><sg> : укыйм
+     селке<v><tv><opt><p1><sg> : селким
+     сук<v><iv><opt><p1><sg> : сугыйм
+     сүк<v><tv><opt><p1><sg> : сүгим
+     буя<v><tv><opt><p1><sg> : буйыйм
+     сөй<v><tv><opt><p1><sg> : сөйим
+     си<v><iv><opt><p1><sg> : сиим
+
+  "[twol] (optatives) 1p.pl":
+     кара<vaux><opt><p1><pl> : карыйк
+     бәйлә<v><tv><opt><p1><pl> : бәйлик
+     укы<v><tv><opt><p1><pl> : укыйк
+     селке<v><tv><opt><p1><pl> : селкик
+     сук<v><iv><opt><p1><pl> : сугыйк
+     сүк<v><tv><opt><p1><pl> : сүгик
+     буя<v><tv><opt><p1><pl> : буйыйк
+     сөй<v><tv><opt><p1><pl> : сөйик
+
+  "[twol] (y-ligatures) normal words with final й that should disappear":
+    куй<v><tv><pres><p1><sg> : куям
+    өй<n><px1sg><nom> : өем
+
+  "[twol] (pres forms from w-phon) some у verb forms": 
+    ту<v><iv><pres><p3><sg> : туа
+    ту<v><iv><pres><p2><pl> : туасыз
+
+ "[twol] Pres forms of verbs ending with -ә": 
+    эшлә<v><tv><pres><p3><sg> : эшли
+    эзлә<v><tv><pres><p3><sg> : эзли
+    сөйлә<v><tv><prc_impf> : сөйли
+    үтә<v><tv><pres><p3><sg> : үти
+    билә<v><tv><pres><p3><sg> : били
+
+ "[twol] укы and төзе": 
+    укы<v><iv><pres><p3><sg> : укый
+    төзе<v><tv><pres><p3><sg> : төзи

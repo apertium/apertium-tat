@@ -6,6 +6,6 @@ SRC=src.1000.txt
 REF=ref.1000.txt
 TST=tst.1000.txt.$(DATE)
 all:
-	cat $(SRC) | lt-proc -w ../$(LANG).automorf.bin > $(TST)
+	cat $(SRC) | LANG=ca_AD.utf8 lt-proc -w ../$(LANG).automorf.bin > $(TST)
 	echo -ne $(STAMP)"\t" >> $(LOG)
-	python3 evaluate-morph.py $(TST) $(REF) 2>> $(LOG)
+	LANG=ca_AD.utf8 python3 evaluate-morph.py $(TST) $(REF) 2>> $(LOG)

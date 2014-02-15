@@ -297,6 +297,13 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 ! яу, яварга, яву
 ! but not суы:свы !!
 
+"Deletion of high vowels before {U}"
+Vi:0 <=> _ ( %>: ) %{U%}: ;
+     where Vi in ( е ы ) matched ;
+
+! укы>{U}>{s}{I}{n}:укуы
+! төзе>{U}>{s}{I}{n}:төзүе
+
 !!!! й stuff !!!!
 
 "Delete й in й>е and й>я and й>ю"

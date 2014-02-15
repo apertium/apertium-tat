@@ -14,25 +14,32 @@ Tests:
   "[twol] some у noun forms": 
     су<n><px1sg><nom> : суым
 
-  "[twol] gerunds of verbs ending in cons and low vowels":
+  "[twol] gerunds of verbs ending in consonants":
     кайт<v><iv><ger><nom> : кайту
     бел<v><tv><ger><nom> : белү
     җыел<v><iv><ger><nom> : җыелу
     кайт<v><iv><ger><px3sp><nom> : кайтуы
     бел<v><tv><ger><px3sp><nom> : белүе
     җыел<v><iv><ger><px3sp><nom> : җыелуы
+
+  "[twol] gerunds of verbs ending in low vowels":
     сөйлә<v><tv><ger><nom> : сөйләү
     уйна<v><tv><ger><nom> : уйнау
     сөйлә<v><tv><ger><px3sp><acc> : сөйләвен
     уйна<v><tv><ger><px3sp><nom> : уйнавы
 
   "[twol] gerunds of verbs ending in high vowels":
+    укы<v><tv><ger><nom> : уку
+    төзе<v><tv><ger><nom> : төзү
     укы<v><tv><ger><dat> : укуга
-    укы<v><tv><ger><px3sp><nom> : укуы
     төзе<v><tv><ger><dat> : төзүгә
+    укы<v><tv><ger><px3sp><nom> : укуы
     төзе<v><tv><ger><px3sp><nom> : төзүе
 
-  "[twol] U > ю after й":
+  "[twol] gerunds of verbs ending in й":
     сөй<v><tv><ger><nom> : сөю
     куй<v><tv><ger><nom> : кую
-
+    сөй<v><tv><ger><dat> : сөюгә
+    куй<v><tv><ger><dat> : куюга
+    сөй<v><tv><ger><px3sp><nom> : сөюе
+    куй<v><tv><ger><px3sp><nom> : куюы

@@ -14,10 +14,19 @@ Tests:
   "[twol] some у noun forms": 
     су<n><px1sg><nom> : суым
 
-  "[twol] ger stuff":
+  "[twol] gerunds of verbs ending in cons and low vowels":
+    кайт<v><iv><ger><nom> : кайту
+    бел<v><tv><ger><nom> : белү
+    җыел<v><iv><ger><nom> : җыелу
+    кайт<v><iv><ger><px3sp><nom> : кайтуы
+    бел<v><tv><ger><px3sp><nom> : белүе
+    җыел<v><iv><ger><px3sp><nom> : җыелуы
+    сөйлә<v><tv><ger><nom> : сөйләү
+    уйна<v><tv><ger><nom> : уйнау
     сөйлә<v><tv><ger><px3sp><acc> : сөйләвен
     уйна<v><tv><ger><px3sp><nom> : уйнавы
-    җыел<v><iv><ger><px3sp><nom> : җыелуы
+
+  "[twol] gerunds of verbs ending in high vowels":
     укы<v><tv><ger><dat> : укуга
     укы<v><tv><ger><px3sp><nom> : укуы
     төзе<v><tv><ger><dat> : төзүгә

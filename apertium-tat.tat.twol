@@ -174,9 +174,8 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 !                                      ә: %>: _ ;
 !                               :FrontVow %>: _ ;
                          %{A%}:/[ %>: | :0 ] _ ;
-                              FrontVow:0 %>: _ ;
+                         [ е: | ә: ] ( %>: ) _ ;
                 [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
-
 
 "Turn {E} into й after a vowel"
 %{E%}:й <=> [ :Vow - :FrontVow ]/[ %>: | :0 ] _ ;
@@ -194,26 +193,27 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 "Deletion of {E} in ди"
 %{E%}:0 <=> .#. :д :и %>: _ ;
 
-"Turn {E} into и to combine with ә"  ! сөйлә>{E}:сөйли
+"Turn {E} into и to combine with ә and е"  ! сөйлә>{E}:сөйли
+                                           ! төзе>{E}:төзи
 !%{E%}:и <=> ә: %>: _ ;
 !            е: %>: _ ;
 !        %{A%}: %>: _ ;
-%{E%}:и <=> FrontVow: ( %>: ) _ ;
+%{E%}:и <=> [ е: | ә: ] [ %>: | %{A%}: ]* _ ;
 !            :FrontVow [ %>: | %{A%}: ]* _ ;
 !               %{A%}: %>: _ ;
-            [ :FrontVow :Cns* :Cns %{A%}: ]/[ %>: | [ :0 - %{A%}: ] ] _ ;  
-            FrontVow:0 %>: _ ;
+            [ :FrontVow :Cns* :Cns %{A%}: ]/[ %>: | [ :0 - [ %{A%}: | FrontVow: ] ] ] _ ;  
+!            :FrontVow %>: _ ;
             [ :и %{A%}: ]/%>: _ ;
         except
             [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
             .#. :д :и %>: _ ;
-            [ :FrontVow :Cns* :Cns ]/[ %>: | [ :0 - %{A%}: ] ] _ ;
+            [ :FrontVow :Cns* :Cns ]/[ %>: | [ :0 - [ %{A%}: | FrontVow: ] ] ] _ ;
 
 "Delete ә before E:и"
-ә:0 <=> _ [ %>: | %{A%}:0 ]* %{E%}: ;
+ә:0 <=> _ [ %>: | %{A%}:0 ]* %{E%}:и ;
 
 "Delete е before E:и"
-е:0 <=> _ [ %>: | %{A%}:0 ]* %{E%}: ;
+е:0 <=> _ [ %>: | %{A%}:0 ]* %{E%}:и ;
 
 "я to й before %{A%}"
 я:й <=> _ ( %>: ) %{A%}: ;

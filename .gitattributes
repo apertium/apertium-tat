@@ -27,6 +27,7 @@ tests/morphophonology/epenthesis.yaml -text
 tests/morphophonology/negative.yaml -text
 tests/morphophonology/optative.yaml -text
 tests/morphophonology/pending/E-phon.yaml -text
+tests/morphophonology/pending/V-ә-prc_impf.yaml -text
 tests/morphophonology/pending/w-phon.yaml -text
 tests/morphophonology/surface_epenthesis.yaml -text
 tests/morphophonology/word-final-j.yaml -text

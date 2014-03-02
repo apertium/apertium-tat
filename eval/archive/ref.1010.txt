@@ -998,3 +998,13 @@
 ^әйтә/әйт<v><tv><prc_impf>/әйт<v><tv><pres><p3><sg>$
 ^әлеге/әле<adv><attr>/әлеге<adj>/әле<adv><subst><nom>/әлеге<det><dem>/әлеге<adj><subst><nom>/әлеге<adj>+и<cop><p3><sg>/әле<adv><subst><nom>+и<cop><p3><sg>/әлеге<adj><subst><nom>+и<cop><p3><sg>$
 ^әмма/әмма<cnjcoo>$
+^әфганнар/әфган<n><nom>+и<cop><p3><pl>/әфган<n><pl><nom>/әфган<n><pl><nom>+и<cop><p3><sg>$
+^Өч/өч<num>/өч<num><subst><nom>/өч<num><subst><nom>+и<cop><p3><sg>$
+^өйләрен/өй<n><pl><px3sp><acc>$
+^өйрәнә/өйрән<v><tv><prc_impf>/өйрән<v><tv><pres><p3><sg>$
+^өлгесе/өлге<n><px3sp><nom>/өлге<n><px3sp><nom>+и<cop><p3><sg>$
+^өлешен/өлеш<n><px3sp><acc>$
+^өлкәсе/өлкә<n><px3sp><nom>/өлкә<n><px3sp><nom>+и<cop><p3><sg>$
+^өчен/өчен<post>/өч<num><subst><px3sp><acc>$
+^“/“<lquot>$
+^”/”<rquot>$

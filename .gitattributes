@@ -28,6 +28,7 @@ speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
+/tat.prob -text svneol=unset#unset
 tests/morphophonology/E-phon.yaml -text
 tests/morphophonology/V-ә-prc_impf.yaml -text
 tests/morphophonology/diyerge.yaml -text

@@ -45,7 +45,7 @@
 ^Бүгенге/бүген<adv><attr>/бүген<adv><subst><nom>/бүген<adv><subst><nom>+и<cop><p3><sg>$
 ^Бәлкем/бәлкем<ij>$
 ^Бәрелештә/бәрелеш<n><loc>/бәрелеш<n><loc>+и<cop><p3><sg>$
-^Бәһрәйн/Бәһрәйн<np><top><nom>/Британия<np><top><nom>+и<cop><p3><sg>$
+^Бәһрәйн/Бәһрәйн<np><top><nom>/Бәһрәйн<np><top><nom>+и<cop><p3><sg>$
 ^Бөек/бөек<adj>/бөек<adj><advl>/бөек<adj><subst><nom>/бөек<adj>+и<cop><p3><sg>/бөек<adj><subst><nom>+и<cop><p3><sg>$
 ^Ватан/ватан<n><nom>/ватан<n><attr>/ватан<n><nom>+и<cop><p3><sg>$
 ^Вашингтон/Вашингтон<np><top><nom>/Вашингтон<np><top><attr>/Вашингтон<np><top><nom>+и<cop><p3><sg>$

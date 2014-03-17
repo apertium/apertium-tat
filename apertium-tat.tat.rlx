@@ -90,6 +90,7 @@ LIST Rquot = rquot ;
 # ==================
 
 LIST Pers = pers ;
+LIST Dem = dem;
 LIST Interr = itg ;
 
 # "Syntactic" tags
@@ -175,14 +176,14 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 
 #
- REMOVE Cop IF
+ REMOVE Sub:1 Cop IF
         (NOT 1 EOS OR MARK)
 ;
 ##
 
 
 #
- SELECT Cop IF
+ SELECT Sub:1 Cop IF
         (1 EOS OR MARK)
 ;
 ## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
@@ -255,7 +256,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 
 
-REMOVE Det IF (NOT 1/-1 NPMARK OR N OR Pron);
+REMOVE Det IF (NOT 1 NPMARK OR N OR Pron);
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ ,
     #! әлегә эт дә бакчада .
     ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn. Maybe we should consider it noun (as in Kazakh)'
@@ -474,3 +475,15 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 ;
 ## 6 . Азамат пен Айгүл ойнағанды жақсы көреді, олар әрдайым үлкен үйдің алдындағы бақшада [0]бірге ойнайды.
 ## (!) Ол Азаматпен бірге келді.
+
+
+# INPUT:  ^Бу/Бу<det><dem>/Бу<prn><dem><nom>/Бу<v><tv><imp><p2><sg>/
+#         Бу<prn><dem><nom>+и<cop><p3><sg>$ ^уен/уен<n><nom>/уен<n><attr>/
+#         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
+# OUTPUT: [0]^Бу/Бу<prn><dem><nom>$ ^уен/уен<n><nom>/уен<n><attr>/
+#         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
+ SELECT Pron + Dem IF
+        (0 Det + Dem)
+        (1  N)
+        (2 EOS)
+;

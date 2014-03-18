@@ -163,6 +163,7 @@ LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
 LIST Prc-Impf = prc_impf ;
 LIST Inf = inf ;
 LIST Ger6 = ger6 ;
+LIST TV = tv ;
 
 # Barriers
 # ========
@@ -489,3 +490,28 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 ## 6 . Азамат пен Айгүл ойнағанды жақсы көреді, олар әрдайым үлкен үйдің алдындағы бақшада [0]бірге ойнайды.
 ## (!) Ол Азаматпен бірге келді.
 
+
+# INPUT:  ^Мин/Мин<prn><pers><p1><sg><nom>$
+#         ^кичә/кич<v><tv><prc_impf>/кичә<adv>/кич<v><tv><pres><p3><sg>$
+#         ^килдем/ки<v><tv><pass><ifi><p1><sg>/кил<vaux><ifi><p1><sg>/
+#          кил<v><iv><ifi><p1><sg>$^./.<sent>$
+# OUTPUT: ^Мин/Мин<prn><pers><p1><sg><nom>$
+#         [0]^кичә/кичә<adv>$
+#         ^килдем/ки<v><tv><pass><ifi><p1><sg>/кил<vaux><ifi><p1><sg>/
+#          кил<v><iv><ifi><p1><sg>$^./.<sent>$
+ REMOVE V + TV IF
+        (0 ("кичә"i))
+        (NOT -1* N + Acc)
+;
+
+# INPUT:  ^Ул/Ул<n><nom>/Ул<n><attr>/Ул<det><dem>/Ул<prn><dem><nom>/
+#         Ул<prn><pers><p3><sg><nom>/Ул<n><nom>+и<cop><p3><sg>/
+#         Ул<prn><dem><nom>+и<cop><p3><sg>$
+#         ^көлә/көл<v><iv><prc_impf>/көл<v><iv><pres><p3><sg>$^./.<sent>$
+# OUTPUT: [0]^Ул/Ул<det><dem>/Ул<prn><dem><nom>/Ул<prn><pers><p3><sg><nom>/
+#         Ул<prn><dem><nom>+и<cop><p3><sg>$
+#         ^көлә/көл<v><iv><prc_impf>/көл<v><iv><pres><p3><sg>$^./.<sent>$
+ REMOVE N IF
+        (0 ("ул"i))
+        (NOT 0 PersonalPossessives)
+;

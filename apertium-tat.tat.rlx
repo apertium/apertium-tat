@@ -184,6 +184,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 #
  SELECT Sub:1 Cop IF
+        (NOT -1 BOS)    # Single-word phrases like "Декабрь."
         (1 EOS OR MARK)
 ;
 ## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
@@ -248,6 +249,18 @@ SET S-BOUNDARY = CS | Interr | EOS;
         (2 Prop)
 ;
 ## Азамат белән Айгөл бакчада.
+
+
+# INPUT:  ^Бу/Бу<det><dem>/Бу<prn><dem><nom>/Бу<v><tv><imp><p2><sg>/
+#         Бу<prn><dem><nom>+и<cop><p3><sg>$ ^уен/уен<n><nom>/уен<n><attr>/
+#         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
+# OUTPUT: [0]^Бу/Бу<prn><dem><nom>$ ^уен/уен<n><nom>/уен<n><attr>/
+#         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
+ SELECT Pron + Dem IF
+        (0 Det + Dem)
+        (1  N)
+        (2 EOS)
+;
 
 
 
@@ -476,14 +489,3 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 ## 6 . Азамат пен Айгүл ойнағанды жақсы көреді, олар әрдайым үлкен үйдің алдындағы бақшада [0]бірге ойнайды.
 ## (!) Ол Азаматпен бірге келді.
 
-
-# INPUT:  ^Бу/Бу<det><dem>/Бу<prn><dem><nom>/Бу<v><tv><imp><p2><sg>/
-#         Бу<prn><dem><nom>+и<cop><p3><sg>$ ^уен/уен<n><nom>/уен<n><attr>/
-#         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
-# OUTPUT: [0]^Бу/Бу<prn><dem><nom>$ ^уен/уен<n><nom>/уен<n><attr>/
-#         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
- SELECT Pron + Dem IF
-        (0 Det + Dem)
-        (1  N)
-        (2 EOS)
-;

@@ -1579,9 +1579,9 @@ LEXICON ADV-WITH-KI-BIRE
 ADV ;
 %<adv%>%<attr%>:дәге CLITICS-NO-COP ;
 
-LEXICON ADVITG
+LEXICON ADV-ITG
 
-%<adv%>%<itg%>: # ;
+%<adv%>%<itg%>: CLITICS-INCL-COP ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -11504,14 +11504,14 @@ Witness:Witness NP-AL ; ! ""
 ! ==========================================
 
 ! Better classification/implementation possible
-кайда:кайда ADVITG ; ! ""
-кайдан:кайдан ADVITG ; ! ""
-кайчан:кайчан ADVITG ; ! ""
-кая:кая ADVITG ; ! ""
-ничек:ничек ADVITG ; ! "how"
-ни% өчен:ни% өчен ADVITG ; ! "why,what for" Use/MT
-никадәр:никадәр ADVITG ; ! ""
-никадәрле:никадәрле ADVITG ; ! ""
+кайда:кайда ADV-ITG ; ! ""
+кайдан:кайдан ADV-ITG ; ! ""
+кайчан:кайчан ADV-ITG ; ! ""
+кая:кая ADV-ITG ; ! ""
+ничек:ничек ADV-ITG ; ! "how"
+ни% өчен:ни% өчен ADV-ITG ; ! "why,what for" Use/MT
+никадәр:никадәр ADV-ITG ; ! ""
+никадәрле:никадәрле ADV-ITG ; ! ""
 һичкайчан:һичкайчан ADV ; ! "never"
 беркайчан:беркайчан ADV ; ! "never"
 беркайчан% да:беркайчан% да ADV ; ! "never" Use/MT

@@ -507,7 +507,7 @@ LEXICON CLIT-GHANA-ETC
 
 LEXICON CLIT-COP
 
-%+и%<cop%>: V-PERS-S1 ;
+%+и%<cop%>: V-PERS-S1-COP ;
 
 ! Now, let's group them depending on what they can attach to
 
@@ -747,6 +747,18 @@ LEXICON V-PERS-S1          ! Тулы төрләнеш
 V-PERS-S1-NO1PERSON ;
 %<p1%>%<sg%>:%>м%{I%}н CLITICS-NO-COP ;
 %<p1%>%<pl%>:%>б%{I%}з CLITICS-NO-COP ;
+
+LEXICON V-PERS-S1-COP
+
+%<p1%>%<sg%>:%>м%{I%}н CLITICS-NO-COP ;
+%<p2%>%<sg%>:%>с%{I%}ң CLITICS-NO-COP ;
+%<p3%>%<sg%>: CLITICS-NO-COP ;
+%<p1%>%<pl%>:%>б%{I%}з CLITICS-NO-COP ;
+%<p2%>%<pl%>:%>с%{I%}з CLITICS-NO-COP ;
+%<p3%>%<pl%>: CLITICS-NO-COP ;
+
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLITICS-NO-COP ;
+%<p2%>%<frm%>%<pl%>:%>с%{I%}з CLITICS-NO-COP ;
 
 LEXICON V-PERS-S2          ! Кыска төрләнеш
 

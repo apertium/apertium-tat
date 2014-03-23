@@ -192,6 +192,29 @@ SET S-BOUNDARY = CS | Interr | EOS;
 ## TODO (!) Дұрыс, оның мысығы бар.
 
 
+# INPUT:  ^Без/без<prn><pers><p1><pl><nom>/без<prn><pers><p1><pl><nom>+и<cop><p3><sg>$
+#         ^бәхетлебез/бәхетле<adj>+и<cop><p1><pl>/бәхетле<adj><subst><nom>+и<cop><p1><pl>/
+#         бәхетле<adj><subst><px1pl><nom>/бәхетле<adj><subst><px1pl><nom>+и<cop><p3><sg>$^./.<sent>$
+# OUTPUT: ^Без/без<prn><pers><p1><pl><nom>/без<prn><pers><p1><pl><nom>+и<cop><p3><sg>$
+#         [0]^бәхетлебез/бәхетле<adj>+и<cop><p1><pl>/бәхетле<adj><subst><nom>+и<cop><p1><pl>/
+#         бәхетле<adj><subst><px1pl><nom>$^./.<sent>$
+ REMOVE SUB:1 P3 IF
+       (0/1 Cop)
+       (0/1 P1) ;
+##
+
+
+# INPUT:  ^Без/без<prn><pers><p1><pl><nom>/без<prn><pers><p1><pl><nom>+и<cop><p3><sg>$
+#         ^укытучылар/укытучы<n><nom>+и<cop><p3><pl>/укытучы<n><pl><nom>/
+#         укыт<v><tv><gpr_pot><subst><pl><nom>/укытучы<n><pl><nom>+и<cop><p3><sg>$
+# OUTPUT: ^Без/без<prn><pers><p1><pl><nom>/без<prn><pers><p1><pl><nom>+и<cop><p3><sg>$
+#         [0]^укытучылар/укытучы<n><pl><nom>/укыт<v><tv><gpr_pot><subst><pl><nom>$
+ REMOVE SUB:1 Pl IF
+        (0/1 Cop + P3)
+        (NOT -1* ("<Алар>"))
+;
+
+
 # ======= #
   SECTION
 # ======= #
@@ -257,8 +280,8 @@ SET S-BOUNDARY = CS | Interr | EOS;
 #         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
 # OUTPUT: [0]^Бу/Бу<prn><dem><nom>$ ^уен/уен<n><nom>/уен<n><attr>/
 #         уй<n><px3sp><acc>/уен<n><nom>+и<cop><p3><sg>$^./.<sent>$
- SELECT Pron + Dem IF
-        (0 Det + Dem)
+ SELECT Pron IF
+        (0 Det)
         (1  N)
         (2 EOS)
 ;
@@ -352,13 +375,6 @@ SELECT Det IF (-1C A) (1 N);
         (NOT 0/1 Cop) ## FIXME CHECK
 ;
 ## TODO (!) Син әкренсең -- (adj+cop vs adj.subst+cop)?
-
-
-#
-REMOVE SUB:1 P3 IF
-       (0/1 Cop)
-       (0/1 P1) ;
-## "Біз [0]қуаныштымыз."
 
 
 

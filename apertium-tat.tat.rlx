@@ -4,44 +4,87 @@
 #              (read: a wannabe FORMATTING GUIDELINES)
 # ============================================================================ #
 
-# How most of the rules look like?
-# ================================
-
-#          # An explanation of what the rule does (if it's not obvious from
-#          # code!), a name or any other comment
-#           SELECT ABC IF
-#                  (0 DEF)
-#                  (1 GHI)
-#          ;
-#          ## A sentence the rule was written for.
-#          ## (!) A corner-case-sentence: the rule mispredicted on it initially
-#          ## but was modified accordingly (additional constraints etc.); or the
-##         ##  rule still mispredicts on it, but this kind of sentences aren't
-##         ## that frequent.
-
-#          # Sometimes you can't disambiguate a form with only one rule. In that
-#          #  case, several rules dealing with the same thing are grouped
-#          # together
-#           SELECT ABC IF
-#                  (0 DEF)
-#                  (1 KLM)
-#          ;
-#           REMOVE XYZ IF
-#                  (0 DEF)
-#                  (1 NOP)
-#                  (2 QRS)
+# Lines do not exceed 99 characters.
+#
+# Rule layout
+# ===========
+#
+# There are two alternative layouts for writing a rule. An example for the
+# first one (of course the body of the rule won't be commented out):
+#
+#        # INPUT: ^терістік/тер<v><tv><coop><ifi><p1><pl>/терістік<n><attr>/
+#        #        терістік<n><nom>$ ^бетіндегі/бет<n><px3sp><loc><attr>/
+#        #        бет<n><px3sp><loc><subst><nom>/$
+#        # OUTPUT: [0]^терістік/терістік<n><attr>/терістік<n><nom>$
+#                   ^бетіндегі/бет<n><px3sp><loc><attr>...$
+#         REMOVE V IF
+#                (0 PRE-N)
+#                (1C N)
+#        ;
+#        # any additional comments here (if necessary)
+#
+# An abstract example of the second layout:
+#
+#        # An explanation of what the rule does (if it's not obvious from
+#        # code!), a name or any other comment that clarifies its purpose
+#         SELECT ABC IF
+#                (0 DEF)
+#                (1 GHI)
+#        ;
+#        ## A sentence with the [0]form the rule was written for.
+#        ## (!) A corner-case-sentence: the rule mispredicted on it initially
+#        ## but was modified accordingly (additional constraints etc.); or the
+#        ## rule still mispredicts on it, but this kind of sentences aren't
+#        ## that frequent. (Alternatively, place the corner-case sentence on
+#        ## the same line as the additional constraint).
+#
+# The first layout is more appropriate when you come up with a rule inductively
+# (i.e. you see a sentence badly translated because of errors in disambiguation
+# and want to fix it), the second one when you arrived at it deductively. E.g:
+#
+#        # Participle appears immediately before a verb (verbal adverb doesn't)
+#         REMOVE Participle IF
+#                (NOT 1C V OR Vaux)
+#        ;
+#        ## Есік [0]ашып, ол үйге кірді.
+#
+# In context of apertium-tat, the difference between a participle and a verbal
+# adverb is that participle immediately precedes a verb and verbal adverb
+# doesn't. We know this even without looking at tests, but it is a good idea
+# to back up the rule with a test case.
+#
+# Sometimes you can't fully disambiguate a form with only one rule. In that
+# case, several rules dealing with the same thing can be grouped together:
+#
+#         # What the rule does?
+#          SELECT ABC IF
+#                 (0 DEF)
+#                 (1 KLM)
+#         ;
+#          REMOVE XYZ IF
+#                 (0 DEF)
+#                 (1 NOP)
+#                 (2 QRS)
 #          ;
 #          ## Example sentences for both of the rules.
 #          ## Another example sentence.
-#          ## (!) And another, on which the rule didn't/doesn't work.
-
-# Where a rule must be placed?
-# ============================
-
-# In general, there are two kinds of rules -- ones that try to disambiguate
-# a certain wordform and ones which aren't tied up to any particular wordform
-# or lemma (i.e. no lemma or wordform for 0, they might have lemmas or wordforms
-# for other constraints).
+#
+# Where a rule is placed?
+# =======================
+#
+#                 Disambiguates a particular wordform?
+#                   /                         \
+#                 YES                         NO
+#                 /                             \
+#     "Wordform/lemma specific rules"        Readings of
+#     section at the end of the file        different POS?
+#                                           /           \
+#                                        YES            NO
+#                                       /                 \
+#                                "POS marking"             \
+#                              at the beginning             \
+#                                                   Corresponding section
+#                                                   ("Verbs", "Adjectives" etc.)
 
 # ============================ #
 # END OF FORMATTING GUIDELINES #
@@ -54,7 +97,7 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 
-SUBREADINGS =LTR ; # Alternate, left-to-right (main reading on the left)
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
 # ============= #
 # Tags and sets #
@@ -164,6 +207,7 @@ LIST Prc-Impf = prc_impf ;
 LIST Inf = inf ;
 LIST Ger6 = ger6 ;
 LIST TV = tv ;
+LIST Opt = opt ;
 
 # Barriers
 # ========
@@ -225,6 +269,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
 #         ^укытучылар/укытучы<n><pl><nom>+и<cop><p1><pl>$^./.<sent>$
  SUBSTITUTE SUB:1 P3 P1 TARGET Cop IF (@1 ("без"i) + Pers) ;
  SUBSTITUTE SUB:1 Sg Pl TARGET Cop IF (@1 ("без"i) + Pers) ;
+
 
 # ======= #
   SECTION
@@ -476,6 +521,13 @@ SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
 ## яза аласыз
 
 
+# INPUT:  ^Мин/мин<prn><pers><p1><sg><nom>$ ^уйныйм/уйна<v><tv><opt><p1><sg>/уйна<v><tv><pres><p1><sg>$^./.<sent>$
+# OUTPUT: ^Мин/мин<prn><pers><p1><sg><nom>$ ^уйныйм/уйна<v><tv><pres><p1><sg>$^./.<sent>$
+ REMOVE Opt IF
+        (NOT 1* ("!"))
+;
+#
+
 ###################################### TO BE SORTED ############################
 
 
@@ -535,6 +587,8 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (0 ("кичә"i))
         (NOT -1* N + Acc)
 ;
+#
+
 
 # INPUT:  ^Ул/Ул<n><nom>/Ул<n><attr>/Ул<det><dem>/Ул<prn><dem><nom>/
 #         Ул<prn><pers><p3><sg><nom>/Ул<n><nom>+и<cop><p3><sg>/
@@ -547,3 +601,4 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (0 ("ул"i))
         (NOT 0 PersonalPossessives)
 ;
+#

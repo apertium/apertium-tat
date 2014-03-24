@@ -219,6 +219,17 @@ SET S-BOUNDARY = CS | Interr | EOS;
   SECTION
 # ======= #
 
+# INPUT:  ^Без/без<prn><pers><p1><pl><nom>$ 
+#         ^укытучылар/укытучы<n><pl><nom>+и<cop><p3><sg>$^./.<sent>$
+# OUTPUT: ^Без/без<prn><pers><p1><pl><nom>$ 
+#         ^укытучылар/укытучы<n><pl><nom>+и<cop><p1><pl>$^./.<sent>$
+ SUBSTITUTE SUB:1 P3 P1 TARGET Cop IF (@1 ("без"i) + Pers) ;
+ SUBSTITUTE SUB:1 Sg Pl TARGET Cop IF (@1 ("без"i) + Pers) ;
+
+# ======= #
+  SECTION
+# ======= #
+
 
 
 # Part-of-speech marking

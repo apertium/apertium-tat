@@ -1704,12 +1704,8 @@ COP-I ; ! ""
 !====================!
 
 
-! FIXME: Section is to be checked later for miscategorizations
-!        [although these miscategorizations shouldn't affect much the coverage of
-!        the translator, since they are part of kaz.lexc too :) ] /I.S./
-
 ! Co-ordinating conjunctions
-!===========================
+! ==========================
 
 !! Соединительные - Җыючы теркәгечләр
 
@@ -1745,7 +1741,7 @@ COP-I ; ! ""
 әле:әле CCLEX ; ! "то ... , то ... (х2) "
 
 ! Sub-ordinating conjunctions
-!============================
+! ===========================
 
 гүя:гүя CSLEX ; ! "as if"
 гүяки:гүяки CSLEX ; ! "as if"
@@ -1762,12 +1758,15 @@ COP-I ; ! ""
 алай% да:алай% да CA ; ! "despite it,nevertheless"
 алайса:алайса CA ; ! ""
 аның% каравы:аның% каравы CA ; ! "nevertheless"
-арты:арты CA ; ! "" ! FIXME:CHECK, TOREMOVE
+әйтүләренчә:әйтүләренчә CA ; ! ""
 башкача% әйткәндә:башкача% әйткәндә CA ; ! ""
 белдерүенчә:белдерүенчә CA ; ! ""
 әйтүенчә:әйтүенчә CA ; ! ""
+мәгълүматынча:мәгълүматынча CA ; ! ""
 сүзенчә:сүзенчә CA ; ! ""
 сүзләренчә:сүзләренчә CA ; ! ""
+уенча:уенча CA ; ! ""
+уйлавынча:уйлавынча CA ; ! ""
 фикеренчә:фикеренчә CA ; ! ""
 хәбәр% итүенчә:хәбәр% итүенчә CA ; ! ""
 шулай% да:шулай% да CA ; ! "nevertheless"
@@ -1775,11 +1774,6 @@ COP-I ; ! ""
 шунлыктан:шунлыктан CA ; ! "that is why"
 шуңа% күрә:шуңа% күрә CA ; ! "therefore"
 язуынча:язуынча CA ; ! ""
-
-әйтүләренчә:әйтүләренчә CA ; ! ""
-уенча:уенча CA ; ! ""
-мәгълүматынча:мәгълүматынча CA ; ! ""
-уйлавынча:уйлавынча CA ; ! ""
 
 
 !=====================!
@@ -11855,7 +11849,7 @@ Witness:Witness NP-AL ; ! ""
 аша:аша V-TV-IR ; ! "eat"
 ашарга% пешер:ашарга% пешер V-TV-IR ; ! "prepare food" Use/MT
 ашат:ашат V-TV-IR ; ! "to rear" (tat) caus
-аш:аш V-IV-AR ; ! "перевалить"
+аш:аш V-IV-IR ; ! "перевалить"
 ашкын:ашкын V-IV-IR ; ! "thirst for,yearn for"
 ашык:ашык V-IV-IR ; ! "hurry"
 ашык:ашык V-IV-IR ; ! "торопиться,спешить"
@@ -12045,7 +12039,7 @@ Witness:Witness NP-AL ; ! ""
 әсәрлән:әсәрлән V-IV-IR ; ! ""
 әтәчлән:әтәчлән V-IV-IR ; ! "to be on one's high horse"
 әче:әче V-IV-IR ; ! "to get overcurdled (of sour milk)"
-җавап% бир:җавап% бир V-TV-IR ; ! ""
+җавап% бир:җавап% бир V-TV-IR ; ! "" Use/MT
 җаен% тап:җаен% тап V-IV-AR ; ! "" Use/MT
 җайла:җайла V-TV-IR ; ! "to designate"
 җайлаш:җайлаш V-IV-IR ; ! "to get settled"

@@ -397,7 +397,7 @@ SELECT Det IF (-1C A) (1 N);
 # Select attributive reading of the first noun of the II izafet construct
 # (as Tatar grammars call it)
  SELECT Attr IF
-        (0C N OR Prop)
+        (0 N OR Prop)
         (1 N OR Prop OR Subst)
         (1 (px3sp))
 ;
@@ -602,3 +602,9 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (NOT 0 PersonalPossessives)
 ;
 #
+
+
+# "ни" -- парный союз
+"<ни>" REMOVE CC IF
+        (NOT 1* ("ни"))
+## Һәм Әхмәт агач артында ни эшли?

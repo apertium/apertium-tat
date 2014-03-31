@@ -162,31 +162,6 @@ LIST P3 = p3 ;
 
 LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
 
-# All possible word categories
-# ============================
-
-SET WORD = N | V | A | Post | Postadv | Pron | Det | Adv | CC | CS | Interj |
-           Num | ("\?") ;
-
-SET PRE-N =  A | Det | Postadv | Num | (n gen) | (prn gen) | CC ;
-
-SET MARK =  Cm | ("\\") | ("\;") ;
-
-SET WORDMARK = WORD | MARK ;
-
-SET N-MOD = A | Det | Num | (n gen) | (prn gen) ;
-
-SET ADJ-MOD = Postadv | Adv ;
-
-SET NPMARK = N-MOD | ADJ-MOD ;
-
-# Categories which cannot be part of a noun phrase
-# ================================================
-
-SET NPNH = WORDMARK - PRE-N ;
-SET NPNHA = WORDMARK - PRE-N - Adv ;
-SET NOT-ADV = WORDMARK - Adv ;
-
 # Adjective sets
 # ==============
 
@@ -208,6 +183,33 @@ LIST Inf = inf ;
 LIST Ger6 = ger6 ;
 LIST TV = tv ;
 LIST Opt = opt ;
+
+# All possible word categories
+# ============================
+
+SET WORD = N | V | A | Post | Postadv | Pron | Det | Adv | CC | CS | Interj |
+           Num | ("\?") ;
+
+SET PRE-N =  A | Det | Postadv | Num | (n gen) | (prn gen) | CC ;
+
+SET MARK =  Cm | ("\\") | ("\;") ;
+
+SET WORDMARK = WORD | MARK ;
+
+SET N-MOD = A | Det | Num | (n gen) | (prn gen) ;
+
+SET ADJ-MOD = Postadv | Adv ;
+
+SET NPMARK = N-MOD | ADJ-MOD ;
+
+SET NOMINAL = N | Prop | Pron | Subst | Gerund ;
+
+# Categories which cannot be part of a noun phrase
+# ================================================
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
 
 # Barriers
 # ========
@@ -302,11 +304,10 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 #
  REMOVE Post IF
-        (NOT -1 N OR Prop OR Pron OR Subst OR Gerund) # FIXME What about referring to all
-;                                                     # these (referring *consistently*) as
-                                                      # 'Nominal's?
-##
-
+        (NOT -1 NOMINAL)
+        (NOT -1 ("белән"))
+;
+## песи белән [0]бергә
 
 # Proper noun vs noun
  SELECT Prop IF
@@ -614,3 +615,8 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (NOT 1 Nom)
 ## Куллары белән күзләрен каплый.
 
+# INPUT:  ^килгәч/ки<v><tv><pass><gna_after>/кил<vaux><gna_after>/кил<v><iv><gna_after>$
+# OUTPUT: ^килгәч/кил<vaux><gna_after>/кил<v><iv><gna_after>$
+ REMOVE (pass) IF
+        (0 ("ки"i))
+# TODO: ^килгәч/ки<v><tv><pass><gna_after> is a transducer fail, fix there instead

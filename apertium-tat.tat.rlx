@@ -650,3 +650,9 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 ;
 ## ^Бу/бу<det><dem>/бу<prn><dem><nom>/бу<v><tv><imp><p2><sg>/бу<prn><dem><nom>+и<cop><p3><pl>/
 ## бу<prn><dem><nom>+и<cop><p3><sg>$
+
+#
+ "<ди>" SELECT Pres + P3 IF
+        (1 EOS)
+;
+## ^ди/ди<v><tv><prc_impf>/ди<v><tv><imp><p2><sg>/ди<v><tv><pres><p3><sg>$

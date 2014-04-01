@@ -288,6 +288,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
  SELECT FiniteVerb IF
         (1 EOS OR ("ди"i))   # FIXME s/.*/SentenceBoundary/
         (NOT 0 ("бар"i))     # FIXME a better way?
+        (NOT 0 ("түгел"i))
 ;
 ## (!) 40 . Мүмкін бұл Азамат [0]шығар?
 ##  (!) 13 . Жоқ, Айгүлдің күшігі жоқ, оның мысығы [0]бар.
@@ -656,3 +657,9 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (1 EOS)
 ;
 ## ^ди/ди<v><tv><prc_impf>/ди<v><tv><imp><p2><sg>/ди<v><tv><pres><p3><sg>$
+
+# 
+ "<түгел>" SELECT Cop IF
+        (1 EOS)
+;
+## ^түгел/түгел<cnjcoo>/и<cop><neg><p3><sg>/түк<v><tv><pass><imp><p2><sg>$

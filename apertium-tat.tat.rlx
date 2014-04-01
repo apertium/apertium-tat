@@ -345,9 +345,16 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
  SELECT A IF
         (0 N)
-        (1 EOS)
+        (-1 Adv)
 ;
-    ## Һава бик яхшы, [0]җылы.
+## Һава яхшы, бик [0]җылы.
+
+ SELECT A IF
+        (0 N)
+        (-1 Cm)
+        (-2 A)
+;
+## Һава яхшы, [0]җылы.
 
 
 
@@ -608,15 +615,28 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 # "ни" -- парный союз
 "<ни>" REMOVE CC IF
         (NOT 1* ("ни"))
+;
 ## Һәм Әхмәт агач артында ни эшли?
+
 
 #
 "<белән>" REMOVE CC IF
-        (NOT 1 Nom)
+         (NOT 1 Nom)
+;
 ## Куллары белән күзләрен каплый.
+
 
 # INPUT:  ^килгәч/ки<v><tv><pass><gna_after>/кил<vaux><gna_after>/кил<v><iv><gna_after>$
 # OUTPUT: ^килгәч/кил<vaux><gna_after>/кил<v><iv><gna_after>$
  REMOVE (pass) IF
         (0 ("ки"i))
+;
 # TODO: ^килгәч/ки<v><tv><pass><gna_after> is a transducer fail, fix there instead
+
+
+#
+"<яшь>" SELECT N IF
+        (-1 Num)
+        (1 EOS)
+;        
+## аңа биш яшь

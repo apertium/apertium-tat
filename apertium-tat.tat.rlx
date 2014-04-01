@@ -343,11 +343,13 @@ SET S-BOUNDARY = CS | Interr | EOS;
         (2 EOS)
 ;
 
+
  SELECT A IF
         (0 N)
         (-1 Adv)
 ;
 ## Һава яхшы, бик [0]җылы.
+
 
  SELECT A IF
         (0 N)
@@ -640,3 +642,11 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (1 EOS)
 ;        
 ## аңа биш яшь
+
+#
+ REMOVE V IF
+        (0 ("бу"i))
+        (NOT -1* Acc)
+;
+## ^Бу/бу<det><dem>/бу<prn><dem><nom>/бу<v><tv><imp><p2><sg>/бу<prn><dem><nom>+и<cop><p3><pl>/
+## бу<prn><dem><nom>+и<cop><p3><sg>$

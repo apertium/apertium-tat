@@ -1681,6 +1681,7 @@ LEXICON ABBR
 ласа:ласа MOD-ASS ;
 ләбаса:ләбаса MOD-ASS ;
 ләбаса:лабаса MOD-ASS ; ! Dir/LR
+шул:шул MOD-ASS ;
 
 ! Indefinite modal particles
 ! ==========================

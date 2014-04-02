@@ -12150,7 +12150,8 @@ Witness:Witness NP-AL ; ! ""
 йөгәнсезлән:йөгәнсезлән V-IV-IR ; ! "to commit excesses"
 йөз:йөз V-IV-AR ; ! "swim"
 йөреп% чык:йөреп% чык V-TV-AR ; ! "бродить,скитаться" Use/MT
-йөр:йөр V-IV-IR ; ! ""
+йөр:йөр V-IV-IR ; ! "" FIXME CHECK
+йөр:йөре V-IV-IR ; ! "" Dir/LR FIXME CHECK
 йөртел:йөртел V-IV-IR ; ! "to be put into motion or into action" FIXME CHECK
 йөрт:йөрт V-TV-IR ; ! "" (kaz tat) caus
 кабалан:кабалан V-IV-IR ; ! "to walk with hasty steps"
@@ -13072,7 +13073,8 @@ Witness:Witness NP-AL ; ! ""
 бир:бир VAUX-IR ; ! ""
 бул:бул VAUX-IR ; ! ""
 ит:ит VAUX-AR ; ! ""
-йөр:йөр VAUX-IR ; ! ""
+йөр:йөр VAUX-IR ; ! "" FIXME CHECK which is right
+йөр:йөре VAUX-IR ; ! "" Dir/LR FIXME CHECK which is right
 кал:кал VAUX-IR ; ! ""
 кара:кара VAUX-IR ; ! ""
 кил:кил VAUX-IR ; ! ""

@@ -233,6 +233,9 @@ SET S-BOUNDARY = CS | Interr | EOS;
  "<шул>" SELECT (mod_ass) IF
         (1 (sent))
 ;
+ "<шул>" REMOVE (mod_ass) IF
+        (NOT 1 (sent))
+;
 ## Кешеләр этләр белән сөйләшкәндә җавап алмыйлар шул.
 
 # FIXME this rule mispredicts a lot (or, rather, block other rules selecting a non-copula reading)

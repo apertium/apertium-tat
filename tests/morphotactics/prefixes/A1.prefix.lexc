@@ -1,0 +1,11 @@
+Multichar_Symbols
+
+%<adj%>    ! Adjective
+
+LEXICON Root
+
+Adjectives ;
+
+LEXICON Adjectives
+
+яхшы%<adj%>:яхшы%<adj%>  ; ! ""

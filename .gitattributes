@@ -41,7 +41,11 @@ tests/morphophonology/w-phon.yaml -text
 tests/morphophonology/word-final-j.yaml -text
 tests/morphophonology/y-ligatures.yaml -text
 tests/morphophonology/ь.yaml -text
+tests/morphotactics/A1.txt -text
+tests/morphotactics/Makefile -text
 tests/morphotactics/README -text
+tests/morphotactics/prefixes/A1.prefix.dix -text
+tests/morphotactics/prefixes/A1.prefix.lexc -text
 tests/morphotactics/prn-pers.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text

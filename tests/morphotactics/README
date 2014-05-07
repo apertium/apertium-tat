@@ -24,7 +24,8 @@ USAGE
 Ideally, such test files should be provided before starting to work on
 corresponding lexicons, containing only the output we would like to get from
 our transducer, and used much like we use .yaml files with 'aq-morftest' to
-check for regressions in morphophonology.
+check for regressions in morphophonology (see e.g. prn-pers.yaml file in this
+folder).
 
 But since we are testing an existing transducer, in our case they serve for
 visualizing the current state of the transducer -- i.e. to see where it
@@ -44,10 +45,10 @@ makes sense before trying to get a clean testvoc on it.
 'TESTVOC-LITE'
 --------------
 
-We can extract the lexical forms (the left part of the entries) from the test
-files in this folder and pass them through the translator, as we would while
-testvocing, but instead of testing the full output of the transducer, we will
-be testing only one word per paradigm.
+We can extract lexical forms (the right part of the entries) from test
+files in this folder and pass them through the translator, as we would
+while testvocing, but instead of testing the full output of the
+transducer, we will be testing only one word per paradigm.
 
 If we are certain that transducer overgenerates, but we can't change it for
 some reason, we can go even further -- by taking only a meaningful subset of
@@ -58,7 +59,7 @@ the target language for lexical forms from our test file (for all of them or
 only for part of them, depending on how good your transducer is):
 like this:
 'мәктәп<n><loc>:в школе' OR
-'мәктәп<n><loc>:мәктәптә:в школе'
+'мәктәптә:мәктәп<n><loc>:в школе'
 
 That way, one has to give good translations for lexical units (or at least to
 think about which forms would be good translations), and not just *some*

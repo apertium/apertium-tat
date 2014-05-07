@@ -9,7 +9,7 @@
 	hfst-txt2fst -e ε <  .deps/A1.prefix.att > .deps/A1.prefix.hfst
 	hfst-project -p upper .deps/A1.prefix.hfst > .deps/A1.prefix.upper
 	echo " ?* " | hfst-regexp2fst > .deps/any-symbol.hfst
-	hfst-concatenate -1 .deps/A1.prefix.upper -2 .deps/any-symbol.hfst -o .deps/A1.prefixes
+	hfst-concatenate -1 .deps/A1.prefix.upper -2 .deps/any-symbol.hfst -o $@
 
 A1.txt: ../../tat.automorf.att.gz .deps/A1.prefixes
 	zcat $< | hfst-txt2fst > .deps/tat.automorf.hfst

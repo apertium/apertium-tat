@@ -2,8 +2,16 @@
 # /prefixes and expands trimmed transducers into text files in the cd.
 # Was adopted from the apertium-tat-rus makefile.
 
+all: A1.txt
+
+.deps/.d:
+	test -d .deps || mkdir .deps
+	touch $@
+
+.PRECIOUS: .deps/.d
+
 # given that we use dix format for prefixes
-.deps/A1.prefixes: prefixes/A1.prefix.dix
+.deps/A1.prefixes: prefixes/A1.prefix.dix .deps/.d
 	lt-comp lr prefixes/A1.prefix.dix .deps/A1.prefix.bin
 	lt-print .deps/A1.prefix.bin | sed 's/ /@_SPACE_@/g' > .deps/A1.prefix.att
 	hfst-txt2fst -e ε <  .deps/A1.prefix.att > .deps/A1.prefix.hfst

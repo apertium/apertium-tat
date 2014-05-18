@@ -13,7 +13,8 @@ containing one example word linked to that lexicon, with tags enough to
 distinguish it from other words. These prefix files get compiled into
 transducers, which then get intersected with the actual transducer of the
 language. The transducers obtained by the intersection get expanded, and the
-results of this expansion are stored in this folder in plain text files. [1]
+results of this expansion are stored in this folder in compressed plain text
+files. [1]
 
 Each file will show you the full paradigm of the example word linked to a
 particular lexicon (indicated in the name of the file).

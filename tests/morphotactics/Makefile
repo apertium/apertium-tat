@@ -1,9 +1,9 @@
-# A stub for the makefile which trims the Tatar transducer to prefixes in
-# /prefixes and expands trimmed transducers into text files in the current
+# A makefile which trims the Tatar transducer to prefixes in /prefixes
+# and expands trimmed transducers into text files in the current
 # directory.
 # Was adopted from the apertium-tat-rus makefile.
 
-all: A1.txt V-TV-IR.txt
+all: N1.txt.gz A1.txt.gz V-TV-IR.txt.gz
 
 .deps/.d:
 	test -d .deps || mkdir .deps
@@ -37,5 +37,6 @@ all: A1.txt V-TV-IR.txt
 .deps/%.hfst: .deps/%.prefixes .deps/tat.automorf.hfst 
 	hfst-compose-intersect -1 .deps/tat.automorf.hfst -2 $< -o $@
 
-%.txt: .deps/%.hfst
-	hfst-fst2strings $< > $@
+%.txt.gz: .deps/%.hfst
+	hfst-fst2strings $< | gzip -c > $@
+

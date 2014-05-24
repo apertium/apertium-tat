@@ -578,7 +578,6 @@ CLIT-COP ;
 ! "бәхет-сез-мен", but that's only because "бәхетсез" has lexicalized as an
 ! adjective (try to grep "с[ыі]зм[ыі]н" on a large corpora -- that's just a
 ! few words which are rather  adjectives.
-! *Китапларсызлар is not legal, but китапларсыз and китапсызлар are correct.
 !-------------------------------------------------------------------------------
 
 LEXICON CASES-COMMON

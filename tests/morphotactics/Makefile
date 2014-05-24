@@ -1,7 +1,8 @@
-# A makefile which trims the Tatar transducer to prefixes in /prefixes
+# A makefile which trims the transducer to prefixes in /prefixes
 # and expands trimmed transducers into text files in the current
 # directory.
-# Was adopted from the apertium-tat-rus makefile.
+
+LANGUAGE=tat
 
 all: N1.txt.gz A1.txt.gz V-TV-IR.txt.gz
 
@@ -31,12 +32,11 @@ all: N1.txt.gz A1.txt.gz V-TV-IR.txt.gz
 .deps/%.prefixes: .deps/%.prefix.upper .deps/any-symbol.hfst
 	hfst-concatenate -1 $< -2 .deps/any-symbol.hfst -o $@
 
-.deps/tat.automorf.hfst: ../../tat.automorf.att.gz
+.deps/$(LANGUAGE).automorf.hfst: ../../$(LANGUAGE).automorf.att.gz
 	zcat $< | hfst-txt2fst > $@
 
-.deps/%.hfst: .deps/%.prefixes .deps/tat.automorf.hfst 
-	hfst-compose-intersect -1 .deps/tat.automorf.hfst -2 $< -o $@
+.deps/%.hfst: .deps/%.prefixes .deps/$(LANGUAGE).automorf.hfst 
+	hfst-compose-intersect -1 .deps/$(LANGUAGE).automorf.hfst -2 $< -o $@
 
 %.txt.gz: .deps/%.hfst
 	hfst-fst2strings $< | gzip -c > $@
-

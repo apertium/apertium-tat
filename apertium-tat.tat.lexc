@@ -613,7 +613,7 @@ LEXICON GENERAL-POSSESSIVE-ETC
 ! match in RFERL corpus for 'ныкылар'), probably not worh bothering at all.
 ! It could be handled in a way abessive is handled, but since NIKI in contrast
 ! to the abessive SIZ can appear after possessves, that would require
-! duplicatin possessives as well.
+! duplicating possessives as well.
 !------------------------------------------------------------------------------!
 
 %<px%>:%>н%{I%}к%{I%}%{n%} CASES ;

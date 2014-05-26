@@ -672,3 +672,13 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (1 EOS)
 ;
 ## ^түгел/түгел<cnjcoo>/и<cop><neg><p3><sg>/түк<v><tv><pass><imp><p2><sg>$
+
+
+# INPUT:  ^өстәл/өстәл<n><nom>/өстәл<n><attr>$ ^белән/белән<cnjcoo>/белән<post>$
+#         ^урындык/урындык<n><nom>/урындык<n><attr>$
+# OUTPUT: ^өстәл/өстәл<n><nom>/өстәл<n><attr>$ ^белән/белән<cnjcoo>$
+#         ^урындык/урындык<n><nom>/урындык<n><attr>$
+ "<белән>" SELECT CC IF
+        (-1 N + Nom)
+        (1 N + Nom)
+;

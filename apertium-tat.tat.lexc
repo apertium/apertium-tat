@@ -642,11 +642,6 @@ LEXICON POSSESSIVES
 %<px2sg%>%<frm%>:%>%{I%}г%{I%}з CASES-ETC ;
 %<px2pl%>%<frm%>:%>%{I%}г%{I%}з CASES-ETC ;
 
-LEXICON ABESSIVE-SUBSTANTIVIZED
-
-%+сыз%<post%>%<subst%>:%>с%{I%}з CASES-WITHOUT-COPULAS ;
-%+сыз%<post%>%<subst%>%<pl%>:%>с%{I%}з%>%{L%}%{A%}р CASES-WITHOUT-COPULAS ;
-
 LEXICON ABESSIVE-POSTPOSITION
 
 %+сыз%<post%>:%>с%{I%}з CLITICS-NO-COP ;
@@ -663,7 +658,6 @@ PLURAL ;
 CASES-ETC ;
 POSSESSIVES ;
 ABESSIVE-POSTPOSITION ;
-ABESSIVE-SUBSTANTIVIZED ;
 
 !==============================================================================!
 !                 ADJECTIVE'S (ADJECTIVIAL) INFLECTION
@@ -1445,7 +1439,6 @@ LEXICON N3
 %<n%>: CASES-ETC ;
 %<n%>: POSSESSIVES ;
 %<n%>: ABESSIVE-POSTPOSITION ;
-%<n%>: ABESSIVE-SUBSTANTIVIZED ;
 
 LEXICON ADV-LANG
 N1 ;
@@ -1456,7 +1449,6 @@ LEXICON NP-COMMON
 CASES-ETC ;
 POSSESSIVES ;
 ABESSIVE-POSTPOSITION ;
-ABESSIVE-SUBSTANTIVIZED ;
 
 LEXICON NP-TOP
 

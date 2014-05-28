@@ -682,3 +682,19 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
         (-1 N + Nom)
         (1 N + Nom)
 ;
+
+# INPUT:  ^ул/ул<det><dem>/ул<n><nom>/ул<n><attr>/ул<prn><dem><nom>/ул<prn><pers><p3><sg><nom>$
+#         ^тәрәзәдән/тәрәзә<n><abl>$ ^Әхмәт/Әхмәт<np><ant><m><nom>$ ^белән/белән<cnjcoo>/белән<post>$
+#         ^Гөлнараның/Гөлнара<np><ant><f><gen>$ ^уйнаганын/уйна<v><tv><ger_past><px3sp><acc>/
+#         уйна<v><tv><gpr_past><subst><px3sp><acc>$ ^күзәтә/күзәт<v><tv><prc_impf>/күзәт<v><tv><pres><p3><sg>$
+#         ^./.<sent>$
+# OUTPUT: ^ул/ул<prn><pers><p3><sg><nom>$
+#         ^тәрәзәдән/тәрәзә<n><abl>$ ^Әхмәт/Әхмәт<np><ant><m><nom>$ ^белән/белән<cnjcoo>/белән<post>$
+#         ^Гөлнараның/Гөлнара<np><ant><f><gen>$ ^уйнаганын/уйна<v><tv><ger_past><px3sp><acc>/
+#         уйна<v><tv><gpr_past><subst><px3sp><acc>$ ^күзәтә/күзәт<v><tv><prc_impf>/күзәт<v><tv><pres><p3><sg>$
+#         ^./.<sent>$
+ SELECT Pron + Pers + Nom IF
+        (0 Det)
+        (NOT -1* Nom BARRIER Cm)
+;
+## 15.	Әниләре песи белән бергә өйдә, [0]ул тәрәзәдән Әхмәт белән Гөлнараның уйнаганын күзәтә.

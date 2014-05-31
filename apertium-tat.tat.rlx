@@ -4,7 +4,7 @@
 #              (read: a wannabe FORMATTING GUIDELINES)
 # ============================================================================ #
 
-# Lines do not exceed 99 characters.
+# Lines do not exceed 79 characters.
 #
 # Rule layout
 # ===========
@@ -324,7 +324,6 @@ SET S-BOUNDARY = CS | Interr | EOS;
         (0 N)
         (0 Prop)
         (0 ("[:upper:]+[:lower:]*"r))
-        (NOT -1 BOS)
 ;
 ## 108. Өйткені бүгінгі _Арал_ деген атау сол XVII ғасырдан бергі жерге берілген.
  SELECT Prop IF

@@ -4,7 +4,7 @@
 
 LANGUAGE=tat
 
-all: N1.txt.gz N-COMPOUND-PX.txt.gz A1.txt.gz V-TV-IR.txt.gz
+all: N1.txt.gz N1-RUS.txt.gz N-COMPOUND-PX.txt.gz A1.txt.gz V-TV-IR.txt.gz
 
 .deps/.d:
 	test -d .deps || mkdir .deps

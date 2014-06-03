@@ -47,10 +47,14 @@ tests/morphophonology/y-ligatures.yaml -text
 tests/morphophonology/ь.yaml -text
 tests/morphotactics/A1.txt.gz -text svneol=unset#unset
 tests/morphotactics/Makefile -text
+tests/morphotactics/N-COMPOUND-PX.txt.gz -text svneol=unset#unset
+tests/morphotactics/N1-RUS.txt.gz -text svneol=unset#unset
 tests/morphotactics/N1.txt.gz -text svneol=unset#unset
 tests/morphotactics/README -text
 tests/morphotactics/V-TV-IR.txt.gz -text svneol=unset#unset
 tests/morphotactics/prefixes/A1.prefix.dix -text
+tests/morphotactics/prefixes/N-COMPOUND-PX.prefix.dix -text
+tests/morphotactics/prefixes/N1-RUS.prefix.dix -text
 tests/morphotactics/prefixes/N1.prefix.dix -text
 tests/morphotactics/prefixes/V-TV-IR.prefix.dix -text
 tests/morphotactics/prn-pers.yaml -text

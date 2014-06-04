@@ -917,7 +917,6 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<fut2%>:%>%{j%}%{A%}ч%{A%}к V-PERS-S1 ;
-%<fut_plan%>:%>м%{A%}кч%{I%} V-PERS-S1 ;
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
                                              ! no negative  form at all
@@ -959,6 +958,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 ! Gerunds
 %<ger1%>:%>м%{A%}%{K%} GER-INFL ;
 %<ger_fut3%>:%>%{E%}с%{I%} GER_FUT3-POSS-REAL ;
+
+%<fut_plan%>:%>м%{A%}кч%{I%} V-PERS-S1 ;
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 

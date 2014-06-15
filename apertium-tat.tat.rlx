@@ -321,6 +321,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 # Proper noun vs noun
  SELECT Prop IF
+ 	(NOT 0 ("Һава") OR ("дәүләт"))
         (0 N)
         (0 Prop)
         (0 ("[:upper:]+[:lower:]*"r))
@@ -339,7 +340,11 @@ SET S-BOUNDARY = CS | Interr | EOS;
         (2 Prop)
 ;
 ## Азамат белән Айгөл бакчада.
-
+ REMOVE (ant) IF
+ 	(NOT 1 (cog))
+;
+## ^Һава/һава<n><attr>/һава<n><nom>/Һава<np><ant><f><nom>/һава<n><nom>+и<cop><p3><pl>/
+## һава<n><nom>+и<cop><p3><sg>/Һава<np><ant><f><nom>+и<cop><p3><pl>/Һава<np><ant><f><nom>+и<cop><p3><sg>$
 
 # INPUT:  ^Бу/Бу<det><dem>/Бу<prn><dem><nom>/Бу<v><tv><imp><p2><sg>/
 #         Бу<prn><dem><nom>+и<cop><p3><sg>$ ^уен/уен<n><nom>/уен<n><attr>/

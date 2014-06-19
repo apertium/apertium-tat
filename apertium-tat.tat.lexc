@@ -1525,7 +1525,7 @@ LEXICON NP-AL
 
 %<np%>%<al%>: CASES ;
 
-LEXICON NUMLEX
+LEXICON NUM
 
 %<num%>: # ;
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
@@ -1969,47 +1969,53 @@ InterrogativePronouns ;
 !================!
 
 
-нуль:нуль NUMLEX ; ! ""
-нуль:ноль NUMLEX ; ! "" Dir/LR
-нуль:нол NUMLEX ; ! "" Dir/LR
-нуль:нүл NUMLEX ; ! "" Dir/LR
-бер:бер NUMLEX ; ! ""
-ике:ике NUMLEX ; ! ""
-өч:өч NUMLEX ; ! ""
-дүрт:дүрт NUMLEX ; ! ""
-биш:биш NUMLEX ; ! ""
-алты:алты NUMLEX ; ! ""
-җиде:җиде NUMLEX ; ! ""
-сигез:сигез NUMLEX ; ! ""
-тугыз:тугыз NUMLEX ; ! ""
-ун:ун NUMLEX ; ! ""
-
-унбер:унбер NUMLEX ; ! ""
-унике:унике NUMLEX ; ! ""
-унөч:унөч NUMLEX ; ! ""
-ундүрт:ундүрт NUMLEX ; ! ""
-унбиш:унбиш NUMLEX ; ! ""
-уналты:уналты NUMLEX ; ! ""
-унҗиде:унҗиде NUMLEX ; ! ""
-унсигез:унсигез NUMLEX ; ! ""
-унтугыз:унтугыз NUMLEX ; ! ""
-
-егерме:егерме NUMLEX ; ! ""
-утыз:утыз NUMLEX ; ! ""
-кырык:кырык NUMLEX ; ! ""
-илле:илле NUMLEX ; ! ""
-алтмыш:алтмыш NUMLEX ; ! ""
-җитмеш:җитмеш NUMLEX ; ! ""
-сиксән:сиксән NUMLEX ; ! ""
-туксан:туксан NUMLEX ; ! ""
-йөз:йөз NUMLEX ; ! ""
-
-мең:мең NUMLEX ; ! "thousand"
-төмән:төмән NUMLEX ; ! "archaic for 10 000"
-төмән:түмән NUMLEX ; ! "archaic for 10 000" Dir/LR
-миллион:миллион NUMLEX ; ! "million"
-миллиард:миллиард NUMLEX ; ! "billion"
-триллион:триллион NUMLEX ; ! "trillion"
+нуль:нуль NUM ; ! ""
+нуль:ноль NUM ; ! "" Dir/LR
+нуль:нол NUM ; ! "" Dir/LR
+нуль:нүл NUM ; ! "" Dir/LR
+бер:бер NUM ; ! ""
+ике:ике NUM ; ! ""
+өч:өч NUM ; ! ""
+дүрт:дүрт NUM ; ! ""
+биш:биш NUM ; ! ""
+алты:алты NUM ; ! ""
+җиде:җиде NUM ; ! ""
+сигез:сигез NUM ; ! ""
+тугыз:тугыз NUM ; ! ""
+ун:ун NUM ; ! ""
+унбер:унбер NUM ; ! ""
+унике:унике NUM ; ! ""
+унөч:унөч NUM ; ! ""
+ундүрт:ундүрт NUM ; ! ""
+унбиш:унбиш NUM ; ! ""
+уналты:уналты NUM ; ! ""
+унҗиде:унҗиде NUM ; ! ""
+унсигез:унсигез NUM ; ! ""
+унтугыз:унтугыз NUM ; ! ""
+егерме:егерме NUM ; ! ""
+утыз:утыз NUM ; ! ""
+кырык:кырык NUM ; ! ""
+илле:илле NUM ; ! ""
+алтмыш:алтмыш NUM ; ! ""
+җитмеш:җитмеш NUM ; ! ""
+сиксән:сиксән NUM ; ! ""
+туксан:туксан NUM ; ! ""
+йөз:йөз NUM ; ! ""
+ике% йөз:ике% йөз NUM ; ! "" Use/MT
+өч% йөз:өч% йөз NUM ; ! "" Use/MT
+дүрт% йөз:дүрт% йөз NUM ; ! "" Use/MT
+биш% йөз:биш% йөз NUM ; ! "" Use/MT
+алты% йөз:алты% йөз NUM ; ! "" Use/MT
+җиде% йөз:җиде% йөз NUM ; ! "" Use/MT
+сигез% йөз:сигез% йөз NUM ; ! "" Use/MT
+тугыз% йөз:тугыз% йөз NUM ; ! "" Use/MT
+мең:мең NUM ; ! "thousand"
+төмән:төмән NUM ; ! "archaic for 10 000"
+төмән:түмән NUM ; ! "archaic for 10 000" Dir/LR
+миллион:миллион NUM ; ! "million"
+миллиард:миллиард NUM ; ! "billion"
+триллион:триллион NUM ; ! "trillion"
+триллиард:триллиард NUM ; ! "trilliard"
 
 ! FIXME
 ! In Tatar this goes on to higher numbers >> derive them
@@ -14137,7 +14143,7 @@ KZ:KZ ABBR ; ! ""
 !==============!
 
 
-%0:%0 NUMLEX ;  ! Use/Circ
+%0:%0 NUM ;  ! Use/Circ
 №:№ DIGITLEX ;  ! Use/Circ
 DIGITLEX ; ! Use/Circ
 LASTDIGIT ; ! Use/Circ

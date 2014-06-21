@@ -1546,10 +1546,6 @@ LEXICON NUM-COLL
 
 %<num%>%<coll%>: # ;
 
-!LEXICON DIGITLEX
-!
-!%<num%>: # ;
-
 LEXICON NUM-ROMAN
 
 %<num%>%<ord%>: # ;

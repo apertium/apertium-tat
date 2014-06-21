@@ -34,6 +34,7 @@ speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
 /tat.prob -text svneol=unset#unset
+test-scripts/tat.test -text
 tests/morphophonology/E-phon.yaml -text
 tests/morphophonology/V-ә-prc_impf.yaml -text
 tests/morphophonology/diyerge.yaml -text
@@ -46,6 +47,7 @@ tests/morphophonology/word-final-j.yaml -text
 tests/morphophonology/y-ligatures.yaml -text
 tests/morphophonology/ь.yaml -text
 tests/morphotactics/A1.txt.gz -text svneol=unset#unset
+tests/morphotactics/ADV-WITH-KI.txt.gz -text svneol=unset#unset
 tests/morphotactics/ADV.txt.gz -text svneol=unset#unset
 tests/morphotactics/Makefile -text
 tests/morphotactics/N-COMPOUND-PX.txt.gz -text svneol=unset#unset
@@ -62,4 +64,3 @@ tests/morphotactics/prn-pers.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text
 tests/numerals/percents.yaml -text
-tests/tat.test -text

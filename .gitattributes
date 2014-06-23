@@ -53,6 +53,9 @@ tests/morphotactics/Makefile -text
 tests/morphotactics/N-COMPOUND-PX.txt.gz -text svneol=unset#unset
 tests/morphotactics/N1-RUS.txt.gz -text svneol=unset#unset
 tests/morphotactics/N1.txt.gz -text svneol=unset#unset
+tests/morphotactics/NUM-ITG.txt.gz -text svneol=unset#unset
+tests/morphotactics/NUM-ROMAN.txt.gz -text svneol=unset#unset
+tests/morphotactics/NUM.txt.gz -text svneol=unset#unset
 tests/morphotactics/README -text
 tests/morphotactics/V-TV-IR.txt.gz -text svneol=unset#unset
 tests/morphotactics/prefixes/A1.prefix.dix -text

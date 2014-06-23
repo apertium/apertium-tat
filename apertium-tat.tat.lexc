@@ -1546,6 +1546,10 @@ LEXICON NUM-COLL
 
 %<num%>%<coll%>: # ;
 
+LEXICON NUM-ITG-COLL
+
+%<num%>%<itg%>%<coll%>: # ;
+
 LEXICON NUM-ROMAN
 
 %<num%>%<ord%>: # ;
@@ -2046,7 +2050,7 @@ XX NUM-ROMAN ; ! ""
 XXI NUM-ROMAN ; ! ""
 
 ничә:ничә NUM-ITG ;
-
+ничә:ничәү NUM-ITG-COLL ;
 
 !=============!
  LEXICON Nouns

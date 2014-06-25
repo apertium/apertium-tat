@@ -373,6 +373,15 @@ SET S-BOUNDARY = CS | Interr | EOS;
 ## Һава яхшы, [0]җылы.
 
 
+# INPUT:  ^рәхмәт/рәхмәт<ij>/рәхмәт<n><attr>/рәхмәт<n><nom>$
+#         ^белдерәм/белдер<v><tv><pres><p1><sg>$
+# OUTPUT: ^рәхмәт/рәхмәт<n><attr>/рәхмәт<n><nom>$
+#         ^белдерәм/белдер<v><tv><pres><p1><sg>$
+ REMOVE Interj IF
+ 	(1 V)
+;
+
+
 
 # Determiners
 # ===========

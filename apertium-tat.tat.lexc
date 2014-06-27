@@ -1901,6 +1901,7 @@ InterrogativePronouns ;
 барлык:барлык PRON-QNT ; ! ""
 бары:бары PRON-QNT-POSS ; ! ""
 берәү:берәү PRON-QNT ; ! ""
+бөтенесе:бөтене PRON-QNT-POSS ; ! ""
 һәркем:һәркем PRON-QNT ; ! ""
 
 беркем:беркем PRNNEG ; ! ""
@@ -12487,7 +12488,8 @@ Witness:Witness NP-AL ; ! ""
 тагы:тагы ADV ; ! "more,again"
 теге% юлы:теге% юлы ADV ; ! "" FIXME CHECK
 тәфсирләп:тәфсирләп ADV ; ! ""
-тик:тик ADV ; ! "only""
+тиздән:тиздән ADV ; ! ""
+тик:тик ADV ; ! "only"
 түбәндәгедәй:түбәндәгедәй ADV ; ! "as follows"
 туктаусыз:туктаусыз ADV ; ! ""
 тулаем:тулаем ADV ; ! ""

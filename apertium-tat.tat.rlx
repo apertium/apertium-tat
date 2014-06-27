@@ -445,6 +445,12 @@ SELECT Det IF (-1C A) (1 N);
 ## professions, such as "оқушы"; -U gerunds , in theory other gerunds too
 
 
+# INPUT:  ^биш/биш<num>/биш<num><subst><nom>$ ^чиләк/чиләк<n><attr>/чиләк<n><nom>$ ^кыяр/кыяр<n><attr>/кыяр<n><nom>$
+# OUTPUT: ^биш/биш<num>/биш<num><subst><nom>$ ^чиләк/чиләк<n><nom>$ ^кыяр/кыяр<n><attr>/кыяр<n><nom>$
+ REMOVE Attr IF
+ 	(-1 Num)
+	(1 N)
+;
 
 # Adjectives
 # ==========

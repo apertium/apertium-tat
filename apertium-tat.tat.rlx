@@ -382,6 +382,14 @@ SET S-BOUNDARY = CS | Interr | EOS;
 ;
 
 
+# INPUT: ^тәмле/тәмле<adj>/тәм<n>+лы<post>/тәмле<adj><advl>/тәмле<adj><subst><nom>$
+# INPUT: ^тәмле/тәмле<adj>/тәмле<adj><advl>/тәмле<adj><subst><nom>$
+ REMOVE Sub:1 Post IF
+ 	(0 N)
+	(0 A)
+;
+
+
 
 # Determiners
 # ===========

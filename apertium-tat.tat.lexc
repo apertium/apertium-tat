@@ -646,6 +646,10 @@ LEXICON ABESSIVE-POSTPOSITION
 
 %+сыз%<post%>:%>с%{I%}з CLITICS-NO-COP ;
 
+LEXICON LI-POSTPOSITION
+
+%+лы%<post%>:%>л%{I%} CLITICS-NO-COP ;
+
 LEXICON PLURAL
 
 %<pl%>:%>%{L%}%{A%}р CASES-ETC ;
@@ -658,6 +662,7 @@ PLURAL ;
 CASES-ETC ;
 POSSESSIVES ;
 ABESSIVE-POSTPOSITION ;
+LI-POSTPOSITION ;
 
 !==============================================================================!
 !                 ADJECTIVE'S (ADJECTIVIAL) INFLECTION
@@ -11638,6 +11643,8 @@ Witness:Witness NP-AL ; ! ""
 көнлек:көнлек A4 ; ! ""
 күләмле:күләмле A4 ; ! ""
 күмәк:күмәк A4 ; ! ""
+күп% балалы:күп% балалы A4 ; ! "" Use/MT
+күп% балалы:күпбалалы A4 ; ! "" Dir/LR Use/MT
 күрсәтмә:күрсәтмә A4 ; ! ""
 күршедәш:күршедәш A4 ; ! ""
 күчемсез:күчемсез A4 ; ! ""

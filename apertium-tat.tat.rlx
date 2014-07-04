@@ -731,3 +731,9 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
  SELECT Adv IF
  	(0 A + Abl)
 ;
+
+# INPUT:  ^Менә/мен<v><iv><prc_impf>/менә<adv>/менә<ij>/мен<v><iv><pres><p3><sg>$
+# OUTPUT: ^Менә/менә<ij>$
+ SELECT Interj IF
+        (0 ("<[:upper:]+[:lower:]*>"r))
+;

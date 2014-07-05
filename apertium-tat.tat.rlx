@@ -184,6 +184,8 @@ LIST Ger6 = ger6 ;
 LIST TV = tv ;
 LIST Opt = opt ;
 
+LIST Bar = ("бар" adj) ;
+
 # All possible word categories
 # ============================
 
@@ -737,3 +739,17 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
  SELECT Interj IF
         (0 ("<[:upper:]+[:lower:]*>"r))
 ;
+
+SECTION
+
+LIST @→N = @→N ; 
+LIST @ADVL→ = @ADVL→ ; 
+
+
+# INPUT:
+# OUTPUT: 
+MAP (@ADVL→) TARGET Gen IF (0 Pron) 
+                           (1*/* Bar BARRIER Cm) 
+; 
+
+

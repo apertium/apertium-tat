@@ -2729,7 +2729,6 @@ XXI NUM-ROMAN ; ! ""
 егет:егет N1 ; ! ""
 әгъза:әгъза N1 ; ! ""
 әдәбият:әдәбият N1 ; ! "literature" ! Dir/LR
-! әдәбият:әдәбият N1-RUS ; ! "literature" ! usually takes back vowel endings
 әдәбият:әдәбият%{ъ%} N1 ; ! "literature" ! usually takes back vowel endings
 әҗәл:әҗәл N1 ; ! ""
 әзерлек:әзерлек N1 ; ! ""

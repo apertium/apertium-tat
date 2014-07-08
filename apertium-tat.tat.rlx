@@ -243,6 +243,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
 # FIXME this rule mispredicts a lot (or, rather, block other rules selecting a non-copula reading)
  SELECT Sub:1 Cop IF
         (NOT -1 BOS)    # Single-word phrases like "Декабрь."
+	(NOT 0 (mod_ass) OR Interj)
         (1 EOS OR MARK)
 ;
 ## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
@@ -738,6 +739,19 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 # OUTPUT: ^Менә/менә<ij>$
  SELECT Interj IF
         (0 ("<[:upper:]+[:lower:]*>"r))
+;
+
+# INPUT:  ^бит/бит<mod_ass>/бит<n><attr>/бит<n><nom>/бит<n><nom>+и<cop><p3><pl>/бит<n><nom>+и<cop><p3><sg>$^./.<sent>$
+# OUTPUT: ^бит/бит<mod_ass>/бит<n><attr>/бит<n><nom>$^./.<sent>$
+"<бит>" SELECT (mod_ass) IF
+ 	       (1 EOS)
+;
+
+# INPUT:  ^Рәхмәт/рәхмәт<ij>/рәхмәт<n><attr>/рәхмәт<n><nom>$^!/!<sent>$
+# OUTPUT: ^Рәхмәт/рәхмәт<ij>$^!/!<sent>$
+ SELECT Interj IF
+ 	(-1 BOS)
+	(1 EOS)
 ;
 
 SECTION

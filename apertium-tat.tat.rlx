@@ -185,6 +185,7 @@ LIST TV = tv ;
 LIST Opt = opt ;
 
 LIST Bar = ("бар" adj) ;
+LIST Yuq = ("юк" adj) ;
 
 # All possible word categories
 # ============================
@@ -762,8 +763,8 @@ LIST @ADVL→ = @ADVL→ ;
 
 # INPUT:
 # OUTPUT: 
-MAP (@ADVL→) TARGET Gen IF (0 Pron) 
-                           (1*/* Bar BARRIER Cm) 
+MAP (@ADVL→) TARGET Gen IF
+    (1*/* Bar OR Yuq BARRIER Cm) 
 ; 
 
 

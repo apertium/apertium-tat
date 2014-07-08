@@ -6,6 +6,7 @@
 /NEWS -text
 /README -text
 /apertium-tat.pc.in -text
+/apertium-tat.post-tat.dix -text
 /apertium-tat.tat.lexc -text
 /apertium-tat.tat.rlx -text
 /apertium-tat.tat.twol -text

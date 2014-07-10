@@ -71,3 +71,4 @@ tests/morphotactics/prn-pers.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text
 tests/numerals/percents.yaml -text
+texts/corpus.ana.txt -text

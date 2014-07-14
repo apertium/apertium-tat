@@ -1195,81 +1195,81 @@
 	"." sent <Correct!>
 
 "<Гөлнара>"
-	"Гөлнара" np ant f nom
+	"Гөлнара" np ant f nom <Correct!>
 	"Гөлнара" np ant f nom
 		"и" cop p3 pl
 	"Гөлнара" np ant f nom
 		"и" cop p3 sg
 "<әнисенең>"
-	"әни" n px3sp gen
+	"әни" n px3sp gen <Correct!>
 "<елмаюын>"
 	"елмай" v iv ger px3sp acc
-	"елмаю" n px3sp acc
+	"елмаю" n px3sp acc <Correct!>
 "<күрә>"
 	"күр" v tv prc_impf
 	"күрә" post
-	"күр" v tv pres p3 sg
+	"күр" v tv pres p3 sg <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<әнисенең>"
-	"әни" n px3sp gen
+	"әни" n px3sp gen <Correct!>
 "<Әхмәтнең>"
-	"Әхмәт" np ant m gen
+	"Әхмәт" np ant m gen <Correct!>
 "<кая>"
-	"кая" adv itg
+	"кая" adv itg <Correct!>
 	"кая" adv itg
 		"и" cop p3 pl
 	"кая" adv itg
 		"и" cop p3 sg
 "<киткәнен>"
 	"кит" vaux ger_past px3sp acc
-	"кит" v iv ger_past px3sp acc
+	"кит" v iv ger_past px3sp acc <Correct!>
 	"кит" vaux gpr_past subst px3sp acc
 	"кит" v iv gpr_past subst px3sp acc
 "<белә>"
 	"бел" v tv prc_impf
-	"бел" v tv pres p3 sg
+	"бел" v tv pres p3 sg <Correct!>
 "<икәнен>"
-	"и" cop ger_past px3sp acc
+	"и" cop ger_past px3sp acc <Correct!>
 "<аңлый>"
 	"аңла" v tv prc_impf
-	"аңла" v tv pres p3 sg
+	"аңла" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<">"
-	""" sent
+	""" sent <Correct!>
 "<Миңа>"
-	"мин" prn pers p1 sg dat
+	"мин" prn pers p1 sg dat <Correct!>
 "<аның>"
 	"ул" prn dem gen
-	"ул" prn pers p3 sg gen
+	"ул" prn pers p3 sg gen <Correct!>
 "<кайда>"
-	"кайда" adv itg
+	"кайда" adv itg <Correct!>
 	"кайда" adv itg
 		"и" cop p3 pl
 	"кайда" adv itg
 		"и" cop p3 sg
 "<икәнен>"
-	"и" cop ger_past px3sp acc
+	"и" cop ger_past px3sp acc <Correct!>
 "<әйтче>"
-	"әйт" v tv imp p2 sg
+	"әйт" v tv imp p2 sg <Correct!>
 		"чы" emph
 "<!>"
-	"!" sent
+	"!" sent <Correct!>
 "<">"
-	""" sent
+	""" sent <Correct!>
 "<ди>"
 	"ди" v tv prc_impf
 	"ди" v tv imp p2 sg
-	"ди" v tv pres p3 sg
+	"ди" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<">"
-	""" sent
+	""" sent <Correct!>
 "<Юк>"
-	"юк" ij
+	"юк" ij <Correct!>
 	"юк" adj
 	"юк" adj subst nom
 	"юк" adj
@@ -1281,50 +1281,50 @@
 	"юк" adj subst nom
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<Гөлнара>"
-	"Гөлнара" np ant f nom
+	"Гөлнара" np ant f nom <Correct!>
 	"Гөлнара" np ant f nom
 		"и" cop p3 pl
 	"Гөлнара" np ant f nom
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<әйтмим>"
-	"әйт" v tv neg pres p1 sg
+	"әйт" v tv neg pres p1 sg <Correct!>
 "<!>"
-	"!" sent
+	"!" sent <Correct!>
 "<">"
-	""" sent
+	""" sent <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<->"
-	"-" guio
+	"-" guio <Correct!>
 "<дип>"
 	"ди" v tv prc_perf
-	"ди" v tv gna_perf
+	"ди" v tv gna_perf <Correct!>
 "<җавап бирә>"
 	"җавап бир" v tv prc_impf
-	"җавап бир" v tv pres p3 sg
+	"җавап бир" v tv pres p3 sg <Correct!>
 "<әнисе>"
-	"әни" n px3sp nom
+	"әни" n px3sp nom <Correct!>
 	"әни" n px3sp nom
 		"и" cop p3 pl
 	"әни" n px3sp nom
 		"и" cop p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Әхмәтнең>"
-	"Әхмәт" np ant m gen
+	"Әхмәт" np ant m gen <Correct!>
 "<кайда>"
-	"кайда" adv itg
+	"кайда" adv itg <Correct!>
 	"кайда" adv itg
 		"и" cop p3 pl
 	"кайда" adv itg
 		"и" cop p3 sg
 "<икәнен>"
-	"и" cop ger_past px3sp acc
+	"и" cop ger_past px3sp acc <Correct!>
 "<белсә дә>"
 	"бел" v tv prc_cond p3 sg
 		"да" cnjcoo
@@ -1332,13 +1332,13 @@
 		"да" postadv
 	"бел" v tv gna_cond p3 sg
 		"да" cnjcoo
-	"бел" v tv gna_cond p3 sg
+	"бел" v tv gna_cond p3 sg <Correct!>
 		"да" postadv
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<әйтәсе>"
 	"әйт" v tv gpr_fut3
-	"әйт" v tv prc_vol p3 sg
+	"әйт" v tv prc_vol p3 sg <Correct!>
 	"әйт" v tv gpr_fut3 subst nom
 	"әйт" v tv ger_fut3 px3sp nom
 "<килми>"
@@ -1352,19 +1352,19 @@
 	"кил" v iv neg prc_impf
 	"кил" v iv neg gna_perf
 	"ки" v tv pass neg pres p3 sg
-	"кил" vaux neg pres p3 sg
+	"кил" vaux neg pres p3 sg <Correct!>
 	"кил" v iv neg pres p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Гөлнара>"
-	"Гөлнара" np ant f nom
+	"Гөлнара" np ant f nom <Correct!>
 	"Гөлнара" np ant f nom
 		"и" cop p3 pl
 	"Гөлнара" np ant f nom
 		"и" cop p3 sg
 "<әкрен генә>"
-	"әкрен генә" adv
+	"әкрен генә" adv <Correct!>
 	"әкрен" adj
 		"гына" postadv
 	"әкрен" adj advl
@@ -1384,9 +1384,9 @@
 		"и" cop p3 sg
 			"гына" postadv
 "<бакчаның>"
-	"бакча" n gen
+	"бакча" n gen <Correct!>
 "<эчендә>"
-	"эч" n px3sp loc
+	"эч" n px3sp loc <Correct!>
 	"эч" n px3sp loc
 		"и" cop p3 pl
 	"эч" n px3sp loc
@@ -1395,16 +1395,16 @@
 	"йөр" vaux prc_impf
 	"йөр" v iv prc_impf
 	"йөр" vaux pres p3 sg
-	"йөр" v iv pres p3 sg
+	"йөр" v iv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Ул>"
 	"ул" n nom
 	"ул" n attr
 	"ул" det dem
 	"ул" prn dem nom
-	"ул" prn pers p3 sg nom
+	"ул" prn pers p3 sg nom <Correct!>
 	"ул" n nom
 		"и" cop p3 pl
 	"ул" n nom
@@ -1415,60 +1415,60 @@
 		"и" cop p3 sg
 "<әле>"
 	"әле" cnjcoo
-	"әле" adv
+	"әле" adv <Correct!>
 "<Һаман да>"
-	"һаман" adv
+	"һаман" adv <Correct!>
 		"да" cnjcoo
 	"һаман" adv
 		"да" postadv
 "<Әхмәтне>"
-	"Әхмәт" np ant m acc
+	"Әхмәт" np ant m acc <Correct!>
 "<табарга>"
-	"тап" v tv inf
+	"тап" v tv inf <Correct!>
 	"тап" v tv gpr_fut subst dat
 "<тырыша>"
 	"тырыш" v iv prc_impf
-	"тырыш" v iv pres p3 sg
+	"тырыш" v iv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Өстәл>"
 	"өстәл" n nom
-	"өстәл" n attr
+	"өстәл" n attr <Correct!>
 	"өстә" v tv pass imp p2 sg
 	"өстәл" n nom
 		"и" cop p3 pl
 	"өстәл" n nom
 		"и" cop p3 sg
 "<белән>"
-	"белән" cnjcoo
+	"белән" cnjcoo <Correct!>
 	"белән" post
 "<урындык>"
 	"урындык" n nom
-	"урындык" n attr
+	"урындык" n attr <Correct!>
 	"урындык" n nom
 		"и" cop p3 pl
 	"урындык" n nom
 		"и" cop p3 sg
 "<асларын>"
-	"аст" n pl px3sp acc
+	"аст" n pl px3sp acc <Correct!>
 "<карый>"
 	"кара" vaux prc_impf
 	"кара" v tv prc_impf
 	"кара" vaux pres p3 sg
-	"кара" v tv pres p3 sg
+	"кара" v tv pres p3 sg <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<әмма>"
-	"әмма" cnjcoo
+	"әмма" cnjcoo <Correct!>
 "<Әхмәт>"
-	"Әхмәт" np ant m nom
+	"Әхмәт" np ant m nom <Correct!>
 	"Әхмәт" np ant m nom
 		"и" cop p3 pl
 	"Әхмәт" np ant m nom
 		"и" cop p3 sg
 "<анда>"
-	"ул" prn dem loc
+	"ул" prn dem loc <Correct!>
 	"ул" prn pers p3 sg loc
 	"ул" prn dem loc
 		"и" cop p3 pl
@@ -1480,20 +1480,20 @@
 	"юк" adj subst nom
 	"юк" adj
 		"и" cop p3 pl
-	"юк" adj
+	"юк" adj <Correct!>
 		"и" cop p3 sg
 	"юк" adj subst nom
 		"и" cop p3 pl
 	"юк" adj subst nom
 		"и" cop p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Бар>"
 	"бар" adj
 	"бар" n nom
 	"бар" n attr
-	"бар" det qnt
+	"бар" det qnt <Correct!>
 	"бар" adj subst nom
 	"бар" v iv imp p2 sg
 	"бар" adj
@@ -1509,22 +1509,22 @@
 	"бар" adj subst nom
 		"и" cop p3 sg
 "<җирдән>"
-	"җир" n abl
+	"җир" n abl <Correct!>
 	"җир" n abl
 		"и" cop p3 pl
 	"җир" n abl
 		"и" cop p3 sg
 "<эзли>"
 	"эзлә" v tv prc_impf
-	"эзлә" v tv pres p3 sg
+	"эзлә" v tv pres p3 sg <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<әмма>"
-	"әмма" cnjcoo
+	"әмма" cnjcoo <Correct!>
 "<Әхмәтне>"
-	"Әхмәт" np ant m acc
+	"Әхмәт" np ant m acc <Correct!>
 "<таба>"
-	"тап" v tv prc_impf
+	"тап" v tv prc_impf <Correct!>
 	"таба" post
 	"таба" n nom
 	"таба" n attr
@@ -1540,19 +1540,19 @@
 	"ал" v tv neg prc_perf
 	"ал" v tv neg prc_impf
 	"ал" v tv neg gna_perf
-	"ал" vaux neg pres p3 sg
+	"ал" vaux neg pres p3 sg <Correct!>
 	"ал" v tv neg pres p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Шуннан соң>"
-	"шуннан соң" adv
+	"шуннан соң" adv <Correct!>
 "<ул>"
 	"ул" n nom
 	"ул" n attr
 	"ул" det dem
 	"ул" prn dem nom
-	"ул" prn pers p3 sg nom
+	"ул" prn pers p3 sg nom <Correct!>
 	"ул" n nom
 		"и" cop p3 pl
 	"ул" n nom
@@ -1563,14 +1563,14 @@
 		"и" cop p3 sg
 "<бер>"
 	"бер" num
-	"бер" det ind
+	"бер" det ind <Correct!>
 	"бер" num subst nom
 	"бер" num subst nom
 		"и" cop p3 pl
 	"бер" num subst nom
 		"и" cop p3 sg
 "<тавыш>"
-	"тавыш" n nom
+	"тавыш" n nom <Correct!>
 	"тавыш" n attr
 	"тавыш" n nom
 		"и" cop p3 pl
@@ -1578,13 +1578,13 @@
 		"и" cop p3 sg
 "<ишетә>"
 	"ишет" v tv prc_impf
-	"ишет" v tv pres p3 sg
+	"ишет" v tv pres p3 sg <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<ул>"
 	"ул" n nom
 	"ул" n attr
-	"ул" det dem
+	"ул" det dem <Correct!>
 	"ул" prn dem nom
 	"ул" prn pers p3 sg nom
 	"ул" n nom
@@ -1596,14 +1596,14 @@
 	"ул" prn dem nom
 		"и" cop p3 sg
 "<тавыш>"
-	"тавыш" n nom
+	"тавыш" n nom <Correct!>
 	"тавыш" n attr
 	"тавыш" n nom
 		"и" cop p3 pl
 	"тавыш" n nom
 		"и" cop p3 sg
 "<зур>"
-	"зур" adj
+	"зур" adj <Correct!>
 	"зур" adj advl
 	"зур" adj subst nom
 	"зур" adj
@@ -1615,7 +1615,7 @@
 	"зур" adj subst nom
 		"и" cop p3 sg
 "<карт>"
-	"карт" adj
+	"карт" adj <Correct!>
 	"карт" n nom
 	"карт" n attr
 	"карт" adj advl
@@ -1633,9 +1633,9 @@
 	"карт" adj subst nom
 		"и" cop p3 sg
 "<агачның>"
-	"агач" n gen
+	"агач" n gen <Correct!>
 "<артыннан>"
-	"арт" n px3sp abl
+	"арт" n px3sp abl <Correct!>
 	"арт" n px3sp abl
 		"и" cop p3 pl
 	"арт" n px3sp abl
@@ -1646,15 +1646,15 @@
 	"кил" v iv prc_impf
 	"ки" v tv pass pres p3 sg
 	"кил" vaux pres p3 sg
-	"кил" v iv pres p3 sg
+	"кил" v iv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Бәлки>"
-	"бәлки" cnjcoo
+	"бәлки" cnjcoo <Correct!>
 "<бу>"
 	"бу" det dem
-	"бу" prn dem nom
+	"бу" prn dem nom <Correct!>
 	"бу" v tv imp p2 sg
 	"бу" prn dem nom
 		"и" cop p3 pl
@@ -1666,33 +1666,33 @@
 	"Әхмәт" np ant m nom
 		"и" cop p3 pl
 			"дыр" mod_ind
-	"Әхмәт" np ant m nom
+	"Әхмәт" np ant m nom <Correct!>
 		"и" cop p3 sg
 			"дыр" mod_ind
 "<?>"
-	"?" sent
+	"?" sent <Correct!>
 
 "<Тавыш>"
-	"тавыш" n nom
+	"тавыш" n nom <Correct!>
 	"тавыш" n attr
 	"тавыш" n nom
 		"и" cop p3 pl
 	"тавыш" n nom
 		"и" cop p3 sg
 "<янәдән>"
-	"янәдән" adv
+	"янәдән" adv <Correct!>
 "<ишетелә>"
 	"ишет" v tv pass prc_impf
-	"ишет" v tv pass pres p3 sg
+	"ишет" v tv pass pres p3 sg <Correct!>
 "<!>"
-	"!" sent
+	"!" sent <Correct!>
 
 "<Ул>"
 	"ул" n nom
 	"ул" n attr
 	"ул" det dem
 	"ул" prn dem nom
-	"ул" prn pers p3 sg nom
+	"ул" prn pers p3 sg nom <Correct!>
 	"ул" n nom
 		"и" cop p3 pl
 	"ул" n nom
@@ -1702,15 +1702,15 @@
 	"ул" prn dem nom
 		"и" cop p3 sg
 "<игътибар белән>"
-	"игътибар белән" adv
+	"игътибар белән" adv <Correct!>
 "<тыңлый>"
 	"тыңла" v tv prc_impf
-	"тыңла" v tv pres p3 sg
+	"тыңла" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Бу>"
-	"бу" det dem
+	"бу" det dem <Correct!>
 	"бу" prn dem nom
 	"бу" v tv imp p2 sg
 	"бу" prn dem nom
@@ -1718,7 +1718,7 @@
 	"бу" prn dem nom
 		"и" cop p3 sg
 "<тавыш>"
-	"тавыш" n nom
+	"тавыш" n nom <Correct!>
 	"тавыш" n attr
 	"тавыш" n nom
 		"и" cop p3 pl
@@ -1735,14 +1735,14 @@
 	"хайван" n px nom
 		"и" cop p3 pl
 			"да" postadv
-	"хайван" n px nom
+	"хайван" n px nom <Correct!>
 		"и" cop p3 sg
 			"да" cnjcoo
 	"хайван" n px nom
 		"и" cop p3 sg
 			"да" postadv
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<кошныкы да>"
 	"кош" n px nom
 		"да" cnjcoo
@@ -1754,7 +1754,7 @@
 	"кош" n px nom
 		"и" cop p3 pl
 			"да" postadv
-	"кош" n px nom
+	"кош" n px nom <Correct!>
 		"и" cop p3 sg
 			"да" cnjcoo
 	"кош" n px nom
@@ -1762,13 +1762,13 @@
 			"да" postadv
 "<түгел>"
 	"түгел" cnjcoo
-	"и" cop neg p3 sg
+	"и" cop neg p3 sg <Correct!>
 	"түк" v tv pass imp p2 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Хәзер>"
-	"хәзер" adv
+	"хәзер" adv <Correct!>
 	"хәзер" n nom
 	"хәзер" n attr
 	"хәзер" n nom
@@ -1779,7 +1779,7 @@
 	"ул" n nom
 	"ул" n attr
 	"ул" det dem
-	"ул" prn dem nom
+	"ул" prn dem nom <Correct!>
 	"ул" prn pers p3 sg nom
 	"ул" n nom
 		"и" cop p3 pl
@@ -1792,7 +1792,7 @@
 "<яхшы>"
 	"яхшы" ij
 	"яхшы" adj
-	"яхшы" adj advl
+	"яхшы" adj advl <Correct!>
 	"яхшы" adj subst nom
 	"яхшы" adj
 		"и" cop p3 pl
@@ -1804,27 +1804,27 @@
 		"и" cop p3 sg
 "<ишетелә>"
 	"ишет" v tv pass prc_impf
-	"ишет" v tv pass pres p3 sg
+	"ишет" v tv pass pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Бу>"
 	"бу" det dem
-	"бу" prn dem nom
+	"бу" prn dem nom <Correct!>
 	"бу" v tv imp p2 sg
 	"бу" prn dem nom
 		"и" cop p3 pl
 	"бу" prn dem nom
 		"и" cop p3 sg
 "<Әхмәт>"
-	"Әхмәт" np ant m nom
+	"Әхмәт" np ant m nom <Correct!>
 	"Әхмәт" np ant m nom
 		"и" cop p3 pl
 	"Әхмәт" np ant m nom
 		"и" cop p3 sg
 "<булырга>"
 	"бул" vaux inf
-	"бул" v iv inf
+	"бул" v iv inf <Correct!>
 	"бул" vaux gpr_fut subst dat
 	"бул" v iv gpr_fut subst dat
 "<тиеш>"
@@ -1832,22 +1832,22 @@
 	"тиеш" adj subst nom
 	"тиеш" adj
 		"и" cop p3 pl
-	"тиеш" adj
+	"тиеш" adj <Correct!>
 		"и" cop p3 sg
 	"тиеш" adj subst nom
 		"и" cop p3 pl
 	"тиеш" adj subst nom
 		"и" cop p3 sg
 "<!>"
-	"!" sent
+	"!" sent <Correct!>
 
 "<Шуннан соң>"
-	"шуннан соң" adv
+	"шуннан соң" adv <Correct!>
 "<аңа>"
 	"ул" prn dem dat
-	"ул" prn pers p3 sg dat
+	"ул" prn pers p3 sg dat <Correct!>
 "<кечкенә>"
-	"кечкенә" adj
+	"кечкенә" adj <Correct!>
 	"кечкенә" adj advl
 	"кечкенә" adj subst nom
 	"кечкенә" adj
@@ -1860,14 +1860,14 @@
 		"и" cop p3 sg
 "<бер>"
 	"бер" num
-	"бер" det ind
+	"бер" det ind <Correct!>
 	"бер" num subst nom
 	"бер" num subst nom
 		"и" cop p3 pl
 	"бер" num subst nom
 		"и" cop p3 sg
 "<кул да>"
-	"кул" n nom
+	"кул" n nom <Correct!>
 		"да" cnjcoo
 	"кул" n nom
 		"да" postadv
@@ -1885,13 +1885,13 @@
 			"да" postadv
 "<күренә>"
 	"күр" v tv pass prc_impf
-	"күр" v tv pass pres p3 sg
+	"күр" v tv pass pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Якынрак>"
 	"якын" adj comp
-	"якын" adj comp advl
+	"якын" adj comp advl <Correct!>
 	"якын" adj comp subst nom
 	"якын" adj comp
 		"и" cop p3 pl
@@ -1904,15 +1904,15 @@
 "<килгәч>"
 	"ки" v tv pass gna_after
 	"кил" vaux gna_after
-	"кил" v iv gna_after
+	"кил" v iv gna_after <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<ул>"
 	"ул" n nom
 	"ул" n attr
 	"ул" det dem
 	"ул" prn dem nom
-	"ул" prn pers p3 sg nom
+	"ул" prn pers p3 sg nom <Correct!>
 	"ул" n nom
 		"и" cop p3 pl
 	"ул" n nom
@@ -1923,26 +1923,26 @@
 		"и" cop p3 sg
 "<аның>"
 	"ул" prn dem gen
-	"ул" prn pers p3 sg gen
+	"ул" prn pers p3 sg gen <Correct!>
 "<башын>"
-	"баш" n px3sp acc
+	"баш" n px3sp acc <Correct!>
 	"баш" adj subst px3sp acc
 "<да>"
-	"да" cnjcoo
+	"да" cnjcoo <Correct!>
 	"да" postadv
 "<күрә>"
 	"күр" v tv prc_impf
 	"күрә" post
-	"күр" v tv pres p3 sg
+	"күр" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Ул>"
 	"ул" n nom
 	"ул" n attr
 	"ул" det dem
 	"ул" prn dem nom
-	"ул" prn pers p3 sg nom
+	"ул" prn pers p3 sg nom <Correct!>
 	"ул" n nom
 		"и" cop p3 pl
 	"ул" n nom
@@ -1953,28 +1953,28 @@
 		"и" cop p3 sg
 "<көлеп>"
 	"көл" v iv prc_perf
-	"көл" v iv gna_perf
+	"көл" v iv gna_perf <Correct!>
 "<">"
-	""" sent
+	""" sent <Correct!>
 "<Мин>"
-	"мин" prn pers p1 sg nom
+	"мин" prn pers p1 sg nom <Correct!>
 "<сине>"
-	"син" prn pers p2 sg acc
+	"син" prn pers p2 sg acc <Correct!>
 "<таптым>"
-	"тап" v tv ifi p1 sg
+	"тап" v tv ifi p1 sg <Correct!>
 "<!>"
-	"!" sent
+	"!" sent <Correct!>
 "<">"
-	""" sent
+	""" sent <Correct!>
 "<ди>"
 	"ди" v tv prc_impf
 	"ди" v tv imp p2 sg
-	"ди" v tv pres p3 sg
+	"ди" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Икесе дә>"
-	"ике" num subst px3sp nom
+	"ике" num subst px3sp nom <Correct!>
 		"да" cnjcoo
 	"ике" num subst px3sp nom
 		"да" postadv
@@ -1992,28 +1992,28 @@
 			"да" postadv
 "<шатланып>"
 	"шатлан" v iv prc_perf
-	"шатлан" v iv gna_perf
+	"шатлан" v iv gna_perf <Correct!>
 "<өйгә>"
-	"өй" n dat
+	"өй" n dat <Correct!>
 "<кайталар>"
-	"кайт" v iv pres p3 pl
+	"кайт" v iv pres p3 pl <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<берәр>"
 	"бер" num dist nom
-	"берәр" det ind
+	"берәр" det ind <Correct!>
 	"бер" num dist nom
 		"и" cop p3 pl
 	"бер" num dist nom
 		"и" cop p3 sg
 "<нәрсә>"
-	"нәрсә" prn itg nom
+	"нәрсә" prn itg nom <Correct!>
 	"нәрсә" prn itg nom
 		"и" cop p3 pl
 	"нәрсә" prn itg nom
 		"и" cop p3 sg
 "<ашарга да>"
-	"аша" v tv inf
+	"аша" v tv inf <Correct!>
 		"да" cnjcoo
 	"аша" v tv inf
 		"да" postadv
@@ -2022,17 +2022,17 @@
 	"аша" v tv gpr_fut subst dat
 		"да" postadv
 "<су>"
-	"су" n nom
+	"су" n nom <Correct!>
 	"су" n attr
 	"су" n nom
 		"и" cop p3 pl
 	"су" n nom
 		"и" cop p3 sg
 "<эчеп>"
-	"эч" v tv prc_perf
+	"эч" v tv prc_perf <Correct!>
 	"эч" v tv gna_perf
 "<алырга>"
-	"ал" vaux inf
+	"ал" vaux inf <Correct!>
 	"ал" v tv inf
 	"ал" vaux gpr_fut subst dat
 	"ал" v tv gpr_fut subst dat
@@ -2041,17 +2041,17 @@
 	"вакыт" n attr
 	"вакыт" n nom
 		"и" cop p3 pl
-	"вакыт" n nom
+	"вакыт" n nom <Correct!>
 		"и" cop p3 sg
 "<!>"
-	"!" sent
+	"!" sent <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 <BASIC TATAR CONVERSATIONS>
 <apertium-tat-rus/texts/text1.tat.txt>
 "<Синең>"
-	"син" prn pers p2 sg gen
+	"син" prn pers p2 sg gen <Correct!>
 "<улың>"
 	"ул" n px2sg nom
 	"ул" n px2sg nom

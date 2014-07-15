@@ -755,6 +755,14 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 	(1 EOS)
 ;
 
+# INPUT:  ^Бу/бу<det><dem>/бу<prn><dem><nom>/бу<v><tv><imp><p2><sg>$
+#         ^мин/мин<prn><pers><p1><sg><nom>$^./.<sent>$
+# OUTPUT: ^Бу/бу<prn><dem><nom>$
+#         ^мин/мин<prn><pers><p1><sg><nom>$^./.<sent>$
+"<Бу>" SELECT Pron IF
+       (2 EOS)
+;
+
 SECTION
 
 LIST @→N = @→N ; 

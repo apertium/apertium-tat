@@ -763,6 +763,12 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
        (2 EOS)
 ;
 
+# INPUT:  ^бар/бар<adj>/бар<det><qnt>/бар<n><attr>/бар<n><nom>/бар<adj><subst><nom>/бар<v><iv><imp><p2><sg>$^./.<sent>$
+# OUTPUT: ^бар/бар<adj>$^./.<sent>$
+ "<бар>" SELECT A IF
+ 	 (1 EOS)
+;
+
 SECTION
 
 LIST @→N = @→N ; 

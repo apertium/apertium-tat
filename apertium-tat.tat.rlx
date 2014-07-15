@@ -769,7 +769,13 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
  	 (1 EOS)
 ;
 
-SECTION
+############ Heurisitics #####################
+
+# INPUT:  ^турында/тур<n><px3sp><loc>/турында<post>$
+# OUTPUT: ^турында/турында<post>
+ "<турында>" SELECT Post
+
+SECTION ########### MAPPING RULES ###############
 
 LIST @→N = @→N ; 
 LIST @ADVL→ = @ADVL→ ; 

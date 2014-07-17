@@ -775,6 +775,11 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 # OUTPUT: ^турында/турында<post>
  "<турында>" SELECT Post
 
+# INPUT:  ^бит/бит<mod_ass>/бит<n><nom>/бит<n><attr>$
+# OUPUT: ^бит/бит<mod_ass>$
+ "<бит>" SELECT (mod_ass)
+;
+
 SECTION ########### MAPPING RULES ###############
 
 LIST @→N = @→N ; 

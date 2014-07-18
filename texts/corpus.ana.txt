@@ -12008,19 +12008,19 @@
 	"*әәкаләтләре" <Correct!>
 
 "<1>"
-	"1" num
+	"1" num <Correct!>
 	"1" num subst nom
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -12028,7 +12028,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12044,25 +12044,25 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<хакимияте>"
-	"хакимият" n px3sp nom
+	"хакимият" n px3sp nom <Correct!>
 	"хакимият" n px3sp nom
 		"и" cop p3 pl
 	"хакимият" n px3sp nom
 		"и" cop p3 sg
 "<органнары>"
-	"орган" n pl px3sp nom
+	"орган" n pl px3sp nom <Correct!>
 	"орган" n pl px3sp nom
 		"и" cop p3 pl
 	"орган" n pl px3sp nom
 		"и" cop p3 sg
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -12070,14 +12070,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12093,59 +12093,59 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәмен>"
-	"ярдәм" n px3sp acc
+	"ярдәм" n px3sp acc <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасының>"
-	"республика" n px3sp gen
+	"республика" n px3sp gen <Correct!>
 "<социаль>"
-	"социаль" adj
+	"социаль" adj <Correct!>
 	"социаль" adj
 		"и" cop p3 pl
 	"социаль" adj
 		"и" cop p3 sg
 "<->"
-	"-" guio
+	"-" guio <Correct!>
 "<икътисадый>"
-	"икътисади" adj
+	"икътисади" adj <Correct!>
 	"икътисади" adj
 		"и" cop p3 pl
 	"икътисади" adj
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<экологик>"
-	"экологик" adj
+	"экологик" adj <Correct!>
 	"экологик" adj
 		"и" cop p3 pl
 	"экологик" adj
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<демографик>"
-	"демографик" adj
+	"демографик" adj <Correct!>
 	"демографик" adj
 		"и" cop p3 pl
 	"демографик" adj
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<этномәдәни>"
-	"*этномәдәни"
+	"*этномәдәни" <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<башка>"
 	"баш" n dat
 	"баш" adj subst dat
 	"башка" post
-	"башка" adj
+	"башка" adj <Correct!>
 	"башка" adj subst nom
 	"башка" prn ind nom
 	"башка" adj
@@ -12161,7 +12161,7 @@
 	"башка" prn ind nom
 		"и" cop p3 sg
 "<региональ>"
-	"региональ" adj
+	"региональ" adj <Correct!>
 	"региональ" adj advl
 	"региональ" adj subst nom
 	"региональ" adj
@@ -12173,24 +12173,24 @@
 	"региональ" adj subst nom
 		"и" cop p3 sg
 "<үзенчәлекләрен>"
-	"үзенчәлек" n pl px3sp acc
+	"үзенчәлек" n pl px3sp acc <Correct!>
 "<исәпкә>"
-	"исәп" n dat
+	"исәп" n dat <Correct!>
 "<алып>"
 	"ал" vaux prc_perf
 	"ал" vaux gna_perf
 	"ал" v tv prc_perf
-	"ал" v tv gna_perf
+	"ал" v tv gna_perf <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -12198,23 +12198,23 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<ярдәм итүгә>"
-	"ярдәм ит" v iv ger dat
+	"ярдәм ит" v iv ger dat <Correct!>
 "<юнәлдерелгән>"
-	"*юнәлдерелгән"
+	"*юнәлдерелгән" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -12222,7 +12222,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12238,108 +12238,108 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<программаларын>"
-	"программа" n pl px3sp acc
+	"программа" n pl px3sp acc <Correct!>
 	"программала" v tv ger_fut px3sp acc
 	"программала" v tv gpr_fut subst px3sp acc
 "<законнарда>"
-	"закон" n pl loc
+	"закон" n pl loc <Correct!>
 	"закон" n pl loc
 		"и" cop p3 pl
 	"закон" n pl loc
 		"и" cop p3 sg
 "<билгеләнгән>"
-	"билгелә" v tv pass gpr_past
+	"билгелә" v tv pass gpr_past <Correct!>
 	"билгелә" v tv pass ger_past nom
 	"билгелә" v tv pass past p3 sg
 	"билгелә" v tv pass gpr_past subst nom
 "<тәртиптә>"
-	"тәртип" n loc
+	"тәртип" n loc <Correct!>
 	"тәртип" n loc
 		"и" cop p3 pl
 	"тәртип" n loc
 		"и" cop p3 sg
 "<эшләү>"
-	"эшлә" v tv ger nom
+	"эшлә" v tv ger nom <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<тормышка ашыру>"
-	"тормышка ашыр" v tv ger nom
+	"тормышка ашыр" v tv ger nom <Correct!>
 "<юлы>"
-	"юл" n px3sp nom
+	"юл" n px3sp nom <Correct!>
 	"юл" n px3sp nom
 		"и" cop p3 pl
 	"юл" n px3sp nom
 		"и" cop p3 sg
 "<белән>"
 	"белән" cnjcoo
-	"белән" post
+	"белән" post <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<законнары>"
-	"закон" n pl px3sp nom
+	"закон" n pl px3sp nom <Correct!>
 	"закон" n pl px3sp nom
 		"и" cop p3 pl
 	"закон" n pl px3sp nom
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнары>"
-	"закон" n pl px3sp nom
+	"закон" n pl px3sp nom <Correct!>
 	"закон" n pl px3sp nom
 		"и" cop p3 pl
 	"закон" n pl px3sp nom
 		"и" cop p3 sg
 "<нигезендә>"
-	"нигез" n px3sp loc
+	"нигез" n px3sp loc <Correct!>
 	"нигез" n px3sp loc
 		"и" cop p3 pl
 	"нигез" n px3sp loc
 		"и" cop p3 sg
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыра>"
 	"ашыр" v tv prc_impf
-	"ашыр" v tv pres p3 sg
+	"ашыр" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<2>"
-	"2" num
+	"2" num <Correct!>
 	"2" num subst nom
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -12347,14 +12347,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12370,22 +12370,22 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<буенча>"
-	"буенча" post
+	"буенча" post <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -12393,7 +12393,7 @@
 "<Дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"Дәүләт" np ant m nom
@@ -12414,38 +12414,38 @@
 	"Дәүләт" np ant m nom
 		"и" cop p3 sg
 "<Советы>"
-	"совет" n px3sp nom
+	"совет" n px3sp nom <Correct!>
 	"совет" n px3sp nom
 		"и" cop p3 pl
 	"совет" n px3sp nom
 		"и" cop p3 sg
 "<вәкаләтләренә>"
-	"*вәкаләтләренә"
+	"*вәкаләтләренә" <Correct!>
 "<түбәндәгеләр>"
-	"түбән" adj subst loc subst pl nom
+	"түбән" adj subst loc subst pl nom <Correct!>
 	"түбән" adj subst loc subst pl nom
 		"и" cop p3 pl
 	"түбән" adj subst loc subst pl nom
 		"и" cop p3 sg
 "<керә>"
 	"кер" v iv prc_impf
-	"кер" v iv pres p3 sg
+	"кер" v iv pres p3 sg <Correct!>
 "<:>"
-	":" sent
+	":" sent <Correct!>
 
 "<1>"
-	"1" num
+	"1" num <Correct!>
 	"1" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -12453,14 +12453,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12476,36 +12476,36 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<күрсәтүгә>"
-	"күрсәт" v tv ger dat
+	"күрсәт" v tv ger dat <Correct!>
 "<юнәлдерелгән>"
-	"*юнәлдерелгән"
+	"*юнәлдерелгән" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнары>"
-	"закон" n pl px3sp nom
+	"закон" n pl px3sp nom <Correct!>
 	"закон" n pl px3sp nom
 		"и" cop p3 pl
 	"закон" n pl px3sp nom
 		"и" cop p3 sg
 "<кабул итү>"
-	"кабул ит" v tv ger nom
+	"кабул ит" v tv ger nom <Correct!>
 	"кабул итү" n nom
 	"кабул итү" n attr
 	"кабул итү" n nom
@@ -12513,94 +12513,94 @@
 	"кабул итү" n nom
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<аларның>"
-	"ул" prn dem pl gen
+	"ул" prn dem pl gen <Correct!>
 	"алар" prn pers p3 pl gen
 "<үтәлешен>"
-	"*үтәлешен"
+	"*үтәлешен" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<Конституциясендә>"
-	"конституция" n px3sp loc
+	"конституция" n px3sp loc <Correct!>
 	"конституция" n px3sp loc
 		"и" cop p3 pl
 	"конституция" n px3sp loc
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<билгеләнгән>"
-	"билгелә" v tv pass gpr_past
+	"билгелә" v tv pass gpr_past <Correct!>
 	"билгелә" v tv pass ger_past nom
 	"билгелә" v tv pass past p3 sg
 	"билгелә" v tv pass gpr_past subst nom
 "<чикләрдә>"
-	"чик" n pl loc
+	"чик" n pl loc <Correct!>
 	"чиклә" v tv gpr_fut subst loc
 	"чик" n pl loc
 		"и" cop p3 pl
 	"чик" n pl loc
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<рәвешләрдә>"
-	"рәвеш" n pl loc
+	"рәвеш" n pl loc <Correct!>
 	"рәвеш" n pl loc
 		"и" cop p3 pl
 	"рәвеш" n pl loc
 		"и" cop p3 sg
 "<тикшереп>"
-	"тикшер" v tv prc_perf
+	"тикшер" v tv prc_perf <Correct!>
 	"тикшер" v tv gna_perf
 "<тору>"
-	"тор" vaux ger nom
+	"тор" vaux ger nom <Correct!>
 	"тор" v iv ger nom
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<2>"
-	"2" num
+	"2" num <Correct!>
 	"2" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -12608,23 +12608,23 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<ярдәм итүгә>"
-	"ярдәм ит" v iv ger dat
+	"ярдәм ит" v iv ger dat <Correct!>
 "<юнәлдерелгән>"
-	"*юнәлдерелгән"
+	"*юнәлдерелгән" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -12632,7 +12632,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12648,86 +12648,86 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<профаммасын>"
-	"*профаммасын"
+	"*профаммасын" <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыру>"
-	"ашыр" v tv ger nom
+	"ашыр" v tv ger nom <Correct!>
 "<чыгымнарын>"
-	"чыгым" n pl px3sp acc
+	"чыгым" n pl px3sp acc <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<бюджеты>"
-	"*бюджеты"
+	"*бюджеты" <Correct!>
 "<составында>"
-	"состав" n px3sp loc
+	"состав" n px3sp loc <Correct!>
 	"состав" n px3sp loc
 		"и" cop p3 pl
 	"состав" n px3sp loc
 		"и" cop p3 sg
 "<раслау>"
-	"расла" v tv ger nom
+	"расла" v tv ger nom <Correct!>
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<3>"
-	"3" num
+	"3" num <Correct!>
 	"3" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<каралган>"
-	"кара" v tv pass gpr_past
+	"кара" v tv pass gpr_past <Correct!>
 	"карал" v iv gpr_past
 	"кара" v tv pass ger_past nom
 	"карал" v iv ger_past nom
@@ -12737,7 +12737,7 @@
 	"карал" v iv gpr_past subst nom
 "<бүтән>"
 	"бүтән" post
-	"бүтән" adj
+	"бүтән" adj <Correct!>
 	"бүтән" adj subst nom
 	"бүтән" adj
 		"и" cop p3 pl
@@ -12748,27 +12748,27 @@
 	"бүтән" adj subst nom
 		"и" cop p3 sg
 "<вәкаләтләрне>"
-	"*вәкаләтләрне"
+	"*вәкаләтләрне" <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыру>"
-	"ашыр" v tv ger nom
+	"ашыр" v tv ger nom <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<3>"
-	"3" num
+	"3" num <Correct!>
 	"3" num subst nom
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -12776,14 +12776,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12799,65 +12799,65 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<буенча>"
-	"буенча" post
+	"буенча" post <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<Министрлар>"
-	"министр" n pl nom
+	"министр" n pl nom <Correct!>
 	"министр" n pl nom
 		"и" cop p3 pl
 	"министр" n pl nom
 		"и" cop p3 sg
 "<Кабинеты>"
-	"кабинет" n px3sp nom
+	"кабинет" n px3sp nom <Correct!>
 	"кабинет" n px3sp nom
 		"и" cop p3 pl
 	"кабинет" n px3sp nom
 		"и" cop p3 sg
 "<вәкаләтләренә>"
-	"*вәкаләтләренә"
+	"*вәкаләтләренә" <Correct!>
 "<түбәндәгеләр>"
-	"түбән" adj subst loc subst pl nom
+	"түбән" adj subst loc subst pl nom <Correct!>
 	"түбән" adj subst loc subst pl nom
 		"и" cop p3 pl
 	"түбән" adj subst loc subst pl nom
 		"и" cop p3 sg
 "<керә>"
 	"кер" v iv prc_impf
-	"кер" v iv pres p3 sg
+	"кер" v iv pres p3 sg <Correct!>
 "<:>"
-	":" sent
+	":" sent <Correct!>
 
 "<1>"
-	"1" num
+	"1" num <Correct!>
 	"1" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -12865,24 +12865,24 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<ярдәм итүгә>"
-	"ярдәм ит" v iv ger dat
+	"ярдәм ит" v iv ger dat <Correct!>
 "<юнәлдерелгән>"
-	"*юнәлдерелгән"
+	"*юнәлдерелгән" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -12890,7 +12890,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -12906,85 +12906,85 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<программасын>"
-	"программа" n px3sp acc
+	"программа" n px3sp acc <Correct!>
 "<эшләү>"
-	"эшлә" v tv ger nom
+	"эшлә" v tv ger nom <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыру>"
-	"ашыр" v tv ger nom
+	"ашыр" v tv ger nom <Correct!>
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<2>"
-	"2" num
+	"2" num <Correct!>
 	"2" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<милкендәге>"
-	"милек" n px3sp loc attr
+	"милек" n px3sp loc attr <Correct!>
 	"милек" n px3sp loc subst nom
 	"милек" n px3sp loc subst nom
 		"и" cop p3 pl
 	"милек" n px3sp loc subst nom
 		"и" cop p3 sg
 "<мөлкәтне>"
-	"мөлкәт" n acc
+	"мөлкәт" n acc <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<билгеләнгән>"
-	"билгелә" v tv pass gpr_past
+	"билгелә" v tv pass gpr_past <Correct!>
 	"билгелә" v tv pass ger_past nom
 	"билгелә" v tv pass past p3 sg
 	"билгелә" v tv pass gpr_past subst nom
 "<тәртиптә>"
-	"тәртип" n loc
+	"тәртип" n loc <Correct!>
 	"тәртип" n loc
 		"и" cop p3 pl
 	"тәртип" n loc
 		"и" cop p3 sg
 "<Университетка>"
-	"университет" n dat
+	"университет" n dat <Correct!>
 "<түләүсез>"
-	"түлә" v tv ger
+	"түлә" v tv ger <Correct!>
 		"сыз" post advl
 "<куллануга>"
 	"куллан" v tv ger dat
-	"куллану" n dat
+	"куллану" n dat <Correct!>
 "<тапшыру>"
-	"тапшыр" v tv ger nom
+	"тапшыр" v tv ger nom <Correct!>
 	"тапшыру" n nom
 	"тапшыру" n attr
 	"тапшыру" n nom
@@ -12993,7 +12993,7 @@
 		"и" cop p3 sg
 "<турында>"
 	"тур" n px3sp loc
-	"турында" post
+	"турында" post <Correct!>
 	"тур" n px3sp loc
 		"и" cop p3 pl
 	"тур" n px3sp loc
@@ -13001,7 +13001,7 @@
 "<карарлар>"
 	"кара" vaux fut p3 pl
 	"кара" v tv fut p3 pl
-	"карар" n pl nom
+	"карар" n pl nom <Correct!>
 	"кара" vaux gpr_fut subst pl nom
 	"кара" v tv gpr_fut subst pl nom
 	"карар" n pl nom
@@ -13009,7 +13009,7 @@
 	"карар" n pl nom
 		"и" cop p3 sg
 "<кабул итү>"
-	"кабул ит" v tv ger nom
+	"кабул ит" v tv ger nom <Correct!>
 	"кабул итү" n nom
 	"кабул итү" n attr
 	"кабул итү" n nom
@@ -13017,55 +13017,55 @@
 	"кабул итү" n nom
 		"и" cop p3 sg
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<3>"
-	"3" num
+	"3" num <Correct!>
 	"3" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<каралган>"
-	"кара" v tv pass gpr_past
+	"кара" v tv pass gpr_past <Correct!>
 	"карал" v iv gpr_past
 	"кара" v tv pass ger_past nom
 	"карал" v iv ger_past nom
@@ -13075,7 +13075,7 @@
 	"карал" v iv gpr_past subst nom
 "<бүтән>"
 	"бүтән" post
-	"бүтән" adj
+	"бүтән" adj <Correct!>
 	"бүтән" adj subst nom
 	"бүтән" adj
 		"и" cop p3 pl
@@ -13086,27 +13086,27 @@
 	"бүтән" adj subst nom
 		"и" cop p3 sg
 "<вәкаләтләрне>"
-	"*вәкаләтләрне"
+	"*вәкаләтләрне" <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыру>"
-	"ашыр" v tv ger nom
+	"ашыр" v tv ger nom <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<4>"
-	"4" num
+	"4" num <Correct!>
 	"4" num subst nom
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -13114,14 +13114,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13137,28 +13137,28 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<буенча>"
-	"буенча" post
+	"буенча" post <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<башкарма>"
-	"башкарма" adj
+	"башкарма" adj <Correct!>
 	"башкарма" adj subst nom
 	"башкар" v tv neg imp p2 sg
 	"башкарма" adj
@@ -13170,55 +13170,55 @@
 	"башкарма" adj subst nom
 		"и" cop p3 sg
 "<хакимиятенең>"
-	"хакимият" n px3sp gen
+	"хакимият" n px3sp gen <Correct!>
 "<мәгариф>"
 	"мәгариф" n nom
-	"мәгариф" n attr
+	"мәгариф" n attr <Correct!>
 	"мәгариф" n nom
 		"и" cop p3 pl
 	"мәгариф" n nom
 		"и" cop p3 sg
 "<өлкәсендә>"
-	"өлкә" n px3sp loc
+	"өлкә" n px3sp loc <Correct!>
 	"өлкә" n px3sp loc
 		"и" cop p3 pl
 	"өлкә" n px3sp loc
 		"и" cop p3 sg
 "<вәкаләтле>"
-	"*вәкаләтле"
+	"*вәкаләтле" <Correct!>
 "<органы>"
-	"орган" n px3sp nom
+	"орган" n px3sp nom <Correct!>
 	"орган" n px3sp nom
 		"и" cop p3 pl
 	"орган" n px3sp nom
 		"и" cop p3 sg
 "<вәкаләтләренә>"
-	"*вәкаләтләренә"
+	"*вәкаләтләренә" <Correct!>
 "<түбәндәгеләр>"
-	"түбән" adj subst loc subst pl nom
+	"түбән" adj subst loc subst pl nom <Correct!>
 	"түбән" adj subst loc subst pl nom
 		"и" cop p3 pl
 	"түбән" adj subst loc subst pl nom
 		"и" cop p3 sg
 "<керә>"
 	"кер" v iv prc_impf
-	"кер" v iv pres p3 sg
+	"кер" v iv pres p3 sg <Correct!>
 "<:>"
-	":" sent
+	":" sent <Correct!>
 
 "<1>"
-	"1" num
+	"1" num <Correct!>
 	"1" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -13226,23 +13226,23 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<ярдәм итүгә>"
-	"ярдәм ит" v iv ger dat
+	"ярдәм ит" v iv ger dat <Correct!>
 "<юнәлдерелгән>"
-	"*юнәлдерелгән"
+	"*юнәлдерелгән" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -13250,7 +13250,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13266,17 +13266,17 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<программасын>"
-	"программа" n px3sp acc
+	"программа" n px3sp acc <Correct!>
 "<үз>"
-	"үз" det ref
+	"үз" det ref <Correct!>
 "<компетенциясе>"
-	"компетенция" n px3sp nom
+	"компетенция" n px3sp nom <Correct!>
 	"компетенция" n px3sp nom
 		"и" cop p3 pl
 	"компетенция" n px3sp nom
 		"и" cop p3 sg
 "<чикләрендә>"
-	"чик" n pl px3sp loc
+	"чик" n pl px3sp loc <Correct!>
 	"чиклә" v tv ger_fut px3sp loc
 	"чиклә" v tv gpr_fut subst px3sp loc
 	"чик" n pl px3sp loc
@@ -13284,71 +13284,71 @@
 	"чик" n pl px3sp loc
 		"и" cop p3 sg
 "<эшләүдә>"
-	"эшлә" v tv ger loc
+	"эшлә" v tv ger loc <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыруда>"
-	"ашыр" v tv ger loc
+	"ашыр" v tv ger loc <Correct!>
 "<катнашу>"
 	"катнаш" v iv ger nom
-	"катнашу" n nom
+	"катнашу" n nom <Correct!>
 	"катнашу" n attr
 	"катнашу" n nom
 		"и" cop p3 pl
 	"катнашу" n nom
 		"и" cop p3 sg
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<2>"
-	"2" num
+	"2" num <Correct!>
 	"2" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнарында>"
-	"закон" n pl px3sp loc
+	"закон" n pl px3sp loc <Correct!>
 	"закон" n pl px3sp loc
 		"и" cop p3 pl
 	"закон" n pl px3sp loc
 		"и" cop p3 sg
 "<каралган>"
-	"кара" v tv pass gpr_past
+	"кара" v tv pass gpr_past <Correct!>
 	"карал" v iv gpr_past
 	"кара" v tv pass ger_past nom
 	"карал" v iv ger_past nom
@@ -13358,7 +13358,7 @@
 	"карал" v iv gpr_past subst nom
 "<бүтән>"
 	"бүтән" post
-	"бүтән" adj
+	"бүтән" adj <Correct!>
 	"бүтән" adj subst nom
 	"бүтән" adj
 		"и" cop p3 pl
@@ -13369,34 +13369,34 @@
 	"бүтән" adj subst nom
 		"и" cop p3 sg
 "<вәкаләтләрне>"
-	"*вәкаләтләрне"
+	"*вәкаләтләрне" <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыру>"
-	"ашыр" v tv ger nom
+	"ашыр" v tv ger nom <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<5>"
-	"5" num
+	"5" num <Correct!>
 	"5" num subst nom
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<башкарма>"
-	"башкарма" adj
+	"башкарма" adj <Correct!>
 	"башкарма" adj subst nom
 	"башкар" v tv neg imp p2 sg
 	"башкарма" adj
@@ -13408,10 +13408,10 @@
 	"башкарма" adj subst nom
 		"и" cop p3 sg
 "<хакимиятенең>"
-	"хакимият" n px3sp gen
+	"хакимият" n px3sp gen <Correct!>
 "<бүтән>"
 	"бүтән" post
-	"бүтән" adj
+	"бүтән" adj <Correct!>
 	"бүтән" adj subst nom
 	"бүтән" adj
 		"и" cop p3 pl
@@ -13422,19 +13422,19 @@
 	"бүтән" adj subst nom
 		"и" cop p3 sg
 "<органнары>"
-	"орган" n pl px3sp nom
+	"орган" n pl px3sp nom <Correct!>
 	"орган" n pl px3sp nom
 		"и" cop p3 pl
 	"орган" n pl px3sp nom
 		"и" cop p3 sg
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -13442,14 +13442,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13465,71 +13465,71 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<буенча>"
-	"буенча" post
+	"буенча" post <Correct!>
 "<вәкаләтләрен>"
-	"*вәкаләтләрен"
+	"*вәкаләтләрен" <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<законнары>"
-	"закон" n pl px3sp nom
+	"закон" n pl px3sp nom <Correct!>
 	"закон" n pl px3sp nom
 		"и" cop p3 pl
 	"закон" n pl px3sp nom
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Татарстан>"
-	"Татарстан" np top nom
+	"Татарстан" np top nom <Correct!>
 	"Татарстан" np top attr
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнары>"
-	"закон" n pl px3sp nom
+	"закон" n pl px3sp nom <Correct!>
 	"закон" n pl px3sp nom
 		"и" cop p3 pl
 	"закон" n pl px3sp nom
 		"и" cop p3 sg
 "<нигезендә>"
-	"нигез" n px3sp loc
+	"нигез" n px3sp loc <Correct!>
 	"нигез" n px3sp loc
 		"и" cop p3 pl
 	"нигез" n px3sp loc
 		"и" cop p3 sg
 "<үз>"
-	"үз" det ref
+	"үз" det ref <Correct!>
 "<компетенцияләре>"
-	"компетенция" n pl px3sp nom
+	"компетенция" n pl px3sp nom <Correct!>
 	"компетенция" n pl px3sp nom
 		"и" cop p3 pl
 	"компетенция" n pl px3sp nom
 		"и" cop p3 sg
 "<чикләрендә>"
-	"чик" n pl px3sp loc
+	"чик" n pl px3sp loc <Correct!>
 	"чиклә" v tv ger_fut px3sp loc
 	"чиклә" v tv gpr_fut subst px3sp loc
 	"чик" n pl px3sp loc
@@ -13537,29 +13537,29 @@
 	"чик" n pl px3sp loc
 		"и" cop p3 sg
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыра>"
 	"ашыр" v tv prc_impf
-	"ашыр" v tv pres p3 sg
+	"ашыр" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<4>"
-	"4" num
+	"4" num <Correct!>
 	"4" num subst nom
 "<статья>"
-	"статья" n nom
+	"статья" n nom <Correct!>
 	"статья" n attr
 	"статья" n nom
 		"и" cop p3 pl
 	"статья" n nom
 		"и" cop p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Уннверситетта>"
-	"*Уннверситетта"
+	"*Уннверситетта" <Correct!>
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -13567,23 +13567,23 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<ярдәм итүгә>"
-	"ярдәм ит" v iv ger dat
+	"ярдәм ит" v iv ger dat <Correct!>
 "<юнәлдерелгән>"
-	"*юнәлдерелгән"
+	"*юнәлдерелгән" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -13591,7 +13591,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13607,7 +13607,7 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<программасы>"
-	"программа" n px3sp nom
+	"программа" n px3sp nom <Correct!>
 	"программа" n px3sp nom
 		"и" cop p3 pl
 	"программа" n px3sp nom
@@ -13615,13 +13615,13 @@
 
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -13629,7 +13629,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13645,38 +13645,38 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<программасы>"
-	"программа" n px3sp nom
+	"программа" n px3sp nom <Correct!>
 	"программа" n px3sp nom
 		"и" cop p3 pl
 	"программа" n px3sp nom
 		"и" cop p3 sg
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<Хөкүмәте>"
-	"хөкүмәт" n px3sp nom
+	"хөкүмәт" n px3sp nom <Correct!>
 	"хөкүмәт" n px3sp nom
 		"и" cop p3 pl
 	"хөкүмәт" n px3sp nom
 		"и" cop p3 sg
 "<раслаган>"
-	"расла" v tv gpr_past
+	"расла" v tv gpr_past <Correct!>
 	"расла" v tv ger_past nom
 	"расла" v tv past p3 sg
 	"расла" v tv gpr_past subst nom
 "<программалар>"
 	"программала" v tv gpr_fut
-	"программа" n pl nom
+	"программа" n pl nom <Correct!>
 	"программала" v tv gpr_fut subst nom
 	"программала" v tv fut p3 sg
 	"программа" n pl nom
@@ -13684,21 +13684,21 @@
 	"программа" n pl nom
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясенең>"
-	"федерация" n px3sp gen
+	"федерация" n px3sp gen <Correct!>
 "<башка>"
 	"баш" n dat
 	"баш" adj subst dat
 	"башка" post
-	"башка" adj
+	"башка" adj <Correct!>
 	"башка" adj subst nom
 	"башка" prn ind nom
 	"башка" adj
@@ -13714,7 +13714,7 @@
 	"башка" prn ind nom
 		"и" cop p3 sg
 "<хокукый>"
-	"хокукый" adj
+	"хокукый" adj <Correct!>
 	"хокукый" adj advl
 	"хокукый" adj subst nom
 	"хокукый" adj
@@ -13726,26 +13726,26 @@
 	"хокукый" adj subst nom
 		"и" cop p3 sg
 "<актлары>"
-	"акт" n pl px3sp nom
+	"акт" n pl px3sp nom <Correct!>
 	"акт" n pl px3sp nom
 		"и" cop p3 pl
 	"акт" n pl px3sp nom
 		"и" cop p3 sg
 "<кысаларында>"
-	"кыса" n pl px3sp loc
+	"кыса" n pl px3sp loc <Correct!>
 	"кыса" n pl px3sp loc
 		"и" cop p3 pl
 	"кыса" n pl px3sp loc
 		"и" cop p3 sg
 "<Университетны>"
-	"университет" n acc
+	"университет" n acc <Correct!>
 "<үстерүнең>"
 	"үстер" v tv ger gen
-	"үстерү" n gen
+	"үстерү" n gen <Correct!>
 "<төп>"
 	"төп" adj
 	"төп" n nom
-	"төп" n attr
+	"төп" n attr <Correct!>
 	"төп" adj subst nom
 	"төп" adj
 		"и" cop p3 pl
@@ -13760,25 +13760,25 @@
 	"төп" adj subst nom
 		"и" cop p3 sg
 "<юнәлешләре>"
-	"юнәлеш" n pl px3sp nom
+	"юнәлеш" n pl px3sp nom <Correct!>
 	"юнәлеш" n pl px3sp nom
 		"и" cop p3 pl
 	"юнәлеш" n pl px3sp nom
 		"и" cop p3 sg
 "<нигезендә>"
-	"нигез" n px3sp loc
+	"нигез" n px3sp loc <Correct!>
 	"нигез" n px3sp loc
 		"и" cop p3 pl
 	"нигез" n px3sp loc
 		"и" cop p3 sg
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -13786,14 +13786,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13809,35 +13809,35 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<чараларын>"
-	"чара" n pl px3sp acc
+	"чара" n pl px3sp acc <Correct!>
 "<билгели>"
 	"билгелә" v tv prc_impf
-	"билгелә" v tv pres p3 sg
+	"билгелә" v tv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<5>"
-	"5" num
+	"5" num <Correct!>
 	"5" num subst nom
 "<статья>"
-	"статья" n nom
+	"статья" n nom <Correct!>
 	"статья" n attr
 	"статья" n nom
 		"и" cop p3 pl
 	"статья" n nom
 		"и" cop p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Унинерситетта>"
-	"*Унинерситетта"
+	"*Унинерситетта" <Correct!>
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -13845,14 +13845,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13868,27 +13868,27 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<чараларын>"
-	"чара" n pl px3sp acc
+	"чара" n pl px3sp acc <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашырганда>"
-	"ашыр" v tv ger_past loc
+	"ашыр" v tv ger_past loc <Correct!>
 	"ашыр" v tv gpr_past subst loc
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -13896,7 +13896,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13912,19 +13912,19 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<хакимияте>"
-	"хакимият" n px3sp nom
+	"хакимият" n px3sp nom <Correct!>
 	"хакимият" n px3sp nom
 		"и" cop p3 pl
 	"хакимият" n px3sp nom
 		"и" cop p3 sg
 "<органнарының>"
-	"орган" n pl px3sp gen
+	"орган" n pl px3sp gen <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Университетның>"
-	"университет" n gen
+	"университет" n gen <Correct!>
 "<үзара>"
-	"үзара" adj
+	"үзара" adj <Correct!>
 	"үзара" adj advl
 	"үзара" adj subst nom
 	"үзара" adj
@@ -13936,11 +13936,11 @@
 	"үзара" adj subst nom
 		"и" cop p3 sg
 "<эшчәнлегенең>"
-	"эшчәнлек" n px3sp gen
+	"эшчәнлек" n px3sp gen <Correct!>
 "<төп>"
 	"төп" adj
 	"төп" n nom
-	"төп" n attr
+	"төп" n attr <Correct!>
 	"төп" adj subst nom
 	"төп" adj
 		"и" cop p3 pl
@@ -13955,20 +13955,20 @@
 	"төп" adj subst nom
 		"и" cop p3 sg
 "<юнәлешләре>"
-	"юнәлеш" n pl px3sp nom
+	"юнәлеш" n pl px3sp nom <Correct!>
 	"юнәлеш" n pl px3sp nom
 		"и" cop p3 pl
 	"юнәлеш" n pl px3sp nom
 		"и" cop p3 sg
 
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -13976,14 +13976,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -13999,27 +13999,27 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<чараларын>"
-	"чара" n pl px3sp acc
+	"чара" n pl px3sp acc <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашырганда>"
-	"ашыр" v tv ger_past loc
+	"ашыр" v tv ger_past loc <Correct!>
 	"ашыр" v tv gpr_past subst loc
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -14027,7 +14027,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -14043,19 +14043,19 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<хакимияте>"
-	"хакимият" n px3sp nom
+	"хакимият" n px3sp nom <Correct!>
 	"хакимият" n px3sp nom
 		"и" cop p3 pl
 	"хакимият" n px3sp nom
 		"и" cop p3 sg
 "<органнарының>"
-	"орган" n pl px3sp gen
+	"орган" n pl px3sp gen <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Университетның>"
-	"университет" n gen
+	"университет" n gen <Correct!>
 "<үзара>"
-	"үзара" adj
+	"үзара" adj <Correct!>
 	"үзара" adj advl
 	"үзара" adj subst nom
 	"үзара" adj
@@ -14067,13 +14067,13 @@
 	"үзара" adj subst nom
 		"и" cop p3 sg
 "<эшчәнлеге>"
-	"эшчәнлек" n px3sp nom
+	"эшчәнлек" n px3sp nom <Correct!>
 	"эшчәнлек" n px3sp nom
 		"и" cop p3 pl
 	"эшчәнлек" n px3sp nom
 		"и" cop p3 sg
 "<түбәндәге>"
-	"түбән" adj subst loc attr
+	"түбән" adj subst loc attr <Correct!>
 	"түбән" adj subst loc subst nom
 	"түбән" adj subst loc subst nom
 		"и" cop p3 pl
@@ -14082,7 +14082,7 @@
 "<төп>"
 	"төп" adj
 	"төп" n nom
-	"төп" n attr
+	"төп" n attr <Correct!>
 	"төп" adj subst nom
 	"төп" adj
 		"и" cop p3 pl
@@ -14097,28 +14097,28 @@
 	"төп" adj subst nom
 		"и" cop p3 sg
 "<юнәлешләр>"
-	"юнәлеш" n pl nom
+	"юнәлеш" n pl nom <Correct!>
 	"юнәлеш" n pl nom
 		"и" cop p3 pl
 	"юнәлеш" n pl nom
 		"и" cop p3 sg
 "<буенча>"
-	"буенча" post
+	"буенча" post <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашырыла>"
 	"ашыр" v tv pass prc_impf
-	"ашыр" v tv pass pres p3 sg
+	"ашыр" v tv pass pres p3 sg <Correct!>
 "<:>"
-	":" sent
+	":" sent <Correct!>
 
 "<1>"
-	"1" num
+	"1" num <Correct!>
 	"1" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -14126,11 +14126,11 @@
 		"и" cop p3 sg
 "<бирү>"
 	"бир" vaux ger nom
-	"бир" v tv ger nom
+	"бир" v tv ger nom <Correct!>
 "<процессын>"
-	"*процессын"
+	"*процессын" <Correct!>
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -14138,9 +14138,9 @@
 		"и" cop p3 sg
 "<бирүнең>"
 	"бир" vaux ger gen
-	"бир" v tv ger gen
+	"бир" v tv ger gen <Correct!>
 "<яңа>"
-	"яңа" adj
+	"яңа" adj <Correct!>
 	"яңа" adj advl
 	"яңа" adj subst nom
 	"яңа" adj
@@ -14152,23 +14152,23 @@
 	"яңа" adj subst nom
 		"и" cop p3 sg
 "<төрләрен>"
-	"төр" n pl px3sp acc
+	"төр" n pl px3sp acc <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<программаларын>"
-	"программа" n pl px3sp acc
+	"программа" n pl px3sp acc <Correct!>
 	"программала" v tv ger_fut px3sp acc
 	"программала" v tv gpr_fut subst px3sp acc
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<стандартларын>"
-	"стандарт" n pl px3sp acc
+	"стандарт" n pl px3sp acc <Correct!>
 "<эшләү>"
-	"эшлә" v tv ger nom
+	"эшлә" v tv ger nom <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -14176,9 +14176,9 @@
 		"и" cop p3 sg
 "<бирүнең>"
 	"бир" vaux ger gen
-	"бир" v tv ger gen
+	"бир" v tv ger gen <Correct!>
 "<яңа>"
-	"яңа" adj
+	"яңа" adj <Correct!>
 	"яңа" adj advl
 	"яңа" adj subst nom
 	"яңа" adj
@@ -14190,43 +14190,43 @@
 	"яңа" adj subst nom
 		"и" cop p3 sg
 "<технологияләрен>"
-	"технология" n pl px3sp acc
+	"технология" n pl px3sp acc <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<уку>"
 	"укы" v tv ger nom
-	"укы" v iv ger nom
+	"укы" v iv ger nom <Correct!>
 "<->"
-	"-" guio
+	"-" guio <Correct!>
 "<укытуга>"
-	"укыт" v tv ger dat
+	"укыт" v tv ger dat <Correct!>
 "<ярдәм итү>"
-	"ярдәм ит" v iv ger nom
+	"ярдәм ит" v iv ger nom <Correct!>
 "<системаларын>"
-	"система" n pl px3sp acc
+	"система" n pl px3sp acc <Correct!>
 "<кертү>"
-	"керт" v tv ger nom
+	"керт" v tv ger nom <Correct!>
 "<юлы>"
-	"юл" n px3sp nom
+	"юл" n px3sp nom <Correct!>
 	"юл" n px3sp nom
 		"и" cop p3 pl
 	"юл" n px3sp nom
 		"и" cop p3 sg
 "<белән>"
 	"белән" cnjcoo
-	"белән" post
+	"белән" post <Correct!>
 "<модернизацияләү>"
-	"*модернизацияләү"
+	"*модернизацияләү" <Correct!>
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<2>"
-	"2" num
+	"2" num <Correct!>
 	"2" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<фәнни>"
-	"фәнни" adj
+	"фәнни" adj <Correct!>
 	"фәнни" adj advl
 	"фәнни" adj subst nom
 	"фәнни" adj
@@ -14238,63 +14238,63 @@
 	"фәнни" adj subst nom
 		"и" cop p3 sg
 "<->"
-	"-" guio
+	"-" guio <Correct!>
 "<тикшеренү>"
 	"тикшерен" v iv ger nom
-	"тикшеренү" n nom
+	"тикшеренү" n nom <Correct!>
 	"тикшеренү" n attr
 	"тикшеренү" n nom
 		"и" cop p3 pl
 	"тикшеренү" n nom
 		"и" cop p3 sg
 "<процессын>"
-	"*процессын"
+	"*процессын" <Correct!>
 "<модернизацияләү>"
-	"*модернизацияләү"
+	"*модернизацияләү" <Correct!>
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<3>"
-	"3" num
+	"3" num <Correct!>
 	"3" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Университетның>"
-	"университет" n gen
+	"университет" n gen <Correct!>
 "<кадрлар>"
-	"кадр" n pl nom
+	"кадр" n pl nom <Correct!>
 	"кадр" n pl nom
 		"и" cop p3 pl
 	"кадр" n pl nom
 		"и" cop p3 sg
 "<потенциалын>"
-	"потенциал" n px3sp acc
+	"потенциал" n px3sp acc <Correct!>
 "<үстерү>"
 	"үстер" v tv ger nom
-	"үстерү" n nom
+	"үстерү" n nom <Correct!>
 	"үстерү" n attr
 	"үстерү" n nom
 		"и" cop p3 pl
 	"үстерү" n nom
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<шул>"
 	"шул" mod_ass
-	"шул" det dem
+	"шул" det dem <Correct!>
 	"шул" prn dem nom
 	"шул" prn dem nom
 		"и" cop p3 pl
 	"шул" prn dem nom
 		"и" cop p3 sg
 "<исәптән>"
-	"исәп" n abl
+	"исәп" n abl <Correct!>
 	"исәп" n abl
 		"и" cop p3 pl
 	"исәп" n abl
 		"и" cop p3 sg
 "<фәнни>"
-	"фәнни" adj
+	"фәнни" adj <Correct!>
 	"фәнни" adj advl
 	"фәнни" adj subst nom
 	"фәнни" adj
@@ -14306,34 +14306,34 @@
 	"фәнни" adj subst nom
 		"и" cop p3 sg
 "<->"
-	"-" guio
+	"-" guio <Correct!>
 "<педагогик>"
-	"педагогик" adj
+	"педагогик" adj <Correct!>
 	"педагогик" adj
 		"и" cop p3 pl
 	"педагогик" adj
 		"и" cop p3 sg
 "<хезмәткәрләрнең>"
-	"хезмәткәр" n pl gen
+	"хезмәткәр" n pl gen <Correct!>
 "<һонәри>"
-	"*һонәри"
+	"*һонәри" <Correct!>
 "<үсешенә>"
-	"үсеш" n px3sp dat
+	"үсеш" n px3sp dat <Correct!>
 "<ярдәм итү>"
-	"ярдәм ит" v iv ger nom
+	"ярдәм ит" v iv ger nom <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<аны>"
-	"ул" prn dem acc
+	"ул" prn dem acc <Correct!>
 	"ул" prn pers p3 sg acc
 "<стимуллаштыру>"
-	"*стимуллаштыру"
+	"*стимуллаштыру" <Correct!>
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<кадрларны>"
-	"кадр" n pl acc
+	"кадр" n pl acc <Correct!>
 "<яңарту>"
-	"яңарт" v tv ger nom
+	"яңарт" v tv ger nom <Correct!>
 	"яңарту" n nom
 	"яңарту" n attr
 	"яңарту" n nom
@@ -14341,72 +14341,72 @@
 	"яңарту" n nom
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<чит илләр>"
-	"чит ил" n pl nom
+	"чит ил" n pl nom <Correct!>
 	"чит ил" n pl nom
 		"и" cop p3 pl
 	"чит ил" n pl nom
 		"и" cop p3 sg
 "<укытучыларын>"
-	"укытучы" n pl px3sp acc
+	"укытучы" n pl px3sp acc <Correct!>
 	"укыт" v tv gpr_pot subst pl px3sp acc
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<тикшеренүчеләрен>"
-	"тикшерен" v iv gpr_pot subst pl px3sp acc
+	"тикшерен" v iv gpr_pot subst pl px3sp acc <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<практикларын>"
-	"*практикларын"
+	"*практикларын" <Correct!>
 "<җәлеп итү>"
-	"җәлеп ит" v tv ger nom
+	"җәлеп ит" v tv ger nom <Correct!>
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<4>"
-	"4" num
+	"4" num <Correct!>
 	"4" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Университет>"
 	"университет" n nom
-	"университет" n attr
+	"университет" n attr <Correct!>
 	"университет" n nom
 		"и" cop p3 pl
 	"университет" n nom
 		"и" cop p3 sg
 "<инфраструктурасын>"
-	"инфраструктура" n px3sp acc
+	"инфраструктура" n px3sp acc <Correct!>
 "<модернизацияләү>"
-	"*модернизацияләү"
+	"*модернизацияләү" <Correct!>
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<5>"
-	"5" num
+	"5" num <Correct!>
 	"5" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Университетны>"
-	"университет" n acc
+	"университет" n acc <Correct!>
 "<глобаль>"
-	"глобаль" adj
+	"глобаль" adj <Correct!>
 	"глобаль" adj
 		"и" cop p3 pl
 	"глобаль" adj
 		"и" cop p3 sg
 "<фәнни>"
-	"фәнни" adj
+	"фәнни" adj <Correct!>
 	"фәнни" adj advl
 	"фәнни" adj subst nom
 	"фәнни" adj
@@ -14418,61 +14418,61 @@
 	"фәнни" adj subst nom
 		"и" cop p3 sg
 "<->"
-	"-" guio
+	"-" guio <Correct!>
 "<мәгариф>"
 	"мәгариф" n nom
-	"мәгариф" n attr
+	"мәгариф" n attr <Correct!>
 	"мәгариф" n nom
 		"и" cop p3 pl
 	"мәгариф" n nom
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<инновация>"
-	"*инновация"
+	"*инновация" <Correct!>
 "<челтәрләренә>"
-	"челтәр" n pl px3sp dat
+	"челтәр" n pl px3sp dat <Correct!>
 "<тоташтыру>"
-	"тоташтыр" v tv ger nom
+	"тоташтыр" v tv ger nom <Correct!>
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<төбәк>"
 	"төбәк" n nom
-	"төбәк" n attr
+	"төбәк" n attr <Correct!>
 	"төбәк" n nom
 		"и" cop p3 pl
 	"төбәк" n nom
 		"и" cop p3 sg
 "<дәрәҗәсендә>"
-	"дәрәҗә" n px3sp loc
+	"дәрәҗә" n px3sp loc <Correct!>
 	"дәрәҗә" n px3sp loc
 		"и" cop p3 pl
 	"дәрәҗә" n px3sp loc
 		"и" cop p3 sg
 "<аларның>"
-	"ул" prn dem pl gen
+	"ул" prn dem pl gen <Correct!>
 	"алар" prn pers p3 pl gen
 "<формалашуына>"
-	"формалаш" v iv ger px3sp dat
+	"формалаш" v iv ger px3sp dat <Correct!>
 "<ярдәм итү>"
-	"ярдәм ит" v iv ger nom
+	"ярдәм ит" v iv ger nom <Correct!>
 "<;>"
-	";" sent
+	";" sent <Correct!>
 
 "<6>"
-	"6" num
+	"6" num <Correct!>
 	"6" num subst nom
 "<)>"
-	")" rpar
+	")" rpar <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -14480,7 +14480,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -14496,21 +14496,21 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<хакимияте>"
-	"хакимият" n px3sp nom
+	"хакимият" n px3sp nom <Correct!>
 	"хакимият" n px3sp nom
 		"и" cop p3 pl
 	"хакимият" n px3sp nom
 		"и" cop p3 sg
 "<органнары>"
-	"орган" n pl px3sp nom
+	"орган" n pl px3sp nom <Correct!>
 	"орган" n pl px3sp nom
 		"и" cop p3 pl
 	"орган" n pl px3sp nom
 		"и" cop p3 sg
 "<вәкаләтләре>"
-	"*вәкаләтләре"
+	"*вәкаләтләре" <Correct!>
 "<кысаларында>"
-	"кыса" n pl px3sp loc
+	"кыса" n pl px3sp loc <Correct!>
 	"кыса" n pl px3sp loc
 		"и" cop p3 pl
 	"кыса" n pl px3sp loc
@@ -14519,7 +14519,7 @@
 	"баш" n dat
 	"баш" adj subst dat
 	"башка" post
-	"башка" adj
+	"башка" adj <Correct!>
 	"башка" adj subst nom
 	"башка" prn ind nom
 	"башка" adj
@@ -14535,30 +14535,30 @@
 	"башка" prn ind nom
 		"и" cop p3 sg
 "<юнәлешләр>"
-	"юнәлеш" n pl nom
+	"юнәлеш" n pl nom <Correct!>
 	"юнәлеш" n pl nom
 		"и" cop p3 pl
 	"юнәлеш" n pl nom
 		"и" cop p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<6>"
-	"6" num
+	"6" num <Correct!>
 	"6" num subst nom
 "<статья>"
-	"статья" n nom
+	"статья" n nom <Correct!>
 	"статья" n attr
 	"статья" n nom
 		"и" cop p3 pl
 	"статья" n nom
 		"и" cop p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Университегга>"
-	"*Университегга"
+	"*Университегга" <Correct!>
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -14566,14 +14566,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -14589,9 +14589,9 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдомсн>"
-	"*ярдомсн"
+	"*ярдомсн" <Correct!>
 "<финанс>"
-	"финанс" n nom
+	"финанс" n nom <Correct!>
 	"финанс" n attr
 	"финанс" n nom
 		"и" cop p3 pl
@@ -14599,26 +14599,26 @@
 		"и" cop p3 sg
 "<белән>"
 	"белән" cnjcoo
-	"белән" post
+	"белән" post <Correct!>
 "<тээмин>"
-	"*тээмин"
+	"*тээмин" <Correct!>
 "<итү>"
 	"ит" vaux ger nom
-	"ит" v tv ger nom
+	"ит" v tv ger nom <Correct!>
 
 "<1>"
-	"1" num
+	"1" num <Correct!>
 	"1" num subst nom
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -14626,14 +14626,14 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -14649,59 +14649,59 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<ярдәме>"
-	"ярдәм" n px3sp nom
+	"ярдәм" n px3sp nom <Correct!>
 	"ярдәм" n px3sp nom
 		"и" cop p3 pl
 	"ярдәм" n px3sp nom
 		"и" cop p3 sg
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<бюджеты>"
-	"*бюджеты"
+	"*бюджеты" <Correct!>
 "<акчалары>"
-	"акча" n pl px3sp nom
+	"акча" n pl px3sp nom <Correct!>
 	"акча" n pl px3sp nom
 		"и" cop p3 pl
 	"акча" n pl px3sp nom
 		"и" cop p3 sg
 "<исәбеннән>"
-	"исәп" n px3sp abl
+	"исәп" n px3sp abl <Correct!>
 	"исәп" n px3sp abl
 		"и" cop p3 pl
 	"исәп" n px3sp abl
 		"и" cop p3 sg
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашырыла>"
 	"ашыр" v tv pass prc_impf
-	"ашыр" v tv pass pres p3 sg
+	"ашыр" v tv pass pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<2>"
-	"2" num
+	"2" num <Correct!>
 	"2" num subst nom
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Университетта>"
-	"университет" n loc
+	"университет" n loc <Correct!>
 	"университет" n loc
 		"и" cop p3 pl
 	"университет" n loc
 		"и" cop p3 sg
 "<белем>"
-	"белем" n nom
+	"белем" n nom <Correct!>
 	"белем" n attr
 	"белем" n nom
 		"и" cop p3 pl
@@ -14709,23 +14709,23 @@
 		"и" cop p3 sg
 "<бирүне>"
 	"бир" vaux ger acc
-	"бир" v tv ger acc
+	"бир" v tv ger acc <Correct!>
 "<үстерүгә>"
 	"үстер" v tv ger dat
-	"үстерү" n dat
+	"үстерү" n dat <Correct!>
 "<ярдәм итүгә>"
-	"ярдәм ит" v iv ger dat
+	"ярдәм ит" v iv ger dat <Correct!>
 "<юнәлдерелгән>"
-	"*юнәлдерелгән"
+	"*юнәлдерелгән" <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
@@ -14733,7 +14733,7 @@
 "<дәүләт>"
 	"дәүләт" adj
 	"дәүләт" n nom
-	"дәүләт" n attr
+	"дәүләт" n attr <Correct!>
 	"дәүләт" adj advl
 	"дәүләт" adj subst nom
 	"дәүләт" adj
@@ -14749,113 +14749,113 @@
 	"дәүләт" adj subst nom
 		"и" cop p3 sg
 "<программасын>"
-	"программа" n px3sp acc
+	"программа" n px3sp acc <Correct!>
 "<гамәлгә>"
-	"гамәл" n dat
+	"гамәл" n dat <Correct!>
 "<ашыру>"
-	"ашыр" v tv ger nom
+	"ашыр" v tv ger nom <Correct!>
 "<өчен>"
-	"өчен" post
+	"өчен" post <Correct!>
 	"өч" num subst px3sp acc
 "<бүлеп>"
-	"бүл" v tv prc_perf
+	"бүл" v tv prc_perf <Correct!>
 	"бүл" v tv gna_perf
 "<бирелә торган>"
-	"бир" v tv pass gpr_impf
+	"бир" v tv pass gpr_impf <Correct!>
 	"бир" v tv pass gpr_impf subst nom
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<бюджеты>"
-	"*бюджеты"
+	"*бюджеты" <Correct!>
 "<акчалары>"
-	"акча" n pl px3sp nom
+	"акча" n pl px3sp nom <Correct!>
 	"акча" n pl px3sp nom
 		"и" cop p3 pl
 	"акча" n pl px3sp nom
 		"и" cop p3 sg
 "<күләме>"
-	"күләм" n px3sp nom
+	"күләм" n px3sp nom <Correct!>
 	"күләм" n px3sp nom
 		"и" cop p3 pl
 	"күләм" n px3sp nom
 		"и" cop p3 sg
 "<Россия>"
 	"Россия" np top nom
-	"Россия" np top attr
+	"Россия" np top attr <Correct!>
 	"Россия" np top nom
 		"и" cop p3 pl
 	"Россия" np top nom
 		"и" cop p3 sg
 "<Федерациясе>"
-	"федерация" n px3sp nom
+	"федерация" n px3sp nom <Correct!>
 	"федерация" n px3sp nom
 		"и" cop p3 pl
 	"федерация" n px3sp nom
 		"и" cop p3 sg
 "<законнары>"
-	"закон" n pl px3sp nom
+	"закон" n pl px3sp nom <Correct!>
 	"закон" n pl px3sp nom
 		"и" cop p3 pl
 	"закон" n pl px3sp nom
 		"и" cop p3 sg
 "<һәм>"
-	"һәм" cnjcoo
+	"һәм" cnjcoo <Correct!>
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<законнары>"
-	"закон" n pl px3sp nom
+	"закон" n pl px3sp nom <Correct!>
 	"закон" n pl px3sp nom
 		"и" cop p3 pl
 	"закон" n pl px3sp nom
 		"и" cop p3 sg
 "<нигезендә>"
-	"нигез" n px3sp loc
+	"нигез" n px3sp loc <Correct!>
 	"нигез" n px3sp loc
 		"и" cop p3 pl
 	"нигез" n px3sp loc
 		"и" cop p3 sg
 "<билгеләнә>"
 	"билгелә" v tv pass prc_impf
-	"билгелә" v tv pass pres p3 sg
+	"билгелә" v tv pass pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<7>"
-	"7" num
+	"7" num <Correct!>
 	"7" num subst nom
 "<статья>"
-	"статья" n nom
+	"статья" n nom <Correct!>
 	"статья" n attr
 	"статья" n nom
 		"и" cop p3 pl
 	"статья" n nom
 		"и" cop p3 sg
 "<.>"
-	"." sent
+	"." sent <Correct!>
 "<Әлеге>"
-	"әле" adv attr
+	"әле" adv attr <Correct!>
 	"әлеге" adj
 	"әле" adv subst nom
 	"әлеге" det dem
@@ -14873,21 +14873,21 @@
 	"әлеге" adj subst nom
 		"и" cop p3 sg
 "<Законның>"
-	"закон" n gen
+	"закон" n gen <Correct!>
 "<үз>"
-	"үз" det ref
+	"үз" det ref <Correct!>
 "<көченә>"
-	"көч" n px3sp dat
+	"көч" n px3sp dat <Correct!>
 "<керүе>"
 	"кер" v iv ger px3sp nom
-	"керү" n px3sp nom
+	"керү" n px3sp nom <Correct!>
 	"керү" n px3sp nom
 		"и" cop p3 pl
 	"керү" n px3sp nom
 		"и" cop p3 sg
 
 "<Әлеге>"
-	"әле" adv attr
+	"әле" adv attr <Correct!>
 	"әлеге" adj
 	"әле" adv subst nom
 	"әлеге" det dem
@@ -14905,14 +14905,14 @@
 	"әлеге" adj subst nom
 		"и" cop p3 sg
 "<Закон>"
-	"закон" n nom
+	"закон" n nom <Correct!>
 	"закон" n attr
 	"закон" n nom
 		"и" cop p3 pl
 	"закон" n nom
 		"и" cop p3 sg
 "<рәсми>"
-	"рәсми" adj
+	"рәсми" adj <Correct!>
 	"рәсми" adj subst nom
 	"рәсми" adj
 		"и" cop p3 pl
@@ -14923,10 +14923,10 @@
 	"рәсми" adj subst nom
 		"и" cop p3 sg
 "<басылып>"
-	"бас" v tv pass prc_perf
+	"бас" v tv pass prc_perf <Correct!>
 	"бас" v tv pass gna_perf
 "<чыккан>"
-	"чык" vaux gpr_past
+	"чык" vaux gpr_past <Correct!>
 	"чык" v iv gpr_past
 	"чык" vaux ger_past nom
 	"чык" v iv ger_past nom
@@ -14935,36 +14935,36 @@
 	"чык" v iv past p3 sg
 	"чык" v iv gpr_past subst nom
 "<көненнән>"
-	"көн" n px3sp abl
+	"көн" n px3sp abl <Correct!>
 	"көн" n px3sp abl
 		"и" cop p3 pl
 	"көн" n px3sp abl
 		"и" cop p3 sg
 "<үз>"
-	"үз" det ref
+	"үз" det ref <Correct!>
 "<көченә>"
-	"көч" n px3sp dat
+	"көч" n px3sp dat <Correct!>
 "<керә>"
 	"кер" v iv prc_impf
-	"кер" v iv pres p3 sg
+	"кер" v iv pres p3 sg <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>
 
 "<Татарстан>"
 	"Татарстан" np top nom
-	"Татарстан" np top attr
+	"Татарстан" np top attr <Correct!>
 	"Татарстан" np top nom
 		"и" cop p3 pl
 	"Татарстан" np top nom
 		"и" cop p3 sg
 "<Республикасы>"
-	"республика" n px3sp nom
+	"республика" n px3sp nom <Correct!>
 	"республика" n px3sp nom
 		"и" cop p3 pl
 	"республика" n px3sp nom
 		"и" cop p3 sg
 "<Президенты>"
-	"президент" n px3sp nom
+	"президент" n px3sp nom <Correct!>
 	"президент" n px3sp nom
 		"и" cop p3 pl
 	"президент" n px3sp nom
@@ -14973,7 +14973,7 @@
 "<Казан>"
 	"казан" n nom
 	"казан" n attr
-	"Казан" np top nom
+	"Казан" np top nom <Correct!>
 	"Казан" np top attr
 	"казан" n nom
 		"и" cop p3 pl
@@ -14984,9 +14984,9 @@
 	"Казан" np top nom
 		"и" cop p3 sg
 "<,>"
-	"," cm
+	"," cm <Correct!>
 "<Кремль>"
-	"кремль" n nom
+	"кремль" n nom <Correct!>
 	"кремль" n attr
 	"кремль" n nom
 		"и" cop p3 pl
@@ -14994,26 +14994,26 @@
 		"и" cop p3 sg
 
 "<2014>"
-	"2014" num
+	"2014" num <Correct!>
 	"2014" num subst nom
 "<елның>"
-	"ел" n gen
+	"ел" n gen <Correct!>
 "<9>"
-	"9" num
+	"9" num <Correct!>
 	"9" num subst nom
 "<июне>"
-	"июнь" n px3sp nom
+	"июнь" n px3sp nom <Correct!>
 	"июнь" n px3sp nom
 		"и" cop p3 pl
 	"июнь" n px3sp nom
 		"и" cop p3 sg
  № 
 "<48>"
-	"48" num
+	"48" num <Correct!>
 	"48" num subst nom
 "<->"
-	"-" guio
+	"-" guio <Correct!>
 "<ТРЗ>"
-	"*ТРЗ"
+	"*ТРЗ" <Correct!>
 "<.>"
-	"." sent
+	"." sent <Correct!>

@@ -158,6 +158,7 @@ LIST Abl = abl ;
 LIST Loc = loc ;
 
 LIST P1 = p1 ;
+LIST P2 = p2 ;
 LIST P3 = p3 ;
 
 LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
@@ -245,6 +246,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
  SELECT Sub:1 Cop IF
         (NOT -1 BOS)    # Single-word phrases like "Декабрь."
 	(NOT 0 (mod_ass) OR Interj)
+	(NOT 0 V OR Vaux)
         (1 EOS OR MARK)
 ;
 ## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
@@ -302,6 +304,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
         (1 EOS OR ("ди"i))   # FIXME s/.*/SentenceBoundary/
         (NOT 0 ("бар"i))     # FIXME a better way?
         (NOT 0 ("<түгел>"i))
+        (NOT 0 ("<бу>"i))
 ;
 ## (!) 40 . Мүмкін бұл Азамат [0]шығар?
 ##  (!) 13 . Жоқ, Айгүлдің күшігі жоқ, оның мысығы [0]бар.
@@ -393,7 +396,9 @@ SET S-BOUNDARY = CS | Interr | EOS;
 	(0 A)
 ;
 
-
+# INPUT:  ^тәмсез/тәм<n><nom>+и<cop><p2><pl>/тәм<n><nom>+и<cop><p2><frm><pl>/тәм<n><nom>+и<cop><p2><frm><sg>/тәм<n>+сыз<post>$
+# OUTPUT: ^тәмсез/тәм<n>+сыз<post>$
+ REMOVE Cop + P2 IF (NOT -1* ("сез"i)) ;
 
 # Determiners
 # ===========
@@ -471,22 +476,12 @@ SELECT Det IF (-1C A) (1 N);
 
 # select adverbial reading of adjectives if any verbal form except gerund follows
 # FIXME CHECK it might be a gerund as well
- SELECT Advl IF
-         (1C V-NotGerund)
-;
-##
-
+ SELECT Advl IF (1C V-NotGerund) ;
 
 # select pure adjective reading ("predicative" in this case) of an adjective if sentence ends
- REMOVE Advl IF
-        (0 A1)
-        (1 EOS)
-;
- REMOVE Subst IF
-        (0 A1)
-        (1 EOS OR MARK)
-;
-##
+ REMOVE Advl IF (0 A1) (1 EOS) ;
+
+ REMOVE Subst IF (0 A1) (1 EOS OR MARK) ;
 
 
 
@@ -545,7 +540,7 @@ REMOVE Participle IF
 
 #
  REMOVE Vaux IF
-        (NOT -1 Participle)
+        (NOT -1 Participle OR VerbalAdverb)
 ;
 ## 187 . Біздің дәуірімізден 1 миллион жыл бұрын өмір сүрген "тік жүретін адамнан" [0]бастап, өз замандастарына дейінгі
 ## кезеңдерді қамтитын, ... орталықтың экспозициясы негізгі сегіз ірі бөлімнен тұрады.
@@ -769,16 +764,36 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
  	 (1 EOS)
 ;
 
-############ Heurisitics #####################
+# INPUT:  ^Һәр/һәр<det><qnt>$ ^иртә/иртә<adj>/иртә<n><attr>/иртә<n><nom>/иртә<adj><advl>/иртә<adj><subst><nom>$
+# OUTPUT: ^Һәр/һәр<det><qnt>$ ^иртә/иртә<n><nom>$
+ "<иртә>" SELECT N + Nom IF (-1 Det) ;
+
+# INPUT:  ^туры/туры<adj>/туры<adj><advl>/тур<n><px3sp><nom>/туры<adj><subst><nom>$
+#         ^анда/ул<prn><dem><loc>/ул<prn><pers><p3><sg><loc>$
+#         ^барырга/бар<v><iv><inf>/бар<v><iv><gpr_fut><subst><dat>$
+# OUTPUT: ^туры/туры<adj><advl>$
+#         ^анда/ул<prn><dem><loc>/ул<prn><pers><p3><sg><loc>$
+#         ^барырга/бар<v><iv><inf>/бар<v><iv><gpr_fut><subst><dat>$
+ "<туры>" SELECT Advl IF (1 Loc OR Dat) (2 V) ;
+
+SECTION ############ Heurisitics #####################
 
 # INPUT:  ^турында/тур<n><px3sp><loc>/турында<post>$
 # OUTPUT: ^турында/турында<post>
  "<турында>" SELECT Post
 
 # INPUT:  ^бит/бит<mod_ass>/бит<n><nom>/бит<n><attr>$
-# OUPUT: ^бит/бит<mod_ass>$
+# OUTPUT: ^бит/бит<mod_ass>$
  "<бит>" SELECT (mod_ass)
 ;
+
+# INPUT:  ^бу/бу<det><dem>/бу<prn><dem><nom>/бу<v><tv><imp><p2><sg>$
+# OUTPUT: ^бу/бу<det><dem>/бу<prn><dem><nom>$
+ "<бу>" REMOVE V ;
+
+# INPUT:  ^ал/ал<adj>/ал<adj><subst><nom>/ал<vaux><imp><p2><sg>/ал<v><tv><imp><p2><sg>$
+# OUTPUT: ^ал<vaux><imp><p2><sg>/ал<v><tv><imp><p2><sg>$
+ "ал" REMOVE A ;
 
 SECTION ########### MAPPING RULES ###############
 

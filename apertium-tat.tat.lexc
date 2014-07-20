@@ -1892,6 +1892,7 @@ InterrogativePronouns ;
 
 башка:башка PRON-IND ; ! "other"
 бер% нәрсә:бер% нәрсә PRON-IND ; ! "something" Use/MT
+берәр% нәрсә:берәр% нәрсә PRON-IND ; ! "something" Use/MT
 берсе:берсе%{n%} PRON-IND ; ! "one of" FIXME check
 кайбер:кайбер PRON-IND ; ! "some"
 

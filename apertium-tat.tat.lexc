@@ -1791,7 +1791,7 @@ COP-I ; ! ""
 ! which Govern the Nominative Case
 ! ================================
 
-тапкыр:тапкыр POST ; ! "" FIXME CHECK pos - a noun?
+буларак:буларак POST ; ! "" FIXME CHECK
 
 ! which Govern the Nominative Case of Nouns and
 ! the Genitive Case of (Personal and Demonstrative) Pronouns
@@ -1805,8 +1805,6 @@ COP-I ; ! ""
 буенда:буенда POST ; ! ""
 буенча:буенча POST ; ! ""
 буйлап:буйлап POST ; ! ""
-карамагындагы:карамагындагы POST ; ! "" FIXME CHECK
-карамагында:карамагында POST ; ! "" FIXME CHECK
 кебек:кебек POST ; ! ""
 күк:күк POST ; ! ""
 максатында:максатында POST ; ! "" Use/MT
@@ -1834,7 +1832,7 @@ COP-I ; ! ""
 карата:карата POST ; ! ""
 каршы:каршы POST ; ! ""
 күрә:күрә POST ; ! ""
-өстәп:өстәп POST ; ! ""
+өстәп:өстәп POST ; ! "" Use/MT
 таба:таба POST ; ! ""
 тәгаенләнгән:тәгаенләнгән POST ; ! "" Use/MT
 якын:якын POST ; ! ""
@@ -1856,11 +1854,6 @@ COP-I ; ! ""
 
 бергә:бергә POST ; ! "" + INS
 беррәттән:беррәттән POST ; ! "along with" + INS
-
-! FIXME: To be checked
-! ====================
-
-буларак:буларак POST ; ! ""
 
 
 !===================!
@@ -3066,6 +3059,7 @@ XXI NUM-ROMAN ; ! ""
 кара% карга:кара% карга N1 ; ! ""
 карак:карак N1 ; ! ""
 каралты%-кура:каралты%-кура N1 ; ! ""
+карамак:карамак N1 ;
 караңгылык:караңгылык N1 ; ! ""
 карар:карар N1 ; ! ""
 карачкы:карачкы N1 ; ! ""
@@ -5047,7 +5041,8 @@ XXI NUM-ROMAN ; ! ""
 арка:арка N1 ; ! "back; reason"
 арт:арт N1 ; ! "back"
 аст:ас%{т%} N1 ; ! "under"
-буй:буй N1 ; ! "" TO CHECK: paper dictionaries tag 'буе, буена, буенча' as postposition, whereas all other words in this list are given as nouns with 'в значении послелога' marks
+буй:буй N1 ; ! "" TO CHECK: paper dictionaries tag 'буе, буена, буенча' as postposition, whereas all other words in
+                  this list are given as nouns with 'в значении послелога' marks.
 өст:өс N1 ; ! "top" Dir/LR
 өст:өс%{т%} N1 ; ! "top"
 эч:эч N1 ; ! "inside"

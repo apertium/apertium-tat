@@ -50,6 +50,7 @@ tests/morphophonology/ь.yaml -text
 tests/morphotactics/A1.txt.gz -text svneol=unset#unset
 tests/morphotactics/ADV-WITH-KI.txt.gz -text svneol=unset#unset
 tests/morphotactics/ADV.txt.gz -text svneol=unset#unset
+tests/morphotactics/COP-I.txt.gz -text svneol=unset#unset
 tests/morphotactics/Makefile -text
 tests/morphotactics/N-COMPOUND-PX.txt.gz -text svneol=unset#unset
 tests/morphotactics/N1-RUS.txt.gz -text svneol=unset#unset

@@ -794,11 +794,14 @@ SECTION ############ Heurisitics #####################
 # OUTPUT: ^ал<vaux><imp><p2><sg>/ал<v><tv><imp><p2><sg>$
  "ал" REMOVE A ;
 
+# INPUT:  ^кеше/кеше<n><nom>/кеше<n><attr>/кеш<n><px3sp><nom>$
+# OUTPUT: ^кеше/кеше<n><nom>/кеше<n><attr>$
+ "<кеше>" REMOVE ("кеш") IF (0 ("кеше")) ;
+
 SECTION ########### MAPPING RULES ###############
 
 LIST @→N = @→N ; 
 LIST @ADVL→ = @ADVL→ ; 
-
 
 # INPUT:
 # OUTPUT: 

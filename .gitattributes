@@ -12,6 +12,7 @@
 /apertium-tat.tat.twol -text
 /autogen.sh -text
 /configure.ac -text
+corpus/corpus.ana.txt -text
 dev/countstems.sh -text
 dev/editdist.py -text
 dev/extract_guesses.sh -text
@@ -72,4 +73,3 @@ tests/morphotactics/prn-pers.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text
 tests/numerals/percents.yaml -text
-texts/corpus.ana.txt -text

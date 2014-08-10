@@ -249,7 +249,7 @@
 		"и" cop p3 sg
 "<бер>"
 	"бер" num
-	"бер" det ind
+	"бер" det ind <Correct!>
 	"бер" num subst nom
 	"бер" num subst nom
 		"и" cop p3 pl
@@ -303,9 +303,9 @@
 		"и" cop p3 pl
 	"яшь" adj
 		"и" cop p3 sg
-	"яшь" n nom <Correct!>
-		"и" cop p3 pl
 	"яшь" n nom
+		"и" cop p3 pl
+	"яшь" n nom <Correct!>
 		"и" cop p3 sg
 	"яшь" adj subst nom
 		"и" cop p3 pl
@@ -750,9 +750,9 @@
 "<,>"
 	"," cm <Correct!>
 "<беләсезме>"
-	"бел" v tv pres p2 pl <Correct!>
+	"бел" v tv pres p2 pl
 		"мы" qst
-	"бел" v tv pres p2 frm sg
+	"бел" v tv pres p2 frm sg <Correct!>
 		"мы" qst
 	"бел" v tv pres p2 frm pl
 		"мы" qst
@@ -1725,7 +1725,7 @@
 	"тавыш" n nom
 		"и" cop p3 sg
 "<хайванныкы да>"
-	"хайван" n px nom
+	"хайван" n px nom <Correct!>
 		"да" cnjcoo
 	"хайван" n px nom
 		"да" postadv
@@ -1735,7 +1735,7 @@
 	"хайван" n px nom
 		"и" cop p3 pl
 			"да" postadv
-	"хайван" n px nom <Correct!>
+	"хайван" n px nom
 		"и" cop p3 sg
 			"да" cnjcoo
 	"хайван" n px nom
@@ -1744,7 +1744,7 @@
 "<,>"
 	"," cm <Correct!>
 "<кошныкы да>"
-	"кош" n px nom
+	"кош" n px nom <Correct!>
 		"да" cnjcoo
 	"кош" n px nom
 		"да" postadv
@@ -1754,7 +1754,7 @@
 	"кош" n px nom
 		"и" cop p3 pl
 			"да" postadv
-	"кош" n px nom <Correct!>
+	"кош" n px nom
 		"и" cop p3 sg
 			"да" cnjcoo
 	"кош" n px nom

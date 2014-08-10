@@ -497,10 +497,18 @@ LEXICON CLIT-MODIND
 %+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
 # ;
 
-LEXICON CLIT-GHANA-ETC
+LEXICON CLIT-GHANA
 
 %+гына%<postadv%>:% %{G%}%{I%}н%{A%} # ; ! ""
+
+LEXICON CLIT-DA-CNJ
+
 %+да%<cnjcoo%>:% %{D%}%{A%} # ; ! ""
+
+LEXICON CLIT-GHANA-ETC
+
+CLIT-GHANA ;
+CLIT-DA-CNJ ;
 %+да%<postadv%>:% %{D%}%{A%} # ; ! ""
 %+ук%<postadv%>:% %{U%}к # ; ! ""
 # ;
@@ -522,6 +530,18 @@ LEXICON CLITICS-INCL-COP ! Can appear only after nominals
                          ! (and only after some cases).
 CLITICS-NO-COP ;
 CLIT-COP ;
+
+LEXICON CLITICS-AFTER-IMP-SG
+
+CLIT-EMPH ;
+CLIT-GHANA ;
+CLIT-DA-CNJ ;
+
+LEXICON CLITICS-AFTER-IMP-PL
+
+CLIT-EMPH-CHI ;
+CLIT-GHANA ;
+CLIT-DA-CNJ ;
 
 !==============================================================================!
 !                         NOMINAL INFLECTION
@@ -989,10 +1009,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<ger_fut2%>:%>%{j%}%{A%}ч%{A%}к GER-POSS-REAL ;
 
 ! Imperatives
-%<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
-%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-EMPH-CHI ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з CLIT-EMPH-CHI ;
-%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з CLIT-EMPH-CHI ;
+%<imp%>%<p2%>%<sg%>: CLITICS-AFTER-IMP-SG ;
+%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
+%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
 
 ! Optative/jussive forms
 

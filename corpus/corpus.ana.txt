@@ -2215,7 +2215,7 @@
 		"и" cop p3 sg
 			"мы" qst
 	"күпме" det itg
-	"күпме" prn itg nom
+	"күпме" prn itg nom <Correct!>
 	"күпме" prn itg nom
 		"и" cop p3 pl
 	"күпме" prn itg nom
@@ -2727,7 +2727,7 @@
 	"күп" adj subst nom
 		"и" cop p3 sg
 			"мы" qst
-	"күпме" det itg
+	"күпме" det itg <Correct!>
 	"күпме" prn itg nom
 	"күпме" prn itg nom
 		"и" cop p3 pl
@@ -3975,7 +3975,7 @@
 		"и" cop p3 sg
 			"мы" qst
 	"күпме" det itg
-	"күпме" prn itg nom
+	"күпме" prn itg nom <Correct!>
 	"күпме" prn itg nom
 		"и" cop p3 pl
 	"күпме" prn itg nom
@@ -4105,7 +4105,7 @@
 		"и" cop p3 sg
 "<һәм>"
 	"һәм" cnjcoo <Correct!>
-"<инглизчә>"
+"<инглизчә>" <TODO no attr>
 	"инглизчә" adv <Correct!>
 	"инглизчә" n nom
 	"инглизчә" n attr
@@ -6200,7 +6200,7 @@
 "<Ә>"
 	"ә" ij
 	"ә" cnjcoo <Correct!>
-"<күпме>"
+"<күпме>" <TODO CHECK>
 	"күп" adj
 		"мы" qst
 	"күп" adj advl
@@ -6220,7 +6220,7 @@
 		"и" cop p3 sg
 			"мы" qst
 	"күпме" det itg
-	"күпме" prn itg nom
+	"күпме" prn itg nom <Correct!>
 	"күпме" prn itg nom
 		"и" cop p3 pl
 	"күпме" prn itg nom

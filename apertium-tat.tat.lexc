@@ -1335,6 +1335,7 @@ PRON-ITG-NINDI ;
 нимә:нимә PRON-ITG-INFL ; ! "(dial.) what"
 нәрсә:нәрсә PRON-ITG-INFL ; ! "what"
 кем:кем PRON-ITG-INFL ; ! "who"
+күпме:күпме PRON-ITG-INFL ; ! ""
 
 LEXICON PRON-QNT-POSS
 
@@ -1955,6 +1956,7 @@ InterrogativePronouns ;
 
 кай:кай DET-ITG ; ! "which"
 кайсы:кайсы DET-ITG ; ! "which"
+күпме:күпме DET-ITG ; ! ""
 
 бернинди:бернинди DET-NEG ; ! ""
 һичбер:һичбер DET-NEG ; ! ""

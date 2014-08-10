@@ -5792,7 +5792,17 @@
 	"без" prn pers p1 pl nom
 		"и" cop p3 sg
 "<ач>"
-	"ач" v tv imp p2 sg <Correct!>
+	"ач" adj <Correct!>
+	"ач" adj subst nom
+	"ач" v tv imp p2 sg
+	"ач" adj
+		"и" cop p3 pl
+	"ач" adj
+		"и" cop p3 sg
+	"ач" adj subst nom
+		"и" cop p3 pl
+	"ач" adj subst nom
+		"и" cop p3 sg
 "<түгел>"
 	"түгел" cnjcoo
 	"и" cop neg p3 sg <Correct!>
@@ -5871,7 +5881,7 @@
 	"5" num <Correct!>
 	"5" num subst nom
 "<кө>" <TODO>
-	"*кө" <Correct!>
+	"*кө>
 "<эшләп бетерергә>"
 	"эшләп бетер" v tv inf <Correct!>
 	"эшләп бетер" v tv gpr_fut subst dat
@@ -5980,7 +5990,7 @@
 	"юл" n nom
 		"и" cop p3 sg
 "<ятладың>"
-	"*ятладың" <Correct!>
+	"ятла" v tv ifi p2 sg <Correct!>
 "<?>"
 	"?" sent <Correct!>
 
@@ -5989,8 +5999,8 @@
 "<7>"
 	"7" num <Correct!>
 	"7" num subst nom
-"<не>"
-	"*не" <Correct!>
+"<не>" <TODO>
+	"*не"
 "<генә>"
 	"гына" postadv <Correct!>
 "<.>"
@@ -6031,13 +6041,19 @@
 	"5" num <Correct!>
 	"5" num subst nom
 "<минуттан>"
-	"*минуттан" <Correct!>
+	"минут" n abl <Correct!>
+	"минут" n abl
+		"и" cop p3 pl
+	"минут" n abl
+		"и" cop p3 sg
 "<синең>"
 	"син" prn pers p2 sg gen <Correct!>
 "<яныңа>"
 	"ян" n px2sg dat <Correct!>
-"<килөм>"
-	"*килөм" <Correct!>
+"<киләм>"
+	"ки" v tv pass pres p1 sg
+	"кил" vaux pres p1 sg
+	"кил" v iv pres p1 sg <Correct!>
 "<дә>"
 	"да" cnjcoo <Correct!>
 	"да" postadv

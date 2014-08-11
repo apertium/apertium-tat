@@ -1,0 +1,14 @@
+/.deps
+/INSTALL
+/Makefile
+/Makefile.in
+/aclocal.m4
+/ap_include.am
+/apertium-tat.pc
+/autom4te.cache
+/config.log
+/config.status
+/configure
+/install-sh
+/missing
+/modes

@@ -12500,6 +12500,7 @@ Witness:Witness NP-AL ; ! ""
 кайвакыт:кайвакыт ADV ; ! "sometimes"
 кайтадан:кайтадан ADV ; ! "once again"
 кайчак:кайчак ADV ; ! "sometimes"
+кайчакта:кайчакта ADV ; ! "sometimes"
 киресенчә:киресенчә ADV ; ! ""
 кичен:кичен ADV ; ! ""
 күбесенчә:күбесенчә ADV ; ! "mostly"
@@ -12742,6 +12743,7 @@ Witness:Witness NP-AL ; ! ""
 ачын:ачын V-IV-IR ; ! "возмущаться,испытывать душевную боль"
 ачыт:ачыт V-TV-IR ; ! "itch,gawn,acidify"
 аша:аша V-TV-IR ; ! "eat"
+ашап% ал:ашап% ал V-TV-IR ; ! "" Use/MT
 ашарга% пешер:ашарга% пешер V-TV-IR ; ! "prepare food" Use/MT
 ашат:ашат V-TV-IR ; ! "to rear" (tat) caus
 аш:аш V-IV-IR ; ! "перевалить"
@@ -13425,6 +13427,7 @@ Witness:Witness NP-AL ; ! ""
 сөйрә:сөйрә V-TV-IR ; ! "drag"
 сөй:сөй V-TV-AR ; ! ""
 сөрән% сук:сөрән% сук V-IV-AR ; ! "to loaf"
+сөрт:сөрт V-TV-IR ; ! ""
 сөр:сөр V-TV-IR ; ! "furrow"
 сөя:сөя V-TV-IR ; ! "lean" support
 специальләш:специальләш V-IV-IR ; ! "specialize"
@@ -13889,6 +13892,7 @@ Witness:Witness NP-AL ; ! ""
 юрттырып% җибәр:юрттырып% җибәр V-TV-IR ; ! "to put trotters in a race" Use/MT
 юртып% бар:юртып% бар V-TV-IR ; ! "to trot" Use/MT
 ю:ю V-TV-AR ; ! "wash"
+юын:юын V-IV-IR ; ! ""
 ябык% күр:ябык% күр V-TV-IR ; ! "to consider meager" Use/MT
 ябыктыр:ябыктыр V-TV-IR ; ! "to reduce (cattle) to emaciation" (kaz tat) caus
 ябык:ябык V-IV-IR ; ! "lose weight"
@@ -14004,6 +14008,8 @@ Witness:Witness NP-AL ; ! ""
 димәк:димәк INTERJ ; ! ""
 дөрес:дөрес INTERJ ; ! ""
 ә:ә INTERJ ; ! ""
+әйдә:әйдә INTERJ ; ! ""
+әйдәгез:әйдәгез INTERJ ; ! ""
 әйе:әйе INTERJ ; ! ""
 әй:әй INTERJ ; ! ""
 әлбәттә:әлбәттә INTERJ ; ! ""

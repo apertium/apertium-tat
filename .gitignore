@@ -12,3 +12,10 @@
 /install-sh
 /missing
 /modes
+/tat.autogen.att.gz
+/tat.autogen.bin
+/tat.autogen.hfst
+/tat.automorf.att.gz
+/tat.automorf.bin
+/tat.automorf.hfst
+/tat.rlx.bin

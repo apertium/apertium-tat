@@ -10,7 +10,7 @@
 #   false negatives = readings which CG should've discarded, but did not,
 #   false positives = readings which CG discarded, but really shouldn't have.
 #
-# Assumes that lines containing readings start with either blank or space.
+# Assumes that lines containing readings start with a tab.
 # Doesn't distinguish between a subreading and a reading.
 #
 # USAGE: ./qa.sh cg

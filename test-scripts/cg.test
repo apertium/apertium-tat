@@ -10,8 +10,8 @@
 #   false negatives = readings which CG should've discarded, but did not,
 #   false positives = readings which CG discarded, but really shouldn't have.
 #
-# Assumes that lines containing readings start with a tab.
-# Doesn't distinguish between a subreading and a reading.
+# Assumes that lines containing readings start with a tab, and that the main
+# reading has only one leading tab, while subreadings have two or more.
 #
 # USAGE: ./qa.sh cg
 
@@ -21,7 +21,7 @@ CGOUT="/tmp/cgOut.txt"
 
 cat $CORPUS | $CG > $CGOUT
 
-falseNegatives=$(cat $CGOUT | grep -v '^;' |  grep $'^[\t\b]' | grep -v -c '<Correct!>')
+falseNegatives=$(cat $CGOUT | grep -v '^;' |  grep $'^\t[^\t]' | grep -v -c '<Correct!>')
 falsePositives=$(grep -c '^;.*<Correct!>' $CGOUT)
 
 echo "False negatives: $falseNegatives; False positives: $falsePositives"

@@ -5881,7 +5881,7 @@
 	"5" num <Correct!>
 	"5" num subst nom
 "<кө>" <TODO>
-	"*кө>
+	"*кө>"
 "<эшләп бетерергә>"
 	"эшләп бетер" v tv inf <Correct!>
 	"эшләп бетер" v tv gpr_fut subst dat

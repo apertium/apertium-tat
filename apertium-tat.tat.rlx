@@ -230,18 +230,11 @@ SECTION ########## COPULAS ##########
         (NOT 1 EOS OR MARK) ;
 ##
 
-#
- "<шул>" SELECT Mod_ass IF
-        (1 EOS OR MARK) ;
- "<шул>" REMOVE Mod_ass IF
-        (NOT 1 EOS OR MARK) ;
-## Кешеләр этләр белән сөйләшкәндә җавап алмыйлар шул.
-
 # FIXME this rule mispredicts a lot (or, rather, block other rules selecting
 # a non-copula reading)
  SELECT Sub:1 Cop IF
         (NOT -1 BOS)                     # Single-word phrases like "Декабрь."
-        (NOT 0 Mod_ass OR Interj OR Adv)
+        (NOT 0 Mod_ass OR Interj OR ("соң"i))
         (NOT 0 V OR Vaux)
         (1 EOS OR MARK) ;
 ## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
@@ -258,15 +251,28 @@ SECTION ########## COPULAS ##########
        (0/1 P1) ;
 ##
 
-# INPUT:  ^Без/без<prn><pers><p1><pl><nom>/без<prn><pers><p1><pl><nom>+и<cop><p3><sg>$
-#         ^укытучылар/укытучы<n><nom>+и<cop><p3><pl>/укытучы<n><pl><nom>/
-#         укыт<v><tv><gpr_pot><subst><pl><nom>/укытучы<n><pl><nom>+и<cop><p3><sg>$
-# OUTPUT: ^Без/без<prn><pers><p1><pl><nom>/без<prn><pers><p1><pl><nom>+и<cop><p3><sg>$
-#         [0]^укытучылар/укытучы<n><pl><nom>/укыт<v><tv><gpr_pot><subst><pl><nom>$
+# INPUT:  ^балалар/бала<n><pl><nom>$
+#         ^монда/бу<prn><dem><loc>+и<cop><p3><pl>/бу<prn><dem><loc>+и<cop><p3><sg>$
+# OUTPUT: ^балалар/бала<n><pl><nom>$
+#         ^монда/бу<prn><dem><loc>+и<cop><p3><pl>$
+ SELECT SUB:1 Pl IF
+        (0/1 Cop + P3) ( NOT 0 Mod_ass)
+        (@1 Pl) ;
+ SELECT SUB:1 Pl IF
+        (0/1 Cop + P3) ( NOT 0 Mod_ass)
+        (-1* ("<алар>"i)) ;
+# INPUT:  ^Әхмәт/Әхмәт<np><ant><m><nom>$ ^һәм/һәм<cnjcoo>$
+#         ^Гөлнара/Гөлнара<np><ant><f><nom>$
+#         ^бакчада/бакча<n><loc>/бакча<n><loc>+и<cop><p3><pl>/бакча<n><loc>+и<cop><p3><sg>$
+# OUTPUT: ^Әхмәт/Әхмәт<np><ant><m><nom>$ ^һәм/һәм<cnjcoo>$
+#         ^Гөлнара/Гөлнара<np><ant><f><nom>$
+#         ^бакчада/бакча<n><l oc>/бакча<n><loc>+и<cop><p3><pl>/бакча<n><loc>+и<cop><p3><sg>$
+ SELECT SUB:1 Pl IF
+        (0/1 Cop + P3) ( NOT 0 Mod_ass)
+        (-3 NOMINAL + Nom) (-2 CC) (-1 NOMINAL + Nom) ;
  REMOVE SUB:1 Pl IF
-        (0/1 Cop + P3)
-        (NOT -1* ("<Алар>")) ;
-
+        (0/1 Cop + P3) ;
+##
 
 SECTION ########## "NORMALIZATION" ##########
 
@@ -390,6 +396,8 @@ SECTION ########## "NORMALIZATION" ##########
 # INPUT:  ^тәмсез/тәм<n><nom>+и<cop><p2><pl>/тәм<n><nom>+и<cop><p2><frm><pl>/тәм<n><nom>+и<cop><p2><frm><sg>/тәм<n>+сыз<post>$
 # OUTPUT: ^тәмсез/тәм<n>+сыз<post>$
  REMOVE Cop + P2 IF (NOT -1* ("сез"i)) ;
+
+
 
 # Determiners
 # ===========
@@ -582,7 +590,6 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 ################################################################################
 
 
-
 # Wordform/lemma-specific rules   # Adding new stuff here is discouraged.
 # =============================   # Try to generalize, if possible, existing rules.
 
@@ -771,6 +778,12 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 # OUTPUT: ^соң/соң<adv>$^?<sent>$
  "<соң>" SELECT Adv IF (1 EOS) ;
 
+# INPUT:  ^бик/бик<adv>/бик<n><nom>/бик<n><attr>$ ^җылы/җылы<adj>$
+# OUTPUT: ^бик/бик<adv>$ ^җылы/җылы<adj>$
+ "<бик>" SELECT Adv IF
+         (1 A OR Adv) ;
+##
+
 SECTION ############ Heurisitics #####################
 
 # INPUT:  ^турында/тур<n><px3sp><loc>/турында<post>$
@@ -792,6 +805,13 @@ SECTION ############ Heurisitics #####################
 # INPUT:  ^кеше/кеше<n><nom>/кеше<n><attr>/кеш<n><px3sp><nom>$
 # OUTPUT: ^кеше/кеше<n><nom>/кеше<n><attr>$
  "<кеше>" REMOVE ("кеш") IF (0 ("кеше")) ;
+
+#
+ "<шул>" SELECT Mod_ass IF
+        (1 EOS OR MARK) ;
+ "<шул>" REMOVE Mod_ass IF
+        (NOT 1 EOS OR MARK) ;
+## Кешеләр этләр белән сөйләшкәндә җавап алмыйлар шул.
 
 SECTION ########### MAPPING RULES ###############
 

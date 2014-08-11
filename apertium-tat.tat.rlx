@@ -285,15 +285,7 @@ SECTION ########## "NORMALIZATION" ##########
  SUBSTITUTE SUB:1 Sg Pl TARGET Cop IF (@1 ("без"i) + Pers) ;
 
 
-# ======= #
-  SECTION
-# ======= #
-
-
-
-# Part-of-speech marking
-# ======================
-
+SECTION ########## PART-OF-SPEECH MARKING ##########
 
 
 #
@@ -382,20 +374,19 @@ SECTION ########## "NORMALIZATION" ##########
 # OUTPUT: ^рәхмәт/рәхмәт<n><attr>/рәхмәт<n><nom>$
 #         ^белдерәм/белдер<v><tv><pres><p1><sg>$
  REMOVE Interj IF
- 	(1 V)
-;
+ 	(1 V) ;
 
 
 # INPUT: ^тәмле/тәмле<adj>/тәм<n>+лы<post>/тәмле<adj><advl>/тәмле<adj><subst><nom>$
 # OUTPUT: ^тәмле/тәмле<adj>/тәмле<adj><advl>/тәмле<adj><subst><nom>$
  REMOVE Sub:1 Post IF
  	(0 N)
-	(0 A)
-;
+	(0 A) ;
 
 # INPUT:  ^тәмсез/тәм<n><nom>+и<cop><p2><pl>/тәм<n><nom>+и<cop><p2><frm><pl>/тәм<n><nom>+и<cop><p2><frm><sg>/тәм<n>+сыз<post>$
 # OUTPUT: ^тәмсез/тәм<n>+сыз<post>$
  REMOVE Cop + P2 IF (NOT -1* ("сез"i)) ;
+##
 
 
 

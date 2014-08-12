@@ -397,49 +397,48 @@ SELECT Det IF (-1C A) (1 N);
 ## 44 . [0]Ол енді ол дыбысты анығырақ ести бастады.
 
 
-
-# Nouns
-# =====
-
+SECTION ########## NOUNS ##########
 
 
 #
  REMOVE Attr IF
-       (0 N OR Prop)
+       (0 NOMINAL)
        (NOT 0 Loc)
        (NOT 1 N OR Prop)
-;
 ## 176. Орталықта Түркістанның төл тарихына арналған музейлік [0]экспозиция жасақталған.
 ## (!) 184 . Үшінші қабатта «Тәуелсіз [0]Қазақстандағы жаңа Түркістан» атты экспозициялар қойылған.
-
 
 # Select attributive reading of the first noun of the II izafet construct
 # (as Tatar grammars call it)
  SELECT Attr IF
         (0 N OR Prop)
         (1 N OR Prop OR Subst)
-        (1 (px3sp))
-;
+        (1 (px3sp)) ;
 ## 111. Түркияның оңтүстік-шығысындағы [0]Газиантеп қаласында кеше болған жарылыстан қаза тапқандар саны 9-ға жетті.
-
 
 # If a former gerund or verbal adjective was lexicalized as a noun, select noun
  SELECT N IF
         (0 N)
-        (0 Gerund  OR (gpr_pot))
-;
+        (0 Gerund  OR (gpr_pot)) ;
 ## professions, such as "оқушы"; -U gerunds , in theory other gerunds too
-
 
 # INPUT:  ^биш/биш<num>/биш<num><subst><nom>$ ^чиләк/чиләк<n><attr>/чиләк<n><nom>$ ^кыяр/кыяр<n><attr>/кыяр<n><nom>$
 # OUTPUT: ^биш/биш<num>/биш<num><subst><nom>$ ^чиләк/чиләк<n><nom>$ ^кыяр/кыяр<n><attr>/кыяр<n><nom>$
  REMOVE Attr IF
- 	(-1 Num)
-	(1 N)
-;
+ 	     (-1 Num)
+	     (1 N) ;
 
+# INPUT:  ^өй/өй<n><attr>$
+#         ^алдындагы/алд<n><px3sp><loc><attr>/алд<n><px3sp><loc><subst><nom>$
+#         ^бакча/бакча<n><loc>$
+# OUTPUT: ^өй/өй<n><attr>$ ^алдындагы/алд<n><px3sp><loc><attr>$
+#         ^бакча/бакча<n><loc>$
+ SELECT Attr IF
+        (0 Loc)
+        (0C N) # ^турындагы/турындагы<adj>/тур<n><px3sp><loc><attr>/...$
+        (1 NOMINAL) ;
 
-SECTION ########## Adjectives ##########
+SECTION ########## ADJECTIVES ##########
 
 
 # select adverbial reading of adjectives if any verbal form except gerund follows
@@ -484,59 +483,45 @@ SECTION ########## Adjectives ##########
 ## 23. Айгөл санап бетергәннән соң тирә-ягына карады.
 
 
+SECTION ########## VERBS ##########
 
-# Verbs
-# =====
-
-
-
-REMOVE Participle IF
-       (NOT 1C V OR Vaux)
-;
-
+#
+ REMOVE Participle IF
+       (NOT 1C V OR Vaux) ;
 
 # <prc_cond> vs. <gna_cond>
  REMOVE (prc_cond) IF
-        (NOT 1 ("бул") + V)
-;
+        (NOT 1 ("бул") + V) ;
 ## 34 . Ол Азаматтың қайда екенін [0]білсе де айтқысы келген жоқ.
 
 
 #
  SELECT Participle IF
         (0C Participle OR VerbalAdverb)
-        (1 Vaux)
-;
+        (1 Vaux) ;
 ## 16 . Азамат ескі үлкен бір ағашқа қарай қатты [?]жүгіріп бара жатыр, ол сол
 ## ағаштың артына Айгүлден [0]жасырынып жатыр.
 
-
 #
  REMOVE Vaux IF
-        (NOT -1 Participle OR VerbalAdverb)
-;
+        (NOT -1 Participle OR VerbalAdverb) ;
 ## 187 . Біздің дәуірімізден 1 миллион жыл бұрын өмір сүрген "тік жүретін адамнан" [0]бастап, өз замандастарына дейінгі
 ## кезеңдерді қамтитын, ... орталықтың экспозициясы негізгі сегіз ірі бөлімнен тұрады.
 
-
-SELECT Pres IF (0 Pres OR Prc_impf) (-1C V);
+SELECT Pres IF (0 Pres OR Prc_impf) (-1C V) ;
     #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
-
 
 #
  SELECT (gpr_past) IF
         (0C (ger_past) + Nom)
-        (1 N)
-;
+        (1 N) ;
 ##  172 . Сот арқылы немесе өзгеде осындай құзыреті бар мемлекеттік органдардың
 ## шешімі арқылы тәркіленген мұражайлық маңызы бар жинақтардың немесе [0]жекелеген заттардың есебінен;
-
 
 #
  SELECT (prc_impf) IF
         (0 (pres p3))
-        (1 Vaux)
-;
+        (1 Vaux) ;
 ## яза аласыз
 
 # INPUT:  ^Мин/мин<prn><pers><p1><sg><nom>$ ^уйныйм/уйна<v><tv><opt><p1><sg>/уйна<v><tv><pres><p1><sg>$^./.<sent>$
@@ -545,19 +530,16 @@ SELECT Pres IF (0 Pres OR Prc_impf) (-1C V);
         (NOT 1* ("!")) ;
 
 
-################################################################################
+SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########  
 
 
-# Wordform/lemma-specific rules   # Adding new stuff here is discouraged.
-# =============================   # Try to generalize, if possible, existing rules.
+# Adding new stuff here is discouraged.
+# Try to generalize, if possible, existing rules.
 
-
-#
  "<үтә>" SELECT Adv IF
                 (1 A)
 ;
 ## Бірақ кеше _өте_ суық еді!
-
 
 # да<postadv/conj>
  SELECT SUB:1 Postadv IF
@@ -565,7 +547,6 @@ SELECT Pres IF (0 Pres OR Prc_impf) (-1C V);
 ;
 ## 34 . Ол Азаматтың қайда екенін [0]білсе+[0/1_or_-1]де айтқысы келген жоқ.  # with SUBREADINGS = LTR ; option
 ## Ол Азаматтың қайла екенін [0]білсе+[0/1]де+[0/2_or_-1]мі?                  # with SUBREADINGS = LTR ; option
-
 
 #
  SELECT Adv IF
@@ -791,7 +772,9 @@ SECTION ############ Heurisitics #####################
  SELECT Inf IF
         (0C Inf OR Gpr_fut) ;
 
+
 SECTION ########### MAPPING RULES ###############
+
 
 LIST @→N = @→N ; 
 LIST @ADVL→ = @ADVL→ ; 

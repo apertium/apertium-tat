@@ -76,14 +76,14 @@
 	"бик" n nom
 		"и" cop p3 sg
 "<җылы>"
-	"җылы" adj <Correct!>
+	"җылы" adj
 	"җылы" n nom
 	"җылы" n attr
 	"җылы" adj advl
 	"җылы" adj subst nom
 	"җылы" adj
 		"и" cop p3 pl
-	"җылы" adj
+	"җылы" adj <Correct!>
 		"и" cop p3 sg
 	"җылы" n nom
 		"и" cop p3 pl

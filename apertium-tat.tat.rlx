@@ -274,6 +274,7 @@ SECTION ########## COPULAS ##########
         (0/1 Cop + P3) ;
 ##
 
+
 SECTION ########## "NORMALIZATION" ##########
 
 
@@ -293,26 +294,21 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
         (1 EOS OR ("ди"i))   # FIXME s/.*/SentenceBoundary/
         (NOT 0 ("бар"i))     # FIXME a better way?
         (NOT 0 ("<түгел>"i))
-        (NOT 0 ("<бу>"i))
-;
+        (NOT 0 ("<бу>"i)) ;
 ## (!) 40 . Мүмкін бұл Азамат [0]шығар?
 ##  (!) 13 . Жоқ, Айгүлдің күшігі жоқ, оның мысығы [0]бар.
 ## Мағынасы төңкеріліп [0]кетті деп ойламағаным үшін ғафу етіңіз.
 
-
 #
  SELECT Interj IF
         (-1 BOS)
-        (1 Cm)
-;
+        (1 Cm) ;
 ## "Мысалы, ежелгі заманның өзінде Арал теңізі көп елдерге мәлім болған."
-
 
 #
  REMOVE Post IF
         (NOT -1 NOMINAL)
-        (NOT -1 ("белән"))
-;
+        (NOT -1 ("белән")) ;
 ## песи белән [0]бергә
 
 # Proper noun vs noun
@@ -320,25 +316,21 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
  	(NOT 0 ("Һава") OR ("дәүләт"))
         (0 N)
         (0 Prop)
-        (0 ("[:upper:]+[:lower:]*"r))
-;
+        (0 ("[:upper:]+[:lower:]*"r)) ;
 ## 108. Өйткені бүгінгі _Арал_ деген атау сол XVII ғасырдан бергі жерге берілген.
  SELECT Prop IF
         (0 N)
         (0 Prop)
-        (0 ("[:upper:][:upper:]+"r))
-;
+        (0 ("[:upper:][:upper:]+"r)) ;
 ## АЗАМАТ ҚАЙДА?
  SELECT Prop IF
         (0 Prop)
         (0 N)
         (1 ("белән") + Post)
-        (2 Prop)
-;
+        (2 Prop) ;
 ## Азамат белән Айгөл бакчада.
  REMOVE (ant) IF
- 	(NOT 1 (cog))
-;
+ 	(NOT 1 (cog)) ;
 ## ^Һава/һава<n><attr>/һава<n><nom>/Һава<np><ant><f><nom>/һава<n><nom>+и<cop><p3><pl>/
 ## һава<n><nom>+и<cop><p3><sg>/Һава<np><ant><f><nom>+и<cop><p3><pl>/Һава<np><ant><f><nom>+и<cop><p3><sg>$
 
@@ -350,52 +342,51 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
  SELECT Pron IF
         (0 Det)
         (1  N)
-        (2 EOS)
-;
-
+        (2 EOS) ;
 
  SELECT A IF
         (0 N)
-        (-1 Adv)
-;
+        (-1 Adv) ;
 ## Һава яхшы, бик [0]җылы.
-
 
  SELECT A IF
         (0 N)
         (-1 Cm)
-        (-2 A)
-;
+        (-2 A) ;
 ## Һава яхшы, [0]җылы.
-
 
 # INPUT:  ^рәхмәт/рәхмәт<ij>/рәхмәт<n><attr>/рәхмәт<n><nom>$
 #         ^белдерәм/белдер<v><tv><pres><p1><sg>$
 # OUTPUT: ^рәхмәт/рәхмәт<n><attr>/рәхмәт<n><nom>$
 #         ^белдерәм/белдер<v><tv><pres><p1><sg>$
  REMOVE Interj IF
- 	(1 V) ;
-
+ 	     (1 V) ;
 
 # INPUT: ^тәмле/тәмле<adj>/тәм<n>+лы<post>/тәмле<adj><advl>/тәмле<adj><subst><nom>$
 # OUTPUT: ^тәмле/тәмле<adj>/тәмле<adj><advl>/тәмле<adj><subst><nom>$
  REMOVE Sub:1 Post IF
- 	(0 N)
-	(0 A) ;
+ 	     (0 N)
+	     (0 A) ;
 
 # INPUT:  ^тәмсез/тәм<n><nom>+и<cop><p2><pl>/тәм<n><nom>+и<cop><p2><frm><pl>/тәм<n><nom>+и<cop><p2><frm><sg>/тәм<n>+сыз<post>$
 # OUTPUT: ^тәмсез/тәм<n>+сыз<post>$
  REMOVE Cop + P2 IF (NOT -1* ("сез"i)) ;
-##
+
+# INPUT:  ^Һава/Һава<n><nom>$ ^яхшы/яхшы<ij>/яхшы<adj>+и<cop><p3><sg>$^./.<sent>$
+# OUTPUT: ^Һава/Һава<n><nom>$ ^яхшы/яхшы<adj>+и<cop><p3><sg>$^./.<sent>$
+ REMOVE Interj IF
+        (0 A)
+        (-1* NOMINAL + Nom BARRIER MARK) ;
+
+ SELECT CC IF
+        (-1 BOS) ;
+## ^Тик/тик<cnjcoo>/тик<adv>$ кичә бик суык иде.
 
 
-
-# Determiners
-# ===========
+SECTION ########## DETERMINERS ##########
 
 
-
-REMOVE Det IF (NOT 1 NPMARK OR N OR Pron);
+REMOVE Det IF (NOT 1 NPMARK OR N OR Pron) ;
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ ,
     #! әлегә эт дә бакчада .
     ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn. Maybe we should consider it noun (as in Kazakh)'

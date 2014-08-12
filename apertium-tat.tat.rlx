@@ -317,6 +317,7 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
         (1 ("белән") + Post)
         (2 Prop) ;
 ## Азамат белән Айгөл бакчада.
+
  REMOVE (ant) IF
  	(NOT 1 (cog)) ;
 ## ^Һава/һава<n><attr>/һава<n><nom>/Һава<np><ant><f><nom>/һава<n><nom>+и<cop><p3><pl>/
@@ -369,6 +370,11 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
  SELECT CC IF
         (-1 BOS) ;
 ## ^Тик/тик<cnjcoo>/тик<adv>$ кичә бик суык иде.
+
+# INPUT:  ^тиздән/тиз<adj><subst><abl>/тиздән<adv>$
+# OUTPUT: ^тиздән/тиздән<adv>$
+ SELECT Adv IF
+ 	(0 A + Abl) ;
 
 
 SECTION ########## DETERMINERS ##########
@@ -537,26 +543,21 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 # Try to generalize, if possible, existing rules.
 
  "<үтә>" SELECT Adv IF
-                (1 A)
-;
+                (1 A) ;
 ## Бірақ кеше _өте_ суық еді!
 
 # да<postadv/conj>
  SELECT SUB:1 Postadv IF
-        (0 (gna_cond))
-;
+        (0 (gna_cond)) ;
 ## 34 . Ол Азаматтың қайда екенін [0]білсе+[0/1_or_-1]де айтқысы келген жоқ.  # with SUBREADINGS = LTR ; option
 ## Ол Азаматтың қайла екенін [0]білсе+[0/1]де+[0/2_or_-1]мі?                  # with SUBREADINGS = LTR ; option
 
 #
- SELECT Adv IF
-        (0 ("бергә"))
-        (NOT -1 ("белән"))
-        (1 V)
-;
-## 6 . Азамат пен Айгүл ойнағанды жақсы көреді, олар әрдайым үлкен үйдің алдындағы бақшада [0]бірге ойнайды.
-## (!) Ол Азаматпен бірге келді.
-
+ "<бергә>"i SELECT Adv IF
+        (NOT -1 ("белән"i))
+        (1 V) ;
+##  Алар һәрвакыт өлкән өйнең алдындагы бакчада [0]бергә уйный.
+## (!) Ул Азамат белән бергә килде.
 
 # INPUT:  ^Мин/Мин<prn><pers><p1><sg><nom>$
 #         ^кичә/кич<v><tv><prc_impf>/кичә<adv>/кич<v><tv><pres><p3><sg>$
@@ -568,10 +569,8 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #          кил<v><iv><ifi><p1><sg>$^./.<sent>$
  REMOVE V + TV IF
         (0 ("кичә"i))
-        (NOT -1* N + Acc)
-;
-#
-
+        (NOT -1* N + Acc) ;
+##
 
 # INPUT:  ^Ул/Ул<n><nom>/Ул<n><attr>/Ул<det><dem>/Ул<prn><dem><nom>/
 #         Ул<prn><pers><p3><sg><nom>/Ул<n><nom>+и<cop><p3><sg>/
@@ -582,60 +581,48 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #         ^көлә/көл<v><iv><prc_impf>/көл<v><iv><pres><p3><sg>$^./.<sent>$
  REMOVE N IF
         (0 ("ул"i))
-        (NOT 0 PersonalPossessives)
-;
-#
-
+        (NOT 0 PersonalPossessives) ;
+##
 
 # "ни" -- парный союз
 "<ни>" REMOVE CC IF
-        (NOT 1* ("ни"))
-;
+        (NOT 1* ("ни")) ;
 ## Һәм Әхмәт агач артында ни эшли?
-
 
 #
 "<белән>" REMOVE CC IF
-         (NOT 1 Nom)
-;
+         (NOT 1 Nom) ;
 ## Куллары белән күзләрен каплый.
-
 
 # INPUT:  ^килгәч/ки<v><tv><pass><gna_after>/кил<vaux><gna_after>/кил<v><iv><gna_after>$
 # OUTPUT: ^килгәч/кил<vaux><gna_after>/кил<v><iv><gna_after>$
  REMOVE (pass) IF
-        (0 ("ки"i))
-;
+        (0 ("ки"i)) ;
 # TODO: ^килгәч/ки<v><tv><pass><gna_after> is a transducer fail, fix there instead
-
 
 #
 "<яшь>" SELECT N IF
         (-1 Num)
-        (1 EOS)
-;        
+        (1 EOS) ;
 ## аңа биш яшь
 
 #
  REMOVE V IF
         (0 ("бу"i))
-        (NOT -1* Acc)
-;
+        (NOT -1* Acc) ;
 ## ^Бу/бу<det><dem>/бу<prn><dem><nom>/бу<v><tv><imp><p2><sg>/бу<prn><dem><nom>+и<cop><p3><pl>/
 ## бу<prn><dem><nom>+и<cop><p3><sg>$
 
 #
  "<ди>" SELECT Pres + P3 IF
-        (1 EOS)
-;
+        (1 EOS) ;
 ## ^ди/ди<v><tv><prc_impf>/ди<v><tv><imp><p2><sg>/ди<v><tv><pres><p3><sg>$
+## FIXME phonology fail
 
 # 
  "<түгел>" SELECT Cop IF
-        (1 EOS)
-;
+        (1 EOS) ;
 ## ^түгел/түгел<cnjcoo>/и<cop><neg><p3><sg>/түк<v><tv><pass><imp><p2><sg>$
-
 
 # INPUT:  ^өстәл/өстәл<n><nom>/өстәл<n><attr>$ ^белән/белән<cnjcoo>/белән<post>$
 #         ^урындык/урындык<n><nom>/урындык<n><attr>$
@@ -643,8 +630,7 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #         ^урындык/урындык<n><nom>/урындык<n><attr>$
  "<белән>" SELECT CC IF
         (-1 N + Nom)
-        (1 N + Nom)
-;
+        (1 N + Nom) ;
 
 # INPUT:  ^ул/ул<det><dem>/ул<n><nom>/ул<n><attr>/ул<prn><dem><nom>/ул<prn><pers><p3><sg><nom>$
 #         ^тәрәзәдән/тәрәзә<n><abl>$ ^Әхмәт/Әхмәт<np><ant><m><nom>$ ^белән/белән<cnjcoo>/белән<post>$
@@ -658,48 +644,36 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #         ^./.<sent>$
  SELECT Pron + Pers + Nom IF
         (0 Det)
-        (NOT -1* Nom BARRIER Cm)
-;
+        (NOT -1* Nom BARRIER Cm) ;
 ## 15.	Әниләре песи белән бергә өйдә, [0]ул тәрәзәдән Әхмәт белән Гөлнараның уйнаганын күзәтә.
-
-# INPUT:  ^тиздән/тиз<adj><subst><abl>/тиздән<adv>$
-# OUTPUT: ^тиздән/тиздән<adv>$
- SELECT Adv IF
- 	(0 A + Abl)
-;
 
 # INPUT:  ^Менә/мен<v><iv><prc_impf>/менә<adv>/менә<ij>/мен<v><iv><pres><p3><sg>$
 # OUTPUT: ^Менә/менә<ij>$
  SELECT Interj IF
-        (0 ("<[:upper:]+[:lower:]*>"r))
-;
+        (0 ("<[:upper:]+[:lower:]*>"r)) ;
 
 # INPUT:  ^бит/бит<mod_ass>/бит<n><attr>/бит<n><nom>/бит<n><nom>+и<cop><p3><pl>/бит<n><nom>+и<cop><p3><sg>$^./.<sent>$
 # OUTPUT: ^бит/бит<mod_ass>/бит<n><attr>/бит<n><nom>$^./.<sent>$
 "<бит>" SELECT Mod_ass IF
- 	       (1 EOS)
-;
+ 	       (1 EOS) ;
 
 # INPUT:  ^Рәхмәт/рәхмәт<ij>/рәхмәт<n><attr>/рәхмәт<n><nom>$^!/!<sent>$
 # OUTPUT: ^Рәхмәт/рәхмәт<ij>$^!/!<sent>$
  SELECT Interj IF
  	(-1 BOS)
-	(1 EOS)
-;
+	(1 EOS) ;
 
 # INPUT:  ^Бу/бу<det><dem>/бу<prn><dem><nom>/бу<v><tv><imp><p2><sg>$
 #         ^мин/мин<prn><pers><p1><sg><nom>$^./.<sent>$
 # OUTPUT: ^Бу/бу<prn><dem><nom>$
 #         ^мин/мин<prn><pers><p1><sg><nom>$^./.<sent>$
 "<Бу>" SELECT Pron IF
-       (2 EOS)
-;
+       (2 EOS) ;
 
 # INPUT:  ^бар/бар<adj>/бар<det><qnt>/бар<n><attr>/бар<n><nom>/бар<adj><subst><nom>/бар<v><iv><imp><p2><sg>$^./.<sent>$
 # OUTPUT: ^бар/бар<adj>$^./.<sent>$
  "<бар>" SELECT A IF
- 	 (1 EOS)
-;
+ 	 (1 EOS) ;
 
 # INPUT:  ^Һәр/һәр<det><qnt>$ ^иртә/иртә<adj>/иртә<n><attr>/иртә<n><nom>/иртә<adj><advl>/иртә<adj><subst><nom>$
 # OUTPUT: ^Һәр/һәр<det><qnt>$ ^иртә/иртә<n><nom>$
@@ -728,12 +702,12 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 
 # RISKY
  SELECT Det IF
-        (0 ("берәр")) (1/-1 (px) OR Pron);
+        (0 ("берәр")) (1/-1 (px) OR Pron) ;
 #! Ул берәр хайванныкы да кошныкы да түгел.
 ## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
 
 
-SECTION ############ Heurisitics #####################
+SECTION ############ HEURISTICS #####################
 
 
 # INPUT:  ^турында/тур<n><px3sp><loc>/турында<post>$

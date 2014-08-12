@@ -376,30 +376,23 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
  SELECT Adv IF
  	(0 A + Abl) ;
 
-
-SECTION ########## DETERMINERS ##########
-
-
-REMOVE Det IF (NOT 1 NPMARK OR N OR Pron) ;
+ REMOVE Det IF (NOT 1 NPMARK OR NOMINAL) ;
     #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ ,
     #! әлегә эт дә бакчада .
-    ## FIXME:CHECK; 'Pron' was needed because 'нәрсә' is tagged as prn. Maybe we should consider it noun (as in Kazakh)'
 
-SELECT Det IF (0C V OR Det OR A OR N) (1 NPMARK OR N) ;
+ SELECT Det IF (0C V OR Det OR A OR N) (1 NPMARK OR N) ;
     #! пример : Бар<det> җирдән карый, әмма Әхмәтне таба алмый.
     #! Акча бармы? Бар<adj>.
     #! Акча бармы? Бар<adj>, ләкин бик аз!
 
-SELECT Det IF (-1C A) (1 N);
+ SELECT Det IF (-1C A) (1 N);
     #! Әхмәт тиз генә иске зур бер агачка йөгерә.
     #! Әхмәт акрын гына иске зур бер агачка йөгерә.
-
 
 #
  SELECT Pron IF
         (0C Det OR Pron)
-        (1 Adv)
-;
+        (1 Adv) ;
 ## 44 . [0]Ол енді ол дыбысты анығырақ ести бастады.
 
 
@@ -410,7 +403,7 @@ SECTION ########## NOUNS ##########
  REMOVE Attr IF
        (0 NOMINAL)
        (NOT 0 Loc)
-       (NOT 1 N OR Prop)
+       (NOT 1 N OR Prop) ;
 ## 176. Орталықта Түркістанның төл тарихына арналған музейлік [0]экспозиция жасақталған.
 ## (!) 184 . Үшінші қабатта «Тәуелсіз [0]Қазақстандағы жаңа Түркістан» атты экспозициялар қойылған.
 
@@ -443,6 +436,7 @@ SECTION ########## NOUNS ##########
         (0 Loc)
         (0C N) # ^турындагы/турындагы<adj>/тур<n><px3sp><loc><attr>/...$
         (1 NOMINAL) ;
+
 
 SECTION ########## ADJECTIVES ##########
 
@@ -667,8 +661,10 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #         ^мин/мин<prn><pers><p1><sg><nom>$^./.<sent>$
 # OUTPUT: ^Бу/бу<prn><dem><nom>$
 #         ^мин/мин<prn><pers><p1><sg><nom>$^./.<sent>$
-"<Бу>" SELECT Pron IF
-       (2 EOS) ;
+ SELECT Pron IF
+       (0 ("бу"i))
+       (2 EOS OR ("бул"i)) ;
+## Бу Әхмәт булырга тиеш.
 
 # INPUT:  ^бар/бар<adj>/бар<det><qnt>/бар<n><attr>/бар<n><nom>/бар<adj><subst><nom>/бар<v><iv><imp><p2><sg>$^./.<sent>$
 # OUTPUT: ^бар/бар<adj>$^./.<sent>$

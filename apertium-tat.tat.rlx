@@ -547,26 +547,10 @@ SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
 ;
 ## яза аласыз
 
-
 # INPUT:  ^Мин/мин<prn><pers><p1><sg><nom>$ ^уйныйм/уйна<v><tv><opt><p1><sg>/уйна<v><tv><pres><p1><sg>$^./.<sent>$
 # OUTPUT: ^Мин/мин<prn><pers><p1><sg><nom>$ ^уйныйм/уйна<v><tv><pres><p1><sg>$^./.<sent>$
  REMOVE Opt IF
-        (NOT 1* ("!"))
-;
-#
-
-###################################### TO BE SORTED ############################
-
-
-SELECT A IF (0 ("бар")) (-1 PersonalPossessives );
-    #! Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ .
-    ## FIXME:CHECK
-
-
-# RISKY
-SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
-    #! Ул берәр хайванныкы да кошныкы да түгел.
-    ## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
+        (NOT 1* ("!")) ;
 
 
 ################################################################################
@@ -764,9 +748,20 @@ SELECT Det IF (0 ("берәр")) (1/-1 (px) OR Pron);
 # OUTPUT: ^бик/бик<adv>$ ^җылы/җылы<adj>$
  "<бик>" SELECT Adv IF
          (1 A OR Adv) ;
-##
+
+ SELECT A IF
+        (0 ("бар")) (-1 PersonalPossessives ) ;
+## Әхмәтнең кечкенә бер эте ^бар/бар<adj>/бар<adj><subst><nom>/бар<det><qnt>/бар<v><iv><imp><p2><sg>$ .
+
+# RISKY
+ SELECT Det IF
+        (0 ("берәр")) (1/-1 (px) OR Pron);
+#! Ул берәр хайванныкы да кошныкы да түгел.
+## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
+
 
 SECTION ############ Heurisitics #####################
+
 
 # INPUT:  ^турында/тур<n><px3sp><loc>/турында<post>$
 # OUTPUT: ^турында/турында<post>

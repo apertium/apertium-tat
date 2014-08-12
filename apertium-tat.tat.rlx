@@ -395,6 +395,10 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
         (1 Adv) ;
 ## 44 . [0]Ол енді ол дыбысты анығырақ ести бастады.
 
+#
+ REMOVE Subst If (1 NOMINAL OR NPMARK) (NOT 1 Post) ;
+## ^2012/2012<num>/2012<num><subst>$ ^турында/турында<post>/тур<n><px3sp><loc>$
+
 
 SECTION ########## NOUNS ##########
 
@@ -455,35 +459,37 @@ SECTION ########## ADJECTIVES ##########
  REMOVE Subst IF (0 A)
         (1 EOS OR MARK OR Cop) ;
 
+# INPUT: ^бәләкәй/бәләкәй<adj>/бәләкәй<adj><advl>/бәләкәй<adj><subst><nom>$
+#        ^бер/бер<det><ind>$ ^малай/малай<n><nom>$
+# OUTPUT:^бәләкәй/бәләкәй<adj>$
+#        ^бер/бер<det><ind>$ ^малай/малай<n><nom>$
+ REMOVE Advl IF (0 A)
+        (1 Det) (2 N) ;
+ REMOVE Subst IF (0 A)
+        (1 Det) (2 N) ;
 
 
-# Postpositions
-# =============
-
+SECTION ########## POSTPOSITIONS ##########
 
 
 #
  "<таба>" SELECT Post IF
-          (-1 Dat)
-;
+          (-1 Dat) ;
 ##
-
 
 #
  "<бергә>" SELECT Post IF
-        (-1 ("белән"))
-;
+        (-1 ("белән")) ;
 ##
-
 
 #
  "<соң>" SELECT Post IF
-                (-1 Abl)
-;
+                (-1 Abl) ;
 ## 23. Айгөл санап бетергәннән соң тирә-ягына карады.
 
 
 SECTION ########## VERBS ##########
+
 
 #
  REMOVE Participle IF

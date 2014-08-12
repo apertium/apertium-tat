@@ -19,8 +19,7 @@
 #                   ^бетіндегі/бет<n><px3sp><loc><attr>...$
 #         REMOVE V IF
 #                (0 PRE-N)
-#                (1C N)
-#        ;
+#                (1C N) ;
 #        # any additional comments here (if necessary)
 #
 # An abstract example of the second layout:
@@ -29,8 +28,7 @@
 #        # code!), a name or any other comment that clarifies its purpose
 #         SELECT ABC IF
 #                (0 DEF)
-#                (1 GHI)
-#        ;
+#                (1 GHI) ;
 #        ## A sentence with the [0]form the rule was written for.
 #        ## (!) A corner-case-sentence: the rule mispredicted on it initially
 #        ## but was modified accordingly (additional constraints etc.); or the
@@ -44,8 +42,7 @@
 #
 #        # Participle appears immediately before a verb (verbal adverb doesn't)
 #         REMOVE Participle IF
-#                (NOT 1C V OR Vaux)
-#        ;
+#                (NOT 1C V OR Vaux) ;
 #        ## Есік [0]ашып, ол үйге кірді.
 #
 # In context of apertium-tat, the difference between a participle and a verbal
@@ -59,13 +56,10 @@
 #         # What the rule does?
 #          SELECT ABC IF
 #                 (0 DEF)
-#                 (1 KLM)
-#         ;
+#                 (1 KLM) ;
 #          REMOVE XYZ IF
 #                 (0 DEF)
-#                 (1 NOP)
-#                 (2 QRS)
-#          ;
+#                 (1 NOP) (2 QRS) ;
 #          ## Example sentences for both of the rules.
 #          ## Another example sentence.
 #
@@ -165,27 +159,21 @@ LIST P3 = p3 ;
 
 LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
 
-# Adjective sets
-# ==============
-
-LIST A/Advl = (adj advl) ;
-LIST A/Subst = (adj subst nom) ;
-SET A1 = A/Advl | A/Subst ;
+LIST Pres = pres ;
+LIST Inf = inf ;
+LIST TV = tv ;
+LIST Opt = opt ;
 
 # Verb sets
 # =========
 
 LIST FiniteVerb = pres past ifi  fut fut2 imp opt;
 LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
-SET V-NotGerund = V - Gerund ;
-LIST Pres = pres ;
-LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
-LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
-LIST Prc-Impf = prc_impf ;
-LIST Inf = inf ;
 LIST Ger6 = ger6 ;
-LIST TV = tv ;
-LIST Opt = opt ;
+LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
+LIST Prc_impf = prc_impf ;
+LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
+LIST Gpr_fut = gpr_fut ;
 
 LIST Bar-etc = ("бар" adj) ("юк" adj) ("күп" adj) ;
 
@@ -450,19 +438,23 @@ SELECT Det IF (-1C A) (1 N);
 	(1 N)
 ;
 
-# Adjectives
-# ==========
 
+SECTION ########## Adjectives ##########
 
 
 # select adverbial reading of adjectives if any verbal form except gerund follows
 # FIXME CHECK it might be a gerund as well
- SELECT Advl IF (1C V-NotGerund) ;
+ SELECT Advl IF
+        (1C V - Gerund) ;
 
-# select pure adjective reading ("predicative" in this case) of an adjective if sentence ends
- REMOVE Advl IF (0 A1) (1 EOS) ;
-
- REMOVE Subst IF (0 A1) (1 EOS OR MARK) ;
+# INPUT:  ^кичә/кичә<adv>$ ^суык/суык<adj>/суык<adj><advl>/суык<adj><subst><nom>$
+#         ^иде/и<cop><ifi><p3><sg>$
+# OUTPUT: ^кичә/кичә<adv>$ ^суык/суык<adj>$
+#         ^иде/и<cop><ifi><p3><sg>$
+ REMOVE Advl IF (0 A)
+        (1 EOS OR MARK OR Cop) ;
+ REMOVE Subst IF (0 A)
+        (1 EOS OR MARK OR Cop) ;
 
 
 
@@ -527,7 +519,7 @@ REMOVE Participle IF
 ## кезеңдерді қамтитын, ... орталықтың экспозициясы негізгі сегіз ірі бөлімнен тұрады.
 
 
-SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
+SELECT Pres IF (0 Pres OR Prc_impf) (-1C V);
     #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
 
 
@@ -790,6 +782,15 @@ SECTION ############ Heurisitics #####################
         (NOT 1 EOS OR MARK) ;
 ## Кешеләр этләр белән сөйләшкәндә җавап алмыйлар шул.
 
+# INPUT:  ^иде/и<cop><ifi><p3><sg>/и<v><tv><ifi><p3><sg>$
+# OUTPUT: ^иде/и<cop><ifi><p3><sg>$
+ "<иде>" SELECT Cop ;
+
+# INPUT:  ^уйнарга/уйна<v><tv><inf>/уйна<v><tv><gpr_fut><subst><dat>$
+# OUTPUT: ^уйнарга/уйна<v><tv><inf>$
+ SELECT Inf IF
+        (0C Inf OR Gpr_fut) ;
+
 SECTION ########### MAPPING RULES ###############
 
 LIST @→N = @→N ; 
@@ -798,5 +799,4 @@ LIST @ADVL→ = @ADVL→ ;
 # INPUT:
 # OUTPUT: 
 MAP (@ADVL→) TARGET Gen IF
-    (1*/* Bar-etc BARRIER Cm) 
-; 
+    (1*/* Bar-etc BARRIER Cm) ; 

@@ -615,7 +615,7 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #         ^көлә/көл<v><iv><prc_impf>/көл<v><iv><pres><p3><sg>$^./.<sent>$
  REMOVE N IF
         (0 ("ул"i))
-        (NOT 0< PersonalPossessives) ;
+        (NOT 0 PersonalPossessives) ;
 ##
 
 # "ни" -- парный союз

@@ -125,6 +125,9 @@ LIST Sent = sent ;
 LIST Cm = cm ;
 LIST Rquot = rquot ;
 
+LIST POS = A Adv Pron N Prop V Vaux Cop Det CC CS Interj Num Post Postadv
+           Mod_ass Sent Cm Rquot ;
+
 # POS sub-categories
 # ==================
 
@@ -259,7 +262,7 @@ SECTION ########## COPULAS ##########
 #         ^бакчада/бакча<n><l oc>/бакча<n><loc>+и<cop><p3><pl>/бакча<n><loc>+и<cop><p3><sg>$
  SELECT SUB:1 Pl IF
         (0/1 Cop + P3) ( NOT 0 Mod_ass)
-        (-3 NOMINAL + Nom) (-2 CC) (-1 NOMINAL + Nom) ;
+        (-3 NOMINAL + Nom) (-2 ("һәм")) (-1 NOMINAL + Nom) ;
  REMOVE SUB:1 Pl IF
         (0/1 Cop + P3) ;
 ##
@@ -454,6 +457,13 @@ SECTION ########## NOUNS ##########
         (0C N) # ^турындагы/турындагы<adj>/тур<n><px3sp><loc><attr>/...$
         (1 NOMINAL) ;
 
+# INPUT:  ^Тик/Тик<cnjcoo>$ ^песи/песи<n><nom>/песи<n><attr>$
+#         ^өйдә/өй<n><loc>+и<cop><p3><sg>$^./.<sent>$
+# OUTPUT: ^Тик/Тик<cnjcoo>$ ^песи/песи<n><nom>$
+#         ^өйдә/өй<n><loc>+и<cop><p3><sg>$^./.<sent>$
+ REMOVE Attr IF
+        (NOT -1* Nom) (2 EOS OR MARK) ;
+
 
 SECTION ########## ADJECTIVES ##########
 
@@ -513,7 +523,6 @@ SECTION ########## VERBS ##########
         (NOT 1 ("бул") + V) ;
 ## 34 . Ол Азаматтың қайда екенін [0]білсе де айтқысы келген жоқ.
 
-
 #
  SELECT Participle IF
         (0C Participle OR VerbalAdverb)
@@ -547,6 +556,16 @@ SELECT Pres IF (0 Pres OR Prc_impf) (-1C V) ;
 # OUTPUT: ^Мин/мин<prn><pers><p1><sg><nom>$ ^уйныйм/уйна<v><tv><pres><p1><sg>$^./.<sent>$
  REMOVE Opt IF
         (NOT 1* ("!")) ;
+
+# INPUT:  ^Гөлнараның/Гөлнара<np><ant><f><gen>$
+#         ^уйнаганын/уйна<v><tv><ger_past><px3sp><acc>/уйна<v><tv><gpr_past><subst><px3sp><acc>$
+#         ^күзәтә/күзәт<v><tv><pres><p3><sg>$
+# OUTPUT: ^Гөлнараның/Гөлнара<np><ant><f><gen>$
+#         ^уйнаганын/уйна<v><tv><ger_past><px3sp><acc>$
+#         ^күзәтә/күзәт<v><tv><pres><p3><sg>$
+ SELECT Gerund IF
+        (0 PersonalPossessives) 
+        (-1* Gen) ;
 
 
 SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########  
@@ -596,7 +615,7 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #         ^көлә/көл<v><iv><prc_impf>/көл<v><iv><pres><p3><sg>$^./.<sent>$
  REMOVE N IF
         (0 ("ул"i))
-        (NOT 0 PersonalPossessives) ;
+        (NOT 0< PersonalPossessives) ;
 ##
 
 # "ни" -- парный союз
@@ -605,9 +624,12 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 ## Һәм Әхмәт агач артында ни эшли?
 
 #
-"<белән>" REMOVE CC IF
-         (NOT 1 Nom) ;
-## Куллары белән күзләрен каплый.
+"<белән>" SELECT CC IF
+         (-1 $$NOMINAL) (1C $$NOMINAL) ;
+"<белән>" SELECT Post IF
+         (NOT -1 $$POS) (NOT 1 $$POS) ;
+## (!) Куллары белән<post> күзләрен каплый.
+## Ул бу ике бала белән уйнарга ярата.
 
 # INPUT:  ^килгәч/ки<v><tv><pass><gna_after>/кил<vaux><gna_after>/кил<v><iv><gna_after>$
 # OUTPUT: ^килгәч/кил<vaux><gna_after>/кил<v><iv><gna_after>$

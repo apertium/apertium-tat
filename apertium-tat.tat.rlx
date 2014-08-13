@@ -163,6 +163,7 @@ LIST Pres = pres ;
 LIST Inf = inf ;
 LIST TV = tv ;
 LIST Opt = opt ;
+LIST Imp = imp ;
 
 # Verb sets
 # =========
@@ -173,6 +174,7 @@ LIST Ger6 = ger6 ;
 LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
 LIST Prc_impf = prc_impf ;
 LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
+LIST Gna_cond = gna_cond ;
 LIST Gpr_fut = gpr_fut ;
 
 LIST Bar-etc = ("бар" adj) ("юк" adj) ("күп" adj) ;
@@ -288,6 +290,11 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
 ## Мағынасы төңкеріліп [0]кетті деп ойламағаным үшін ғафу етіңіз.
 
 #
+ SELECT Imp IF
+        (1 ("әле"i)) ;
+## ^килегез/кил<v><iv><imp><p2><frm><sg>/кил<v><iv><imp><p2><pl>/киле<n><px2pl><nom>$ әле.
+
+#
  SELECT Interj IF
         (-1 BOS)
         (1 Cm) ;
@@ -394,6 +401,12 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
         (0C Det OR Pron)
         (1 Adv) ;
 ## 44 . [0]Ол енді ол дыбысты анығырақ ести бастады.
+
+#
+ SELECT Det IF
+        (0C Det OR Pron)
+        (1 Num) ;
+## Эт [0]бу ике бала белән уйнарга ярата.
 
 #
  REMOVE Subst If (1 NOMINAL OR NPMARK) (NOT 1 Post) ;
@@ -547,8 +560,10 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 ## Бірақ кеше _өте_ суық еді!
 
 # да<postadv/conj>
+ REMOVE SUB:1 Postadv IF
+        (NOT 0 Gna_cond) ;
  SELECT SUB:1 Postadv IF
-        (0 (gna_cond)) ;
+        (0 Gna_cond) ;
 ## 34 . Ол Азаматтың қайда екенін [0]білсе+[0/1_or_-1]де айтқысы келген жоқ.  # with SUBREADINGS = LTR ; option
 ## Ол Азаматтың қайла екенін [0]білсе+[0/1]де+[0/2_or_-1]мі?                  # with SUBREADINGS = LTR ; option
 
@@ -708,6 +723,10 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 #! Ул берәр хайванныкы да кошныкы да түгел.
 ## FIXME:CHECK:# 'Pron' was needed because 'нәрсә' is tagged as prn (e.g. "берәр нәрсә").
 
+# "әле" -- парный союз
+"<әле>" REMOVE CC IF
+        (NOT 1* ("әле")) ;
+##
 
 SECTION ############ HEURISTICS #####################
 

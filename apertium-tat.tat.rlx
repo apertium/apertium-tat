@@ -395,10 +395,11 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
     #! Акча бармы? Бар<adj>.
     #! Акча бармы? Бар<adj>, ләкин бик аз!
 
+#
  SELECT Det IF (-1C A) (1 N);
-    #! Әхмәт тиз генә иске зур бер агачка йөгерә.
-    #! Әхмәт акрын гына иске зур бер агачка йөгерә.
-
+#! Әхмәт тиз генә иске зур бер агачка йөгерә.
+#! Әхмәт акрын гына иске зур бер агачка йөгерә.
+ 
 #
  SELECT Pron IF
         (0C Det OR Pron)
@@ -464,6 +465,11 @@ SECTION ########## NOUNS ##########
  REMOVE Attr IF
         (NOT -1* Nom) (2 EOS OR MARK) ;
 
+#
+ SELECT Advl IF
+        (0 A) (0/1 Postadv)
+        (NOT -1 Det) ;
+## Әхмәт [0] тиз генә бер агачка таба йөгерә.
 
 SECTION ########## ADJECTIVES ##########
 
@@ -486,10 +492,20 @@ SECTION ########## ADJECTIVES ##########
 #        ^бер/бер<det><ind>$ ^малай/малай<n><nom>$
 # OUTPUT:^бәләкәй/бәләкәй<adj>$
 #        ^бер/бер<det><ind>$ ^малай/малай<n><nom>$
- REMOVE Advl IF (0 A)
+ REMOVE Advl IF
+        (0 A)
         (1 Det) (2 N) ;
- REMOVE Subst IF (0 A)
+ REMOVE Subst IF
+        (0 A)
         (1 Det) (2 N) ;
+
+# INPUT:  ^бер/бер<det><ind>$ ^зур/зур<adj>/зур<adj><advl>$
+#         ^агачка/агач<n><dat>$
+# OUTPUT: ^бер/бер<det><ind>$ ^зур/зур<adj>$
+#         ^агачка/агач<n><dat>$
+ REMOVE Advl IF
+        (0 A)
+        (-1 Det) (1 NOMINAL) ;
 
 
 SECTION ########## POSTPOSITIONS ##########
@@ -501,7 +517,7 @@ SECTION ########## POSTPOSITIONS ##########
 ##
 
 #
- "<бергә>" SELECT Post IF
+ "<бергә>"i SELECT Post IF
         (-1 ("белән")) ;
 ##
 
@@ -749,6 +765,11 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 "<әле>" REMOVE CC IF
         (NOT 1* ("әле")) ;
 ##
+
+#
+"<бер>"i SELECT Det IF
+        (1 A) ;
+## [0]Бер зур агачка таба йөгерә.
 
 SECTION ############ HEURISTICS #####################
 

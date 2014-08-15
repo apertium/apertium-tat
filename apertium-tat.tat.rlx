@@ -171,17 +171,28 @@ LIST Imp = imp ;
 LIST Coop = coop ;
 LIST Frm = frm ;
 
+# Postpositions
+# =============
+
+LIST PostGoverningDat = "күрә" ;
+
 # Verb sets
 # =========
 
 LIST FiniteVerb = pres past ifi  fut fut2 imp opt;
+
 LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
 LIST Ger6 = ger6 ;
+LIST Ger_past = ger_past ;
+
 LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
 LIST Prc_impf = prc_impf ;
+
 LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
 LIST Gna_cond = gna_cond ;
+
 LIST Gpr_fut = gpr_fut ;
+LIST Gpr_past = gpr_past ;
 
 LIST Bar-etc = ("бар" adj) ("юк" adj) ("күп" adj) ;
 
@@ -225,6 +236,17 @@ SECTION ########## COPULAS ##########
  REMOVE Sub:1 Cop IF
         (NOT 1 EOS OR MARK) ;
 ##
+
+#
+ REMOVE Sub:1 Cop IF
+        (-1 BOS OR Cm) (1 Cm) ;
+## Юк, Гөлнара, әйтә алмыйм. 
+
+#
+ REMOVE Sub:1 Cop IF
+        (-1 FiniteVerb) (1 EOS)
+        (NOT -2 BOS); # Бу<v>/<det> уен.
+## дип җавап бирә [0]әнисе.
 
 # FIXME this rule mispredicts a lot (or, rather, block other rules selecting
 # a non-copula reading)
@@ -304,7 +326,10 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
  SELECT Interj IF
         (-1 BOS)
         (1 Cm) ;
+ SELECT Interj IF
+        (-1 Cm) (1 EOS) ;
 ## "Мысалы, ежелгі заманның өзінде Арал теңізі көп елдерге мәлім болған."
+## Эт сөйләшә белми, әлбәттә.
 
 #
  REMOVE Post IF
@@ -529,7 +554,11 @@ SECTION ########## POSTPOSITIONS ##########
                 (-1 Abl) ;
 ## 23. Айгөл санап бетергәннән соң тирә-ягына карады.
 
-
+#
+ REMOVE Post IF
+        (0 PostGoverningDat)
+        (NOT -1 Dat) ;
+## Әнисенең елмаюын күрә<v><tv><pres><p3><sg>/күрә<post>.
 SECTION ########## VERBS ##########
 
 
@@ -561,9 +590,9 @@ SELECT Pres IF (0 Pres OR Prc_impf) (-1C V) ;
     #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
 
 #
- SELECT (gpr_past) IF
-        (0C (ger_past) + Nom)
-        (1 N) ;
+ SELECT Gpr_past IF
+        (0 Ger_past + Nom)
+        (1 N) ; 
 ##  172 . Сот арқылы немесе өзгеде осындай құзыреті бар мемлекеттік органдардың
 ## шешімі арқылы тәркіленген мұражайлық маңызы бар жинақтардың немесе [0]жекелеген заттардың есебінен;
 

@@ -888,8 +888,8 @@
 	"сана" v tv prc_perf <Correct!>
 	"сана" v tv gna_perf
 "<бетергәч>"
-	"бетер" vaux gna_after
-	"бетер" v tv gna_after <Correct!>
+	"бетер" vaux gna_after <Correct!>
+	"бетер" v tv gna_after
 "<,>"
 	"," cm <Correct!>
 "<Гөлнара>"

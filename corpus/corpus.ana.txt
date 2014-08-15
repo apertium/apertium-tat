@@ -750,6 +750,12 @@
 "<,>"
 	"," cm <Correct!>
 "<беләсезме>"
+	"бел" vaux pres p2 pl
+		"мы" qst
+	"бел" vaux pres p2 frm sg
+		"мы" qst
+	"бел" vaux pres p2 frm pl
+		"мы" qst
 	"бел" v tv pres p2 pl
 		"мы" qst
 	"бел" v tv pres p2 frm sg <Correct!>
@@ -988,9 +994,13 @@
 "<икәнен>"
 	"и" cop ger_past px3sp acc <Correct!>
 "<белми>"
+	"бел" vaux neg prc_perf
+	"бел" vaux neg prc_impf
+	"бел" vaux neg gna_perf
 	"бел" v tv neg prc_perf
 	"бел" v tv neg prc_impf
 	"бел" v tv neg gna_perf
+	"бел" vaux neg pres p3 sg
 	"бел" v tv neg pres p3 sg <Correct!>
 "<.>"
 	"." sent <Correct!>
@@ -1047,10 +1057,14 @@
 	"сөйлә" v tv coop pres p3 sg
 	"сөйләш" v tv pres p3 sg
 "<белми>"
+	"бел" vaux neg prc_perf
+	"бел" vaux neg prc_impf
+	"бел" vaux neg gna_perf
 	"бел" v tv neg prc_perf
 	"бел" v tv neg prc_impf
 	"бел" v tv neg gna_perf
-	"бел" v tv neg pres p3 sg <Correct!>
+	"бел" vaux neg pres p3 sg <Correct!>
+	"бел" v tv neg pres p3 sg
 "<,>"
 	"," cm <Correct!>
 "<әлбәттә>"
@@ -1227,7 +1241,9 @@
 	"кит" vaux gpr_past subst px3sp acc
 	"кит" v iv gpr_past subst px3sp acc
 "<белә>"
+	"бел" vaux prc_impf
 	"бел" v tv prc_impf
+	"бел" vaux pres p3 sg
 	"бел" v tv pres p3 sg <Correct!>
 "<икәнен>"
 	"и" cop ger_past px3sp acc <Correct!>
@@ -1326,6 +1342,14 @@
 "<икәнен>"
 	"и" cop ger_past px3sp acc <Correct!>
 "<белсә дә>"
+	"бел" vaux prc_cond p3 sg
+		"да" cnjcoo
+	"бел" vaux prc_cond p3 sg
+		"да" postadv
+	"бел" vaux gna_cond p3 sg
+		"да" cnjcoo
+	"бел" vaux gna_cond p3 sg
+		"да" postadv
 	"бел" v tv prc_cond p3 sg
 		"да" cnjcoo
 	"бел" v tv prc_cond p3 sg
@@ -4208,6 +4232,7 @@
 	"сүз" n nom
 		"и" cop p3 sg
 "<беләбез>"
+	"бел" vaux pres p1 pl
 	"бел" v tv pres p1 pl <Correct!>
 "<.>"
 	"." sent <Correct!>
@@ -6337,6 +6362,7 @@
 "<->"
 	"-" guio <Correct!>
 "<Белмим>"
+	"бел" vaux neg pres p1 sg
 	"бел" v tv neg pres p1 sg <Correct!>
 "<.>"
 	"." sent <Correct!>
@@ -8490,8 +8516,10 @@
 "<бәяли>"
 	"бәялә" v tv prc_impf <Correct!>
 	"бәялә" v tv pres p3 sg
-"<белергә>" <TODO>
-	"бел" v tv inf <Correct!>
+"<белергә>"
+	"бел" vaux inf <Correct!>
+	"бел" v tv inf
+	"бел" vaux gpr_fut subst dat
 	"бел" v tv gpr_fut subst dat
 "<тиешбез>"
 	"тиеш" adj <Correct!>
@@ -9724,7 +9752,9 @@
 	"бәялә" v tv prc_impf <Correct!>
 	"бәялә" v tv pres p3 sg
 "<белергә>"
-	"бел" v tv inf <Correct!>
+	"бел" vaux inf
+	"бел" v tv inf
+	"бел" vaux gpr_fut subst dat
 	"бел" v tv gpr_fut subst dat
 "<тиеш>"
 	"тиеш" adj

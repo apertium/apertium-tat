@@ -168,6 +168,8 @@ LIST TV = tv ;
 LIST Opt = opt ;
 LIST Imp = imp ;
 
+LIST Frm = frm ;
+
 # Verb sets
 # =========
 
@@ -583,6 +585,13 @@ SELECT Pres IF (0 Pres OR Prc_impf) (-1C V) ;
         (0 PersonalPossessives) 
         (-1* Gen) ;
 
+# select formal reading in 2 person unless there is a lower-cased "сез"
+# to the left
+ SELECT Frm IF (0 V)
+        (NOT -1* ("<сез>")) ;
+ REMOVE Frm IF (0 V)
+        (-1* ("<сез>")) ;
+## беләсезме
 
 SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########  
 
@@ -809,6 +818,16 @@ SECTION ############ HEURISTICS #####################
 # OUTPUT: ^уйнарга/уйна<v><tv><inf>$
  SELECT Inf IF
         (0C Inf OR Gpr_fut) ;
+
+# INPUT:  ^ни өчен/ни өчен<adv><itg>/ни өчен<adv><itg>+и<cop><p3><pl>/ни өчен<adv><itg>+и<cop><p3><sg>$
+# OUTPUT: ^ни өчен/ни өчен<adv><itg>$
+ "<ни өчен>"i REMOVE Sub:1 Cop ;
+
+# INPUT:  ^беләсез/бел<v><tv><pres><p2><frm><pl>/бел<v><tv><pres><p2><frm><sg>$
+# OUTPUT: ^беләсез/бел<v><tv><pres><p2><frm><sg>$
+ SELECT Sg IF
+        (0 Frm) ;
+## Ә Сез аны аңлыйсызмы?
 
 
 SECTION ########### MAPPING RULES ###############

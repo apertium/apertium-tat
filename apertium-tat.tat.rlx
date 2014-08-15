@@ -168,6 +168,7 @@ LIST TV = tv ;
 LIST Opt = opt ;
 LIST Imp = imp ;
 
+LIST Coop = coop ;
 LIST Frm = frm ;
 
 # Verb sets
@@ -229,7 +230,7 @@ SECTION ########## COPULAS ##########
 # a non-copula reading)
  SELECT Sub:1 Cop IF
         (NOT -1 BOS)                     # Single-word phrases like "Декабрь."
-        (NOT 0 Mod_ass OR Interj OR ("соң"i))
+        (NOT 0 Mod_ass OR Interj OR ("соң"i) OR ("ул"i))
         (NOT 0 V OR Vaux)
         (1 EOS OR MARK) ;
 ## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
@@ -595,6 +596,11 @@ SELECT Pres IF (0 Pres OR Prc_impf) (-1C V) ;
         (-1* ("<сез>")) ;
 ## беләсезме
 
+# INPUT:  ^сөйләштем/сөйлә<v><tv><coop><ifi><p1><sg>/сөйләш<v><tv><ifi><p1><sg>$
+# OUTPUT: ^сөйләштем/сөйләш<v><tv><ifi><p1><sg>$
+ REMOVE Coop IF
+        (0 V - Coop) ;
+
 SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########  
 
 
@@ -781,6 +787,17 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
 "<бер>"i SELECT Det IF
         (1 A) ;
 ## [0]Бер зур агачка таба йөгерә.
+
+#
+"<ул>"i SELECT Pers IF
+        (-1 V) (1 EOS) ;
+## Ни өчен моны эшли [0]ул?
+
+# let's be polite and select formal p2 pronoun
+ SELECT Frm IF
+           (0 Pron + Pers) ;
+## Сез
+
 
 SECTION ############ HEURISTICS #####################
 

@@ -534,7 +534,7 @@ SECTION ########## VERBS ##########
 
 #
  REMOVE Participle IF
-       (NOT 1C V OR Vaux) ;
+       (NOT 1 Vaux) ;
 
 # <prc_cond> vs. <gna_cond>
  REMOVE (prc_cond) IF
@@ -551,6 +551,8 @@ SECTION ########## VERBS ##########
 #
  REMOVE Vaux IF
         (NOT -1 Participle OR VerbalAdverb) ;
+ SELECT Vaux IF
+        (-1 Participle) ; 
 ## 187 . Біздің дәуірімізден 1 миллион жыл бұрын өмір сүрген "тік жүретін адамнан" [0]бастап, өз замандастарына дейінгі
 ## кезеңдерді қамтитын, ... орталықтың экспозициясы негізгі сегіз ірі бөлімнен тұрады.
 
@@ -828,6 +830,11 @@ SECTION ############ HEURISTICS #####################
  SELECT Sg IF
         (0 Frm) ;
 ## Ә Сез аны аңлыйсызмы?
+
+# INPUT:  ^күзләр/күз<n><pl><nom>/күзлә<v><tv><fut><p3><sg>$
+# OUTPUT: ^күзләр/күз<n><pl><nom>$
+ SELECT N + Pl IF
+          (0 ("күз"i)) ;
 
 
 SECTION ########### MAPPING RULES ###############

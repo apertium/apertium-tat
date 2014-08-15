@@ -13877,6 +13877,7 @@ Witness:Witness NP-AL ; ! ""
 эч:эч V-TV-AR ; ! ""
 эш% ит:эш% ит V-IV-AR ; ! ""
 эшкәрт:эшкәрт V-TV-IR ; ! ""
+эшләп% ал:эшләп% ал V-TV-IR ; ! "поработать" Use/MT
 эшләп% бетер:эшләп% бетер V-TV-IR ; ! "to complete" Use/MT
 эшлә:эшлә V-TV-IR ; ! ""
 юат:юат V-TV-IR ; ! "comfort"
@@ -13973,6 +13974,7 @@ Witness:Witness NP-AL ; ! ""
 
 ал:ал VAUX-IR ; ! ""
 башла:башла VAUX-IR ; ! ""
+бел:бел VAUX-IR ; ! ""
 бет:бет VAUX-AR ; ! ""
 бетер:бетер VAUX-IR ; ! "" ! FIXME causative
 бир:бир VAUX-IR ; ! ""

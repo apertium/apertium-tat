@@ -117,6 +117,7 @@
 !! Mood
 %<imp%>       ! Imperative       ! Боерык фигыль
 %<opt%>       ! Optative/jussive ! Теләк фигыль
+%<evid%>      ! Evidential, a.k.a. "indirect" / non-eyewitness / hearsay
 
 !! Derivation
 %<caus%>      ! Causative   ! Йөкләтү юнәлеше
@@ -515,7 +516,7 @@ CLIT-DA-CNJ ;
 
 LEXICON CLIT-COP
 
-%+и%<cop%>: V-PERS-S1-COP ;
+%+и%<cop%>%<aor%>: V-PERS-S1-COP ;
 
 ! Now, let's group them depending on what they can attach to
 
@@ -1105,10 +1106,12 @@ LEXICON COP-I
 и%<cop%>%<ger_past%>:икән GER-POSS-REAL ;
 и%<cop%>%<ger_perf%>:икән%>л%{I%}к GER-POSS-REAL ;
 
-и%<cop%>%<neg%>:түгел V-PERS-S1 ;
-и%<cop%>%<past%>:икән V-PERS-S1 ;
-и%<cop%>%<neg%>%<past%>:түгел% икән V-PERS-S1 ;
+и%<cop%>%<aor%>%<evid%>:икән V-PERS-S1 ;
+и%<cop%>%<neg%>%<aor%>%<evid%>:түгел% икән V-PERS-S1 ;
+
 и%<cop%>%<ifi%>:иде V-PERS-S2 ;
+
+и%<cop%>%<neg%>%<aor%>:түгел V-PERS-S1 ;
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 

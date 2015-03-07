@@ -147,9 +147,11 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local:
 	test -d $(DESTDIR)$(apertium_tat_srcdir) || mkdir -p $(DESTDIR)$(apertium_tat_srcdir)
+	test -d $(DESTDIR)$(apertium_tat_dir) || mkdir -p $(DESTDIR)$(apertium_tat_dir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_tat_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_tat_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_tat_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).prob $(DESTDIR)$(apertium_tat_dir)
 
 ###############################################################################
 ## Cleanup

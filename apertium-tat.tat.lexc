@@ -62,6 +62,8 @@
 %<px3sp%>     ! Third person singular/plural
 %<px1pl%>     ! First person plural
 %<px2pl%>     ! Second person singular
+%<px3pl%>     ! Third person plural (for reflexive)
+
 %<px%>        ! General possessive               !# н{I}к{I} (-ныкы/-неке)
 
 ! Cases ! Килешләр ! Падежи
@@ -1399,20 +1401,15 @@ LEXICON PRON-REF
 ! FIXME DISCUSS Write full forms for the lower side and put only PRON-DEF in the
 ! Root Lexicon
 
-%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}м PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}ң PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
-%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}б%{I%}з PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<pl%>:%>л%{A%}р%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
+%<prn%>%<ref%>%<px1sg%>:%>%{I%}м PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2sg%>:%>%{I%}ң PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3sp%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ; ! FIXME <px3sg>?
+%<prn%>%<ref%>%<px1pl%>:%>%{I%}б%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2pl%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3pl%>:%>л%{A%}р%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
 
-%<prn%>%<ref%>%<p2%>%<sg%>%<frm%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<pl%>%<frm%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
-
-! This is how it was before:
-!%<prn%>%<ref%>: POSS-REAL ;
-!%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ;
-
+%<prn%>%<ref%>%<px2sg%>%<frm%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
+%<prn%>%<ref%>%<px2pl%>%<frm%>:%>%{I%}г%{I%}з PRON-REF-ADV ;
 
 !!!!!!!!!!!!!!!!!!!!!      DETERMINERS
 

@@ -1,0 +1,29 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../../../tat.autogen.hfst
+    Morph:  ../../../tat.automorf.hfst
+
+Tests: 
+
+  "[twol] optative":
+
+    яз<v><tv><opt><p1><sg> : языйм
+    яз<v><tv><opt><p1><pl> : языйк
+    яз<v><tv><neg><opt><p1><sg> : язмыйм
+    яз<v><tv><neg><opt><p1><pl> : язмыйк
+
+    кил<v><iv><opt><p1><sg> : килим
+    кил<v><iv><opt><p1><pl> : килик
+    кил<v><iv><neg><opt><p1><sg> : килмим
+    кил<v><iv><neg><opt><p1><pl> : килмик
+
+    кара<v><tv><opt><p1><sg> : карыйм
+    кара<v><tv><opt><p1><pl> : карыйк
+    кара<v><tv><neg><opt><p1><sg> : карамыйм
+    кара<v><tv><neg><opt><p1><pl> : карамыйк
+
+    бәйлә<v><tv><opt><p1><sg> : бәйлим
+    бәйлә<v><tv><opt><p1><pl> : бәйлик
+    бәйлә<v><tv><neg><opt><p1><sg> : бәйләмим
+    бәйлә<v><tv><neg><opt><p1><pl> : бәйләмик

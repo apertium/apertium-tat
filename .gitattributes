@@ -40,10 +40,11 @@ test-scripts/cg.test -text
 test-scripts/tat.test -text
 tests/morphophonology/E-phon.yaml -text
 tests/morphophonology/V-ә-prc_impf.yaml -text
-tests/morphophonology/diyerge.yaml -text
 tests/morphophonology/epenthesis.yaml -text
 tests/morphophonology/negative.yaml -text
 tests/morphophonology/optative.yaml -text
+tests/morphophonology/pending/diyerge.yaml -text
+tests/morphophonology/pending/optative-1p.yaml -text
 tests/morphophonology/surface_epenthesis.yaml -text
 tests/morphophonology/w-phon.yaml -text
 tests/morphophonology/word-final-j.yaml -text

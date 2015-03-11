@@ -1020,9 +1020,6 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Optative/jussive forms
 
-! FIXME
-! echo '^кил<v><iv><opt><p1><sg>$' | hfst-proc -g kaz-tat.autogen.hfst >> килейм
-! Should be: "килим"
 %<opt%>%<p1%>%<sg%>:%>%{A%}%{E%}м CLITICS-NO-COP ;
 %<opt%>%<p3%>%<sg%>:%>с%{I%}н CLITICS-NO-COP ;
 %<opt%>%<p1%>%<pl%>:%>%{A%}%{E%}к CLITICS-NO-COP ;

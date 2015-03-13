@@ -30,7 +30,7 @@ expanded/README -text
 expanded/current-state.txt.gz -text svneol=unset#unset
 expanded/previous-state.txt.gz -text svneol=unset#unset
 /modes.xml -text
-/qa.sh -text
+/qa -text
 speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text

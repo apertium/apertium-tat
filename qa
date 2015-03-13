@@ -3,7 +3,7 @@
 # Takes the basename of the test scrpt in /test-scripts as an argument,
 # an additional argument if the test script requires it, and runs the test.
 #
-# Usage: ./qa.sh (will default to './qa.sh tat')
+# Usage: ./qa (will default to './qa tat')
 
 if [ $# -eq 0 ]
 then

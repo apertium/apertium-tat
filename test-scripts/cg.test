@@ -13,7 +13,7 @@
 # Assumes that lines containing readings start with a tab, and that the main
 # reading has only one leading tab, while subreadings have two or more.
 #
-# USAGE: ./qa.sh cg
+# USAGE: ./qa cg
 
 CG="vislcg3 -t -g apertium-tat.tat.rlx"
 CORPUS="corpus/corpus.ana.txt"

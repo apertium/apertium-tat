@@ -11,10 +11,10 @@
 Basic workflow is like the following:
 	1) mv expanded/current-state.txt.gz expanded/previous-state.txt.gz,
 	2) fix what needs to be fixed (or added) in apertium-tat.tat.lexc,
-	3) run './qa.sh tat' to see what consequences in the transducer your
+	3) run './qa tat' to see what consequences in the transducer your
 	   changes had,
 	4) if you are content with them, commit,
 	
 	repeat the cycle
 
-'./qa.sh tat' in apertium-tat/ gives a diff of "previous" and "current" states.
+'./qa tat' in apertium-tat/ gives a diff of "previous" and "current" states.

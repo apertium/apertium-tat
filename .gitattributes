@@ -16,6 +16,8 @@ corpus/corpus.ana.txt -text
 dev/countstems.sh -text
 dev/editdist.py -text
 dev/extract_guesses.sh -text
+dev/mansur.bin -text
+dev/mansur.rlx -text
 dev/metrics.rlx -text
 eval/Makefile -text
 eval/archive/ref.1010.txt -text

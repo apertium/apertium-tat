@@ -1,0 +1,11 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+SUBREADINGS = LTR ;
+
+
+SECTION
+
+SUBSTITUTE (n) (n sp) (n) (NOT 0 (pl)) ;
+
+REMOVE Sub:1 (cop) ;
+

@@ -20,6 +20,9 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 ## Tatar transducer
 ###############################################################################
 
+.deps/spellrelax.hfst: dev/spellrelax.twol .deps/.d
+	hfst-twolc $< -o $@
+
 .deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol .deps/.d
 	hfst-twolc $< -o $@
 
@@ -108,8 +111,11 @@ $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 .deps/anystar.hfst: .deps/.d
 	echo "?*;" | hfst-regexp2fst -S -o $@
 
-.deps/acceptor.default.hfst: $(LANG1).autogen.hfst .deps/.d
-	cat $< | hfst-fst2fst -t | hfst-project  --project=lower | hfst-minimise |hfst-fst2fst  -f olw -o $@
+# $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst .deps/spellrelax.hfst
+#	hfst-compose-intersect -1 $< -2 .deps/spellrelax.hfst | hfst-invert | hfst-fst2fst -O -o $@
+
+.deps/acceptor.default.hfst: $(LANG1).autogen.hfst .deps/spellrelax.hfst .deps/.d
+	cat $< | hfst-fst2fst -t | hfst-compose-intersect -2 .deps/spellrelax.hfst | hfst-project  --project=lower | hfst-minimise | hfst-fst2fst  -f olw  -o $@
 
 
 ###############################################################################

@@ -19,6 +19,7 @@ dev/extract_guesses.sh -text
 dev/mansur.bin -text
 dev/mansur.rlx -text
 dev/metrics.rlx -text
+dev/spellrelax.twol -text
 eval/Makefile -text
 eval/archive/ref.1010.txt -text
 eval/archive/src.1010.txt -text svneol=unset#application/octet-stream

@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-tat
 srcdir=@datarootdir@/apertium/apertium-tat
 
 Name: apertium-tat

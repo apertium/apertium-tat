@@ -145,7 +145,7 @@ pkgconfig_DATA = $(BASENAME).pc
 # modes are created by this goal.
 noinst_DATA=modes/$(LANG1)-morph.mode
 
-install-data-local:
+install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_tat_srcdir) || mkdir -p $(DESTDIR)$(apertium_tat_srcdir)
 	test -d $(DESTDIR)$(apertium_tat_dir) || mkdir -p $(DESTDIR)$(apertium_tat_dir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_tat_srcdir)

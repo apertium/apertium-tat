@@ -25,7 +25,7 @@
 %<cnjcoo%>   ! Coordinating conjunction   ! Тезүче теркәгеч            ! Сочинительный союз         
 %<cnjsub%>   ! Subordinating conjunction  ! Ияртүче теркәгеч           ! Подчинительный союз        
 %<cnjadv%>   ! Adverbial conjunction      ! Рәвеш-теркәгеч             ! Наречие-союз               
-%<ij%>       ! Interjection              ! Ымлык                      ! Междометие                 
+%<ij%>       ! Interjection               ! Ымлык                      ! Междометие                 
 %<abbr%>     ! Abbreviation               ! Кыскартылма                ! Аббревиатура               
 %<cop%>      ! Copula                     ! Копула                     ! Копула                     
 %<ideo%>     ! Ideophone                  ! Аваз ияртеме               ! Звукоподражательное слово  
@@ -14205,6 +14205,7 @@ KZ:KZ ABBR ; ! ""
 %!%<sent%>:%! # ;
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ;
 %'%<apos%>:%' # ;

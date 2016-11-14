@@ -14223,13 +14223,11 @@ KZ:KZ ABBR ; ! ""
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
 
-%*%<punct%>:%* # ; ! Use/MT
-%#%<punct%>:%# # ; ! Use/MT
-%©%<punct%>:%© # ; ! Use/MT
-%+%<punct%>:%+ # ; ! Use/MT
-%•%<punct%>:%• # ; ! Use/MT
-%&%<punct%>:%& # ; ! Use/MT
+<( %* | %# | © | %+ | • | %& )+> PUNCT ; ! Use/MT
 
+LEXICON PUNCT
+
+%<punct%>: # ;
 
 !==============!
  LEXICON Digits ! Use/Circ
@@ -14241,3 +14239,4 @@ KZ:KZ ABBR ; ! ""
 DIGITLEX ; ! Use/Circ
 LASTDIGIT ; ! Use/Circ
 LASTDIGIT-REST ; ! Use/Circ
+

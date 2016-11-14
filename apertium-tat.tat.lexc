@@ -14225,7 +14225,7 @@ KZ:KZ ABBR ; ! ""
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
 
-<( %* | %# | © | %+ | • | %& )+> PUNCT ; ! Use/MT
+<( %* | %# | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT
 
 LEXICON PUNCT
 

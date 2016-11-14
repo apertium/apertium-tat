@@ -235,6 +235,7 @@
 %<lquot%>     ! Quote marker (left hand side)
 %<rpar%>      ! Parenthetical marker (right hand side)
 %<lpar%>      ! Parenthetical marker (left hand side)
+%<punct%>     ! Other
 
 ! Archiphonemes and escaped symbols
 
@@ -14220,6 +14221,13 @@ KZ:KZ ABBR ; ! ""
 %)%<rpar%>:%) # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
+
+%*%<punct%>:%* # ;
+%#%<punct%>:%# # ;
+%©%<punct%>:%© # ;
+%+%<punct%>:%+ # ;
+%•%<punct%>:%• # ;
+%&%<punct%>:%& # ;
 
 
 !==============!

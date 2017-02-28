@@ -78,3 +78,4 @@ tests/morphotactics/prn-pers.yaml -text
 tests/numerals/collective.yaml -text
 tests/numerals/numerals.yaml -text
 tests/numerals/percents.yaml -text
+/words_mansur.txt -text

@@ -1,5 +1,6 @@
-Number of unrecognized words:
+Corpus of Written Tatar (http://corpus.tatar/en)
 
+Number of unrecognized words:
 End of 2016 = 14 655 433 (12,6%)
 2017.03.10 = 11 659 010 (9.9%)
 2017.03.12 = 10 692 543 (9.1%)

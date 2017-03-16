@@ -13,6 +13,7 @@
 /autogen.sh -text
 /configure.ac -text
 corpus/corpus.ana.txt -text
+/coverage.txt -text
 dev/countstems.sh -text
 dev/editdist.py -text
 dev/extract_guesses.sh -text

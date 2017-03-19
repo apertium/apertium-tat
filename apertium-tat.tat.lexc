@@ -1772,6 +1772,7 @@ COP-I ; ! ""
 ки:ки CSLEX ; ! "that, in order that"
 чөнки:чөнки CSLEX ; ! "because"
 югыйсә:югыйсә CSLEX ; ! ""
+юкса:юкса CSLEX ; ! ""
 ягъни:ягъни CSLEX ; ! "that is, то есть"
 әгәр% дә:әгәр% дә CSLEX ; ! "if" Use/MT
 әгәр:әгәр CSLEX ; ! "if"
@@ -2186,19 +2187,15 @@ XXI NUM-ROMAN ; ! ""
 ничә:ничә NUM-ITG ;
 ничә:ничәү NUM-ITG-COLL ;
 
+
 !=============!
  LEXICON Nouns
 !=============!
 
+
 ! абыйсы	4150 ! phon (абые)
 ! авиатөзелеш	3108
 ! академигы	1200 ! phon (академиге)
-
-
-
-
-
-
 ! аптырашта:аптырашта N1 ; ! ""
 ! атакай:атакай N1 ; ! ""
 ! әткәй:әткәй N1 ; ! ""
@@ -3002,6 +2999,7 @@ XXI NUM-ROMAN ; ! ""
 дошман:дошман N1 ; ! ""
 дошманлык:дошманлык N1 ; ! ""
 дөге:дөге N1 ; ! ""
+дөм:дөм N1 ; ! ""
 дөнья:дөнья%{ъ%} N1 ; ! ""
 дөнья% йөзе:дөнья% йөз N-COMPOUND-PX ; ! "" Use/MT
 дөреслек:дөреслек N1 ; ! ""
@@ -3814,6 +3812,7 @@ XXI NUM-ROMAN ; ! ""
 маддә:маддә N1 ; ! ""
 май:май N1 ; ! ""
 майор:майор N1 ; ! ""
+мазар:мазар N1 ; ! ""
 макарон:макарон N1 ; ! ""
 макет:макет%{ъ%} N1 ; ! ""
 максат:максат N1 ; ! ""
@@ -5602,19 +5601,6 @@ XXI NUM-ROMAN ; ! ""
 яшьтәш:яшьтәш N1 ; ! ""
 ящек:ящек%{ь%} N1 ; ! ""
 ящур:ящур N1 ; ! ""
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ! Some stuff useful for the metrical books project
 ! ================================================
@@ -9504,13 +9490,8 @@ XXI NUM-ROMAN ; ! ""
 Яфит:Яфит NP-ANT-M ; ! ""
 Яһүдә:Яһүдә NP-ANT-M ; ! ""
 
-
-
-
-
 ! Patronyms
 ! =========
-
 
 !!!!!!!! Фамилии ????
 ! ильич
@@ -10220,7 +10201,6 @@ XXI NUM-ROMAN ; ! ""
 
 ! Masculine -ов and -ин cognoms
 ! -----------------------------
-
 
 Абаев:Абаев%{ъ%} NP-COG-OB ; ! ""
 Абайделданов:Абайделданов NP-COG-OB ; ! ""
@@ -16431,11 +16411,6 @@ XXI NUM-ROMAN ; ! ""
 Яһүдин:Яһүдин NP-COG-OB ; ! ""
 Яшин:Яшин NP-COG-OB ; ! ""
 
-
-
-
-
-
 ! Organizations
 ! =============
 
@@ -16503,7 +16478,6 @@ Shell:Shell NP-ORG ; ! ""
 Twitter:Twitter NP-ORG ; ! ""
 Wrigley:Wrigley NP-ORG ; ! ""
 YouTube:YouTube NP-ORG ; ! ""
-
 
 ! Other proper names (events etc)
 ! ===============================
@@ -17854,36 +17828,10 @@ Witness:Witness NP-AL ; ! ""
 ! More or less regular stuff
 ! ==========================
 
-акрынлап:акрынлап ADV ; ! ""
-ахыргача:ахыргача ADV ; ! ""
-аягүрә:аягүрә ADV ; ! ""
-әкренләп:әкренләп ADV ; ! ""
-әлегәчә:әлегәчә ADV ; ! ""
-әледән%-әле:әледән%-әле ADV ; ! ""
-әллә:әллә  ADV ; ! ""
-берәм%-берәм:берәм%-берәм ADV ; ! ""
-бервакыт:бервакыт ADV ; ! ""
-берзаман:берзаман ADV ; ! ""
-беркөнне:беркөнне ADV ; ! ""
-бермә%-бер:бермә%-бер ADV ; ! ""
-бертуктаусыз:бертуктаусыз ADV ; ! ""
-гайре:гайре ADV ; ! ""
-ирексездән:ирексездән ADV ; ! ""
-иртүк:иртүк ADV ; ! ""
-ихластан:ихластан ADV ; ! ""
-кабаттан:кабаттан ADV ; ! ""
-кинәт:кинәт ADV ; ! ""
-өлешчә:өлешчә ADV ; ! ""
-тумыштан:тумыштан ADV ; ! ""
-элеккечә:элеккечә ADV ; ! ""
-электән:электән ADV ; ! ""
-юньләп:юньләп ADV ; ! ""
-яңача:яңача ADV ; ! ""
-яшьли:яшьли ADV ; ! ""
-
 аеруча:аеруча ADV ; ! "especially"
 аз% гына:аз% гына ADV ; ! "" Use/MT
 акрын%-акрын:акрын%-акрын ADV ; ! ""
+акрынлап:акрынлап ADV ; ! ""
 акчалата:акчалата ADV ; ! ""
 алайса:алайса ADV ; ! "~таким образом"
 алга:алга ADV ; ! "forward"
@@ -17894,6 +17842,8 @@ Witness:Witness NP-AL ; ! ""
 аннары:аннары ADV ; ! "then"
 ара%-тирә:ара%-тирә ADV ; ! ""
 ары:ары ADV ; ! "otherside"
+ахыргача:ахыргача ADV ; ! ""
+аягүрә:аягүрә ADV ; ! ""
 барыбер:барыбер ADV ; ! ""
 барынча:барынча ADV ; ! ""
 барысы:барысы ADV ; ! ""
@@ -17902,13 +17852,19 @@ Witness:Witness NP-AL ; ! ""
 бәйнә%-бәйнә:бәйнә%-бәйнә ADV ; ! ""
 беравыздан:беравыздан ADV ; ! "unanimously"
 бераз:бераз ADV ; ! "a little"
+бервакыт:бервакыт ADV ; ! ""
 бергә:бергә ADV ; ! "together"
 бергәләп:бергәләп ADV ; ! ""
 бер% дә:бер% дә ADV ; ! "~not a bit" Use/MT
+берәм%-берәм:берәм%-берәм ADV ; ! ""
 берәм%-сәрәм:берәм%-сәрәм ADV ; ! ""
+берзаман:берзаман ADV ; ! ""
 беркадәр:беркадәр ADV ; ! ""
+беркөнне:беркөнне ADV ; ! ""
+бермә%-бер:бермә%-бер ADV ; ! ""
 берөзлексез:берөзлексез ADV ; ! ""
 бертавыштан:бертавыштан ADV ; ! "unanimously"
+бертуктаусыз:бертуктаусыз ADV ; ! ""
 бигрәк:бигрәк ADV ; ! ""
 бик:бик ADV ; ! "very"
 билгеләнүенчә:билгеләнүенчә ADV ; ! ""
@@ -17923,20 +17879,27 @@ Witness:Witness NP-AL ; ! ""
 гадәттә:гадәттә ADV ; ! ""
 гадәттәгечә:гадәттәгечә ADV ; ! ""
 гаҗәеп:гаҗәеп ADV ; ! "extremely"
+гайре:гайре ADV ; ! ""
 гаять:гаять ADV ; ! "very"
 гел:гел ADV ; ! "always"
 гомумән:гомумән ADV ; ! ""
 дәррәү:дәррәү ADV ; ! ""
+дөм:дөм ADV ; ! ""
 дусларча:дусларча ADV ; ! ""
 әйтелүенчә:әйтелүенчә ADV ; ! ""
 әйткәндәй:әйткәндәй ADV ; ! ""
+әйтмешли:әйтмешли ADV ; ! ""
 әйтүләренчә:әйтүләренчә ADV ; ! ""
 әкрен% генә:әкрен% генә ADV ; ! "slowly" Use/MT
+әкренләп:әкренләп ADV ; ! ""
 әлбәттә:әлбәттә ADV ; ! "certainly"
 әлегедәй:әлегедәй ADV ; ! ""
 әлегә:әлегә ADV ; ! "for now"
+әлегәчә:әлегәчә ADV ; ! ""
+әледән%-әле:әледән%-әле ADV ; ! ""
 әле:әле ADV ; ! "now"
 әле% һаман% да:әле% һаман% да ADV ; ! "still" Use/MT
+әллә:әллә  ADV ; ! ""
 әрле%-бирле:әрле%-бирле ADV ; ! ""
 җәмгысе:җәмгысе ADV ; ! ""
 җәяү:җәяү ADV ; ! ""
@@ -17945,14 +17908,19 @@ Witness:Witness NP-AL ; ! ""
 икеле:икеле ADV ; ! ""
 инде:инде ADV ; ! "now"
 иң:иң ADV ; ! "most"
+ирексездән:ирексездән ADV ; ! ""
 иртәгә:иртәгә ADV ; ! ""
 иртәгә:иртәгә ADV ; ! "tomorrow"
+иртүк:иртүк ADV ; ! ""
 исәпләвенчә:исәпләвенчә ADV ; ! ""
+ихластан:ихластан ADV ; ! ""
 кабат:кабат ADV ; ! ""
+кабаттан:кабаттан ADV ; ! ""
 кайвакыт:кайвакыт ADV ; ! "sometimes"
 кайтадан:кайтадан ADV ; ! "once again"
 кайчак:кайчак ADV ; ! "sometimes"
 кайчакта:кайчакта ADV ; ! "sometimes"
+кинәт:кинәт ADV ; ! ""
 киресенчә:киресенчә ADV ; ! ""
 кичен:кичен ADV ; ! ""
 күбесенчә:күбесенчә ADV ; ! "mostly"
@@ -17970,6 +17938,7 @@ Witness:Witness NP-AL ; ! ""
 нибары:нибары ADV ; ! ""
 ничек% кенә% булмасын:ничек% кенә% булмасын ADV ; ! "somehow" Use/MT
 озакламый:озакламый ADV ; ! ""
+өлешчә:өлешчә ADV ; ! ""
 очраклы% рәвештә:очраклы% рәвештә ADV ; ! "" Use/MT
 сөйләвенчә:сөйләвенчә ADV ; ! ""
 соңга:соңга ADV ; ! ""
@@ -17986,19 +17955,22 @@ Witness:Witness NP-AL ; ! ""
 туктаусыз:туктаусыз ADV ; ! ""
 тулаем:тулаем ADV ; ! ""
 тулысынча:тулысынча ADV ; ! ""
+тумыштан:тумыштан ADV ; ! ""
 уемча:уемча ADV ; ! ""
 үтә:үтә ADV ; ! "very"
 хайваннарча:хайваннарча ADV ; ! ""
 һаман:һаман ADV ; ! "still"
 хәзергә:хәзергә ADV ; ! ""
-һәрвакыт:һәрвакыт ADV ; ! "always"
 һәрвакыттагыча:һәрвакыттагыча ADV ; ! ""
 һәр%вакыттагыча:һәр% вакыттагыча ADV ; ! "" Dir/LR
+һәрвакыт:һәрвакыт ADV ; ! "always"
 һәрдаим:һәрдаим ADV ; ! "always"
 һәркайчан:һәркайчан ADV ; ! ""
 хәтта:хәтта ADV ; ! "too"
 һич:һич ADV ; ! ""
 һичшиксез:һичшиксез ADV ; ! ""
+хосусан:хосусан ADV ; ! ""
+хосусән:хосусән ADV ; ! ""
 чынлап:чынлап ADV ; ! ""
 шактый:шактый ADV ; ! ""
 шәхсән:шәхсән ADV ; ! ""
@@ -18007,15 +17979,20 @@ Witness:Witness NP-AL ; ! ""
 шым:шым ADV ; ! ""
 элгәре:элгәре ADV ; ! ""
 элеккедәй:элеккедәй ADV ; ! ""
+элеккечә:элеккечә ADV ; ! ""
+электән:электән ADV ; ! ""
 юлда% чагында:юлда% чагында ADV ; ! "" Use/MT
+юньләп:юньләп ADV ; ! ""
 юри:юри ADV ; ! ""
 язмача:язмача ADV ; ! ""
 якынча:якынча ADV ; ! ""
 ялт:ялт ADV ; ! ""
+яңача:яңача ADV ; ! ""
 янәдән:янәдән ADV ; ! "again"
 янә:янә ADV ; ! "again"
 яр% буйлап:яр% буйлап ADV ; ! "" Use/MT
 яртылаш:яртылаш ADV ; ! ""
+яшьли:яшьли ADV ; ! ""
 
 ! Adverbs wich take -KI and become an attr/adj
 ! ============================================
@@ -18139,149 +18116,13 @@ Witness:Witness NP-AL ; ! ""
 ! юа ! phon
 ! яшик	1107 !phon
 
-алкышла:алкышла V-TV-IR ; ! ""
-алышын:алышын V-IV-IR ; ! ""
-асылын:асылын V-IV-IR ; ! ""
-ас:ас V-TV-AR ; ! ""
-атлык:атлык V-IV-IR ; ! ""
-әверел:әверел V-IV-IR ; ! ""
-әйдә:әйдә V-TV-IR ; ! ""
-балкы:балкы V-IV-IR ; ! ""
-бәр:бәр V-TV-IR ; ! ""
-бизән:бизән V-IV-IR ; ! ""
-горурлан:горурлан V-IV-IR ; ! ""
-гөрлә:гөрлә V-IV-IR ; ! ""
-дәш:дәш V-TV-AR ; ! ""
-дулкынлан:дулкынлан V-IV-IR ; ! ""
-ер:ер%{ъ%} V-TV-IR ; ! ""
-җәелдер:җәелдер V-TV-IR ; ! ""
-җик:җик V-TV-AR ; ! ""
-җимер:җимер V-TV-IR ; ! ""
-җиткер:җиткер V-TV-IR ; ! ""
-җиһазландыр:җиһазландыр V-TV-IR ; ! ""
-җөрьәт% ит:җөрьәт% ит V-TV-AR ; ! ""
-җылыт:җылыт V-TV-IR ; ! ""
-илт:илт V-TV-IR ; ! ""
-имзала:имзала V-TV-IR ; ! ""
-иминиятләштер:иминиятләштер V-TV-IR ; ! ""
-инкарь% ит:инкарь% ит V-TV-AR ; ! ""
-интек:интек V-IV-IR ; ! ""
-ирешел:ирешел V-IV-IR ; ! ""
-ирештер:ирештер V-TV-IR ; ! ""
-иттер:иттер V-TV-IR ; ! ""
-йөклә:йөклә V-TV-IR ; ! ""
-кабыз:кабыз V-TV-IR ; ! ""
-кап:кап V-TV-AR ; ! ""
-кадерлә:кадерлә V-TV-IR ; ! ""
-казан:казан V-TV-IR ; ! ""
-калкы:калкы V-IV-IR ; ! ""
-каршыла:каршыла V-TV-IR ; ! ""
-киме:киме V-IV-IR ; ! ""
-кимет:кимет V-TV-IR ; ! ""
-киңәй:киңәй V-IV-IR ; ! ""
-кистер:кистер V-TV-IR ; ! ""
-коен:коен%{ъ%} V-TV-IR ; ! ""
-комачаула:комачаула V-IV-IR ; ! ""
-куандыр:куандыр V-TV-IR ; ! ""
-куп:куп V-IV-AR ; ! ""
-кузгал:кузгал V-IV-IR ; ! ""
-күм:күм V-TV-AR ; ! ""
-күнек:күнек V-IV-IR ; ! ""
-кызыксындыр:кызыксындыр V-TV-IR ; ! ""
-кыйна:кыйна V-TV-IR ; ! ""
-мавык:мавык V-IV-IR ; ! ""
-мактан:мактан V-IV-IR ; ! ""
-махсуслаштыр:махсуслаштыр V-TV-IR ; ! ""
-мәгълүматлаштыр:мәгълүматлаштыр V-TV-IR ; ! ""
-мәңгеләштер:мәңгеләштер V-TV-IR ; ! ""
-мәш% кил:мәш% кил V-IV-IR ; ! ""
-модернизациялә:модернизациялә V-TV-IR ; ! ""
-мөбарәк% бул:мөбарәк% бул V-IV-IR ; ! ""
-мыскыл% ит:мыскыл% ит V-TV-AR ; ! ""
-нәшер% ит:нәшер% ит V-TV-AR ; ! ""
-ниятлә:ниятлә V-TV-IR ; ! ""
-оеш:оеш%{ъ%} V-IV-IR ; ! ""
-оптимальләштер:оптимальләштер V-TV-IR ; ! ""
-очрат:очрат V-TV-IR ; ! ""
-өйлән:өйлән V-IV-IR ; ! ""
-популярлаштыр:популярлаштыр V-TV-IR ; ! ""
-пропагандала:пропагандала V-TV-IR ; ! ""
-профилактикала:профилактикала V-TV-IR ; ! ""
-рәсмиләштер:рәсмиләштер V-TV-IR ; ! ""
-реконструкциялә:реконструкциялә V-TV-IR ; ! ""
-сарыф% ит:сарыф% ит V-TV-AR ; ! ""
-сәламәтләндер:сәламәтләндер V-TV-IR ; ! ""
-сәхнәләштер:сәхнәләштер V-TV-IR ; ! ""
-сең:сең V-IV-AR ; ! ""
-сип:сип V-TV-AR ; ! ""
-сиздер:сиздер V-TV-IR ; ! ""
-сискән:сискән V-IV-IR ; ! ""
-сөен:сөен V-IV-IR ; ! ""
-сөендер:сөендер V-TV-IR ; ! ""
-сурәтлә:сурәтлә V-TV-IR ; ! ""
-суыр:суыр V-TV-IR ; ! ""
-сүн:сүн V-IV-AR ; ! ""
-сүндер:сүндер V-TV-IR ; ! ""
-сүт:сүт V-TV-AR ; ! ""
-сызган:сызган V-TV-IR ; ! ""
-сыйпа:сыйпа V-TV-IR ; ! ""
-тәбрик% ит:тәбрик% ит V-TV-AR ; ! ""
-тәгәрә:тәгәрә V-IV-IR ; ! ""
-тернәкләндер:тернәкләндер V-TV-IR ; ! ""
-той:той V-TV-AR ; ! ""
-төгәллә:төгәллә V-TV-IR ; ! ""
-төзекләндер:төзекләндер V-TV-IR ; ! ""
-төплән:төплән V-IV-IR ; ! ""
-тукландыр:тукландыр V-TV-IR ; ! ""
-туктал:туктал V-IV-IR ; ! ""
-тутыр:тутыр V-TV-IR ; ! ""
-туй:туй V-IV-AR ; ! ""
-тынычландыр:тынычландыр V-TV-IR ; ! ""
-уй:уй V-TV-AR ; ! ""
-уздыр:уздыр V-TV-IR ; ! ""
-уйлан:уйлан V-TV-IR ; ! ""
-уң:уң V-IV-AR ; ! ""
-урат:урат V-TV-IR ; ! ""
-уртаклаш:уртаклаш V-TV-IR ; ! ""
-үзәкләштер:үзәкләштер V-TV-IR ; ! ""
-үрчет:үрчет V-TV-IR ; ! ""
-үтәт:үтәт V-TV-IR ; ! ""
-фикерлә:фикерлә V-TV-IR ; ! ""
-хасил% бул:хасил% бул V-IV-IR ; ! ""
-хасил% ит:хасил% ит V-TV-AR ; ! ""
-хәзерлә:хәзерлә V-TV-IR ; ! ""
-хәзерлән:хәзерлән V-IV-IR ; ! ""
-хәтерләт:хәтерләт V-TV-IR ; ! ""
-хөрмәтлә:хөрмәтлә V-TV-IR ; ! ""
-хыяллан:хыяллан V-IV-IR ; ! ""
-чагылдыр:чагылдыр V-TV-IR ; ! ""
-чамала:чамала V-TV-IR ; ! ""
-чере:чере V-IV-IR ; ! ""
-шаяр:шаяр V-IV-IR ; ! ""
-шаярт:шаярт V-IV-IR ; ! ""
-шиклән:шиклән V-IV-IR ; ! ""
-шу:шу V-TV-AR ; ! ""
-ышандыр:ышандыр V-TV-IR ; ! ""
-эләк:эләк V-IV-IR ; ! ""
-эт:эт V-TV-AR ; ! ""
-этәр:этәр V-TV-IR ; ! ""
-эшләт:эшләт V-TV-IR ; ! ""
-юнәлдер:юнәлдер V-TV-IR ; ! ""
-яздыр:яздыр V-TV-IR ; ! ""
-яктырт:яктырт V-TV-IR ; ! ""
-ялтыра:ялтыра V-IV-IR ; ! ""
-ян:ян V-IV-AR ; ! ""
-яндыр:яндыр V-TV-IR ; ! ""
-яна:яна V-IV-IR ; ! ""
-яңгыра:яңгыра V-IV-IR ; ! ""
-яшелләндер:яшелләндер V-TV-IR ; ! ""
 
 абай% бул:абай% бул V-IV-IR ; ! "cautious,attentive,beware"
 абайла:абайла V-TV-IR ; ! "cautious,attentive,beware"
 абаланып% йөр:абаланып% йөр V-IV-IR ; ! "crawl,creep"
 аваз% сал:аваз% сал V-IV-IR ; ! ""
-авыр:авыр V-IV-IR ; ! "болеет"
 авыр%<v%>%<iv%>%<pres%>%<p3%>%<sg%>:авырый # ; ! "болеет" FIXME TODO
+авыр:авыр V-IV-IR ; ! "болеет"
 авырай:авырай V-IV-IR ; ! "to become heavy"
 авырсын:авырсын V-IV-IR ; ! "to be burdensome"
 авырт:авырт V-IV-IR ; ! "болит"
@@ -18320,6 +18161,7 @@ Witness:Witness NP-AL ; ! ""
 алдакчыга% әйлән:алдакчыга% әйлән V-IV-IR ; ! "to become a liar" Use/MT
 алдап%-сула:алдап%-сула V-TV-IR ; ! "amuse,quiet,console" Use/MT
 алдыр:алдыр V-TV-IR ; ! "bring,deliver,disclose,find oneself robbed,suscribe" (kaz tat) caus
+алкышла:алкышла V-TV-IR ; ! ""
 алмаш:алмаш V-TV-IR ; ! "exchange,swap,be confused"
 алмаштыр:алмаштыр V-TV-IR ; ! ""
 алпан%-тилпән% йөр:алпан%-тилпән% йөр V-IV-IR ; ! "to run clumsily" Use/MT
@@ -18333,15 +18175,16 @@ Witness:Witness NP-AL ; ! ""
 алып% ташла:алып% ташла V-TV-IR ; ! "" Use/MT
 алыш:алыш V-IV-IR ; ! "fight,wrestle"
 алыштыр:алыштыр V-TV-IR ; ! "set (on),urge on,incite"
+алышын:алышын V-IV-IR ; ! ""
 анализла:анализла V-TV-IR ; ! ""
 анатомла:анатомла V-TV-IR ; ! "to perform an autopsy"
-аннексиялә:аннексиялә V-TV-IR ; ! "to annex"
-ансатлан:ансатлан V-IV-IR ; ! "to become easy"
-аныкла:аныкла V-TV-IR ; ! "elucidate,clarify,define,specify"
 аңкы:аңкы V-TV-IR ; ! "to spread"
 аңла:аңла V-TV-IR ; ! "understand,guess"
 аңлат:аңлат V-TV-IR ; ! "" caus
 аңлашыл:аңлашыл V-IV-IR ; ! ""
+аннексиялә:аннексиялә V-TV-IR ; ! "to annex"
+ансатлан:ансатлан V-IV-IR ; ! "to become easy"
+аныкла:аныкла V-TV-IR ; ! "elucidate,clarify,define,specify"
 аптыра:аптыра V-IV-IR ; ! "become perplexed,confused,taken aback"
 аптырап% кал:аптырап% кал V-IV-IR ; ! "to be disturbed" Use/MT
 арала:арала V-TV-IR ; ! "walk among"
@@ -18358,16 +18201,19 @@ Witness:Witness NP-AL ; ! ""
 арык:арык V-IV-IR ; ! "lose weiht (о скоте)"
 арын:арын V-IV-IR ; ! "free oneself (of),get rid (of)"
 арыт:арыт V-TV-IR ; ! "to tire out" (kaz tat) caus
+ас:ас V-TV-AR ; ! ""
 асра:асра V-TV-IR ; ! "содержать,кормить,выращивать"
 ассимиляциялә:ассимиляциялә V-TV-IR ; ! "to assimilate"
 ассызыкла:ассызыкла V-TV-IR ; ! "подчеркнуть"
 асылын% аңла:асылын% аңла V-IV-IR ; ! "вникать" Use/MT
+асылын:асылын V-IV-IR ; ! ""
 ата:ата V-TV-IR ; ! "call by name,mention"
 атаклан:атаклан V-IV-IR ; ! "to be popular" Use/MT
 атап% күрсәт:атап% күрсәт V-TV-IR ; ! "подчеркнуть" Use/MT
 ат:ат V-TV-AR ; ! "shoot,fire,splash"
 атла:атла V-IV-IR ; ! "to step"
 атлан:атлан V-IV-IR ; ! "ride" +DAT
+атлык:атлык V-IV-IR ; ! ""
 ау:ау V-IV-AR ; ! "упасть,опрокинуться"
 аудар:аудар V-TV-IR ; ! "to throw down" (kaz tat) caus
 аула:аула V-TV-IR ; ! "to hunt"
@@ -18404,6 +18250,7 @@ Witness:Witness NP-AL ; ! ""
 бак:бак V-TV-AR ; ! "look,scrutinize"
 бакылда:бакылда V-IV-IR ; ! "to bleat"
 бакыр:бакыр V-IV-IR ; ! "кричать,ревет,бранить"
+балкы:балкы V-IV-IR ; ! ""
 балчык% сыла:балчык% сыла V-TV-IR ; ! "to soil" Use/MT
 бар:бар V-IV-IR ; ! "идти,ехать"
 барла:барла V-TV-IR ; ! "to check"
@@ -18422,22 +18269,23 @@ Witness:Witness NP-AL ; ! ""
 башкар:башкар V-TV-IR ; ! "исполнять,выполнять"
 башла:башла V-TV-IR ; ! "start,begin"
 башын% әйләндер:башын% әйләндер V-IV-IR ; ! "" Use/MT
-бел:бел V-TV-IR ; ! "know,understand"
-белдер:белдер V-TV-IR ; ! "значить" FIXME NOTE caus
-белеш:белеш V-TV-IR ; ! "наводить справки"
-берек:берек V-IV-IR ; ! ""
-беркет:беркет V-TV-IR ; ! "lock,fasten"
-берләш:берләш V-IV-IR ; ! ""
-берләштер:берләштер V-TV-IR ; ! "to set out together"
-бет:бет V-IV-AR ; ! "кончаться,заканчиваться"
-бетер:бетер V-TV-IR ; ! "" ! FIXME  causative
 бәйлә:бәйлә V-TV-IR ; ! "tie up,communicate"
 бәйлән:бәйлән V-IV-IR ; ! "придираться"
 бәйләнеш:бәйләнеш V-IV-IR ; ! "to associate (with)"
 бәйрәм% ит:бәйрәм% ит V-TV-AR ; ! "celebrate,hold selebration"
+бел:бел V-TV-IR ; ! "know,understand"
+белдер:белдер V-TV-IR ; ! "значить" FIXME NOTE caus
+белеш:белеш V-TV-IR ; ! "наводить справки"
+бәр:бәр V-TV-IR ; ! ""
+берек:берек V-IV-IR ; ! ""
 бәрел:бәрел V-IV-IR ; ! ""
 бәрелеш:бәрелеш V-IV-IR ; ! "" coop
+беркет:беркет V-TV-IR ; ! "lock,fasten"
+берләш:берләш V-IV-IR ; ! ""
+берләштер:берләштер V-TV-IR ; ! "to set out together"
 бәс:бәс V-TV-IR ; ! ""
+бет:бет V-IV-AR ; ! "кончаться,заканчиваться"
+бетер:бетер V-TV-IR ; ! "" ! FIXME  causative
 бәхәсләш:бәхәсләш V-IV-IR ; ! "argue,bet"
 бәхилләш:бәхилләш V-IV-IR ; ! "to bid good-bye (to a dying person)"
 бәялә:бәялә V-TV-IR ; ! ""
@@ -18446,6 +18294,7 @@ Witness:Witness NP-AL ; ! ""
 бие:бие V-TV-IR ; ! ""
 биз:биз V-IV-AR ; ! "renounce,disavow"
 бизә:бизә V-TV-IR ; ! "adorn,embellish,decorate"
+бизән:бизән V-IV-IR ; ! ""
 бил% алыш:бил% алыш V-IV-IR ; ! "to wrestle" Use/MT
 билгелә:билгелә V-TV-IR ; ! "to mark"
 билгә% так:билгә% так V-TV-AR ; ! "" Use/MT
@@ -18456,30 +18305,30 @@ Witness:Witness NP-AL ; ! ""
 бишәүлә:бишәүлә V-TV-IR ; ! "to do something in groups of five" Use/MT
 бишәү% эшлә:бишәү% эшлә V-TV-IR ; ! "to do something in groups of five" Use/MT
 богаула:богаула V-TV-IR ; ! "to hobble (in iron fetters)"
+бөгел:бөгел V-IV-IR ; ! "to bend"
+бөдрәлә:бөдрәлә V-TV-IR ; ! "to curl"
 боер:боер V-TV-IR ; ! "order"
 бозаула:бозаула V-IV-IR ; ! "to calve"
 боз:боз V-TV-AR ; ! "портить,нарушать,разрешить"
 бозыл:бозыл V-IV-IR ; ! "to become stale"
 бозып% күрсәт:бозып% күрсәт V-TV-IR ; ! "pervert" Use/MT
-болай% ит:болай% ит V-TV-AR ; ! "" Use/MT
-бораула:бораула V-TV-IR ; ! "to bore"
-бор:бор V-TV-IR ; ! ""
-бормалан:бормалан V-IV-IR ; ! "wind"
-борчы:борчы V-TV-IR ; ! ""
-борчыл:борчыл V-IV-IR ; ! "to worry"
-ботаклан:ботаклан V-IV-IR ; ! "to ramify"
-ботарла:ботарла V-TV-IR ; ! "to tear into pieces"
-бөгел:бөгел V-IV-IR ; ! "to bend"
-бөдрәлә:бөдрәлә V-TV-IR ; ! "to curl"
 бөк:бөк V-TV-AR ; ! "fold"
 бөкелә:бөкелә V-TV-IR ; ! "to cork"
 бөкерәй:бөкерәй V-IV-IR ; ! ""
+болай% ит:болай% ит V-TV-AR ; ! "" Use/MT
 бөл:бөл V-IV-AR ; ! "to suffer great damage"
+бораула:бораула V-TV-IR ; ! "to bore"
+бор:бор V-TV-IR ; ! ""
 бөрелән:бөрелән V-IV-IR ; ! "to goffer"
 бөреш:бөреш V-IV-IR ; ! "to shrink"
 бөрке:бөрке V-TV-IR ; ! "to spray"
 бөркән:бөркән V-TV-IR ; ! "to cover oneself" (kaz tat) refl
+бормалан:бормалан V-IV-IR ; ! "wind"
 бөрмәлә:бөрмәлә V-TV-IR ; ! "to pleat (a dress)"
+борчы:борчы V-TV-IR ; ! ""
+борчыл:борчыл V-IV-IR ; ! "to worry"
+ботаклан:ботаклан V-IV-IR ; ! "to ramify"
+ботарла:ботарла V-TV-IR ; ! "to tear into pieces"
 бөтенлә:бөтенлә V-TV-IR ; ! "to make whole"
 бу:бу V-TV-AR ; ! "завязывать,связывать"
 бугазла:бугазла V-TV-IR ; ! "seize by the throat"
@@ -18487,9 +18336,16 @@ Witness:Witness NP-AL ; ! ""
 буйла:буйла V-TV-IR ; ! "to go"
 буйсын:буйсын V-IV-IR ; ! "obey,comply,submit"
 бул:бул V-IV-IR ; ! "1. быть"
+бүл:бүл V-TV-AR ; ! "делить"
+бүлдер:бүлдер V-TV-IR ; ! "перебивать"
 булдыра% ал:булдыра% ал V-TV-IR ; ! "" Use/MT
 булдыр:булдыр V-TV-IR ; ! "допускать" (kaz tat) caus
 булдырыл:булдырыл V-IV-IR ; ! ""
+бүләк% ит:бүләк% ит V-TV-AR ; ! "to make a present" Use/MT
+бүләклә:бүләклә V-TV-IR ; ! ""
+бүләклән:бүләклән V-IV-IR ; ! "" refl
+бүлеп% кара:бүлеп% кара V-TV-IR ; ! "" Use/MT
+бүлеш:бүлеш V-IV-IR ; ! ""
 булып% чык:булып% чык V-IV-AR ; ! "" Use/MT
 булыш:булыш V-IV-IR ; ! "помогать"
 бурычкаb% ал:бурычкаb% ал V-TV-IR ; ! "to have money owed to one" Use/MT
@@ -18500,13 +18356,6 @@ Witness:Witness NP-AL ; ! ""
 буыл:буыл V-IV-IR ; ! "to suffocate" (tat) pass/refl?
 буылып% өр:буылып% өр V-IV-IR ; ! "to bark fiercely at some­thing (of a dog)" Use/MT
 буя:буя V-TV-IR ; ! "to paint"
-бүл:бүл V-TV-AR ; ! "делить"
-бүлдер:бүлдер V-TV-IR ; ! "перебивать"
-бүлеп% кара:бүлеп% кара V-TV-IR ; ! "" Use/MT
-бүлеш:бүлеш V-IV-IR ; ! ""
-бүләк% ит:бүләк% ит V-TV-AR ; ! "to make a present" Use/MT
-бүләклә:бүләклә V-TV-IR ; ! ""
-бүләклән:бүләклән V-IV-IR ; ! "" refl
 быгырда:быгырда V-IV-IR ; ! "to boil intensely"
 бытылда:бытылда V-IV-IR ; ! "to mumble"
 быхылда:быхылда V-IV-IR ; ! "to plop" Use/MT
@@ -18533,52 +18382,59 @@ Witness:Witness NP-AL ; ! ""
 гомер% ит:гомер% ит V-IV-AR ; ! ""
 гөрелдә:гөрелдә V-IV-IR ; ! "to emit dull sounds"
 гөр% кил:гөр% кил V-IV-IR ; ! "" Use/MT
+гөрлә:гөрлә V-IV-IR ; ! ""
 гөрселдә:гөрселдә V-IV-IR ; ! "to thunder"
-дегетлә:дегетлә V-TV-IR ; ! "to tar"
-демократлаш:демократлаш V-IV-IR ; ! "to become democratized"
-дерелдә:дерелдә V-IV-IR ; ! "дрожать,трястись,трепетать"
+горурлан:горурлан V-IV-IR ; ! ""
 дәвала:дәвала V-TV-IR ; ! ""
 дәвам% ит:дәвам% ит V-TV-AR ; ! ""
+дегетлә:дегетлә V-TV-IR ; ! "to tar"
 дәлиллә:дәлиллә V-TV-IR ; ! "prove"
+демократлаш:демократлаш V-IV-IR ; ! "to become democratized"
+дерелдә:дерелдә V-IV-IR ; ! "дрожать,трястись,трепетать"
 дәртләндер:дәртләндер V-TV-IR ; ! "to inspire"
+дәш:дәш V-TV-AR ; ! ""
 !ди:ди%{j%} V-TV-AR ; ! "сказать,называть" FIXME
 ди:ди V-TV-AR ; ! "сказать,называть" FIXME
 !ди:ди V-TV-IR ; ! ""
 дистәлә:дистәлә V-TV-IR ; ! "to count by tens"
 дошманлаш:дошманлаш V-IV-IR ; ! "be at loggerheads with"
+дулкынлан:дулкынлан V-IV-IR ; ! ""
 дуслаш:дуслаш V-IV-IR ; ! "to be reconciled (with)"
 дучар% бул:дучар% бул V-IV-IR ; ! ""
 дыңгырда:дыңгырда V-IV-IR ; ! ""
 дыңгырдат:дыңгырдат V-TV-IR ; ! "" caus
+әверел:әверел V-IV-IR ; ! ""
 егет% бул:егет% бул V-IV-IR ; ! "to distinguish oneself" Use/MT
 егыл:егыл V-IV-IR ; ! "fall"
-ек:ек%{ъ%} V-TV-AR ; ! "knock over (passive = fall over)"
-ела:ела V-IV-IR ; ! "cry,weep"
-елмай:елмай V-IV-IR ; ! "to smile"
-ерагай:ерагай V-IV-IR ; ! "remove oneself"
-ераклаш:ераклаш V-IV-IR ; ! "move off,move away,keep away from"
-ераклаштыр:ераклаштыр V-TV-IR ; ! "to remove" (kaz tat) caus
-ерт:ерт%{ъ%} V-TV-IR ; ! "tear"
-ешай:ешай V-IV-IR ; ! "to become more frequent"
-ешайт:ешайт V-TV-IR ; ! "to make more frequent" (kaz tat) caus
 әдәпсезлән:әдәпсезлән V-IV-IR ; ! ""
-әзерлеклә:әзерлеклә V-TV-IR ; ! ""
 әзерлә:әзерлә V-TV-IR ; ! "готовить,подготавливать,приготавливать"
+әзерлеклә:әзерлеклә V-TV-IR ; ! ""
 әзерлән:әзерлән V-IV-IR ; ! ""
-әйлендереп% ал:әйлендереп% ал V-TV-IR ; ! "" Use/MT
+әйдә:әйдә V-TV-IR ; ! ""
 әйләндер:әйләндер V-TV-IR ; ! "вращаться;превращаться"
+әйлендереп% ал:әйлендереп% ал V-TV-IR ; ! "" Use/MT
 әйлән:әйлән V-IV-IR ; ! "вращаться;превращаться"
 әйт:әйт V-TV-IR ; ! "сказать,говорить,рассказывать"
 әйткәләш:әйткәләш V-IV-IR ; ! "to get into a fight"
 әйттер:әйттер V-TV-IR ; ! "" caus
+ек:ек%{ъ%} V-TV-AR ; ! "knock over (passive = fall over)"
 әкренәй:әкренәй V-IV-IR ; ! "to slow down"
+ела:ела V-IV-IR ; ! "cry,weep"
+елмай:елмай V-IV-IR ; ! "to smile"
 әмәллә:әмәллә V-TV-IR ; ! "contrive,manage,find a way out"
 әңгәмәләш:әңгәмәләш V-IV-IR ; ! ""
+ерагай:ерагай V-IV-IR ; ! "remove oneself"
+ераклаш:ераклаш V-IV-IR ; ! "move off,move away,keep away from"
+ераклаштыр:ераклаштыр V-TV-IR ; ! "to remove" (kaz tat) caus
 әрдәнәгә% өй:әрдәнәгә% өй V-TV-AR ; ! "to put together in rows or layers" Use/MT
 әрәм%-шәрәм% ит:әрәм%-шәрәм% ит V-TV-AR ; ! "to expend for nothing"
+ер:ер%{ъ%} V-TV-IR ; ! ""
+ерт:ерт%{ъ%} V-TV-IR ; ! "tear"
 әсәрлән:әсәрлән V-IV-IR ; ! ""
 әтәчлән:әтәчлән V-IV-IR ; ! "to be on one's high horse"
 әче:әче V-IV-IR ; ! "to get overcurdled (of sour milk)"
+ешай:ешай V-IV-IR ; ! "to become more frequent"
+ешайт:ешайт V-TV-IR ; ! "to make more frequent" (kaz tat) caus
 җавап% бир:җавап% бир V-TV-IR ; ! "" Use/MT
 җаен% тап:җаен% тап V-IV-AR ; ! "" Use/MT
 җайла:җайла V-TV-IR ; ! "to designate"
@@ -18586,6 +18442,7 @@ Witness:Witness NP-AL ; ! ""
 жалоба% бир:жалоба% бир V-IV-IR ; ! ""
 җанлан:җанлан V-IV-IR ; ! "to come to life"
 җаны% чыккан% бул:җаны% чыккан% бул V-IV-IR ; ! "be beaten half to death" Use/MT
+җәелдер:җәелдер V-TV-IR ; ! ""
 җәел:җәел V-IV-IR ; ! "extend,overflow" (kaz tat) pass
 җәзала:җәзала V-TV-IR ; ! ""
 җәй:җәй V-TV-AR ; ! "to pasture"
@@ -18594,6 +18451,7 @@ Witness:Witness NP-AL ; ! ""
 җәрәхәтлә:җәрәхәтлә V-TV-IR ; ! "to damage"
 җибәр:җибәр V-TV-IR ; ! "send"
 җикер:җикер V-IV-IR ; ! "to shout"
+җик:җик V-TV-AR ; ! ""
 җиктер:җиктер V-TV-IR ; ! "to order (someone) to harness (a horse)" (kaz tat) caus
 җилдер:җилдер V-TV-IR ; ! "to gallop fast"
 җилемлә:җилемлә V-TV-IR ; ! "to glue up"
@@ -18602,19 +18460,23 @@ Witness:Witness NP-AL ; ! ""
 җиллән:җиллән V-IV-IR ; ! "to be aired"
 җилләт:җилләт V-TV-IR ; ! "to winnow (wheat)"
 җилфердә:җилфердә V-IV-IR ; ! "to soar"
+җимер:җимер V-TV-IR ; ! ""
 җиңеләйт:җиңеләйт V-TV-IR ; ! ""
 җиң:җиң V-TV-AR ; ! "win,overcome"
 җиң% сызган:җиң% сызган V-IV-IR ; ! "train oneself,display activity" Use/MT
 җирәнеп% кара:җирәнеп% кара V-TV-IR ; ! "" Use/MT
 җирән:җирән V-IV-IR ; ! "to have an aversion"
 җирлә:җирлә V-TV-IR ; ! "to bury"
+җитәклә:җитәклә V-TV-IR ; ! "lead by hand"
 җител:җител V-IV-IR ; ! ""
 җитеш:җитеш V-IV-IR ; ! "to ripen (of fruit)"
 җитештер:җитештер V-TV-IR ; ! ""
-җитәклә:җитәклә V-TV-IR ; ! "lead by hand"
 җит:җит V-IV-AR ; ! "reach"
 җиткез:җиткез V-TV-IR ; ! "to bring to" (kaz tat) caus
+җиткер:җиткер V-TV-IR ; ! ""
+җиһазландыр:җиһазландыр V-TV-IR ; ! ""
 җиһазлан:җиһазлан V-IV-IR ; ! "to be equipped with tools"
+җөрьәт% ит:җөрьәт% ит V-TV-AR ; ! ""
 җыел:җыел V-IV-IR ; ! "to accumulate"
 җыен:җыен V-IV-IR ; ! "" refl
 җыерыл:җыерыл V-IV-IR ; ! "to develop (of folds"
@@ -18622,6 +18484,7 @@ Witness:Witness NP-AL ; ! ""
 җый:җый V-TV-AR ; ! "to gather"
 җыйна:җыйна V-TV-IR ; ! ""
 җылын:җылын V-TV-IR ; ! ""
+җылыт:җылыт V-TV-IR ; ! ""
 җырла:җырла V-TV-IR ; ! ""
 зарлан:зарлан V-IV-IR ; ! ""
 зарык:зарык V-IV-IR ; ! "be bored"
@@ -18642,62 +18505,72 @@ Witness:Witness NP-AL ; ! ""
 и:и V-TV-AR ; ! "bend,curve"
 ил% гизеп% йөр:ил% гизеп% йөр V-IV-IR ; ! "to wander" Use/MT
 илә:илә V-TV-IR ; ! "просеивать"
+илт:илт V-TV-IR ; ! ""
 илһамлан:илһамлан V-IV-IR ; ! "to show readiness"
 имгән:имгән V-IV-IR ; ! "to become crippled"
 имәргә% чык:имәргә% чык V-IV-AR ; ! "to be admitted to ewes or cows for sucking (of lambs and calves)" Use/MT
+имзала:имзала V-TV-IR ; ! ""
+иминиятләштер:иминиятләштер V-TV-IR ; ! ""
 имчәктән% аер:имчәктән% аер V-TV-IR ; ! "to wean a child" Use/MT
-интектер:интектер V-TV-IR ; ! "to bore"
+инкарь% ит:инкарь% ит V-TV-AR ; ! ""
 иңрә:иңрә V-IV-IR ; ! ""
+интек:интек V-IV-IR ; ! ""
+интектер:интектер V-TV-IR ; ! "to bore"
 иплә:иплә V-TV-IR ; ! "to gain"
 ирен:ирен V-IV-IR ; ! "лениться"
+ирешел:ирешел V-IV-IR ; ! ""
 иреш:иреш V-IV-IR ; ! "to attain"
-иркенлә:иркенлә V-IV-IR ; ! "to feel free"
+ирештер:ирештер V-TV-IR ; ! ""
 иркәлә:иркәлә V-TV-IR ; ! "to take care of someone attentively"
+иркенлә:иркенлә V-IV-IR ; ! "to feel free"
 исем% куш:исем% куш V-TV-AR ; ! "" Use/MT
 исемлә:исемлә V-TV-IR ; ! ""
-исер:исер V-IV-IR ; ! "get drunk"
 исәнләш:исәнләш V-IV-IR ; ! "greet,visit,see each other"
 исәплә:исәплә V-TV-IR ; ! "to count"
 исәпләш:исәпләш V-IV-IR ; ! "to take something into consideration"
+исер:исер V-IV-IR ; ! "get drunk"
 ис:ис V-IV-AR ; ! "twist,spin"
-искер:искер V-IV-IR ; ! "to be shabby"
 искә% ал:искә% ал V-TV-IR ; ! "pay attention"
+искер:искер V-IV-IR ; ! "to be shabby"
 искәрт:искәрт V-TV-IR ; ! ""
 искә% төшер:искә% төшер V-TV-IR ; ! ""
 иснә:иснә V-TV-IR ; ! "smell"
 истә% тот:истә% тот V-TV-AR ; ! ""
 ит:ит V-TV-AR ; ! "do,make"
+иттер:иттер V-TV-IR ; ! ""
 ишет:ишет V-TV-IR ; ! "hear"
 иш:иш V-TV-AR ; ! "to felt (wool)"
 ия% бул:ия% бул V-IV-IR ; ! ""
 ияр:ияр V-IV-IR ; ! "follow"
 иярлә:иярлә V-TV-IR ; ! "седлать"
 иярт:иярт V-TV-IR ; ! "" caus
+йөгәнлә:йөгәнлә V-TV-IR ; ! "to bridle"
+йөгәнсезлән:йөгәнсезлән V-IV-IR ; ! "to commit excesses"
+йөгер:йөгер V-IV-IR ; ! "run"
 йогышсызландыр:йогышсызландыр V-TV-IR ; ! "to disinfect" (tat) caus
+йөз:йөз V-IV-AR ; ! "swim"
 йок:йок V-TV-AR ; ! "be communicated (of diseases)"
 йокла:йокла V-IV-IR ; ! ""
+йөклә:йөклә V-TV-IR ; ! ""
 йокымсыра:йокымсыра V-IV-IR ; ! "be in a sluggish and drowsy state"
 йолкы:йолкы V-TV-IR ; ! "pluck out"
 йомгакла:йомгакла V-TV-IR ; ! "to conclude"
 йом:йом V-TV-AR ; ! ""
 йомша:йомша V-IV-IR ; ! "soften"
 йомшарт:йомшарт V-TV-IR ; ! "to turn up" (kaz tat) caus
-йот:йот V-TV-AR ; ! ""
-йөгер:йөгер V-IV-IR ; ! "run"
-йөгәнлә:йөгәнлә V-TV-IR ; ! "to bridle"
-йөгәнсезлән:йөгәнсезлән V-IV-IR ; ! "to commit excesses"
-йөз:йөз V-IV-AR ; ! "swim"
 йөреп% чык:йөреп% чык V-TV-AR ; ! "бродить,скитаться" Use/MT
 йөр:йөр V-IV-IR ; ! "" FIXME CHECK
 йөр:йөре V-IV-IR ; ! "" Dir/LR FIXME CHECK
 йөртел:йөртел V-IV-IR ; ! "to be put into motion or into action" FIXME CHECK
 йөрт:йөрт V-TV-IR ; ! "" (kaz tat) caus
+йот:йот V-TV-AR ; ! ""
 кабалан:кабалан V-IV-IR ; ! "to walk with hasty steps"
 кабарын:кабарын V-IV-IR ; ! "protest"
 кабатла:кабатла V-TV-IR ; ! ""
 кабул% ит:кабул% ит V-TV-AR ; ! ""
 кабул% итмә:кабул% итмә V-TV-IR ; ! "loose the habbit" Use/MT
 кабыгыннан% арындыр:кабыгыннан% арындыр V-TV-IR ; ! "to busk" Use/MT
+кабыз:кабыз V-TV-IR ; ! ""
 кабын:кабын V-IV-IR ; ! "вспыхнуть"
 кабырчыклан:кабырчыклан V-IV-IR ; ! "to appear (of tumors)"
 кагыл:кагыл V-IV-IR ; ! "to go by"
@@ -18705,8 +18578,10 @@ Witness:Witness NP-AL ; ! ""
 када:када V-TV-IR ; ! "stick in"
 кадакла:кадакла V-TV-IR ; ! "to nail"
 кадаклап% үлчә:кадаклап% үлчә V-TV-IR ; ! "to weigh in pounds" Use/MT FIXME CHECK
+кадерлә:кадерлә V-TV-IR ; ! ""
 каер:каер V-TV-IR ; ! "to train (a hunting bird)"
 каеш:каеш V-IV-IR ; ! "to bend down" (kaz tat) coop FIXME CHECK
+казан:казан V-TV-IR ; ! ""
 казы:казы V-TV-IR ; ! "dig"
 казыкла:казыкла V-TV-IR ; ! "to tie something to a stake driven into the ground"
 кайгыр:кайгыр V-IV-IR ; ! "be in mourning, express sorrow, present condolences"
@@ -18723,6 +18598,7 @@ Witness:Witness NP-AL ; ! ""
 калайла:калайла V-TV-IR ; ! "to cover with tin plate"
 калдыр:калдыр V-TV-IR ; ! "forsake" (kaz tat) caus
 кал:кал V-IV-IR ; ! "remain"
+калкы:калкы V-IV-IR ; ! ""
 калынай:калынай V-IV-IR ; ! "to become fat"
 калыпка% кер:калыпка% кер V-IV-IR ; ! "to go into a usual" Use/MT
 калыплан:калыплан V-IV-IR ; ! "to go into a usual"
@@ -18734,8 +18610,9 @@ Witness:Witness NP-AL ; ! ""
 камчыла:камчыла V-TV-IR ; ! "to lash the sides (of a horse)"
 кана:кана V-IV-IR ; ! "to oppress"
 канат:канат V-TV-IR ; ! "to stain with blood" (kaz tat) caus
-канәгатьләндер:канәгатьләндер V-TV-IR ; ! ""
 каңгырап% йөр:каңгырап% йөр V-IV-IR ; ! "to become restless" Use/MT
+канәгатьләндер:канәгатьләндер V-TV-IR ; ! ""
+кап:кап V-TV-AR ; ! ""
 капла:капла V-TV-IR ; ! "to cork"
 каплан:каплан V-IV-IR ; ! "to be covered with a thin layer (of ice)" (kaz tat) ?refl
 каплап% ал:капла% ал V-TV-IR ; ! "" Use/MT
@@ -18748,13 +18625,14 @@ Witness:Witness NP-AL ; ! ""
 каралан:каралан V-IV-IR ; ! "to be slandered"
 карал:карал V-IV-IR ; ! ""
 каралт:каралт V-TV-IR ; ! "to soil"
-каран:каран V-IV-IR ; ! "to look around (on both sides)" (kaz tat) ?refl
 караңгылан:караңгылан V-IV-IR ; ! "to get dark"
+каран:каран V-IV-IR ; ! "to look around (on both sides)" (kaz tat) ?refl
 карар% ит:карар% ит V-TV-IR ; ! ""
 караш:караш V-TV-IR ; ! "to help" (kaz tat) recipr&coop
 караштыр:караштыр V-TV-IR ; ! "to investigate"
 карга:карга V-TV-IR ; ! "curse,damn"
 каркылда:каркылда V-IV-IR ; ! "to guffaw"
+каршыла:каршыла V-TV-IR ; ! ""
 каршы% тор:каршы% тор V-IV-IR ; ! "to resist" Use/MT
 карышла:карышла V-TV-IR ; ! "to measure with the thumb and middle fingers spread apart"
 кат:кат V-IV-AR ; ! "harden"
@@ -18767,13 +18645,13 @@ Witness:Witness NP-AL ; ! ""
 каш% җыер:каш% җыер V-IV-IR ; ! "" Use/MT
 квалификациялән:квалификациялән V-IV-IR ; ! "specialize"
 кебек% бул:кебек% бул V-IV-IR ; ! "" Use/MT
+кәнәгать% булма:кәнәгать% булма V-IV-IR ; ! "not to  be content (with)" Use/MT
+кәнәгатьләндер:кәнәгатьләндер V-TV-IR ; ! "" (tat) caus
 кер:кер V-IV-IR ; ! "enter"
 керт:керт V-TV-IR ; ! "" FIXME NOTE caus
 кершәнлә:кершәнлә V-TV-IR ; ! "to powder"
 кетердә:кетердә V-IV-IR ; ! "to crack"
 кешнә:кешнә V-IV-IR ; ! "to neigh loudly (of a stallion)"
-кәнәгать% булма:кәнәгать% булма V-IV-IR ; ! "not to  be content (with)" Use/MT
-кәнәгатьләндер:кәнәгатьләндер V-TV-IR ; ! "" (tat) caus
 киен:киен V-IV-IR ; ! "" refl
 киерел:киерел V-IV-IR ; ! "to be in an agonizing condition"
 кикер:кикер V-IV-IR ; ! "burp"
@@ -18782,17 +18660,21 @@ Witness:Witness NP-AL ; ! ""
 килеп% чык:килеп% чык V-IV-AR ; ! "" Use/MT
 килеш:килеш V-IV-IR ; ! "agree"
 кил:кил V-IV-AR ; ! "come"
+киме:киме V-IV-IR ; ! ""
 кимер:кимер V-TV-IR ; ! "to gnaw round"
+кимет:кимет V-TV-IR ; ! ""
 кинаяле% сөйлә:кинаяле% сөйлә V-IV-IR ; ! "to line" Use/MT
+киңәй:киңәй V-IV-IR ; ! ""
 киңәйт:киңәйт V-TV-IR ; ! ""
 киңәш:киңәш V-IV-IR ; ! "to consult"
 киңәшләш:киңәшләш V-IV-IR ; ! ""
 кип:кип V-IV-AR ; ! "to crack"
 кире% бир:кире% бир V-TV-IR ; ! "" Use/MT
 кисеп% ал:кисеп% ал V-TV-IR ; ! "to cut off" Use/MT
-кисеш:кисеш V-IV-IR ; ! "to gather in one place"
 кисәт:кисәт V-TV-IR ; ! ""
+кисеш:кисеш V-IV-IR ; ! "to gather in one place"
 кис:кис V-TV-AR ; ! "cut"
+кистер:кистер V-TV-IR ; ! ""
 кител:кител V-IV-IR ; ! "to repulse"
 китер:китер V-TV-IR ; ! "bring" (kaz tat) caus
 кит:кит V-IV-AR ; ! "leave"
@@ -18801,92 +18683,101 @@ Witness:Witness NP-AL ; ! ""
 кичер:кичер V-TV-IR ; ! "forgive"
 кич:кич V-TV-AR ; ! ""
 коендыр:коендыр V-TV-IR ; ! "" caus
+коен:коен%{ъ%} V-TV-IR ; ! ""
+көй:көй V-IV-AR ; ! "burn"
 кой:кой V-TV-AR ; ! "to fall (of rain)"
+көйлә:көйлә V-TV-IR ; ! "sing"
+көлемсерә:көлемсерә V-IV-IR ; ! "to smile slightly"
+көлеш:көлеш V-IV-IR ; ! "to laugh with others" (kaz tat) coop
+көл:көл V-IV-AR ; ! "laugh"
+комачаула:комачаула V-IV-IR ; ! ""
 комга% утыр:комга% утыр V-IV-IR ; ! "to run aground (of a vessel)" Use/MT
 комсызлан:комсызлан V-IV-IR ; ! "to be greedy"
+көндәшлек% ит:көндәшлек% ит V-IV-AR ; ! ""
+көнлә:көнлә V-TV-IR ; ! "to envy"
 конфискациялә:конфискациялә V-TV-IR ; ! ""
+көпшәкләндер:көпшәкләндер V-TV-IR ; ! "to turn inside out" (kaz tat) caus
 коралландыр:коралландыр V-TV-IR ; ! "to arm" (kaz tat) caus
 кораллан:кораллан V-IV-IR ; ! "to arm oneself"
 коргаксы:коргаксы V-IV-IR ; ! "to dry out"
+көрәш:көрәш V-IV-IR ; ! "to wrestle"
 кор:кор V-TV-IR ; ! "build"
+көрсен:көрсен V-IV-IR ; ! ""
 коры:коры V-IV-IR ; ! ""
 корыт:корыт V-TV-IR ; ! "to be dried up"
 коткар:коткар V-TV-IR ; ! "save"
+көт:көт V-TV-AR ; ! "wait"
 котла:котла V-TV-IR ; ! "to congratulate"
 котылдыр:котылдыр V-TV-IR ; ! "to help out" (kaz tat) caus
 котыл:котыл V-IV-IR ; ! "to get rid of"
 котырт:котырт V-TV-IR ; ! "to incite" (kaz tat) caus
 кочакла:кочакла V-TV-IR ; ! "hug"
-көй:көй V-IV-AR ; ! "burn"
-көйлә:көйлә V-TV-IR ; ! "sing"
-көлемсерә:көлемсерә V-IV-IR ; ! "to smile slightly"
-көлеш:көлеш V-IV-IR ; ! "to laugh with others" (kaz tat) coop
-көл:көл V-IV-AR ; ! "laugh"
-көндәшлек% ит:көндәшлек% ит V-IV-AR ; ! ""
-көнлә:көнлә V-TV-IR ; ! "to envy"
-көпшәкләндер:көпшәкләндер V-TV-IR ; ! "to turn inside out" (kaz tat) caus
-көрәш:көрәш V-IV-IR ; ! "to wrestle"
-көрсен:көрсен V-IV-IR ; ! ""
-көт:көт V-TV-AR ; ! "wait"
 көчәй:көчәй V-IV-AR ; ! ""
 көчәйт:көчәйт V-TV-IR ; ! "" caus
 көч% куй:көч% куй V-IV-AR ; ! "strive" Use/MT
 көчлә:көчлә V-TV-IR ; ! ""
 кристаллан:кристаллан V-IV-IR ; ! "to crystallize"
 куала:куала V-TV-IR ; ! "to urge on"
+куандыр:куандыр V-TV-IR ; ! ""
 куан:куан V-IV-IR ; ! "rejoice"
+күбәй:күбәй V-IV-IR ; ! ""
+күбеклән:күбеклән V-IV-IR ; ! "to foam"
+күз% алдына% китер:күз% алдына% китер V-TV-IR ; ! "" Use/MT
+күз% бу:күз% бу V-IV-AR ; ! "завораживать,гипнотизировать,заколдовывать" Use/MT
+кузгал:кузгал V-IV-IR ; ! ""
 кузгат:кузгат V-TV-IR ; ! "to move"
+күзәт:күзәт V-TV-IR ; ! "watch,observe,notice"
+күзлә:күзлә V-TV-IR ; ! ""
+күз% ташла:күз% ташла V-IV-IR ; ! "" Use/MT
 куй:куй V-TV-AR ; ! ""
 ку:ку V-TV-AR ; ! ""
 кукырай:кукырай V-IV-IR ; ! "to curve back"
 кул% бир:кул% бир V-IV-IR ; ! "to carry something together" Use/MT
 кулга% ал:кулга% ал V-TV-IR ; ! ""
 куллан:куллан V-TV-IR ; ! "употреблять"
+күмәклә:күмәклә V-TV-IR ; ! "to do something jointly with others"
+күм:күм V-TV-AR ; ! ""
 кунак% бул:кунак% бул V-IV-IR ; ! "to stay with" Use/MT
 кундыр:кундыр V-TV-IR ; ! "to keep a guest overnight" (kaz tat) caus
+күнегүләр% эшлә:күнегүләр% эшлә V-IV-IR ; ! "to exercize" Use/MT
+күнек:күнек V-IV-IR ; ! ""
+күн:күн V-IV-AR ; ! ""
 кун:кун V-IV-AR ; ! "land; stay over"
+күп% кан% югалт:күп% кан% югалт V-IV-IR ; ! "bleed" Use/MT
+куп:куп V-IV-AR ; ! ""
+күп% өлешен% эшлә:күп% өлешен% эшлә V-TV-IR ; ! "lessen" Use/MT
 кургашынла:кургашынла V-TV-IR ; ! "to fasten something, свинцевать"
+күреп% кал:күреп% кал V-TV-IR ; ! "" Use/MT
 курк:курк V-TV-IR ; ! "" Dir/LR
+күр:күр V-TV-NOPASS-IR ; ! ""
+күр:күрен V-TV-PASS-IR ; ! ""
 куркын:куркын V-IV-IR ; ! "to become frightened (unexpectedly)"
 куркып% кара:куркып% кара V-IV-IR ; ! "" Use/MT
 куркыт:куркыт V-TV-IR ; ! "to frighten" (kaz tat) caus
-курык:курык V-IV-IR ; ! "to fear" FIXME (tat) ы reduces
-кутырлан:кутырлан V-IV-IR ; ! "to get mangy"
-куш:куш V-TV-AR ; ! "add"
-кушыр:кушыр V-TV-IR ; ! "to twist"
-куып% кайтар:куып% кайтар V-TV-IR ; ! "to drive" Use/MT
-күбеклән:күбеклән V-IV-IR ; ! "to foam"
-күбәй:күбәй V-IV-IR ; ! ""
-күз% алдына% китер:күз% алдына% китер V-TV-IR ; ! "" Use/MT
-күз% бу:күз% бу V-IV-AR ; ! "завораживать,гипнотизировать,заколдовывать" Use/MT
-күзәт:күзәт V-TV-IR ; ! "watch,observe,notice"
-күзлә:күзлә V-TV-IR ; ! ""
-күз% ташла:күз% ташла V-IV-IR ; ! "" Use/MT
-күмәклә:күмәклә V-TV-IR ; ! "to do something jointly with others"
-күнегүләр% эшлә:күнегүләр% эшлә V-IV-IR ; ! "to exercize" Use/MT
-күн:күн V-IV-AR ; ! ""
-күп% кан% югалт:күп% кан% югалт V-IV-IR ; ! "bleed" Use/MT
-күп% өлешен% эшлә:күп% өлешен% эшлә V-TV-IR ; ! "lessen" Use/MT
-күреп% кал:күреп% кал V-TV-IR ; ! "" Use/MT
-күр:күр V-TV-NOPASS-IR ; ! ""
-күр:күрен V-TV-PASS-IR ; ! ""
 күрсәт:күрсәт V-TV-IR ; ! "to show" (kaz tat) ?caus
+курык:курык V-IV-IR ; ! "to fear" FIXME (tat) ы reduces
 күтәрел:күтәрел V-IV-IR ; ! "to rise"
 күтәр:күтәр V-TV-IR ; ! "to lift"
 күтәрт:күтәрт V-TV-IR ; ! "to load on someone's back" (tat) caus
+кутырлан:кутырлан V-IV-IR ; ! "to get mangy"
 күчен:күчен V-IV-IR ; ! ""
 күчеп% йөр:күчеп% йөр V-IV-IR ; ! "to move to another place (of nomads)" Use/MT
 күчер:күчер V-TV-IR ; ! "to move"
 күч:күч V-IV-AR ; ! ""
+куш:куш V-TV-AR ; ! "add"
+кушыр:кушыр V-TV-IR ; ! "to twist"
+куып% кайтар:куып% кайтар V-TV-IR ; ! "to drive" Use/MT
 кыенлаш:кыенлаш V-IV-IR ; ! "ослоңниться"
 кызар:кызар V-IV-IR ; ! "to be covered with bruises"
 кызган:кызган V-TV-IR ; ! "жалеть"
 кыз:кыз V-IV-AR ; ! "to get overcurdled (of sour milk)"
 кызык:кызык V-IV-IR ; ! ""
+кызыксындыр:кызыксындыр V-TV-IR ; ! ""
 кызыксын:кызыксын V-IV-IR ; ! "to get interested in"
 кызыктыр:кызыктыр V-TV-IR ; ! "to cause interest" (kaz tat) caus
 кызыш:кызыш V-IV-IR ; ! "to rot"
 кый:кый V-TV-AR ; ! ""
+кыйна:кыйна V-TV-IR ; ! ""
 кылан:кылан V-TV-IR ; ! "pretend,feign"
 кыл:кыл V-TV-IR ; ! "do"
 кыраулан:кыраулан V-IV-IR ; ! "to be covered with frost"
@@ -18913,35 +18804,46 @@ Witness:Witness NP-AL ; ! ""
 кыштырда:кыштырда V-IV-IR ; ! "to rustle"
 кыюсызлан:кыюсызлан V-IV-IR ; ! ""
 либеральләш:либеральләш V-IV-IR ; ! "to become a liberal"
+мавык:мавык V-IV-IR ; ! ""
 мавыктыр:мавыктыр V-TV-IR ; ! "to amuse"
 май% кун:май% кун V-IV-AR ; ! "to settle thickly" Use/MT
 майла:майла V-TV-IR ; ! "oil" grease
 майландыр:майландыр V-TV-IR ; ! "to shake (of a wineskin" (kaz tat) caus
 маймыллан:маймыллан V-IV-IR ; ! "to ape"
 макта:макта V-TV-IR ; ! "commend,praise"
+мактан:мактан V-IV-IR ; ! ""
 ман:ман V-TV-AR ; ! "scoop,ladle out"
 масай:масай V-IV-IR ; ! "to rumble"
 маташ:маташ V-IV-IR ; ! "суетиться,возиться"
+махсуслаштыр:махсуслаштыр V-TV-IR ; ! ""
 машиналаштыр:машиналаштыр V-TV-IR ; ! "mechanize"
-межала:межала V-TV-IR ; ! "draw a boundary line"
-менгез:менгез V-TV-IR ; ! "" caus
-мен:мен V-IV-AR ; ! ""
+мәгълүматлаштыр:мәгълүматлаштыр V-TV-IR ; ! ""
 мәгълүм% ит:мәгълүм% ит V-TV-AR ; ! "to inform"
+межала:межала V-TV-IR ; ! "draw a boundary line"
 мәлҗерә:мәлҗерә V-IV-IR ; ! "to become languid"
+менгез:менгез V-TV-IR ; ! "" caus
+мәңгеләштер:мәңгеләштер V-TV-IR ; ! ""
+мен:мен V-IV-AR ; ! ""
 мәсхәрәлә:мәсхәрәлә V-TV-IR ; ! "put to shame"
 мәшәкатьлән:мәшәкатьлән V-IV-IR ; ! ""
+мәш% кил:мәш% кил V-IV-IR ; ! ""
+мөбарәк% бул:мөбарәк% бул V-IV-IR ; ! ""
+модернизациялә:модернизациялә V-TV-IR ; ! ""
 мыжла:мыжла V-IV-IR ; ! "to team"
 мыркылда:мыркылда V-IV-IR ; ! "to grunt"
+мыскыл% ит:мыскыл% ит V-TV-AR ; ! ""
 мыскылла:мыскылла V-TV-IR ; ! "to feel malicious joy"
 мыштырда:мыштырда V-IV-IR ; ! "to tarry"
 назла:назла V-TV-IR ; ! "беречь,ласкать,лелеять"
 начарлан:начарлан V-IV-IR ; ! "to become worse"
+нәкышла:нәкышла V-TV-IR ; ! "to decorate with designs"
 нечкәр:нечкәр V-IV-IR ; ! "to grow thinner"
 нечкәрт:нечкәрт V-TV-IR ; ! "to make thinner" (kaz tat) caus
-нәкышла:нәкышла V-TV-IR ; ! "to decorate with designs"
+нәшер% ит:нәшер% ит V-TV-AR ; ! ""
 нигезлә:нигезлә V-TV-IR ; ! ""
 никахлаш:никахлаш V-IV-IR ; ! "to marry"
 нишлә:нишлә V-IV-IR ; ! ""
+ниятлә:ниятлә V-TV-IR ; ! ""
 ниятлән:ниятлән V-IV-IR ; ! "intend"
 нормалаштыр:нормалаштыр V-TV-IR ; ! "to standardize"
 нужа% күр:нужа% күр V-IV-IR ; ! "to live in poverty" Use/MT
@@ -18953,27 +18855,15 @@ Witness:Witness NP-AL ; ! ""
 нык% тор:нык% тор V-IV-IR ; ! "" Use/MT
 ое:ое V-IV-IR ; ! "be in a sluggish and drowsy state"
 оет:оет V-TV-IR ; ! "sour,thicken"
+оеш:оеш%{ъ%} V-IV-IR ; ! ""
 оештыр:оештыр V-TV-IR ; ! "organize"
 озата% бар:озата% бар V-TV-IR ; ! "" Use/MT
 озат:озат V-TV-IR ; ! ""
-озынай:озынай V-IV-IR ; ! "get longer"
-озынайт:озынайт V-TV-IR ; ! "" caus
-олтан% сал:олтан% сал V-IV-IR ; ! "to fix a new sole to a shoe" Use/MT
-омтыл:омтыл V-IV-IR ; ! "move ahead"
-оныт:оныт V-TV-IR ; ! "forget,mislay"
-орнаментла:орнаментла V-TV-IR ; ! "to make a design"
-остар:остар V-IV-IR ; ! "to specialize (in)"
-от:от V-TV-AR ; ! "win,beat"
-охша:охша V-IV-IR ; ! "resemble"
-очкылык% тот:очкылык% тот V-IV-AR ; ! "hiccough" Use/MT
-оч:оч V-IV-AR ; ! "fly"
-очра:очра V-IV-IR ; ! "befell,meet unexpectedly"
-очраш:очраш V-IV-IR ; ! "to meet"
-очыр:очыр V-TV-IR ; ! "" caus
-оша:оша V-IV-IR ; ! ""
-оял:оял V-IV-IR ; ! "be ashamed"
 өзлек:өзлек V-IV-IR ; ! "осложниться /о болезни/"
 өз:өз V-TV-AR ; ! "cut,pluck" pluck
+озынай:озынай V-IV-IR ; ! "get longer"
+озынайт:озынайт V-TV-IR ; ! "" caus
+өйлән:өйлән V-IV-IR ; ! ""
 өй:өй V-TV-AR ; ! ""
 өйрәнеп% кит:өйрәнеп% кит V-IV-AR ; ! "to make a habit of frequently calling somewhere" Use/MT
 өйрән:өйрән V-TV-IR ; ! "learn"
@@ -18981,22 +18871,41 @@ Witness:Witness NP-AL ; ! ""
 өлгер:өлгер V-IV-IR ; ! ""
 өлгерт:өлгерт V-TV-IR ; ! ""
 өләш:өләш V-TV-IR ; ! ""
+олтан% сал:олтан% сал V-IV-IR ; ! "to fix a new sole to a shoe" Use/MT
 өмет% ит:өмет% ит V-TV-AR ; ! ""
 өметлән:өметлән V-IV-IR ; ! "to hope"
+омтыл:омтыл V-IV-IR ; ! "move ahead"
 өндә:өндә V-IV-IR ; ! "make a sound"
+оныт:оныт V-TV-IR ; ! "forget,mislay"
+оптимальләштер:оптимальләштер V-TV-IR ; ! ""
 өрке:өрке V-IV-IR ; ! ""
+орнаментла:орнаментла V-TV-IR ; ! "to make a design"
 өр:өр V-IV-IR ; ! "bark(dog)"
 өр:өр V-TV-IR ; ! "blow"
 өскә% күтәрел:өскә% күтәрел V-IV-IR ; ! "to rise up" Use/MT
-өстер:өстер V-TV-AR ; ! "bother,trouble,harass,tease,set (a dog) on"
+остар:остар V-IV-IR ; ! "to specialize (in)"
 өстә:өстә V-TV-IR ; ! ""
+өстер:өстер V-TV-AR ; ! "bother,trouble,harass,tease,set (a dog) on"
 өтергелә:өтергелә V-TV-IR ; ! ""
+от:от V-TV-AR ; ! "win,beat"
 өт:өт V-TV-IR ; ! "to burn"
+охша:охша V-IV-IR ; ! "resemble"
+очкылык% тот:очкылык% тот V-IV-AR ; ! "hiccough" Use/MT
+оч:оч V-IV-AR ; ! "fly"
+очра:очра V-IV-IR ; ! "befell,meet unexpectedly"
+очрат:очрат V-TV-IR ; ! ""
+очраш:очраш V-IV-IR ; ! "to meet"
+очыр:очыр V-TV-IR ; ! "" caus
+оша:оша V-IV-IR ; ! ""
+оял:оял V-IV-IR ; ! "be ashamed"
 парлан:парлан V-IV-IR ; ! "to pair off"
 пешер:пешер V-TV-IR ; ! "to boil (food)"
 пеш:пеш V-IV-AR ; ! "burn oneself"
 планлаштыр:планлаштыр V-TV-IR ; ! ""
+популярлаштыр:популярлаштыр V-TV-IR ; ! ""
 программала:программала V-TV-IR ; ! "to program"
+пропагандала:пропагандала V-TV-IR ; ! ""
+профилактикала:профилактикала V-TV-IR ; ! ""
 пычран:пычран V-IV-IR ; ! ""
 пычра:пычра V-IV-IR ; ! "пачкать,марать"
 пычрат:пычрат V-TV-IR ; ! "to soil"
@@ -19005,12 +18914,14 @@ Witness:Witness NP-AL ; ! ""
 рамкала:рамкала V-TV-IR ; ! "to frame"
 расла:расла V-TV-IR ; ! "to confirm"
 ратификациялә:ратификациялә V-TV-IR ; ! "to ratify"
+реконструкциялә:реконструкциялә V-TV-IR ; ! ""
 ремонтла:ремонтла V-TV-IR ; ! ""
-реформала:реформала V-TV-IR ; ! "to reform"
 рәнҗе:рәнҗе V-IV-IR ; ! "be offended,feel hurt"
 рәнҗет:рәнҗет V-TV-IR ; ! "" caus
+рәсмиләштер:рәсмиләштер V-TV-IR ; ! ""
 рәтлә:рәтлә V-TV-IR ; ! "put in order"
 рәттән% чык:рәттән% чык V-IV-AR ; ! "to spoil" Use/MT
+реформала:реформала V-TV-IR ; ! "to reform"
 ризыклан:ризыклан V-IV-IR ; ! ""
 рөхсәт% ит:рөхсәт% ит V-TV-IR ; ! ""
 рухлан:рухлан V-IV-IR ; ! "to be inspired"
@@ -19029,6 +18940,7 @@ Witness:Witness NP-AL ; ! ""
 салын:салын V-IV-IR ; ! "to dangle"
 салынып% төш:салынып% төш V-IV-AR ; ! "to drag" Use/MT
 сана:сана V-TV-IR ; ! ""
+сарыф% ит:сарыф% ит V-TV-AR ; ! ""
 сарыф% ит:сарыф% ит V-TV-IR ; ! ""
 сасы:сасы V-IV-IR ; ! "stink"
 саташ:саташ V-IV-IR ; ! "be in one's dotage"
@@ -19036,29 +18948,30 @@ Witness:Witness NP-AL ; ! ""
 саттыр:саттыр V-TV-IR ; ! "to offer for sale" (kaz tat) caus
 сатып% ал:сатып% ал V-TV-IR ; ! "" Use/MT
 сау:сау V-TV-AR ; ! "to milk"
+сәламәтләндер:сәламәтләндер V-TV-IR ; ! ""
+сәламәт% фикерлә:сәламәт% фикерлә V-IV-IR ; ! "" Use/MT
+сәламлә:сәламлә V-TV-IR ; ! ""
 селкенеп% тор:селкенеп% тор V-IV-IR ; ! "to lean out (of a window)" Use/MT
 селке:селке V-TV-IR ; ! "shake"
 селкет:селкет V-TV-IR ; ! "to make frequent short movements with something"
 сеңдер:сеңдер V-TV-IR ; ! "" (kaz tat) caus
+сең:сең V-IV-AR ; ! ""
 серен% ач:серен% ач V-IV-AR ; ! "" Use/MT
 сертификатла:сертификатла V-TV-IR ; ! ""
-сәламәт% фикерлә:сәламәт% фикерлә V-IV-IR ; ! "" Use/MT
-сәламлә:сәламлә V-TV-IR ; ! ""
+сәхнәләштер:сәхнәләштер V-TV-IR ; ! ""
+сиздер:сиздер V-TV-IR ; ! ""
 сиз:сиз V-TV-AR ; ! ""
 сикереп% чап:сикереп% чап V-IV-AR ; ! "to go at a gallop" Use/MT
 сикер:сикер V-IV-IR ; ! "to jump"
 сикертеп% чап:сикертеп% чап V-TV-AR ; ! "to go at a gallop" Use/MT
 симерт:симерт V-TV-IR ; ! "to fatten cattle" (tat) caus
+сип:сип V-TV-AR ; ! ""
 сирәкләндер:сирәкләндер V-TV-IR ; ! "to thin" (kaz tat) caus
 си:си V-IV-AR ; ! "pee"
+сискән:сискән V-IV-IR ; ! ""
 советлаштыр:советлаштыр V-TV-IR ; ! "to sovietize"
-соклан:соклан V-IV-IR ; ! ""
-соңга% кал:соңга% кал V-IV-IR ; ! "" Use/MT
-сора:сора V-TV-IR ; ! ""
-сораш:сораш V-TV-IR ; ! ""
-сораштыр:сораштыр V-TV-IR ; ! "to search"
-сорылан:сорылан V-IV-IR ; ! "to turn gray"
-соры% төскә% керт:соры% төскә% керт V-TV-IR ; ! "to cause to fade" Use/M
+сөендер:сөендер V-TV-IR ; ! ""
+сөен:сөен V-IV-IR ; ! ""
 сөзеш:сөзеш V-IV-IR ; ! "to ram each other (of sheep)"
 сөз:сөз V-TV-AR ; ! "to butt"
 сөйләп% бир:сөйләп% бир V-TV-IR ; ! "" Use/MT
@@ -19068,43 +18981,57 @@ Witness:Witness NP-AL ; ! ""
 сөйрәл:сөйрәл V-IV-IR ; ! "to drag"
 сөйрә:сөйрә V-TV-IR ; ! "drag"
 сөй:сөй V-TV-AR ; ! ""
+соклан:соклан V-IV-IR ; ! ""
+соңга% кал:соңга% кал V-IV-IR ; ! "" Use/MT
+сора:сора V-TV-IR ; ! ""
+сораш:сораш V-TV-IR ; ! ""
+сораштыр:сораштыр V-TV-IR ; ! "to search"
 сөрән% сук:сөрән% сук V-IV-AR ; ! "to loaf"
-сөрт:сөрт V-TV-IR ; ! ""
 сөр:сөр V-TV-IR ; ! "furrow"
+сөрт:сөрт V-TV-IR ; ! ""
+сорылан:сорылан V-IV-IR ; ! "to turn gray"
+соры% төскә% керт:соры% төскә% керт V-TV-IR ; ! "to cause to fade" Use/M
 сөя:сөя V-TV-IR ; ! "lean" support
 специальләш:специальләш V-IV-IR ; ! "specialize"
 сугар:сугар V-TV-IR ; ! "water"
+сүген:сүген V-IV-IR ; ! "" refl
 сугыш:сугыш V-IV-IR ; ! "arrange a fight"
 судка% тарт:судка% тарт V-TV-IR ; ! "to compel" Use/MT
 суз:суз V-TV-AR ; ! ""
 суй:суй V-TV-AR ; ! "slaughter"
 сукбайлыкта% йөр:сукбайлыкта% йөр V-IV-IR ; ! "to move to another place (of nomads)" Use/MT
 сук:сук V-IV-AR ; ! "hit"
+сүк:сүк V-TV-AR ; ! ""
+сүк:сүк V-TV-AR ; ! ""
 суктыр:суктыр V-TV-IR ; ! "to bring" (kaz tat) caus
-сул:сул V-IV-IR ; ! "to dry up"
 сула:сула V-TV-IR ; ! ""
+сүлпәнлән:сүлпәнлән V-IV-IR ; ! "become sluggish" inert
+сул:сул V-IV-IR ; ! "to dry up"
 сулу% ал:сулу% ал V-IV-IR ; ! "отдыхать"
 сумалала:сумалала V-TV-IR ; ! "to resin"
+сүндер:сүндер V-TV-IR ; ! ""
+сүн:сүн V-IV-AR ; ! ""
+сурәтлә:сурәтлә V-TV-IR ; ! ""
 сусавын% бас:сусавын% бас V-IV-AR ; ! "drink one's fill" Use/MT
 суса:суса V-IV-IR ; ! "to be thirsty (and quench one's thirst)"
 сусат:сусат V-TV-IR ; ! "to cause hunger"
+сүтел:сүтел V-IV-IR ; ! "set out for the pasture,unroll"
+сүт:сүт V-TV-AR ; ! ""
+суыр:суыр V-TV-IR ; ! ""
 суы:суы V-IV-IR ; ! "to cool down"
 суыт:суыт V-TV-IR ; ! ""
-сүген:сүген V-IV-IR ; ! "" refl
-сүк:сүк V-TV-AR ; ! ""
-сүк:сүк V-TV-AR ; ! ""
-сүлпәнлән:сүлпәнлән V-IV-IR ; ! "become sluggish" inert
-сүтел:сүтел V-IV-IR ; ! "set out for the pasture,unroll"
 сыдыр:сыдыр V-TV-IR ; ! "to skin an animal"
 сыен:сыен V-IV-IR ; ! ""
 сыеш:сыеш V-IV-IR ; ! "to get on (with someone)" coop?
 сызгала:сызгала V-TV-IR ; ! "to trace"
 сызгандыр:сызгандыр V-TV-IR ; ! "to make someone roll up the sleeves" (kaz tat) caus
+сызган:сызган V-TV-IR ; ! ""
 сызгыр:сызгыр V-IV-IR ; ! "to whistle"
 сызла:сызла V-IV-IR ; ! "to ache"
 сыз:сыз V-TV-AR ; ! "to write"
 сыйдыр:сыйдыр V-TV-IR ; ! "to hold"
 сыйла:сыйла V-TV-IR ; ! "to make a present"
+сыйпа:сыйпа V-TV-IR ; ! ""
 сый:сый V-IV-AR ; ! "to go in"
 сына:сына V-TV-IR ; ! ""
 сынат:сынат V-IV-IR ; ! "to submit something to someone"
@@ -19130,12 +19057,12 @@ Witness:Witness NP-AL ; ! ""
 тамаша% кыл:тамаша% кыл V-TV-AR ; ! "watch,observe" Use/MT
 тамгала:тамгала V-TV-IR ; ! "to brand"
 тамыр% җибәр:тамыр% җибәр V-IV-IR ; ! "to put out shoots (of plants)" Use/MT
+таң% кал:таң% кал V-IV-IR ; ! "to be astonished at something"
 тансыкла:тансыкла V-TV-IR ; ! "to have a strong desire"
 тантаналы% рәвештә% игълан% ит:тантаналы% рәвештә% игълан% ит V-TV-AR ; ! "to announce" Use/MT
 таны:таны V-TV-IR ; ! "опознавать"
 таныт:таныт V-TV-IR ; ! "" caus
 таныштыр:таныштыр V-TV-IR ; ! "introduce" FIXME caus
-таң% кал:таң% кал V-IV-IR ; ! "to be astonished at something"
 тап% ит:тап% ит V-TV-AR ; ! ""
 таптан:таптан V-IV-IR ; ! "to crowd"
 тап:тап V-TV-AR ; ! ""
@@ -19165,39 +19092,42 @@ Witness:Witness NP-AL ; ! ""
 ташы:ташы V-IV-IR ; ! ""
 ташы:ташы V-TV-IR ; ! ""
 таян:таян V-IV-IR ; ! "to lean one's elbows (on)"
-тезлән:тезлән V-IV-IR ; ! "sit cross-legged"
-тез:тез V-TV-AR ; ! "string,thread"
-текәлеп% кара:текәлеп% кара V-IV-IR ; ! "напирание" Use/MT
-текәл:текәл V-IV-IR ; ! "to fasten one's eyes (on)"
-тек:тек V-TV-IR ; ! ""
-телемлә:телемлә V-TV-IR ; ! ""
-телә:телә V-TV-IR ; ! ""
-тел:тел V-TV-AR ; ! "cut"
-тереклек% ит:тереклек% ит V-IV-AR ; ! "to exist" Use/MT
-терел:терел V-IV-IR ; ! "выздоравливать"
-терелт:терелт V-TV-IR ; ! "" caus
-терәл:терәл V-IV-IR ; ! "" refl?
-терә:терә V-TV-IR ; ! "support"
-терәш:терәш V-IV-IR ; ! "vie with someone"
-теркә:теркә V-TV-IR ; ! "attach/register"
-тетрә:тетрә V-IV-IR ; ! ""
-тешлә:тешлә V-TV-IR ; ! "bite"
+тәбрик% ит:тәбрик% ит V-TV-AR ; ! ""
 тәбриклә:тәбриклә V-TV-IR ; ! "to approve"
 тәвәкәллә:тәвәкәллә V-IV-IR ; ! "решиться"
 тәгаенлә:тәгаенлә V-TV-IR ; ! ""
 тәгаенлә:тәгаенлә V-TV-IR ; ! "dedicate/посвящать,предназначать,посвящать"
 тәгәрәп% төш:тәгәрәп% төш V-IV-AR ; ! "slide down" Use/MT
+тәгәрә:тәгәрә V-IV-IR ; ! ""
+тезлән:тезлән V-IV-IR ; ! "sit cross-legged"
+тез:тез V-TV-AR ; ! "string,thread"
 тәкәбберлән:тәкәбберлән V-IV-IR ; ! "to be on one's high horse"
+текәлеп% кара:текәлеп% кара V-IV-IR ; ! "напирание" Use/MT
+текәл:текәл V-IV-IR ; ! "to fasten one's eyes (on)"
+тек:тек V-TV-IR ; ! ""
 тәкъдим% ит:тәкъдим% ит V-TV-AR ; ! ""
+телемлә:телемлә V-TV-IR ; ! ""
+телә:телә V-TV-IR ; ! ""
+тел:тел V-TV-AR ; ! "cut"
 тәмам% бул:тәмам% бул V-IV-IR ; ! "to be completely finished" Use/MT
 тәмамлан:тәмамлан V-IV-IR ; ! "to end" (kaz tat) passive
 тәмамла:тәмамла V-TV-IR ; ! "to complete"
 тәмлелән:тәмлелән V-IV-IR ; ! "to become tasty"
 тәрбиялә:тәрбиялә V-TV-IR ; ! "to cultivate" FIXME check
+тереклек% ит:тереклек% ит V-IV-AR ; ! "to exist" Use/MT
+терәл:терәл V-IV-IR ; ! "" refl?
+терел:терел V-IV-IR ; ! "выздоравливать"
+терелт:терелт V-TV-IR ; ! "" caus
+терә:терә V-TV-IR ; ! "support"
+терәш:терәш V-IV-IR ; ! "vie with someone"
 тәрҗемә% ит:тәрҗемә% ит V-TV-AR ; ! "переводить"
+теркә:теркә V-TV-IR ; ! "attach/register"
+тернәкләндер:тернәкләндер V-TV-IR ; ! ""
 тәртипсезлән:тәртипсезлән V-IV-IR ; ! "to become undisciplined"
+тетрә:тетрә V-IV-IR ; ! ""
 тәфсиллә:тәфсиллә V-TV-IR ; ! "spell"
 тәшкил% ит:тәшкил% ит V-TV-AR ; ! "составлять" Use/MT
+тешлә:тешлә V-TV-IR ; ! "bite"
 тәэмин% ит:тәэмин% ит V-TV-AR ; ! "provide"
 тибеш:тибеш V-IV-IR ; ! "to be disquieted by stings of gadflies (of horses)"
 тигезләш:тигезләш V-IV-IR ; ! "to equal"
@@ -19217,39 +19147,43 @@ Witness:Witness NP-AL ; ! ""
 тирәнәй:тирәнәй V-IV-IR ; ! "to get deeper"
 тирлә:тирлә V-IV-IR ; ! "to perspire"
 ти:ти V-IV-AR ; ! ""
+төбә:төбә V-IV-IR ; ! "to aim"
+төгәл% бел:төгәл% бел V-TV-IR ; ! "" Use/MT
+төгәл% ит:төгәл% ит V-TV-AR ; ! "to elucidate" Use/MT
+төгәллә:төгәллә V-TV-IR ; ! ""
+төерлән:төерлән V-IV-IR ; ! "to clot"
+төзәйт:төзәйт V-TV-IR ; ! "straighten out"
+төзекләндер:төзекләндер V-TV-IR ; ! ""
+төзе:төзе V-TV-IR ; ! ""
+төзәт:төзәт V-TV-IR ; ! ""
+төз:төз V-TV-AR ; ! ""
+той:той V-TV-AR ; ! ""
+төй:төй V-TV-AR ; ! "to pulverize"
 токарлан:токарлан V-IV-IR ; ! "задерживаться"
+төкер:төкер V-TV-IR ; ! "spit"
+төлкелән:төлкелән V-IV-IR ; ! "to flatter"
+төплән:төплән V-IV-IR ; ! ""
+төпләт:төпләт V-TV-IR ; ! "to send (a book) to be bound" (kaz tat) caus
 торгыз:торгыз V-TV-IR ; ! "" caus
 тормышка% аш:тормышка% аш V-IV-AR ; ! ""
 тормышка% ашыр:тормышка% ашыр V-TV-IR ; ! "" FIXME NOTE caus Use/MT
+төрткәлә:төрткәлә V-TV-IR ; ! "to nudge"
+төрткәләш:төрткәләш V-IV-IR ; ! "to get into a fight" FIXME CHECK
 тор:тор V-IV-IR ; ! ""
+төр:төр V-TV-IR ; ! "turn up"
+төрттер:төрттер V-TV-IR ; ! "to tease (verbally)"
+төрт:төрт V-TV-IR ; ! ""
 тоташ:тоташ V-IV-IR ; ! ""
 тоташтыр:тоташтыр V-TV-IR ; ! "" caus
+төтенлә:төтенлә V-IV-IR ; ! "to smoke"
+төтәслә:төтәслә V-TV-IR ; ! "drive out,banish,stigmatize,ostracize"
+төтәт:төтәт V-TV-IR ; ! ""
 тоткарлан:тоткарлан V-IV-IR ; ! "задерживаться"
 тоткарла:тоткарла V-TV-IR ; ! ""
 тотлык:тотлык V-IV-IR ; ! "to falter"
 тот:тот V-TV-AR ; ! ""
 тотын:тотын V-IV-IR ; ! "to catch"
 тотып% тор:тотып% тор V-TV-IR ; ! "" Use/MT
-төбә:төбә V-IV-IR ; ! "to aim"
-төгәл% бел:төгәл% бел V-TV-IR ; ! "" Use/MT
-төгәл% ит:төгәл% ит V-TV-AR ; ! "to elucidate" Use/MT
-төерлән:төерлән V-IV-IR ; ! "to clot"
-төзе:төзе V-TV-IR ; ! ""
-төзәйт:төзәйт V-TV-IR ; ! "straighten out"
-төзәт:төзәт V-TV-IR ; ! ""
-төз:төз V-TV-AR ; ! ""
-төй:төй V-TV-AR ; ! "to pulverize"
-төкер:төкер V-TV-IR ; ! "spit"
-төлкелән:төлкелән V-IV-IR ; ! "to flatter"
-төпләт:төпләт V-TV-IR ; ! "to send (a book) to be bound" (kaz tat) caus
-төрткәлә:төрткәлә V-TV-IR ; ! "to nudge"
-төрткәләш:төрткәләш V-IV-IR ; ! "to get into a fight" FIXME CHECK
-төр:төр V-TV-IR ; ! "turn up"
-төрттер:төрттер V-TV-IR ; ! "to tease (verbally)"
-төрт:төрт V-TV-IR ; ! ""
-төтенлә:төтенлә V-IV-IR ; ! "to smoke"
-төтәслә:төтәслә V-TV-IR ; ! "drive out,banish,stigmatize,ostracize"
-төтәт:төтәт V-TV-IR ; ! ""
 төчкер:төчкер V-IV-IR ; ! "sneeze (for people)"
 төшендер:төшендер V-TV-IR ; ! ""
 төшенкелеккә% бирел:төшенкелеккә% бирел V-IV-IR ; ! "to become apathetic" Use/MT
@@ -19257,18 +19191,26 @@ Witness:Witness NP-AL ; ! ""
 төшер:төшер V-TV-IR ; ! ""
 төш:төш V-IV-AR ; ! ""
 төя:төя V-TV-IR ; ! ""
+түбәнәй:түбәнәй V-IV-IR ; ! "fall,sink,become lower"
 тудыр:тудыр V-TV-IR ; ! "to deliver" (kaz tat) caus
 туен:туен V-IV-IR ; ! "recieve full satsifaction"
 тузгы:тузгы V-IV-IR ; ! "to be extremely worn out"
+түзеп% утыра% алма:түзеп% утыра% алма V-IV-IR ; ! "to be restless" Use/MT
+түз:түз V-IV-AR ; ! "endure"
 туз:туз V-IV-AR ; ! "wear out"
 туйдыр:туйдыр V-TV-IR ; ! "to satisfy someone's thirst"
+туй:туй V-IV-AR ; ! ""
+тукландыр:тукландыр V-TV-IR ; ! ""
 туклан:туклан V-IV-IR ; ! ""
 тукмарла:тукмарла V-TV-IR ; ! "to club"
 тукма:тукма V-TV-IR ; ! ""
+туктал:туктал V-IV-IR ; ! ""
 туктат:туктат V-TV-IR ; ! ""
 тукта:тукта V-IV-IR ; ! ""
+түк:түк V-TV-AR ; ! ""
 тукы:тукы V-TV-IR ; ! "weave"
 тулган:тулган V-IV-IR ; ! ""
+түлә:түлә V-TV-IR ; ! ""
 тул:тул V-IV-IR ; ! ""
 тулыла:тулыла V-TV-IR ; ! ""
 туна:туна V-TV-IR ; ! "rob,plunder"
@@ -19278,11 +19220,7 @@ Witness:Witness NP-AL ; ! ""
 турсай:турсай V-IV-IR ; ! "to be on the watch for"
 туры% кил:туры% кил V-IV-AR ; ! "" Use/MT
 ту:ту V-IV-AR ; ! ""
-түбәнәй:түбәнәй V-IV-IR ; ! "fall,sink,become lower"
-түзеп% утыра% алма:түзеп% утыра% алма V-IV-IR ; ! "to be restless" Use/MT
-түз:түз V-IV-AR ; ! "endure"
-түк:түк V-TV-AR ; ! ""
-түлә:түлә V-TV-IR ; ! ""
+тутыр:тутыр V-TV-IR ; ! ""
 тыгызла:тыгызла V-TV-IR ; ! "to condense"
 тый:тый V-TV-AR ; ! ""
 тык:тык V-TV-AR ; ! ""
@@ -19291,95 +19229,112 @@ Witness:Witness NP-AL ; ! ""
 тын% алдыр:тын% алдыр V-TV-IR ; ! "давать покой" Use/MT
 тын% ал:тын% ал V-TV-IR ; ! ""
 тын% бет:тын% бет V-IV-IR ; ! "be out of breath,puff and pant,get excited,exert oneself" Use/MT
+тыңла:тыңла V-TV-IR ; ! ""
 тын:тын V-IV-AR ; ! ""
+тынычландыр:тынычландыр V-TV-IR ; ! ""
 тынычлан:тынычлан V-IV-IR ; ! "to calm down"
 тынычлык% урнаштыр:тынычлык% урнаштыр V-IV-IR ; ! "" Use/MT
 тынычсызлан:тынычсызлан V-IV-IR ; ! "to become upset"
-тыңла:тыңла V-TV-IR ; ! ""
 тырна:тырна V-TV-IR ; ! "claw"
 тырыш:тырыш V-IV-IR ; ! ""
 тышла:тышла V-TV-IR ; ! "обшивать"
-уз:уз V-TV-AR ; ! "проходить"
-узыш:узыш V-IV-IR ; ! "to compete in running" (kaz tat) coop
-уйламый% эшлә:уйламый% эшлә V-TV-IR ; ! "to display carelessness" Use/MT
-уйлан:уйлан V-IV-IR ; ! "ponder"
-уйлап% ал:уйлап% ал V-TV-IR ; ! "" Use/MT
-уйла:уйла V-TV-IR ; ! ""
-уйлаш:уйлаш V-IV-IR ; ! "to take part in the elaboration and discussion of some question"
-уйнакла:уйнакла V-IV-IR ; ! "to go"
-уйна:уйна V-TV-IR ; ! ""
-укала:укала V-TV-IR ; ! "to sew on lace or braid"
-укый%-яза% бел:укый%-яза% бел V-IV-IR ; ! "to become literate" Use/MT
-укыт:укыт V-TV-IR ; ! "" caus
-укы:укы V-IV-IR ; ! "study (in a school)"
-укы:укы V-TV-IR ; ! "read"
-ула:ула V-IV-IR ; ! ""
-уңайла:уңайла V-TV-IR ; ! "to repair"
-уңышлы% бет:уңышлы% бет V-IV-AR ; ! "" Use/MT
-урап% ал:урап% ал V-TV-IR ; ! "to surround" Use/MT
-ура:ура V-TV-IR ; ! "wrap around"
-ургыл:ургыл V-IV-IR ; ! "to bubble"
-урла:урла V-TV-IR ; ! "steal"
-урнаштыр:урнаштыр V-TV-IR ; ! "" caus
-урнаш:урнаш V-IV-IR ; ! "be installed,be fortified"
-ур:ур V-TV-IR ; ! "mow"
-утал:утал V-IV-IR ; ! "полоть" (kaz tat) passive
-ута:ута V-TV-IR ; ! ""
-утырт:утырт V-TV-IR ; ! "" caus
-утыр:утыр V-IV-IR ; ! ""
-утырып% тор:утырып% тор V-IV-IR ; ! "" Use/MT
-у:у V-TV-AR ; ! "to rub with the palm"
-уян:уян V-IV-IR ; ! "wake" (kaz tat) refl
-уят:уят V-TV-IR ; ! "awake" (kaz tat) caus
 үгетлә:үгетлә V-TV-IR ; ! "to agitate"
 үги% күр:үги% күр V-TV-IR ; ! "difference,distinction" Use/MT
 үгилән:үгилән V-IV-IR ; ! "miss one's parents"
 үҗәтлән:үҗәтлән V-IV-IR ; ! "persist,be stubborn"
 үзгәрт:үзгәрт V-TV-IR ; ! ""
 үзгәр:үзгәр V-IV-IR ; ! ""
+уздыр:уздыр V-TV-IR ; ! ""
+үзәкләштер:үзәкләштер V-TV-IR ; ! ""
 үз% күр:үз% күр V-TV-IR ; ! "" Use/MT
 үзләштер:үзләштер V-TV-IR ; ! ""
 үзсүзлән:үзсүзлән V-IV-IR ; ! "to persist"
+уз:уз V-TV-AR ; ! "проходить"
+узыш:узыш V-IV-IR ; ! "to compete in running" (kaz tat) coop
+уйламый% эшлә:уйламый% эшлә V-TV-IR ; ! "to display carelessness" Use/MT
+уйлан:уйлан V-IV-IR ; ! "ponder"
+уйлан:уйлан V-TV-IR ; ! ""
+уйлап% ал:уйлап% ал V-TV-IR ; ! "" Use/MT
+уйла:уйла V-TV-IR ; ! ""
+уйлаш:уйлаш V-IV-IR ; ! "to take part in the elaboration and discussion of some question"
+уйнакла:уйнакла V-IV-IR ; ! "to go"
+уйна:уйна V-TV-IR ; ! ""
+уй:уй V-TV-AR ; ! ""
+укала:укала V-TV-IR ; ! "to sew on lace or braid"
 үкен:үкен V-IV-IR ; ! "complain,regret"
 үкерт:үкерт V-TV-IR ; ! "do something easily" (kaz tat) caus
 үкер:үкер V-IV-IR ; ! "moo,sob"
 үксе:үксе V-IV-IR ; ! "sob"
+укый%-яза% бел:укый%-яза% бел V-IV-IR ; ! "to become literate" Use/MT
+укыт:укыт V-TV-IR ; ! "" caus
+укы:укы V-IV-IR ; ! "study (in a school)"
+укы:укы V-TV-IR ; ! "read"
+ула:ула V-IV-IR ; ! ""
 үл:үл V-IV-AR ; ! ""
 үлчә:үлчә V-TV-IR ; ! "measure,weigh"
+уңайла:уңайла V-TV-IR ; ! "to repair"
+уң:уң V-IV-AR ; ! ""
+уңышлы% бет:уңышлы% бет V-IV-AR ; ! "" Use/MT
 үпкәлә:үпкәлә V-IV-IR ; ! "be ashamed"
+урап% ал:урап% ал V-TV-IR ; ! "to surround" Use/MT
+урат:урат V-TV-IR ; ! ""
+ура:ура V-TV-IR ; ! "wrap around"
+ургыл:ургыл V-IV-IR ; ! "to bubble"
 үрдер:үрдер V-TV-IR ; ! "drive cattle to pasture" (kaz tat) caus
+урла:урла V-TV-IR ; ! "steal"
 үрлә:үрлә V-IV-IR ; ! "ascend,rise"
 үрмәлә:үрмәлә V-IV-IR ; ! "карабкаться"
+урнаштыр:урнаштыр V-TV-IR ; ! "" caus
+урнаш:урнаш V-IV-IR ; ! "be installed,be fortified"
+уртаклаш:уртаклаш V-TV-IR ; ! ""
 үр:үр V-TV-AR ; ! "plait,weave"
+ур:ур V-TV-IR ; ! "mow"
+үрчет:үрчет V-TV-IR ; ! ""
 үрче:үрче V-IV-IR ; ! "develop,increase"
 үстер:үстер V-TV-IR ; ! "" FIXME NOTE caus
 үс:үс V-IV-AR ; ! "develop,grow"
+утал:утал V-IV-IR ; ! "полоть" (kaz tat) passive
+ута:ута V-TV-IR ; ! ""
 үтен:үтен V-TV-IR ; ! ""
 үтеп% бар:үтеп% бар V-TV-IR ; ! "" Use/MT
 үтер:үтер V-TV-IR ; ! "kill,destroy" (kaz tat) caus
+үтәт:үтәт V-TV-IR ; ! ""
 үтә:үтә V-TV-IR ; ! "carry out,fulfill"
 үткенлән:үткенлән V-IV-IR ; ! "get sharp,be daring"
 үткәр:үткәр V-TV-IR ; ! "pass through,let through" (kaz tat) caus
 үтмәсләндер:үтмәсләндер V-TV-IR ; ! "to bend"
 үт:үт V-TV-AR ; ! ""
+утырт:утырт V-TV-IR ; ! "" caus
+утыр:утыр V-IV-IR ; ! ""
+утырып% тор:утырып% тор V-IV-IR ; ! "" Use/MT
+у:у V-TV-AR ; ! "to rub with the palm"
+уян:уян V-IV-IR ; ! "wake" (kaz tat) refl
+уят:уят V-TV-IR ; ! "awake" (kaz tat) caus
 файдалан:файдалан V-TV-IR ; ! ""
 файдасызлан:файдасызлан V-IV-IR ; ! "to become unproductive or inefficient" Use/MT
 фараз% кыл:фараз% кыл V-IV-IR ; ! "" Use/MT
 фаразла:фаразла V-TV-IR ; ! ""
 фаш% ит:фаш% ит V-TV-IR ; ! "обличать"
 фикер% алыш:фикер% алыш V-IV-IR ; ! "" Use/MT
+фикерлә:фикерлә V-TV-IR ; ! ""
 финансла:финансла V-TV-IR ; ! ""
 формалаштыр:формалаштыр V-TV-IR ; ! ""
 формалаш:формалаш V-IV-IR ; ! ""
 халыкка% чыгар:халыкка% чыгар V-TV-IR ; ! "announce" Use/MT
 характерла:характерла V-TV-IR ; ! "to describe"
+хасил% бул:хасил% бул V-IV-IR ; ! ""
+хасил% ит:хасил% ит V-TV-AR ; ! ""
 хаслан:хаслан V-IV-IR ; ! ""
 хафалан:хафалан V-IV-IR ; ! "огорчаться"
-хезмәт% ит:хезмәт% ит V-IV-AR ; ! ""
 хәбәр% ит:хәбәр% ит V-TV-AR ; ! ""
 хәвефлән:хәвефлән V-IV-IR ; ! "to fear"
 хәерчелән:хәерчелән V-IV-IR ; ! "to become impoverished" (kat tat) passive
+хәзерлән:хәзерлән V-IV-IR ; ! ""
+хәзерлә:хәзерлә V-TV-IR ; ! ""
+хезмәт% ит:хезмәт% ит V-IV-AR ; ! ""
 хәйләлә:хәйләлә V-IV-IR ; ! ""
+һәлак% бул:һәлак% бул V-IV-IR ; ! ""
+һәлакәткә% очра:һәлакәткә% очра V-IV-IR ; ! "" Use/MT
 хәлдән% тай:хәлдән% тай V-IV-AR ; ! "to get tired" Use/MT
 хәл% ит:хәл% ит V-TV-AR ; ! ""
 хәллән:хәллән V-IV-IR ; ! "to get well"
@@ -19389,20 +19344,22 @@ Witness:Witness NP-AL ; ! ""
 хәстәрлә:хәстәрлә V-TV-IR ; ! ""
 хәтердә% тот:хәтердә% тот V-TV-AR ; ! "" Use/MT
 хәтерен% калдыр:хәтерен% калдыр V-IV-IR ; ! "chatter,pester (with)" Use/MT
+хәтерләт:хәтерләт V-TV-IR ; ! ""
 хәтерлә:хәтерлә V-TV-IR ; ! ""
+хөрмәтлә:хөрмәтлә V-TV-IR ; ! ""
 хосусыйлаштыр:хосусыйлаштыр V-TV-IR ; ! "" caus
 хулиганлан:хулиганлан V-IV-IR ; ! "to be pugnacious"
 хупла:хупла V-TV-IR ; ! ""
 хурла:хурла V-TV-IR ; ! "to humiliate"
 хуш% кил:хуш% кил V-IV-AR ; ! "нравиться" Use/MT
 хушлаш:хушлаш V-IV-IR ; ! "to say good-bye"
+һуштан% яз:һуштан% яз V-IV-AR ; ! "to weaken" Use/MT
 хырылдат:хырылдат V-TV-IR ; ! "to wheeze" (kaz tat) caus
 хырылда:хырылда V-IV-IR ; ! "to snore"
-һәлак% бул:һәлак% бул V-IV-IR ; ! ""
-һәлакәткә% очра:һәлакәткә% очра V-IV-IR ; ! "" Use/MT
-һуштан% яз:һуштан% яз V-IV-AR ; ! "to weaken" Use/MT
+хыяллан:хыяллан V-IV-IR ; ! ""
 цементла:цементла V-TV-IR ; ! "to cement"
 цинкла:цинкла V-TV-IR ; ! "to zincify"
+чагылдыр:чагылдыр V-TV-IR ; ! ""
 чагыштыр:чагыштыр V-TV-IR ; ! ""
 чайка:чайка V-TV-IR ; ! "jostle"
 чак:чак V-TV-AR ; ! "sting,bite"
@@ -19410,14 +19367,12 @@ Witness:Witness NP-AL ; ! ""
 чакыр:чакыр V-TV-IR ; ! ""
 чакырып% чыгар:чакырып% чыгар V-TV-IR ; ! "" Use/MT
 чал:чал V-TV-AR ; ! "sacrifice,bring down"
+чамала:чамала V-TV-IR ; ! ""
 чапкала:чапкала V-TV-IR ; ! ""
 чап:чап V-IV-AR ; ! ""
 чап:чап V-TV-AR ; ! "to hew"
 чатанла:чатанла V-IV-IR ; ! "to limp slightly"
 чачакла:чачакла V-TV-IR ; ! "to border with tasseis and fringe"
-черелдә:черелдә V-IV-IR ; ! "to scream"
-черет:черет V-TV-IR ; ! "to let rot" (kaz tat) caus
-черкиләрдән% саклан:черкиләрдән% саклан V-IV-IR ; ! "save oneself from mosquitos' stings" Use/MT
 чәбәлән:чәбәлән V-IV-IR ; ! "to be coupled"
 чәйнә:чәйнә V-TV-IR ; ! "chew"
 чәкештер:чәкештер V-TV-IR ; ! "чокаться"
@@ -19425,6 +19380,10 @@ Witness:Witness NP-AL ; ! ""
 чәнчеп% тиш:чәнчеп% тиш V-TV-AR ; ! "to puncture" Use/MT
 чәнче:чәнче V-TV-IR ; ! "stab"
 чәрдәклә:чәрдәклә V-TV-IR ; ! "cut into pieces,mince"
+черелдә:черелдә V-IV-IR ; ! "to scream"
+черет:черет V-TV-IR ; ! "to let rot" (kaz tat) caus
+чере:чере V-IV-IR ; ! ""
+черкиләрдән% саклан:черкиләрдән% саклан V-IV-IR ; ! "save oneself from mosquitos' stings" Use/MT
 чәчәк% ат:чәчәк% ат V-IV-AR ; ! "develop,flourish"
 чәч:чәч V-TV-IR ; ! "scatter"
 чиген:чиген V-IV-IR ; ! "withdraw"
@@ -19439,19 +19398,19 @@ Witness:Witness NP-AL ; ! ""
 читләш:читләш V-IV-IR ; ! "loose the habbit"
 чиш:чиш V-TV-AR ; ! ""
 чиялән:чиялән V-IV-IR ; ! "to be tightly tied"
-чолга:чолга V-TV-IR ; ! "to wrap up the legs in foot-cloths"
-чорна:чорна V-TV-IR ; ! "to tie (a cord)"
 чөй% как:чөй% как V-IV-AR ; ! "to wedge in" Use/MT
+чолга:чолга V-TV-IR ; ! "to wrap up the legs in foot-cloths"
 чөмер:чөмер V-TV-IR ; ! "to drink water (of a camel)"
+чорна:чорна V-TV-IR ; ! "to tie (a cord)"
 чуалыш:чуалыш V-IV-IR ; ! "массовые волнения"
 чуарлап% бетер:чуарлап% бетер V-TV-IR ; ! ""
-чукы:чукы V-TV-IR ; ! "to peck"
-чум:чум V-IV-AR ; ! "dive"
-чумыр:чумыр V-TV-IR ; ! "to take with a shovel or scoop"
 чүгәлә:чүгәлә V-IV-IR ; ! "to squat"
 чүктер:чүктер V-TV-IR ; ! "to force to lie (down)"
-чүмечлә:чүмечлә V-TV-IR ; ! "to ladle out"
+чукы:чукы V-TV-IR ; ! "to peck"
 чүмәләлә:чүмәләлә V-TV-IR ; ! "to pile in shocks"
+чүмечлә:чүмечлә V-TV-IR ; ! "to ladle out"
+чум:чум V-IV-AR ; ! "dive"
+чумыр:чумыр V-TV-IR ; ! "to take with a shovel or scoop"
 чыбыкла:чыбыкла V-TV-IR ; ! "to whip"
 чыгарт:чыгарт V-TV-IR ; ! "to force to lead out" NOTE this is interesting - looks like caus > caus /I.S./
 чыгар:чыгар V-TV-IR ; ! "" FIXME NOTE caus
@@ -19459,30 +19418,34 @@ Witness:Witness NP-AL ; ! ""
 чыда:чыда V-IV-IR ; ! "put up,take it"
 чык:чык V-IV-AR ; ! ""
 чылтыра:чылтыра V-IV-IR ; ! "to rumble"
+чыңгылда:чыңгылда V-IV-IR ; ! "to emit a metallic sound"
 чынла:чынла V-IV-IR ; ! "put up with"
 чыныктыр:чыныктыр V-TV-IR ; ! "to be serious"
-чыңгылда:чыңгылда V-IV-IR ; ! "to emit a metallic sound"
 чырай% сыт:чырай% сыт V-IV-AR ; ! "to frown" Use/MT
 чытырда:чытырда V-IV-IR ; ! "to crack"
 шакылда:шакылда V-IV-IR ; ! "to squeak"
-шалтыра:шалтыра V-IV-IR ; ! "to roar"
 шалтырат:шалтырат V-IV-IR ; ! ""
+шалтыра:шалтыра V-IV-IR ; ! "to roar"
 шаркылда:шаркылда V-IV-IR ; ! "to laugh loudly"
 шартла:шартла V-IV-IR ; ! ""
 шатлан:шатлан V-IV-IR ; ! "to have a desire"
 шаулат:шаулат V-TV-IR ; ! "to  spill"
 шаула:шаула V-IV-IR ; ! ""
 шаянлан:шаянлан V-IV-IR ; ! "to play mean tricks"
+шаярт:шаярт V-IV-IR ; ! ""
+шаяр:шаяр V-IV-IR ; ! ""
 шаярыш:шаярыш V-IV-IR ; ! ""
+шәйлән:шәйлән V-IV-IR ; ! "to turn gray"
 шелтәлә:шелтәлә V-TV-IR ; ! "to reprove"
 шешен:шешен V-IV-IR ; ! "to swell"
 шеш:шеш V-IV-AR ; ! "swell"
-шәйлән:шәйлән V-IV-IR ; ! "to turn gray"
-шомар:шомар V-IV-IR ; ! "to acquire a habit"
+шиклән:шиклән V-IV-IR ; ! ""
 шөгыльлән:шөгыльлән V-IV-IR ; ! "вращаться;превращаться"
+шомар:шомар V-IV-IR ; ! "to acquire a habit"
 штраф% сал:штраф% сал V-IV-IR ; ! "обвинять,упрекать" Use/MT
 шулай% ит:шулай% ит V-IV-IR ; ! "" Use/MT
 шулай% ит:шулай% ит V-TV-AR ; ! "" Use/MT
+шу:шу V-TV-AR ; ! ""
 шыгырдат:шыгырдат V-TV-IR ; ! "to cause grinding of teeth" (kaz tat) caus
 шыгырда:шыгырда V-IV-IR ; ! "to crunch"
 шыксызлан:шыксызлан V-IV-IR ; ! "to become clumsy"
@@ -19496,6 +19459,7 @@ Witness:Witness NP-AL ; ! ""
 ырылдаш:ырылдаш V-IV-IR ; ! "growl,roar" (kaz tat) coop
 ырылда:ырылда V-IV-IR ; ! "to bark"
 ыр:ыр V-TV-IR ; ! "hit"
+ышандыр:ышандыр V-TV-IR ; ! ""
 ышан:ышан V-TV-IR ; ! "believe"
 ышыклан:ышыклан V-IV-IR ; ! "to seek shelter (from bad weather)"
 эвакуациялә:эвакуациялә V-TV-IR ; ! "to evacuate"
@@ -19503,9 +19467,10 @@ Witness:Witness NP-AL ; ! ""
 эзләт:эзләт V-TV-IR ; ! "" caus
 эзлә:эзлә V-TV-IR ; ! ""
 экстрадициялә:экстрадициялә V-TV-IR ; ! ""
-элеп% куй:элеп% куй V-TV-AR ; ! "to line" Use/MT
 эләктереп% ал:эләктереп% ал V-TV-IR ; ! "" Use/MT
 эләктер:эләктер V-TV-IR ; ! ""
+эләк:эләк V-IV-IR ; ! ""
+элеп% куй:элеп% куй V-TV-AR ; ! "to line" Use/MT
 эл:эл V-TV-AR ; ! "hang"
 эндәш:эндәш V-IV-IR ; ! "to give tongue to one another"
 эреләндер:эреләндер V-TV-IR ; ! "to enlarge" (kaz tat) caus
@@ -19513,12 +19478,15 @@ Witness:Witness NP-AL ; ! ""
 эре:эре V-IV-IR ; ! "melt"
 эрлә:эрлә V-TV-IR ; ! "spin"
 эскертлә:эскертлә V-TV-IR ; ! "stack (hay)"
+этәр:этәр V-TV-IR ; ! ""
+эт:эт V-TV-AR ; ! ""
 эчкерсез% сөйлә:эчкерсез% сөйлә V-TV-IR ; ! "to speak plainly/говорить простодушно" Use/MT
 эч:эч V-TV-AR ; ! ""
 эш% ит:эш% ит V-IV-AR ; ! ""
 эшкәрт:эшкәрт V-TV-IR ; ! ""
 эшләп% ал:эшләп% ал V-TV-IR ; ! "поработать" Use/MT
 эшләп% бетер:эшләп% бетер V-TV-IR ; ! "to complete" Use/MT
+эшләт:эшләт V-TV-IR ; ! ""
 эшлә:эшлә V-TV-IR ; ! ""
 юат:юат V-TV-IR ; ! "comfort"
 югалт:югалт V-TV-IR ; ! ""
@@ -19529,13 +19497,14 @@ Witness:Witness NP-AL ; ! ""
 юлга% чык:юлга% чык V-IV-AR ; ! "to leave" Use/MT
 юләрлән:юләрлән V-IV-IR ; ! "to rave"
 юлла:юлла V-TV-IR ; ! ""
+юнәлдер:юнәлдер V-TV-IR ; ! ""
 юнәлт:юнәлт V-TV-IR ; ! ""
 юнәл:юнәл V-IV-IR ; ! ""
 юра:юра V-TV-IR ; ! "to suppose"
 юрттырып% җибәр:юрттырып% җибәр V-TV-IR ; ! "to put trotters in a race" Use/MT
 юртып% бар:юртып% бар V-TV-IR ; ! "to trot" Use/MT
-ю:ю%{ъ%} V-TV-AR ; ! "wash"
 юын:юын V-IV-IR ; ! ""
+ю:ю%{ъ%} V-TV-AR ; ! "wash"
 ябык% күр:ябык% күр V-TV-IR ; ! "to consider meager" Use/MT
 ябыктыр:ябыктыр V-TV-IR ; ! "to reduce (cattle) to emaciation" (kaz tat) caus
 ябык:ябык V-IV-IR ; ! "lose weight"
@@ -19544,10 +19513,12 @@ Witness:Witness NP-AL ; ! ""
 ябыш:ябыш V-IV-IR ; ! "cling"
 ягыл:ягыл V-IV-IR ; ! "to be lit" (kaz tat) passive
 ягын:ягын V-TV-IR ; ! "to excel in flattery" (kaz tat) refl
+яздыр:яздыр V-TV-IR ; ! ""
 язып% бетер:язып% бетер V-TV-IR ; ! ""
 яз:яз%{ъ%} V-TV-AR ; ! ""
 якалаш:якалаш V-IV-IR ; ! "to catch one another by throat" (kaz tat) coop
 якла:якла V-TV-IR ; ! ""
+яктырт:яктырт V-TV-IR ; ! ""
 яктыр:яктыр V-TV-IR ; ! "заставить разжечь" (kaz tat) caus
 якынайт:якынайт V-TV-IR ; ! "" caus
 якынай:якынай V-IV-IR ; ! "to become good friends"
@@ -19568,13 +19539,18 @@ Witness:Witness NP-AL ; ! ""
 ялкынлан:ялкынлан V-IV-IR ; ! "to flame"
 ялла:ялла V-TV-IR ; ! ""
 ялтырат:ялтырат V-TV-IR ; ! "to illuminate" (kaz tat) caus
+ялтыра:ялтыра V-IV-IR ; ! ""
 ялыктыр:ялыктыр V-TV-IR ; ! "to pester" (kaz tat) caus
 ялын:ялын V-IV-IR ; ! "to implore"
 яманлаш:яманлаш V-IV-IR ; ! "to detract each other" (kaz tat) coop
 яманла:яманла V-TV-IR ; ! "to find fault (with)"
 яма:яма V-TV-IR ; ! "to mend"
-ян:ян V-IV-AR ; ! ""
 яңарт:яңарт V-TV-IR ; ! ""
+яна:яна V-IV-IR ; ! ""
+яңгыра:яңгыра V-IV-IR ; ! ""
+яндыр:яндыр V-TV-IR ; ! ""
+ян:ян V-IV-AR ; ! ""
+ян:ян V-IV-AR ; ! ""
 яп:яп V-TV-AR ; ! "close"
 яраклаштыр:яраклаштыр V-TV-IR ; ! "to incline"
 яралан:яралан V-IV-IR ; ! ""
@@ -19593,9 +19569,9 @@ Witness:Witness NP-AL ; ! ""
 яса:яса V-TV-IR ; ! ""
 яссы% бул:яссы% бул V-IV-IR ; ! "to be well-trodden" Use/MT
 ятимлән:ятимлән V-IV-IR ; ! "to feel lonely"
+ятла:ятла V-TV-IR ; ! ""
 ятсын:ятсын V-IV-IR ; ! "to avoid"
 ят:ят V-IV-AR ; ! ""
-ятла:ятла V-TV-IR ; ! ""
 яудыр:яудыр V-TV-IR ; ! "" caus
 яула:яула V-TV-IR ; ! ""
 яу:яу V-IV-AR ; ! ""
@@ -19604,6 +19580,7 @@ Witness:Witness NP-AL ; ! ""
 яхшыла:яхшыла V-TV-IR ; ! "to accept as being good" (kaz tat) actually onle as gna_perf Use/MT
 яхшырт:яхшырт V-TV-IR ; ! ""
 яхшыр:яхшыр V-IV-IR ; ! "to improve"
+яшелләндер:яшелләндер V-TV-IR ; ! ""
 яшеллән:яшеллән V-IV-IR ; ! "to become green"
 яшерен:яшерен V-IV-IR ; ! ""
 яшер:яшер V-TV-IR ; ! ""
@@ -19756,26 +19733,11 @@ Witness:Witness NP-AL ; ! ""
 ! ^-/-<guio>$^че/*че$
 ! ^-/-<guio>$^чы/*чы$
 ! 
-! ^әйтик/әйт<v><tv><opt><p1><pl>$
-! ^әйтмешли/*әйтмешли$
-! ^берүк/*берүк$
-! ^бугай/*бугай$
-! ^дөм/*дөм$ (дөм карангы)
-! ^имеш/*имеш$
-! ^ичмаса/*ичмаса$
-! ^ичмасам/*ичмасам$
 ! ^кып/*кып$ (кып-кыска, кап-кара)
-! ^мазар/*мазар$
 ! ^мәллә/*мәллә$
 ! ^микәнни/*микәнни$
-! ^хосусан/*хосусан$
-! ^хосусән/*хосусән$
 ! ^хуп/*хуп$
-! ^һәрхәлдә/*һәрхәлдә$
 ! ^чем/*чем$ (чем-карангы)
-! ^шәт/*шәт$
-! ^юкса/*юкса$
-! 
 
 ! Вводные слова
 ! =============
@@ -19783,13 +19745,22 @@ Witness:Witness NP-AL ; ! ""
 аның% каравы:аның% каравы INTERJ ; ! ""
 ахры:ахры INTERJ ; ! ""
 ахрысы:ахрысы INTERJ ; ! ""
+әйтик:әйтик INTERJ ; ! ""
 бәлкем:бәлкем INTERJ ; ! ""
+берүк:берүк INTERJ ; ! ""
+бугай:бугай INTERJ ; ! ""
 зинһар:зинһар INTERJ ; ! ""
 зинһар% өчен:зинһар% өчен INTERJ ; ! ""
+имеш:имеш INTERJ ; ! ""
 имештер:имештер INTERJ ; ! ""
+ичмаса:ичмаса INTERJ ; ! ""
+ичмасам:ичмасам INTERJ ; ! ""
 мәсәлән:мәсәлән INTERJ ; ! "e.g."
 мөгаен:мөгаен INTERJ ; ! ""
 сүз% арасында:сүз% арасында INTERJ ; ! "
+шаять:шаять INTERJ ; ! ""
+шәт:шәт INTERJ ; ! ""
+һәрхәлдә:һәрхәлдә INTERJ ; ! ""
 янәсе:янәсе INTERJ ; ! ""
 
 

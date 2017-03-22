@@ -1235,6 +1235,8 @@ LEXICON PRON-DEM-ŠUL
 шул%<prn%>%<dem%>%<nom%>:шул CLITICS-INCL-COP ;
 шул%<prn%>%<dem%>%<gen%>:шуның CLITICS-NO-COP ;
 шул%<prn%>%<dem%>%<dat%>:шуңа CLITICS-NO-COP ;
+шул%<prn%>%<dem%>%<dat%>:шуңар CLITICS-NO-COP ; ! Dir/LR
+шул%<prn%>%<dem%>%<dat%>:шуңарга CLITICS-NO-COP ; ! Dir/LR
 шул%<prn%>%<dem%>%<acc%>:шуны CLITICS-NO-COP ;
 шул%<prn%>%<dem%>%<abl%>:шуннан CLITICS-INCL-COP ;
 шул%<prn%>%<dem%>%<loc%>:шунда CLITICS-INCL-COP ;
@@ -1964,17 +1966,12 @@ InterrogativePronouns ;
 ! ^һәрнәрсә/*һәрнәрсә$
 ! ^һәрни/*һәрни$
 ! ^һичберәү/*һичберәү$
-! ^һичбере/*һичбере$
-! ^һичберсе/*һичберсе$
 ! ^һичкайсы/*һичкайсы$
-! ^һични/*һични$
 ! ^шултикле/*шултикле$
 ! ^шултиклем/*шултиклем$
 ! ^шулхәтле/*шулхәтле$
 ! ^шулчаклы/*шулчаклы$
 ! ^шунсы/*шунсы$
-! ^шуңар/*шуңар$
-! ^шуңарга/*шуңарга$
 
 
 
@@ -1996,8 +1993,11 @@ InterrogativePronouns ;
 беркем:беркем PRNNEG ; ! ""
 бернәрсә:бернәрсә PRNNEG ; ! ""
 берни:берни PRNNEG ; ! ""
+һичбере:һичбер%>%{I%}%{n%} PRNNEG ; ! ""
+һичберсе:һичбер%>с%{I%}%{n%} PRNNEG ; ! ""
 һичкем:һичкем PRNNEG ; ! ""
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
+һични:һични PRNNEG ; ! ""
 
 бер%-бер:бер%-бер PRON-RECIP ; ! "each-other, one another"
 

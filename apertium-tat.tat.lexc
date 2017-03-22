@@ -1245,9 +1245,13 @@ LEXICON PRON-DEM-ŠUL
 шул%<prn%>%<dem%>%<sim%>:шундый CASES ;
 шул%<prn%>%<dem%>%<adv%>:шулай CLITICS-INCL-COP ;
 шул%<prn%>%<dem%>%<qnt%>:шулкадәр CLITICS-NO-COP ;
-шул%<prn%>%<dem%>%<qnt%>:шулкчаклы CLITICS-NO-COP ; ! Dir/LR
+шул%<prn%>%<dem%>%<qnt%>:шултикле CLITICS-NO-COP ;
+шул%<prn%>%<dem%>%<qnt%>:шултиклем CLITICS-NO-COP ;
+шул%<prn%>%<dem%>%<qnt%>:шулчаклы CLITICS-NO-COP ;
+шул%<prn%>%<dem%>%<qnt%>:шулхәтле CLITICS-NO-COP ;
 шул%<prn%>%<dem%>%<qnt%>:шунча CLITICS-NO-COP ; ! Dir/LR
 шул%<prn%>%<dem%>%<px3sp%>:шунысы%{n%} CASES ;
+шул%<prn%>%<dem%>%<px3sp%>:шунсы%{n%} CASES ; ! Dir/LR
 
 шул%<prn%>%<dem%>%<pl%>:шулар CASES-ETC ;
 шул%<prn%>%<dem%>%<pl%>%<px3sp%>:шулары%{n%} CASES ;
@@ -1967,11 +1971,6 @@ InterrogativePronouns ;
 ! ^һәрни/*һәрни$
 ! ^һичберәү/*һичберәү$
 ! ^һичкайсы/*һичкайсы$
-! ^шултикле/*шултикле$
-! ^шултиклем/*шултиклем$
-! ^шулхәтле/*шулхәтле$
-! ^шулчаклы/*шулчаклы$
-! ^шунсы/*шунсы$
 
 
 

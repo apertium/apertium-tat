@@ -18064,7 +18064,6 @@ Witness:Witness NP-AL ; ! ""
 !=============!
 
 
-! әрәм ит
 ! аера	1673 ! phon
 ! аңлатуынча	1006
 ! аңлашылганча	2495
@@ -18427,6 +18426,7 @@ Witness:Witness NP-AL ; ! ""
 ераклаш:ераклаш V-IV-IR ; ! "move off,move away,keep away from"
 ераклаштыр:ераклаштыр V-TV-IR ; ! "to remove" (kaz tat) caus
 әрдәнәгә% өй:әрдәнәгә% өй V-TV-AR ; ! "to put together in rows or layers" Use/MT
+әрәм% ит:әрәм% ит V-TV-AR ; ! "to expend for nothing"
 әрәм%-шәрәм% ит:әрәм%-шәрәм% ит V-TV-AR ; ! "to expend for nothing"
 ер:ер%{ъ%} V-TV-IR ; ! ""
 ерт:ерт%{ъ%} V-TV-IR ; ! "tear"

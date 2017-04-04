@@ -1,0 +1,234 @@
+Corpus: /home/selimcan/src/turkiccorpora/tat.kerim.ozon-ozaq-balasaq.txt
+Number of tokenised words in the corpus: 9907
+Coverage: 88.87%
+Top unknown words in the corpus:
+39	 Әсгат
+27	 инәем
+20	 Кендек
+16	 Йомагол
+11	 Ибрай
+10	 Әсгатнең
+8	 Йомаголның
+8	 өермә
+7	 кендек
+7	 на
+6	 ка
+6	 Әсгатне
+6	 җитен
+6	 ган
+5	 инәемнең
+5	 сымак
+5	 Һайт
+5	 га
+5	 сыңар
+5	 күмәч
+Translation time: 0.247514009475708 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.udhr.ohchr.txt
+Number of tokenised words in the corpus: 1605
+Coverage: 89.03%
+Top unknown words in the corpus:
+19	 хокукы
+6	 гомуни
+5	 дучар
+4	 мәхрүм
+4	 хакы
+4	 очен
+2	 җемгыять
+2	 җәмгыятьнең
+2	 гепә
+2	 торле
+2	 п
+2	 мөстәкыйль
+1	 күрелек
+1	 түләүле
+1	 мәнфагатьләрен
+1	 тудырлырга
+1	 саси
+1	 изслүгә
+1	 бертигез
+1	 боск
+Translation time: 0.06983828544616699 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.news.2005-2011_300K-sentences.txt
+Number of tokenised words in the corpus: 5190908
+Coverage: 94.16%
+Top unknown words in the corpus:
+2343	 нче
+1607	 биредә
+1310	 булганча
+1240	 ның
+1225	 Биредә
+1088	 иткәнчә
+1062	 Г
+984	 А
+918	 хакы
+917	 Р
+881	 җәмгыяте
+847	 каршындагы
+837	 н
+768	 кагылышлы
+761	 В
+757	 информ
+753	 белдергәнчә
+736	 үткәнчә
+733	 сумлык
+700	 каршында
+Translation time: 138.62654757499695 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.aytmatov.txt
+Number of tokenised words in the corpus: 5973
+Coverage: 95.33%
+Top unknown words in the corpus:
+34	 *
+5	 Йә
+4	 Ниһаять
+3	 бервакытта
+3	 явыз
+2	 кия
+2	 волостька
+2	 Туктале
+2	 ***
+2	 томана
+2	 чыдамлык
+2	 Бервакытны
+2	 кышлык
+2	 сыланган
+2	 азап
+2	 Мәйле
+2	 китмән
+2	 фидакарьлек
+2	 уңайсызланып
+1	 кызулап
+Translation time: 0.1719353199005127 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.NT.txt
+Number of tokenised words in the corpus: 170042
+Coverage: 87.50%
+Top unknown words in the corpus:
+1335	 чен
+1108	 к
+821	 нки
+763	 с
+651	 т
+534	 ч
+527	 й
+404	 б
+397	 Ч
+310	 х
+298	 г
+292	 д
+271	 тен
+151	 н
+122	 нне
+107	 наһ
+103	 шәкертләре
+101	 рле
+93	 К
+93	 шаһитлек
+Translation time: 3.8680193424224854 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.wikipedia.2013-02-25.txt
+Number of tokenised words in the corpus: 158717
+Coverage: 89.96%
+Top unknown words in the corpus:
+116	 Г
+89	 нче
+80	 ноябрендә
+75	 А
+61	 В
+60	 б
+58	 эшкәрткеч
+55	 Н
+45	 шигъри
+45	 һ
+42	 Ф
+41	 С
+37	 каршындагы
+35	 Р
+32	 җидееллык
+30	 көньякта
+28	 гә
+27	 Х
+26	 Төньякта
+25	 в
+Translation time: 4.120104551315308 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.nt.ibt.txt
+Number of tokenised words in the corpus: 178653
+Coverage: 95.39%
+Top unknown words in the corpus:
+105	 шәкертләре
+90	 шаһитлек
+57	 каршында
+57	 хакына
+56	 шәкертләренә
+52	 фарисейләр
+52	 явыз
+49	 Һируд
+49	 хачка
+47	 канунчылар
+36	 Имандашлар
+33	 Барнаб
+33	 язылганча
+33	 савыктыра
+32	 икърар
+31	 шакшы
+31	 рәсүлләр
+30	 берсенә
+30	 шәкертләр
+30	 кайберләре
+Translation time: 4.5526649951934814 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.rferl.news.20070227-20120310.txt
+Number of tokenised words in the corpus: 1385762
+Coverage: 85.40%
+Top unknown words in the corpus:
+3773	 n
+2006	 r
+1895	 l
+1845	 t
+1665	 k
+1633	 m
+1255	 а
+1161	 a
+1154	 nda
+1120	 an
+1109	 b
+1083	 y
+1005	 h
+950	 s
+950	 e
+808	 d
+798	 ы
+794	 x
+675	 ан
+649	 q
+Translation time: 36.09947681427002 seconds
+
+Corpus: /home/selimcan/src/turkiccorpora/tat.quran.nughmani.txt
+Number of tokenised words in the corpus: 208522
+Coverage: 90.54%
+Top unknown words in the corpus:
+880	 Ий
+484	 г
+471	 әзаб
+346	 Тәхкыйк
+300	 кеби
+270	 итагать
+209	 Әйә
+189	 инкяр
+185	 тәхкыйк
+176	 соңра
+163	 Дәхи
+140	 әзабы
+130	 мөшрикләр
+123	 олугъ
+122	 батыл
+121	 Фиргаун
+119	 дәхи
+105	 пакь
+101	 әзабыннан
+101	 Соңра
+Translation time: 5.103771686553955 seconds
+

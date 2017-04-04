@@ -15,6 +15,8 @@
 corpus/corpus.ana.txt -text
 /coverage.txt -text
 dev/countstems.sh -text
+dev/coverage.sh -text
+dev/coverage.txt -text
 dev/editdist.py -text
 dev/extract_guesses.sh -text
 dev/mansur.bin -text
@@ -35,6 +37,7 @@ expanded/current-state.txt.gz -text svneol=unset#unset
 expanded/previous-state.txt.gz -text svneol=unset#unset
 /modes.xml -text
 /qa -text
+/quality.aqx -text
 speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text

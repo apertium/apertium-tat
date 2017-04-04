@@ -7,7 +7,7 @@ LANGUAGE=tat
 all: N1.txt.gz N1-RUS.txt.gz N-COMPOUND-PX.txt.gz \
 	A1.txt.gz \
 	V-TV-IR.txt.gz \
-	ADV.txt.gz ADV-WITH-KI.txt.gz \
+	ADV.txt.gz ADV-WITH-KI.txt.gz ADV-ITG.txt.gz \
 	NUM.txt.gz NUM-ROMAN.txt.gz NUM-ITG.txt.gz \
 	PRON.txt.gz \
 	COP-I.txt.gz

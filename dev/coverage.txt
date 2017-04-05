@@ -10,19 +10,19 @@ Top unknown words in the corpus:
 10	 Әсгатнең
 8	 Йомаголның
 8	 өермә
-7	 кендек
 7	 на
-6	 ган
-6	 ка
+7	 кендек
 6	 җитен
+6	 ка
+6	 ган
 6	 Әсгатне
-5	 пәри
-5	 ты
 5	 га
-5	 Акбузат
-5	 күмәч
+5	 сыңар
+5	 инәемнең
+5	 Һайт
+5	 пәри
 5	 сымак
-Translation time: 0.2605915069580078 seconds
+Translation time: 0.28029823303222656 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.udhr.ohchr.txt
 Number of tokenised words in the corpus: 1605
@@ -31,24 +31,24 @@ Top unknown words in the corpus:
 19	 хокукы
 6	 гомуни
 5	 дучар
+4	 очен
 4	 мәхрүм
 4	 хакы
-4	 очен
-2	 гепә
-2	 җемгыять
-2	 мөстәкыйль
-2	 п
-2	 торле
 2	 җәмгыятьнең
-1	 Уставта
-1	 Өйләнешүчсләрнең
-1	 мохтаҗлыктан
+2	 п
+2	 мөстәкыйль
+2	 җемгыять
+2	 торле
+2	 гепә
 1	 торкем
-1	 җәберләнүдән
-1	 катиашуга
-1	 остенлекле
-1	 Ассамблеясе
-Translation time: 0.0734248161315918 seconds
+1	 алмий
+1	 кимсетелүдәрсез
+1	 игъдан
+1	 язылышуы
+1	 мәнфагатьләрен
+1	 хәбәрләшү
+1	 урекле
+Translation time: 0.07163166999816895 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.news.2005-2011_300K-sentences.txt
 Number of tokenised words in the corpus: 5190908
@@ -74,7 +74,7 @@ Top unknown words in the corpus:
 736	 үткәнчә
 733	 сумлык
 700	 каршында
-Translation time: 145.2971920967102 seconds
+Translation time: 141.00810647010803 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.aytmatov.txt
 Number of tokenised words in the corpus: 5973
@@ -85,22 +85,22 @@ Top unknown words in the corpus:
 4	 Ниһаять
 3	 явыз
 3	 бервакытта
+2	 Мәйле
+2	 фидакарьлек
+2	 волостька
+2	 чыдамлык
+2	 кышлык
+2	 уңайсызланып
+2	 Бервакытны
 2	 азап
 2	 сыланган
 2	 ***
-2	 кия
-2	 Туктале
-2	 уңайсызланып
-2	 Бервакытны
-2	 Мәйле
-2	 чыдамлык
-2	 волостька
-2	 фидакарьлек
-2	 китмән
 2	 томана
-2	 кышлык
-1	 бөкләгән
-Translation time: 0.17275166511535645 seconds
+2	 кия
+2	 китмән
+2	 Туктале
+1	 тупсасына
+Translation time: 0.17624664306640625 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.NT.txt
 Number of tokenised words in the corpus: 170042
@@ -126,7 +126,7 @@ Top unknown words in the corpus:
 101	 рле
 93	 К
 93	 шаһитлек
-Translation time: 3.8808562755584717 seconds
+Translation time: 4.020817041397095 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.wikipedia.2013-02-25.txt
 Number of tokenised words in the corpus: 158717
@@ -151,8 +151,8 @@ Top unknown words in the corpus:
 28	 гә
 27	 Х
 26	 Төньякта
-25	 ибне
-Translation time: 3.7703967094421387 seconds
+25	 в
+Translation time: 3.847498893737793 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.nt.ibt.txt
 Number of tokenised words in the corpus: 178653
@@ -163,22 +163,22 @@ Top unknown words in the corpus:
 57	 хакына
 57	 каршында
 56	 шәкертләренә
-52	 явыз
 52	 фарисейләр
+52	 явыз
 49	 Һируд
 49	 хачка
 47	 канунчылар
 36	 Имандашлар
 33	 савыктыра
-33	 язылганча
 33	 Барнаб
+33	 язылганча
 32	 икърар
-31	 шакшы
 31	 рәсүлләр
+31	 шакшы
+30	 шәкертләр
 30	 берсенә
 30	 кайберләре
-30	 шәкертләр
-Translation time: 4.159526348114014 seconds
+Translation time: 4.2721264362335205 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.rferl.news.20070227-20120310.txt
 Number of tokenised words in the corpus: 1385762
@@ -197,14 +197,14 @@ Top unknown words in the corpus:
 1109	 b
 1083	 y
 1005	 h
-950	 s
 950	 e
+950	 s
 808	 d
 798	 ы
 794	 x
 675	 ан
 649	 q
-Translation time: 35.75674653053284 seconds
+Translation time: 36.967400789260864 seconds
 
 Corpus: /home/selimcan/src/turkiccorpora/tat.quran.nughmani.txt
 Number of tokenised words in the corpus: 208522
@@ -227,8 +227,8 @@ Top unknown words in the corpus:
 121	 Фиргаун
 119	 дәхи
 105	 пакь
-101	 Илаһә
-101	 Соңра
 101	 әзабыннан
-Translation time: 5.323920011520386 seconds
+101	 Соңра
+101	 Илаһә
+Translation time: 5.173271894454956 seconds
 

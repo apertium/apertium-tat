@@ -1,10 +1,5 @@
 <config xmlns="http://apertium.org/xml/quality/config/0.1">
-    <commands>
-        <command>./autogen.sh</command>
-        <command>make clean</command>
-        <command>make</command>
-    </commands>
     <coverage>
-        <corpus language="tat" path="tat.wikipedia.crp.txt"/>
+        <corpus language="tat" path="dev/testcorpus.txt"/>
     </coverage>
 </config>

@@ -38,7 +38,8 @@ expanded/current-state.txt.gz -text svneol=unset#unset
 expanded/previous-state.txt.gz -text svneol=unset#unset
 /modes.xml -text
 /qa -text
-/quality.aqx -text
+/quality-stats.xml -text
+/quality.aqx.in -text
 speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text

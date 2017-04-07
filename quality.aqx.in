@@ -1,0 +1,16 @@
+<config xmlns="http://apertium.org/xml/quality/config/0.1">
+    <commands>
+        <command>make</command>
+    </commands>    
+    <coverage>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.aytmatov.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.kerim.ozon-ozaq-balasaq.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.news.2005-2011_300K-sentences.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.nt.ibt.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.NT.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.quran.nughmani.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.rferl.news.20070227-20120310.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.udhr.ohchr.txt"/>
+        <corpus language="tat" path="/home/selimcan/src/turkiccorpora/tat.wikipedia.2013-02-25.txt"/>
+    </coverage>
+</config>

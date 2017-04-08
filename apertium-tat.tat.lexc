@@ -1624,11 +1624,11 @@ LEXICON ADV-ITG
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON CCLEX
+LEXICON CC
 
 %<cnjcoo%>: # ; 
 
-LEXICON CSLEX
+LEXICON CS
 
 %<cnjsub%>: # ; 
 
@@ -1738,53 +1738,53 @@ COP-I ; ! ""
 
 !! Соединительные - Җыючы теркәгечләр
 
-белән:белән CCLEX ; ! ""
-вә:вә CCLEX ; ! "and (archaic)"
-вә:вәә CCLEX ; ! "and (archaic)" Dir/LR
-да:%~да CCLEX ; ! "also" Dir/RL
-да:да CCLEX ; ! "" Dir/LR
-да:та CCLEX ; ! "" Dir/LR
-да:дә CCLEX ; ! "" Dir/LR
-да:тә CCLEX ; ! "" Dir/LR
-ни:ни CCLEX ; ! "neither... , nor ... (x2)"
-түгел:түгел CCLEX ; ! "not only, but also/even" #! Кеше түгел, эт тә чыдамас. FIXME:CHECK Use/MT
-шулай% ук:шулай% ук CCLEX ; ! "likewise"
-һәм:һәм CCLEX ; ! "and"
+белән:белән CC ; ! ""
+вә:вә CC ; ! "and (archaic)"
+вә:вәә CC ; ! "and (archaic)" Dir/LR
+да:%~да CC ; ! "also" Dir/RL
+да:да CC ; ! "" Dir/LR
+да:та CC ; ! "" Dir/LR
+да:дә CC ; ! "" Dir/LR
+да:тә CC ; ! "" Dir/LR
+ни:ни CC ; ! "neither... , nor ... (x2)"
+түгел:түгел CC ; ! "not only, but also/even" #! Кеше түгел, эт тә чыдамас. FIXME:CHECK Use/MT
+шулай% ук:шулай% ук CC ; ! "likewise"
+һәм:һәм CC ; ! "and"
 
 !! Противительные - Каршы куючы теркәгечләр
 
-бары% тик:бары% тик CCLEX ; ! "but,just"
-бәлки:бәлки CCLEX ; ! "but, but also"
-вәләкин:вәләкин CCLEX ; ! ""
-ләкин:ләкин CCLEX ; ! "but"
-мәгәр:мәгәр CCLEX ; ! "but,just"
-тик:тик CCLEX ; ! "but,just"
-фәкать:фәкать CCLEX ; ! "но, только"
-хәлбуки:хәлбуки CCLEX ; ! ""
-ә:ә CCLEX ; ! "contrastive and"
-әмма:әмма CCLEX ; ! "but"
+бары% тик:бары% тик CC ; ! "but,just"
+бәлки:бәлки CC ; ! "but, but also"
+вәләкин:вәләкин CC ; ! ""
+ләкин:ләкин CC ; ! "but"
+мәгәр:мәгәр CC ; ! "but,just"
+тик:тик CC ; ! "but,just"
+фәкать:фәкать CC ; ! "но, только"
+хәлбуки:хәлбуки CC ; ! ""
+ә:ә CC ; ! "contrastive and"
+әмма:әмма CC ; ! "but"
 
 !! Разделительные - Бүлүче теркәгечләр
 
-я:я CCLEX ; ! "or"
-яисә:яисә CCLEX ; ! "or"
-яки:яки CCLEX ; ! "or"
-яхут:яхут CCLEX ; ! ""
-әле:әле CCLEX ; ! "то ... , то ... (х2) "
+я:я CC ; ! "or"
+яисә:яисә CC ; ! "or"
+яки:яки CC ; ! "or"
+яхут:яхут CC ; ! ""
+әле:әле CC ; ! "то ... , то ... (х2) "
 
 ! Sub-ordinating conjunctions
 ! ===========================
 
-гүя:гүя CSLEX ; ! "as if"
-гүяки:гүяки CSLEX ; ! "as if"
-гәрчә:гәрчә CSLEX ; ! "even if"
-ки:ки CSLEX ; ! "that, in order that"
-чөнки:чөнки CSLEX ; ! "because"
-югыйсә:югыйсә CSLEX ; ! ""
-юкса:юкса CSLEX ; ! ""
-ягъни:ягъни CSLEX ; ! "that is, то есть"
-әгәр% дә:әгәр% дә CSLEX ; ! "if" Use/MT
-әгәр:әгәр CSLEX ; ! "if"
+гүя:гүя CS ; ! "as if"
+гүяки:гүяки CS ; ! "as if"
+гәрчә:гәрчә CS ; ! "even if"
+ки:ки CS ; ! "that, in order that"
+чөнки:чөнки CS ; ! "because"
+югыйсә:югыйсә CS ; ! ""
+юкса:юкса CS ; ! ""
+ягъни:ягъни CS ; ! "that is, то есть"
+әгәр% дә:әгәр% дә CS ; ! "if" Use/MT
+әгәр:әгәр CS ; ! "if"
 
 ! Adverbial conjunctions = "Относительные слова"
 ! ==============================================

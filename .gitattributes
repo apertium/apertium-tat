@@ -14,6 +14,7 @@
 /configure.ac -text
 corpus/corpus.ana.txt -text
 /coverage.txt -text
+dev/Qurbanqaliev_Gazizov_Kuliev_1931_tat_rus.djvu -text
 dev/countstems.sh -text
 dev/coverage.sh -text
 dev/coverage.txt -text

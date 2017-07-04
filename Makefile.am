@@ -7,11 +7,15 @@ VERSION=0.1.0
 LANG1=tat
 BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
-	$(LANG1).automorf.bin $(LANG1).autogen.bin \
-	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-        $(LANG1).rlx.bin
-
+TARGETS_COMMON =			\
+	$(LANG1).automorf.hfst		\
+	$(LANG1).automorf.bin		\
+	$(LANG1).automorf.att.gz	\
+	$(LANG1).autogen.hfst		\
+	$(LANG1).autogen.bin		\
+	$(LANG1).autogen.att.gz		\
+	$(LANG1).autopgen.bin		\
+	$(LANG1).rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
 @ap_include@
@@ -60,6 +64,9 @@ $(LANG1).autogen.bin: $(LANG1).autogen.att.gz .deps/.d
 $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).automorf.att
 	lt-comp lr .deps/$(LANG1).automorf.att $@
+
+$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+	lt-comp lr $< $@
 
 ###############################################################################
 ## Debugging transducers (for testvoc)
@@ -155,7 +162,6 @@ install-data-local: install-modes
 ###############################################################################
 ## Cleanup
 ###############################################################################
-
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:

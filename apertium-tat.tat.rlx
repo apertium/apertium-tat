@@ -229,6 +229,23 @@ SET NOT-ADV = WORDMARK - Adv ;
 SET S-BOUNDARY = CS | Interr | EOS;
 
 
+SECTION ########### METRICAL BOOKS ##############
+
+# INPUT:
+# атасы Казан өязе Купербашының Хөсәен Габдерәхим улы ындырчы анасы Бибифатыйха
+# Хәбибулла кызы
+# OUTPUT:
+# ^ата<n><px3sp><nom>$ ^Казан<np><top><attr>$ ^өяз<n><px3sp><nom>$
+# ^Купербашы<np><top><gen>$ ^Хөсәен<np><ant><m><nom>$
+# ^Габдерәхим<np><ant><m><nom>$ ^ул<n><px3sp><nom>$
+# ^ындырчы<n><nom>+и<cop><aor><p3><sg>$
+# ^ана<n><px3sp><nom>$ ^Бибифатыйха<np><ant><f><nom>$ ^Хәбибулла<np><ant><m><nom>$
+# ^кыз<n><px3sp><nom>+и<cop><aor><p3><sg>$
+
+SELECT Sub:1 Cop IF (-1 ("<улы>"))
+                     (-2 (np ant))
+		     (1 ("<анасы>"));
+
 SECTION ########## COPULAS ##########
 
 
@@ -881,7 +898,6 @@ SECTION ############ HEURISTICS #####################
 # OUTPUT: ^күзләр/күз<n><pl><nom>$
  SELECT N + Pl IF
           (0 ("күз"i)) ;
-
 
 SECTION ########### MAPPING RULES ###############
 

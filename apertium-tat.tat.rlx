@@ -134,6 +134,8 @@ LIST POS = A Adv Pron N Prop V Vaux Cop Det CC CS Interj Num Post Postadv
 LIST Pers = pers ;
 LIST Dem = dem;
 LIST Interr = itg ;
+LIST Cog = cog ;
+LIST Ant = ant ;
 
 # "Syntactic" tags
 # ================
@@ -245,6 +247,11 @@ SECTION ########### METRICAL BOOKS ##############
 SELECT Sub:1 Cop IF (-1 ("<улы>"))
                      (-2 (np ant))
 		     (1 ("<анасы>"));
+
+SELECT Cop IF (-1 ("<улы>"))
+                     (-2 (np ant))
+		     (1 ("<анасы>"));
+
 
 SECTION ########## COPULAS ##########
 
@@ -843,6 +850,9 @@ SECTION ########## WORDFORM/LEMMA-SPECIFIC RULES ########
  SELECT Frm IF
            (0 Pron + Pers) ;
 ## Сез
+
+
+SELECT Cog IF (-1 Ant) ;
 
 
 SECTION ############ HEURISTICS #####################

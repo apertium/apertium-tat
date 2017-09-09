@@ -238,6 +238,8 @@
 %<lpar%>      ! Parenthetical marker (left hand side)
 %<punct%>     ! Other
 
+%<phrase%>    ! For strings which probably belong to a TMX file instead
+
 ! Archiphonemes and escaped symbols
 
 %{L%}         ! Realised as
@@ -7684,6 +7686,11 @@ XXI NUM-ROMAN ; ! ""
 чәчкәче:чәчкәче N1 ; ! ""
 ындырчы:ындырчы N1 ; ! ""
 
+бу% гакыде% никахка% разый% булып%<phrase%>:бу% гакыде% никахка% разый% булып # ; ! "" Use/MT
+өченче% дәрәҗәдә% агач% мәчет% мәхәлләсендә% ләвазем% имамәтне% әда% кылгучы%<phrase%>:өченче% дәрәҗәдә% агач% мәчет% мәхәлләсендә% ләвазем% имамәтне% әда% кылгучы # ; ! "" Use/MT
+тиешле% акчасын% алып%<phrase%>:тиешле% акчасын% алып # ; ! "" Use/MT
+кулым% куйдым%<phrase%>:кулым% куйдым # ; ! ""
+
 ! Nouns used as postpositions when <posssessive><case>
 ! ====================================================
 
@@ -10639,6 +10646,8 @@ XXI NUM-ROMAN ; ! ""
 Бибигөл:Бибигөл NP-ANT-F ; ! ""
 Бибинур:Бибинур NP-ANT-F ; ! ""
 Бикә:Бикә NP-ANT-F ; ! ""
+Бикчура:Бикчура NP-ANT-M ; ! ""
+Бикчури:Бикчури NP-ANT-M ; ! ""
 Билл:Билл%{ъ%} NP-ANT-M ; ! ""
 Бисәкән:Бисәкән NP-ANT-M ; ! ""
 Богдан:Богдан NP-ANT-M ; ! ""

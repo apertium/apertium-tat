@@ -255,6 +255,8 @@ SELECT Cop IF (-1 ("<улы>"))
 
  "<Шаһит>" SELECT N IF (1 (":")) ;
 
+"<Разыя>" SELECT Prop ;
+
 SECTION ########## COPULAS ##########
 
 
@@ -899,6 +901,8 @@ SECTION ############ HEURISTICS #####################
 # INPUT:  ^ни өчен/ни өчен<adv><itg>/ни өчен<adv><itg>+и<cop><p3><pl>/ни өчен<adv><itg>+и<cop><p3><sg>$
 # OUTPUT: ^ни өчен/ни өчен<adv><itg>$
  "<ни өчен>"i REMOVE Sub:1 Cop ;
+
+"<өчен>"i SELECT Post ;
 
 # INPUT:  ^беләсез/бел<v><tv><pres><p2><frm><pl>/бел<v><tv><pres><p2><frm><sg>$
 # OUTPUT: ^беләсез/бел<v><tv><pres><p2><frm><sg>$

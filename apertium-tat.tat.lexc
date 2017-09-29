@@ -7776,6 +7776,15 @@ XXI NUM-ROMAN ; ! ""
 бәдәл:бәдәл N1 ; ! ""
 хәләл% җәмәгате:хәләл% җәмәгать N-COMPOUND-PX ; ! ""
 хәмел:хәмел N1 ; ! ""
+бертуган% ага:бертуган% ага N1 ; ! ""
+бертуган% эне:бертуган% эне N1 ; ! ""
+гакыд:гакыд N1 ; ! ""
+әһле% зирәгәть:әһле% зирәгәть N1 ; ! ""
+зиммә:зиммә N1 ; ! ""
+мәҗлесе% гакыд:мәҗлесе% гакыд N1 ; ! ""
+тәразый:тәразый N1 ; ! ""
+шаһит%<n%>%<gen%>:шөһүд # ; ! "" Dir/LR
+шаһит%<n%>%<gen%>:шөһүде # ; ! "" Dir/LR
 
 ! "Translation memory" (put here because -m .tmx sometimes wouln't fire and
 ! I coudln't figure out why.
@@ -7855,6 +7864,25 @@ XXI NUM-ROMAN ; ! ""
 юклыгы%<phrase%>:юклыгы # ; ! "" Use/MT
 шулук%<phrase%>:шулук # ; ! "" Use/MT
 берлә%<phrase%>:берлә # ; ! "" Use/MT
+бикер%<phrase%>:бикер # ; ! "" Use/MT
+кабыз%<phrase%>:кабыз # ; ! "" Use/MT
+көллә%<phrase%>:көллә # ; ! "" Use/MT
+көлләсе%<phrase%>:көлләсе # ; ! "" Use/MT
+мәкъбуз%<phrase%>:мәкъбуз # ; ! "" Use/MT
+мөбашәрә%<phrase%>:мөбашәрә # ; ! "" Use/MT
+мөгәҗҗәл%<phrase%>:мөгәҗҗәл # ; ! "" Use/MT
+мөәҗҗәл%<phrase%>:мөәҗҗәл # ; ! "" Use/MT
+мөҗәррәдләр%<phrase%>:мөҗәррәдләр # ; ! "" Use/MT
+никах% ителде%<phrase%>:никах% ителде # ; ! "" Use/MT
+ныйсыфы%<phrase%>:ныйсыфы # ; ! "" Use/MT
+салды%<phrase%>:салды # ; ! "" Use/MT
+сәйиб%<phrase%>:сәйиб # ; ! "" Use/MT
+сәйибә%<phrase%>:сәйибә # ; ! "" Use/MT
+тәкрар%<phrase%>:тәкрар # ; ! "" Use/MT
+толлар%<phrase%>:толлар # ; ! "" Use/MT
+улмакына%<phrase%>:улмакына # ; ! "" Use/MT
+һәр% икәве% бикер%<phrase%>:һәр% икәве% бикер # ; ! "" Use/MT
+һәр% икәве% әһле% зирагатьтән%<phrase%>:һәр% икәве% әһле% зирагатьтән # ; ! "" Use/MT
 
 ! Nouns used as postpositions when <posssessive><case>
 ! ====================================================
@@ -27045,6 +27073,8 @@ Witness:Witness NP-AL ; ! ""
 яшерен:яшерен V-IV-IR ; ! ""
 яшер:яшер V-TV-IR ; ! ""
 яшә:яшә V-TV-IR ; ! "" consider яшәлгән >> transitive because of that
+кабыз% кыл:кабыз% кыл V-TV-IR ; ! ""
+тәслим% кыл:тәслим% кыл V-TV-IR ; ! ""
 
 ! Auxiliary verbs
 ! ===============

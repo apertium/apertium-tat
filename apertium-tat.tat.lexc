@@ -1596,10 +1596,12 @@ LEXICON NUM-ITG ! This is a temporal solution
 LEXICON NUM-COLL
 
 %<num%>%<coll%>: # ;
+%<num%>%<coll%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON NUM-ITG-COLL
 
 %<num%>%<itg%>%<coll%>: # ;
+%<num%>%<itg%>%<coll%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON NUM-ROMAN
 
@@ -2118,6 +2120,9 @@ InterrogativePronouns ;
 нуль:нүл NUM ; ! "" Dir/LR
 бер:бер NUM ; ! ""
 ике:ике NUM ; ! ""
+ике%<num%>%<coll%>%<px3sp%>%<nom%>:икәве # ; ! "" Dir/LR phon
+ике%<num%>%<coll%>%<px3sp%>%<gen%>:икәвенең # ; ! "" Dir/LR phon
+ике%<num%>%<coll%>%<px3sp%>%<dat%>:икәвенә # ; ! "" Dir/LR phon
 өч:өч NUM ; ! ""
 дүрт:дүрт NUM ; ! ""
 биш:биш NUM ; ! ""

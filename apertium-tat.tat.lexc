@@ -26434,6 +26434,7 @@ Witness:Witness NP-AL ; ! ""
 ! More or less regular stuff
 ! ==========================
 
+кире:кире ADV ; ! ""
 аеруча:аеруча ADV ; ! "especially"
 аз% гына:аз% гына ADV ; ! "" Use/MT
 акрын%-акрын:акрын%-акрын ADV ; ! ""
@@ -27210,6 +27211,7 @@ Witness:Witness NP-AL ; ! ""
 кайтарып% бир:кайтарып% бир V-TV-IR ; ! "" Use/MT
 кайт:кайт V-IV-IR ; ! "return"
 как:как V-TV-AR ; ! "knock"
+кире% как:кире% как V-TV-AR ; ! "reject, turn back" Use/MT
 какла:какла V-TV-IR ; ! "to cut (meat) into small pieces" FIXME CHECK
 какша:какша V-IV-IR ; ! "to get loose"
 какылда:какылда V-IV-IR ; ! "to talk loudly and incessantly"

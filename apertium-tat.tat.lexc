@@ -367,6 +367,8 @@ LEXICON NUM-DIGIT
 %<num%>%<ord%>:% нче # ; ! Dir/LR hack
 %<num%>%<ord%>%<subst%>%<nom%>:% нче # ; ! Dir/LR hack
 %<num%>%<ord%>%<subst%>:% нче SUBST-NONOM ; ! Dir/LR hack
+%<num%>%<ord%>:%-н SUBST-NONOM ; ! Dir/LR hack
+%<num%>%<ord%>:н SUBST-NONOM ; ! Dir/LR hack
 
 %<num%>%<ord%>:нч%{I%} # ; ! Dir/LR
 %<num%>%<ord%>%<subst%>%<nom%>:нч%{I%} # ; ! Dir/LR
@@ -7839,7 +7841,7 @@ XXI NUM-ROMAN ; ! ""
 лафыз:лафыз N1 ; ! ""
 личный% почетный% гражданин:личный% почетный% гражданин%{ъ%} N1-RUS ; ! ""
 ма% бәеннәрендә%<phrase%>:ма% бәеннәерндә # ; ! "" Use/MT Dir/LR err_orth
-мариз:мариз N1 ; ! "disease"
+мариз:мариз%{ъ%} N1 ; ! "disease"
 мелла:мелла N1 ; ! ""
 мещан:мещан N1 ; ! "мещанин = burgess"
 мещан:мещанин N1 ; ! "мещанин = burgess"

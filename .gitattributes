@@ -15,7 +15,7 @@
 corpus/corpus.ana.txt -text
 /coverage.txt -text
 dev/Qorbangalief_Gazizof_Kulief_1931_tat_rus.djvu -text
-dev/Qorbangalief_Gazizof_Kulief_1931_tat_rus.txt -text svneol=unset#application/octet-stream
+dev/Qorbangalief_Gazizof_Kulief_1931_tat_rus.txt -text svneol=unset#text/plain
 dev/countstems.sh -text
 dev/coverage.sh -text
 dev/coverage.txt -text

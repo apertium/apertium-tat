@@ -1,0 +1,9 @@
+dist: trusty
+before_install:
+    - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
+    - sudo apt-get install hfst apertium lttoolbox apertium-dev lttoolbox-dev libhfst-dev cg3
+script:
+    - ./autogen.sh
+    - ./configure
+    - make
+    - make check

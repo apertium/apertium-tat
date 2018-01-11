@@ -1095,12 +1095,14 @@ LEXICON V-IV-AR
 
 %<v%>%<iv%>: V-COMMON ;
 %<v%>%<iv%>: V-FUT-AR ;
+%<v%>%<iv%>: V-FUT-IR ; ! Dir/LR
 %<v%>%<iv%>: V-DER ;
 
 LEXICON V-TV-AR
 
 %<v%>%<tv%>: V-COMMON ;
 %<v%>%<tv%>: V-FUT-AR ;
+%<v%>%<tv%>: V-FUT-IR ; ! Dir/LR
 %<v%>%<tv%>: V-DER ;
 V-COMMON-PASSIVE ;
 
@@ -27238,6 +27240,8 @@ Witness:Witness NP-AL ; ! ""
 илә:илә V-TV-IR ; ! "просеивать"
 илт:илт V-TV-IR ; ! ""
 илһамлан:илһамлан V-IV-IR ; ! "to show readiness"
+им:им V-TV-AR ; ! ""
+имез:имез V-TV-IR ; ! ""
 имгән:имгән V-IV-IR ; ! "to become crippled"
 имәргә% чык:имәргә% чык V-IV-AR ; ! "to be admitted to ewes or cows for sucking (of lambs and calves)" Use/MT
 имзала:имзала V-TV-IR ; ! ""

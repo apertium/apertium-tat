@@ -991,13 +991,12 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 
 ! Verbal adverbs
 %<gna_perf%>:%>%{I%}п CLITICS-NO-COP ;
-! FIXME CHECK correct default for negative
 %<neg%>%<gna_perf%>:%>м%{A%}%>%{E%}%>ч%{A%} CLITICS-NO-COP ;
 %<neg%>%<gna_perf%>:%>м%{A%}%>%{E%} CLITICS-NO-COP ;       ! Dir/LR
-! The following is dialectal, so Dir/LR restriction is correct
 %<neg%>%<gna_perf%>:%>м%{A%}енч%{A%} CLITICS-NO-COP ;      ! Dir/LR
 
 %<gna_until%>:%>%{G%}%{A%}нч%{I%} CLITICS-NO-COP ;
+%<gna_until%>:%>%{G%}%{A%}нч%{A%} CLITICS-NO-COP ; ! Dir/LR
 
 ! Verbal adjectives
 %<gpr_fut3%>:%>%{E%}с%{I%} V-ADJ ;
@@ -6862,6 +6861,7 @@ XXI NUM-ROMAN ; ! ""
 хаким:хаким N1 ; ! ""
 хаклык:хаклык N1 ; ! ""
 хак:хак N1 ; ! ""
+хак%<n%>%<px3sp%>%<nom%>:хакы # ; ! "" phon
 хакыйкать:хакыйкать N1 ; ! ""
 халәт:халәт N1 ; ! ""
 халык% төркеме:халык% төркем N-COMPOUND-PX ; ! ""

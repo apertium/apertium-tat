@@ -7683,6 +7683,7 @@ XXI NUM-ROMAN ; ! ""
 бине%<n%>%<px3sp%>%<nom%>:бине # ; ! "son of"
 бинт%<n%>%<px3sp%>%<nom%>:бинт # ; ! "daughter of"
 бинт%<n%>%<px3sp%>%<nom%>:бинте # ; ! "daughter of" Dir/LR
+бул:ул V-IV-IR ; ! "" Dir/LR
 бул%<v%>%<iv%>%<ger%>%<nom%>:улмак # ; ! "" Use/MT Dir/LR
 бул%<v%>%<iv%>%<gna_perf%>:булып # ; ! "" Use/MT Dir/LR
 бул%<v%>%<iv%>%<gpr_past%>:улан # ; ! "" Use/MT Dir/LR

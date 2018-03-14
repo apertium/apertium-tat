@@ -1,0 +1,157 @@
+
+# Constraint grammar disambiguation rules for translating Tatar metrical books.
+# Invoked after apertium-tat.tat.rlx to reduce ambiguity to 0 in a way suitable
+# for this particular domain.
+
+# ========== #
+# Delimiters #
+# ========== #
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+SUBREADINGS = LTR ;
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+SETS
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+# First-level/Parts-of-speech tags
+# ================================
+
+LIST A = adj ;
+LIST Adv = adv ;
+LIST Pron = prn ;
+LIST N = n ;
+LIST Prop = np ;
+LIST V = v ;
+LIST Vaux = vaux ;
+LIST Cop = cop ;
+LIST Det = det ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Interj = ij ;
+LIST Num = num ;
+LIST Post = post ;
+LIST Postadv = postadv ;
+LIST Mod_ass = mod_ass ;
+LIST Sent = sent ;
+LIST Cm = cm ;
+LIST Rquot = rquot ;
+
+# POS sub-categories
+# ==================
+
+LIST Pers = pers ;
+LIST Dem = dem;
+LIST Interr = itg ;
+LIST Cog = cog ;
+LIST Ant = ant ;
+
+# "Syntactic" tags
+# ================
+
+LIST Advl = advl ;
+LIST Attr = attr ;
+LIST Subst = subst ;
+
+# Morphosyntactic properties   # if you find yourself embracing the same tag in
+# ==========================   # brackets over and over again, you may want to
+                               # add it here
+
+LIST Sg = sg ;
+LIST Pl = pl ;
+
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Abl = abl ;
+LIST Loc = loc ;
+
+LIST P1 = p1 ;
+LIST P2 = p2 ;
+LIST P3 = p3 ;
+
+LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
+
+LIST Pres = pres ;
+LIST Inf = inf ;
+LIST TV = tv ;
+LIST Opt = opt ;
+LIST Imp = imp ;
+
+LIST Coop = coop ;
+LIST Frm = frm ;
+
+# Postpositions
+# =============
+
+LIST PostGoverningDat = "күрә" ;
+
+# Verb sets
+# =========
+
+LIST FiniteVerb = pres past ifi  fut fut2 imp opt;
+
+LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ;
+LIST Ger6 = ger6 ;
+LIST Ger_past = ger_past ;
+
+LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
+LIST Prc_impf = prc_impf ;
+
+LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
+LIST Gna_cond = gna_cond ;
+
+LIST Gpr_fut = gpr_fut ;
+LIST Gpr_past = gpr_past ;
+
+LIST Bar-etc = ("бар" adj) ("юк" adj) ("күп" adj) ;
+
+# All possible word categories
+# ============================
+
+SET WORD = N | V | A | Post | Postadv | Pron | Det | Adv | CC | CS | Interj |
+           Num | ("\?") ;
+
+SET PRE-N =  A | Det | Postadv | Num | (n gen) | (prn gen) | CC ;
+
+SET MARK =  Cm | ("\\") | ("\;") ;
+
+SET WORDMARK = WORD | MARK ;
+
+SET N-MOD = A | Det | Num | (n gen) | (prn gen) ;
+
+SET ADJ-MOD = Postadv | Adv ;
+
+SET NPMARK = N-MOD | ADJ-MOD ;
+
+SET NOMINAL = N | Prop | Pron | Subst | Gerund ;
+
+# Categories which cannot be part of a noun phrase
+# ================================================
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+
+# Barriers
+# ========
+
+SET S-BOUNDARY = CS | Interr | EOS;
+
+
+SECTION
+
+"<атасы>" SELECT N ;
+"<Атасы>" SELECT N ;
+"<яшендә>" SELECT N + ("яшь");
+"<исем>" SELECT N + ("исем");
+"<йөз>" SELECT Num;
+SELECT Prop; # IF (0 ("[:upper:]+[:lower:]*"r));

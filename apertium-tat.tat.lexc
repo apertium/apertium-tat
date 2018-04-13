@@ -635,12 +635,12 @@ CASES-COMMON ;
 %<abl%>:%>%{D%}%{A%}н CLITICS-INCL-COP ;
 %<loc%>:%>%{D%}%{A%} CLITICS-INCL-COP ;
 
-LEXICON CASES-WITHOUT-COPULAS
-
-CASES-COMMON ;
-%<nom%>: CLITICS-NO-COP ;
-%<abl%>:%>%{D%}%{A%}н CLITICS-NO-COP ;
-%<loc%>:%>%{D%}%{A%} CLITICS-NO-COP ;
+!LEXICON CASES-WITHOUT-COPULAS
+!
+!CASES-COMMON ;
+!%<nom%>: CLITICS-NO-COP ;
+!%<abl%>:%>%{D%}%{A%}н CLITICS-NO-COP ;
+!%<loc%>:%>%{D%}%{A%} CLITICS-NO-COP ;
 
 LEXICON ATTR-SUBST
 
@@ -714,10 +714,10 @@ LI-POSTPOSITION ;
 !! and make use of COMPARATIVE continuation class
 !==============================================================================!
 
-LEXICON COMPARATIVE
-
-%<comp%>:%>р%{A%}%{K%} CLITICS-NO-COP ;
-CLITICS-NO-COP ;
+!LEXICON COMPARATIVE
+!
+!%<comp%>:%>р%{A%}%{K%} CLITICS-NO-COP ;
+!CLITICS-NO-COP ;
 
 LEXICON A1                ! adjectives that can be both substantivized and andverbialized;
                           ! all three readings (<adj>, <adj.subst> and <adj.advl>) have comparison levels.
@@ -1555,12 +1555,12 @@ LEXICON NP-COG-OB
 
 NP-COG-OBIN-FEM ;
 
-LEXICON NPCOGFLEX
-
-! This isn't used at the moment,
-! but e.g. ?Polish cognoms ending with -ска would take this cont.class /I.S./ 
-
-%<np%>%<cog%>%<f%>: CASES ;
+!LEXICON NPCOGFLEX
+!
+!! This isn't used at the moment,
+!! but e.g. ?Polish cognoms ending with -ска would take this cont.class /I.S./ 
+!
+!%<np%>%<cog%>%<f%>: CASES ;
 
 LEXICON NP-PAT-VICH
 

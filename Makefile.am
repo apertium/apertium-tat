@@ -174,7 +174,7 @@ if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
 endif # HAVE_HFSTOSPELL
 
-apertium_tat_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) $(LANG1).prob
+apertium_tat_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) $(LANG1).prob $(BASENAME).$(LANG1).mb.rlx
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc

@@ -1,4 +1,3 @@
-
 # ============================================================================ #
 #            A COMMENTARY ON FORMATTING OF MAJORITY OF RULES
 #              (read: a wannabe FORMATTING GUIDELINES)
@@ -101,6 +100,7 @@ SETS
 
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
+LIST Err/Orth = err_orth ;
 
 # First-level/Parts-of-speech tags
 # ================================
@@ -914,6 +914,9 @@ SECTION ############ HEURISTICS #####################
 # OUTPUT: ^күзләр/күз<n><pl><nom>$
  SELECT N + Pl IF
           (0 ("күз"i)) ;
+
+REMOVE SUB:1 Err/Orth ;
+REMOVE Err/Orth ;
 
 SECTION ########### MAPPING RULES ###############
 

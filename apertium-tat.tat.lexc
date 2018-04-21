@@ -1770,6 +1770,8 @@ COP-I ; ! ""
 да:дә CC ; ! "" Dir/LR
 да:тә CC ; ! "" Dir/LR
 ни:ни CC ; ! "neither... , nor ... (x2)"
+плүс:плүс CC ; ! ""
+плүс:плюс CC ; ! "" Dir/LR
 түгел:түгел CC ; ! "not only, but also/even" #! Кеше түгел, эт тә чыдамас. FIXME:CHECK Use/MT
 шулай% ук:шулай% ук CC ; ! "likewise"
 һәм:һәм CC ; ! "and"
@@ -26736,6 +26738,7 @@ Witness:Witness NP-AL ; ! ""
 һәрвакыт:һәрвакыт ADV ; ! "always"
 һәрдаим:һәрдаим ADV ; ! "always"
 һәркайчан:һәркайчан ADV ; ! ""
+хәзер% үк:хәзер% үк ADV ; ! "right away" Use/MT
 хәтта:хәтта ADV ; ! "too"
 һич:һич ADV ; ! ""
 һичшиксез:һичшиксез ADV ; ! ""

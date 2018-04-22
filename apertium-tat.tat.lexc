@@ -1031,9 +1031,9 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Imperatives
 %<imp%>%<p2%>%<sg%>: CLITICS-AFTER-IMP-SG ;
-%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
-%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}г%{I%}з  CLITICS-AFTER-IMP-PL ;
 
 ! Optative/jussive forms
 

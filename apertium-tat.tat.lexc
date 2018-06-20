@@ -114,6 +114,7 @@
 %<ord%>       ! Ordinal
 %<coll%>      ! Collective  !# берәү, икәү
 %<dist%>      ! Distibutive !# берәр, икешәр
+%<y%>      ! e-ple:six-year-old
 
 ! Verbal features
 
@@ -1582,6 +1583,8 @@ LEXICON NP-AL
 LEXICON NUM
 
 %<num%>: # ;
+%<num%>%<y%>:%>% еллык # ; !"NEED I FIX"
+%<num%>%<y%>:%>ьеллык # ; !"NEED I FIX"
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} FULL-NOMINAL-INFLECTION ;

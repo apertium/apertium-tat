@@ -21,3 +21,4 @@
 /tat.automorf.hfst
 /tat.rlx.bin
 /tat.zhfst
+/tests/morphotactics/*.txt.gz

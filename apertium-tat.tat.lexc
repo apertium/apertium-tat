@@ -224,7 +224,7 @@
 %<qst%>       ! Modal question particle
               !# м{I}
 %<emph%>      ! Emphasizing modal particle
-              !# -ч{I}, -с{A}н{A}
+              !# -ч{I}, -с{A}н{A}, әле
 %<mod_ass%>   ! Assertive modal particle
 %<mod_ind%>   ! Indefinite modal particle (expresses doubt)
 
@@ -1672,6 +1672,10 @@ LEXICON MOD-IND
 
 %<mod_ind%>: # ;
 
+LEXICON EMPH
+
+%<emph%>: # ;
+
 LEXICON INTERJ
 
 %<ij%>: # ;
@@ -1695,28 +1699,10 @@ LEXICON ABBR
 !======================!
 
 
-! FIXME: consider "әле" and "әллә"
-!
-! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
-!     Russian "-ка" (e.g. "скажи-ка") - e.g. "әйт әле", "кайтыйк әле";           ?>> <mod_foc>
-! #2 Нәрсә булды соң әле? = Что же случилось?
-!
-! #4 Күрешербез әле. = Еще увидимся.
-!
-! #3 Әле кичә генә. = Еще вчера; Только вчера.
-!
-! But if for all above examples "әлі <-> әле" translation works, distinguishing between the meanings
-! might be not needed, we'll just have to choose an appropriate tag.
-!-----
-! "әллә" can appear both before and after the word it is related to:
-!
-! #1 "- Абау, миңа әллә нәрсә булган!"
-! #2 "Канатлы дигәч тә, мин кошмы әллә?"
-!-------------------------------------------------------------------
-
 ! Question modal particles
 ! ========================
 
+әллә:әллә QST ; ! "y/n question"
 мы:%~мы QST ; ! "y/n question" ! Dir/RL
 мы:мы QST ; ! "y/n question" ! Dir/LR
 мы:ме QST ; ! "y/n question" ! Dir/LR
@@ -1741,6 +1727,11 @@ LEXICON ABBR
 дыр:%~дыр MOD-IND ; ! "" ! Dir/RL
 дыр:дыр MOD-IND ; ! "" ! Dir/LR
 тыр:тыр MOD-IND ; ! "" ! Dir/LR
+
+! 'Emphasizing'/politeness modal particles
+! ========================================
+
+әле:әле EMPH ; ! ""
 
 
 !==============!
@@ -1798,6 +1789,7 @@ COP-I ; ! ""
 яки:яки CC ; ! "or"
 яхут:яхут CC ; ! ""
 әле:әле CC ; ! "то ... , то ... (х2) "
+әллә:әллә CC ; ! "либо ... , либо ... (х2) "
 
 ! Sub-ordinating conjunctions
 ! ===========================
@@ -28845,7 +28837,6 @@ Witness:Witness NP-AL ; ! ""
 әледән%-әле:әледән%-әле ADV ; ! ""
 әле:әле ADV ; ! "now"
 әле% һаман% да:әле% һаман% да ADV ; ! "still" Use/MT
-әллә:әллә  ADV ; ! ""
 әнә:әнә  ADV ; ! ""
 әрле%-бирле:әрле%-бирле ADV ; ! ""
 җәлт%-җәлт:җәлт%-җәлт ADV ; ! ""

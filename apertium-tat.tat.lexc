@@ -29117,7 +29117,6 @@ Witness:Witness NP-AL ; ! ""
 ! яшик	1107 !phon
 
 
-читләт:читләт V-TV-IR ; ! ""
 абай% бул:абай% бул V-IV-IR ; ! "cautious,attentive,beware"
 абайла:абайла V-TV-IR ; ! "cautious,attentive,beware"
 абаланып% йөр:абаланып% йөр V-IV-IR ; ! "crawl,creep"
@@ -29269,6 +29268,7 @@ Witness:Witness NP-AL ; ! ""
 баш% как:баш% как V-IV-AR ; ! ""
 башкар:башкар V-TV-IR ; ! "исполнять,выполнять"
 башла:башла V-TV-IR ; ! "start,begin"
+башлан:башлан V-IV-IR ; ! "start,begin (начинаться)"
 башын% әйләндер:башын% әйләндер V-IV-IR ; ! "" Use/MT
 бел:бел V-TV-IR ; ! "know,understand"
 белдер:белдер V-TV-IR ; ! "значить" FIXME NOTE caus
@@ -30413,6 +30413,7 @@ Witness:Witness NP-AL ; ! ""
 чирлән:чирлән V-IV-IR ; ! ""
 чирт:чирт V-TV-IR ; ! ""
 чистарт:чистарт V-TV-IR ; ! "to sift (grain)"
+читләт:читләт V-TV-IR ; ! ""
 читләш:читләш V-IV-IR ; ! "loose the habbit"
 чиш:чиш V-TV-AR ; ! ""
 чиялән:чиялән V-IV-IR ; ! "to be tightly tied"

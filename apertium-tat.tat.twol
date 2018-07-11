@@ -62,8 +62,8 @@ Rules
       [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
     [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
            except
-                 [ :BackVow й:0 :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
-                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
+                 [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
+!                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен
 
 !                                    [ %{ъ%}: ]/[ %>: ] _ ;
 !                 :FrontVow :л %>: :л _ р ;   ! WTF is this for?
@@ -176,6 +176,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
                          %{A%}:/[ %>: | :0 ] _ ;
                [ е: | ә: ] [ %>: | %{A%}: ]* _ ;
                 [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
+               [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
 
 "Turn {E} into й after a vowel"
 %{E%}:й <=> [ :Vow - :FrontVow ]/[ %>: | :0 ] _ ;

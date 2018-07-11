@@ -2242,6 +2242,7 @@ XXI NUM-ROMAN ; ! ""
 абзар N1 ; ! ""
 абзац:абзац N1 ; ! ""
 абзый:абзый N1 ; ! ""
+субүләр:субүләр N1 ; ! "" ! FIXME: Check this Ilnar!
 абзыкай:абзыкай N1 ; ! ""
 абонемент:абонемент N1 ; ! ""
 абонент:абонент N1 ; ! ""
@@ -28553,6 +28554,7 @@ Witness:Witness NP-AL ; ! ""
 
 аналык:аналык A1 ; ! ""
 аңлашылмаган:аңлашылмаган A1 ; ! ""
+килешенгән:килешенгән A1 ; ! "" ! Use/MT ! FIXME: Ilnar check this!
 атып% алынган:атып% алынган A1 ; ! ""
 ачык% төсле:ачык% төсле A1 ; ! ""
 байтак% зур:байтак% зур A1 ; ! ""
@@ -29268,6 +29270,8 @@ Witness:Witness NP-AL ; ! ""
 бел:бел V-TV-IR ; ! "know,understand"
 белдер:белдер V-TV-IR ; ! "значить" FIXME NOTE caus
 белеш:белеш V-TV-IR ; ! "наводить справки"
+килеш:килеш V-TV-NOPASS-IR ; ! "" ! Der/coop ! FIXME: Ilnar, check this!
+килеш:килешен V-TV-PASS-IR ; ! "" ! Der/coop ! FIXME: Ilnar, check this!
 берек:берек V-IV-IR ; ! ""
 беркет:беркет V-TV-IR ; ! "lock,fasten"
 берләш:берләш V-IV-IR ; ! ""

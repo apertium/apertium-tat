@@ -164,6 +164,8 @@ LIST P3 = p3 ;
 
 LIST PersonalPossessives = px1sg px2sg px3sp px1pl px2pl ;
 
+LIST Px1Sg = px1sg ;
+
 LIST Pres = pres ;
 LIST Inf = inf ;
 LIST TV = tv ;
@@ -914,6 +916,10 @@ SECTION ############ HEURISTICS #####################
 # OUTPUT: ^күзләр/күз<n><pl><nom>$
  SELECT N + Pl IF
           (0 ("күз"i)) ;
+
+# Бу — Җир шарын экватор буенча бер ярым тапкыр әйләнеп чыгарга җитәрлек.
+
+"<ярым>"i SELECT N - Px1Sg IF (-1 Num) ;
 
 REMOVE SUB:1 Err/Orth ;
 REMOVE Err/Orth ;

@@ -169,6 +169,9 @@
 %<gna_after%> ! -{G}{A}ч
               ! (name covers only the temporal meaning of it, form has more)
               !# "Берәү, патша йортын күреп _кайткач_, үз өенә ут төрткән, ди.";
+%<gna_neg%> ! -м{A}ст{A}н
+            !# "Рөхсәтне дә көтеп тормастан, бүлмәгә керде."
+	    ! Similar meaning to <neg><gna_perf> form.
 
 !!! Verbal adjectives ! Сыйфат фигыльләр ! Глагольные причастия
 %<gpr_past%>  ! -{G}{A}н
@@ -998,6 +1001,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE       ! Either irregular negative form or
 
 %<gna_until%>:%>%{G%}%{A%}нч%{I%} CLITICS-NO-COP ;
 %<gna_until%>:%>%{G%}%{A%}нч%{A%} CLITICS-NO-COP ; ! Dir/LR
+
+%<gna_neg%>:%>м%{A%}ст%{A%}н CLITICS-NO-COP ;
 
 ! Verbal adjectives
 %<gpr_fut3%>:%>%{E%}с%{I%} V-ADJ ;

@@ -51247,6 +51247,8 @@ Witness:Witness NP-AL ; ! ""
 ! "Interrogative adverbs", "pronoun-adverbs"
 ! ==========================================
 
+биредә:биредә  ADV;!""! FIXME: Ilnar check this!
+
 ! Better classification/implementation possible
 шулай% итеп:шулай% итеп ADV ; ! "" ! Use/MT
 алай:алай ADV ; ! ""

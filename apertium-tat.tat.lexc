@@ -1076,6 +1076,9 @@ LEXICON V-IV-IR
 %<v%>%<iv%>: V-COMMON ;
 %<v%>%<iv%>: V-FUT-IR ;
 %<v%>%<iv%>: V-DER ;
+%<v%>%<tv%>: V-COMMON ; ! Dir/RL (for translating into Tatar)
+%<v%>%<tv%>: V-FUT-IR ; ! Dir/RL (for translating into Tatar)
+%<v%>%<tv%>: V-DER ;    ! Dir/RL (for translating into Tatar)
 
 LEXICON V-TV-NOPASS-IR
 
@@ -1103,6 +1106,9 @@ LEXICON V-IV-AR
 %<v%>%<iv%>: V-FUT-AR ;
 %<v%>%<iv%>: V-FUT-IR ; ! Dir/LR
 %<v%>%<iv%>: V-DER ;
+%<v%>%<tv%>: V-COMMON ; ! Dir/RL (for translating into Tatar)
+%<v%>%<tv%>: V-FUT-AR ; ! Dir/RL (for translating into Tatar)
+%<v%>%<tv%>: V-DER ;    ! Dir/RL (for translating into Tatar)
 
 LEXICON V-TV-AR
 
@@ -21462,7 +21468,6 @@ XXI NUM-ROMAN ; ! ""
 махорка:махорка N1 ; ! ""
 сей:сей N1 ; ! ""
 агарту:агарту N1 ; ! ""
-халык:халык N1 ; ! ""
 кыяк:кыяк N1 ; ! ""
 чалгы:чалгы N1 ; ! ""
 пешка:пешка N1 ; ! ""

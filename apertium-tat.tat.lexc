@@ -650,7 +650,11 @@ LEXICON ATTR-SUBST
 
 %<attr%>: # ;
 %<subst%>: CASES ;
+%<subst%>: POSSESSIVES ;
 %<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р POSSESSIVES ;
+
+%<attr%>: GENERAL-POSSESSIVE-ETC ;
 
 LEXICON GENERAL-POSSESSIVE-ETC
 
@@ -665,7 +669,11 @@ LEXICON GENERAL-POSSESSIVE-ETC
 %<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
 %<px%>%<pl%>:%>н%{I%}к%{I%}%>л%{A%}р CASES ;
 %<loc%>:%>%{D%}%{A%}г%{I%} ATTR-SUBST ;
-%<sim%>:%>%{D%}%{A%}й CLITICS-NO-COP ;
+%<sim%>:%>%{D%}%{A%}й CLITICS-INCL-COP ;
+%<sim%>:%>%{D%}%{A%}й POSSESSIVES ;
+%<sim%>:%>%{D%}%{A%}й CASES ;
+%<sim%>:%>%{D%}%{A%}й PLURAL ;
+%<advl%>:%>ч%{A%} CLITICS-NO-COP ;
 
 LEXICON CASES-ETC
 

@@ -203,6 +203,8 @@ LIST Bar-etc = ("бар" adj) ("юк" adj) ("күп" adj) ;
 # All possible word categories
 # ============================
 
+LIST UNK = "\\*.*"r ;
+
 SET WORD = N | V | A | Post | Postadv | Pron | Det | Adv | CC | CS | Interj |
            Num | ("\?") ;
 
@@ -364,6 +366,7 @@ SECTION ########## PART-OF-SPEECH MARKING ##########
 #
  REMOVE Post IF
         (NOT -1 NOMINAL)
+        (NOT -1 UNK)
         (NOT -1 ("белән")) ;
 ## песи белән [0]бергә
 
@@ -928,7 +931,7 @@ SECTION ########### MAPPING RULES ###############
 
 
 LIST @→N = @→N ; 
-LIST @ADVL→ = @ADVL→ ; 
+LIST @ADVL→ = @ADVL→ ;  # obl:own
 
 # INPUT:
 # OUTPUT: 

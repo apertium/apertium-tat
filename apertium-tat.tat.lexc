@@ -114,7 +114,6 @@
 %<ord%>       ! Ordinal
 %<coll%>      ! Collective  !# берәү, икәү
 %<dist%>      ! Distibutive !# берәр, икешәр
-%<y%>      ! e-ple:six-year-old
 
 ! Verbal features
 
@@ -1602,8 +1601,6 @@ LEXICON NP-AL
 LEXICON NUM
 
 %<num%>: # ;
-%<num%>%<y%>:%>% еллык # ; !"NEED I FIX"
-%<num%>%<y%>:%>ьеллык # ; !"NEED I FIX"
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} FULL-NOMINAL-INFLECTION ;
@@ -52939,6 +52936,7 @@ Witness:Witness NP-AL ; ! ""
 дерелдә:дерелдә V-IV-IR ; ! "дрожать,трястись,трепетать"
 дәвала:дәвала V-TV-IR ; ! ""
 дәвам% ит:дәвам% ит V-TV-AR ; ! ""
+дәвам% иттер:дәвам% иттер V-TV-AR ; ! "" ! Use/MT ! Der/Caus
 дәлиллә:дәлиллә V-TV-IR ; ! "prove"
 дәртләндер:дәртләндер V-TV-IR ; ! "to inspire"
 дәфен% бул:дәфен% бул V-IV-IR ; ! "" Use/MT

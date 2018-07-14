@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 for test in tests/morphophonology/*.yaml ; do
-    aq-morftest -i "$test" > /dev/null
+    /usr/local/bin/aq-morftest -i "$test" > /dev/null
     if [ $? -eq 0 ]; then
         echo "$test passed"
     else echo "$test failed"

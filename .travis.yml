@@ -2,8 +2,20 @@ dist: trusty
 before_install:
     - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
     - sudo apt-get install hfst apertium lttoolbox apertium-dev lttoolbox-dev libhfst-dev cg3
+    - wget https://gist.githubusercontent.com/IlnarSelimcan/87efbbe8a569833e68e89b126836e2bc/raw/1b361a627c5024a8b88dd686784eaf5ef4f82970/install-apertium-quality.sh -O - | sudo bash
 script:
+    - export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.6/site-packages
     - ./autogen.sh
-    - ./configure
     - make
     - make check
+notifications:
+    irc:
+        channels:
+            - "chat.freenode.net#apertium"
+        on_failure: change
+        on_success: never
+    email:
+        recipients:
+            - ilnar.salimzianov@posteo.de
+        on_failure: always
+        on_success: never

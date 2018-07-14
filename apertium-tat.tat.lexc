@@ -114,7 +114,6 @@
 %<ord%>       ! Ordinal
 %<coll%>      ! Collective  !# берәү, икәү
 %<dist%>      ! Distibutive !# берәр, икешәр
-%<y%>      ! e-ple:six-year-old
 
 ! Verbal features
 
@@ -650,7 +649,11 @@ LEXICON ATTR-SUBST
 
 %<attr%>: # ;
 %<subst%>: CASES ;
+%<subst%>: POSSESSIVES ;
 %<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р POSSESSIVES ;
+
+%<attr%>: GENERAL-POSSESSIVE-ETC ;
 
 LEXICON GENERAL-POSSESSIVE-ETC
 
@@ -665,7 +668,11 @@ LEXICON GENERAL-POSSESSIVE-ETC
 %<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
 %<px%>%<pl%>:%>н%{I%}к%{I%}%>л%{A%}р CASES ;
 %<loc%>:%>%{D%}%{A%}г%{I%} ATTR-SUBST ;
-%<sim%>:%>%{D%}%{A%}й CLITICS-NO-COP ;
+%<sim%>:%>%{D%}%{A%}й CLITICS-INCL-COP ;
+%<sim%>:%>%{D%}%{A%}й POSSESSIVES ;
+%<sim%>:%>%{D%}%{A%}й CASES ;
+%<sim%>:%>%{D%}%{A%}й PLURAL ;
+%<advl%>:%>ч%{A%} CLITICS-NO-COP ;
 
 LEXICON CASES-ETC
 
@@ -1594,8 +1601,6 @@ LEXICON NP-AL
 LEXICON NUM
 
 %<num%>: # ;
-%<num%>%<y%>:%>% еллык # ; !"NEED I FIX"
-%<num%>%<y%>:%>ьеллык # ; !"NEED I FIX"
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} # ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} FULL-NOMINAL-INFLECTION ;
@@ -18099,11 +18104,11 @@ XXI NUM-ROMAN ; ! ""
 уку% йорты:уку% йорт N-COMPOUND-PX ; ! "" Use/MT
 ук:ук N1 ; ! ""
 уку%-укыту:уку%-укыту N1 ; ! "" Use/MT
-!!!укучы:укучы N1 ; ! ""
+укучы:укучы N1 ; ! ""
 укылыш:укылыш N1 ; ! ""
 укыту:укыту N1 ; ! ""
-!!!укытучы% апа:укытучы% апа N1 ; ! "" Use/MT
-!!!укытучы:укытучы N1 ; ! ""
+укытучы% апа:укытучы% апа N1 ; ! "" Use/MT
+укытучы:укытучы N1 ; ! ""
 уллык:уллык N1 ; ! ""
 ул:ул N1 ; ! ""
 умарта:умарта N1 ; ! ""
@@ -53369,6 +53374,7 @@ Witness:Witness NP-AL ; ! ""
 махсуслаштыр:махсуслаштыр V-TV-IR ; ! ""
 машиналаштыр:машиналаштыр V-TV-IR ; ! "mechanize"
 межала:межала V-TV-IR ; ! "draw a boundary line"
+менгер:менгер V-TV-IR ; ! "" caus
 менгез:менгез V-TV-IR ; ! "" caus
 мен:мен V-IV-AR ; ! ""
 мәгълүматлаштыр:мәгълүматлаштыр V-TV-IR ; ! ""

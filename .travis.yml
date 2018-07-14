@@ -4,6 +4,7 @@ before_install:
     - sudo apt-get install hfst apertium lttoolbox apertium-dev lttoolbox-dev libhfst-dev cg3
     - wget https://gist.githubusercontent.com/IlnarSelimcan/87efbbe8a569833e68e89b126836e2bc/raw/1b361a627c5024a8b88dd686784eaf5ef4f82970/install-apertium-quality.sh -O - | sudo bash
 script:
+    - export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.6/site-packages
     - ./autogen.sh
     - make
     - make check

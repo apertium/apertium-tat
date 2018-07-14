@@ -206,3 +206,5 @@ test: all
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
+check: all
+	cd tests/morphophonology/; bash run_all.sh

@@ -2036,7 +2036,7 @@ InterrogativePronouns ;
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
 һични:һични PRNNEG ; ! ""
 
-бер%-бер:бер%-бер PRON-RECIP ; ! "each-other, one another"
+бер%-бере:бер%-бер PRON-RECIP ; ! "each-other, one another"
 
 үз:үз PRON-REF ; ! "self"
 

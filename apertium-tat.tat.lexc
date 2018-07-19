@@ -65,8 +65,6 @@
 %<px2pl%>     ! Second person singular
 %<px3pl%>     ! Third person plural (for reflexive)
 
-%<px%>        ! General possessive               !# н{I}к{I} (-ныкы/-неке)
-
 ! Cases ! Килешләр ! Падежи
 %<nom%>       ! Nominative ! Баш килеш         ! Именительный
 %<gen%>       ! Genitive   ! Иялек килеше      ! Родительный
@@ -665,8 +663,8 @@ LEXICON GENERAL-POSSESSIVE-ETC
 ! duplicating possessives as well.
 !------------------------------------------------------------------------------!
 
-%<px%>:%>н%{I%}к%{I%}%{n%} CASES ;
-%<px%>%<pl%>:%>н%{I%}к%{I%}%>л%{A%}р CASES ;
+%<gen%>%<subst%>:%>н%{I%}к%{I%}%{n%} CASES ;
+%<gen%>%<subst%>%<pl%>:%>н%{I%}к%{I%}%>л%{A%}р CASES ;
 %<loc%>:%>%{D%}%{A%}г%{I%} ATTR-SUBST ;
 %<sim%>:%>%{D%}%{A%}й CLITICS-INCL-COP ;
 %<sim%>:%>%{D%}%{A%}й POSSESSIVES ;

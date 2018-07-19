@@ -121,6 +121,7 @@ LIST Num = num ;
 LIST Post = post ;
 LIST Postadv = postadv ;
 LIST Mod_ass = mod_ass ;
+LIST Mod = mod_ass mod_ind ;
 LIST Sent = sent ;
 LIST Cm = cm ;
 LIST Rquot = rquot ;
@@ -280,12 +281,17 @@ SECTION ########## COPULAS ##########
         (NOT -2 BOS); # Бу<v>/<det> уен.
 ## дип җавап бирә [0]әнисе.
 
+# Get rid of all the non-lexicalised readings
+"<кайчандыр>" SELECT Adv - Interr ;  
+## Нәни принц кайчандыр, шәфәкъне бик күрәсе килгән чакларда, урындыкны бер урыннан икенче урынга күчереп йөрткәнен исенә төшерә, һәм аның дустына ярдәм итәсе килә.
+
 # FIXME this rule mispredicts a lot (or, rather, block other rules selecting
 # a non-copula reading)
  SELECT Sub:1 Cop IF
         (NOT -1 BOS)                     # Single-word phrases like "Декабрь."
         (NOT 0 Mod_ass OR Interj OR ("соң"i) OR ("ул"i))
         (NOT 0 V OR Vaux)
+        (NOT 0C Adv) 
         (1 EOS OR MARK) ;
 ## TODO (!) 13 . [0]Жоқ, Айгүлдің күшігі жоқ, оның мысығы бар.
 ## TODO (!) Дұрыс, оның мысығы бар.

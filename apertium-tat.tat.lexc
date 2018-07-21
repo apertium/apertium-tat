@@ -2206,36 +2206,10 @@ InterrogativePronouns ;
 кырык:кырыгау NUM-COLL ; ! ""
 йөз:йөзәү NUM-COLL ; ! ""
 
-I:I NUM-ROMAN ; ! ""
-II:II NUM-ROMAN ; ! ""
-III:III NUM-ROMAN ; ! ""
-IV:IV NUM-ROMAN ; ! ""
-V:V NUM-ROMAN ;  ! ""
-VI:VI NUM-ROMAN ; ! ""
-VII:VII NUM-ROMAN ; ! ""
-VIII:VIII NUM-ROMAN ; ! ""
-IX:IX NUM-ROMAN ; ! ""
-X:X NUM-ROMAN ; ! ""
-XI:XI NUM-ROMAN ; ! ""
-XII:XII NUM-ROMAN ; ! ""
-XIII:XIII NUM-ROMAN ; ! ""
-XIV:XIV NUM-ROMAN ; ! ""
-XV:XV NUM-ROMAN ; ! ""
-XVI:XVI NUM-ROMAN ; ! ""
-XVII:XVII NUM-ROMAN ; ! ""
-XVIII:XVIII NUM-ROMAN ; ! ""
-XIX:XIX NUM-ROMAN ; ! ""
-XX:XX NUM-ROMAN ; ! ""
-XXI:XXI NUM-ROMAN ; ! ""
-XXVI:XXVI NUM-ROMAN ; ! ""
-XXVII:XXVII NUM-ROMAN ; ! ""
-XXIV:XXIV NUM-ROMAN ; ! ""
-XXII:XXII NUM-ROMAN ; ! ""
-XXIII:XXIII NUM-ROMAN ; ! ""
-
-
 ничә:ничә NUM-ITG ;
 ничә:ничәү NUM-ITG-COLL ;
+
+<(M | D | C | L | X | V | I)+> NUM-ROMAN ; ! ""
 
 
 !=============!

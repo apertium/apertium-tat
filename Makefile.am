@@ -208,3 +208,12 @@ test: all
 
 check: all
 	cd tests/morphophonology/; bash run_all.sh
+
+###############################################################################
+## Preprocessor (experimental)
+###############################################################################
+
+render: apertium-tat.tat.lexc
+	printf "#lang pollen\n" > apertium-tat.tat.lexc.pp
+	cat apertium-tat.tat.lexc | sed 's/!◊/◊/g' >> apertium-tat.tat.lexc.pp
+	raco pollen render apertium-tat.tat.lexc.pp

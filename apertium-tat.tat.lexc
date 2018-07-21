@@ -80,6 +80,7 @@
               !# SIZ (-сыз/-сез) (not used after posessives and cases)
 %<reas%>      ! not used rigth now, just in case for
               !# LIKTAN
+%<equ%>       ! -ЧА
 
 ! Levels of comparison of adj. ! Сыйфат дәрәҗәләре ! Степени сравнения прилаг-х
 %<comp%>      ! Comparative  ! Чагыштыру дәрәҗәсе ! Сравнительная степень
@@ -670,7 +671,7 @@ LEXICON GENERAL-POSSESSIVE-ETC
 %<sim%>:%>%{D%}%{A%}й POSSESSIVES ;
 %<sim%>:%>%{D%}%{A%}й CASES ;
 %<sim%>:%>%{D%}%{A%}й PLURAL ;
-%<advl%>:%>ч%{A%} CLITICS-NO-COP ;
+%<equ%>:%>ч%{A%} CLITICS-INCL-COP ;
 
 LEXICON CASES-ETC
 

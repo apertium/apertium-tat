@@ -1317,7 +1317,7 @@ LEXICON PRON-DEM-TEGE
 теге%<prn%>%<dem%>%<nom%>:теге CLITICS-INCL-COP ;
 теге%<prn%>%<dem%>%<gen%>:тегенең CLITICS-NO-COP ; 
 теге%<prn%>%<dem%>%<dat%>:тегеңә CLITICS-NO-COP ;
-теге%<prn%>%<dem%>%<acc%>:тегене2 CLITICS-NO-COP ; 
+теге%<prn%>%<dem%>%<acc%>:тегене CLITICS-NO-COP ; 
 теге%<prn%>%<dem%>%<abl%>:тегеннән CLITICS-INCL-COP ;
 теге%<prn%>%<dem%>%<loc%>:тегендә CLITICS-INCL-COP ; 
 теге%<prn%>%<dem%>%<px%>:тегенеке%{n%} CASES ;

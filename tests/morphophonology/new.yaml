@@ -1,0 +1,12 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  tat.autogen.hfst
+    Morph:  tat.automorf.hfst
+
+Tests: 
+
+  "selimcan.org": 
+     исәнмесез<ij> : исәнмесез
+
+

@@ -1,6 +1,5 @@
 
 
-[![Build Status](https://travis-ci.org/apertium/apertium-tat.svg)](https://travis-ci.org/apertium/apertium-tat)
+A morphological analyzer for Tatar.
 
-See instead:
-- http://wiki.apertium.org/wiki/Apertium-tat
+More info at http://wiki.apertium.org/wiki/Apertium-tat

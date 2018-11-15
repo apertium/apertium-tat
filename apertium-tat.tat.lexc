@@ -66469,15 +66469,15 @@ UTC:UTC ABBR ; ! ""
 %‟%<lquot%>:%‟ # ;
 %(%<lpar%>:%( # ;
 %)%<rpar%>:%) # ;
-%]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
+%]%<rpar%>:%] # ;
 %{%<lpar%>:%{ # ;
-%}%<lpar%>:%} # ;
+%}%<rpar%>:%} # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
 
 ! TODO: testing
-%*%<asterisk%>:%* # ; ! TODO: Doesn't work
+%*%<asterisk%>:%* # ; ! TODO: Doesn't work: ^*/*$
 %@%<at%>:%@ # ;
 %~%<tilde%>:%~ # ;
 %_%<lline%>:%_ # ;
@@ -66487,7 +66487,7 @@ UTC:UTC ABBR ; ! ""
 %|%<vline%>:%| # ;
 
 
-<( %* | %# | %№ | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT ! TODO: * (asterisk) doesn't work
+<( %* | %# | %№ | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT ! TODO: * (asterisk) doesn't work: ^*/*$
 
 LEXICON PUNCT
 

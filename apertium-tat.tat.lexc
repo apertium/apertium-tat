@@ -66437,32 +66437,57 @@ UTC:UTC ABBR ; ! ""
  LEXICON Punctuation
 !===================!
 
+! TODO: ^ > <        / -> ^///<sent>$
 
+
+,%<cm%>:, # ;
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;
 ...%<sent%>:... # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
+%?%<sent%>:%? # ;
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 %–%<guio%>:%– # ;
-,%<cm%>:, # ;
-%?%<sent%>:%? # ;
+%‐%<guio%>:%‐ # ;
+%﹣%<guio%>:%﹣ # ;
+%－%<guio%>:%－ # ;
+%֊%<guio%>:%֊ # ;
+%‑%<guio%>:%‑ # ;
+%‒%<guio%>:%‒ # ;
+%−%<guio%>:%− # ;
+%―%<guio%>:%― # ;
 %'%<apos%>:%' # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
 %»%<rquot%>:%» # ;
-%”%<rquot%>:%” # ;
 %“%<lquot%>:%“ # ;
+%”%<rquot%>:%” # ;
+%„%<lquot%>:%„ # ;
+%‟%<lquot%>:%‟ # ;
 %(%<lpar%>:%( # ;
+%)%<rpar%>:%) # ;
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
-%)%<rpar%>:%) # ;
+%{%<lpar%>:%{ # ;
+%}%<lpar%>:%} # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
 
-<( %* | %# | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT
+! TODO: testing
+%*%<asterisk%>:%* # ; ! TODO: Doesn't work
+%@%<at%>:%@ # ;
+%~%<tilde%>:%~ # ;
+%_%<lline%>:%_ # ;
+%€%<euro%>:%€ # ;
+%$%<dollar%>:%$ # ;
+%%%<percent%>:%% # ;
+%|%<vline%>:%| # ;
+
+
+<( %* | %# | %№ | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT ! TODO: * (asterisk) doesn't work
 
 LEXICON PUNCT
 

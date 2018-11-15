@@ -66437,9 +66437,8 @@ UTC:UTC ABBR ; ! ""
  LEXICON Punctuation
 !===================!
 
-! TODO: ^ > <        / -> ^///<sent>$
-
-
+! TODO: ^ > <
+! TODO: / -> ^///<sent>$
 ,%<cm%>:, # ;
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;
@@ -66479,15 +66478,16 @@ UTC:UTC ABBR ; ! ""
 ! TODO: testing
 %*%<asterisk%>:%* # ; ! TODO: Doesn't work: ^*/*$
 %@%<at%>:%@ # ;
-%~%<tilde%>:%~ # ;
+%~%<tilde%>:%~ # ; ! TODO: Doesn't work: ~
 %_%<lline%>:%_ # ;
 %€%<euro%>:%€ # ;
 %$%<dollar%>:%$ # ;
 %%%<percent%>:%% # ;
 %|%<vline%>:%| # ;
 
-
-<( %* | %# | %№ | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT ! TODO: * (asterisk) doesn't work: ^*/*$
+! TODO: * (asterisk) doesn't work here: ^*/*$
+! TODO: Do we need № here or above with a separate tag?
+<( %* | %# | %№ | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT
 
 LEXICON PUNCT
 

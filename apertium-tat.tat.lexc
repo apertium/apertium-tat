@@ -245,8 +245,17 @@
 %<lline%>     ! Low-line (_)
 %<euro%>      ! Euro sign (€)
 %<dollar%>    ! Dollar sign ($)
+%<pound%>     ! Pound sign (£)
+%<yen%>       ! Yen sign (¥)
 %<percent%>   ! Percent (%)
 %<vline%>     ! Vertical line (|)
+%<section%>   ! Section sign (§)
+%<copyright%> ! Copyright sign (©)
+%<registered%>! Registered sign (®)
+%<pilcrow%>   ! Pilcrow (¶)
+%<invquest%>  ! Inverted question mark (¿)
+%<multipl%>  ! Division sign (×)
+%<division%>  ! Division sign (÷)
 %<punct%>     ! Other
 
 %<phrase%>    ! For strings which probably belong to a TMX file instead
@@ -66489,12 +66498,21 @@ UTC:UTC ABBR ; ! ""
 %_%<lline%>:%_ # ;
 %€%<euro%>:%€ # ;
 %$%<dollar%>:%$ # ;
+%£%<pound%>:%£ # ;
+%¥%<yen%>:%¥ # ;
+%§%<section%>:%§ # ;
+%©%<copyright%>:%© # ;
+%®%<registered%>:%® # ;
+%¶%<pilcrow%>:%¶ # ;
+%¿%<invquest%>:%¿ # ;
+%×%<division%>:%× # ;
+%÷%<division%>:%÷ # ;
 %%%<percent%>:%% # ;
 %|%<vline%>:%| # ;
 
 ! TODO: * (asterisk) doesn't work here: ^*/*$
 ! TODO: Do we need № here or above with a separate tag?
-<( %* | %# | %№ | © | %+ | • | %& | = )+> PUNCT ; ! Use/MT
+<( %* | %# | %№ | %+ | • | %& | = )+> PUNCT ; ! Use/MT
 
 LEXICON PUNCT
 

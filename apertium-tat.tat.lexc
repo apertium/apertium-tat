@@ -234,10 +234,19 @@
 %<guio%>      ! Hyphen
 %<cm%>        ! Comma
 %<apos%>      ! Apostrophe
+%<quot%>      ! Quote marker (universal)
 %<rquot%>     ! Quote marker (right hand side)
 %<lquot%>     ! Quote marker (left hand side)
 %<rpar%>      ! Parenthetical marker (right hand side)
 %<lpar%>      ! Parenthetical marker (left hand side)
+%<asterisk%>  ! Asterisk-start (*)
+%<at%>        ! Commercial at (@)
+%<tilde%>     ! Tilde (~)
+%<lline%>     ! Low-line (_)
+%<euro%>      ! Euro sign (€)
+%<dollar%>    ! Dollar sign ($)
+%<percent%>   ! Percent (%)
+%<vline%>     ! Vertical line (|)
 %<punct%>     ! Other
 
 %<phrase%>    ! For strings which probably belong to a TMX file instead
@@ -66459,7 +66468,7 @@ UTC:UTC ABBR ; ! ""
 %−%<guio%>:%− # ;
 %―%<guio%>:%― # ;
 %'%<apos%>:%' # ;
-%"%<sent%>:%" # ;
+%"%<quot%>:%" # ;
 %«%<lquot%>:%« # ;
 %»%<rquot%>:%» # ;
 %“%<lquot%>:%“ # ;
@@ -66474,8 +66483,6 @@ UTC:UTC ABBR ; ! ""
 %}%<rpar%>:%} # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
-
-! TODO: testing
 %*%<asterisk%>:%* # ; ! TODO: Doesn't work: ^*/*$
 %@%<at%>:%@ # ;
 %~%<tilde%>:%~ # ; ! TODO: Doesn't work: ~

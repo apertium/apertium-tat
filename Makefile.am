@@ -207,7 +207,7 @@ test: all
 	@rm .test-ref .test-mt
 
 check: all
-	cd tests/morphophonology/; bash run_all.sh
+	bash tests/morphophonology/run_all.sh
 
 ###############################################################################
 ## Preprocessor (experimental)

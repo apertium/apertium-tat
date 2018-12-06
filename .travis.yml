@@ -1,11 +1,10 @@
 dist: xenial
 before_install:
     - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
-    - sudo apt-get install hfst apertium lttoolbox apertium-dev lttoolbox-dev libhfst-dev cg3 python3-setuptools python3-lxml
+    - sudo apt-get install hfst apertium lttoolbox apertium-dev lttoolbox-dev libhfst-dev cg3 python3-setuptools python3-lxml python3-libhfst
     - wget https://gist.githubusercontent.com/IlnarSelimcan/c726419d16a6802643626d1219730b41/raw/519488c12acde8eddb3acdac3b4f53bf53739838/install-apertium-quality.sh -O - | sudo bash
 script:
     - export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.6/site-packages
-    - wget https://gist.githubusercontent.com/IlnarSelimcan/05b3bd768a476307df5280af4c1411a7/raw/85b9931935a3e196f32b2ab5b42353a185df8a44/gistfile1.txt -O tests/morphophonology/test.py
     - ./autogen.sh
     - make
     - make check

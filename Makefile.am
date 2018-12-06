@@ -208,6 +208,7 @@ test: all
 
 check: all
 	cd tests/morphophonology/; python3 test.py tat; cd ../../
+	bash test-cov-on-wiki.sh
 
 ###############################################################################
 ## Preprocessor (experimental)

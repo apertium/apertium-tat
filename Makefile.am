@@ -207,7 +207,7 @@ test: all
 	@rm .test-ref .test-mt
 
 check: all
-	bash tests/morphophonology/run_all.sh
+	cd tests/morphophonology/; python3 test.py tat; cd ../../
 
 ###############################################################################
 ## Preprocessor (experimental)

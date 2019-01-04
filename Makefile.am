@@ -208,7 +208,10 @@ test: all
 
 check: all
 	cd tests/morphophonology/; python3 test.py tat; cd ../../
-	bash test-cov-on-wiki.sh
+	wget https://gist.githubusercontent.com/IlnarSelimcan/e997825f93c8b8384fb64c4a1b7a7a82/raw/test-cov-on-wiki.sh -O test-cov-on-wiki.sh
+	chmod +x test-cov-on-wiki.sh
+	LC_ALL=C.UTF-8 ./test-cov-on-wiki.sh tt 20181201 tat-morph
+
 
 ###############################################################################
 ## Preprocessor (experimental)

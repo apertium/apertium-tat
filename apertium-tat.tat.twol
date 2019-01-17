@@ -54,6 +54,9 @@ VoicedCns =  Б Д Г В З Ж
 CnsVoiceless = К П Т Ф Х Һ Ц Ч С Ш Щ
                к п т ф х һ ц ч с ш щ ;
 
+RusVclsCns = Б Д Г В Ж    ! FIXME: is Зз also part of the devoicing thing?
+             б д г в ж ;
+
 Rules 
 
 "A Vowel Harmony"
@@ -265,6 +268,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
+          [:RusVclsCns %{☭%}: ]/[ [ :0 - %{☭%}: ] | %  | :ь | :ъ ] _ ;
           where Cx in ( %{G%} %{D%} )
                 Cy in (   к     т   )
                 matched;

@@ -1,0 +1,25 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  tat.autogen.hfst
+    Morph:  tat.automorf.hfst
+
+Tests: 
+
+  "[twol] г behaves as voiceless":
+    бульдог<n><dat> : бульдогка
+ 
+  "[twol] ж behaves as voiceless":
+    багаж<n><dat> : багажка
+
+  "[twol] б behaves as voiceless":
+    клуб<n><dat> : клубка
+
+  "[twol] д behaves as voiceless":
+    гид<n><dat> : гидка
+
+  "[twol] в behaves as voiceless":
+    мотив<n><dat> : мотивка
+
+  "[twol] з behaves as voiceless":
+    гипофиз<n><dat> : гипофизка

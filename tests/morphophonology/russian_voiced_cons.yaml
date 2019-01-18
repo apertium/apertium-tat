@@ -10,7 +10,7 @@ Tests:
     бульдог<n><dat> : бульдогка
  
   "[twol] ж behaves as voiceless":
-    багаж<n><dat> : багажка
+    багаж<n><dat> : багажга
 
   "[twol] б behaves as voiceless":
     клуб<n><dat> : клубка
@@ -22,4 +22,4 @@ Tests:
     мотив<n><dat> : мотивка
 
   "[twol] з behaves as voiceless":
-    гипофиз<n><dat> : гипофизка
+    гипофиз<n><dat> : гипофизга

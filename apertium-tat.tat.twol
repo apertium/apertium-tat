@@ -54,8 +54,8 @@ VoicedCns =  Б Д Г В З Ж
 CnsVoiceless = К П Т Ф Х Һ Ц Ч С Ш Щ
                к п т ф х һ ц ч с ш щ ;
 
-RusVclsCns = Б Д Г В Ж    ! FIXME: is Зз also part of the devoicing thing?
-             б д г в ж ;
+RusVclsCns = Б Д Г В    ! Жж and Зз keep voiceless consonants after them
+             б д г в ;
 
 Rules 
 

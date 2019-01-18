@@ -61,8 +61,8 @@ Rules
 
 "A Vowel Harmony"
 %{A%}:ә <=>         [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
-                                                               [ ь: :Cns* ]/[ %>: | :0 ] _ ;
-      [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
+                                         [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: ] ] _ ; ! stems ending in e.g. ль
+        [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
     [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
            except
                  [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
@@ -74,16 +74,18 @@ Rules
 !                                      _ %>: %{E%}:й ;
                                                                     _ %>: %{E%}: ;
                                        [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
-            :Vow/:0 _ %{E%}:/:0 ;
- [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
-     .#. [ [ :я | :ю ] :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
+                                                            :Vow/:0 _ %{E%}:/:0 ;
+                               [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
+                        .#. [ [ :я | :ю ] :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
+           [ :о :Cns :Cns* ь:0 %{I%}:е :Cns :Cns* ]/[ :0 - [ ь: ] ] _ ; ! фасолена
+!   :о :л ь:0 %>: %{s%}: %{I%}:е %{n%}: %>: %{G%}: _
 
 
 "I Vowel Harmony"
 %{I%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
 !                                 [ :BackVow :Cns* й: ]/[ %>: | :0 ] _ ;
                                                              [ й: ]/[ %>: | :0 ] _ ;
-                                                  [ :Cns ь: :Cns* ]/[ %>: | :0 ] _ ;
+                                 [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: ] ] _ ;
 [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
                                           [ %{ь%}:0 :Cns* ]/[ [ :0 - %{ь%}:0 ] ] _ ;
                               [ [ :Vow %{j%}: ] | й: ]/[ %>: | [ :0 - %{j%}: ] ] _ ; ! ай>{s}{I}:ае
@@ -92,11 +94,12 @@ Rules
                                                                    ! ди{j}>{E}:ди
             .#. :д :и %>: _ ;
             except
-                 [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
-                                                     %{n%}: %>: н:0 _ .#. ;
+            [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
+                                                  %{n%}: %>: н:0 _ .#. ;
 !                             [ :у :е :Cns* :Cns ]/[ %>: | %  | :0 ] _ ; !# уен, муен, куен  ! this is taken care of above by :BackVow (й:0) :AmbigVow
-                             [? - :д ] [ :Vow - [ :Cns | :и ] ]/[ [ :0 - й: ] | %>: ] _ ; ! avoid conflict with {I} deletion
-                                          .#. :д :и %>: _ [ :п | :ң ];
+        [? - :д ] [ :Vow - [ :Cns | :и ] ]/[ [ :0 - й: ] | %>: ] _ ; ! avoid conflict with {I} deletion
+                                                   .#. :д :и %>: _ [ :п | :ң ];
+        [ :о :Cns :Cns* ь:0 %{I%}:е :Cns :Cns* ]/[ :0 - [ ь: ] ] _ ; ! фасолена
 
 !"I vowel Harmony for ди"
 !%{I%}:е <=> .#. :д :и %>: _ ;

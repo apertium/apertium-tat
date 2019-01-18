@@ -17,6 +17,7 @@ Tests:
 
   "[twol] -CьC words with back harmony":
     асфальт<n><acc> : асфальтны
+    фонарь<n><acc> : фонарьны
     кольт<n><px3sp><nom> : кольты
     вольт<n><px3sp><nom> : вольты
 

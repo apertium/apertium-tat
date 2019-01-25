@@ -1511,7 +1511,7 @@ LEXICON N1
 
 LEXICON N1-RUS
 
-:%{☭%} N1-RUS ;
+:%{☭%} N1 ;
 
 LEXICON N-COMPOUND-PX ! consider "N2" for the name
                       ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND

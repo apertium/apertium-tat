@@ -16,7 +16,7 @@ Alphabet
  !!! They trigger relevant phonology and disappear
  %{а%}:0 %{э%}:0
  %{й%}:0 %{л%}:0 %{н%}:0 %{з%}:0 %{с%}:0 
- !!! And this is for Russian nouns
+ !!! And this is currently only for Russian nouns with affixes containing back vowels
  %{☭%}:0 ;
 
 
@@ -61,7 +61,7 @@ Rules
 
 "A Vowel Harmony"
 %{A%}:ә <=>         [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
-                                         [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: ] ] _ ; ! stems ending in e.g. ль
+                                         [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: | %{☭%}: ] ] _ ; ! stems ending in e.g. ль
         [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
     [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
            except
@@ -85,7 +85,7 @@ Rules
 %{I%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
 !                                 [ :BackVow :Cns* й: ]/[ %>: | :0 ] _ ;
                                                              [ й: ]/[ %>: | :0 ] _ ;
-                                 [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: ] ] _ ;
+                                 [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: | %{☭%}: ] ] _ ;
 [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
                                           [ %{ь%}:0 :Cns* ]/[ [ :0 - %{ь%}:0 ] ] _ ;
                               [ [ :Vow %{j%}: ] | й: ]/[ %>: | [ :0 - %{j%}: ] ] _ ; ! ай>{s}{I}:ае

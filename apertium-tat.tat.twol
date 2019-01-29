@@ -62,7 +62,7 @@ Rules
 "A Vowel Harmony"
 %{A%}:ә <=>         [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
                                 [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: | %{☭%}: ] ] _ ; ! stems ending in e.g. ль
-        [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
+         [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}:0 ] ] _ ;
     [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
            except
                  [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
@@ -86,7 +86,7 @@ Rules
 !                                             [ :BackVow :Cns* й: ]/[ %>: | :0 ] _ ;
                                                              [ й: ]/[ %>: | :0 ] _ ;
                         [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: | %{☭%}: ] ] _ ;
-[ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}:0 ] ] _ ;
+[ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}:0 ] ] _ ;
                                           [ %{ь%}:0 :Cns* ]/[ [ :0 - %{ь%}:0 ] ] _ ;
                               [ [ :Vow %{j%}: ] | й: ]/[ %>: | [ :0 - %{j%}: ] ] _ ; ! ай>{s}{I}:ае
                                                                    ! ди{j}>{I}п:дип

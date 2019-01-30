@@ -8,6 +8,7 @@ Tests:
 
   "[twol] г behaves as voiceless":
     бульдог<n><dat> : бульдогка
+    тег<n><dat> : тегка
  
   "[twol] ж behaves as voiceless":
     багаж<n><dat> : багажга
@@ -23,3 +24,10 @@ Tests:
 
   "[twol] з behaves as voiceless":
     гипофиз<n><dat> : гипофизга
+
+    
+  "[twol] п ":
+    гаеп<n><px3sp><nom> : гаебе
+
+  "[twol] к ":
+    аръяк<n><px3sp><nom> : аръягы

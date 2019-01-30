@@ -54,5 +54,12 @@ Tests:
     яшь<n><px1sg><nom> : яшем
     яшь<n><px3sp><nom> : яше
 
+  "[twol] ь in loanwords":
+    власть<n><px3sg><nom> : власте
+    власть<n><px3sg><dat> : властена
+    ансамбль<n><px3sg><nom> : ансамбле
+    ансамбль<n><px3sg><dat> : ансамбленә
+    
   "[twol] no ь deletion":
     табигать<n><abl> : табигатьтән
+    вәзгыять<n><abl> : вәзгыятьтән

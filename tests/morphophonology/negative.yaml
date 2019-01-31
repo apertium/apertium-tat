@@ -12,6 +12,12 @@ Tests:
      яз<v><tv><neg><pres><p3><sg> : язмый
      яз<v><tv><neg><pres><p1><pl> : язмыйбыз
 
+  "[twol] ambiguous back vowels (җыенырга)": 
+     җыен<v><tv><neg><imp><p2><sg> : җыенма
+     җыен<v><tv><neg><pres><p2><sg> : җыенмыйсың
+     җыен<v><tv><neg><pres><p3><sg> : җыенмый
+     җыен<v><tv><neg><pres><p1><pl> : җыенмыйбыз
+     
   "[twol] unambiguous back vowels (басарга)": 
      бас<v><tv><neg><imp><p2><sg> : басма
      бас<v><tv><neg><pres><p2><sg> : басмыйсың

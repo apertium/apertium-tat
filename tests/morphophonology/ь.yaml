@@ -21,6 +21,11 @@ Tests:
     кольт<n><px3sp><nom> : кольты
     вольт<n><px3sp><nom> : вольты
 
+  "[twol] -CьV words with back harmony":
+    статья<n><acc> : статьяны
+    ателье<n><px3sp><nom> : ательесы
+    декольте<n><px3sp><nom> : декольтесы
+
   "[twol] {I} surfaces as е after deleted ь but back harmony follows":
     фасоль<n><px3sp><dat> : фасолена
 

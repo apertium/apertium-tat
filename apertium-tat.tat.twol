@@ -131,7 +131,7 @@ Rules
             _ %>: %{s%}: ;
 
 "Plural alternation after nasal"
-%{L%}:н <=> :NasalCns/[ %>: | :0 ] _ %{A%}: р ; 
+%{L%}:н <=> :NasalCns/[ %>: | :0 ] _ %{A%}: р ;
 
 "Deletion of {s} after a consonant"
 %{s%}:0 <=> [ :Cns | %{j%}:0 | %{w%}:0 ]/[ %>: | :0 ] _ ;
@@ -146,7 +146,8 @@ Rules
 !! китап>{c}{I}          !! кызык>рак !! кысып>рак
 !! китабы                !! кызыграк  !! кысыбрак
 
-Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
+!Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
+Cx:Cy <=> :Vow (:0) _ %{ь%}:* %>: (:0) :Vow ;
           _ %>: :р ;
           where Cx in ( п к )
                 Cy in ( б г )

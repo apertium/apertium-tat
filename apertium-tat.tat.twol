@@ -271,7 +271,8 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
-          [:RusVclsCns %{☭%}: ]/[ [ :0 - %{☭%}: ] | %  | :ь | :ъ ] _ ;
+!          [ :RusVclsCns %{☭%}: ]/[ [ :0 - %{☭%}: ] | %  | :ь | :ъ ] _ ;
+          [ :RusVclsCns ]/[ :0 | %  | :ь | :ъ ] _ ;
           where Cx in ( %{G%} %{D%} )
                 Cy in (   к     т   )
                 matched;

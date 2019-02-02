@@ -19,12 +19,10 @@ Alphabet
  !!! And this is currently only for Russian nouns with affixes containing back vowels
  %{☭%}:0 ;
 
-
 Sets
 
 BackVow    = А О Ы У
              а о ы у ;
-
 
 FrontVow   = Ә Е Э И Ө Ү
              ә е э и ө ү; 
@@ -41,8 +39,8 @@ Vow       = А О Ы У Я Ю Ә Е Э И Ө Ү
 BeginVow  = А О Ы У Ә Э И Ө Ү
             а о ы у ә э и ө ү ;
 
-Cns       =  Б В Г Д Ж Җ З Й К Л М Н Ң П Р С Т Ф Х Һ Ц Ч Ш Щ Ъ Ь
-             б в г д ж җ з й к л м н ң п р с т ф х һ ц ч ш щ ъ ь % 
+Cns       =  Б В Г Д Ж Җ З Й К Л М Н Ң П Р С Т Ф Х Һ Ц Ч Ш Щ
+             б в г д ж җ з й к л м н ң п р с т ф х һ ц ч ш щ % 
              ү Ү у У ю Ю ;
 
 NasalCns  =  М Н Ң
@@ -57,7 +55,7 @@ CnsVoiceless = К П Т Ф Х Һ Ц Ч С Ш Щ
 RusVclsCns = Б Д Г В    ! Жж and Зз keep voiceless consonants after them
              б д г в ;
 
-Rules 
+Rules
 
 "A Vowel Harmony"
 %{A%}:ә <=>         [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;

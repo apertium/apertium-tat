@@ -286,11 +286,12 @@ Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
 
 
 "U > в between vowels"
-%{U%}:в <=> [ :Vow ]/[ %>: | :0 ] _ [ :Vow ]/[ %>: | :0 ] ;
+%{U%}:в <=> [ :Vow - [ :у | :ү ] ]/[ %>: | :0 ] _ [ :Vow ]/[ %>: | :0 ] ;
             except
                            й: %>: _ ;
 ! сөйлә>{U}>{s}{I}н:сөйләвен
 ! уйна>{U}>{s}{I}н:уйнавы
+! but not тууы:тувы
 
 
 "U > ю after й"
@@ -302,7 +303,7 @@ Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
 Vu:в <=> [ :Vow - [ :у | :ү ] ]/:0 _ %>: [ :Vow | %{U%}: ]/[ :0 ] ;
          where Vu in ( у ү ) matched;
 ! яу, яварга, яву
-! but not суы:свы, тууы !!
+! but not суы:свы, тууы:тувы !!
 
 
 "Deletion of high vowels before {U}"

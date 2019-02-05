@@ -267,7 +267,6 @@ Cx:Cy <=> :Vow (:0) _ %{ь%}:* %>: (:0) :Vow ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
-!          [ :RusVclsCns %{☭%}: ]/[ [ :0 - %{☭%}: ] | %  | :ь | :ъ ] _ ;
           [ :RusVclsCns ]/[ :0 | %  | :ь | :ъ ] _ ;
           where Cx in ( %{G%} %{D%} )
                 Cy in (   к     т   )
@@ -300,10 +299,10 @@ Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
 
 
 "word-final у or ү becomes в when a vowel-initial suffix follows and a vowel precedes"
-Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
+Vu:в <=> [ :Vow - [ :у | :ү ] ]/:0 _ %>: [ :Vow | %{U%}: ]/[ :0 ] ;
          where Vu in ( у ү ) matched;
 ! яу, яварга, яву
-! but not суы:свы !!
+! but not суы:свы, тууы !!
 
 
 "Deletion of high vowels before {U}"

@@ -64,8 +64,7 @@ Rules
          [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}:0 ] ] _ ;
     [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
            except
-                 [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ;
-
+              [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ [ %>: | :0 ] - [ ь: | %{ь%}: ] ] _ ;
                                                                     _ (%>:) %{E%}:и ;
                                                                     _ %>: %{E%}: ;
                                        [ [ :Vow %{j%}: ] | й: ]/%>: _ ;

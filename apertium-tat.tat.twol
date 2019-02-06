@@ -334,7 +334,7 @@ Vi:0 <=> _ ( %>: ) %{U%}: ;
 
 
 "Convert {E} to я after й and {j}"
-%{E%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
+%{E%}:я <=> [ [ :Vow %{j%}: ] | й: | и: ]/%>: _ ;
 
 
 !!!! Special archiphonemes !!!!

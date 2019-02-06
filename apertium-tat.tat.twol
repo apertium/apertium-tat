@@ -277,9 +277,9 @@ Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
 "Fronting of U"
 %{U%}:ү <=> [ :FrontVow :Cns* :Cns ]/[ %>: | :0 ] _ ;  ! бел>{U}:белү
                        [ :FrontVow ]/[ %>: | :0 ] _ ;  ! сөйлә>{U}:сөйләү
-            except
-                       [ :Vow ]/[ %>: | :0 ] _ [ :Vow ]/[ %>: | :0 ] ;
-                    [ :BackVow :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ; ! җыел>{U}>{s}{I}:җыелуы
+                  except
+                            [ :Vow ]/[ %>: | :0 ] _ [ :Vow ]/[ %>: | :0 ] ;
+   [ :BackVow :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ; ! җыел>{U}>{s}{I}:җыелуы
                                       й: %>: _ ;
 ! кайт>{U}:кайту
 
@@ -317,7 +317,7 @@ Vi:0 <=> _ ( %>: ) %{U%}: ;
 
 
 "Delete й in й>е and й>я and й>ю"
-й:0 <=> _ %>: :AmbigVow/:0 ;
+й:0 <=> _ %{☭%}:* %>: :AmbigVow/:0 ;
 
 
 "Convert {A} to я after й and {j}"

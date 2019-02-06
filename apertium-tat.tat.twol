@@ -87,7 +87,7 @@ Rules
                                                                    ! ди{j}>{E}:ди
             .#. :д :и %>: _ ;
             except
-   [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ [ %>: | :0 ] - [ ь: ] ] _ ; ! муены, but not җәмгыяте
+   [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ [ %>: | :0 ] - [ ь: | %{ь%}: ] ] _ ; ! муены, but not җәмгыяте
                                                       %{n%}: %>: н:0 _ .#. ;
             [? - :д ] [ :Vow - [ :Cns | :и ] ]/[ [ :0 - й: ] | %>: ] _ ; ! avoid conflict with {I} deletion
                                                        .#. :д :и %>: _ [ :п | :ң ];

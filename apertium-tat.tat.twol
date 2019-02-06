@@ -282,22 +282,23 @@ Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
                   except
                             [ :Vow ]/[ %>: | :0 ] _ [ :Vow ]/[ %>: | :0 ] ;
    [ :BackVow :AmbigVow :Cns* :Cns ]/[ %>: | :0 ] _ ; ! җыел>{U}>{s}{I}:җыелуы
-                                      й: %>: _ ;
+                                      [ й: | и: ] %>: _ ;
 ! кайт>{U}:кайту
 
 
 "U > в between vowels"
 %{U%}:в <=> [ :Vow - [ :у | :ү ] ]/[ %>: | :0 ] _ [ :Vow ]/[ %>: | :0 ] ;
             except
-                           й: %>: _ ;
+                           [ й: | и: ] %>: _ ;
 ! сөйлә>{U}>{s}{I}н:сөйләвен
 ! уйна>{U}>{s}{I}н:уйнавы
-! but not тууы:тувы
+! but not ту:тууы
 
 
 "U > ю after й"
-%{U%}:ю <=> й: %>: _ ;
-! сөй+у : сөю, куй+у : кую
+%{U%}:ю <=> !й: %>: _ ;
+             [ й: | и: ] %>: _ ;
+! сөй+у:сөю, куй+у:кую, ти+ү:тию
 
 
 "word-final у or ү becomes в when a vowel-initial suffix follows and a vowel precedes"
@@ -318,22 +319,18 @@ Vi:0 <=> _ ( %>: ) %{U%}: ;
 !!!! й stuff !!!!
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"Add й between и and ә, ү"
-
-
 "Delete й in й>е and й>я and й>ю"
 й:0 <=> _ %{☭%}:* %>: :AmbigVow/:0 ;
 
 
-"Convert {A} to я after й and {j}"
-%{A%}:я <=> [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
-                   :и %>: _ ;
+"Convert {A} to я after й, и and {j}"
+%{A%}:я <=> [ [ :Vow %{j%}: ] | й: | и: ]/%>: _ ;
             .#. :д :и %>: _ ;
         except
             _ ( %>: ) %{E%}: ;
 
 
-"Convert {E} to я after й and {j}"
+"Convert {E} to я after й, и and {j}"
 %{E%}:я <=> [ [ :Vow %{j%}: ] | й: | и: ]/%>: _ ;
 
 

@@ -59,20 +59,20 @@ RusVclsCns = Б Д Г В    ! Жж and Зз keep voiceless consonants after them
 Rules
 
 "A Vowel Harmony"
-%{A%}:ә <=>         [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
-                                [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: | %{☭%}: ] ] _ ; ! stems ending in e.g. ль
-         [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | % | [ :0 - %{ъ%}:0 ] ] _ ;
-    [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
-    except
-      [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ [ %>: | :0 ] - [ ь: | %{ь%}: ] ] _ ;
-                                                [ %{ъ%}: | %{☭%}: ] %>: ?* :Cns+ _ ; ! повестенда
-                                                                                 _ (%>:) %{E%}:и ;
-                                                                                 _ %>: %{E%}: ;
-                                                    [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
-                                                                         :Vow/:0 _ %{E%}:/:0 ;
-                                            [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
-                                     .#. [ [ :я | :ю ] :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
-                        [ :о :Cns :Cns* ь:0 %{I%}:е :Cns :Cns* ]/[ :0 - [ ь: ] ] _ ; ! фасолена
+%{A%}:ә <=>             [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
+                                     [ :Cns ь: %>: :Cns* ]/[ :0 - [ %>: | %{ъ%}: | %{☭%}: ] ] _ ; ! stems ending in e.g. ль
+  [ [ :и | :UnambigFrontVow | :ь ] :я :Cns* :Cns ]/[ %>: | % | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
+         [ :FrontVow [ :Cns | :AmbigVow ]* :Cns ]/[ %>: | %  | [ :0 - [ %{ъ%}: | %{☭%}: ] ] ] _ ;
+         except
+             [ :BackVow (й:0) :AmbigVow :Cns* :Cns ]/[ [ %>: | :0 ] - [ ь: | %{ь%}: ] ] _ ;
+                                                       [ %{ъ%}: | %{☭%}: ] %>: ?* :Cns+ _ ; ! повестенда
+                                                                                        _ (%>:) %{E%}:и ;
+                                                                                        _ %>: %{E%}: ;
+                                                           [ [ :Vow %{j%}: ] | й: ]/%>: _ ;
+                                                                                :Vow/:0 _ %{E%}:/:0 ;
+                                                   [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
+                                            .#. [ [ :я | :ю ] :Cns* :Cns ]/[ %>: | :0 ] _ (%>:) %{E%}: ;
+                               [ :о :Cns :Cns* ь:0 %{I%}:е :Cns :Cns* ]/[ :0 - [ ь: ] ] _ ; ! фасолена
 
 
 "I Vowel Harmony"
@@ -327,7 +327,7 @@ Vi:0 <=> _ ( %>: ) %{U%}: ;
 
 
 "Delete й in й>е and й>я and й>ю"
-й:0 <=> _ %{☭%}:* %>: :AmbigVow/:0 ;
+й:0 <=> _ [ %{ъ%}: | %{☭%}: ]* %>: :AmbigVow/:0 ;
 
 
 "Convert {A} to я after й, и and {j}"

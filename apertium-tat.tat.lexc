@@ -58849,7 +58849,7 @@ Witness:Witness NP-AL ; ! ""
 ачык:ачык V-IV-IR ; ! "to famish"
 ачыкла:ачыкла V-TV-IR ; ! "elucidate,clarify,define,specify"
 ачыл:ачыл V-IV-IR ; ! "to clear up (of weather)"
-ачылма:ачылма V-IV-IR ; ! "" FIXME check
+!ачылма:ачылма V-IV-IR ; ! "" FIXME check
 ачын:ачын V-IV-IR ; ! "возмущаться,испытывать душевную боль"
 ачыргалан:ачыргалан V-IV-IR ; ! ""
 ачыт:ачыт V-TV-IR ; ! "itch,gawn,acidify"
@@ -58860,7 +58860,7 @@ Witness:Witness NP-AL ; ! ""
 ашат:ашат V-TV-IR ; ! "to rear" (tat) caus
 ашкын:ашкын V-IV-IR ; ! "thirst for,yearn for"
 ашык:ашык V-IV-IR ; ! "торопиться,спешить" "hurry"
-ашыкма:ашыкма V-IV-IR ; ! "" FIXME check
+!ашыкма:ашыкма V-IV-IR ; ! "" FIXME check
 ашыктыр:ашыктыр V-TV-IR ; ! "" caus
 ашыр:ашыр V-TV-IR ; ! "drive off,drive through,overfill" caus
 ая:ая V-TV-IR ; ! "жалеть,щадить,сжаливаться"
@@ -58957,7 +58957,7 @@ Witness:Witness NP-AL ; ! ""
 бул:бул V-IV-IR ; ! "1. быть"
 булдыр:булдыр V-TV-IR ; ! "допускать" (kaz tat) caus
 булдыра% ал:булдыра% ал V-TV-IR ; ! "" Use/MT
-булдырма:булдырма V-TV-IR ; ! "" FIXME check
+!булдырма:булдырма V-TV-IR ; ! "" FIXME check
 булдырыл:булдырыл V-IV-IR ; ! ""
 булып% чык:булып% чык V-IV-AR ; ! "" Use/MT
 булыш:булыш V-IV-IR ; ! "помогать"
@@ -59088,7 +59088,7 @@ Witness:Witness NP-AL ; ! ""
 дәфен% бул:дәфен% бул V-IV-IR ; ! "" Use/MT
 дәфен% ит:дәфен% ит V-TV-AR ; ! "" Use/MT
 дәш:дәш V-TV-AR ; ! ""
-дәшмә:дәшмә V-IV-IR ; ! "" FIXME check
+!дәшмә:дәшмә V-IV-IR ; ! "" FIXME check
 дөмбәслә:дөмбәслә V-TV-IR ; ! "" FIXME check
 дөрлә:дөрлә V-IV-IR ; ! "" FIXME check
 егет% бул:егет% бул V-IV-IR ; ! "to distinguish oneself" Use/MT
@@ -59194,7 +59194,7 @@ Witness:Witness NP-AL ; ! ""
 йогышсызландыр:йогышсызландыр V-TV-IR ; ! "to disinfect" (tat) caus
 йок:йок V-TV-AR ; ! "be communicated (of diseases)"
 йокла:йокла V-IV-IR ; ! "" FIXME check
-йоклама:йоклама V-IV-IR ; ! "" FIXME check
+!йоклама:йоклама V-IV-IR ; ! "" FIXME check
 йокымсыра:йокымсыра V-IV-IR ; ! "be in a sluggish and drowsy state"
 йоктыр:йоктыр V-TV-AR ; ! ""
 йолкы:йолкы V-TV-IR ; ! "pluck out"
@@ -59347,7 +59347,7 @@ Witness:Witness NP-AL ; ! ""
 килеш:килеш V-IV-IR ; ! "agree"
 килеш:килеш V-TV-NOPASS-IR ; ! "" ! Der/coop ! FIXME: Ilnar, check this!
 килеш:килешен V-TV-PASS-IR ; ! "" ! Der/coop ! FIXME: Ilnar, check this!
-килешмә:килешмә V-TV-IR ; ! "" FIXME check
+!килешмә:килешмә V-TV-IR ; ! "" FIXME check
 килештер:килештер V-TV-IR ; ! "" FIXME check
 киме:киме V-IV-IR ; ! ""
 кимер:кимер V-TV-IR ; ! "to gnaw round"

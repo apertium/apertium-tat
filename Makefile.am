@@ -208,16 +208,3 @@ test: all
 
 check: all
 	cd tests/morphophonology/; python3 test.py tat; cd ../../
-	wget https://gist.githubusercontent.com/IlnarSelimcan/e997825f93c8b8384fb64c4a1b7a7a82/raw/test-cov-on-wiki.sh -O test-cov-on-wiki.sh
-	chmod +x test-cov-on-wiki.sh
-	LC_ALL=C.UTF-8 ./test-cov-on-wiki.sh tt 20181201 tat-morph
-
-
-###############################################################################
-## Preprocessor (experimental)
-###############################################################################
-
-render: apertium-tat.tat.lexc
-	printf "#lang pollen\n" > apertium-tat.tat.lexc.pp
-	cat apertium-tat.tat.lexc | sed 's/!◊/◊/g' >> apertium-tat.tat.lexc.pp
-	raco pollen render apertium-tat.tat.lexc.pp

@@ -109,6 +109,6 @@ print('GEN :\t%d\t%d\t%d' % (total_g, corr_g, err_g));
 print('ANAL:\t%d\t%d\t%d' % (total_a, corr_a, err_a));
 
 if corr == total:
-	sys.exit(0)
+        sys.exit(0)
 else:
 	sys.exit(1)

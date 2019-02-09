@@ -11641,6 +11641,7 @@ InterrogativePronouns ;
 кич:кич N1 ; ! ""
 кичергән% рәссам% хәзер% эшли% алмый:кичергән% рәссам% хәзер% эшли% алмый N1 ; ! ""
 кичерелмәслек:кичерелмәслек N1 ; ! ""
+кичеренеш:кичеренеш N1 ; ! ""
 кичереш:кичереш N1 ; ! ""
 кичлек:кичлек N1 ; ! ""
 кичливость:кичливость N1-RUS ; ! ""
@@ -58768,6 +58769,7 @@ Witness:Witness NP-AL ; ! ""
 акла:акла V-TV-IR ; ! "justify"
 акса:акса V-IV-IR ; ! "хромать"
 актар:актар V-TV-IR ; ! ""
+актарын:актарын V-IV-IR ; ! ""
 активлаш:активлаш V-IV-IR ; ! ""
 активлаштыр:активлаштыр V-TV-IR ; ! ""
 акыр:акыр V-IV-IR ; ! "to shout loudly"
@@ -58810,6 +58812,7 @@ Witness:Witness NP-AL ; ! ""
 аркылы%-торкылы% сал:аркылы%-торкылы% сал V-TV-IR ; ! "" Use/MT
 арт:арт V-IV-IR ; ! "augment,rise/увеличиваться,умножаться"
 арттыр:арттыр V-TV-IR ; ! "to enlarge" (kaz tat) caus
+арттырын:арттырын V-IV-IR ;
 арттырып% үтә:арттырып% үтә V-TV-IR ; ! "" FIXME check
 арчы:арчы V-TV-IR ; ! "clean/чистить,очищать"
 аршынла:аршынла V-TV-IR ; ! "to measure in arshines"
@@ -58819,6 +58822,7 @@ Witness:Witness NP-AL ; ! ""
 арык:арык V-IV-IR ; ! "lose weiht (о скоте)"
 арын:арын V-IV-IR ; ! "free oneself (of),get rid (of)"
 арындыр:арындыр V-TV-IR ; ! "free oneself (of),get rid (of)"
+арындырын:арындырын V-IV-IR ;
 арыт:арыт V-TV-IR ; ! "to tire out" (kaz tat) caus
 ас:ас V-TV-AR ; ! ""
 асра:асра V-TV-IR ; ! "содержать,кормить,выращивать"
@@ -58896,6 +58900,7 @@ Witness:Witness NP-AL ; ! ""
 баш% бул:баш% бул V-IV-IR ; ! "to rule" Use/MT
 баш% как:баш% как V-IV-AR ; ! ""
 башкар:башкар V-TV-IR ; ! "исполнять,выполнять"
+башкарын:башкарын V-IV-IR ;
 башла:башла V-TV-IR ; ! "start,begin"
 башлан:башлан V-IV-IR ; ! "start,begin (начинаться)"
 башын% әйләндер:башын% әйләндер V-IV-IR ; ! "" Use/MT
@@ -58912,6 +58917,7 @@ Witness:Witness NP-AL ; ! ""
 берәмтеклә:берәмтеклә V-IV-IR ; ! ""
 бет:бет V-IV-AR ; ! "кончаться,заканчиваться"
 бетер:бетер V-TV-IR ; ! "" ! FIXME  causative
+бетерен:бетерен V-IV-IR ; ! "" ! FIXME  causative
 бие:бие V-TV-IR ; ! ""
 биз:биз V-IV-AR ; ! "renounce,disavow"
 бизә:бизә V-TV-IR ; ! "adorn,embellish,decorate"
@@ -59219,7 +59225,8 @@ Witness:Witness NP-AL ; ! ""
 йөреп% чык:йөреп% чык V-TV-AR ; ! "бродить,скитаться" Use/MT
 йөрт:йөрт V-TV-IR ; ! "" (kaz tat) caus
 йөртел:йөртел V-IV-IR ; ! "to be put into motion or into action" FIXME CHECK
-йөткер:йөткер V-TV-IR ; ! ""
+йөткер:йөткер V-IV-IR ; ! ""
+йөткерен:йөткерен V-IV-IR ; ! ""
 кабалан:кабалан V-IV-IR ; ! "to walk with hasty steps"
 кабар:кабар V-IV-IR ; ! ""
 кабарын:кабарын V-IV-IR ; ! "protest"
@@ -59357,6 +59364,7 @@ Witness:Witness NP-AL ; ! ""
 кинән:кинән V-IV-IR ; ! "" FIXME check
 кип:кип V-IV-AR ; ! "to crack"
 киптер:киптер V-TV-IR ; ! "" FIXME check
+киптерен:киптерен V-IV-IR ;
 кире% бир:кире% бир V-TV-IR ; ! "" Use/MT
 кире% как:кире% как V-TV-AR ; ! "reject, turn back" Use/MT
 кире% уйла:кире% уйла V-IV-IR ; ! "" FIXME check
@@ -59374,6 +59382,7 @@ Witness:Witness NP-AL ; ! ""
 кичек:кичек V-IV-IR ; ! "stop,stay"
 кичектер:кичектер V-TV-IR ; ! ""
 кичер:кичер V-TV-IR ; ! "forgive"
+кичерен:кичерен V-IV-IR ;
 кичлә:кичлә V-IV-IR ; ! "" FIXME check
 киңәй:киңәй V-IV-IR ; ! ""
 киңәйт:киңәйт V-TV-IR ; ! "" FIXME check
@@ -59478,6 +59487,7 @@ Witness:Witness NP-AL ; ! ""
 кыста:кыста V-TV-IR ; ! ""
 кысташ:кысташ V-TV-IR ; ! ""
 кыстыр:кыстыр V-TV-IR ; ! "to jam" (kaz tat) caus
+кыстырын:кыстырын V-IV-IR ;
 кысыл:кысыл V-IV-AR ; ! "тесниться"
 кысыр% кал:кысыр% кал V-IV-IR ; ! "to be barren" Use/MT
 кыткылда:кыткылда V-IV-IR ; ! "to wheeze"
@@ -59522,6 +59532,7 @@ Witness:Witness NP-AL ; ! ""
 күрә% алма:күрә% алма V-TV-IR ; ! "" FIXME check
 күтәр:күтәр V-TV-IR ; ! "to lift"
 күтәрел:күтәрел V-IV-IR ; ! "to rise"
+күтәрен:күтәрен V-IV-IR ;
 күтәрт:күтәрт V-TV-IR ; ! "to load on someone's back" (tat) caus
 күч:күч V-IV-AR ; ! ""
 күчен:күчен V-IV-IR ; ! ""
@@ -59669,6 +59680,7 @@ Witness:Witness NP-AL ; ! ""
 пеләшлән:пеләшлән V-IV-IR ; ! "" FIXME check
 пеш:пеш V-IV-AR ; ! "burn oneself"
 пешер:пешер V-TV-IR ; ! "to boil (food)"
+пешерен:пешерен V-IV-IR ;
 планлаштыр:планлаштыр V-TV-IR ; ! ""
 популярлаш:популярлаш V-TV-IR ; ! ""
 популярлаштыр:популярлаштыр V-TV-IR ; ! ""
@@ -59769,6 +59781,7 @@ Witness:Witness NP-AL ; ! ""
 соклан:соклан V-IV-IR ; ! ""
 сокландыр:сокландыр V-TV-IR ; ! ""
 сора:сора V-TV-IR ; ! ""
+соран:соран V-IV-IR ;
 сорат:сорат V-TV-IR ; ! ""
 сораш:сораш V-TV-IR ; ! ""
 сораштыр:сораштыр V-TV-IR ; ! "to search"
@@ -59829,6 +59842,7 @@ Witness:Witness NP-AL ; ! ""
 сынат:сынат V-IV-IR ; ! "to submit something to someone"
 сындыр:сындыр V-TV-IR ; ! "break" caus Use/MT
 сыпыр:сыпыр V-TV-IR ; ! "sweep"
+сыпырын:сыпырын V-IV-IR ;
 сыр:сыр V-TV-IR ; ! "stitch"
 сыт:сыт V-TV-IR ; ! "to become flat"
 сүген:сүген V-IV-IR ; ! "" refl
@@ -59862,6 +59876,7 @@ Witness:Witness NP-AL ; ! ""
 сөйрә:сөйрә V-TV-IR ; ! "drag"
 сөйрәл:сөйрәл V-IV-IR ; ! "to drag"
 сөр:сөр V-TV-IR ; ! "furrow"
+сөрен:сөрен V-IV-IR ;
 сөрт:сөрт V-TV-IR ; ! ""
 сөрән% сук:сөрән% сук V-IV-AR ; ! "to loaf"
 сөя:сөя V-TV-IR ; ! "lean" support
@@ -60101,6 +60116,7 @@ Witness:Witness NP-AL ; ! ""
 төзәт:төзәт V-TV-IR ; ! ""
 төй:төй V-TV-AR ; ! "to pulverize"
 төкер:төкер V-TV-IR ; ! "spit"
+төкерен:төкерен V-IV-IR ;
 төкән:төкән V-IV-IR ; ! ""
 төлкелән:төлкелән V-IV-IR ; ! "to flatter"
 төнәт:төнәт V-TV-IR ; ! ""
@@ -60156,6 +60172,7 @@ Witness:Witness NP-AL ; ! ""
 умыр:умыр V-TV-IR ; ! ""
 ур:ур V-TV-IR ; ! "mow"
 ура:ура V-TV-IR ; ! "wrap around"
+уран:уран V-IV-IR ;
 урап% ал:урап% ал V-TV-IR ; ! "to surround" Use/MT
 урат:урат V-TV-IR ; ! ""
 ургыл:ургыл V-IV-IR ; ! "to bubble"

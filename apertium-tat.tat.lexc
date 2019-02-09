@@ -1340,7 +1340,7 @@ LEXICON PRON-DEM-UL
 ул%<prn%>%<dem%>%<qnt%>:аның% кадәр CLITICS-NO-COP ;
 ул%<prn%>%<dem%>%<qnt%>:анча CLITICS-NO-COP ; ! Dir/LR
 ул%<prn%>%<dem%>%<px3sp%>:анысы%{n%} CASES ;
-ул%<prn%>%<dem%>%<px3sp%>:ансы%{n%} CASES ; ! Dir/LR
+ул%<prn%>%<dem%>%<px3sp%>:ансы%{n%} CASES ; ! Err/Orth Dir/LR
 
 ул%<prn%>%<dem%>%<pl%>:алар CASES-ETC ;
 ул%<prn%>%<dem%>%<pl%>%<px3sp%>:алары%{n%} CASES ;

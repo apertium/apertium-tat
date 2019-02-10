@@ -207,4 +207,4 @@ test: all
 	@rm .test-ref .test-mt
 
 check: all
-	cd tests/morphophonology/; python3 test.py tat; cd ../../
+	cd tests/morphophonology/; python3 test.py tat

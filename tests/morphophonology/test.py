@@ -11,6 +11,8 @@
 ##
 ## Here is an example:
 ##   _ 	территори<n><px3sp><loc> 	территорийӗнче
+##
+## TODO: add 'do not analyse' negation (for spellchecker testing)
 
 import sys, libhfst, glob;
 

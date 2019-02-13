@@ -1087,6 +1087,37 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<opt%>%<p1%>%<pl%>:%>%{A%}%{E%}к CLITICS-NO-COP ;
 %<opt%>%<p3%>%<pl%>:%>с%{I%}нн%{A%}р CLITICS-NO-COP ;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LEXICON V-COMMON
 
 V-FINITE-REGULAR_NEGATIVE ;
@@ -58727,12 +58758,12 @@ Witness:Witness NP-AL ; ! ""
 !эләг:эләг V-IV-IR ; ! "" FIXME check
 !эләг:эләг V-TV-IR ; ! "" FIXME check
 абай% бул:абай% бул V-IV-IR ; ! "cautious,attentive,beware"
-абайла:абайла V-TV-IR ; ! "cautious,attentive,beware"
+абайла:абайла V-TV-AR ; ! "cautious,attentive,beware"
 абаланып% йөр:абаланып% йөр V-IV-IR ; ! "crawl,creep"
 абын:абын V-IV-IR ; ! ""
 аваз% сал:аваз% сал V-IV-IR ; ! ""
 авансла:авансла V-TV-IR ; ! "" FIXME check
-авыр%<v%>%<iv%>%<pres%>%<p3%>%<sg%>:авырый # ; ! "болеет" FIXME TODO
+авыр%<v%>%<iv%>%<pres%>%<p3%>%<sg%>:авырый # ; ! "болеет" FIXME TODO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 авыр:авыр V-IV-IR ; ! "болеет"
 авырай:авырай V-IV-IR ; ! "to become heavy"
 авырайт:авырайт V-TV-IR ; ! "to make heavy(ier)"
@@ -58741,6 +58772,7 @@ Witness:Witness NP-AL ; ! ""
 авырт:авырт V-IV-IR ; ! "болит"
 авырттыр:авырттыр V-TV-IR ; ! "to cause pain" (kaz tat) caus
 авыш:авыш V-IV-IR ; ! "move,pass"
+авыштыр:авыштыр V-TV-IR ; ! "move,pass"
 агар:агар V-IV-IR ; ! "to grow white"
 агарт:агарт V-TV-IR ; ! "to whiten" (tat) caus
 агарын:агарын V-IV-IR ; ! "" refl
@@ -58749,9 +58781,11 @@ Witness:Witness NP-AL ; ! ""
 агыз:агыз V-TV-IR ; ! "" caus
 агыл:агыл V-IV-IR ; ! "хлынуть"
 адаш:адаш V-IV-IR ; ! "err,be mistaken,loose one's way,get lost"
+адаштыр:адаштыр V-TV-IR ;
 адресла:адресла V-TV-IR ; ! ""
 адреслан:адреслан V-IV-IR ; ! ""
-аек:аек V-IV-IR ; ! "отрезвляться"
+аек:аек V-IV-IR ; ! "отрезвляться" Use/Arch
+аеклан:аеклан V-IV-IR ; ! "отрезвляться"
 аер:аер V-TV-IR ; ! "to separate"
 аерыл:аерыл V-IV-IR ; ! "seperate,divorce"
 аерымлан:аерымлан V-IV-IR ; ! ""
@@ -58762,6 +58796,7 @@ Witness:Witness NP-AL ; ! ""
 азаплан:азаплан V-IV-IR ; ! ""
 азгынлан:азгынлан V-IV-IR ; ! ""
 аздыр:аздыр V-TV-IR ; ! ""
+айкал:айкал V-IV-IR ; ! ""
 айкалдыр:айкалдыр V-TV-IR ; ! "to incite"
 айны:айны V-IV-IR ; ! "отрезвляться"
 ак:ак V-IV-AR ; ! "to stream"
@@ -58770,9 +58805,13 @@ Witness:Witness NP-AL ; ! ""
 акса:акса V-IV-IR ; ! "хромать"
 актар:актар V-TV-IR ; ! ""
 актарын:актарын V-IV-IR ; ! ""
+актарт:актарт V-TV-IR ; ! ""
 активлаш:активлаш V-IV-IR ; ! ""
 активлаштыр:активлаштыр V-TV-IR ; ! ""
 акыр:акыр V-IV-IR ; ! "to shout loudly"
+акырын:акырын V-IV-IR ;
+акырыш:акырыш V-IV-IR ;
+акырт:акырт V-TV-IR ;
 ал:ал V-TV-IR ; ! ""
 алалан:алалан V-IV-IR ; ! ""
 алга% бар:алга% бар V-IV-IR ; ! "ahead" Use/MT
@@ -58782,11 +58821,15 @@ Witness:Witness NP-AL ; ! ""
 алда:алда V-TV-IR ; ! "deceive" ! FIXME check
 алдакчыга% әйлән:алдакчыга% әйлән V-IV-IR ; ! "to become a liar" Use/MT
 алдан:алдан V-IV-IR ; ! "to get deceived" ! FIXME check
+алдаш:алдаш V-IV-IR ;
 алдап%-сула:алдап%-сула V-TV-IR ; ! "amuse,quiet,console" Use/MT
 алдыр:алдыр V-TV-IR ; ! "bring,deliver,disclose,find oneself robbed,suscribe" (kaz tat) caus
+алдырт:алдырт V-TV-IR ;
 алкышла:алкышла V-IV-IR ; ! "" ! FIXME check
+алкышлаш:алкышлаш V-IV-IR ;
 алмаш:алмаш V-TV-IR ; ! "exchange,swap,be confused"
 алмаштыр:алмаштыр V-TV-IR ; ! ""
+алмашын:алмашын V-IV-IR ;
 алпан%-тилпән% йөр:алпан%-тилпән% йөр V-IV-IR ; ! "to run clumsily" Use/MT
 алсулан:алсулан V-IV-IR ; ! "blush,redden (face)"
 алтынла:алтынла V-TV-IR ; ! "gild,cover with gold" FIXME CHECK
@@ -58806,8 +58849,10 @@ Witness:Witness NP-AL ; ! ""
 аныкла:аныкла V-TV-IR ; ! "elucidate,clarify,define,specify"
 аптыра:аптыра V-IV-IR ; ! "become perplexed,confused,taken aback"
 аптырап% кал:аптырап% кал V-IV-IR ; ! "to be disturbed" Use/MT
+аптырат:аптырат V-IV-IR ;
 арала:арала V-TV-IR ; ! "walk among"
 аралаш:аралаш V-IV-IR ; ! "merge,blend/принимать участие,вмешиваться,смешивать"
+аралаштыр:аралаштыр V-TV-IR ;
 арканла:арканла V-TV-IR ; ! "to tie" ! FIXME check
 аркылы%-торкылы% сал:аркылы%-торкылы% сал V-TV-IR ; ! "" Use/MT
 арт:арт V-IV-IR ; ! "augment,rise/увеличиваться,умножаться"
@@ -58815,9 +58860,11 @@ Witness:Witness NP-AL ; ! ""
 арттырын:арттырын V-IV-IR ;
 арттырып% үтә:арттырып% үтә V-TV-IR ; ! "" FIXME check
 арчы:арчы V-TV-IR ; ! "clean/чистить,очищать"
+арчыш:арчыш V-TV-IR ;
 аршынла:аршынла V-TV-IR ; ! "to measure in arshines"
 ары:ары V-IV-IR ; ! "to become tired"
 ары:ар V-IV-IR ; ! "to become tired" Err/Orth
+арыгай:арыгай V-IV-IR ;
 арыгайт:арыгайт V-TV-IR ; ! "to reduce (cattle) to emaciation" (kaz tat) caus
 арык:арык V-IV-IR ; ! "lose weiht (о скоте)"
 арын:арын V-IV-IR ; ! "free oneself (of),get rid (of)"
@@ -58841,15 +58888,20 @@ Witness:Witness NP-AL ; ! ""
 атлык:атлык V-IV-IR ; ! ""
 ау:ау V-IV-AR ; ! "упасть,опрокинуться"
 аудар:аудар V-TV-IR ; ! "to throw down" (kaz tat) caus
+аударт:аударт V-TV-IR ;
+аударыш:аударыш V-TV-IR ;
 аула:аула V-TV-IR ; ! "to hunt" ! FIXME check
+аулаш:аулаш V-TV-IR ;
 ауна:ауна V-IV-IR ; ! "to turn/валяться" ! FIXME check
 аунат:аунат V-TV-IR ; ! "to drag in" (kaz tat) caus
 аурупалаш:аурупалаш V-IV-IR ; ! "to become europeanized"
 аурупалаш:европалаш V-IV-IR ; ! "to become europeanized" Dir/LR
 ахылда:ахылда V-IV-IR ; ! "to complain loudly"
+ахылдаш:ахылдаш V-IV-IR ;
 ахырына% җиткер:ахырына% җиткер V-TV-IR ; ! "to put an end to an affair" Use/MT
 ач:ач V-TV-AR ; ! "open,reveal,unlock,discover"
 ачулан:ачулан V-TV-IR ; ! "to be angry"
+ачтыр:ачтыр V-TV-IR ;
 ачык:ачык V-IV-IR ; ! "to famish"
 ачыкла:ачыкла V-TV-IR ; ! "elucidate,clarify,define,specify"
 ачыл:ачыл V-IV-IR ; ! "to clear up (of weather)"
@@ -58857,6 +58909,8 @@ Witness:Witness NP-AL ; ! ""
 ачын:ачын V-IV-IR ; ! "возмущаться,испытывать душевную боль"
 ачыргалан:ачыргалан V-IV-IR ; ! ""
 ачыт:ачыт V-TV-IR ; ! "itch,gawn,acidify"
+ачыш:ачыш V-TV-IR ;
+аш:аш V-IV-AR ;
 аш:аш V-IV-IR ; ! "перевалить"
 аша:аша V-TV-IR ; ! "eat"
 ашап% ал:ашап% ал V-TV-IR ; ! "" Use/MT
@@ -58872,6 +58926,7 @@ Witness:Witness NP-AL ; ! ""
 аңкы:аңкы V-TV-IR ; ! "to spread"
 аңла:аңла V-TV-IR ; ! "understand,guess"
 аңлат:аңлат V-TV-IR ; ! "" caus
+аңлаш:аңлаш V-IV-IR ; ! ""
 аңлашыл:аңлашыл V-IV-IR ; ! ""
 аһәңләштер:аһәңләштер V-TV-IR ; ! "" FIXME check
 багла:багла V-TV-IR ; ! "" Use/Arch

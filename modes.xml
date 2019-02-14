@@ -80,22 +80,20 @@
     </pipeline>
   </mode>
 
-	<mode name="tat-spell" install="yes">
-		<pipeline>
-			<program name="hfst-ospell -S -n 10">
-				<file name="tat.zhfst"/>
-			</program>
-		</pipeline>
-	</mode>
+  <mode name="tat-spell" install="yes">
+    <pipeline>
+      <program name="hfst-ospell -S -n 10">
+        <file name="tat.zhfst"/>
+      </program>
+    </pipeline>
+  </mode>
 
-	<mode name="tat-tokenise" install="yes">
-		<pipeline>
-			<program name="hfst-proc">
-				<file name=".deps/acceptor.default.hfst"/>
-			</program>
-		</pipeline>
-	</mode>
-
-
+  <mode name="tat-tokenise" install="yes">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name=".deps/acceptor.default.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
 
 </modes>

@@ -4,8 +4,8 @@
 ## USAGE: python3 test.py <lang code>
 ##        python3 test.py <lang code> <tsv file>
 ## where tsv file is a tsv file with three columns:
-##   1. direction restriction, which is either _ (no restriction), > (test generation only) and
-##      < test analysis only.
+##   1. direction restriction, which is either _ (no restriction), > (test analysis only) and
+##      < test generation only.
 ##   2. lexcial form
 ##   3. surface form
 ##

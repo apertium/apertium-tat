@@ -1,7 +1,9 @@
 #lang scribble/manual
 
 @title{Apertium-tat, a morphological transducer and
- Constraint Grammar-based taggqer for Tatar}
+ Constraint Grammar-based tagger for Tatar}
+
+@section{Contributing}
 
 @section{Rarely Asked Questions}
 
@@ -30,3 +32,7 @@ A major execption are abbreviations. It might be necessary
 to add either of these two marks to most of them.
 
 @code{СССР:СССР%{ъ%} ABBR ; ! "USSR"}
+
+@subsection{In @filepath{apertium-tat.tat.lexc}, what do
+ marks @code{Err/Orth}, @code{Dir/LR}, @code{Dir/RL} and
+ @code{Use/Arch} mean?}

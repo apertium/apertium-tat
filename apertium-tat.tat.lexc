@@ -29451,7 +29451,8 @@ InterrogativePronouns ;
 ! Nouns used as postpositions when <posssessive><case>
 ! ====================================================
 
-алд:ал%{д%} N1 ; ! ""
+!алд:ал%{д%} N1 ; ! ""
+ал:ал%{д%} N1 ; ! ""
 ара:ара N1 ; ! "among"
 арка:арка N1 ; ! "back; reason"
 арт:арт N1 ; ! "back"

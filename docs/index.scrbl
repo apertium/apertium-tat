@@ -1,6 +1,6 @@
 #lang scribble/manual
 
-@title{Apertium-tat, a morphological transducer and
+@title[#:version ""]{Apertium-tat, a morphological transducer and
  Constraint Grammar-based tagger for Tatar}
 
 @section{Contributing}

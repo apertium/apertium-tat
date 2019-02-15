@@ -10,7 +10,8 @@ Tests:
      исәнмесез<ij> : исәнмесез
 
   "[twol] si":
-    зур<adj><subst><px3sp><nom> : зурысы
+    зур<adj><subst><px3sp><nom><adj><subst><px3sp><nom> : зурысы
+    зур<adj><subst><px3sp><nom> : зуры
     
   "[twol] п ":
     гаеп<n><px3sp><nom> : гаебе

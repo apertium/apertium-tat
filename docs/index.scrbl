@@ -3,8 +3,6 @@
 @title[#:version ""]{Apertium-tat, a morphological transducer and
  Constraint Grammar-based tagger for Tatar}
 
-@section{Contributing}
-
 @section{Rarely Asked Questions}
 
 @subsection{How do I force an irregular stem to take

@@ -125,6 +125,7 @@ LIST Mod = mod_ass mod_ind ;
 LIST Sent = sent ;
 LIST Cm = cm ;
 LIST Rquot = rquot ;
+LIST Ideo = ideo ;
 
 LIST POS = A Adv Pron N Prop V Vaux Cop Det CC CS Interj Num Post Postadv
            Mod_ass Sent Cm Rquot ;
@@ -871,6 +872,41 @@ SELECT Cog IF (-1 Ant) ;
 
 
 SECTION ############ HEURISTICS #####################
+
+
+
+
+
+
+
+
+# mansur
+# Без итеп тора.
+ "<без>"i SELECT Ideo IF
+          (1 ("<ит>"i) + V OR ("<ди>"i) + V) ;
+# Без алдык.
+ "<без>"i SELECT Pron IF
+          (1 V + Pl + P1) ;
+# Без алдылар.
+ "<без>"i SELECT N IF
+#          (NOT 1 V + Pl + P1 OR ("<ит>"i) + V OR ("<ди>"i) + V) ;
+#          (NOT 1 V + Pl + P1) ;
+#          (NOT 1 "<ит>"i + V) ;
+#          (NOT 1 "<ди>"i + V) ;
+           (NOT 1 ("ит"i) + V OR ("ди"i) + V OR V + Pl + P1) ;
+
+# mansur
+# INPUT:  ^ул/бул<v><tv><imp><p2><sg>$...
+# OUTPUT: ^ул/ул<prn><dem><nom>$
+ "<ул>" REMOVE V ;
+
+
+
+
+
+
+
+
 
 
 # INPUT:  ^турында/тур<n><px3sp><loc>/турында<post>$

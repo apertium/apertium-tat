@@ -1,0 +1,1 @@
+http://www.corpus.tatar/stat/tatcorpus3.words_frequency_case-sensitive.bz2

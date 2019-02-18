@@ -22,3 +22,4 @@
 /tat.rlx.bin
 /tat.zhfst
 /tests/morphotactics/*.txt.gz
+/tests/coverage/frequency_list.tsv*

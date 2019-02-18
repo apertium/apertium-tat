@@ -889,10 +889,6 @@ SECTION ############ HEURISTICS #####################
           (1 V + Pl + P1) ;
 # Без алдылар.
  "<без>"i SELECT N IF
-#          (NOT 1 V + Pl + P1 OR ("<ит>"i) + V OR ("<ди>"i) + V) ;
-#          (NOT 1 V + Pl + P1) ;
-#          (NOT 1 "<ит>"i + V) ;
-#          (NOT 1 "<ди>"i + V) ;
            (NOT 1 ("ит"i) + V OR ("ди"i) + V OR V + Pl + P1) ;
 
 # mansur

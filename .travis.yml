@@ -5,7 +5,7 @@ before_install:
 script:
     - ./autogen.sh
     - make
-    - make check
+    - travis_wait make check
 notifications:
     irc:
         channels:

@@ -1,4 +1,5 @@
-!!  M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!  M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R      !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! See http://wiki.apertium.org/wiki/Turkic_lexicon
@@ -256,6 +257,7 @@
 %<multipl%>   ! Multiplication sign (×)
 %<division%>  ! Division sign (÷)
 %<punct%>     ! Other
+%<ltr%>       ! Letter
 
 %<phrase%>    ! For strings which probably belong to a TMX file instead
 %<err_orth%>  ! Misspelled form
@@ -1819,6 +1821,10 @@ LEXICON ABBR
 
 %<abbr%>: # ;
 %<abbr%>: CASE-NONOM ;
+
+LEXICON LTR
+
+%<ltr%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -59179,6 +59185,7 @@ Witness:Witness NP-AL ; ! ""
 демократлаш:демократлаш V-IV-IR ; ! "to become democratized"
 дерелдә:дерелдә V-IV-IR ; ! "дрожать,трястись,трепетать"
 ди:ди V-TV-AR ; ! "сказать,называть" FIXME
+диң%<v%>%<tv%>%<imp%>%<p2%>%<sg%>:диң # ; ! "сказать,называть"
 димлә:димлә V-TV-IR ; ! "" FIXME check
 дистәлә:дистәлә V-TV-IR ; ! "to count by tens"
 дошманлаш:дошманлаш V-IV-IR ; ! "be at loggerheads with"
@@ -62111,6 +62118,10 @@ kz:kz ABBR ; ! ""
 ҮИХ:ҮИХ ABBR ; ! "Үзбәкстан Ислам Хәрәкәте"
 һ%.б%.:һ%.б%. ABBR ; ! etc.""
 Өзәнмунайгаз:Өзәнмунайгаз ABBR ; ! ""
+
+<( а | ә | б | в | г | ғ | д | е | ё | ж | җ | з | и | і | й | к | қ | л | м | н |
+   ң | о | ө | п | р | с | т | у | ұ | ү | ф | х | һ | ц | ч | ш | щ | ь | ы |
+   ъ | э | ю | я )> LTR ;
 
 
 !===================!

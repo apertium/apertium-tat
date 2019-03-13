@@ -1323,7 +1323,7 @@ LEXICON PRON-DEM-BU
 бу%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASES ; ! FIXME CHECK мондый%{I%}%{n%} instead?
 бу%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASES ;
 бу%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мондыйлары%{n%} CASES ;
-бу%<prn%>%<dem%>%<adv%>:болай CLITICS-INCL-COP ;
+бу%<prn%>%<dem%>%<advl%>:болай CLITICS-INCL-COP ;
 бу%<prn%>%<dem%>%<qnt%>:бу% кадәр CLITICS-NO-COP ;
 бу%<prn%>%<dem%>%<qnt%>:монча CLITICS-NO-COP ; ! Dir/LR
 бу%<prn%>%<dem%>%<px3sp%>:монысы%{n%} CASES ;
@@ -1854,7 +1854,11 @@ LEXICON LTR
 
 бит:бит MOD-ASS ;
 ич:ич MOD-ASS ;
-ласа:ласа MOD-ASS ;
+ла:%~ла MOD-ASS ; ! Dir/RL
+ла:ла MOD-ASS ; ! Dir/LR
+лә:лә MOD-ASS ; ! Dir/LR
+ләса:ләса MOD-ASS ;
+ласа:ласа MOD-ASS ; ! Dir/LR
 ләбаса:ләбаса MOD-ASS ;
 ләбаса:лабаса MOD-ASS ; ! Dir/LR
 шул:шул MOD-ASS ;

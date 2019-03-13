@@ -6,7 +6,7 @@
 ; https://taruen.github.io/apertiumpp/apertiumpp/ gives info on how to install
 ; it.
 
-(provide tat-morph)
+(provide tat-morph tat-disam)
 
 (require pkg/lib
          rackunit

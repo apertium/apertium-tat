@@ -26,4 +26,4 @@
 (define (tat-disam s)
   (parameterize ([current-directory (pkg-directory "apertium-tat")])
     (rash
-     "echo (values s) | apertium -n -d . tat-disam | cg-conv -A -l")))
+     "echo (values s) | apertium -n -d . tat-morph | cg-proc tat.rlx.bin")))

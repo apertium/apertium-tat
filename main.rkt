@@ -16,8 +16,6 @@
 (define (symbol-append s1 s2)
   (string->symbol (string-append (symbol->string s1) (symbol->string s2))))
 
-(define A-TAT './)
-
 (define (tat-morph s)
   (parameterize ([current-directory (pkg-directory "apertium-tat")])
     (rash

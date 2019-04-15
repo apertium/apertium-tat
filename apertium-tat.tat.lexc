@@ -29069,6 +29069,7 @@ InterrogativePronouns ;
 мәгълүм% ит:мәгълүм% ит V-TV-AR ; ! ""
 мәгълүм:мәгълүм A3 ; ! "" Use/MT
 мәдрәсәи:мәдрәсәи N1 ; ! "" Use/MT
+икешәр:икешәр A3 ; ! "two each/two by two"
 мәзкүр:мәзкүр A3 ; ! ""
 мәзкүрә:мәзкүрә A3 ; ! ""
 мәкъбәр:мәкъбәр N1 ; ! ""
@@ -40091,7 +40092,8 @@ InterrogativePronouns ;
 
 ! Anthroponyms
 ! ============
-
+Мехмед:Мехмед NP-ANT-M ; !
+Бинали:Бинали NP-ANT-M ; !
 Абай:Абай NP-ANT-M ; ! ""
 Абайжан:Абайжан NP-ANT-M ; ! ""
 Абат:Абат NP-ANT-M ; ! ""
@@ -47696,6 +47698,8 @@ InterrogativePronouns ;
 ! Masculine/feminine
 ! ------------------
 
+Йылдырым:Йылдырым NP-COG-MF ; !
+Әрдоган:Әрдоган NP-COG-MF ; !
 Авраменко:Авраменко NP-COG-MF ; ! ""
 Аккулы:Аккулы NP-COG-MF ; ! ""
 Акчура:Акчура NP-COG-MF ; ! ""

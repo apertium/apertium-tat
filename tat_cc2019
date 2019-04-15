@@ -1,0 +1,584 @@
+"<Әфләтүн>"
+	"Әфләтүн" np ant m nom
+"<Афинада>"
+	"Афина" np top loc
+"<аристократ>"
+;	"аристократ" n nom <tur:aristokrat> <tur:soylular>
+"<гаиләсендә>"
+	"гаилә" n px3sp loc <tur:aile>
+"<туа>"
+	"ту" v iv pres p3 sg SELECT:350
+"<.>"
+	"." sent
+
+
+
+"<Аның>"
+	"ул" prn pers p3 sg gen <tur:o> <tur:ora>
+"<һәм>"
+	"һәм" cnjcoo <tur:ve>
+"<аның>"
+	"ул" prn pers p3 sg gen <tur:o> <tur:ora>
+"<турындагы>"
+	"тур" n px3sp loc attr <tur:an> <tur:taraf> <tur:yan> <tur:yer> <tur:zaman> <tur:ön>
+"<кайбер>"
+	"кайбер" det ind <tur:bazı>
+"<хезмәтләр>"
+	"хезмәт" n pl nom <tur:hizmet>
+"<югалган>"
+	"югал" v tv gpr_past
+"<булсалар да>"
+	"бул" v iv gna_cond p3 pl <tur:ol> <tur:ol>
+		"да" postadv SELECT:686
+"<,>"
+	"," cm
+"<иҗади>"
+	"иҗади" adj <tur:yaratıcı>
+"<мирасының>"
+	"мирас" n px3sp gen
+"<шактый>"
+	"шактый" adj
+"<өлеше>"
+	"өлеш" n px3sp nom <tur:bölüm> <tur:kısım> <tur:parça>
+"<безнең>"
+	"без" prn pers p1 pl gen <tur:biz>
+"<чорга>"
+	"чор" n dat <tur:dönem>
+"<кадәр>"
+	"кадәр" post <tur:kadar>
+"<сакланган>"
+	"саклан" v iv past p3 sg SELECT:350
+"<.>"
+	"." sent
+ 
+
+
+"<Әфләтүннең>"
+	"Әфләтүн" np ant m gen @ADVL→ MAP:976
+"<сәясәт>"
+;	"сәясәт" n nom <tur:siyaset>
+"<белеменә>"
+	"белем" n px3sp dat <tur:bilim> <tur:ilim>
+"<кагылышлы>"
+	"кагылышлы" adj
+"<фикерләре дә>"
+	"фикер" n pl px3sp nom <tur:fikir>
+		"да" cnjcoo
+"<бар>"
+	"бар" adj SELECT:816 <tur:var> <tur:var> <tur:var>
+		"и" cop aor p3 sg SELECT:291
+"<.>"
+	"." sent
+
+
+
+"<Шушы>"
+	"шушы" det dem SELECT:478 <tur:bu>
+"<өч>"
+	"өч" num <tur:üç>
+"<форманың>"
+	"форма" n gen
+"<һәркайсының>"
+	"һәркайсы" prn qnt gen
+"<эчендә>"
+	"эч" n px3sp loc <tur:iç>
+"<ул>"
+	"ул" prn pers p3 sg nom SELECT:784 <tur:o> <tur:ora>
+"<икешәр>"
+	"икешәр" adj
+"<вариантны>"
+	"вариант" n acc <tur:fark>
+"<—>"
+	"—" guio
+"<барлыгы>"
+	"барлык" n px3sp nom <tur:tamamı>
+"<алты>"
+	"алты" num <tur:altı>
+"<вариантны>"
+	"вариант" n acc <tur:fark>
+"<күрә>"
+	"күр" v tv pres p3 sg SELECT:350 <tur:başar> <tur:becer> <tur:gör> <tur:gör> <tur:gör> <tur:gör> <tur:gör> <tur:iç>
+"<.>"
+	"." sent
+
+
+
+"<Әлеге>"
+	"әлеге" det dem
+"<формаларның>"
+	"форма" n pl gen
+"<иң>"
+	"иң" adv <tur:en> <tur:çok>
+"<гадел>"
+	"гадел" adj <tur:adi>
+"<булганы>"
+	"бул" v iv ger_past px3sp nom SELECT:656 <tur:ol> <tur:ol>
+"<—>"
+	"—" guio
+"<аристократия>"
+	"аристократия" n nom
+		"и" cop aor p3 sg SELECT:291
+"<.>"
+	"." sent
+ 
+ 
+
+"<Алар>"
+;	"алар" prn pers p3 pl nom SELECT:501 <tur:onlar>
+"<барысы>"
+	"бары" prn qnt px3sp nom <tur:hepsi>
+"<бергә>"
+	"бергә" adv <tur:beraber> <tur:birlikte>
+"<гаделлек>"
+	"гаделлек" n nom <tur:adalet>
+"<дип>"
+	"ди" v tv gna_perf <tur:de> <tur:de> <tur:de> <tur:de> <tur:de> <tur:kandır> <tur:say> <tur:yak>
+"<аталган>"
+	"ата" v tv pass gpr_past SELECT:633 <tur:ada> <tur:tanı>
+"<игелекне>"
+	"игелек" n acc <tur:hayır> <tur:iyilik>
+"<тәшкил итәләр>"
+	"тәшкил ит" v tv pres p3 pl
+"<.>"
+	"." sent
+ 
+
+
+"<AK>"
+	"Ak" np unk
+"<Партиянең>"
+	"партия" n gen <tur:parti>
+"<җитәкчесе>"
+	"җитәкче" n px3sp nom <tur:lider> <tur:yönetici> <tur:yönetici> <tur:şef>
+		"и" cop aor p3 sg SELECT:291
+"<.>"
+	"." sent
+ 
+
+
+"<2001>"
+	"2001" num
+"<елның>"
+	"ел" n gen <tur:yıl>
+"<июль>"
+;	"июль" n nom <tur:temmuz>
+"<аенда>"
+	"ай" n px3sp loc <tur:ay>
+"<Әрдоган>"
+	"Әрдоган" np cog mf nom
+"<Бинали>"
+	"Бинали" np ant m nom
+"<Йылдырым>"
+	"Йылдырым" np cog mf nom
+"<белән>"
+	"белән" post SELECT:731 <tur:ile>
+"<бергә>"
+;	"бергә" adv SELECT:588 <tur:beraber> <tur:birlikte>
+"<Гаделлек>"
+	"гаделлек" n nom <tur:adalet>
+"<һәм>"
+	"һәм" cnjcoo <tur:ve>
+"<алгарыш>"
+;	"алгарыш" n nom
+"<партиясен>"
+	"партия" n px3sp acc <tur:parti>
+"<кора>"
+	"кор" v tv pres p3 sg SELECT:350 <tur:kar> <tur:kur> <tur:kur> <tur:yap>
+"<.>"
+	"." sent
+
+
+
+"<Алтай>"
+	"Алтай" np top attr SELECT:501
+"<телләре>"
+	"тел" n pl px3sp nom <tur:dil>
+"<гаиләсенең>"
+	"гаилә" n px3sp gen <tur:aile>
+"<төрки>"
+;	"төрки" adj <tur:türki>
+"<өлешенә>"
+	"өлеш" n px3sp dat <tur:bölüm> <tur:kısım> <tur:parça>
+"<кергән>"
+	"кер" v tv gpr_past SELECT:633
+"<тел>"
+	"тел" n nom <tur:dil>
+		"и" cop aor p3 sg
+"<,>"
+	"," cm
+"<Төркиянең>"
+	"Төркия" np top gen <tur:Türkiye>
+"<рәсми>"
+	"рәсми" adj <tur:resmi>
+"<теле>"
+	"тел" n px3sp nom <tur:dil>
+		"и" cop aor p3 sg SELECT:291
+"<.>"
+	"." sent
+
+
+
+"<Болгариядә>"
+	"Болгария" np top loc
+"<якынча>"
+	"якынча" adj
+"<740>"
+	"740" num
+"<мең>"
+	"мең" num <tur:bin>
+"<кеше>"
+	"кеше" n nom <tur:başkası> <tur:birisi> <tur:insan> <tur:kişi>
+"<төрек>"
+;	"төрек" n nom
+"<телендә>"
+	"тел" n px3sp loc <tur:dil>
+"<сөйләшә>"
+	"сөйләш" v tv pres p3 sg SELECT:350 <tur:konuş>
+"<.>"
+	"." sent
+
+
+
+"<Президент>"
+	"президент" n nom <tur:cumhurbaşkan>
+"<буларак>"
+	"буларак" post <tur:olarak>
+"<,>"
+	"," cm
+"<югары>"
+	"югары" adj <tur:üst>
+"<вазифалы>"
+	"вазифалы" adj
+"<затларны>"
+	"зат" n pl acc <tur:kimse> <tur:kök> <tur:soy> <tur:şey> <tur:şey>
+"<билгели>"
+;	"билгелә" v tv prc_impf REMOVE:606 <tur:işaretle> <tur:işaretle>
+"<,>"
+	"," cm
+"<парламентны>"
+	"парламент" n acc <tur:meclis>
+"<тарата>"
+	"тарат" v tv prc_impf SELECT:640
+"<ала>"
+	"ал" vaux pres p3 sg SELECT:624
+"<һәм>"
+	"һәм" cnjcoo <tur:ve>
+"<гадәттән тыш>"
+	"гадәттән тыш" adj
+"<хәл>"
+	"хәл" n nom <tur:güç> <tur:hal>
+"<кертү>"
+	"керт" v tv ger nom <tur:geçir> <tur:sok> <tur:yerleştir>
+"<турында>"
+	"турында" post SELECT:910 <tur:hakkında>
+"<игълан итә>"
+	"игълан ит" v tv prc_impf SELECT:640
+"<алачак>"
+;	"ал" v tv fut2 p3 sg SELECT:350 SELECT:624 <tur:al> <tur:al> <tur:al> <tur:al> <tur:al> <tur:al> <tur:al> <tur:değiştir>
+"<.>"
+	"." sent
+
+
+
+"<Бер үк>"
+	"бер" num subst nom <tur:bir>
+		"ук" postadv
+"<вакытта>"
+	"вакыт" n loc <tur:vakit> <tur:zaman>
+"<дәүләт>"
+;	"дәүләт" n nom SELECT:501 <tur:devlet>
+
+"<башлыгы да>"
+;	"башлык" n px3sp nom <tur:başkan> <tur:kılavuz>
+;		"да" postadv SELECT:291
+"<,>"
+	"," cm
+"<хөкүмәт>"
+;	"хөкүмәт" n nom <tur:hükümet>
+"<башлыгы да>"
+;	"башлык" n px3sp nom <tur:başkan> <tur:kılavuz>
+;		"да" postadv REMOVE:684
+"<булып>"
+	"бул" v iv prc_perf SELECT:615 <tur:ol> <tur:ol>
+"<тора>"
+;	"тор" v iv pres p3 sg SELECT:350 SELECT:624 <tur:dur>
+"<.>"
+	"." sent
+
+
+
+"<2004>"
+	"2004" num
+"<елның>"
+	"ел" n gen <tur:yıl>
+"<11>"
+	"11" num
+"<августында>"
+	"август" n px3sp loc <tur:ağustos>
+"<Грузиягә>"
+	"Грузия" np top dat <tur:Gürcistan>
+"<сәфәре>"
+	"сәфәр" n px3sp nom <tur:gezi> <tur:yolculuk>
+"<вакытында>"
+	"вакыт" n px3sp loc <tur:vakit> <tur:zaman>
+"<ата-анасының>"
+	"ата-ана" n px3sp gen
+"<Батумнан>"
+	"Батум" np top abl
+"<күченгән>"
+	"күчен" v iv gpr_past SELECT:633 <tur:göç>
+"<грузин>"
+;	"грузин" n nom SELECT:501
+"<гаиләсе>"
+	"гаилә" n px3sp nom <tur:aile>
+"<булганлыгын>"
+	"бул" v iv ger_perf px3sp acc <tur:ol> <tur:ol>
+"<әйтә>"
+	"әйт" v tv pres p3 sg SELECT:350 <tur:söyle> <tur:söyle>
+"<.>"
+	"." sent
+ 
+
+
+"<Шәһәрнең>"
+	"шәһәр" n gen <tur:şehir>
+"<зур>"
+	"зур" adj <tur:büyük> <tur:büyük>
+"<—>"
+	"—" guio
+"<Аурупада>"
+;	"Аурупа" np top loc SELECT:291 <tur:Avrupa>
+"<,>"
+	"," cm
+"<кечкенәсе>"
+	"кечкенә" adj subst px3sp nom <tur:küçük> <tur:küçük>
+"<Азиядә>"
+	"Азия" np top loc <tur:Asya>
+"<урын>"
+	"урын" n nom <tur:yer>
+"<тота>"
+	"тот" v tv pres p3 sg SELECT:350 <tur:kar>
+"<.>"
+	"." sent
+
+
+
+"<Шәһәр>"
+;	"шәһәр" n nom SELECT:501 <tur:şehir>
+"<халкының>"
+	"халык" n px3sp gen <tur:halk>
+"<98%>"
+	"98" num percent
+"<->"
+	"-" guio
+"<ы>"
+	"ы" ltr
+"<үзләрен>"
+	"үз" prn ref px3pl acc <tur:öz>
+"<төрек>"
+;	"төрек" n nom SELECT:501
+"<этносы>"
+	"этнос" n px3sp nom
+"<белән>"
+	"белән" post SELECT:731 <tur:ile>
+"<бәйли>"
+;	"бәйлә" v tv prc_impf REMOVE:606 <tur:bağla> <tur:bağla> <tur:bağla> <tur:bağla> <tur:ör> <tur:ör> <tur:ör>
+"<,>"
+	"," cm
+"<төрек>"
+;	"төрек" n nom SELECT:501
+"<телен>"
+	"тел" n px3sp acc <tur:dil>
+"<туган>"
+;	"туган" adj SELECT:501
+"<телләре>"
+	"тел" n pl px3sp nom <tur:dil>
+"<дип>"
+	"ди" v tv gna_perf <tur:de> <tur:de> <tur:de> <tur:de> <tur:de> <tur:kandır> <tur:say> <tur:yak>
+"<саный>"
+	"сана" v tv pres p3 sg <tur:say>
+"<,>"
+	"," cm
+"<үзләрен>"
+	"үз" prn ref px3pl acc <tur:öz>
+"<мөселман>"
+	"мөселман" n nom <tur:müslüman>
+"<дип>"
+	"ди" v tv gna_perf <tur:de> <tur:de> <tur:de> <tur:de> <tur:de> <tur:kandır> <tur:say> <tur:yak>
+"<саный>"
+	"сана" v tv pres p3 sg SELECT:350 <tur:say>
+"<.>"
+	"." sent
+
+
+
+"<Солтан>"
+;	"солтан" n nom SELECT:381
+"<Мехмед>"
+	"Мехмед" np ant m nom
+"<II>"
+	"II" num ord
+"<шәһәрне>"
+	"шәһәр" n acc <tur:şehir>
+"<Госманлы>"
+;	"госманлы" n nom SELECT:501
+"<империясе>"
+	"империя" n px3sp nom <tur:imparatorluk>
+"<башкаласы>"
+	"башкала" n px3sp nom <tur:başkent>
+"<дип>"
+	"ди" v tv gna_perf <tur:de> <tur:de> <tur:de> <tur:de> <tur:de> <tur:kandır> <tur:say> <tur:yak>
+"<игълан итә>"
+	"игълан ит" v tv pres p3 sg SELECT:350
+"<.>"
+	"." sent
+ 
+
+
+"<1204>"
+	"1204" num
+"<—>"
+	"—" guio
+"<Дүртенче>"
+	"дүрт" num ord <tur:dört>
+"<Тәре>"
+;	"тәре" n nom SELECT:501
+"<явы>"
+	"яу" n px3sp nom
+"<катнашучылары>"
+	"катнаш" v iv gpr_pot subst pl px3sp nom <tur:gir> <tur:gir> <tur:karış> <tur:karış> <tur:katıl> <tur:katıl>
+"<Константинопольне>"
+	"Константинополь" np top acc
+"<талыйлар>"
+	"тала" v tv pres p3 pl
+"<.>"
+	"." sent
+
+
+
+"<Сөләйман>"
+	"Сөләйман" np ant m nom <tur:Süleyman>
+"<мәчете>"
+	"мәчет" n px3sp nom <tur:cami>
+"<төзелеше>"
+	"төзелеш" n px3sp nom <tur:inşaat> <tur:yapım>
+"<аерым>"
+	"аерым" adj <tur:ayrı>
+"<урын>"
+	"урын" n nom <tur:yer>
+"<алып>"
+	"ал" v tv prc_perf <tur:al> <tur:al> <tur:al> <tur:al> <tur:al> <tur:al> <tur:al> <tur:değiştir>
+"<тора>"
+;	"тор" v iv pres p3 sg SELECT:350 SELECT:624 <tur:dur>
+"<.>"
+	"." sent
+ 
+
+
+"<Төрле>"
+	"төрле" adj <tur:ciddi> <tur:derin> <tur:makul> <tur:sabit>
+"<конфессияләр>"
+	"конфессия" n pl nom
+"<христианнары>"
+	"христиан" n pl px3sp nom <tur:hıristiyan>
+"<шәһәр>"
+;	"шәһәр" n nom SELECT:501 <tur:şehir>
+"<халкының>"
+	"халык" n px3sp gen <tur:halk>
+"<яртысын>"
+	"ярты" n px3sp acc
+"<1910>"
+	"1910" num
+"<елда>"
+	"ел" n loc <tur:yıl>
+"<тәшкил итә>"
+	"тәшкил ит" v tv pres p3 sg SELECT:350
+"<.>"
+	"." sent
+ 
+
+
+"<1839>"
+	"1839" num
+"<елда>"
+	"ел" n loc <tur:yıl>
+"<атасының>"
+	"ата" n px3sp gen <tur:baba>
+"<крестьяннар>"
+	"крестьян" n pl nom
+"<тарафыннан>"
+	"тараф" n px3sp abl <tur:taraf>
+"<үтерелүе>"
+	"үтер" v tv pass ger px3sp nom <tur:öldür>
+"<турында>"
+	"турында" post SELECT:910 <tur:hakkında>
+"<хәбәр>"
+	"хәбәр" n nom <tur:haber>
+"<килә>"
+	"кил" v iv pres p3 sg SELECT:350 <tur:anlaş> <tur:anlaş> <tur:gel> <tur:gel> <tur:gel> <tur:gel> <tur:gel> <tur:gel> <tur:sözleş> <tur:yak> <tur:yak> <tur:yara>
+;	"кил" vaux prc_impf SELECT:350
+ <tur:yak> <tur:yak> <tur:yara>
+;	"кил" vaux pres p3 sg SELECT:350 REMOVE:622
+"<.>"
+	"." sent
+ 
+
+
+"<Достоевский>"
+	"Достоевский" np cog m nom
+"<—>"
+	"—" guio
+"<рус>"
+	"рус" n attr SELECT:501
+"<әдәбиятының>"
+	"әдәбият" n px3sp gen <tur:edebiyat>
+"<иң>"
+	"иң" adv <tur:en> <tur:çok>
+"<олы>"
+	"олы" adj <tur:ulu>
+"<һәм>"
+	"һәм" cnjcoo <tur:ve>
+"<иң>"
+	"иң" adv <tur:en> <tur:çok>
+"<танылган>"
+;	"танылган" adj
+"<язучыларының>"
+	"яз" v tv gpr_pot subst pl px3sp gen <tur:yaz>
+"<берсе>"
+	"берсе" prn ind nom <tur:birisi>
+		"и" cop aor p3 sg SELECT:291
+"<,>"
+	"," cm
+"<фәлсәфәче>"
+	"фәлсәфәче" n nom
+		"и" cop aor p3 sg SELECT:291
+"<.>"
+	"." sent
+ 
+
+
+"<Фәлсәфә>"
+	"фәлсәфә" n nom
+"<һәм>"
+	"һәм" cnjcoo <tur:ve>
+"<икътисад>"
+;	"икътисад" n nom SELECT:501 <tur:ekonomi> <tur:iktisat>
+"<өлкәсенә>"
+	"өлкә" n px3sp dat <tur:bölge>
+"<карый торган>"
+	"кара" v tv gpr_impf <tur:bak> <tur:gör> <tur:kar> <tur:kar> <tur:karala> <tur:oranla> <tur:seyret> <tur:seyret>
+ <tur:seyret>
+;	"кара" vaux gpr_impf REMOVE:622
+"<фәнни>"
+	"фәнни" adj <tur:bilimsel>
+"<хезмәтләре>"
+	"хезмәт" n pl px3sp nom <tur:hizmet>
+"<бар>"
+	"бар" adj SELECT:816 <tur:var> <tur:var> <tur:var>
+		"и" cop aor p3 sg SELECT:291
+
+"<..>"
+	".." sent
+
+
+

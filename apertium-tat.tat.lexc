@@ -28851,6 +28851,7 @@ InterrogativePronouns ;
 Адлер:Адлер NP-TOP-RUS ;
 Арабат:Арабат NP-TOP ;
 Баренц:Баренц NP-TOP ;
+Батум:Батум NP-TOP ; ! 
 Вычегда:Вычегда NP-TOP ;
 Казан%<np%>%<top%>%<loc%>:Казандә # ; ! "" Dir/LR err_orth
 Казан:казан NP-TOP ; ! "" Dir/LR

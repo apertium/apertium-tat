@@ -1,12 +1,14 @@
 version: 2.0
 jobs:
-  build_and_test:
+  build:
     docker:
       - image: apertium/base:release
     steps:
       - checkout
+
       - run: ./autogen.sh
       - run: make
+
       - run:
         name: Install apertium-quality
         command: |

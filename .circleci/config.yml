@@ -15,7 +15,7 @@ jobs:
             apt-get -y install python3
             git clone https://github.com/apertium/apertium-quality.git
             cd apertium-quality/mwtools/python3
-            sudo python3 ./setup.py install
+            python3 ./setup.py install
             cd ../../
             ./autogen.sh && make && make install
             cd ../../../

@@ -12,9 +12,10 @@ jobs:
       - run:
           name: Install apertium-quality
           command: |
+            apt install python3
             git clone https://github.com/apertium/apertium-quality.git
             cd apertium-quality/mwtools/python3
-            python3 ./setup.py install
+            sudo python3 ./setup.py install
             cd ../../
             ./autogen.sh && make && make install
             cd ../../../

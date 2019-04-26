@@ -1,9 +1,18 @@
 version: 2.0
 jobs:
-  build:
+  build_and_test:
     docker:
       - image: apertium/base:release
     steps:
       - checkout
       - run: ./autogen.sh
       - run: make
+      - run:
+        name: Install apertium-quality
+        command: |
+          git clone https://github.com/apertium/apertium-quality.git
+          cd apertium-quality/mwtools/python3
+          sudo python3 ./setup.py install
+          cd ../../
+          ./autogen.sh && make && sudo make install
+          cd ../../../

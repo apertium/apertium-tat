@@ -21,4 +21,4 @@ jobs:
             cd ../../../
 
       - run: curl https://raw.githubusercontent.com/taruen/apertiumpp/master/data4apertium/corpora/jam/tat.txt > tat.txt
-      - run: aq-covtest tat.automorf.bin tat.txt
+      - run: aq-covtest tat.txt tat.txt

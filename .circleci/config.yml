@@ -20,8 +20,12 @@ jobs:
             ./autogen.sh && make && make install
             cd ../../../
 
-      - run: curl https://raw.githubusercontent.com/taruen/apertiumpp/master/data4apertium/corpora/jam/tat.txt > /tmp/tat.txt
-      - run: aq-covtest /tmp/tat.txt tat.automorf.bin | tee | grep "Coverage: " | sed 's/Coverage: \(.*\)%/\1/g' > /tmp/cov.jam.txt
+      - run:
+          name: Measure coverage
+          command: |
+            curl https://raw.githubusercontent.com/taruen/apertiumpp/master/data4apertium/corpora/jam/tat.txt > /tmp/tat.txt
+            aq-covtest /tmp/tat.txt tat.automorf.bin | tee | grep 'Coverage: ' | sed 's/Coverage: \(.*\)%/\1/g' > /tmp/cov.jam.txt
 
       - store_artifacts:
           path: /tmp/cov.jam.txt
+ 

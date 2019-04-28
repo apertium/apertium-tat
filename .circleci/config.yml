@@ -21,6 +21,14 @@ jobs:
             cd ../../../
 
       - run:
+          name: Install a little go program for fetching latest build artifacts
+          command: |
+            apt-get -y install golang
+            export GOPATH=$HOME/gocode
+            go get github.com/nbio/cart
+            ./$HOME/gocode/bin/cart /tmp/cov.jam.txt
+
+      - run:
           name: Measure coverage
           command: |
             curl https://raw.githubusercontent.com/taruen/apertiumpp/master/data4apertium/corpora/jam/tat.txt > /tmp/jam.tat.txt

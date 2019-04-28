@@ -24,10 +24,10 @@ jobs:
           name: Install a little go program for fetching latest build artifacts
           command: |
             apt-get -y install golang
-            export GOPATH=/home/gocode
+            export GOPATH=/tmp/gocode
             go get github.com/nbio/cart
-            chmod u+x /home/gocode/bin/cart
-            ./home/gocode/bin/cart /tmp/cov.jam.txt
+            chmod u+x /tmp/gocode/bin/cart
+            /tmp/gocode/bin/cart /tmp/cov.jam.txt
 
       - run:
           name: Measure coverage

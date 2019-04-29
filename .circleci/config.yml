@@ -10,7 +10,7 @@ jobs:
       - run: make
 
       - run:
-          name: Install apertium-quality
+          name: Install apertium-quality and awscli
           command: |
             apt-get -y install python3 python3-setuptools python3-dev python3-yaml curl
             git clone https://github.com/apertium/apertium-quality.git
@@ -19,6 +19,7 @@ jobs:
             cd ../../
             ./autogen.sh && make && make install
             cd ../../../
+            pip install awscli
 
       - run:
           name: Measure coverage
@@ -35,7 +36,13 @@ jobs:
             aq-covtest /tmp/bible.tat.txt tat.automorf.bin | tee /tmp/covtestlog
             cat /tmp/covtestlog | grep 'Coverage: ' | sed 's/Coverage: \(.*\)%/\1/g' > /tmp/cov.bible.txt
             echo "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"81\" height=\"20\"><linearGradient id=\"a\" x2=\"0\" y2=\"100%\"><stop offset=\"0\" stop-color=\"#bbb\" stop-opacity=\".1\"/><stop offset=\"1\" stop-opacity=\".1\"/></linearGradient><rect rx=\"3\" width=\"81\" height=\"20\" fill=\"#555\"/><rect rx=\"3\" x=\"37\" width=\"44\" height=\"20\" fill=\"#e05d44\"/><path fill=\"#e05d44\" d=\"M37 0h4v20h-4z\"/><rect rx=\"3\" width=\"81\" height=\"20\" fill=\"url(#a)\"/><g fill=\"#fff\" text-anchor=\"middle\" font-family=\"DejaVu Sans,Verdana,Geneva,sans-serif\" font-size=\"11\"><text x=\"19.5\" y=\"15\" fill=\"#010101\" fill-opacity=\".3\">bible</text><text x=\"19.5\" y=\"14\">bible</text><text x=\"58\" y=\"15\" fill=\"#010101\" fill-opacity=\".3\">$(cat /tmp/cov.bible.txt)%</text><text x=\"58\" y=\"14\">$(cat /tmp/cov.bible.txt)%</text></g></svg>" > /tmp/cov.bible.svg
-            
+            aws s3 cp /tmp/cov.jam.txt s3://apertium/apertium-tat/
+            aws s3 cp /tmp/cov.jam.svg s3://apertium/apertium-tat/
+            aws s3 cp /tmp/cov.udhr.txt s3://apertium/apertium-tat/
+            aws s3 cp /tmp/cov.udhr.svg s3://apertium/apertium-tat/
+            aws s3 cp /tmp/cov.bible.txt s3://apertium/apertium-tat/
+            aws s3 cp /tmp/cov.bible.svg s3://apertium/apertium-tat/
+
       - store_artifacts:
           path: /tmp/cov.jam.txt
 

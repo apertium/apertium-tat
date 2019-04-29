@@ -19,7 +19,7 @@ jobs:
             cd ../../
             ./autogen.sh && make && make install
             cd ../../../
-            pip install awscli
+            pip3 install awscli
 
       - run:
           name: Measure coverage

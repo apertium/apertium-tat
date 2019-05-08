@@ -40,4 +40,4 @@ jobs:
             aws s3 cp /tmp/ s3://apertium/apertium-tat/ --exclude "*" --include "cov.*.svg"
 
       - store_artifacts:
-          path: /tmp/
+          path: /tmp/cov.*

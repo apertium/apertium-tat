@@ -3,7 +3,7 @@
 "<Афинада>"
 	"Афина" np top loc
 "<аристократ>"
-;	"аристократ" n nom <tur:aristokrat> <tur:soylular>
+;	"аристократ" n attr <tur:aristokrat> <tur:soylular>
 "<гаиләсендә>"
 	"гаилә" n px3sp loc <tur:aile>
 "<туа>"
@@ -56,7 +56,7 @@
 "<Әфләтүннең>"
 	"Әфләтүн" np ant m gen @ADVL→ MAP:976
 "<сәясәт>"
-;	"сәясәт" n nom <tur:siyaset>
+;	"сәясәт" n attr <tur:siyaset>
 "<белеменә>"
 	"белем" n px3sp dat <tur:bilim> <tur:ilim>
 "<кагылышлы>"
@@ -85,7 +85,7 @@
 "<ул>"
 	"ул" prn pers p3 sg nom SELECT:784 <tur:o> <tur:ora>
 "<икешәр>"
-	"икешәр" adj
+	"ике" num dist nom
 "<вариантны>"
 	"вариант" n acc <tur:fark>
 "<—>"
@@ -112,7 +112,7 @@
 "<гадел>"
 	"гадел" adj <tur:adi>
 "<булганы>"
-	"бул" v iv ger_past px3sp nom SELECT:656 <tur:ol> <tur:ol>
+	"бул" v iv gpr_past subst px3sp nom SELECT:656 <tur:ol> <tur:ol>
 "<—>"
 	"—" guio
 "<аристократия>"
@@ -124,7 +124,7 @@
  
 
 "<Алар>"
-;	"алар" prn pers p3 pl nom SELECT:501 <tur:onlar>
+;	"ул" prn dem pl nom SELECT:501 <tur:onlar>
 "<барысы>"
 	"бары" prn qnt px3sp nom <tur:hepsi>
 "<бергә>"
@@ -145,7 +145,7 @@
 
 
 "<AK>"
-	"Ak" np unk
+	"Ak" abbr
 "<Партиянең>"
 	"партия" n gen <tur:parti>
 "<җитәкчесе>"
@@ -161,7 +161,7 @@
 "<елның>"
 	"ел" n gen <tur:yıl>
 "<июль>"
-;	"июль" n nom <tur:temmuz>
+;	"июль" n attr <tur:temmuz>
 "<аенда>"
 	"ай" n px3sp loc <tur:ay>
 "<Әрдоган>"
@@ -175,11 +175,11 @@
 "<бергә>"
 ;	"бергә" adv SELECT:588 <tur:beraber> <tur:birlikte>
 "<Гаделлек>"
-	"гаделлек" n nom <tur:adalet>
+	"гаделлек" n attr <tur:adalet>
 "<һәм>"
 	"һәм" cnjcoo <tur:ve>
 "<алгарыш>"
-;	"алгарыш" n nom
+;	"алгарыш" n attr
 "<партиясен>"
 	"партия" n px3sp acc <tur:parti>
 "<кора>"

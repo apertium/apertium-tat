@@ -1,15 +1,16 @@
 Config: 
   hfst: 
     App:  hfst-lookup
-    Gen:  tat.autogen.hfst
-    Morph:  tat.automorf.hfst
+    Gen:  ../../tat.autogen.hfst
+    Morph:  ../../tat.automorf.hfst
 
 Tests: 
 
   "[twol] й+е > е":
     музей<n><px3sp><nom> : музее
-    абый<n><px3sp><nom> : абые
-    абый<n><px3sp><nom> : абыйсы
+    абый<n><px3sp><nom> :
+      - абые
+      - абыйсы
 
   "[twol] и+е > ие":
     поши<n><px3sp><nom> : пошие

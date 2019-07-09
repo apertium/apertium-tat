@@ -716,10 +716,12 @@ LEXICON POSSESSIVES
 LEXICON ABESSIVE-POSTPOSITION
 
 %+сыз%<post%>:%>с%{I%}з CLITICS-NO-COP ;
+%+сыз%<post%>:%>с%{I%}з V-PERS-S1-COP ;
 
 LEXICON LI-POSTPOSITION
 
 %+лы%<post%>:%>л%{I%} CLITICS-NO-COP ;
+%+лы%<post%>:%>л%{I%} V-PERS-S1-COP ;
 
 LEXICON PLURAL
 

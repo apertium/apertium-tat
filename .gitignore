@@ -1,3 +1,8 @@
+*~
+*.tmp
+*.swp
+*.swo
+dev/mansur.bin
 /.deps
 /INSTALL
 /Makefile

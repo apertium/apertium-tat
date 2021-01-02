@@ -2334,7 +2334,7 @@ InterrogativePronouns ;
 ничә:ничә NUM-ITG ;
 ничә:ничәү NUM-ITG-COLL ;
 
-<(M | D | C | L | X | V | I)+> NUM-ROMAN ; ! ""
+<[ M | D | C | L | X | V | I ]+> NUM-ROMAN ; ! ""
 
 
 !=============!
@@ -62400,9 +62400,9 @@ kz:kz ABBR ; ! ""
 һ%.б%.:һ%.б%. ABBR ; ! etc.""
 Өзәнмунайгаз:Өзәнмунайгаз ABBR ; ! ""
 
-<( а | ә | б | в | г | ғ | д | е | ё | ж | җ | з | и | і | й | к | қ | л | м | н |
+<[ а | ә | б | в | г | ғ | д | е | ё | ж | җ | з | и | і | й | к | қ | л | м | н |
    ң | о | ө | п | р | с | т | у | ұ | ү | ф | х | һ | ц | ч | ш | щ | ь | ы |
-   ъ | э | ю | я )> LTR ;
+   ъ | э | ю | я ]> LTR ;
 
 
 !===================!
@@ -62466,7 +62466,7 @@ kz:kz ABBR ; ! ""
 
 ! TODO: * (asterisk) doesn't work here: ^*/*$
 ! TODO: Do we need № here or above with a separate tag?
-<( %* | %# | %№ | %+ | • | %& | = )+> PUNCT ; ! Use/MT
+<[ %* | %# | %№ | %+ | • | %& | = ]+> PUNCT ; ! Use/MT
 
 LEXICON PUNCT
 
@@ -62488,7 +62488,7 @@ LEXICON NP-UNK
 
 LEXICON GUESS-QUEUE
 
-<(a | b | c | d | e | f | g | h | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z)+> NP-UNK ;
+<[a | b | c | d | e | f | g | h | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z]+> NP-UNK ;
 
 LEXICON Guesser
 

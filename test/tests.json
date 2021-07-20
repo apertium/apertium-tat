@@ -1,0 +1,26 @@
+{
+  "collective": {
+    "input": "collective-input.txt",
+    "mode": "tat-morph"
+  },
+  "collective-gen": {
+    "input": "collective-gen-input.txt",
+    "mode": "tat-gener"
+  },
+  "numerals": {
+    "input": "numerals-input.txt",
+    "mode": "tat-morph"
+  },
+  "numerals-gen": {
+    "input": "numerals-gen-input.txt",
+    "mode": "tat-gener"
+  },
+  "percents": {
+    "input": "percents-input.txt",
+    "mode": "tat-morph"
+  },
+  "percents-gen": {
+    "input": "percents-gen-input.txt",
+    "mode": "tat-gener"
+  }
+}

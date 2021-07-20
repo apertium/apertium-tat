@@ -1,0 +1,1600 @@
+[-B62y7BpyBFM#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/-B62y7BpyBFM]
+[-HjTnJDqE0gx#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/-HjTnJDqE0gx]
+[-VZjKHNlOX_K#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/-VZjKHNlOX_K]
+[-_Nr4sykXNin#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/-_Nr4sykXNin]
+[-cAUvvtiKZk0#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$
+[/-cAUvvtiKZk0]
+[-gecc8AIsLRS#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/-gecc8AIsLRS]
+[00zx1PbufnB6#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/00zx1PbufnB6]
+[08ig3TK6ZtEO#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/08ig3TK6ZtEO]
+[099i-mS4SrsG#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/099i-mS4SrsG]
+[09e9Wco7veME#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/09e9Wco7veME]
+[0A2porQn2yNa#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/0A2porQn2yNa]
+[0GMf-aiQD52R#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/0GMf-aiQD52R]
+[0HDxTCGEpnpm#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/0HDxTCGEpnpm]
+[0IVn9hGlRvdL#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/0IVn9hGlRvdL]
+[0RR888i239xk#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/0RR888i239xk]
+[0RdjsI4tTAmC#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/0RdjsI4tTAmC]
+[0c4zS2p_Nkse#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$
+[/0c4zS2p_Nkse]
+[0d9-5Viwd8gX#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/0d9-5Viwd8gX]
+[0eHXfsF8O1Wj#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$
+[/0eHXfsF8O1Wj]
+[0epHmPurITFy#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/0epHmPurITFy]
+[0h6xu_gC5-Nv#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/0h6xu_gC5-Nv]
+[0ljVSae0aeP4#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/0ljVSae0aeP4]
+[0qlBuO4BTwhp#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/0qlBuO4BTwhp]
+[0saEL1Fcuts7#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/0saEL1Fcuts7]
+[0uClYTE6mvrH#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/0uClYTE6mvrH]
+[1-kb9Pyvxlof#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/1-kb9Pyvxlof]
+[12i2_NrvcKAA#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/12i2_NrvcKAA]
+[16gmtrRrbnDO#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$
+[/16gmtrRrbnDO]
+[18qKz7Ga8W58#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/18qKz7Ga8W58]
+[1BVV0_Amf7wo#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/1BVV0_Amf7wo]
+[1C4vTEYEgrTq#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/1C4vTEYEgrTq]
+[1PSiUuJE5nzt#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/1PSiUuJE5nzt]
+[1RZ7AlnqMxnS#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/1RZ7AlnqMxnS]
+[1WFFMPWD4RBL#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/1WFFMPWD4RBL]
+[1Z1Kmgm-6lz8#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/1Z1Kmgm-6lz8]
+[1jxN2d8Weexv#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/1jxN2d8Weexv]
+[1pSDEGx5xbql#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/1pSDEGx5xbql]
+[1rTNVQwTrx7V#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/1rTNVQwTrx7V]
+[1tZk4wK720tI#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/1tZk4wK720tI]
+[1tbS5qYXzXj0#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/1tbS5qYXzXj0]
+[1vHdaLWd1mXX#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/1vHdaLWd1mXX]
+[1ymUnC7wrEwT#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/1ymUnC7wrEwT]
+[22u0Nh5hCnk9#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/22u0Nh5hCnk9]
+[236gNjqTtEaZ#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/236gNjqTtEaZ]
+[2GHVIyyOvWJG#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/2GHVIyyOvWJG]
+[2OVSnb_v4xcn#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/2OVSnb_v4xcn]
+[2PT-8N8Fuj2X#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/2PT-8N8Fuj2X]
+[2V1Mz9_uIfnP#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/2V1Mz9_uIfnP]
+[2Wf5RYmghAf1#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/2Wf5RYmghAf1]
+[2YY9VVzwZtRF#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/2YY9VVzwZtRF]
+[2a93T7G9UUt0#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/2a93T7G9UUt0]
+[2cyYE14_uUHJ#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/2cyYE14_uUHJ]
+[2daJx4airie5#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$
+[/2daJx4airie5]
+[2p_plobXP9rW#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/2p_plobXP9rW]
+[2ycSZNoc9swH#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/2ycSZNoc9swH]
+[374GHv1XgQay#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/374GHv1XgQay]
+[3EzYay6xQgFv#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/3EzYay6xQgFv]
+[3FhdvEF5weKC#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/3FhdvEF5weKC]
+[3Go9fHGu1bQS#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/3Go9fHGu1bQS]
+[3JNP4wqUK8oH#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$
+[/3JNP4wqUK8oH]
+[3SR1bSOrh-aj#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/3SR1bSOrh-aj]
+[3U8et4Zprm5U#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/3U8et4Zprm5U]
+[3aQZk-FgEz2o#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/3aQZk-FgEz2o]
+[3fq3oTBVAOgm#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/3fq3oTBVAOgm]
+[3hhdlNunNf1d#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/3hhdlNunNf1d]
+[3hnsRN7kEf8b#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/3hnsRN7kEf8b]
+[3nEECS1dIChC#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/3nEECS1dIChC]
+[3uU-yUY5XkM3#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/3uU-yUY5XkM3]
+[45x9FZl9Hsre#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/45x9FZl9Hsre]
+[47oI1bjL2GK3#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/47oI1bjL2GK3]
+[4F83s4VFK66z#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/4F83s4VFK66z]
+[4FVZLeY_0Cmj#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/4FVZLeY_0Cmj]
+[4GvrT37XHTXY#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/4GvrT37XHTXY]
+[4I3BC22X6ufO#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/4I3BC22X6ufO]
+[4JeABwUGx4RF#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/4JeABwUGx4RF]
+[4K-E2lR4opoE#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/4K-E2lR4opoE]
+[4RqxllycaQtV#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/4RqxllycaQtV]
+[4SFfbheOcglF#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/4SFfbheOcglF]
+[4gehwl9lwyhz#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/4gehwl9lwyhz]
+[4lv0ArjIZnce#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/4lv0ArjIZnce]
+[4mNU7Ksse6d0#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/4mNU7Ksse6d0]
+[4mgphUijj95-#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/4mgphUijj95-]
+[4tCRfRDZQYqc#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/4tCRfRDZQYqc]
+[50e7QRXN0ylj#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$
+[/50e7QRXN0ylj]
+[54-QzrjEpmoQ#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/54-QzrjEpmoQ]
+[5AEWUVQ7RiyC#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/5AEWUVQ7RiyC]
+[5GgCGwqzrWC4#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/5GgCGwqzrWC4]
+[5KUNUwCkMs80#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/5KUNUwCkMs80]
+[5M40p3Q3Xxgc#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/5M40p3Q3Xxgc]
+[5ujTWojWiXYp#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/5ujTWojWiXYp]
+[5wuW67EVNTYc#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$
+[/5wuW67EVNTYc]
+[63X2cvL4n_lm#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/63X2cvL4n_lm]
+[67_SEV1nCtXa#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/67_SEV1nCtXa]
+[6874Ji0aeRrO#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$
+[/6874Ji0aeRrO]
+[6Ak8MlEpxYI0#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/6Ak8MlEpxYI0]
+[6DFC49ZS75QB#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/6DFC49ZS75QB]
+[6SpZEsBai2WV#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/6SpZEsBai2WV]
+[6W9EHQr-s_fR#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/6W9EHQr-s_fR]
+[6ZVt7X-8qguK#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/6ZVt7X-8qguK]
+[6bUIVfQfBP2k#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/6bUIVfQfBP2k]
+[6ct6A5DUg1cd#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/6ct6A5DUg1cd]
+[6hUDFYZUUQPy#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/6hUDFYZUUQPy]
+[6ij4l0FCPgtI#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$
+[/6ij4l0FCPgtI]
+[6jYUyMZbzbVA#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/6jYUyMZbzbVA]
+[6rM8eKu1DLXf#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/6rM8eKu1DLXf]
+[6wg-l-A8YYQ7#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$
+[/6wg-l-A8YYQ7]
+[6xyAt1ah_PDp#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/6xyAt1ah_PDp]
+[73NZZ5x-eagd#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/73NZZ5x-eagd]
+[7CKeJO0WWCZk#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/7CKeJO0WWCZk]
+[7Gi00JETyW80#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/7Gi00JETyW80]
+[7R70eClPRzts#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/7R70eClPRzts]
+[7Xxz1FNHgpbd#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/7Xxz1FNHgpbd]
+[7cGcmrWlDVt6#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/7cGcmrWlDVt6]
+[7fYoV-6CmbLi#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/7fYoV-6CmbLi]
+[7jSRjkCLLrjr#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/7jSRjkCLLrjr]
+[7lzNrLjDywXm#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/7lzNrLjDywXm]
+[7uQnHcX_rXKP#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/7uQnHcX_rXKP]
+[81hkOJIwkMYa#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$
+[/81hkOJIwkMYa]
+[83OscPSx8X8L#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/83OscPSx8X8L]
+[83uAVPiUjqBF#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/83uAVPiUjqBF]
+[853aCZgO-aZ7#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$
+[/853aCZgO-aZ7]
+[88iNZYX52Ici#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/88iNZYX52Ici]
+[8DSEQ3taDzKB#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/8DSEQ3taDzKB]
+[8Ia_IeuNvYIG#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/8Ia_IeuNvYIG]
+[8N6W8cpmXStA#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/8N6W8cpmXStA]
+[8NivISQ_8gYQ#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/8NivISQ_8gYQ]
+[8RiBNhh1eoop#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/8RiBNhh1eoop]
+[8X1hq7cO1ZDF#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/8X1hq7cO1ZDF]
+[8XY9CdFLIwkJ#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/8XY9CdFLIwkJ]
+[8YFdof-pXxg4#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/8YFdof-pXxg4]
+[8baaUnFUbSDj#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/8baaUnFUbSDj]
+[8bbV3kAz3Ow7#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/8bbV3kAz3Ow7]
+[8mEv04qZx3GQ#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$
+[/8mEv04qZx3GQ]
+[8rSXEUs4o_xv#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/8rSXEUs4o_xv]
+[8r_3PtYBNqua#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$
+[/8r_3PtYBNqua]
+[8sTBH8P52uIC#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$
+[/8sTBH8P52uIC]
+[8tW6d4_JZ6Oj#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/8tW6d4_JZ6Oj]
+[8u-XE4pw_14X#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/8u-XE4pw_14X]
+[8xLn-oB8Fidg#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/8xLn-oB8Fidg]
+[8xwi2LqLiuDq#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/8xwi2LqLiuDq]
+[90-RviAnEfnc#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/90-RviAnEfnc]
+[94cjQZNF7A4v#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/94cjQZNF7A4v]
+[9I6LZIcEsy4r#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/9I6LZIcEsy4r]
+[9RY5onJ91Zdo#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/9RY5onJ91Zdo]
+[9TkSHNEGFFqw#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/9TkSHNEGFFqw]
+[9WEPzYsG_jlt#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/9WEPzYsG_jlt]
+[9_FdEHeBDFoh#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/9_FdEHeBDFoh]
+[9gBLRzA_nd81#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/9gBLRzA_nd81]
+[9gLvlAKbmqHR#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/9gLvlAKbmqHR]
+[9h02TXqUCKU0#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/9h02TXqUCKU0]
+[9kNeCxVMIsyY#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/9kNeCxVMIsyY]
+[9mTgD_Lde2hm#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/9mTgD_Lde2hm]
+[9pRN91u99tVM#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/9pRN91u99tVM]
+[9rblclQ7T6OC#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/9rblclQ7T6OC]
+[9zmyz6NjadyW#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/9zmyz6NjadyW]
+[A14IhWIkVF4h#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/A14IhWIkVF4h]
+[A5vgNaY3yQ0z#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/A5vgNaY3yQ0z]
+[A6Qt5cdcjApm#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$
+[/A6Qt5cdcjApm]
+[AAByzkXfD8Fs#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/AAByzkXfD8Fs]
+[AGQ90di30wXD#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/AGQ90di30wXD]
+[APuRXRJnM-v6#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/APuRXRJnM-v6]
+[AQYt8ib9GgeA#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/AQYt8ib9GgeA]
+[AR-_OrxwQzVd#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$
+[/AR-_OrxwQzVd]
+[AeeK-fx3InRo#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/AeeK-fx3InRo]
+[AhUDpFzM29Qq#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/AhUDpFzM29Qq]
+[Aik5cl0Oz5_g#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Aik5cl0Oz5_g]
+[Akop2jUa-lsB#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Akop2jUa-lsB]
+[AqsT-pQSZAyI#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/AqsT-pQSZAyI]
+[B5KBtMZQQxJ1#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/B5KBtMZQQxJ1]
+[BASWBrnwwyqC#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/BASWBrnwwyqC]
+[BGXbU3ystPaD#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/BGXbU3ystPaD]
+[BRq9bNqnaGre#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/BRq9bNqnaGre]
+[Bep56y3weeL8#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Bep56y3weeL8]
+[BiNozUiQOvwF#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$
+[/BiNozUiQOvwF]
+[BnMa2oQeNMfE#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/BnMa2oQeNMfE]
+[Bp-JTcQg87qh#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/Bp-JTcQg87qh]
+[Bt3qGv5026zN#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/Bt3qGv5026zN]
+[C0EChnaEiYQ8#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$
+[/C0EChnaEiYQ8]
+[C6sVeL3sbVM7#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$
+[/C6sVeL3sbVM7]
+[C9LlubEQNCjH#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/C9LlubEQNCjH]
+[CLBrJhgiduCg#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/CLBrJhgiduCg]
+[CYZ6jaigOoKw#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/CYZ6jaigOoKw]
+[CZMwoHpCzxFn#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/CZMwoHpCzxFn]
+[CbJZuAdA-qZC#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$
+[/CbJZuAdA-qZC]
+[Cf20sqs_V82d#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$
+[/Cf20sqs_V82d]
+[Cgmb3Gvmu89t#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Cgmb3Gvmu89t]
+[ClKVa8Wyb-5v#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/ClKVa8Wyb-5v]
+[Cq2xl8bHCgJQ#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Cq2xl8bHCgJQ]
+[CuNeCO6ym2e-#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$
+[/CuNeCO6ym2e-]
+[D1oHKDtTxMrA#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/D1oHKDtTxMrA]
+[DBwGTnRCbmKo#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/DBwGTnRCbmKo]
+[DG7ifCXq3MQ3#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/DG7ifCXq3MQ3]
+[DLzw3Pm6krtR#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/DLzw3Pm6krtR]
+[DQUJYODrkJ33#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/DQUJYODrkJ33]
+[DRp9WYTgDbGP#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/DRp9WYTgDbGP]
+[DVrVstO8EdiR#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/DVrVstO8EdiR]
+[DW4I_DAC4y3b#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/DW4I_DAC4y3b]
+[DcAYPUn1UITp#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/DcAYPUn1UITp]
+[DhOAXayHX6gV#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/DhOAXayHX6gV]
+[DmkWLbdAo3hD#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$
+[/DmkWLbdAo3hD]
+[Dqd04HOb2GdM#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Dqd04HOb2GdM]
+[DxY0LuHBOoZm#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$
+[/DxY0LuHBOoZm]
+[EBG7e1zl71o_#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/EBG7e1zl71o_]
+[EJY6wtsitbh5#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$
+[/EJY6wtsitbh5]
+[EPPo4gc-cHux#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/EPPo4gc-cHux]
+[ETfWEz50-jQX#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$
+[/ETfWEz50-jQX]
+[Ek7b0XJH3HBI#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Ek7b0XJH3HBI]
+[Eyfey6KHM5kE#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Eyfey6KHM5kE]
+[F-elomzSbOl3#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/F-elomzSbOl3]
+[F2NdRZxucWLa#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/F2NdRZxucWLa]
+[F6kvXYc_QdKd#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/F6kvXYc_QdKd]
+[F9QFvfhCt7_B#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/F9QFvfhCt7_B]
+[F9f3Ia491c8_#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/F9f3Ia491c8_]
+[FH7noght4q-G#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$
+[/FH7noght4q-G]
+[FHBewxj0QSa2#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/FHBewxj0QSa2]
+[FIUG09jnhqDY#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/FIUG09jnhqDY]
+[FIcvq4ctnp_F#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/FIcvq4ctnp_F]
+[FJEy-xEh3lsB#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/FJEy-xEh3lsB]
+[FS30UT2Kbrlm#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/FS30UT2Kbrlm]
+[FSM-5sKkuXyv#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/FSM-5sKkuXyv]
+[FaQgmOB5LTRo#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/FaQgmOB5LTRo]
+[FcxgfQ0n1PtU#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/FcxgfQ0n1PtU]
+[FsD1Q07TrJJb#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$
+[/FsD1Q07TrJJb]
+[G0vLhy24XJBT#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/G0vLhy24XJBT]
+[G891ad-XJTn3#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/G891ad-XJTn3]
+[G8UcqBrMvKgv#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/G8UcqBrMvKgv]
+[G9DvnEHF6Lfm#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/G9DvnEHF6Lfm]
+[GA1siJdDkA8O#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/GA1siJdDkA8O]
+[GFtU1KhFHmIP#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/GFtU1KhFHmIP]
+[GFxcF6oQi_rf#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/GFxcF6oQi_rf]
+[GGLIDra3K0Bk#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/GGLIDra3K0Bk]
+[GGyFb5aVl_YG#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/GGyFb5aVl_YG]
+[GHAtj2kZ2DBH#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/GHAtj2kZ2DBH]
+[GKkNMf_Dxd3O#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$
+[/GKkNMf_Dxd3O]
+[GNP3vk6FP1Fu#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/GNP3vk6FP1Fu]
+[GUAUuLaD6X35#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/GUAUuLaD6X35]
+[GcfqXslVUBal#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/GcfqXslVUBal]
+[Gepa9gqTbd6C#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Gepa9gqTbd6C]
+[GgC2mX-rvtj7#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/GgC2mX-rvtj7]
+[Ggt3SnFFPfrK#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Ggt3SnFFPfrK]
+[Gi8ydYUxbIv3#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/Gi8ydYUxbIv3]
+[GjRunmsozSWP#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/GjRunmsozSWP]
+[Gn4JMx7SAC3p#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/Gn4JMx7SAC3p]
+[GnwoVDE-G_kR#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/GnwoVDE-G_kR]
+[GrfQH2Xz2-vO#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/GrfQH2Xz2-vO]
+[GvnFfJ84V9VT#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/GvnFfJ84V9VT]
+[Gw0hCWcB7SSn#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Gw0hCWcB7SSn]
+[H525VqWO0sUt#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/H525VqWO0sUt]
+[HB0pnXjPRw38#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/HB0pnXjPRw38]
+[HBw7M0pJd3DC#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/HBw7M0pJd3DC]
+[HI4rewUPPUxl#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/HI4rewUPPUxl]
+[HQngTcVZ6Et4#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/HQngTcVZ6Et4]
+[HRb_jW2AFZ40#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/HRb_jW2AFZ40]
+[HU5Kqs8SqBnc#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/HU5Kqs8SqBnc]
+[HULomvvvYCFC#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/HULomvvvYCFC]
+[HUOSSRRvceWn#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/HUOSSRRvceWn]
+[HWJjwVFeKrkY#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$
+[/HWJjwVFeKrkY]
+[HZkoctG0VVDQ#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/HZkoctG0VVDQ]
+[HcbvvMtHnju1#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/HcbvvMtHnju1]
+[HmeAb951PkL4#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/HmeAb951PkL4]
+[HxIH5CPyexIV#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/HxIH5CPyexIV]
+[I-GRIYV82FvF#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/I-GRIYV82FvF]
+[I-xefyCivMP8#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$
+[/I-xefyCivMP8]
+[I00Oc4Va579H#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$
+[/I00Oc4Va579H]
+[I9cX-h2N4urf#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/I9cX-h2N4urf]
+[IEjWG9n8zTfH#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/IEjWG9n8zTfH]
+[IHIkcef7RIt5#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/IHIkcef7RIt5]
+[IHVwzc0Ic7hC#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/IHVwzc0Ic7hC]
+[IKIvHkh8lmSJ#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/IKIvHkh8lmSJ]
+[ILJRsVAkx8pK#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/ILJRsVAkx8pK]
+[ITSq7y2a3Wrp#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/ITSq7y2a3Wrp]
+[ITXZMJNv6JOz#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/ITXZMJNv6JOz]
+[IUoiXDLeD-NU#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/IUoiXDLeD-NU]
+[IWd_HRO1EWkt#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/IWd_HRO1EWkt]
+[IXiPV-hN0kA-#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$
+[/IXiPV-hN0kA-]
+[Ibhd_ilIeoJT#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$
+[/Ibhd_ilIeoJT]
+[Ii1dUW1e5-xV#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Ii1dUW1e5-xV]
+[Iixm57LaMqaq#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/Iixm57LaMqaq]
+[IjWy6Xp_PodY#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/IjWy6Xp_PodY]
+[IqlGIx5PMi8K#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/IqlGIx5PMi8K]
+[IwKI0_-6scwp#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/IwKI0_-6scwp]
+[J-SQY8H2iHlo#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/J-SQY8H2iHlo]
+[J9266oe5DzSk#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/J9266oe5DzSk]
+[JBzl2X8Die4X#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/JBzl2X8Die4X]
+[JKQ6FVxRfNBo#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/JKQ6FVxRfNBo]
+[JMIv-vQKgzCO#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/JMIv-vQKgzCO]
+[JMV8drz39dmk#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/JMV8drz39dmk]
+[JWfkbel1whB_#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/JWfkbel1whB_]
+[JcCkhx6ID5Ds#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$
+[/JcCkhx6ID5Ds]
+[JnZ-8Nf1dWvS#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/JnZ-8Nf1dWvS]
+[JpVJzk1xluih#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/JpVJzk1xluih]
+[JtEAs2XV_kGu#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/JtEAs2XV_kGu]
+[JzO16Jsmwftp#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/JzO16Jsmwftp]
+[JzlEFljW89bP#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/JzlEFljW89bP]
+[KGQFjLnGrMKk#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/KGQFjLnGrMKk]
+[KJAB0aSXF8Wu#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/KJAB0aSXF8Wu]
+[KM3rn3_ZMApc#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/KM3rn3_ZMApc]
+[KP2ujerjHW6v#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$
+[/KP2ujerjHW6v]
+[KRKp7CWXd-1C#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/KRKp7CWXd-1C]
+[KWZiuXXQXKa2#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/KWZiuXXQXKa2]
+[Kb21T0HjKkoc#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$
+[/Kb21T0HjKkoc]
+[KcSmCFMDtgeR#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/KcSmCFMDtgeR]
+[KreMH5CmGoZ7#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/KreMH5CmGoZ7]
+[KuI5N6XvXfRu#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/KuI5N6XvXfRu]
+[Kum1VZADS7x5#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Kum1VZADS7x5]
+[L2UnNfJcgoUf#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/L2UnNfJcgoUf]
+[LFY7gK9m033_#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/LFY7gK9m033_]
+[LKsobRvY4hsA#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/LKsobRvY4hsA]
+[LLP6CoeVWEgk#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/LLP6CoeVWEgk]
+[LMVBWReK2Dvo#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/LMVBWReK2Dvo]
+[LMYEeT5ZdPWV#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/LMYEeT5ZdPWV]
+[LTslpIUloPTE#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/LTslpIUloPTE]
+[LW0PJ6gXbIg0#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/LW0PJ6gXbIg0]
+[LaHkTgCdMPyE#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/LaHkTgCdMPyE]
+[LkDpxmNbgPFE#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/LkDpxmNbgPFE]
+[M0K3218Xc0tl#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$
+[/M0K3218Xc0tl]
+[M6d7SCMpYLTC#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/M6d7SCMpYLTC]
+[MAlQBgIHlZrz#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/MAlQBgIHlZrz]
+[MBBqDs-vQ1Lk#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/MBBqDs-vQ1Lk]
+[MDs-YMT8eI8G#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/MDs-YMT8eI8G]
+[MKszbHSfyNA-#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$
+[/MKszbHSfyNA-]
+[MKxUgTX02A7a#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/MKxUgTX02A7a]
+[MLGstzHi5BKa#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/MLGstzHi5BKa]
+[M_KR2NKfYjC9#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/M_KR2NKfYjC9]
+[MbvW8QrSm37m#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/MbvW8QrSm37m]
+[MmeWeLxPpU2z#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/MmeWeLxPpU2z]
+[Mmo12oS1hmCQ#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/Mmo12oS1hmCQ]
+[MpXzofUNHi3a#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$
+[/MpXzofUNHi3a]
+[MteUlnnF_6mO#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/MteUlnnF_6mO]
+[MuSJlfmM47dv#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$
+[/MuSJlfmM47dv]
+[MvNPJIy_vNut#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/MvNPJIy_vNut]
+[N8Yh6qD5PUWw#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/N8Yh6qD5PUWw]
+[NAT4W7PMsCxz#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/NAT4W7PMsCxz]
+[NI_9rjKuGotn#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$
+[/NI_9rjKuGotn]
+[NN9yfI2k8sc2#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/NN9yfI2k8sc2]
+[NY4YbzTNOf51#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/NY4YbzTNOf51]
+[Nkydy9ehdFKq#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$
+[/Nkydy9ehdFKq]
+[NnPQpaXxP3Wh#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/NnPQpaXxP3Wh]
+[NtQJu4PWDhHT#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/NtQJu4PWDhHT]
+[Nvc5B1OKPFIU#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Nvc5B1OKPFIU]
+[NzFwXUHOBqhz#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/NzFwXUHOBqhz]
+[O3TYnm7x2KZp#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/O3TYnm7x2KZp]
+[O6V0GLwSaPa9#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/O6V0GLwSaPa9]
+[O98lh_cnFewt#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/O98lh_cnFewt]
+[ODn54TPfQUS7#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/ODn54TPfQUS7]
+[OFISy4mVrSAi#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/OFISy4mVrSAi]
+[ONGftGXJLXtX#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/ONGftGXJLXtX]
+[OQ-b-z0wLSPC#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/OQ-b-z0wLSPC]
+[ObT0MApc_uWc#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/ObT0MApc_uWc]
+[OjrVbuWu3QUO#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/OjrVbuWu3QUO]
+[Or9OSRrf41hy#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Or9OSRrf41hy]
+[OsONHhAkGViL#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/OsONHhAkGViL]
+[P-qc2H8_hCGL#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/P-qc2H8_hCGL]
+[P1HwVUBKEWOX#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/P1HwVUBKEWOX]
+[P3-ndkoo1ohx#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/P3-ndkoo1ohx]
+[PBooAyuzUhBG#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/PBooAyuzUhBG]
+[PCEGtAMeghXJ#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/PCEGtAMeghXJ]
+[PMzh9NqUgDX9#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$
+[/PMzh9NqUgDX9]
+[PaSn3znb2Xgq#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/PaSn3znb2Xgq]
+[PaqxuxwwxE9a#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/PaqxuxwwxE9a]
+[Pdu7Vnk_4cFL#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Pdu7Vnk_4cFL]
+[Pj0_QUEXJFYE#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/Pj0_QUEXJFYE]
+[Pjh2ZCAc2S3k#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Pjh2ZCAc2S3k]
+[PklLOkz9zUTv#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/PklLOkz9zUTv]
+[PodhpJWmny1e#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/PodhpJWmny1e]
+[Q-NmAK31dr8O#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Q-NmAK31dr8O]
+[Q3q29luvkw8b#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/Q3q29luvkw8b]
+[QAq9_4eJ9u74#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/QAq9_4eJ9u74]
+[QJzYncmbx-sf#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/QJzYncmbx-sf]
+[QagHjVaxXLau#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/QagHjVaxXLau]
+[Qn8iAKSI-K-G#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Qn8iAKSI-K-G]
+[QqW1c1JofEXu#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$
+[/QqW1c1JofEXu]
+[Qs1ifmxKKlnT#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Qs1ifmxKKlnT]
+[QweKJkoGiCq7#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/QweKJkoGiCq7]
+[R0AcCQuyK53q#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/R0AcCQuyK53q]
+[R6KRDWT8A8Q6#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/R6KRDWT8A8Q6]
+[RY9yPJYsc-EH#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/RY9yPJYsc-EH]
+[Reo-UGeu__9B#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$
+[/Reo-UGeu__9B]
+[RhprNrOvsovf#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$
+[/RhprNrOvsovf]
+[RvB1nqf-LGHd#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/RvB1nqf-LGHd]
+[S6Jhy9i3-jtG#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/S6Jhy9i3-jtG]
+[SG-xf6IyrxNb#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$
+[/SG-xf6IyrxNb]
+[SKQTu2AQLuN1#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/SKQTu2AQLuN1]
+[SRlqFe4jNfWy#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/SRlqFe4jNfWy]
+[SVZSewNUA_bg#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/SVZSewNUA_bg]
+[SYyoUPq9ablR#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/SYyoUPq9ablR]
+[SfoC9MScMMls#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/SfoC9MScMMls]
+[Sgrkva8K-CVp#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Sgrkva8K-CVp]
+[SkbWRGOOZ4r4#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/SkbWRGOOZ4r4]
+[SlV6C4z47w6O#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/SlV6C4z47w6O]
+[SoqnQOawlyUc#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/SoqnQOawlyUc]
+[StWoLUfdwjBQ#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/StWoLUfdwjBQ]
+[Sw0zQZEVcsz3#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Sw0zQZEVcsz3]
+[T0eV99uWn4tU#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/T0eV99uWn4tU]
+[T5GSDBHLDzMi#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/T5GSDBHLDzMi]
+[T9T-fdup-Tun#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/T9T-fdup-Tun]
+[TGah9o8iWKZx#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/TGah9o8iWKZx]
+[TTGJyusy4_bs#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/TTGJyusy4_bs]
+[TTMsjdMI5Cgl#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/TTMsjdMI5Cgl]
+[TZxFvJEX8yOf#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/TZxFvJEX8yOf]
+[ThPpztW9Ei57#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/ThPpztW9Ei57]
+[TpdxeF-r_E5s#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/TpdxeF-r_E5s]
+[TrvkTGcnFccX#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/TrvkTGcnFccX]
+[TsxOSuz5-_ty#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/TsxOSuz5-_ty]
+[Ttv0iCVnpJGx#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Ttv0iCVnpJGx]
+[TznF2nz1JlCi#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/TznF2nz1JlCi]
+[U2wim6OkxHTj#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/U2wim6OkxHTj]
+[U3djBcnlqVKv#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/U3djBcnlqVKv]
+[UA208yOpRgzX#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/UA208yOpRgzX]
+[UGbzqCRyJpJC#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$
+[/UGbzqCRyJpJC]
+[ULCd-FX5UkWr#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/ULCd-FX5UkWr]
+[UQ1wmgfsTZQu#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/UQ1wmgfsTZQu]
+[UQMB8gQGwz8_#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/UQMB8gQGwz8_]
+[UTspJXmr45TP#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/UTspJXmr45TP]
+[Ud0lt7-heELc#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/Ud0lt7-heELc]
+[Uj-gJ7RY2bOe#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Uj-gJ7RY2bOe]
+[UjAHOz3URrcH#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/UjAHOz3URrcH]
+[UoR5tBhKRqVf#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/UoR5tBhKRqVf]
+[V0hhNii4Kf_W#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$
+[/V0hhNii4Kf_W]
+[VFcI3XaZP6qT#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/VFcI3XaZP6qT]
+[VOezTgYkyI-5#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/VOezTgYkyI-5]
+[VVKor6Gq1S5e#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/VVKor6Gq1S5e]
+[Vb6MEsI30r1S#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Vb6MEsI30r1S]
+[Vje_GSVVE04j#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Vje_GSVVE04j]
+[VmPSrJAL3S7R#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/VmPSrJAL3S7R]
+[VuQdouSmrA3p#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/VuQdouSmrA3p]
+[VxGtKCb_xtc9#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/VxGtKCb_xtc9]
+[VxJx3iVvs_44#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/VxJx3iVvs_44]
+[VxqZo2qU_HsS#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/VxqZo2qU_HsS]
+[W-zg6wlMSTg-#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/W-zg6wlMSTg-]
+[W5nC0M9lFORB#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/W5nC0M9lFORB]
+[WBx14L96Q9MH#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/WBx14L96Q9MH]
+[WI_UXYkPoOyT#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/WI_UXYkPoOyT]
+[WL9GglVdN2ou#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$
+[/WL9GglVdN2ou]
+[WMDq-SmzJG0Y#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/WMDq-SmzJG0Y]
+[WRyl-_N3mPlo#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$
+[/WRyl-_N3mPlo]
+[WWsLn0IKSWyV#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/WWsLn0IKSWyV]
+[WZAzP0ARdkEa#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$
+[/WZAzP0ARdkEa]
+[W_Sh_d8p7rjy#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/W_Sh_d8p7rjy]
+[Wehb6FJHh6T9#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/Wehb6FJHh6T9]
+[WmtPEJCGvNmn#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/WmtPEJCGvNmn]
+[WrPodd7ae6D_#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/WrPodd7ae6D_]
+[WtdqGWnzmTyV#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/WtdqGWnzmTyV]
+[WxleMbu8NF8l#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/WxleMbu8NF8l]
+[WzazXkwD7afb#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/WzazXkwD7afb]
+[XHJVYNZYOgTC#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/XHJVYNZYOgTC]
+[XLFbnPC4z-h9#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$
+[/XLFbnPC4z-h9]
+[XNVHuZjT1YG4#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/XNVHuZjT1YG4]
+[XhS8FZSDmmhs#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/XhS8FZSDmmhs]
+[Xj2EQmFsaQCQ#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/Xj2EQmFsaQCQ]
+[XmzAe1t1eyCi#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/XmzAe1t1eyCi]
+[XqvAOPePr0f7#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/XqvAOPePr0f7]
+[XymyGdKJmmvW#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/XymyGdKJmmvW]
+[Y2XGXJACvB2w#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/Y2XGXJACvB2w]
+[Y4-t0dslBXSO#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Y4-t0dslBXSO]
+[YBxgdfACNu4d#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/YBxgdfACNu4d]
+[YCg5r-PjNG_h#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/YCg5r-PjNG_h]
+[YD_jAR2HODKn#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/YD_jAR2HODKn]
+[YEbJ1LDuXf1u#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/YEbJ1LDuXf1u]
+[YK3F9OgAFwgk#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/YK3F9OgAFwgk]
+[YKY0XW07rbkP#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/YKY0XW07rbkP]
+[YRKii2EjgkvO#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/YRKii2EjgkvO]
+[YTZRe38JgIZx#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/YTZRe38JgIZx]
+[YX-swOUhY9gN#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/YX-swOUhY9gN]
+[YawIaCl-ZBB9#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/YawIaCl-ZBB9]
+[Ymgn4P0VSxUe#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Ymgn4P0VSxUe]
+[YpTsyyeVdClj#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/YpTsyyeVdClj]
+[Yuqn9qSPS3_Q#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Yuqn9qSPS3_Q]
+[YwTxjB9ooAgq#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/YwTxjB9ooAgq]
+[Yx-AmJWlBu8B#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Yx-AmJWlBu8B]
+[Z20uIJZ0ZTSt#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Z20uIJZ0ZTSt]
+[Z6sOpyc1s2X8#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Z6sOpyc1s2X8]
+[ZHjDFPzI8j_m#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/ZHjDFPzI8j_m]
+[ZKkGpQWlO8xu#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/ZKkGpQWlO8xu]
+[ZNn5MyfRk8P0#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/ZNn5MyfRk8P0]
+[ZS2wglagTHwe#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/ZS2wglagTHwe]
+[Z_HXI9kl_RWz#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Z_HXI9kl_RWz]
+[ZdnOJbZ7ZwZK#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$
+[/ZdnOJbZ7ZwZK]
+[Zlf6eOBBHD57#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Zlf6eOBBHD57]
+[ZmmyjaY3-h5u#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/ZmmyjaY3-h5u]
+[Zn8Ik00gqXEz#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/Zn8Ik00gqXEz]
+[ZnrO6q0qoc1z#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/ZnrO6q0qoc1z]
+[Zqy-_wnpoOgA#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/Zqy-_wnpoOgA]
+[Zs2yjLd3zZSf#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/Zs2yjLd3zZSf]
+[Zu94JDxRb7nY#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/Zu94JDxRb7nY]
+[Zz2q7-H5gGs0#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/Zz2q7-H5gGs0]
+[_-pThVDOaDXO#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/_-pThVDOaDXO]
+[_HY4f7qcFY8F#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/_HY4f7qcFY8F]
+[_aGxedNWas8m#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/_aGxedNWas8m]
+[_dfLXlMzJd-c#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/_dfLXlMzJd-c]
+[_yHww8c1JWJZ#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/_yHww8c1JWJZ]
+[a2-1yAsQ87rl#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/a2-1yAsQ87rl]
+[a50ELmwWdC8-#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/a50ELmwWdC8-]
+[a6ywdo1APHAv#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/a6ywdo1APHAv]
+[a77FDbpOX3Pv#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/a77FDbpOX3Pv]
+[a8uvwcWyOZVW#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/a8uvwcWyOZVW]
+[aA88gys5Qpiz#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/aA88gys5Qpiz]
+[aVOPAEonqpjT#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/aVOPAEonqpjT]
+[aeFBGGWM1xbV#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/aeFBGGWM1xbV]
+[ahG9CdBcrbO4#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/ahG9CdBcrbO4]
+[aiXHEyj0Gizs#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/aiXHEyj0Gizs]
+[anZlTYfugKes#0] ^58%/58<num><percent>/58<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/anZlTYfugKes]
+[ap_KEBiM5uxo#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/ap_KEBiM5uxo]
+[asmEqSVS1AGa#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/asmEqSVS1AGa]
+[astluEAcwefp#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$
+[/astluEAcwefp]
+[au7zgPmQdCg8#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$
+[/au7zgPmQdCg8]
+[awUj9oKt3-0j#0] ^80%/80<num><percent>/80<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/awUj9oKt3-0j]
+[b6rwObVvP08B#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/b6rwObVvP08B]
+[b9VLPE_ScUhu#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/b9VLPE_ScUhu]
+[bGCMoFefkrYW#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/bGCMoFefkrYW]
+[bMM2wF0ttUjz#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/bMM2wF0ttUjz]
+[bNZdBN3J8atw#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/bNZdBN3J8atw]
+[bPfkaugYPgsI#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/bPfkaugYPgsI]
+[bSIp9YR2R031#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$
+[/bSIp9YR2R031]
+[bb5DTX_BSMRV#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/bb5DTX_BSMRV]
+[bbgxY78R_t6c#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/bbgxY78R_t6c]
+[bgRWLyggkir_#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/bgRWLyggkir_]
+[bqCKeUjtHopB#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/bqCKeUjtHopB]
+[byCPRZxt7toi#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/byCPRZxt7toi]
+[c5UuBoCo9Esb#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$
+[/c5UuBoCo9Esb]
+[c6cn_nDd7xxZ#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/c6cn_nDd7xxZ]
+[c8goRBnZOJyg#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/c8goRBnZOJyg]
+[cJleI2AlKej7#0] ^49%/49<num><percent>/49<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/cJleI2AlKej7]
+[cMUzuuJ0exGh#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$
+[/cMUzuuJ0exGh]
+[cPeHo6-Wg3J5#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/cPeHo6-Wg3J5]
+[cPpY7Xhd8C3T#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/cPpY7Xhd8C3T]
+[ce43N3qE-7Ir#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/ce43N3qE-7Ir]
+[chDb_KJrw_QP#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/chDb_KJrw_QP]
+[ctpV0xf9mXuT#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$
+[/ctpV0xf9mXuT]
+[cy8WJHzkwqAF#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/cy8WJHzkwqAF]
+[cyDPaaospcEM#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/cyDPaaospcEM]
+[d4WR4q_jcxal#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$
+[/d4WR4q_jcxal]
+[dFPtCHUjChTw#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$
+[/dFPtCHUjChTw]
+[dT7g2QclN38v#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/dT7g2QclN38v]
+[dYCPeQy6o6rV#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/dYCPeQy6o6rV]
+[dYcFf4kMiYhL#0] ^38%/38<num><percent>/38<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/dYcFf4kMiYhL]
+[dZWsNURJn21v#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/dZWsNURJn21v]
+[dbVaQgQ30B4n#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/dbVaQgQ30B4n]
+[dcVhOlFsTJIz#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/dcVhOlFsTJIz]
+[defPVqKXaazI#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$
+[/defPVqKXaazI]
+[dkAjqS2w2LdP#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/dkAjqS2w2LdP]
+[dw9BDJycEMXh#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/dw9BDJycEMXh]
+[e0kuCfo-E85x#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/e0kuCfo-E85x]
+[eH5oMB5AG-5p#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/eH5oMB5AG-5p]
+[eIflodHRK8I6#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/eIflodHRK8I6]
+[eUujEnRNcJSK#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/eUujEnRNcJSK]
+[e_RfkiNKDslJ#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/e_RfkiNKDslJ]
+[eeEbtcXNvgJM#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/eeEbtcXNvgJM]
+[etyi0jL4T7Oe#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/etyi0jL4T7Oe]
+[ev-BY4EvGYHe#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/ev-BY4EvGYHe]
+[evuEN8ctt_B2#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/evuEN8ctt_B2]
+[ewvsq3P42cba#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/ewvsq3P42cba]
+[f-KxeR8OBjDH#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/f-KxeR8OBjDH]
+[f28zZALdk3wU#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/f28zZALdk3wU]
+[f2900nmtpjz8#0] ^95%/95<num><percent>/95<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/f2900nmtpjz8]
+[f54lCGVOMDl-#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/f54lCGVOMDl-]
+[fBtn5NN6FJK3#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/fBtn5NN6FJK3]
+[fcvcDbG7pSpY#0] ^71%/71<num><percent>/71<num><percent><subst><nom>$
+[/fcvcDbG7pSpY]
+[fhCbIQE9DB1q#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/fhCbIQE9DB1q]
+[fofZ5fblwMwu#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/fofZ5fblwMwu]
+[fpvUuhJU9-7B#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/fpvUuhJU9-7B]
+[fxR0cvyuH9hp#0] ^11%/11<num><percent>/11<num><percent><subst><nom>$
+[/fxR0cvyuH9hp]
+[g-tkYWB90YDy#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/g-tkYWB90YDy]
+[g8xZL19brwOu#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/g8xZL19brwOu]
+[gCiQzhkMUS6W#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/gCiQzhkMUS6W]
+[gCrf7yYT39Sk#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/gCrf7yYT39Sk]
+[gDx7nWMyUS1Z#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/gDx7nWMyUS1Z]
+[gHPlyN-38xpi#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/gHPlyN-38xpi]
+[gKSWYbTJ46S1#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$
+[/gKSWYbTJ46S1]
+[gOlz9bXlCfF4#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$
+[/gOlz9bXlCfF4]
+[gQFlu0FuRhP9#0] ^2%/2<num><percent>/2<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/gQFlu0FuRhP9]
+[gVU6ZtfT8mE-#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/gVU6ZtfT8mE-]
+[ghNDyHgrF0c_#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$
+[/ghNDyHgrF0c_]
+[gkv_k0eL5WEU#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/gkv_k0eL5WEU]
+[gwxKTCb4uTZD#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/gwxKTCb4uTZD]
+[gzyYXlnriHUJ#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/gzyYXlnriHUJ]
+[gzzJg2BmAvwz#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/gzzJg2BmAvwz]
+[h2SqUIHzsKLa#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/h2SqUIHzsKLa]
+[h45Fst29vmZj#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/h45Fst29vmZj]
+[hCn03nDLCuwH#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/hCn03nDLCuwH]
+[hK__97gt8Eih#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/hK__97gt8Eih]
+[hM8aPACrPsEs#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/hM8aPACrPsEs]
+[hNqW51wpnLKL#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$
+[/hNqW51wpnLKL]
+[hTLD5ENflk25#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/hTLD5ENflk25]
+[hkC2S71AtXn2#0] ^42%/42<num><percent>/42<num><percent><subst><nom>$
+[/hkC2S71AtXn2]
+[hsrMqg1fZENu#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$
+[/hsrMqg1fZENu]
+[hw7RI6X8stYL#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/hw7RI6X8stYL]
+[hw8jZ2J5KKda#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/hw8jZ2J5KKda]
+[hwlWi7SNh0oD#0] ^53%/53<num><percent>/53<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/hwlWi7SNh0oD]
+[i2QMuyJchh1o#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/i2QMuyJchh1o]
+[iBBoNlmuBrCu#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/iBBoNlmuBrCu]
+[iDyut8oRZaIk#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$
+[/iDyut8oRZaIk]
+[iJeQKK4X1fd7#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/iJeQKK4X1fd7]
+[iN1NqU7IKu-A#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/iN1NqU7IKu-A]
+[iQ4L8MqrPOF-#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/iQ4L8MqrPOF-]
+[igWdumEJUzpe#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$
+[/igWdumEJUzpe]
+[igsKXqb0wka5#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/igsKXqb0wka5]
+[ipKCjmIIetov#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/ipKCjmIIetov]
+[ir3L-EMdnq0n#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/ir3L-EMdnq0n]
+[isn_1w8t8jEx#0] ^81%/81<num><percent>/81<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/isn_1w8t8jEx]
+[jB9FItCAnvm7#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/jB9FItCAnvm7]
+[jC7veIzv6MC-#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/jC7veIzv6MC-]
+[jFXmgBj3EJN-#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/jFXmgBj3EJN-]
+[j_BWXXi5p-8v#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/j_BWXXi5p-8v]
+[jlMyDyyXweTL#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/jlMyDyyXweTL]
+[jllxLmEtX7aw#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/jllxLmEtX7aw]
+[jvo3fM2Djtjl#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/jvo3fM2Djtjl]
+[k4uXhy_a7Kug#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/k4uXhy_a7Kug]
+[k5w8F2pE_8sQ#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/k5w8F2pE_8sQ]
+[kBCU9iFV9mFc#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/kBCU9iFV9mFc]
+[kO8K9QiApHN3#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/kO8K9QiApHN3]
+[kQhiodOaBJwd#0] ^6%/6<num><percent>/6<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/kQhiodOaBJwd]
+[kUgYISkPwXOc#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/kUgYISkPwXOc]
+[ko9t2gevcpu-#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/ko9t2gevcpu-]
+[ksFCEUYf7Piy#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/ksFCEUYf7Piy]
+[kuLpKziwjGbG#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$
+[/kuLpKziwjGbG]
+[kvPNHbPJZLVR#0] ^20%/20<num><percent>/20<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/kvPNHbPJZLVR]
+[l-3lRQ-8oYuk#0] ^27%/27<num><percent>/27<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/l-3lRQ-8oYuk]
+[l-qdFcvwKsXW#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/l-qdFcvwKsXW]
+[l1FvPOey9cd2#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/l1FvPOey9cd2]
+[lBtAuWFmJ1Je#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/lBtAuWFmJ1Je]
+[lES3XWTjqtto#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/lES3XWTjqtto]
+[lErmOpi3xhvF#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/lErmOpi3xhvF]
+[lP-JG1aAnSp6#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/lP-JG1aAnSp6]
+[lRfVq3jtpZLi#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/lRfVq3jtpZLi]
+[lSDvxrDRVZMJ#0] ^45%/45<num><percent>/45<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/lSDvxrDRVZMJ]
+[lUDFJgXiAMou#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/lUDFJgXiAMou]
+[lUfKLhhKD-ED#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/lUfKLhhKD-ED]
+[lboHCDSqroK4#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/lboHCDSqroK4]
+[lbvMw3_Z4Bua#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/lbvMw3_Z4Bua]
+[lliWWNUbOFVr#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/lliWWNUbOFVr]
+[lx7GdXILOLxY#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/lx7GdXILOLxY]
+[m3mhOGqkq8RJ#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/m3mhOGqkq8RJ]
+[m5SWBj9HqUFy#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/m5SWBj9HqUFy]
+[mDqxKPP0UHKy#0] ^25%/25<num><percent>/25<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/mDqxKPP0UHKy]
+[mNj7HSGZ6b1n#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/mNj7HSGZ6b1n]
+[mPbpJv3ZfvCr#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/mPbpJv3ZfvCr]
+[mSgaCxRM3doL#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$
+[/mSgaCxRM3doL]
+[mc4sPIF9SsH9#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/mc4sPIF9SsH9]
+[md5qJwd0bSPv#0] ^23%/23<num><percent>/23<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/md5qJwd0bSPv]
+[meGdEkVTVqHR#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/meGdEkVTVqHR]
+[meYk56yaQ2Fm#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/meYk56yaQ2Fm]
+[mhVykY0GHtiT#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/mhVykY0GHtiT]
+[miZ9Tjd-YC6n#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/miZ9Tjd-YC6n]
+[mjlaLZCoQlHM#0] ^47%/47<num><percent>/47<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/mjlaLZCoQlHM]
+[mlvL3qWbYg_L#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/mlvL3qWbYg_L]
+[mrF2_MjIz8GT#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/mrF2_MjIz8GT]
+[msMamZPFNO1P#0] ^39%/39<num><percent>/39<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/msMamZPFNO1P]
+[mvR93ywmy5NB#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/mvR93ywmy5NB]
+[n3UwRK2Yli5A#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$
+[/n3UwRK2Yli5A]
+[n7PFl95W3s0Z#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/n7PFl95W3s0Z]
+[nCXQdHbNczh8#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$
+[/nCXQdHbNczh8]
+[nG-RzfG3JZxi#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/nG-RzfG3JZxi]
+[nPBca00LGtyF#0] ^66%/66<num><percent>/66<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/nPBca00LGtyF]
+[nQKIM9uBsL4r#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/nQKIM9uBsL4r]
+[nYEx3dmh8I26#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/nYEx3dmh8I26]
+[n_aNH7KSy8lt#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$
+[/n_aNH7KSy8lt]
+[ndA7K5_7FMQ7#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/ndA7K5_7FMQ7]
+[nliUbYc5r0tt#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/nliUbYc5r0tt]
+[npDjG7e6AX4i#0] ^35%/35<num><percent>/35<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/npDjG7e6AX4i]
+[nupBZcjRXGAj#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/nupBZcjRXGAj]
+[nvCIjY4sqTZs#0] ^5%/5<num><percent>/5<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/nvCIjY4sqTZs]
+[nxv-K5g5Eteu#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/nxv-K5g5Eteu]
+[o1HjZTKq5eYQ#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/o1HjZTKq5eYQ]
+[o2UA0bFmj4Wk#0] ^57%/57<num><percent>/57<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/o2UA0bFmj4Wk]
+[o36x5MOAKyq3#0] ^50%/50<num><percent>/50<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/o36x5MOAKyq3]
+[o4aWzTPSRgdt#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/o4aWzTPSRgdt]
+[o9jTJLH8bg-_#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/o9jTJLH8bg-_]
+[oH0qymYpLPaa#0] ^62%/62<num><percent>/62<num><percent><subst><nom>$
+[/oH0qymYpLPaa]
+[oHVCWvi7Ekmy#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$
+[/oHVCWvi7Ekmy]
+[oOEuaMFAuXY1#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$
+[/oOEuaMFAuXY1]
+[oPxfwdzDEKda#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/oPxfwdzDEKda]
+[og2CbT0oroYb#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/og2CbT0oroYb]
+[ogF4JF-W8rtv#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/ogF4JF-W8rtv]
+[onQ_NrMdmOV2#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$
+[/onQ_NrMdmOV2]
+[os24Z1et3a_S#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/os24Z1et3a_S]
+[p4L4QiX2y5e2#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/p4L4QiX2y5e2]
+[pMN7fHZxXcyY#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/pMN7fHZxXcyY]
+[pU5m9E8ozISl#0] ^7%/7<num><percent>/7<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/pU5m9E8ozISl]
+[pWQ3KFIP-ehg#0] ^65%/65<num><percent>/65<num><percent><subst><nom>$
+[/pWQ3KFIP-ehg]
+[pZc8-GwXr4f3#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$
+[/pZc8-GwXr4f3]
+[paZpIcRXWXaH#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/paZpIcRXWXaH]
+[paqGz9yHL2Le#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/paqGz9yHL2Le]
+[piQ-pHQYBsSA#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$
+[/piQ-pHQYBsSA]
+[plZPJYYx9Gq5#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/plZPJYYx9Gq5]
+[qFtUmst2AcJo#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/qFtUmst2AcJo]
+[qIZ12COSa8Ia#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/qIZ12COSa8Ia]
+[q_I7DUjg_UER#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/q_I7DUjg_UER]
+[qaSbjPbTxkej#0] ^9%/9<num><percent>/9<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/qaSbjPbTxkej]
+[qcu_K4xolK9o#0] ^85%/85<num><percent>/85<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/qcu_K4xolK9o]
+[qejsWi4PB68g#0] ^74%/74<num><percent>/74<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/qejsWi4PB68g]
+[qhmUsCjmHx6n#0] ^73%/73<num><percent>/73<num><percent><subst><nom>$
+[/qhmUsCjmHx6n]
+[qld0DeoXUpRp#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$
+[/qld0DeoXUpRp]
+[rANBKnrHDogk#0] ^83%/83<num><percent>/83<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/rANBKnrHDogk]
+[rCAH_LHbWvDL#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/rCAH_LHbWvDL]
+[rJUP1JfFn4We#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/rJUP1JfFn4We]
+[rNfDTvVzgu79#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/rNfDTvVzgu79]
+[rOhxRzEm-AfW#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/rOhxRzEm-AfW]
+[rSVWQxCOwOGA#0] ^18%/18<num><percent>/18<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/rSVWQxCOwOGA]
+[rdb7E9fsWndi#0] ^3%/3<num><percent>/3<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/rdb7E9fsWndi]
+[reKMyEvA3-tV#0] ^78%/78<num><percent>/78<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/reKMyEvA3-tV]
+[rg0didmKT-NS#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/rg0didmKT-NS]
+[rkv-_sSnRaPB#0] ^69%/69<num><percent>/69<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/rkv-_sSnRaPB]
+[rtDzRbm_anyg#0] ^29%/29<num><percent>/29<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/rtDzRbm_anyg]
+[rwoWOXjgYQ4b#0] ^70%/70<num><percent>/70<num><percent><subst><nom>$
+[/rwoWOXjgYQ4b]
+[s0yOzgfBZNuL#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/s0yOzgfBZNuL]
+[s7LJUmsZVHJk#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/s7LJUmsZVHJk]
+[s8pMEHjPZfYw#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/s8pMEHjPZfYw]
+[sD6NVjpf9t4O#0] ^61%/61<num><percent>/61<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/sD6NVjpf9t4O]
+[sF93V_a5afaC#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/sF93V_a5afaC]
+[sJxbyMJHwjIp#0] ^31%/31<num><percent>/31<num><percent><subst><nom>$
+[/sJxbyMJHwjIp]
+[sSD_ghEptNqV#0] ^77%/77<num><percent>/77<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/sSD_ghEptNqV]
+[sSHKZg2piM1k#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/sSHKZg2piM1k]
+[sUjreNH-QCSG#0] ^44%/44<num><percent>/44<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/sUjreNH-QCSG]
+[slB5qSO_OgjU#0] ^72%/72<num><percent>/72<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/slB5qSO_OgjU]
+[snHE30ETJg4r#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/snHE30ETJg4r]
+[su2saaHxIURS#0] ^26%/26<num><percent>/26<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/su2saaHxIURS]
+[swbR_tJS0dRb#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/swbR_tJS0dRb]
+[syL1pxbr14PR#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$
+[/syL1pxbr14PR]
+[syV8g-Z3Kvri#0] ^88%/88<num><percent>/88<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/syV8g-Z3Kvri]
+[syx8AtU1jYA-#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$
+[/syx8AtU1jYA-]
+[t5jWO1ocgBRx#0] ^48%/48<num><percent>/48<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/t5jWO1ocgBRx]
+[tJpHTD5Tkn7Y#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/tJpHTD5Tkn7Y]
+[tMqhMMJzyxgL#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/tMqhMMJzyxgL]
+[tWaJnbC7qLOa#0] ^64%/64<num><percent>/64<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/tWaJnbC7qLOa]
+[tfbbrgS9dksM#0] ^15%/15<num><percent>/15<num><percent><subst><nom>$
+[/tfbbrgS9dksM]
+[tqoAeyFZVNIs#0] ^43%/43<num><percent>/43<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/tqoAeyFZVNIs]
+[tvZCH-mJMDu1#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/tvZCH-mJMDu1]
+[twqHeccSR2mb#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/twqHeccSR2mb]
+[tzPlKA8o8EEP#0] ^24%/24<num><percent>/24<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/tzPlKA8o8EEP]
+[u1ZvI1tCX107#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/u1ZvI1tCX107]
+[u2BPnqrVveKZ#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/u2BPnqrVveKZ]
+[u7AKBxBlx3tr#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/u7AKBxBlx3tr]
+[uASYVssTvOuU#0] ^28%/28<num><percent>/28<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/uASYVssTvOuU]
+[uKjd37EDA3TH#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/uKjd37EDA3TH]
+[uNfH8zIDEV2T#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/uNfH8zIDEV2T]
+[ufb7MmqKauS6#0] ^34%/34<num><percent>/34<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/ufb7MmqKauS6]
+[uiVKhyy2BQCZ#0] ^93%/93<num><percent>/93<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/uiVKhyy2BQCZ]
+[v37T_m-47h1B#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/v37T_m-47h1B]
+[vG1cTTz1j73h#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/vG1cTTz1j73h]
+[vGAQDpQplo5I#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/vGAQDpQplo5I]
+[vHQ0PD9lpQjn#0] ^59%/59<num><percent>/59<num><percent><subst><nom>$
+[/vHQ0PD9lpQjn]
+[vL6JxA-Z41BQ#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/vL6JxA-Z41BQ]
+[vXFw6gj5mn5o#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/vXFw6gj5mn5o]
+[vXfrduGbj9Ep#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/vXfrduGbj9Ep]
+[vZhW6BSlGN48#0] ^32%/32<num><percent>/32<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/vZhW6BSlGN48]
+[vhNo7kE3JKwA#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/vhNo7kE3JKwA]
+[viyL5TDUeVUg#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/viyL5TDUeVUg]
+[vkQbb6kQY_xE#0] ^67%/67<num><percent>/67<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/vkQbb6kQY_xE]
+[vnq45U0c_4xN#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/vnq45U0c_4xN]
+[vvNzychz28z-#0] ^21%/21<num><percent>/21<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/vvNzychz28z-]
+[vzbXZFu2H2k3#0] ^97%/97<num><percent>/97<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/vzbXZFu2H2k3]
+[w1FA8NFuXwdV#0] ^89%/89<num><percent>/89<num><percent><subst><nom>$
+[/w1FA8NFuXwdV]
+[wBL9sfgoEPkp#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/wBL9sfgoEPkp]
+[wF-k9lO_P55T#0] ^12%/12<num><percent>/12<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/wF-k9lO_P55T]
+[wJ_hPgtlwO3c#0] ^19%/19<num><percent>/19<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/wJ_hPgtlwO3c]
+[wMYtOr2FPG0V#0] ^17%/17<num><percent>/17<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/wMYtOr2FPG0V]
+[wVRbOQNF5BL4#0] ^54%/54<num><percent>/54<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/wVRbOQNF5BL4]
+[wVjITC4eLd0Q#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/wVjITC4eLd0Q]
+[wZ6LQ9BdyVOS#0] ^92%/92<num><percent>/92<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/wZ6LQ9BdyVOS]
+[wZdgQ3z8QPIA#0] ^8%/8<num><percent>/8<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/wZdgQ3z8QPIA]
+[x13DERuvPqQ2#0] ^94%/94<num><percent>/94<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/x13DERuvPqQ2]
+[x9S1Aq_gL-iC#0] ^46%/46<num><percent>/46<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/x9S1Aq_gL-iC]
+[xAQ4fgmE49Vs#0] ^87%/87<num><percent>/87<num><percent><subst><nom>$
+[/xAQ4fgmE49Vs]
+[xI54fItVvgiB#0] ^37%/37<num><percent>/37<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/xI54fItVvgiB]
+[xJGmte_bkzJU#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/xJGmte_bkzJU]
+[xOyrZSCyalTg#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/xOyrZSCyalTg]
+[xSwYq3ekHsuF#0] ^75%/75<num><percent>/75<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/xSwYq3ekHsuF]
+[x_mo1j40bly_#0] ^100%/100<num><percent>/100<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/x_mo1j40bly_]
+[xhFJeTCOomEe#0] ^10%/10<num><percent>/10<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/xhFJeTCOomEe]
+[xkRzDCjySpRg#0] ^96%/96<num><percent>/96<num><percent><subst><nom>$
+[/xkRzDCjySpRg]
+[xm9S52ZtsyUq#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/xm9S52ZtsyUq]
+[xu94BZ7PO1IX#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/xu94BZ7PO1IX]
+[xwxwH4xecpCk#0] ^99%/99<num><percent>/99<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/xwxwH4xecpCk]
+[xx9UdvBSX4Lm#0] ^86%/86<num><percent>/86<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/xx9UdvBSX4Lm]
+[y2oZJKpJnAj4#0] ^68%/68<num><percent>/68<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/y2oZJKpJnAj4]
+[yAYKrtdEMiX6#0] ^14%/14<num><percent>/14<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/yAYKrtdEMiX6]
+[yAw_C2_b7aE3#0] ^82%/82<num><percent>/82<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/yAw_C2_b7aE3]
+[yHLN5Gsb1Krs#0] ^16%/16<num><percent>/16<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/yHLN5Gsb1Krs]
+[yOaW3W-0DGQR#0] ^56%/56<num><percent>/56<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/yOaW3W-0DGQR]
+[yWB3_wFzcdGN#0] ^76%/76<num><percent>/76<num><percent><subst><nom>$^-/-<guio>$^ка/*ка$
+[/yWB3_wFzcdGN]
+[yYEqKkt_vGuL#0] ^79%/79<num><percent>/79<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/yYEqKkt_vGuL]
+[ykrGlb_GxlHD#0] ^30%/30<num><percent>/30<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/ykrGlb_GxlHD]
+[yrMKWltTgDRg#0] ^22%/22<num><percent>/22<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/yrMKWltTgDRg]
+[yrQ1ijjdmQa1#0] ^36%/36<num><percent>/36<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/yrQ1ijjdmQa1]
+[ys3zq39hCDU_#0] ^41%/41<num><percent>/41<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/ys3zq39hCDU_]
+[yupsMtlF1Px_#0] ^98%/98<num><percent>/98<num><percent><subst><nom>$
+[/yupsMtlF1Px_]
+[yyJLhdbaGn1t#0] ^13%/13<num><percent>/13<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/yyJLhdbaGn1t]
+[z5uGkluN3-sP#0] ^84%/84<num><percent>/84<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/z5uGkluN3-sP]
+[z6baYjib429Q#0] ^40%/40<num><percent>/40<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/z6baYjib429Q]
+[z7BlRV9-iCw3#0] ^90%/90<num><percent>/90<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/z7BlRV9-iCw3]
+[z8EYLBWwXy80#0] ^52%/52<num><percent>/52<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/z8EYLBWwXy80]
+[zFgWj3ldv-V8#0] ^91%/91<num><percent>/91<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/zFgWj3ldv-V8]
+[zO3B5byiganE#0] ^51%/51<num><percent>/51<num><percent><subst><nom>$^-/-<guio>$^ын/Ын<np><top><attr><err_orth>/Ын<np><top><nom><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><nom>+и<cop><aor><p3><sg><err_orth>$
+[/zO3B5byiganE]
+[zO4JxXgQE1n0#0] ^1%/1<num><percent>/1<num><percent><subst><nom>$^-/-<guio>$^не/*не$
+[/zO4JxXgQE1n0]
+[zQ3Mh_9mmFdQ#0] ^60%/60<num><percent>/60<num><percent><subst><nom>$^-/-<guio>$^ыннан/Ын<np><top><abl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><pl><err_orth>/Ын<np><top><abl>+и<cop><aor><p3><sg><err_orth>$
+[/zQ3Mh_9mmFdQ]
+[zQg7qQOx2Ar4#0] ^55%/55<num><percent>/55<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/zQg7qQOx2Ar4]
+[zQoE0Dls3unh#0] ^33%/33<num><percent>/33<num><percent><subst><nom>$^-/-<guio>$^тан/*тан$
+[/zQoE0Dls3unh]
+[zqrZHZLPKbL5#0] ^63%/63<num><percent>/63<num><percent><subst><nom>$^-/-<guio>$^ы/ы<ltr>/ы<n><attr>/ы<n><nom>/ы<n><nom>+и<cop><aor><p3><pl>/ы<n><nom>+и<cop><aor><p3><sg>$
+[/zqrZHZLPKbL5]
+[ztImHQvrhFTw#0] ^4%/4<num><percent>/4<num><percent><subst><nom>$^-/-<guio>$^ына/*ына$
+[/ztImHQvrhFTw]

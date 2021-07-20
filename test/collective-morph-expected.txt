@@ -1,0 +1,56 @@
+[1nWbmlP-hEjN#0] ^1/1<num>/1<num><subst><nom>$^-/-<guio>$^әүне/*әүне$
+[/1nWbmlP-hEjN]
+[4zfGqBSk_qxc#0] ^5/5<num>/5<num><subst><nom>$^-/-<guio>$^әүне/*әүне$
+[/4zfGqBSk_qxc]
+[61UG-thqiBO-#0] ^1/1<num>/1<num><subst><nom>$^-/-<guio>$^әве/*әве$
+[/61UG-thqiBO-]
+[6WFCx63toW4n#0] ^4/4<num>/4<num><subst><nom>$^-/-<guio>$^әүне/*әүне$
+[/6WFCx63toW4n]
+[85TAot1TzmII#0] ^6-авы/6<num><coll><px3sp><nom>/6<num><coll><px3sp><nom>+и<cop><aor><p3><pl>/6<num><coll><px3sp><nom>+и<cop><aor><p3><sg>$
+[/85TAot1TzmII]
+[BWgC2QJxysy4#0] ^1/1<num>/1<num><subst><nom>$^-/-<guio>$^әү/әү<ij>$
+[/BWgC2QJxysy4]
+[FfjF8zaVfDJF#0] ^5/5<num>/5<num><subst><nom>$^-/-<guio>$^әвен/әвен<n><attr>/әвен<n><nom>/әвен<n><nom>+и<cop><aor><p3><pl>/әвен<n><nom>+и<cop><aor><p3><sg>$
+[/FfjF8zaVfDJF]
+[JlgSjaAKumqe#0] ^3/3<num>/3<num><subst><nom>$^-/-<guio>$^әүне/*әүне$
+[/JlgSjaAKumqe]
+[LpvSEZFJD_K9#0] ^3/3<num>/3<num><subst><nom>$^-/-<guio>$^әү/әү<ij>$
+[/LpvSEZFJD_K9]
+[MV9MYnxvHM3X#0] ^5/5<num>/5<num><subst><nom>$^-/-<guio>$^әве/*әве$
+[/MV9MYnxvHM3X]
+[OQz9ZYMW-7HC#0] ^6-ауны/6<num><coll><acc>$
+[/OQz9ZYMW-7HC]
+[OV7Rd9JuHJ-q#0] ^3/3<num>/3<num><subst><nom>$^-/-<guio>$^әве/*әве$
+[/OV7Rd9JuHJ-q]
+[PLVKZMc1_Y7R#0] ^2/2<num>/2<num><subst><nom>$^-/-<guio>$^әүне/*әүне$
+[/PLVKZMc1_Y7R]
+[PsFO0Sa-_VIa#0] ^5/5<num>/5<num><subst><nom>$^-/-<guio>$^әү/әү<ij>$
+[/PsFO0Sa-_VIa]
+[RYiPXifGsF7X#0] ^2/2<num>/2<num><subst><nom>$^-/-<guio>$^әвен/әвен<n><attr>/әвен<n><nom>/әвен<n><nom>+и<cop><aor><p3><pl>/әвен<n><nom>+и<cop><aor><p3><sg>$
+[/RYiPXifGsF7X]
+[Xw-asOS9hx64#0] ^1/1<num>/1<num><subst><nom>$^-/-<guio>$^әвен/әвен<n><attr>/әвен<n><nom>/әвен<n><nom>+и<cop><aor><p3><pl>/әвен<n><nom>+и<cop><aor><p3><sg>$
+[/Xw-asOS9hx64]
+[Y9HNEFRNjuwm#0] ^7/7<num>/7<num><subst><nom>$^-/-<guio>$^әү/әү<ij>$
+[/Y9HNEFRNjuwm]
+[c8bonrW7qtrX#0] ^3/3<num>/3<num><subst><nom>$^-/-<guio>$^әвен/әвен<n><attr>/әвен<n><nom>/әвен<n><nom>+и<cop><aor><p3><pl>/әвен<n><nom>+и<cop><aor><p3><sg>$
+[/c8bonrW7qtrX]
+[dNebBBj1GxyB#0] ^7/7<num>/7<num><subst><nom>$^-/-<guio>$^әүне/*әүне$
+[/dNebBBj1GxyB]
+[iLpVK-cFdDmh#0] ^4/4<num>/4<num><subst><nom>$^-/-<guio>$^әвен/әвен<n><attr>/әвен<n><nom>/әвен<n><nom>+и<cop><aor><p3><pl>/әвен<n><nom>+и<cop><aor><p3><sg>$
+[/iLpVK-cFdDmh]
+[i_UzujbIyVsz#0] ^2/2<num>/2<num><subst><nom>$^-/-<guio>$^әве/*әве$
+[/i_UzujbIyVsz]
+[kErpc9kSPLFz#0] ^7/7<num>/7<num><subst><nom>$^-/-<guio>$^әве/*әве$
+[/kErpc9kSPLFz]
+[kHcxrDz5BX0O#0] ^7/7<num>/7<num><subst><nom>$^-/-<guio>$^әвен/әвен<n><attr>/әвен<n><nom>/әвен<n><nom>+и<cop><aor><p3><pl>/әвен<n><nom>+и<cop><aor><p3><sg>$
+[/kHcxrDz5BX0O]
+[kXfK5dYX_IeT#0] ^4/4<num>/4<num><subst><nom>$^-/-<guio>$^әве/*әве$
+[/kXfK5dYX_IeT]
+[mnzIFX7aTnTu#0] ^2/2<num>/2<num><subst><nom>$^-/-<guio>$^әү/әү<ij>$
+[/mnzIFX7aTnTu]
+[q5pxK7WrMlfo#0] ^4/4<num>/4<num><subst><nom>$^-/-<guio>$^әү/әү<ij>$
+[/q5pxK7WrMlfo]
+[wRxOLpT-xOY6#0] ^6-ау/6<num><coll><advl>/6<num><coll><nom>$
+[/wRxOLpT-xOY6]
+[yfjsgIkXbot0#0] ^6-авын/6<num><coll><px3sp><acc>$
+[/yfjsgIkXbot0]

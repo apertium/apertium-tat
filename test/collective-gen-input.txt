@@ -1,0 +1,39 @@
+# coll numbers in nom
+^1<num><coll><nom>$
+^2<num><coll><nom>$
+^3<num><coll><nom>$
+^4<num><coll><nom>$
+^5<num><coll><nom>$
+^6<num><coll><nom>$
+^7<num><coll><nom>$
+^1<num><coll><advl>$
+^2<num><coll><advl>$
+^3<num><coll><advl>$
+^4<num><coll><advl>$
+^5<num><coll><advl>$
+^6<num><coll><advl>$
+^7<num><coll><advl>$
+# possessive forms of coll numbers in nom
+^1<num><coll><px3sp><nom>$
+^2<num><coll><px3sp><nom>$
+^3<num><coll><px3sp><nom>$
+^4<num><coll><px3sp><nom>$
+^5<num><coll><px3sp><nom>$
+^6<num><coll><px3sp><nom>$
+^7<num><coll><px3sp><nom>$
+# coll numbers in acc
+^1<num><coll><acc>$
+^2<num><coll><acc>$
+^3<num><coll><acc>$
+^4<num><coll><acc>$
+^5<num><coll><acc>$
+^6<num><coll><acc>$
+^7<num><coll><acc>$
+# possessive forms of coll numbers in acc
+^1<num><coll><px3sp><acc>$
+^2<num><coll><px3sp><acc>$
+^3<num><coll><px3sp><acc>$
+^4<num><coll><px3sp><acc>$
+^5<num><coll><px3sp><acc>$
+^6<num><coll><px3sp><acc>$
+^7<num><coll><px3sp><acc>$

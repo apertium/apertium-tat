@@ -28,3 +28,9 @@ dev/mansur.bin
 /tat.zhfst
 /tests/morphotactics/*.txt.gz
 /tests/coverage/frequency_list.tsv*
+/.DS_Store
+/*.mode
+/*-*.prob
+/config.in
+/config
+/test/*-output.txt
